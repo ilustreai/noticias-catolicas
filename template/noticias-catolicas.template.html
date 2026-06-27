@@ -325,6 +325,18 @@
     color: white;
     text-decoration: none;
   }
+  .view-counter {
+    margin-top: 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.42);
+  }
+  .view-counter strong {
+    color: rgba(255,255,255,0.68);
+    font-weight: 600;
+  }
 
   @media (max-width: 720px) {
     body { font-size: 17px; }
@@ -416,6 +428,25 @@
   <a class="footer-link" href="https://www.instagram.com/ilustre.ai" target="_blank" rel="noopener noreferrer">
     Instagram · @ilustre.ai
   </a>
+  <p class="view-counter" aria-live="polite">
+    <strong id="edition-view-count">1</strong> Leituras hoje
+  </p>
 </footer>
+<script>
+  (function () {
+    var counter = document.getElementById('edition-view-count');
+    if (!counter) return;
+
+    var key = 'ilustre.ai.noticias.views.{{EDITION_DATE}}';
+    try {
+      var current = parseInt(localStorage.getItem(key) || '0', 10);
+      var next = Number.isFinite(current) ? current + 1 : 1;
+      localStorage.setItem(key, String(next));
+      counter.textContent = String(next);
+    } catch (error) {
+      counter.textContent = '1';
+    }
+  })();
+</script>
 </body>
 </html>
