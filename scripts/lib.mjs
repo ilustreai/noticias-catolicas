@@ -8,23 +8,33 @@ const rootDir = path.resolve(__dirname, '..');
 export const internalTerms = [
   'teste manual',
   'confianca',
-  'confiança',
   'revalidar',
   'nao confirmado',
-  'não confirmado',
   'alerta interno',
   'operador',
   'bastidor'
 ];
 
-const allowedSources = new Set([
+const allowedSourceKeys = new Set([
   'Vatican News',
-  'Santa Sé',
   'Santa Se',
   'Vaticano',
   'CNBB',
-  'ACI Digital'
-]);
+  'ACI Digital',
+  'Cancao Nova',
+  'Comunidade Shalom',
+  'Shalom'
+].map((source) => sourceKey(source)));
+
+const vaticanSourceKeys = new Set(['Vatican News', 'Santa Se', 'Vaticano'].map((source) => sourceKey(source)));
+const brazilSourceKeys = new Set(['CNBB'].map((source) => sourceKey(source)));
+const trustedCatholicSourceKeys = new Set([
+  'ACI Digital',
+  'Cancao Nova',
+  'Comunidade Shalom',
+  'Shalom'
+].map((source) => sourceKey(source)));
+const liturgicalRanks = new Set(['tempo', 'memoria', 'festa', 'solenidade']);
 
 export function escapeHtml(value) {
   return String(value ?? '')
@@ -35,9 +45,20 @@ export function escapeHtml(value) {
     .replaceAll("'", '&#39;');
 }
 
+function normalizeText(value) {
+  return String(value ?? '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+}
+
+function sourceKey(source) {
+  return normalizeText(source).replace(/[^a-z0-9]/g, '');
+}
+
 function hasInternalTerm(value) {
-  const text = String(value ?? '').toLowerCase();
-  return internalTerms.find((term) => text.includes(term));
+  const text = normalizeText(value);
+  return internalTerms.find((term) => text.includes(normalizeText(term)));
 }
 
 function isHttpsUrl(value) {
@@ -47,6 +68,27 @@ function isHttpsUrl(value) {
   } catch {
     return false;
   }
+}
+
+function sourceCount(news, sourceSet) {
+  return news.filter((item) => sourceSet.has(sourceKey(item.source))).length;
+}
+
+function saintNameTokens(name) {
+  return normalizeText(name)
+    .split(/[^a-z0-9]+/)
+    .filter((token) => token.length >= 5 && !['santo', 'santa'].includes(token));
+}
+
+function looksLikeSaintContent(item, saint) {
+  const text = normalizeText(`${item.title} ${item.summary} ${item.url}`);
+  const explicitTerms = ['santo do dia', 'santa do dia', 'festa liturgica'];
+  if (explicitTerms.some((term) => text.includes(term))) return true;
+  return saintNameTokens(saint?.name).some((token) => text.includes(token));
+}
+
+function liturgicalDisplayTitle(liturgical) {
+  return liturgical?.celebrationTitle || liturgical?.season || '';
 }
 
 function collectText(value, bucket = []) {
@@ -76,6 +118,15 @@ export function validateSelection(selection) {
     errors.push('date must use YYYY-MM-DD');
   }
   if (!selection.editionLabel) errors.push('editionLabel is required');
+  if (selection.liturgical?.country && selection.liturgical.country !== 'BR') {
+    errors.push('liturgical.country must be BR for the current edition rules');
+  }
+  if (selection.liturgical?.rank && !liturgicalRanks.has(selection.liturgical.rank)) {
+    errors.push('liturgical.rank is not allowed');
+  }
+  if (['memoria', 'festa', 'solenidade'].includes(selection.liturgical?.rank) && !selection.liturgical?.celebrationTitle) {
+    errors.push('liturgical.celebrationTitle is required for memoria, festa or solenidade');
+  }
   if (!selection.liturgical?.season) errors.push('liturgical.season is required');
   if (!selection.liturgical?.cssColor || !/^#[0-9A-Fa-f]{6}$/.test(selection.liturgical.cssColor)) {
     errors.push('liturgical.cssColor must be a hex color');
@@ -93,15 +144,26 @@ export function validateSelection(selection) {
   if (news.length > 8) errors.push('at most 8 news items are allowed');
 
   const seenUrls = new Set();
+  const sourceCounts = new Map();
   news.forEach((item, index) => {
     const label = `news[${index}]`;
-    if (!allowedSources.has(item.source)) errors.push(`${label}.source is not allowed`);
+    if (!allowedSourceKeys.has(sourceKey(item.source))) errors.push(`${label}.source is not allowed`);
     if (!item.title || item.title.length < 24) errors.push(`${label}.title is too short`);
     if (!item.summary || item.summary.length < 40) errors.push(`${label}.summary is too short`);
     if (!isHttpsUrl(item.url)) errors.push(`${label}.url must be an https URL`);
     if (seenUrls.has(item.url)) errors.push(`${label}.url is duplicated`);
+    if (looksLikeSaintContent(item, selection.saint)) errors.push(`${label}.saint content must stay in saint block`);
     seenUrls.add(item.url);
+    sourceCounts.set(item.source, (sourceCounts.get(item.source) ?? 0) + 1);
   });
+
+  if (sourceCounts.size < 3) errors.push('at least 3 different news sources are required');
+  sourceCounts.forEach((count, source) => {
+    if (count > 2) errors.push(`at most 2 news items per source are allowed: ${source}`);
+  });
+  if (sourceCount(news, vaticanSourceKeys) < 2) errors.push('at least 2 Vatican or official Church news items are required');
+  if (sourceCount(news, brazilSourceKeys) < 1) errors.push('at least 1 Brazil/CNBB news item is required');
+  if (sourceCount(news, trustedCatholicSourceKeys) < 2) errors.push('at least 2 trusted Catholic outlet news items are required');
 
   if (selection.sponsor?.enabled) {
     if (!selection.sponsor.label) errors.push('sponsor.label is required when sponsor is enabled');
@@ -157,9 +219,9 @@ export function loadTemplate(templatePath = path.join(rootDir, 'template', 'noti
 export function buildPage(selection, template = loadTemplate()) {
   const replacements = {
     '{{LITURGICAL_COLOR}}': selection.liturgical.cssColor,
-    '{{PAGE_TITLE}}': `Notícias Católicas - ${selection.editionLabel} - @ilustre.ai`,
-    '{{HERO_EYEBROW}}': `Curadoria diária - ${selection.editionLabel}`,
-    '{{LITURGICAL_SEASON}}': selection.liturgical.season,
+    '{{PAGE_TITLE}}': `Noticias Catolicas - ${selection.editionLabel} - @ilustre.ai`,
+    '{{HERO_EYEBROW}}': `Curadoria diaria - ${selection.editionLabel}`,
+    '{{LITURGICAL_SEASON}}': liturgicalDisplayTitle(selection.liturgical),
     '{{GOSPEL_SHORT}}': selection.liturgical.gospelShort,
     '{{EDITION_LABEL}}': selection.editionLabel,
     '{{SAINT_FEAST}}': selection.saint.feast,
@@ -183,6 +245,7 @@ export function validateRenderedHtml(html, selection) {
   if (!html.includes('<!DOCTYPE html>')) errors.push('missing doctype');
   if (!html.includes(selection.editionLabel)) errors.push('missing edition label');
   if (!html.includes(selection.liturgical.cssColor)) errors.push('missing liturgical color');
+  if (!html.includes(liturgicalDisplayTitle(selection.liturgical))) errors.push('missing liturgical display title');
   if (!html.includes(selection.saint.name)) errors.push('missing saint name');
   if (!html.includes(selection.gospel.ref)) errors.push('missing gospel ref');
   if ((html.match(/class="news-item/g) ?? []).length < 5) errors.push('missing news items');
@@ -190,10 +253,10 @@ export function validateRenderedHtml(html, selection) {
   if (/<script/i.test(html)) errors.push('inline script is not allowed in the generated static page');
 
   internalTerms.forEach((term) => {
-    if (html.toLowerCase().includes(term)) errors.push(`internal term found: ${term}`);
+    if (normalizeText(html).includes(normalizeText(term))) errors.push(`internal term found: ${term}`);
   });
 
-  const externalLinks = [...html.matchAll(/<a\b[^>]*href="https:\/\/[^\"]+"[^>]*>/g)];
+  const externalLinks = [...html.matchAll(/<a\b[^>]*href="https:\/\/[^"]+"[^>]*>/g)];
   externalLinks.forEach(([tag]) => {
     if (!/target="_blank"/.test(tag)) errors.push('external link missing target');
     if (!/rel="noopener noreferrer"/.test(tag)) errors.push('external link missing rel');
