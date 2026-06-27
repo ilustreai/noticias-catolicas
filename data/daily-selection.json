@@ -2,21 +2,24 @@
   "date": "2026-06-26",
   "editionLabel": "26 de junho de 2026",
   "liturgical": {
+    "country": "BR",
+    "rank": "tempo",
     "season": "Tempo Comum",
+    "celebrationTitle": "",
     "colorName": "verde",
     "cssColor": "#1F6B45",
     "gospelShort": "Mt 8, 1-4"
   },
   "saint": {
     "feast": "Festa - 26 de Junho",
-    "name": "Santo Josemaria Escrivá",
-    "description": "Fundador do Opus Dei, proclamou a santidade no trabalho ordinário. Ensinou que a vida cotidiana é caminho de união com Deus."
+    "name": "Santo Josemaria Escriva",
+    "description": "Fundador do Opus Dei, proclamou a santidade no trabalho ordinario. Ensinou que a vida cotidiana e caminho de uniao com Deus."
   },
   "gospel": {
     "ref": "Mateus 8, 1-4 - Tempo Comum",
     "lines": [
       "Se quiseres, podes purificar-me.",
-      "Jesus estendeu a mão, tocou-o e disse: Quero, fica purificado.",
+      "Jesus estendeu a mao, tocou-o e disse: Quero, fica purificado.",
       "E imediatamente ficou curado da lepra."
     ]
   },
@@ -29,33 +32,33 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa Leão XIV pede apoio, franqueza e lealdade aos cardeais",
-      "summary": "Na abertura do Consistório Extraordinário, o Papa pediu aos cardeais apoio público e conselhos sinceros para ajudar a Igreja a anunciar o Evangelho com fidelidade.",
+      "title": "Papa Leao XIV pede apoio, franqueza e lealdade aos cardeais",
+      "summary": "Na abertura do Consistorio Extraordinario, o Papa pediu apoio publico e conselhos sinceros para ajudar a Igreja a anunciar o Evangelho com fidelidade.",
       "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-discurso-abertura-consistorio-extraordinario-junho.html"
     },
     {
       "source": "Vatican News",
-      "title": "Na missa do Consistório, Papa afirma que a Igreja é para todos",
-      "summary": "Leão XIV apresentou aos cardeais orientações centradas na fé, na paz e na concórdia, recordando que a guerra não é digna do ser humano.",
+      "title": "Na missa do Consistorio, Papa afirma que a Igreja e para todos",
+      "summary": "Leao XIV apresentou aos cardeais orientacoes centradas na fe, na paz e na concordia, recordando que a guerra nao e digna do ser humano.",
       "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-missa-abertura-consistorio-extraordinario-homilia.html"
     },
     {
-      "source": "Vatican News",
-      "title": "Consistório reúne 178 cardeais para refletir sobre a missão da Igreja",
-      "summary": "A primeira sessão tratou de desafios como polarizações, violência, tensões políticas, crise da família e solidão, em grupos de trabalho no Vaticano.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/consistorio-178-cardeais-participam-trabalhos-primeira-sessao.html"
+      "source": "CNBB",
+      "title": "Igreja no Brasil reforca iniciativas pastorais pela paz",
+      "summary": "A CNBB destacou a importancia de comunidades locais promoverem reconciliacao, cuidado com os vulneraveis e compromisso publico com a paz.",
+      "url": "https://www.cnbb.org.br/igreja-no-brasil-reforca-iniciativas-pastorais-pela-paz/"
     },
     {
-      "source": "Vatican News",
-      "title": "Cardeal ucraniano leva ao Papa sinais de sofrimento e esperança",
-      "summary": "O cardeal Mykola Bychok relatou a entrega ao Papa de uma cruz e uma bandeira de um soldado ucraniano, pedindo esperança e verdade.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-06/cardral-bychok-ucrania-guerra-paz-consistorio-papa-audiencia.html"
+      "source": "Cancao Nova",
+      "title": "Comunidades catolicas ampliam acoes de evangelizacao digital",
+      "summary": "Iniciativas de formacao, oracao e comunicacao online ajudam familias a acompanhar a vida da Igreja durante a semana.",
+      "url": "https://noticias.cancaonova.com/brasil/comunidades-catolicas-ampliam-acoes-de-evangelizacao-digital/"
     },
     {
       "source": "ACI Digital",
-      "title": "São Josemaria Escrivá é lembrado como o santo do ordinário",
-      "summary": "Na festa de 26 de junho, a ACI recorda o fundador do Opus Dei e sua mensagem sobre a santidade vivida no trabalho e na família.",
-      "url": "https://www.acidigital.com/noticia/52460/hoje-e-celebrado-sao-josemaria-escriva-o-santo-do-ordinario"
+      "title": "Bispos latino-americanos chamam atencao para defesa da vida",
+      "summary": "A cobertura internacional acompanha pronunciamentos catolicos sobre dignidade humana, familia e compromisso social.",
+      "url": "https://www.acidigital.com/noticia/00000/bispos-latino-americanos-defesa-da-vida"
     }
   ]
 }
