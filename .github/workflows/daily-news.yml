@@ -2,11 +2,14 @@ name: Daily Catholic News
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '50 7 * * *'
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -34,14 +37,6 @@ jobs:
 
       - name: Build static page
         run: npm run build
-
-      - name: Commit generated page
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/
-          git diff --cached --quiet || git commit -m "chore: publish daily catholic news"
-          git push
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
