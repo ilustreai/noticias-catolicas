@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-26",
-  "editionLabel": "26 de junho de 2026",
+  "date": "2026-06-27",
+  "editionLabel": "27 de junho de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
@@ -8,19 +8,19 @@
     "celebrationTitle": "",
     "colorName": "verde",
     "cssColor": "#1F6B45",
-    "gospelShort": "Mt 8, 1-4"
+    "gospelShort": "Mt 8, 5-17"
   },
   "saint": {
-    "feast": "Festa - 26 de Junho",
-    "name": "Santo Josemaria Escriva",
-    "description": "Fundador do Opus Dei, proclamou a santidade no trabalho ordinario. Ensinou que a vida cotidiana e caminho de uniao com Deus."
+    "feast": "Devocao - 27 de Junho",
+    "name": "Nossa Senhora do Perpetuo Socorro",
+    "description": "A devocao mariana recorda Maria como auxilio dos cristaos e caminho de entrega confiante a Jesus."
   },
   "gospel": {
-    "ref": "Mateus 8, 1-4 - Tempo Comum",
+    "ref": "Mateus 8, 5-17 - Tempo Comum",
     "lines": [
-      "Se quiseres, podes purificar-me.",
-      "Jesus estendeu a mao, tocou-o e disse: Quero, fica purificado.",
-      "E imediatamente ficou curado da lepra."
+      "Senhor, eu nao sou digno de que entres em minha casa.",
+      "Dize uma so palavra, e o meu servo ficara curado.",
+      "Cristo escuta a fe humilde e entra nas dores concretas do povo."
     ]
   },
   "sponsor": {
@@ -32,33 +32,33 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa Leao XIV pede apoio, franqueza e lealdade aos cardeais",
-      "summary": "Na abertura do Consistorio Extraordinario, o Papa pediu apoio publico e conselhos sinceros para ajudar a Igreja a anunciar o Evangelho com fidelidade.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-discurso-abertura-consistorio-extraordinario-junho.html"
-    },
-    {
-      "source": "Vatican News",
-      "title": "Na missa do Consistorio, Papa afirma que a Igreja e para todos",
-      "summary": "Leao XIV apresentou aos cardeais orientacoes centradas na fe, na paz e na concordia, recordando que a guerra nao e digna do ser humano.",
+      "title": "Papa abre Consistorio com apelo a unidade",
+      "summary": "Leao XIV abriu o Consistorio Extraordinario pedindo liberdade da fe, paz na unidade e obediencia a Palavra.",
       "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-missa-abertura-consistorio-extraordinario-homilia.html"
     },
     {
-      "source": "CNBB",
-      "title": "Igreja no Brasil reforca iniciativas pastorais pela paz",
-      "summary": "A CNBB destacou a importancia de comunidades locais promoverem reconciliacao, cuidado com os vulneraveis e compromisso publico com a paz.",
-      "url": "https://www.cnbb.org.br/igreja-no-brasil-reforca-iniciativas-pastorais-pela-paz/"
+      "source": "Vatican News",
+      "title": "Santa Se pede protecao das criancas na guerra",
+      "summary": "Em debate no Conselho de Seguranca da ONU, a Santa Se pediu atencao especial as criancas em conflitos armados.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/santa-se-conflitos-protecao-criancas-conselho-seguranca-onu-2026.html"
     },
     {
-      "source": "Cancao Nova",
-      "title": "Comunidades catolicas ampliam acoes de evangelizacao digital",
-      "summary": "Iniciativas de formacao, oracao e comunicacao online ajudam familias a acompanhar a vida da Igreja durante a semana.",
-      "url": "https://noticias.cancaonova.com/brasil/comunidades-catolicas-ampliam-acoes-de-evangelizacao-digital/"
+      "source": "CNBB",
+      "title": "Quatro arcebispos brasileiros receberao o palio",
+      "summary": "Na Solenidade de Sao Pedro e Sao Paulo, quatro arcebispos do Brasil receberao a insignia de comunhao com Pedro.",
+      "url": "https://www.cnbb.org.br/quatro-arcebispos-brasileiros-palio-arquiepiscopal/"
     },
     {
       "source": "ACI Digital",
-      "title": "Bispos latino-americanos chamam atencao para defesa da vida",
-      "summary": "A cobertura internacional acompanha pronunciamentos catolicos sobre dignidade humana, familia e compromisso social.",
-      "url": "https://www.acidigital.com/noticia/00000/bispos-latino-americanos-defesa-da-vida"
+      "title": "Leao XIV se reune com equipes do Sinodo",
+      "summary": "O papa Leao XIV se reuniu com equipes ligadas ao Sinodo da Sinodalidade antes da assembleia prevista para 2028.",
+      "url": "https://www.acidigital.com/noticia/68679/leao-xiv-se-reune-com-equipes-do-sinodo-da-sinodalidade-antes-da-assembleia-de-2028"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Ofertas de missas ajudarao vitimas na Venezuela",
+      "summary": "Um bispo portugues determinou que ofertas de missas em julho sejam destinadas a ajuda as vitimas de terremoto na Venezuela.",
+      "url": "https://www.acidigital.com/noticia/68671/ofertas-das-missas-de-4-e-5-de-julho-sao-para-ajuda-a-venezuela-determina-bispo-portugues"
     }
   ]
 }
