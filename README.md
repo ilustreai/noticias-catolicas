@@ -1,14 +1,14 @@
-# Notícias Católicas Automáticas
+# Noticias Catolicas Automaticas
 
-Mini site estático diário para compartilhar nos Stories da `@ilustre.ai`.
+Mini site estatico diario para compartilhar nos Stories da `@ilustre.ai`.
 
 ## Como funciona
 
 - `template/noticias-catolicas.template.html` guarda o layout fixo.
-- `data/daily-selection.json` guarda o conteúdo diário.
-- `scripts/validate-selection.mjs` bloqueia conteúdo fraco ou interno.
+- `data/daily-selection.json` guarda o conteudo diario.
+- `scripts/validate-selection.mjs` bloqueia conteudo fraco, interno ou mal distribuido.
 - `scripts/build-html.mjs` gera `public/index.html` e `public/YYYY-MM-DD.html`.
-- `.github/workflows/daily-news.yml` roda às 04:50 no horário de Brasília quando estiver no GitHub.
+- `.github/workflows/daily-news.yml` roda as 04:50 no horario de Brasilia quando estiver no GitHub.
 
 ## Rodar localmente
 
@@ -24,14 +24,25 @@ Depois abra:
 public/index.html
 ```
 
-## Regras de segurança editorial
+## Regras de seguranca editorial
 
-- Publicar apenas fontes permitidas: Vatican News, Santa Sé/Vaticano, CNBB e ACI Digital.
-- Exigir pelo menos 5 notícias.
-- Bloquear termos internos como `teste manual`, `confiança`, `revalidar` e `não confirmado`.
-- Gerar primeiro `index.candidate.html`, validar e só então substituir `index.html`.
-- Manter o site estático, sem login, sem coleta de dados e sem script de anúncios.
+- Publicar de 5 a 8 noticias, sempre com pelo menos 3 fontes diferentes.
+- Usar no maximo 2 noticias da mesma fonte.
+- Exigir pelo menos 2 itens oficiais do Vaticano ou Santa Se.
+- Exigir pelo menos 1 item da Igreja no Brasil, inicialmente via CNBB.
+- Exigir pelo menos 2 itens de veiculos catolicos confiaveis, como ACI Digital, Cancao Nova ou Shalom.
+- Manter o santo do dia fora da lista de noticias; ele aparece no bloco final proprio.
+- Bloquear links repetidos e termos internos como `teste manual`, `confianca`, `revalidar` e `nao confirmado`.
+- Gerar primeiro `index.candidate.html`, validar e so entao substituir `index.html`.
+- Manter o site estatico, sem login, sem coleta de dados e sem script de anuncios.
 
-## Monetização segura
+## Liturgia e cores
 
-A barra `sponsor` é opcional e vem do JSON diário. No MVP, use anúncio próprio ou parceiro católico direto. Evite redes automáticas de anúncio enquanto o tráfego for pequeno.
+- A edicao inicial segue o calendario liturgico do Brasil: `liturgical.country` deve ser `BR`.
+- `liturgical.rank` aceita `tempo`, `memoria`, `festa` ou `solenidade`.
+- Em `memoria`, `festa` ou `solenidade`, `liturgical.celebrationTitle` e obrigatorio e aparece no painel de cor liturgica.
+- A cor vem de `liturgical.cssColor`, permitindo branco/dourado, verde, vermelho, roxo ou rosa conforme o dia.
+
+## Monetizacao segura
+
+A barra `sponsor` e opcional e vem do JSON diario. No MVP, use anuncio proprio ou parceiro catolico direto. Evite redes automaticas de anuncio enquanto o trafego for pequeno.
