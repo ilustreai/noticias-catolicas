@@ -42,10 +42,11 @@
     max-width: 900px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    gap: 16px;
-    padding: 14px 24px;
+    flex-direction: column;
+    gap: 12px;
+    padding: 14px 24px 18px;
   }
   .masthead-brand {
     font-family: 'Cinzel', serif;
@@ -59,25 +60,17 @@
     font-family: 'Inter', sans-serif;
     font-size: 11px;
     letter-spacing: 0.12em;
-    color: rgba(255,255,255,0.55);
+    color: rgba(255,255,255,0.58);
     text-transform: uppercase;
   }
 
   .hero {
     background: var(--navy);
-    padding: 44px 24px 64px;
+    padding: 54px 24px 64px;
     position: relative;
     overflow: hidden;
   }
   .hero-content { max-width: 900px; margin: 0 auto; }
-  .hero-eyebrow {
-    font-family: 'Cinzel', serif;
-    font-size: 10px;
-    letter-spacing: 0.28em;
-    color: var(--gold-lt);
-    text-transform: uppercase;
-    margin-bottom: 24px;
-  }
   .hero-title {
     font-family: 'Playfair Display', serif;
     font-size: clamp(38px, 7vw, 72px);
@@ -88,10 +81,10 @@
   }
   .hero-title em { color: var(--gold-lt); font-style: italic; }
   .hero-subtitle {
-    font-size: 19px;
+    font-size: 20px;
     font-style: italic;
-    color: rgba(255,255,255,0.68);
-    max-width: 560px;
+    color: rgba(255,255,255,0.72);
+    max-width: 610px;
   }
 
   .liturgy-strip {
@@ -102,7 +95,7 @@
     max-width: 900px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     border-left: 1px solid rgba(255,255,255,0.14);
   }
   .liturgy-cell {
@@ -250,8 +243,36 @@
   }
   .btn-source svg { width: 10px; height: 10px; }
 
+  .closing-quote {
+    margin: 44px 0 0;
+    padding: 34px 38px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    color: var(--navy);
+  }
+  .closing-quote-label {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--wine);
+    margin-bottom: 12px;
+  }
+  .closing-quote-text {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(25px, 5vw, 40px);
+    line-height: 1.2;
+    color: var(--navy);
+  }
+  .closing-quote-source {
+    margin-top: 14px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #4a4040;
+  }
+
   .sponsor-bar {
-    margin: 42px 0 0;
+    margin: 28px 0 0;
     min-height: 40px;
     display: flex;
     align-items: center;
@@ -307,11 +328,11 @@
 
   @media (max-width: 720px) {
     body { font-size: 17px; }
-    .masthead-inner { align-items: flex-start; flex-direction: column; }
     .liturgy-strip { padding: 0; }
     .liturgy-inner { grid-template-columns: 1fr; border-left: none; }
     .liturgy-cell { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.14); }
     .saint-card, .gospel-card { padding: 28px 24px; }
+    .closing-quote { padding: 28px 0; }
     .gospel-text { font-size: 22px; }
     .news-item { grid-template-columns: 44px 1fr; }
     .news-headline { font-size: 22px; }
@@ -329,9 +350,8 @@
 
 <section class="hero">
   <div class="hero-content">
-    <p class="hero-eyebrow">{{HERO_EYEBROW}}</p>
     <h1 class="hero-title">A Igreja <em>viva</em><br>no mundo de hoje</h1>
-    <p class="hero-subtitle">Notícias católicas selecionadas com cuidado editorial para começar o dia com fé e discernimento.</p>
+    <p class="hero-subtitle">Um giro simples para voce se situar, rezar melhor e acompanhar o que acontece na Igreja hoje.</p>
   </div>
 </section>
 
@@ -344,10 +364,6 @@
     <div class="liturgy-cell">
       <div class="liturgy-label">Evangelho do Dia</div>
       <div class="liturgy-value">{{GOSPEL_SHORT}}</div>
-    </div>
-    <div class="liturgy-cell">
-      <div class="liturgy-label">Edição</div>
-      <div class="liturgy-value">{{EDITION_LABEL}}</div>
     </div>
   </div>
 </div>
@@ -384,6 +400,12 @@
   <div class="news-feed" id="news-feed">
 {{NEWS_ITEMS}}
   </div>
+
+  <aside class="closing-quote">
+    <div class="closing-quote-label">Para guardar hoje</div>
+    <p class="closing-quote-text">Tudo por amor, nada por força.</p>
+    <p class="closing-quote-source">São Francisco de Sales</p>
+  </aside>
 
 {{SPONSOR_BAR}}
 </main>
