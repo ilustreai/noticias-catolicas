@@ -219,6 +219,7 @@ export function loadTemplate(templatePath = path.join(rootDir, 'template', 'noti
 export function buildPage(selection, template = loadTemplate()) {
   const replacements = {
     '{{LITURGICAL_COLOR}}': selection.liturgical.cssColor,
+    '{{EDITION_DATE}}': selection.date,
     '{{PAGE_TITLE}}': `Noticias Catolicas - ${selection.editionLabel} - @ilustre.ai`,
     '{{HERO_EYEBROW}}': `Curadoria diaria - ${selection.editionLabel}`,
     '{{LITURGICAL_SEASON}}': liturgicalDisplayTitle(selection.liturgical),
@@ -250,7 +251,16 @@ export function validateRenderedHtml(html, selection) {
   if (!html.includes(selection.gospel.ref)) errors.push('missing gospel ref');
   if ((html.match(/class="news-item/g) ?? []).length < 5) errors.push('missing news items');
   if (html.includes('{{')) errors.push('unresolved template token');
-  if (/<script/i.test(html)) errors.push('inline script is not allowed in the generated static page');
+
+  const scriptTags = html.match(/<script[\s\S]*?<\/script>/gi) ?? [];
+  const hasOnlyLocalViewCounter =
+    scriptTags.length === 1 &&
+    scriptTags[0].includes('edition-view-count') &&
+    scriptTags[0].includes('localStorage') &&
+    /ilustre\.ai\.noticias\.views\.\d{4}-\d{2}-\d{2}/.test(scriptTags[0]);
+  if (scriptTags.length > 0 && !hasOnlyLocalViewCounter) {
+    errors.push('inline script is not allowed in the generated static page');
+  }
 
   internalTerms.forEach((term) => {
     if (normalizeText(html).includes(normalizeText(term))) errors.push(`internal term found: ${term}`);
