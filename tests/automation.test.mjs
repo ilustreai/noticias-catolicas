@@ -162,11 +162,23 @@ test('buildPage renders news, sponsor bar and liturgical color without internal 
   assert.doesNotMatch(html, /Curadoria em revisao|teste manual|confianca|revalidar|nao confirmado/i);
 });
 
+test('buildPage renders a local daily view counter', () => {
+  const html = buildPage(validSelection);
+  const result = validateRenderedHtml(html, validSelection);
+
+  assert.match(html, /id="edition-view-count"/);
+  assert.match(html, /Leituras hoje/);
+  assert.match(html, /localStorage/);
+  assert.match(html, /ilustre\.ai\.noticias\.views\.2026-06-26/);
+  assert.equal(result.ok, true);
+});
+
 test('validateRenderedHtml rejects broken or unsafe output', () => {
-  const badHtml = '<html><body>teste manual <a href="https://example.com">link</a></body></html>';
+  const badHtml = '<html><body>teste manual <script>alert("x")</script> <a href="https://example.com">link</a></body></html>';
   const result = validateRenderedHtml(badHtml, validSelection);
 
   assert.equal(result.ok, false);
   assert.match(result.errors.join('\n'), /internal term/);
   assert.match(result.errors.join('\n'), /missing rel/);
+  assert.match(result.errors.join('\n'), /inline script/);
 });
