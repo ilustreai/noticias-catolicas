@@ -1,0 +1,61 @@
+{
+  "date": "2026-06-26",
+  "editionLabel": "26 de junho de 2026",
+  "liturgical": {
+    "season": "Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#1F6B45",
+    "gospelShort": "Mt 8, 1-4"
+  },
+  "saint": {
+    "feast": "Festa - 26 de Junho",
+    "name": "Santo Josemaria Escrivá",
+    "description": "Fundador do Opus Dei, proclamou a santidade no trabalho ordinário. Ensinou que a vida cotidiana é caminho de união com Deus."
+  },
+  "gospel": {
+    "ref": "Mateus 8, 1-4 - Tempo Comum",
+    "lines": [
+      "Se quiseres, podes purificar-me.",
+      "Jesus estendeu a mão, tocou-o e disse: Quero, fica purificado.",
+      "E imediatamente ficou curado da lepra."
+    ]
+  },
+  "sponsor": {
+    "enabled": true,
+    "label": "Apoio",
+    "text": "Arte sacra personalizada por ilustre.ai",
+    "url": "https://www.instagram.com/ilustre.ai"
+  },
+  "news": [
+    {
+      "source": "Vatican News",
+      "title": "Papa Leão XIV pede apoio, franqueza e lealdade aos cardeais",
+      "summary": "Na abertura do Consistório Extraordinário, o Papa pediu aos cardeais apoio público e conselhos sinceros para ajudar a Igreja a anunciar o Evangelho com fidelidade.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-discurso-abertura-consistorio-extraordinario-junho.html"
+    },
+    {
+      "source": "Vatican News",
+      "title": "Na missa do Consistório, Papa afirma que a Igreja é para todos",
+      "summary": "Leão XIV apresentou aos cardeais orientações centradas na fé, na paz e na concórdia, recordando que a guerra não é digna do ser humano.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-missa-abertura-consistorio-extraordinario-homilia.html"
+    },
+    {
+      "source": "Vatican News",
+      "title": "Consistório reúne 178 cardeais para refletir sobre a missão da Igreja",
+      "summary": "A primeira sessão tratou de desafios como polarizações, violência, tensões políticas, crise da família e solidão, em grupos de trabalho no Vaticano.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/consistorio-178-cardeais-participam-trabalhos-primeira-sessao.html"
+    },
+    {
+      "source": "Vatican News",
+      "title": "Cardeal ucraniano leva ao Papa sinais de sofrimento e esperança",
+      "summary": "O cardeal Mykola Bychok relatou a entrega ao Papa de uma cruz e uma bandeira de um soldado ucraniano, pedindo esperança e verdade.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-06/cardral-bychok-ucrania-guerra-paz-consistorio-papa-audiencia.html"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "São Josemaria Escrivá é lembrado como o santo do ordinário",
+      "summary": "Na festa de 26 de junho, a ACI recorda o fundador do Opus Dei e sua mensagem sobre a santidade vivida no trabalho e na família.",
+      "url": "https://www.acidigital.com/noticia/52460/hoje-e-celebrado-sao-josemaria-escriva-o-santo-do-ordinario"
+    }
+  ]
+}
