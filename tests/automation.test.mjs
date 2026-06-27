@@ -34,7 +34,7 @@ const validSelection = {
   sponsor: {
     enabled: true,
     label: 'Apoio',
-    text: 'Assine o @ilustre.ai no Instagram para receber conteudos exclusivos de arte sacra, fe e inspiracao visual.',
+    text: 'Gostou do conteudo? Considere apoiar esse projeto assinando nosso conteudo exclusivo no Instagram @ilustre.ai.',
     url: 'https://www.instagram.com/ilustre.ai'
   },
   news: [
@@ -157,8 +157,8 @@ test('buildPage renders news, sponsor bar and liturgical color without internal 
   assert.match(html, /--liturgical-color: #1F6B45;/);
   assert.match(html, /Papa Leao XIV pede apoio/);
   assert.match(html, /class="sponsor-bar"/);
-  assert.match(html, /Assine o @ilustre\.ai no Instagram para receber conteudos exclusivos de arte sacra, fe e inspiracao visual\./);
-  assert.doesNotMatch(html, /Arte sacra personalizada por ilustre\.ai/);
+  assert.match(html, /Gostou do conteudo\? Considere apoiar esse projeto assinando nosso conteudo exclusivo no Instagram @ilustre\.ai\./);
+  assert.doesNotMatch(html, /Assine o @ilustre\.ai no Instagram para receber conteudos exclusivos de arte sacra, fe e inspiracao visual\.|Arte sacra personalizada por ilustre\.ai/);
   assert.doesNotMatch(html, /Curadoria em revisao|teste manual|confianca|revalidar|nao confirmado/i);
 });
 
