@@ -29,10 +29,6 @@
     "text": "Gostou do conteudo? Considere apoiar esse projeto assinando nosso conteudo exclusivo no Instagram @ilustre.ai.",
     "url": "https://www.instagram.com/ilustre.ai"
   },
-  "closingQuote": {
-    "text": "A gloria de Deus e o homem vivo.",
-    "source": "Santo Irineu"
-  },
   "news": [
     {
       "source": "Vatican News",
@@ -63,6 +59,22 @@
       "title": "Capela historica reabre em Sao Paulo",
       "summary": "A Capela de Nossa Senhora dos Aflitos, na Liberdade, voltou a acolher fieis depois de restauracao e recorda uma pagina importante da memoria religiosa da cidade.",
       "url": "https://www.acidigital.com/noticia/68675/capela-de-nossa-senhora-dos-aflitos-e-reaberta-em-sao-paulo"
+    },
+    {
+      "source": "Cancao Nova",
+      "title": "Salvador inaugura rota de peregrinacao",
+      "summary": "A Arquidiocese de Salvador preparou o Caminho de Antonio, percurso de fe que une igrejas historicas e fortalece a peregrinacao urbana.",
+      "url": "https://noticias.cancaonova.com/igreja/arquidiocese-de-salvador-inaugura-nova-rota-de-peregrinacao/"
+    },
+    {
+      "source": "Shalom",
+      "title": "Missao Haifa fortalece evangelizacao",
+      "summary": "A Comunidade Shalom destacou encontro de cura em Haifa, sinal de presenca missionaria e evangelizacao catolica em contexto de Terra Santa.",
+      "url": "https://comshalom.org/encontro-de-cura-da-missao-haifa-em-israel-fortalece-evangelizacao-na-terra-santa/"
     }
-  ]
+  ],
+  "closingQuote": {
+    "text": "A gloria de Deus e o homem vivo.",
+    "source": "Santo Irineu"
+  }
 }
