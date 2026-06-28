@@ -1,26 +1,26 @@
 {
-  "date": "2026-06-27",
-  "editionLabel": "27 de junho de 2026",
+  "date": "2026-06-28",
+  "editionLabel": "28 de junho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "solenidade",
     "season": "Tempo Comum",
-    "celebrationTitle": "",
-    "colorName": "verde",
-    "cssColor": "#1F6B45",
-    "gospelShort": "Mt 8, 5-17"
+    "celebrationTitle": "Solenidade de Sao Pedro e Sao Paulo, apostolos",
+    "colorName": "vermelho",
+    "cssColor": "#B21F2D",
+    "gospelShort": "Mt 16, 13-19"
   },
   "saint": {
-    "feast": "Devocao - 27 de Junho",
-    "name": "Nossa Senhora do Perpetuo Socorro",
-    "description": "A devocao mariana recorda Maria como auxilio dos cristaos e caminho de entrega confiante a Jesus."
+    "feast": "Memoria - 28 de Junho",
+    "name": "Santo Irineu, bispo e martir",
+    "description": "Bispo de Lyon e doutor da Igreja, Santo Irineu recorda a fe recebida dos apostolos e transmitida com fidelidade."
   },
   "gospel": {
-    "ref": "Mateus 8, 5-17 - Tempo Comum",
+    "ref": "Mateus 16, 13-19 - Solenidade de Sao Pedro e Sao Paulo",
     "lines": [
-      "Senhor, eu nao sou digno de que entres em minha casa.",
-      "Dize uma so palavra, e o meu servo ficara curado.",
-      "Cristo escuta a fe humilde e entra nas dores concretas do povo."
+      "Tu es Pedro, e sobre esta pedra construirei a minha Igreja.",
+      "A fe apostolica sustenta a comunhao e chama a Igreja a testemunhar Cristo.",
+      "Pedro e Paulo recordam que a missao nasce da fidelidade ao Senhor."
     ]
   },
   "sponsor": {
@@ -32,33 +32,33 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa abre Consistorio com apelo a unidade",
-      "summary": "Leao XIV abriu o Consistorio Extraordinario pedindo liberdade da fe, paz na unidade e obediencia a Palavra.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-missa-abertura-consistorio-extraordinario-homilia.html"
+      "title": "Doutrina da Fe critica a logica da guerra",
+      "summary": "No Consistorio, o cardeal Victor Manuel Fernandez pediu que a Igreja resista a justificativas religiosas para conflitos injustos e defenda a dignidade humana.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/cardeal-fernandez-acoes-militares-gaza-libano-desproporcionais.html"
     },
     {
       "source": "Vatican News",
-      "title": "Santa Se pede protecao das criancas na guerra",
-      "summary": "Em debate no Conselho de Seguranca da ONU, a Santa Se pediu atencao especial as criancas em conflitos armados.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/santa-se-conflitos-protecao-criancas-conselho-seguranca-onu-2026.html"
+      "title": "Amazonia leva ao Vaticano sinal de comunhao",
+      "summary": "Dom Alberto Taveira falou sobre a entrega do palio ao sucessor em Belem e sobre a forca da fe catolica na regiao amazonica.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/dom-alberto-taveira-comunhao-desafios-fe-amazonia.html"
     },
     {
       "source": "CNBB",
-      "title": "Quatro arcebispos brasileiros receberao o palio",
-      "summary": "Na Solenidade de Sao Pedro e Sao Paulo, quatro arcebispos do Brasil receberao a insignia de comunhao com Pedro.",
+      "title": "Arcebispos brasileiros receberao o palio",
+      "summary": "Na Solenidade de Sao Pedro e Sao Paulo, quatro arcebispos do Brasil receberao a insignia que expressa comunhao com o sucessor de Pedro.",
       "url": "https://www.cnbb.org.br/quatro-arcebispos-brasileiros-palio-arquiepiscopal/"
     },
     {
       "source": "ACI Digital",
-      "title": "Leao XIV se reune com equipes do Sinodo",
-      "summary": "O papa Leao XIV se reuniu com equipes ligadas ao Sinodo da Sinodalidade antes da assembleia prevista para 2028.",
-      "url": "https://www.acidigital.com/noticia/68679/leao-xiv-se-reune-com-equipes-do-sinodo-da-sinodalidade-antes-da-assembleia-de-2028"
+      "title": "Consistorio retoma debate sobre escuta",
+      "summary": "A cobertura da ACI Digital situa a tentativa de ampliar a escuta dos cardeais e recolher contribuicoes para o discernimento da Igreja.",
+      "url": "https://www.acidigital.com/noticia/68677/segundo-consistorio-de-leao-xiv-enfrenta-preocupacao-com-estrutura-sinodal"
     },
     {
       "source": "ACI Digital",
-      "title": "Ofertas de missas ajudarao vitimas na Venezuela",
-      "summary": "Um bispo portugues determinou que ofertas de missas em julho sejam destinadas a ajuda as vitimas de terremoto na Venezuela.",
-      "url": "https://www.acidigital.com/noticia/68671/ofertas-das-missas-de-4-e-5-de-julho-sao-para-ajuda-a-venezuela-determina-bispo-portugues"
+      "title": "Capela historica reabre em Sao Paulo",
+      "summary": "A Capela de Nossa Senhora dos Aflitos, na Liberdade, voltou a acolher fieis depois de restauracao e recorda uma pagina importante da memoria religiosa da cidade.",
+      "url": "https://www.acidigital.com/noticia/68675/capela-de-nossa-senhora-dos-aflitos-e-reaberta-em-sao-paulo"
     }
   ]
 }
