@@ -231,13 +231,22 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{GOSPEL_REF}}': selection.gospel.ref,
     '{{GOSPEL_LINES}}': renderGospelLines(selection.gospel.lines),
     '{{NEWS_ITEMS}}': renderNews(selection.news),
+    '{{CLOSING_QUOTE_TEXT}}': escapeHtml(selection.closingQuote?.text ?? ''),
+    '{{CLOSING_QUOTE_SOURCE}}': escapeHtml(selection.closingQuote?.source ?? ''),
     '{{SPONSOR_BAR}}': renderSponsor(selection.sponsor)
   };
 
-  return Object.entries(replacements).reduce(
+  const html = Object.entries(replacements).reduce(
     (html, [token, value]) => html.replaceAll(token, value),
     template
   );
+
+  const quoteText = escapeHtml(selection.closingQuote?.text ?? 'Tudo por amor, nada por forca.');
+  const quoteSource = escapeHtml(selection.closingQuote?.source ?? 'Sao Francisco de Sales');
+
+  return html
+    .replace(/(<p class="closing-quote-text">)([\s\S]*?)(<\/p>)/, `$1${quoteText}$3`)
+    .replace(/(<p class="closing-quote-source">)([\s\S]*?)(<\/p>)/, `$1${quoteSource}$3`);
 }
 
 export function validateRenderedHtml(html, selection) {
@@ -249,6 +258,8 @@ export function validateRenderedHtml(html, selection) {
   if (!html.includes(liturgicalDisplayTitle(selection.liturgical))) errors.push('missing liturgical display title');
   if (!html.includes(selection.saint.name)) errors.push('missing saint name');
   if (!html.includes(selection.gospel.ref)) errors.push('missing gospel ref');
+  if (selection.closingQuote?.text && !html.includes(selection.closingQuote.text)) errors.push('missing closing quote text');
+  if (selection.closingQuote?.source && !html.includes(selection.closingQuote.source)) errors.push('missing closing quote source');
   if ((html.match(/class="news-item/g) ?? []).length < 5) errors.push('missing news items');
   if (html.includes('{{')) errors.push('unresolved template token');
 
