@@ -1,26 +1,26 @@
 {
-  "date": "2026-06-28",
-  "editionLabel": "28 de junho de 2026",
+  "date": "2026-06-29",
+  "editionLabel": "29 de junho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "solenidade",
-    "season": "Tempo Comum",
-    "celebrationTitle": "Solenidade de Sao Pedro e Sao Paulo, apostolos",
-    "colorName": "vermelho",
-    "cssColor": "#B21F2D",
-    "gospelShort": "Mt 16, 13-19"
+    "rank": "tempo",
+    "season": "13a Semana do Tempo Comum",
+    "celebrationTitle": "",
+    "colorName": "verde",
+    "cssColor": "#2F6B4F",
+    "gospelShort": "Mt 8, 18-22"
   },
   "saint": {
-    "feast": "Memoria - 28 de Junho",
-    "name": "Santo Irineu",
-    "description": "Bispo de Lyon e doutor da Igreja, Santo Irineu recorda a fe recebida dos apostolos e transmitida com fidelidade."
+    "feast": "Santo do Dia - 29 de Junho",
+    "name": "Sao Pedro e Sao Paulo, apostolos",
+    "description": "Apostolos e colunas da Igreja, recordados pela fe, pregacao e zelo missionario no inicio da comunidade crista. No projeto, a liturgia do dia segue a referencia brasileira indicada no bloco liturgico."
   },
   "gospel": {
-    "ref": "Mateus 16, 13-19 - Solenidade de Sao Pedro e Sao Paulo",
+    "ref": "Mateus 8, 18-22 - 13a Semana do Tempo Comum",
     "lines": [
-      "Tu es Pedro, e sobre esta pedra construirei a minha Igreja.",
-      "A fe apostolica sustenta a comunhao e chama a Igreja a testemunhar Cristo.",
-      "Pedro e Paulo recordam que a missao nasce da fidelidade ao Senhor."
+      "Jesus chama os discipulos a atravessar para a outra margem.",
+      "O seguimento de Cristo pede liberdade interior e decisao concreta.",
+      "Quem escuta o chamado do Senhor aprende a deixar para tras o que impede a missao."
     ]
   },
   "sponsor": {
@@ -32,49 +32,49 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Doutrina da Fe critica a logica da guerra",
-      "summary": "No Consistorio, o cardeal Victor Manuel Fernandez pediu que a Igreja resista a justificativas religiosas para conflitos injustos e defenda a dignidade humana.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/cardeal-fernandez-acoes-militares-gaza-libano-desproporcionais.html"
+      "title": "Papa pede solidariedade as vitimas na Venezuela",
+      "summary": "No Angelus, Leao XIV expressou proximidade aos atingidos pelo duplo terremoto na Venezuela e encorajou ajuda concreta aos feridos e desabrigados.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-angelus-apelo-venezuela-terremoto-26-junho-2026.html"
     },
     {
       "source": "Vatican News",
-      "title": "Amazonia leva ao Vaticano sinal de comunhao",
-      "summary": "Dom Alberto Taveira falou sobre a entrega do palio ao sucessor em Belem e sobre a forca da fe catolica na regiao amazonica.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/dom-alberto-taveira-comunhao-desafios-fe-amazonia.html"
+      "title": "Jesus convida a trocar posse por cruz e seguimento",
+      "summary": "Na reflexao dominical, o Papa advertiu contra a obsessao por ter e possuir e apresentou a cruz como caminho de liberdade, entrega e discipulado.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-angelus-28-junho-2026.html"
     },
     {
       "source": "CNBB",
-      "title": "Arcebispos brasileiros receberao o palio",
-      "summary": "Na Solenidade de Sao Pedro e Sao Paulo, quatro arcebispos do Brasil receberao a insignia que expressa comunhao com o sucessor de Pedro.",
-      "url": "https://www.cnbb.org.br/quatro-arcebispos-brasileiros-palio-arquiepiscopal/"
+      "title": "CNBB destaca paz e missao no Consistorio",
+      "summary": "A CNBB repercutiu a abertura do Consistorio extraordinario, sublinhando o chamado de Leao XIV a paz, sinodalidade e ardor missionario na Igreja.",
+      "url": "https://www.cnbb.org.br/papa-leao-xiv-propoe-paz-sinodalidade-e-ardor-missionario-na-abertura-do-consistorio-extraordinario/"
     },
     {
       "source": "ACI Digital",
-      "title": "Consistorio retoma debate sobre escuta",
-      "summary": "A cobertura da ACI Digital situa a tentativa de ampliar a escuta dos cardeais e recolher contribuicoes para o discernimento da Igreja.",
-      "url": "https://www.acidigital.com/noticia/68677/segundo-consistorio-de-leao-xiv-enfrenta-preocupacao-com-estrutura-sinodal"
+      "title": "Leao XIV encerra Consistorio com apelo pela paz",
+      "summary": "A ACI Digital registrou o apelo do Papa para que a Igreja ajude o mundo a encontrar caminhos de Deus para a paz em meio a conflitos e divisioes.",
+      "url": "https://www.acidigital.com/noticia/68685/leao-xiv-encerra-consistorio-com-apelo-para-ajudar-o-mundo-a-encontrar-caminhos-de-deus-para-a-paz"
     },
     {
       "source": "ACI Digital",
-      "title": "Capela historica reabre em Sao Paulo",
-      "summary": "A Capela de Nossa Senhora dos Aflitos, na Liberdade, voltou a acolher fieis depois de restauracao e recorda uma pagina importante da memoria religiosa da cidade.",
-      "url": "https://www.acidigital.com/noticia/68675/capela-de-nossa-senhora-dos-aflitos-e-reaberta-em-sao-paulo"
+      "title": "Amor cristao pede perder um pouco do proprio eu",
+      "summary": "No Jubileu dos Bispos, Leao XIV afirmou que o amor frutifica quando ha disposicao de sair de si e servir, criterio pastoral para o governo da Igreja.",
+      "url": "https://www.acidigital.com/noticia/68681/o-amor-so-da-frutos-se-estamos-dispostos-a-perder-um-pouco-do-nosso-eu-diz-leao-xiv"
     },
     {
       "source": "Cancao Nova",
-      "title": "Salvador inaugura rota de peregrinacao",
-      "summary": "A Arquidiocese de Salvador preparou o Caminho de Antonio, percurso de fe que une igrejas historicas e fortalece a peregrinacao urbana.",
-      "url": "https://noticias.cancaonova.com/igreja/arquidiocese-de-salvador-inaugura-nova-rota-de-peregrinacao/"
+      "title": "Consistorio aponta Evangelho contra individualismo",
+      "summary": "A Cancao Nova destacou a terceira sessao do Consistorio, na qual cardeais refletiram sobre comunhao e evangelizacao diante do individualismo.",
+      "url": "https://noticias.cancaonova.com/igreja/consistorio-o-evangelho-e-o-antidoto-contra-o-individualismo/"
     },
     {
       "source": "Shalom",
-      "title": "Missao Haifa fortalece evangelizacao",
-      "summary": "A Comunidade Shalom destacou encontro de cura em Haifa, sinal de presenca missionaria e evangelizacao catolica em contexto de Terra Santa.",
-      "url": "https://comshalom.org/encontro-de-cura-da-missao-haifa-em-israel-fortalece-evangelizacao-na-terra-santa/"
+      "title": "Shalom no Rio celebra trinta anos de missao",
+      "summary": "A Comunidade Shalom recordou tres decadas de presenca no Rio de Janeiro, marcadas por evangelizacao, fidelidade e testemunhos de vidas transformadas.",
+      "url": "https://comshalom.org/30-anos-de-shalom-no-rio-uma-historia-marcada-pela-fidelidade-de-deus-e-por-vidas-transformadas/"
     }
   ],
   "closingQuote": {
-    "text": "A gloria de Deus e o homem vivo.",
-    "source": "Santo Irineu"
+    "text": "Senhor, para quem iremos? Tu tens palavras de vida eterna.",
+    "source": "Sao Pedro"
   }
 }
