@@ -2,6 +2,13 @@ name: Daily Catholic News
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/build-html.mjs'
+      - 'template/noticias-catolicas.template.html'
+      - '.github/workflows/daily-news.yml'
   schedule:
     - cron: '0 7 * * *'
 
