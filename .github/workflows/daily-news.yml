@@ -2,26 +2,25 @@ name: Daily Catholic News
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
   schedule:
-    - cron: '50 7 * * *'
+    - cron: '0 7 * * *'
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: daily-catholic-news
   cancel-in-progress: false
 
 jobs:
-  build:
-    if: github.actor != 'github-actions[bot]'
+  publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -31,16 +30,31 @@ jobs:
       - name: Validate tests
         run: npm test
 
+      - name: Generate daily selection
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4o-mini' }}
+        run: npm run generate
+
       - name: Validate daily selection
         run: npm run validate
 
       - name: Build static page at repository root
         run: node scripts/build-html.mjs data/daily-selection.json .
 
-      - name: Commit generated static page
+      - name: Commit generated selection and static page
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html *.html
-          git diff --cached --quiet || git commit -m "chore: publish daily static page"
+          git add data/daily-selection.json index.html *.html
+          git diff --cached --quiet || git commit -m "chore: publish daily catholic news"
           git push
+
+      - name: Verify public site
+        shell: bash
+        run: |
+          sleep 180
+          html="$(curl -fsSL https://noticias.ilustreai.com.br/)"
+          grep -q "A Igreja viva no mundo de hoje" <<< "$html"
+          count="$(grep -o 'class="news-item' <<< "$html" | wc -l)"
+          test "$count" -ge 5
