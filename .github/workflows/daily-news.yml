@@ -46,6 +46,7 @@ jobs:
       - name: Validate daily selection
         run: npm run validate
 
+      # Rebuilds the public HTML when the build/template workflow changes.
       - name: Build static page at repository root
         run: node scripts/build-html.mjs data/daily-selection.json .
 
