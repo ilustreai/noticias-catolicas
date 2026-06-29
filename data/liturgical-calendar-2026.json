@@ -1,0 +1,173 @@
+{
+  "year": 2026,
+  "timezone": "America/Sao_Paulo",
+  "status": "partial-cache",
+  "usage": "Cache anual para evitar gastar a automacao diaria com santo, evangelho, frase e dados liturgicos ja previsiveis. Completar uma vez por ano; a rotina diaria so deve pesquisar quando a data estiver ausente ou marcada como pending.",
+  "sources_policy": [
+    "Preferir a liturgia brasileira conforme CNBB.",
+    "Usar Cancao Nova como referencia auxiliar para santo do dia quando necessario.",
+    "Nao usar a automacao diaria para refazer estes dados se a entrada estiver complete."
+  ],
+  "entries": {
+    "2026-06-30": {
+      "status": "complete",
+      "editionLabel": "30 de junho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "13ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2F6B4F",
+        "gospelShort": "Mt 8, 23-27"
+      },
+      "saint": {
+        "feast": "Memoria facultativa - 30 de Junho",
+        "name": "Protomartires romanos",
+        "description": "Cristaos martirizados em Roma no primeiro seculo, testemunham a fidelidade a Cristo em meio a perseguicao."
+      },
+      "gospel": {
+        "ref": "Mateus 8, 23-27 - 13ª Semana do Tempo Comum",
+        "lines": [
+          "Jesus acompanha os discipulos no barco em meio a tempestade.",
+          "O medo dos discipulos encontra a autoridade de Cristo sobre o mar.",
+          "A fe amadurece quando aprende a confiar no Senhor tambem na travessia."
+        ]
+      },
+      "closingQuote": {
+        "text": "O sangue dos martires e semente de cristaos.",
+        "source": "Tertuliano",
+        "reason": "Frase patristica ligada ao testemunho dos martires celebrados no dia."
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-07-01": {
+      "status": "complete",
+      "editionLabel": "1 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "13ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2F6B4F",
+        "gospelShort": "Mt 8, 28-34"
+      },
+      "saint": {
+        "feast": "Memoria facultativa - 1 de Julho",
+        "name": "Santo Aarao",
+        "description": "Irmao de Moises e primeiro sacerdote da antiga Alianca, recorda o servico de intercessao do povo diante de Deus."
+      },
+      "gospel": {
+        "ref": "Mateus 8, 28-34 - 13ª Semana do Tempo Comum",
+        "lines": [
+          "Cristo se aproxima de uma regiao marcada pelo medo e pela exclusao.",
+          "O encontro com Jesus liberta aquilo que aprisiona o coracao humano.",
+          "A libertacao pede abertura para acolher a presenca transformadora do Senhor."
+        ]
+      },
+      "closingQuote": {
+        "text": "Ama e faze o que quiseres.",
+        "source": "Santo Agostinho",
+        "reason": "Frase curta de outro santo, usada por dialogar com a libertacao e a caridade que ordena a vida."
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-07-02": {
+      "status": "complete",
+      "editionLabel": "2 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "13ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2F6B4F",
+        "gospelShort": "Mt 9, 1-8"
+      },
+      "saint": {
+        "feast": "Memoria facultativa - 2 de Julho",
+        "name": "Sao Bernardino Realino",
+        "description": "Sacerdote jesuita recordado por sua vida pastoral, dedicacao aos pobres e servico fiel a Igreja."
+      },
+      "gospel": {
+        "ref": "Mateus 9, 1-8 - 13ª Semana do Tempo Comum",
+        "lines": [
+          "Jesus ve a fe dos que apresentam o paralitico.",
+          "O perdao dos pecados e a cura revelam a autoridade misericordiosa de Cristo.",
+          "A comunidade glorifica a Deus quando a vida ferida se levanta e caminha."
+        ]
+      },
+      "closingQuote": {
+        "text": "Nada te perturbe, nada te espante.",
+        "source": "Santa Teresa de Jesus",
+        "reason": "Frase curta de outra santa, ligada ao chamado de Cristo a coragem e confianca."
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-07-03": {
+      "status": "complete",
+      "editionLabel": "3 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "festa",
+        "season": "Tempo Comum",
+        "celebrationTitle": "Festa de Sao Tome, apostolo",
+        "colorName": "vermelho",
+        "cssColor": "#B21F2D",
+        "gospelShort": "Jo 20, 24-29"
+      },
+      "saint": {
+        "feast": "Festa - 3 de Julho",
+        "name": "Sao Tome, apostolo",
+        "description": "Apostolo que, ao encontrar o Ressuscitado, proclama a fe da Igreja no Senhor vivo."
+      },
+      "gospel": {
+        "ref": "Joao 20, 24-29 - Festa de Sao Tome, apostolo",
+        "lines": [
+          "Cristo ressuscitado vai ao encontro da incredulidade de Tome.",
+          "A ferida contemplada se torna caminho de fe e adoracao.",
+          "Bem-aventurados os que creem mesmo sem terem visto."
+        ]
+      },
+      "closingQuote": {
+        "text": "Meu Senhor e meu Deus.",
+        "source": "Sao Tome, apostolo",
+        "reason": "Profissao de fe do santo celebrado no evangelho do dia."
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-07-04": {
+      "status": "complete",
+      "editionLabel": "4 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "13ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2F6B4F",
+        "gospelShort": "Mt 9, 14-17"
+      },
+      "saint": {
+        "feast": "Memoria facultativa - 4 de Julho",
+        "name": "Santa Isabel de Portugal",
+        "description": "Rainha conhecida pela vida de piedade, caridade e empenho pela paz, venerada pela Igreja em 4 de julho."
+      },
+      "gospel": {
+        "ref": "Mateus 9, 14-17 - 13ª Semana do Tempo Comum",
+        "lines": [
+          "Jesus apresenta a novidade do Reino com a imagem do vinho novo.",
+          "A vida em Cristo pede coracao renovado, nao apenas remendos exteriores.",
+          "A verdadeira penitencia nasce da presenca do Esposo e conduz a vida nova."
+        ]
+      },
+      "closingQuote": {
+        "text": "Canta e caminha.",
+        "source": "Santo Agostinho",
+        "reason": "Frase curta de outro santo, ligada ao caminho de renovacao sugerido pelo evangelho."
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    }
+  }
+}
