@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-29",
-  "editionLabel": "29 de junho de 2026",
+  "date": "2026-06-30",
+  "editionLabel": "30 de junho de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
@@ -8,19 +8,19 @@
     "celebrationTitle": "",
     "colorName": "verde",
     "cssColor": "#2F6B4F",
-    "gospelShort": "Mt 8, 18-22"
+    "gospelShort": "Mt 8, 23-27"
   },
   "saint": {
-    "feast": "Santo do Dia - 29 de Junho",
-    "name": "Sao Pedro e Sao Paulo, apostolos",
-    "description": "Apostolos e colunas da Igreja, recordados pela fe, pregacao e zelo missionario no inicio da comunidade crista. No projeto, a liturgia do dia segue a referencia brasileira indicada no bloco liturgico."
+    "feast": "Memoria facultativa - 30 de Junho",
+    "name": "Protomartires romanos",
+    "description": "Cristaos martirizados em Roma no primeiro seculo, testemunham a fidelidade a Cristo em meio a perseguicao."
   },
   "gospel": {
-    "ref": "Mateus 8, 18-22 - 13ª Semana do Tempo Comum",
+    "ref": "Mateus 8, 23-27 - 13ª Semana do Tempo Comum",
     "lines": [
-      "Jesus chama os discipulos a atravessar para a outra margem.",
-      "O seguimento de Cristo pede liberdade interior e decisao concreta.",
-      "Quem escuta o chamado do Senhor aprende a deixar para tras o que impede a missao."
+      "Jesus acompanha os discipulos no barco em meio a tempestade.",
+      "O medo dos discipulos encontra a autoridade de Cristo sobre o mar.",
+      "A fe amadurece quando aprende a confiar no Senhor tambem na travessia."
     ]
   },
   "sponsor": {
@@ -32,49 +32,50 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa pede solidariedade as vitimas na Venezuela",
-      "summary": "No Angelus, Leao XIV expressou proximidade aos atingidos pelo duplo terremoto na Venezuela e encorajou ajuda concreta aos feridos e desabrigados.",
+      "title": "Papa se solidariza com vítimas do terremoto na Venezuela e encoraja à solidariedade",
+      "summary": "Papa se solidariza com vítimas do terremoto na Venezuela e encoraja à solidariedade. Item recente selecionado na pagina publica de Vatican News. Leia o texto integral na fonte.",
       "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-angelus-apelo-venezuela-terremoto-26-junho-2026.html"
     },
     {
       "source": "Vatican News",
-      "title": "Jesus convida a trocar posse por cruz e seguimento",
-      "summary": "Na reflexao dominical, o Papa advertiu contra a obsessao por ter e possuir e apresentou a cruz como caminho de liberdade, entrega e discipulado.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-angelus-28-junho-2026.html"
+      "title": "Papa: o esporte contribui para encontros pacíficos entre os povos e para a fraternidade",
+      "summary": "Papa: o esporte contribui para encontros pacíficos entre os povos e para a fraternidade. Item recente selecionado na pagina publica de Vatican News. Leia o texto integral na fonte.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-audiencia-federacao-italiana-natacao-25-junho-2026.html"
     },
     {
       "source": "CNBB",
-      "title": "CNBB destaca paz e missao no Consistorio",
-      "summary": "A CNBB repercutiu a abertura do Consistorio extraordinario, sublinhando o chamado de Leao XIV a paz, sinodalidade e ardor missionario na Igreja.",
-      "url": "https://www.cnbb.org.br/papa-leao-xiv-propoe-paz-sinodalidade-e-ardor-missionario-na-abertura-do-consistorio-extraordinario/"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Leao XIV encerra Consistorio com apelo pela paz",
-      "summary": "A ACI Digital registrou o apelo do Papa para que a Igreja ajude o mundo a encontrar caminhos de Deus para a paz em meio a conflitos e divisioes.",
-      "url": "https://www.acidigital.com/noticia/68685/leao-xiv-encerra-consistorio-com-apelo-para-ajudar-o-mundo-a-encontrar-caminhos-de-deus-para-a-paz"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Amor cristao pede perder um pouco do proprio eu",
-      "summary": "No Jubileu dos Bispos, Leao XIV afirmou que o amor frutifica quando ha disposicao de sair de si e servir, criterio pastoral para o governo da Igreja.",
-      "url": "https://www.acidigital.com/noticia/68681/o-amor-so-da-frutos-se-estamos-dispostos-a-perder-um-pouco-do-nosso-eu-diz-leao-xiv"
-    },
-    {
-      "source": "Cancao Nova",
-      "title": "Consistorio aponta Evangelho contra individualismo",
-      "summary": "A Cancao Nova destacou a terceira sessao do Consistorio, na qual cardeais refletiram sobre comunhao e evangelizacao diante do individualismo.",
-      "url": "https://noticias.cancaonova.com/igreja/consistorio-o-evangelho-e-o-antidoto-contra-o-individualismo/"
+      "title": "35ª Assembleia Regional de Pastoral fortalece caminhada evangelizadora da Igreja no Piauí",
+      "summary": "Durante os três dias de encontro, os participantes refletiram sobre os caminhos da ação evangelizadora da Igreja no Piauí à luz das novas diretrizes da Conferência Nacional dos Bispos do Brasil (CNBB),.",
+      "url": "https://www.cnbb.org.br/nordeste-4-35a-assembleia-regional-de-pastoral/"
     },
     {
       "source": "Shalom",
-      "title": "Shalom no Rio celebra trinta anos de missao",
-      "summary": "A Comunidade Shalom recordou tres decadas de presenca no Rio de Janeiro, marcadas por evangelizacao, fidelidade e testemunhos de vidas transformadas.",
-      "url": "https://comshalom.org/30-anos-de-shalom-no-rio-uma-historia-marcada-pela-fidelidade-de-deus-e-por-vidas-transformadas/"
+      "title": "Santo Aarão, lutou e venceu as tentações",
+      "summary": "Na bíblia hebraica e no alcorão, Aarão, ou Arão, foi o irmão mais velho de Moisés, e um profeta do Deus de Israel servindo como o primeiro sumo sacerdote dos hebreus. Celebrado no dia 1° de julho. L'articolo.",
+      "url": "https://comshalom.org/santo-aarao-lutou-e-venceu-as-tentacoess/"
+    },
+    {
+      "source": "Cancao Nova",
+      "title": "Acolhidos da Fazenda da Esperança acompanham jogo contra o Japão",
+      "summary": "O apito final encerra a partida, mas deixa algo que vai muito além do resultado. Entre vitórias e derrotas, permanecem a fé, o respeito e a esperança. Continue lendo &#8594; O post Acolhidos da Fazenda da.",
+      "url": "https://noticias.cancaonova.com/brasil/acolhidos-da-fazenda-da-esperanca-acompanham-jogo-contra-o-japao/"
+    },
+    {
+      "source": "CNBB",
+      "title": "Ato de simplicidade ganha destaque na Igreja",
+      "summary": "Dom Paulo Mendes Peixoto Arcebispo de Uberaba (MG) Quanto mais simples, mais misterioso. Assim é Deus, pois, de tão simples, se torna mistério incompatível com a capacidade cognitiva da pessoa humana. Ele se.",
+      "url": "https://www.cnbb.org.br/ato-de-simplicidade/"
+    },
+    {
+      "source": "Cancao Nova",
+      "title": "No Rio de Janeiro, comunidade japonesa e brasileiros torcem juntos",
+      "summary": "Na etapa final, o Brasil reagiu... Empatou e virou o placar. 2 x 1 e classificação garantida. Continue lendo &#8594; O post No Rio de Janeiro, comunidade japonesa e brasileiros torcem juntos apareceu primeiro.",
+      "url": "https://noticias.cancaonova.com/brasil/no-rio-de-janeiro-comunidade-japonesa-e-brasileiros-torcem-juntos/"
     }
   ],
   "closingQuote": {
-    "text": "Senhor, para quem iremos? Tu tens palavras de vida eterna.",
-    "source": "Sao Pedro"
+    "text": "O sangue dos martires e semente de cristaos.",
+    "source": "Tertuliano",
+    "reason": "Frase patristica ligada ao testemunho dos martires celebrados no dia."
   }
 }
