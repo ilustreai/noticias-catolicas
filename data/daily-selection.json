@@ -4,66 +4,78 @@
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
-    "season": "13a Semana do Tempo Comum",
+    "season": "13ª Semana do Tempo Comum",
     "celebrationTitle": "",
     "colorName": "verde",
     "cssColor": "#2F6B4F",
     "gospelShort": "Mt 8, 23-27"
   },
   "saint": {
-    "feast": "Memoria facultativa - 30 de Junho",
-    "name": "Protomartires romanos",
-    "description": "Cristaos martirizados em Roma no primeiro seculo, testemunham a fidelidade a Cristo em meio a perseguicao."
+    "feast": "Memória facultativa - 30 de Junho",
+    "name": "Protomártires romanos",
+    "description": "Cristãos martirizados em Roma no primeiro século, testemunham a fidelidade a Cristo em meio à perseguição."
   },
   "gospel": {
-    "ref": "Mateus 8, 23-27 - 13a Semana do Tempo Comum",
+    "ref": "Mateus 8, 23-27 - 13ª Semana do Tempo Comum",
     "lines": [
-      "Jesus acompanha os discipulos no barco em meio a tempestade.",
-      "O medo dos discipulos encontra a autoridade de Cristo sobre o mar.",
-      "A fe amadurece quando aprende a confiar no Senhor tambem na travessia."
+      "Jesus acompanha os discípulos no barco em meio à tempestade.",
+      "O medo dos discípulos encontra a autoridade de Cristo sobre o mar.",
+      "A fé amadurece quando aprende a confiar no Senhor também na travessia."
     ]
   },
   "sponsor": {
     "enabled": true,
     "label": "Apoio",
-    "text": "Gostou do conteudo? Considere apoiar esse projeto assinando nosso conteudo exclusivo no Instagram @ilustre.ai.",
+    "text": "Gostou do conteúdo? Considere apoiar esse projeto assinando nosso conteúdo exclusivo no Instagram @ilustre.ai.",
     "url": "https://www.instagram.com/ilustre.ai"
   },
   "news": [
     {
       "source": "Vatican News",
-      "title": "No Dia Mundial da Caridade do Papa, a gratidao de Leao XIV pela solidariedade",
-      "summary": "Leao XIV agradeceu a rede de solidariedade mantida pela Igreja e convidou a sustentar obras concretas de caridade com criterio pastoral.",
+      "title": "No Dia Mundial da Caridade do Papa, Leão XIV agradece a solidariedade",
+      "summary": "Leão XIV agradeceu a rede de solidariedade mantida pela Igreja e convidou os fiéis a sustentar obras concretas de caridade com critério pastoral.",
       "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-caridade-obolo-sao-pedro-29-junho-2026.html"
     },
     {
       "source": "Vatican News",
-      "title": "Papa agradece a voluntarios pelos tapetes decorados na Solenidade de Pedro e Paulo",
-      "summary": "O Papa valorizou o trabalho discreto de voluntarios e artistas que serviram a liturgia com beleza e participacao comunitaria.",
+      "title": "Papa agradece voluntários pelos tapetes decorados na Solenidade de Pedro e Paulo",
+      "summary": "O Papa valorizou o trabalho discreto de voluntários e artistas que serviram à liturgia com beleza, participação comunitária e espírito de fé.",
       "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-infiorata-osservatore-strada-angelus-29-junho-26.html"
     },
     {
       "source": "CNBB",
-      "title": "CNBB destaca paz e missao no Consistorio",
-      "summary": "A CNBB repercutiu a abertura do consistorio extraordinario, sublinhando o chamado a paz, sinodalidade e ardor missionario na Igreja.",
-      "url": "https://www.cnbb.org.br/papa-leao-xiv-propoe-paz-sinodalidade-e-ardor-missionario-na-abertura-do-consistorio-extraordinario/"
+      "title": "Assembleia Regional de Pastoral fortalece a caminhada evangelizadora no Piauí",
+      "summary": "A assembleia regional reuniu participantes para refletir sobre a ação evangelizadora da Igreja no Piauí à luz das novas diretrizes da CNBB.",
+      "url": "https://www.cnbb.org.br/nordeste-4-35a-assembleia-regional-de-pastoral/"
     },
     {
-      "source": "Cancao Nova",
-      "title": "Papa se solidariza com a Venezuela e incentiva ajuda as vitimas",
-      "summary": "A Cancao Nova destacou o apelo do Papa por ajuda concreta as vitimas do terremoto na Venezuela.",
+      "source": "CNBB",
+      "title": "Reflexão da CNBB recorda a simplicidade como caminho de fé",
+      "summary": "Em artigo pastoral, a CNBB destacou a simplicidade como caminho espiritual que ajuda a pessoa humana a se abrir ao mistério de Deus.",
+      "url": "https://www.cnbb.org.br/ato-de-simplicidade/"
+    },
+    {
+      "source": "Canção Nova",
+      "title": "Papa se solidariza com a Venezuela e incentiva ajuda às vítimas",
+      "summary": "A Canção Nova destacou o apelo do Papa por proximidade, oração e ajuda concreta às vítimas do terremoto que atingiu a Venezuela.",
       "url": "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/papa-se-solidariza-com-a-venezuela-e-incentiva-ajuda-as-vitimas/"
     },
     {
-      "source": "Cancao Nova",
-      "title": "Consistorio: o Evangelho e o antidoto contra o individualismo",
-      "summary": "A Cancao Nova destacou a dimensao espiritual da reuniao dos cardeais ao ligar o consistorio ao combate ao individualismo.",
+      "source": "Canção Nova",
+      "title": "Consistório aponta o Evangelho como antídoto contra o individualismo",
+      "summary": "A cobertura da Canção Nova destacou a dimensão espiritual da reunião dos cardeais, ligando comunhão, evangelização e serviço à Igreja.",
       "url": "https://noticias.cancaonova.com/igreja/consistorio-o-evangelho-e-o-antidoto-contra-o-individualismo/"
+    },
+    {
+      "source": "Shalom",
+      "title": "Shalom no Rio celebra trinta anos de missão e evangelização",
+      "summary": "A Comunidade Shalom recordou três décadas de presença missionária no Rio de Janeiro, com testemunhos de evangelização, fidelidade e vidas transformadas.",
+      "url": "https://comshalom.org/30-anos-de-shalom-no-rio-uma-historia-marcada-pela-fidelidade-de-deus-e-por-vidas-transformadas/"
     }
   ],
   "closingQuote": {
-    "text": "O sangue dos martires e semente de cristaos.",
+    "text": "O sangue dos mártires é semente de cristãos.",
     "source": "Tertuliano",
-    "reason": "Frase patristica ligada ao testemunho dos martires celebrados no dia."
+    "reason": "Frase patrística ligada ao testemunho dos mártires celebrados no dia."
   }
 }
