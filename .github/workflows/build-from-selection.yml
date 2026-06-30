@@ -1,0 +1,62 @@
+name: Build Catholic News From Selection
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/daily-selection.json'
+      - 'scripts/build-html.mjs'
+      - 'scripts/lib.mjs'
+      - 'template/noticias-catolicas.template.html'
+      - '.github/workflows/build-from-selection.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catholic-news-build-from-selection
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Validate tests
+        run: npm test
+
+      - name: Polish approved selection
+        run: node scripts/polish-selection.mjs data/daily-selection.json
+
+      - name: Validate approved selection
+        run: npm run validate
+
+      - name: Build static pages
+        run: node scripts/build-html.mjs data/daily-selection.json .
+
+      - name: Editorial smoke check
+        shell: bash
+        run: |
+          ! grep -E 'Continue lendo|&amp;#8594;|&#8594;|O post .* apareceu primeiro|placar|torcem juntos|classifica[cç][aã]o garantida|O sangue dos martires|conteudo\?' index.html
+          grep -q 'O sangue dos mártires é semente de cristãos.' index.html
+          grep -q '13ª Semana do Tempo Comum' index.html
+          test "$(grep -o 'class="news-item' index.html | wc -l)" -eq 7
+
+      - name: Commit static pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/daily-selection.json index.html *.html
+          git diff --cached --quiet || git commit -m "chore: rebuild catholic news pages"
+          git push
