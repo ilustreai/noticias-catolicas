@@ -24,19 +24,19 @@
     ]
   },
   {
-    "source": "Cancao Nova",
+    "source": "Canção Nova",
     "kind": "trusted",
-    "feedUrl": "https://noticias.cancaonova.com/feed/",
     "pageUrls": [
-      "https://noticias.cancaonova.com/"
+      "https://noticias.cancaonova.com/igreja/",
+      "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/"
     ]
   },
   {
     "source": "Shalom",
     "kind": "trusted",
-    "feedUrl": "https://comshalom.org/feed/",
     "pageUrls": [
-      "https://comshalom.org/"
+      "https://comshalom.org/noticias/",
+      "https://comshalom.org/evangelizacao/"
     ]
   }
 ]
