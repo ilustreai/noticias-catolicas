@@ -7,6 +7,9 @@ on:
       - main
     paths:
       - 'scripts/build-html.mjs'
+      - 'scripts/generate-daily-selection.mjs'
+      - 'scripts/polish-selection.mjs'
+      - 'data/news-sources.json'
       - 'template/noticias-catolicas.template.html'
       - '.github/workflows/daily-news.yml'
   schedule:
@@ -43,10 +46,12 @@ jobs:
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4o-mini' }}
         run: npm run generate
 
+      - name: Polish Portuguese and editorial residue
+        run: node scripts/polish-selection.mjs data/daily-selection.json
+
       - name: Validate daily selection
         run: npm run validate
 
-      # Rebuilds the public HTML when the build/template workflow changes.
       - name: Build static page at repository root
         run: node scripts/build-html.mjs data/daily-selection.json .
 
