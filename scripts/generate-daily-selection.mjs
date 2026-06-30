@@ -101,9 +101,18 @@ function normalize(value) {
 }
 
 function likelyArticleUrl(url) {
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return false;
+  }
   const text = normalize(url);
   const blocked = ['tag', 'category', 'author', 'login', 'wp content', 'facebook', 'instagram', 'youtube'];
   if (blocked.some((term) => text.includes(term))) return false;
+  if (parsed.pathname === '/' || parsed.pathname === '') return false;
+  if (parsed.pathname.includes('_')) return false;
+  if (parsed.pathname === '/organismos/') return false;
   if (/\/pt\.html$/i.test(url)) return false;
   if (/\/(pt|en|es|it|fr|de)\.html$/i.test(url)) return false;
   return /^https:\/\//.test(url);
@@ -123,6 +132,8 @@ function likelyNewsTitle(title) {
     'menu',
     'todas as noticias',
     'ultimas noticias',
+    'noticias a servico da vida e da esperanca',
+    'conselho economico fiscal',
     'instagram',
     'youtube'
   ];
@@ -263,6 +274,51 @@ function deterministicSelection(candidates) {
   }));
 }
 
+function toNewsItem(item) {
+  return {
+    source: item.source,
+    title: makeTitle(item),
+    summary: makeSummary(item),
+    url: item.url
+  };
+}
+
+function hasSaintContentError(selection, newsItem) {
+  const result = validateSelection({ ...selection, news: [newsItem] });
+  return result.errors.some((error) => error === 'news[0].saint content must stay in saint block');
+}
+
+function repairSaintContentNews(selection, candidates) {
+  const result = validateSelection(selection);
+  const indexes = result.errors
+    .map((error) => error.match(/^news\[(\d+)\]\.saint content must stay in saint block$/)?.[1])
+    .filter((index) => index != null)
+    .map(Number)
+    .sort((a, b) => b - a);
+
+  if (indexes.length === 0) return selection;
+
+  const news = [...selection.news];
+  for (const index of indexes) news.splice(index, 1);
+
+  const usedUrls = new Set(news.map((item) => item.url));
+  const sourceCounts = new Map();
+  news.forEach((item) => sourceCounts.set(item.source, (sourceCounts.get(item.source) ?? 0) + 1));
+
+  for (const candidate of candidates) {
+    if (news.length >= 7) break;
+    const item = toNewsItem(candidate);
+    if (usedUrls.has(item.url)) continue;
+    if ((sourceCounts.get(item.source) ?? 0) >= 2) continue;
+    if (hasSaintContentError({ ...selection, news }, item)) continue;
+    news.push(item);
+    usedUrls.add(item.url);
+    sourceCounts.set(item.source, (sourceCounts.get(item.source) ?? 0) + 1);
+  }
+
+  return { ...selection, news };
+}
+
 async function aiSelection({ date, liturgy, candidates }) {
   const key = process.env.OPENAI_API_KEY;
   if (!key) return null;
@@ -343,6 +399,7 @@ async function main() {
     closingQuote: liturgy.closingQuote
   };
   selection = attachSaintUrl(selection, liturgy);
+  selection = repairSaintContentNews(selection, candidates);
 
   const result = validateSelection(selection);
   if (!result.ok) {

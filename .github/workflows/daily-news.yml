@@ -9,6 +9,7 @@ on:
       - 'scripts/build-html.mjs'
       - 'scripts/generate-daily-selection.mjs'
       - 'scripts/polish-selection.mjs'
+      - 'data/liturgical-calendar-2026.json'
       - 'data/news-sources.json'
       - 'template/noticias-catolicas.template.html'
       - '.github/workflows/daily-news.yml'

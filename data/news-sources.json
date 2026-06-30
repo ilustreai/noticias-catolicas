@@ -11,10 +11,7 @@
   {
     "source": "CNBB",
     "kind": "brazil",
-    "feedUrl": "https://www.cnbb.org.br/feed/",
-    "pageUrls": [
-      "https://www.cnbb.org.br/"
-    ]
+    "feedUrl": "https://www.cnbb.org.br/feed/"
   },
   {
     "source": "ACI Digital",
