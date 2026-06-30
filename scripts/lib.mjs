@@ -206,6 +206,17 @@ function renderSponsor(sponsor) {
   </aside>`;
 }
 
+function renderSaintMoreLink(saint) {
+  if (!saint?.url) return '';
+  return `
+    <a class="saint-more-link" href="${escapeHtml(saint.url)}" target="_blank" rel="noopener noreferrer">
+      Saiba mais na Canção Nova
+      <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <path d="M1 9L9 1M9 1H3M9 1V7"/>
+      </svg>
+    </a>`;
+}
+
 function renderGospelLines(lines) {
   return lines
     .map((line) => `<span class="gospel-line">${escapeHtml(line)}</span>`)
@@ -228,6 +239,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{SAINT_FEAST}}': selection.saint.feast,
     '{{SAINT_NAME}}': selection.saint.name,
     '{{SAINT_DESCRIPTION}}': selection.saint.description,
+    '{{SAINT_MORE_LINK}}': renderSaintMoreLink(selection.saint),
     '{{GOSPEL_REF}}': selection.gospel.ref,
     '{{GOSPEL_LINES}}': renderGospelLines(selection.gospel.lines),
     '{{NEWS_ITEMS}}': renderNews(selection.news),

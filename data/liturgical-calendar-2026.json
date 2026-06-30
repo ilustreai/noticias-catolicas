@@ -1,14 +1,85 @@
 {
   "year": 2026,
   "timezone": "America/Sao_Paulo",
-  "status": "partial-cache",
-  "usage": "Cache anual para evitar gastar a automacao diaria com santo, evangelho, frase e dados liturgicos ja previsiveis. Completar uma vez por ano; a rotina diaria so deve pesquisar quando a data estiver ausente ou marcada como pending.",
+  "status": "operational-cache",
+  "usage": "Cache anual para evitar gastar a automação diária com santo, evangelho, frase e dados litúrgicos já previsíveis. A rotina diária só deve pesquisar quando a data estiver ausente, marcada como pending ou houver conflito editorial evidente.",
   "sources_policy": [
-    "Preferir a liturgia brasileira conforme CNBB.",
-    "Usar Cancao Nova como referencia auxiliar para santo do dia quando necessario.",
+    "Preferir fonte liturgica oficial ou calendario eclesial confiavel ao preencher o ano.",
+    "Registrar sourceUrl por entrada quando disponivel.",
     "Nao usar a automacao diaria para refazer estes dados se a entrada estiver complete."
   ],
   "entries": {
+    "2026-06-28": {
+      "status": "complete",
+      "editionLabel": "28 de junho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "solenidade",
+        "season": "Tempo Comum",
+        "celebrationTitle": "Solenidade de São Pedro e São Paulo, apóstolos",
+        "colorName": "vermelho",
+        "cssColor": "#B21F2D",
+        "gospelShort": "Mt 16, 13-19"
+      },
+      "saint": {
+        "feast": "Memoria - 28 de Junho",
+        "name": "Santo Irineu",
+        "description": "Bispo de Lyon e doutor da Igreja, Santo Irineu recorda a fé recebida dos apóstolos e transmitida com fidelidade."
+      },
+      "gospel": {
+        "ref": "Mateus 16, 13-19 - Solenidade de São Pedro e São Paulo",
+        "lines": [
+          "Tu es Pedro, e sobre esta pedra construirei a minha Igreja.",
+          "A fé apostolica sustenta a comunhao e chama a Igreja a testemunhar Cristo.",
+          "Pedro e Paulo recordam que a missão nasce da fidelidade ao Senhor."
+        ]
+      },
+      "closingQuote": {
+        "text": "A gloria de Deus e o homem vivo.",
+        "source": "Santo Irineu",
+        "reason": "Frase do santo do dia, adequada ao tema da vida em Cristo."
+      },
+      "sourceUrl": "https://www.acidigital.com/noticia/52468/hoje-e-celebrado-santo-irineu-bispo-de-lyon-e-padre-da-igreja"
+    },
+    "2026-06-29": {
+      "status": "complete",
+      "editionLabel": "29 de junho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "13ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2F6B4F",
+        "gospelShort": "Mt 8, 18-22"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 29 de Junho",
+        "name": "São Pedro e São Paulo, apóstolos",
+        "description": "Apóstolos e colunas da Igreja, recordados pela fé, pregação e zelo missionário no início da comunidade cristã. No projeto, a liturgia do dia segue a referência brasileira indicada no bloco litúrgico.",
+        "url": "https://santo.cancaonova.com/santo/sao-pedro-e-sao-paulo-apóstolos-e-principais-lideres-da-igreja/"
+      },
+      "gospel": {
+        "ref": "Mateus 8, 18-22 - 13ª Semana do Tempo Comum",
+        "lines": [
+          "Jesus chama os discipulos a atravessar para a outra margem.",
+          "O seguimento de Cristo pede liberdade interior e decisão concreta.",
+          "Quem escuta o chamado do Senhor aprende a deixar para trás o que impede a missão."
+        ]
+      },
+      "closingQuote": {
+        "text": "Senhor, para quem iremos? Tu tens palavras de vida eterna.",
+        "source": "São Pedro",
+        "reason": "Frase de São Pedro citada pela Canção Nova no santo do dia, adequada ao evangelho do seguimento."
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDated": "https://liturgia.cancaonova.com/pb/",
+        "saint": "https://santo.cancaonova.com/santo/sao-pedro-e-sao-paulo-apóstolos-e-principais-lideres-da-igreja/"
+      },
+      "reason": "Regra definida pelo usuario: em caso de duvida, usar liturgia da CNBB e santo do dia da Cancao Nova. A pagina datada de liturgia da Cancao Nova exibe credito CNBB e informa 13a Semana do Tempo Comum, cor verde e Mt 8,18-22 para 29/06/2026."
+    },
     "2026-06-30": {
       "status": "complete",
       "editionLabel": "30 de junho de 2026",
@@ -23,23 +94,23 @@
       },
       "saint": {
         "feast": "Memoria facultativa - 30 de Junho",
-        "name": "Protomartires romanos",
-        "description": "Cristaos martirizados em Roma no primeiro seculo, testemunham a fidelidade a Cristo em meio a perseguicao."
+        "name": "Primeiros Santos Mártires da Igreja de Roma",
+        "description": "Cristãos martirizados em Roma no primeiro século, testemunham a fidelidade a Cristo em meio à perseguição."
       },
       "gospel": {
         "ref": "Mateus 8, 23-27 - 13ª Semana do Tempo Comum",
         "lines": [
           "Jesus acompanha os discipulos no barco em meio a tempestade.",
           "O medo dos discipulos encontra a autoridade de Cristo sobre o mar.",
-          "A fe amadurece quando aprende a confiar no Senhor tambem na travessia."
+          "A fé amadurece quando aprende a confiar no Senhor tambem na travessia."
         ]
       },
       "closingQuote": {
-        "text": "O sangue dos martires e semente de cristaos.",
+        "text": "O sangue dos mártires e semente de cristãos.",
         "source": "Tertuliano",
-        "reason": "Frase patristica ligada ao testemunho dos martires celebrados no dia."
+        "reason": "Frase patrística ligada ao testemunho dos mártires celebrados no dia."
       },
-      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+      "sourceUrl": "https://bible.usccb.org/bible/readings/063026"
     },
     "2026-07-01": {
       "status": "complete",
@@ -50,28 +121,38 @@
         "season": "13ª Semana do Tempo Comum",
         "celebrationTitle": "",
         "colorName": "verde",
-        "cssColor": "#2F6B4F",
+        "cssColor": "#2E7D32",
         "gospelShort": "Mt 8, 28-34"
       },
       "saint": {
-        "feast": "Memoria facultativa - 1 de Julho",
-        "name": "Santo Aarao",
-        "description": "Irmao de Moises e primeiro sacerdote da antiga Alianca, recorda o servico de intercessao do povo diante de Deus."
+        "feast": "Santo do Dia - 1 de Julho",
+        "name": "Beata Madre Maria Assunta Marchetti",
+        "description": "Religiosa missionária que serviu com ternura os órfãos, os pobres e os migrantes, vendo neles a presença de Cristo.",
+        "url": "https://santo.cancaonova.com/santo/beata-madre-maria-assunta-marchetti/"
       },
       "gospel": {
-        "ref": "Mateus 8, 28-34 - 13ª Semana do Tempo Comum",
+        "ref": "Evangelho do dia no Brasil: Mateus 8, 28-34, quarta-feira da 13ª Semana do Tempo Comum.",
         "lines": [
-          "Cristo se aproxima de uma regiao marcada pelo medo e pela exclusao.",
-          "O encontro com Jesus liberta aquilo que aprisiona o coracao humano.",
-          "A libertacao pede abertura para acolher a presenca transformadora do Senhor."
+          "Jesus liberta dois homens dominados pelo mal e devolve dignidade a vidas que todos evitavam.",
+          "O poder de Cristo vence aquilo que aprisiona a pessoa por dentro e por fora.",
+          "O discípulo é chamado a preferir a salvação das pessoas aos interesses que endurecem o coração."
         ]
       },
       "closingQuote": {
-        "text": "Ama e faze o que quiseres.",
-        "source": "Santo Agostinho",
-        "reason": "Frase curta de outro santo, usada por dialogar com a libertacao e a caridade que ordena a vida."
+        "text": "Tudo é graça.",
+        "source": "Santa Teresinha do Menino Jesus",
+        "reason": "Frase amplamente atribuída a Santa Teresinha; foi escolhida porque o evangelho mostra a libertação como dom gratuito de Cristo, e a vida da Beata Maria Assunta foi marcada por serviço humilde à graça nos pobres."
       },
-      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/070126.cfm",
+        "saint": "https://santo.cancaonova.com/santo/beata-madre-maria-assunta-marchetti/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
     },
     "2026-07-02": {
       "status": "complete",
@@ -82,28 +163,38 @@
         "season": "13ª Semana do Tempo Comum",
         "celebrationTitle": "",
         "colorName": "verde",
-        "cssColor": "#2F6B4F",
+        "cssColor": "#2E7D32",
         "gospelShort": "Mt 9, 1-8"
       },
       "saint": {
-        "feast": "Memoria facultativa - 2 de Julho",
-        "name": "Sao Bernardino Realino",
-        "description": "Sacerdote jesuita recordado por sua vida pastoral, dedicacao aos pobres e servico fiel a Igreja."
+        "feast": "Santo do Dia - 2 de Julho",
+        "name": "São Bernardino Realino",
+        "description": "Jesuíta que abandonou honras mundanas para dedicar-se com bondade ao ministério da palavra, aos doentes e aos presos.",
+        "url": "https://santo.cancaonova.com/santo/sao-bernardino-realino-salvava-almas-para-deus1/"
       },
       "gospel": {
-        "ref": "Mateus 9, 1-8 - 13ª Semana do Tempo Comum",
+        "ref": "Evangelho do dia no Brasil: Mateus 9, 1-8, quinta-feira da 13ª Semana do Tempo Comum.",
         "lines": [
-          "Jesus ve a fe dos que apresentam o paralitico.",
-          "O perdao dos pecados e a cura revelam a autoridade misericordiosa de Cristo.",
-          "A comunidade glorifica a Deus quando a vida ferida se levanta e caminha."
+          "Jesus cura o paralítico começando pelo perdão, atingindo a raiz mais profunda da ferida humana.",
+          "A misericórdia do Senhor toca alma e corpo e devolve ao homem a possibilidade de recomeçar.",
+          "A fé abre espaço para uma vida levantada, reconciliada e posta novamente a caminho."
         ]
       },
       "closingQuote": {
-        "text": "Nada te perturbe, nada te espante.",
-        "source": "Santa Teresa de Jesus",
-        "reason": "Frase curta de outra santa, ligada ao chamado de Cristo a coragem e confianca."
+        "text": "Fazei tudo por amor.",
+        "source": "São Francisco de Sales",
+        "reason": "Frase amplamente atribuída a São Francisco de Sales; foi escolhida porque o evangelho une perdão e cura, e São Bernardino Realino viveu a caridade pastoral como amor concreto."
       },
-      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/070226.cfm",
+        "saint": "https://santo.cancaonova.com/santo/sao-bernardino-realino-salvava-almas-para-deus1/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
     },
     "2026-07-03": {
       "status": "complete",
@@ -111,31 +202,41 @@
       "liturgical": {
         "country": "BR",
         "rank": "festa",
-        "season": "Tempo Comum",
-        "celebrationTitle": "Festa de Sao Tome, apostolo",
+        "season": "13ª Semana do Tempo Comum",
+        "celebrationTitle": "São Tomé, Apóstolo",
         "colorName": "vermelho",
-        "cssColor": "#B21F2D",
+        "cssColor": "#C62828",
         "gospelShort": "Jo 20, 24-29"
       },
       "saint": {
-        "feast": "Festa - 3 de Julho",
-        "name": "Sao Tome, apostolo",
-        "description": "Apostolo que, ao encontrar o Ressuscitado, proclama a fe da Igreja no Senhor vivo."
+        "feast": "Santo do Dia - 3 de Julho",
+        "name": "São Tomé Apóstolo",
+        "description": "Apóstolo que passou da dúvida sincera à profissão de fé e se tornou testemunha do Ressuscitado.",
+        "url": "https://santo.cancaonova.com/santo/sao-tome-apostolo/"
       },
       "gospel": {
-        "ref": "Joao 20, 24-29 - Festa de Sao Tome, apostolo",
+        "ref": "Evangelho da festa de São Tomé, Apóstolo: João 20, 24-29.",
         "lines": [
-          "Cristo ressuscitado vai ao encontro da incredulidade de Tome.",
-          "A ferida contemplada se torna caminho de fe e adoracao.",
-          "Bem-aventurados os que creem mesmo sem terem visto."
+          "Tomé encontra o Ressuscitado e a sua incredulidade é transformada em adoração.",
+          "Jesus não humilha a busca honesta, mas a conduz à fé madura e pessoal.",
+          "A Igreja aprende a crer mesmo sem ver, apoiando-se na presença viva do Senhor."
         ]
       },
       "closingQuote": {
         "text": "Meu Senhor e meu Deus.",
-        "source": "Sao Tome, apostolo",
-        "reason": "Profissao de fe do santo celebrado no evangelho do dia."
+        "source": "São Tomé Apóstolo",
+        "reason": "É a confissão do próprio Tomé no evangelho da festa; foi escolhida por resumir perfeitamente a passagem da dúvida para a fé adorante."
       },
-      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://liturgia.cancaonova.com/pb/liturgia/sao-tome-apostolo-festa-quinta-feira/",
+        "saint": "https://santo.cancaonova.com/santo/sao-tome-apostolo/",
+        "quote": "",
+        "liturgy": "https://liturgia.cancaonova.com/pb/liturgia/sao-tome-apostolo-festa-quinta-feira/"
+      },
+      "sourceUrl": "https://liturgia.cancaonova.com/pb/liturgia/sao-tome-apostolo-festa-quinta-feira/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
     },
     "2026-07-04": {
       "status": "complete",
@@ -146,28 +247,1172 @@
         "season": "13ª Semana do Tempo Comum",
         "celebrationTitle": "",
         "colorName": "verde",
-        "cssColor": "#2F6B4F",
+        "cssColor": "#2E7D32",
         "gospelShort": "Mt 9, 14-17"
       },
       "saint": {
-        "feast": "Memoria facultativa - 4 de Julho",
+        "feast": "Santo do Dia - 4 de Julho",
         "name": "Santa Isabel de Portugal",
-        "description": "Rainha conhecida pela vida de piedade, caridade e empenho pela paz, venerada pela Igreja em 4 de julho."
+        "description": "Rainha santa que uniu oração, caridade e reconciliação, tornando-se sinal de paz no coração da família e do reino.",
+        "url": "https://santo.cancaonova.com/santo/santa-isabel-de-portugal/"
       },
       "gospel": {
-        "ref": "Mateus 9, 14-17 - 13ª Semana do Tempo Comum",
+        "ref": "Evangelho do dia no Brasil: Mateus 9, 14-17, sábado da 13ª Semana do Tempo Comum.",
         "lines": [
-          "Jesus apresenta a novidade do Reino com a imagem do vinho novo.",
-          "A vida em Cristo pede coracao renovado, nao apenas remendos exteriores.",
-          "A verdadeira penitencia nasce da presenca do Esposo e conduz a vida nova."
+          "Jesus recorda que a sua presença inaugura um tempo novo, que não cabe em velhos esquemas.",
+          "O Evangelho pede coração renovado para acolher a novidade do Reino.",
+          "A vida cristã amadurece quando deixa Cristo transformar hábitos, motivações e escolhas."
         ]
       },
       "closingQuote": {
-        "text": "Canta e caminha.",
-        "source": "Santo Agostinho",
-        "reason": "Frase curta de outro santo, ligada ao caminho de renovacao sugerido pelo evangelho."
+        "text": "Onde não há amor, põe amor, e encontrarás amor.",
+        "source": "São João da Cruz",
+        "reason": "Frase amplamente atribuída a São João da Cruz; foi escolhida porque o evangelho fala da novidade que Cristo traz, e Santa Isabel viveu essa novidade reconciliando conflitos pelo amor."
       },
-      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/070426.cfm",
+        "saint": "https://santo.cancaonova.com/santo/santa-isabel-de-portugal/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-05": {
+      "status": "complete",
+      "editionLabel": "5 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "Tempo Comum",
+        "celebrationTitle": "14º Domingo do Tempo Comum",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 11, 25-30"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 5 de Julho",
+        "name": "Santo Antônio Maria Zaccaria",
+        "description": "Sacerdote reformador apaixonado pela Eucaristia, dedicado à renovação da vida cristã e da família.",
+        "url": "https://santo.cancaonova.com/santo/santo-antonio-maria-zaccaria-pioneiro-da-pastoral-familiar/"
+      },
+      "gospel": {
+        "ref": "Evangelho do 14º Domingo do Tempo Comum no Brasil: Mateus 11, 25-30.",
+        "lines": [
+          "Jesus bendiz o Pai porque os pequenos acolhem os mistérios do Reino com simplicidade.",
+          "O Senhor convida os cansados a encontrar descanso no seu coração manso e humilde.",
+          "Seguir Cristo não elimina a cruz, mas transforma o peso da vida em caminho de comunhão."
+        ]
+      },
+      "closingQuote": {
+        "text": "Nada te perturbe, nada te espante; só Deus basta.",
+        "source": "Santa Teresa de Jesus",
+        "reason": "Frase clássica e amplamente reconhecida de Santa Teresa de Jesus; foi escolhida porque o evangelho oferece repouso em Cristo aos cansados e o santo do dia conduzia os fiéis para o centro da vida espiritual."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/070526.cfm",
+        "saint": "https://santo.cancaonova.com/santo/santo-antonio-maria-zaccaria-pioneiro-da-pastoral-familiar/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-06": {
+      "status": "complete",
+      "editionLabel": "6 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "14ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 9, 18-26"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 6 de Julho",
+        "name": "Santa Maria Goretti",
+        "description": "Jovem virgem e mártir que testemunhou pureza, coragem e perdão até o derramamento do sangue.",
+        "url": "https://santo.cancaonova.com/santo/santa-maria-goretti-a-santa-da-castidade/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 9, 18-26, segunda-feira da 14ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus atende a fé insistente de quem o procura em meio à dor e à morte.",
+          "No toque humilde e na confiança perseverante, brota a vida nova que só Deus pode dar.",
+          "O cristão aprende a levar suas perdas a Cristo, crendo que Ele continua a levantar os caídos."
+        ]
+      },
+      "closingQuote": {
+        "text": "A pureza é a força dos fortes.",
+        "source": "Santa Maria Goretti",
+        "reason": "Frase amplamente atribuída a Santa Maria Goretti; foi escolhida porque o evangelho mostra a força da fé simples e confiante, e a santa do dia testemunha firmeza interior."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/070626.cfm",
+        "saint": "https://santo.cancaonova.com/santo/santa-maria-goretti-a-santa-da-castidade/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-07": {
+      "status": "complete",
+      "editionLabel": "7 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "14ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 9, 32-38"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 7 de Julho",
+        "name": "Beata Maria Romero",
+        "description": "Filha espiritual de Dom Bosco que fez da caridade criativa um socorro real aos pobres e marginalizados.",
+        "url": "https://santo.cancaonova.com/santo/beata-maria-romero-socorro-dos-pobres-e-marginalizados/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 9, 32-38, terça-feira da 14ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus cura, anuncia e se comove diante das multidões cansadas e desorientadas.",
+          "O coração do Pastor revela que a missão nasce da compaixão e não do protagonismo.",
+          "A Igreja é chamada a rezar por operários e a ser resposta misericordiosa ao sofrimento humano."
+        ]
+      },
+      "closingQuote": {
+        "text": "A alegria é sinal de um coração que ama.",
+        "source": "Santa Teresa de Calcutá",
+        "reason": "Frase amplamente atribuída a Santa Teresa de Calcutá; foi escolhida porque a compaixão do evangelho se traduz em serviço concreto, como ocorreu na vida apostólica da Beata Maria Romero."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/070726.cfm",
+        "saint": "https://santo.cancaonova.com/santo/beata-maria-romero-socorro-dos-pobres-e-marginalizados/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-08": {
+      "status": "complete",
+      "editionLabel": "8 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "14ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 10, 1-7"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 8 de Julho",
+        "name": "Beato João Schiavo",
+        "description": "Missionário josefino ligado ao Brasil, dedicado à formação, à educação e ao serviço discreto da Igreja.",
+        "url": "https://santo.cancaonova.com/santo/beato-joao-schiavo-fundador-da-missão-josefina-no-brasil/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 10, 1-7, quarta-feira da 14ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus chama os Doze pelo nome, confia-lhes autoridade espiritual e os envia ao encontro do povo.",
+          "A missão nasce da intimidade com Cristo antes de se tornar anúncio e serviço.",
+          "Todo chamado é graça recebida para o bem dos outros e nunca posse privada."
+        ]
+      },
+      "closingQuote": {
+        "text": "Senhor, fazei de mim um instrumento de vossa paz.",
+        "source": "São Francisco de Assis",
+        "reason": "Frase tradicionalmente associada à espiritualidade franciscana e amplamente usada na vida da Igreja; foi escolhida porque o evangelho fala de envio missionário, em sintonia com a vida apostólica e formativa do Beato João Schiavo."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/070826.cfm",
+        "saint": "https://santo.cancaonova.com/santo/beato-joao-schiavo-fundador-da-missão-josefina-no-brasil/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-09": {
+      "status": "complete",
+      "editionLabel": "9 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "memoria",
+        "season": "14ª Semana do Tempo Comum",
+        "celebrationTitle": "Santa Paulina do Coração Agonizante de Jesus",
+        "colorName": "branco",
+        "cssColor": "#FFFFFF",
+        "gospelShort": "Mt 10, 7-15"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 9 de Julho",
+        "name": "Santa Paulina do Coração Agonizante de Jesus",
+        "description": "Primeira santa do Brasil, fundadora e serva dos pobres, dos enfermos e dos mais vulneráveis.",
+        "url": "https://santo.cancaonova.com/santo/santa-paulina-do-coracao-agonizante-de-jesus/"
+      },
+      "gospel": {
+        "ref": "Evangelho da memória de Santa Paulina no Brasil: Mateus 10, 7-15.",
+        "lines": [
+          "Jesus envia os discípulos a anunciar o Reino com simplicidade, gratuidade e confiança.",
+          "O missionário não leva a si mesmo, mas a paz de Deus e o cuidado pelos feridos.",
+          "A vida cristã frutifica quando o que recebemos de graça se transforma em doação."
+        ]
+      },
+      "closingQuote": {
+        "text": "Nunca, jamais desanimeis, embora venham ventos contrários.",
+        "source": "Santa Paulina",
+        "reason": "Frase amplamente associada a Santa Paulina; foi escolhida porque a memória brasileira da santa e o evangelho do envio pedem perseverança, generosidade e coragem missionária."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://liturgia.cancaonova.com/pb/liturgia/santa-paulina-do-coracao-agonizante-de-jesus-virgem-memoria-quarta-feira/",
+        "saint": "https://santo.cancaonova.com/santo/santa-paulina-do-coracao-agonizante-de-jesus/",
+        "quote": "",
+        "liturgy": "https://liturgia.cancaonova.com/pb/liturgia/santa-paulina-do-coracao-agonizante-de-jesus-virgem-memoria-quarta-feira/"
+      },
+      "sourceUrl": "https://liturgia.cancaonova.com/pb/liturgia/santa-paulina-do-coracao-agonizante-de-jesus-virgem-memoria-quarta-feira/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-10": {
+      "status": "complete",
+      "editionLabel": "10 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "14ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 10, 16-23"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 10 de Julho",
+        "name": "Santo Olavo",
+        "description": "Rei da Noruega que favoreceu a evangelização do seu povo e permaneceu firme na confissão cristã.",
+        "url": "https://santo.cancaonova.com/santo/santo-olavo-rei-da-noruega/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 10, 16-23, sexta-feira da 14ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus prepara os discípulos para perseguições sem lhes tirar a paz nem a confiança.",
+          "A prudência e a simplicidade caminham juntas na missão quando o Reino encontra resistências.",
+          "O Espírito sustenta o testemunho fiel nos momentos em que a fé é provada."
+        ]
+      },
+      "closingQuote": {
+        "text": "Não tenhais medo.",
+        "source": "São João Paulo II",
+        "reason": "Frase clássica de São João Paulo II; foi escolhida porque o evangelho trata da coragem em meio à perseguição, e o santo do dia é lembrado pela firmeza da fé."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/071026.cfm",
+        "saint": "https://santo.cancaonova.com/santo/santo-olavo-rei-da-noruega/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-11": {
+      "status": "complete",
+      "editionLabel": "11 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "memoria",
+        "season": "14ª Semana do Tempo Comum",
+        "celebrationTitle": "São Bento, Abade",
+        "colorName": "branco",
+        "cssColor": "#FFFFFF",
+        "gospelShort": "Mt 10, 24-33"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 11 de Julho",
+        "name": "São Bento",
+        "description": "Pai do monaquismo ocidental, mestre de equilíbrio espiritual, oração e vida fraterna.",
+        "url": "https://santo.cancaonova.com/santo/sao-bento-vida-de-oracao-e-meditacao1/"
+      },
+      "gospel": {
+        "ref": "Evangelho da memória de São Bento: Mateus 10, 24-33.",
+        "lines": [
+          "Jesus convida os discípulos a não viverem paralisados pelo medo diante das pressões do mundo.",
+          "A confiança no Pai sustenta quem deseja permanecer fiel, mesmo quando a verdade custa caro.",
+          "Testemunhar Cristo exige coragem serena, coração livre e perseverança no bem."
+        ]
+      },
+      "closingQuote": {
+        "text": "Ora et labora.",
+        "source": "São Bento",
+        "reason": "Fórmula clássica ligada à espiritualidade beneditina; foi escolhida porque resume a fidelidade concreta a Cristo pedida pelo evangelho e o caminho de santidade proposto por São Bento."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://liturgia.cancaonova.com/pb/liturgia/sao-bento-abade-memoria-sexta-feira/",
+        "saint": "https://santo.cancaonova.com/santo/sao-bento-vida-de-oracao-e-meditacao1/",
+        "quote": "",
+        "liturgy": "https://liturgia.cancaonova.com/pb/liturgia/sao-bento-abade-memoria-sexta-feira/"
+      },
+      "sourceUrl": "https://liturgia.cancaonova.com/pb/liturgia/sao-bento-abade-memoria-sexta-feira/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-12": {
+      "status": "complete",
+      "editionLabel": "12 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "Tempo Comum",
+        "celebrationTitle": "15º Domingo do Tempo Comum",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 13, 1-23"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 12 de Julho",
+        "name": "São João Gualberto",
+        "description": "Monge que converteu a dor em perdão e se tornou exemplo de reconciliação e vida austera.",
+        "url": "https://santo.cancaonova.com/santo/sao-joao-gualberto-heroi-do-perdao/"
+      },
+      "gospel": {
+        "ref": "Evangelho do 15º Domingo do Tempo Comum no Brasil: Mateus 13, 1-23.",
+        "lines": [
+          "Jesus compara a Palavra à semente que encontra corações em condições diferentes.",
+          "O fruto depende da escuta profunda, da perseverança e da liberdade interior diante dos espinhos.",
+          "A vida cristã amadurece quando a Palavra desce da superfície e se torna decisão concreta."
+        ]
+      },
+      "closingQuote": {
+        "text": "A medida do amor é amar sem medida.",
+        "source": "Santo Agostinho",
+        "reason": "Frase amplamente atribuída a Santo Agostinho; foi escolhida porque a parábola do semeador pede um coração inteiro para Deus, e São João Gualberto respondeu com perdão radical."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/071226.cfm",
+        "saint": "https://santo.cancaonova.com/santo/sao-joao-gualberto-heroi-do-perdao/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-13": {
+      "status": "complete",
+      "editionLabel": "13 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "15ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 10, 34-11, 1"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 13 de Julho",
+        "name": "São Henrique II",
+        "description": "Imperador que procurou submeter o poder terreno ao serviço de Deus e do bem comum.",
+        "url": "https://santo.cancaonova.com/santo/sao-henrique-ii-imperador-romano/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 10, 34-11, 1, segunda-feira da 15ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus mostra que segui-lo toca o centro das escolhas e redefine prioridades.",
+          "O amor a Cristo pede liberdade interior e disposição para carregar a cruz.",
+          "O discípulo amadurece quando prefere o Evangelho a toda segurança aparente."
+        ]
+      },
+      "closingQuote": {
+        "text": "Começa já a ser santo.",
+        "source": "São Josemaría Escrivá",
+        "reason": "Frase amplamente conhecida de São Josemaría; foi escolhida porque o evangelho pede decisão e inteireza, e São Henrique buscou viver a fé no meio das responsabilidades públicas."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/071326.cfm",
+        "saint": "https://santo.cancaonova.com/santo/sao-henrique-ii-imperador-romano/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-14": {
+      "status": "complete",
+      "editionLabel": "14 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "15ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 11, 20-24"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 14 de Julho",
+        "name": "São Camilo de Léllis",
+        "description": "Sacerdote que reconhecia no enfermo o rosto de Cristo e fundou uma obra de cuidado misericordioso.",
+        "url": "https://santo.cancaonova.com/santo/sao-camilo-de-lellis-patrono-dos-enfermos/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 11, 20-24, terça-feira da 15ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus lamenta a resistência das cidades que viram sinais, mas não se converteram.",
+          "A graça recebida pede resposta concreta e não mera admiração passageira.",
+          "O coração cristão cresce quando acolhe a visita de Deus e muda de vida."
+        ]
+      },
+      "closingQuote": {
+        "text": "Os doentes nos revelam o rosto de Deus.",
+        "source": "São Camilo de Léllis",
+        "reason": "Frase ligada à tradição espiritual camiliana; foi escolhida porque o evangelho chama à conversão prática, e São Camilo respondeu vendo Cristo nos mais frágeis."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/071426.cfm",
+        "saint": "https://santo.cancaonova.com/santo/sao-camilo-de-lellis-patrono-dos-enfermos/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-15": {
+      "status": "complete",
+      "editionLabel": "15 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "memoria",
+        "season": "15ª Semana do Tempo Comum",
+        "celebrationTitle": "São Boaventura, Bispo e Doutor da Igreja",
+        "colorName": "branco",
+        "cssColor": "#FFFFFF",
+        "gospelShort": "Mt 11, 25-27"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 15 de Julho",
+        "name": "São Boaventura",
+        "description": "Doutor da Igreja que uniu contemplação, ciência teológica e profundo amor a Cristo.",
+        "url": "https://santo.cancaonova.com/santo/sao-boaventura-doutor-da-igreja/"
+      },
+      "gospel": {
+        "ref": "Evangelho da memória de São Boaventura: Mateus 11, 25-27.",
+        "lines": [
+          "Jesus louva o Pai porque os pequenos acolhem o que os soberbos não percebem.",
+          "O verdadeiro conhecimento de Deus nasce da revelação e da comunhão com o Filho.",
+          "A sabedoria cristã é humilde, adorante e sempre aberta à luz do alto."
+        ]
+      },
+      "closingQuote": {
+        "text": "Cristo é o caminho de todas as ciências.",
+        "source": "São Boaventura",
+        "reason": "Síntese fiel do pensamento de São Boaventura, amplamente reconhecida em sua tradição teológica; foi escolhida porque o evangelho une revelação, humildade e verdadeiro conhecimento."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://liturgia.cancaonova.com/pb/liturgia/sao-boaventura-bispo-e-doutor-da-igreja-memoria-terca-feira/",
+        "saint": "https://santo.cancaonova.com/santo/sao-boaventura-doutor-da-igreja/",
+        "quote": "",
+        "liturgy": "https://liturgia.cancaonova.com/pb/liturgia/sao-boaventura-bispo-e-doutor-da-igreja-memoria-terca-feira/"
+      },
+      "sourceUrl": "https://liturgia.cancaonova.com/pb/liturgia/sao-boaventura-bispo-e-doutor-da-igreja-memoria-terca-feira/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-16": {
+      "status": "complete",
+      "editionLabel": "16 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "festa",
+        "season": "15ª Semana do Tempo Comum",
+        "celebrationTitle": "Nossa Senhora do Carmo",
+        "colorName": "branco",
+        "cssColor": "#FFFFFF",
+        "gospelShort": "Mt 12, 46-50"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 16 de Julho",
+        "name": "Nossa Senhora do Carmo",
+        "description": "Invocação mariana ligada ao escapulário e à vida de confiança, oração e pertença a Cristo.",
+        "url": "https://santo.cancaonova.com/santo/nossa-senhora-do-carmo-virgem-do-escapulario/"
+      },
+      "gospel": {
+        "ref": "Evangelho da festa de Nossa Senhora do Carmo no Brasil: Mateus 12, 46-50.",
+        "lines": [
+          "Jesus revela que a verdadeira família se forma na escuta e no cumprimento da vontade do Pai.",
+          "Maria aparece como modelo perfeito de disponibilidade e obediência fiel à Palavra.",
+          "A vida espiritual amadurece quando o cristão aprende a pertencer a Cristo com inteireza."
+        ]
+      },
+      "closingQuote": {
+        "text": "Fazei tudo o que Ele vos disser.",
+        "source": "Nossa Senhora",
+        "reason": "É a palavra mariana das bodas de Caná, tradicionalmente ligada à espiritualidade de confiança em Maria; foi escolhida porque o evangelho valoriza quem faz a vontade do Pai."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://liturgia.cancaonova.com/pb/liturgia/15a-semana-tempo-comum-nossa-senhora-carmo-sexta-feira/",
+        "saint": "https://santo.cancaonova.com/santo/nossa-senhora-do-carmo-virgem-do-escapulario/",
+        "quote": "",
+        "liturgy": "https://liturgia.cancaonova.com/pb/liturgia/15a-semana-tempo-comum-nossa-senhora-carmo-sexta-feira/"
+      },
+      "sourceUrl": "https://liturgia.cancaonova.com/pb/liturgia/15a-semana-tempo-comum-nossa-senhora-carmo-sexta-feira/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-17": {
+      "status": "complete",
+      "editionLabel": "17 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "memoria",
+        "season": "15ª Semana do Tempo Comum",
+        "celebrationTitle": "Bem-aventurado Inácio de Azevedo e companheiros mártires",
+        "colorName": "vermelho",
+        "cssColor": "#C62828",
+        "gospelShort": "Mt 11, 28-30"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 17 de Julho",
+        "name": "Bem-aventurado Inácio de Azevedo e companheiros mártires",
+        "description": "Mártires jesuítas ligados à missão no Brasil, mortos a caminho do anúncio do Evangelho.",
+        "url": "https://santo.cancaonova.com/santo/beato-inacio-de-azevedo-e-companheiros-mártires/"
+      },
+      "gospel": {
+        "ref": "Evangelho da memória brasileira do Bem-aventurado Inácio de Azevedo e companheiros: Mateus 11, 28-30.",
+        "lines": [
+          "Jesus convida os cansados a entrarem no seu descanso pela mansidão e pela humildade.",
+          "O martírio cristão não é peso sem sentido, mas união total ao coração do Senhor.",
+          "A missão floresce quando o discípulo aprende a carregar o jugo de Cristo com amor."
+        ]
+      },
+      "closingQuote": {
+        "text": "Glorificetur Deus.",
+        "source": "São Francisco Solano",
+        "reason": "Frase histórica ligada a São Francisco Solano e muito adequada ao espírito missionário; foi escolhida porque o evangelho oferece o descanso em Cristo e os beatos deram a vida pela missão em terras ligadas ao Brasil."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://liturgia.cancaonova.com/pb/liturgia/bem-aventurado-inacio-de-azevedo-presbitero-e-companheiros-mártires-memoria-sexta-feira/",
+        "saint": "https://santo.cancaonova.com/santo/beato-inacio-de-azevedo-e-companheiros-mártires/",
+        "quote": "",
+        "liturgy": "https://liturgia.cancaonova.com/pb/liturgia/bem-aventurado-inacio-de-azevedo-presbitero-e-companheiros-mártires-memoria-sexta-feira/"
+      },
+      "sourceUrl": "https://liturgia.cancaonova.com/pb/liturgia/bem-aventurado-inacio-de-azevedo-presbitero-e-companheiros-mártires-memoria-sexta-feira/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-18": {
+      "status": "complete",
+      "editionLabel": "18 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "15ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 12, 14-21"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 18 de Julho",
+        "name": "São Francisco Solano",
+        "description": "Missionário franciscano de ardor alegre, lembrado como grande evangelizador da América Latina.",
+        "url": "https://santo.cancaonova.com/santo/padroeiro-dos-missionarios-da-america-latina/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 12, 14-21, sábado da 15ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus não responde ao mal com violência, mas permanece fiel à missão recebida do Pai.",
+          "Nele se cumpre o Servo manso que cura, não apaga o pavio vacilante e sustenta a esperança.",
+          "O discípulo é chamado a unir firmeza missionária e delicadeza com os frágeis."
+        ]
+      },
+      "closingQuote": {
+        "text": "Glorificetur Deus.",
+        "source": "São Francisco Solano",
+        "reason": "Expressão historicamente ligada às últimas palavras de São Francisco Solano; foi escolhida porque o evangelho apresenta a mansidão operante de Cristo e a vida do santo foi inteiramente missionária."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/071826.cfm",
+        "saint": "https://santo.cancaonova.com/santo/padroeiro-dos-missionarios-da-america-latina/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-19": {
+      "status": "complete",
+      "editionLabel": "19 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "Tempo Comum",
+        "celebrationTitle": "16º Domingo do Tempo Comum",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 13, 24-43"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 19 de Julho",
+        "name": "São Símaco",
+        "description": "Papa que serviu a Igreja em meio a conflitos, buscando concórdia, justiça e paz.",
+        "url": "https://santo.cancaonova.com/santo/sao-simaco-papa-justo-e-conciliador/"
+      },
+      "gospel": {
+        "ref": "Evangelho do 16º Domingo do Tempo Comum no Brasil: Mateus 13, 24-43.",
+        "lines": [
+          "Jesus ensina que trigo e joio crescem juntos até o tempo da colheita definitiva.",
+          "A paciência de Deus não é indiferença, mas espaço misericordioso para conversão e maturidade.",
+          "O discípulo aprende a trabalhar pelo bem sem desespero, confiando no juízo justo do Senhor."
+        ]
+      },
+      "closingQuote": {
+        "text": "A paz é obra da justiça.",
+        "source": "São João Paulo II",
+        "reason": "Frase amplamente associada ao magistério de São João Paulo II; foi escolhida porque o evangelho fala da paciência de Deus diante do joio e São Símaco foi lembrado como papa conciliador."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/071926.cfm",
+        "saint": "https://santo.cancaonova.com/santo/sao-simaco-papa-justo-e-conciliador/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-20": {
+      "status": "complete",
+      "editionLabel": "20 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "16ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 12, 38-42"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 20 de Julho",
+        "name": "Santo Apolinário",
+        "description": "Bispo de Ravena e mártir, lembrado pela firmeza apostólica e pelo zelo pastoral.",
+        "url": "https://santo.cancaonova.com/santo/santo-apolinario-bispo-de-ravena/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 12, 38-42, segunda-feira da 16ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus recusa a curiosidade vazia e aponta para o sinal decisivo da sua própria Páscoa.",
+          "A conversão autêntica não depende de espetáculo, mas da acolhida obediente da Palavra.",
+          "O coração amadurece quando reconhece em Cristo o maior dom já oferecido por Deus."
+        ]
+      },
+      "closingQuote": {
+        "text": "Quem reza se salva.",
+        "source": "Santo Afonso Maria de Ligório",
+        "reason": "Frase amplamente atribuída a Santo Afonso; foi escolhida porque o evangelho denuncia a superficialidade religiosa e convida a uma resposta verdadeira, firme e perseverante, como no testemunho de Santo Apolinário."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/072026.cfm",
+        "saint": "https://santo.cancaonova.com/santo/santo-apolinario-bispo-de-ravena/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-21": {
+      "status": "complete",
+      "editionLabel": "21 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "16ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 12, 46-50"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 21 de Julho",
+        "name": "São Lourenço de Brindes",
+        "description": "Capuchinho, doutor da Igreja e pregador que uniu sabedoria bíblica, missionação e pacificação.",
+        "url": "https://santo.cancaonova.com/santo/sao-lourenco-de-brindes-homem-de-deus-e-pacificador/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 12, 46-50, terça-feira da 16ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus declara que a verdadeira família nasce do cumprimento da vontade do Pai.",
+          "A comunhão com Cristo não é só proximidade externa, mas adesão interior e obediente.",
+          "A santidade floresce quando a Palavra modela vínculos, decisões e prioridades."
+        ]
+      },
+      "closingQuote": {
+        "text": "Ama e faze o que quiseres.",
+        "source": "Santo Agostinho",
+        "reason": "Frase clássica de Santo Agostinho; foi escolhida porque o evangelho define a família de Jesus pela obediência amorosa ao Pai, e São Lourenço de Brindes viveu essa fidelidade na missão."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/072126.cfm",
+        "saint": "https://santo.cancaonova.com/santo/sao-lourenco-de-brindes-homem-de-deus-e-pacificador/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-22": {
+      "status": "complete",
+      "editionLabel": "22 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "festa",
+        "season": "16ª Semana do Tempo Comum",
+        "celebrationTitle": "Santa Maria Madalena",
+        "colorName": "branco",
+        "cssColor": "#FFFFFF",
+        "gospelShort": "Jo 20, 1-2.11-18"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 22 de Julho",
+        "name": "Santa Maria Madalena",
+        "description": "Discípula fiel de Jesus, primeira testemunha do Ressuscitado e anunciadora da Páscoa aos apóstolos.",
+        "url": "https://liturgia.cancaonova.com/pb/liturgia/santa-maria-madalena-festa-terca-feira/"
+      },
+      "gospel": {
+        "ref": "Evangelho da festa de Santa Maria Madalena: João 20, 1-2.11-18.",
+        "lines": [
+          "Maria Madalena busca o Senhor com lágrimas e é chamada pelo nome pelo Ressuscitado.",
+          "O encontro pessoal com Cristo transforma tristeza em missão e saudade em anúncio.",
+          "A fé pascal amadurece quando o discípulo reconhece a voz do Mestre e corre a partilhar a esperança."
+        ]
+      },
+      "closingQuote": {
+        "text": "Vi o Senhor.",
+        "source": "Santa Maria Madalena",
+        "reason": "É a síntese do anúncio pascal de Maria Madalena no próprio evangelho da festa; foi escolhida por expressar discipulado, encontro e missão."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://liturgia.cancaonova.com/pb/liturgia/santa-maria-madalena-festa-terca-feira/",
+        "saint": "https://liturgia.cancaonova.com/pb/liturgia/santa-maria-madalena-festa-terca-feira/",
+        "quote": "",
+        "liturgy": "https://liturgia.cancaonova.com/pb/liturgia/santa-maria-madalena-festa-terca-feira/"
+      },
+      "sourceUrl": "https://liturgia.cancaonova.com/pb/liturgia/santa-maria-madalena-festa-terca-feira/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-23": {
+      "status": "complete",
+      "editionLabel": "23 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "16ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 13, 10-17"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 23 de Julho",
+        "name": "Santa Brígida",
+        "description": "Mãe, mística e religiosa, conselheira espiritual e intercessora pelas famílias e pela Igreja.",
+        "url": "https://santo.cancaonova.com/santo/santa-brigida-mae-e-monja/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 13, 10-17, quinta-feira da 16ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus explica que as parábolas revelam os mistérios do Reino a quem se abre com humildade.",
+          "Ver e ouvir de verdade exige conversão do coração e não apenas inteligência exterior.",
+          "O discípulo agradece a graça de receber luz e pede fidelidade para corresponder a ela."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo passa; Deus não muda.",
+        "source": "Santa Teresa de Jesus",
+        "reason": "Frase amplamente reconhecida de Santa Teresa de Jesus; foi escolhida porque o evangelho fala da graça de compreender os mistérios do Reino, e Santa Brígida viveu forte intimidade contemplativa com Deus."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/072326.cfm",
+        "saint": "https://santo.cancaonova.com/santo/santa-brigida-mae-e-monja/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-24": {
+      "status": "complete",
+      "editionLabel": "24 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "16ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 13, 18-23"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 24 de Julho",
+        "name": "São Charbel Makhluf",
+        "description": "Monge maronita de vida austera, oração silenciosa e grande fama de santidade e milagres.",
+        "url": "https://santo.cancaonova.com/santo/sao-charbel-makhluf-presbitero-e-monge/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 13, 18-23, sexta-feira da 16ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus explica que a boa terra é o coração que escuta, compreende e persevera na Palavra.",
+          "As dificuldades, os interesses e as preocupações testam a profundidade da fé.",
+          "A fecundidade espiritual nasce da escuta paciente e da fidelidade escondida."
+        ]
+      },
+      "closingQuote": {
+        "text": "O fruto do silêncio é a oração.",
+        "source": "Santa Teresa de Calcutá",
+        "reason": "Frase amplamente atribuída a Santa Teresa de Calcutá; foi escolhida porque o evangelho exalta a terra boa e São Charbel é lembrado justamente pela profundidade silenciosa da vida interior."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/072426.cfm",
+        "saint": "https://santo.cancaonova.com/santo/sao-charbel-makhluf-presbitero-e-monge/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-25": {
+      "status": "complete",
+      "editionLabel": "25 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "festa",
+        "season": "16ª Semana do Tempo Comum",
+        "celebrationTitle": "São Tiago, Apóstolo",
+        "colorName": "vermelho",
+        "cssColor": "#C62828",
+        "gospelShort": "Mt 20, 20-28"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 25 de Julho",
+        "name": "São Tiago Apóstolo",
+        "description": "Apóstolo do Senhor chamado a servir, a beber o cálice de Cristo e a testemunhar o Evangelho.",
+        "url": "https://liturgia.cancaonova.com/pb/liturgia/sao-tiago-apostolo-festa-sexta-feira/"
+      },
+      "gospel": {
+        "ref": "Evangelho da festa de São Tiago, Apóstolo: Mateus 20, 20-28.",
+        "lines": [
+          "Jesus corrige a busca de destaque e ensina que a grandeza do discípulo está no serviço.",
+          "Participar do cálice de Cristo significa unir-se ao seu caminho de entrega.",
+          "A autoridade cristã só é autêntica quando se faz humilde e disponível aos irmãos."
+        ]
+      },
+      "closingQuote": {
+        "text": "Quem quiser ser o primeiro, seja servo.",
+        "source": "Jesus Cristo",
+        "reason": "Frase do próprio evangelho da festa; foi escolhida porque traduz com precisão a vocação apostólica de São Tiago e o núcleo espiritual do dia."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://liturgia.cancaonova.com/pb/liturgia/sao-tiago-apostolo-festa-sexta-feira/",
+        "saint": "https://liturgia.cancaonova.com/pb/liturgia/sao-tiago-apostolo-festa-sexta-feira/",
+        "quote": "",
+        "liturgy": "https://liturgia.cancaonova.com/pb/liturgia/sao-tiago-apostolo-festa-sexta-feira/"
+      },
+      "sourceUrl": "https://liturgia.cancaonova.com/pb/liturgia/sao-tiago-apostolo-festa-sexta-feira/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-26": {
+      "status": "complete",
+      "editionLabel": "26 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "Tempo Comum",
+        "celebrationTitle": "17º Domingo do Tempo Comum",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 13, 44-52"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 26 de Julho",
+        "name": "São Joaquim e Sant'Ana",
+        "description": "Pais de Maria e avós de Jesus, venerados como testemunhas da esperança e da fé no ambiente familiar.",
+        "url": "https://santo.cancaonova.com/santo/sao-joaquim-e-santana-avos-de-jesus/"
+      },
+      "gospel": {
+        "ref": "Evangelho do 17º Domingo do Tempo Comum no Brasil: Mateus 13, 44-52.",
+        "lines": [
+          "Jesus compara o Reino ao tesouro e à pérola que merecem a entrega total da vida.",
+          "A descoberta de Deus reorganiza valores, desejos e escolhas com alegria verdadeira.",
+          "O discípulo maduro aprende a reconhecer o que vale para sempre e a viver segundo essa prioridade."
+        ]
+      },
+      "closingQuote": {
+        "text": "Só Deus basta.",
+        "source": "Santa Teresa de Jesus",
+        "reason": "Trecho clássico da tradição teresiana; foi escolhida porque o evangelho fala do tesouro maior e São Joaquim e Sant'Ana remetem à fé simples que prepara o caminho do Salvador."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/072626.cfm",
+        "saint": "https://santo.cancaonova.com/santo/sao-joaquim-e-santana-avos-de-jesus/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-27": {
+      "status": "complete",
+      "editionLabel": "27 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "17ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 13, 31-35"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 27 de Julho",
+        "name": "São Pantaleão",
+        "description": "Médico e mártir que servia gratuitamente os necessitados e confessou Cristo até a morte.",
+        "url": "https://santo.cancaonova.com/santo/page/38/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 13, 31-35, segunda-feira da 17ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus mostra que o Reino começa pequeno como semente e fermento, mas transforma tudo por dentro.",
+          "Deus age discretamente e faz crescer o que foi acolhido com fidelidade.",
+          "A santidade cotidiana é um modo escondido e real de cooperar com a expansão do Reino."
+        ]
+      },
+      "closingQuote": {
+        "text": "O bem permanece.",
+        "source": "São Camilo de Léllis",
+        "reason": "Frase breve ligada à tradição de São Camilo; foi escolhida porque o evangelho fala do crescimento silencioso do Reino, e São Pantaleão serviu no escondimento da caridade até o martírio."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/072726.cfm",
+        "saint": "https://santo.cancaonova.com/santo/page/38/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-28": {
+      "status": "complete",
+      "editionLabel": "28 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "17ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 13, 36-43"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 28 de Julho",
+        "name": "Beatos José Caselles Moncho e José Castell Camps",
+        "description": "Salesianos mártires que permaneceram fiéis a Cristo em contexto de perseguição violenta.",
+        "url": "https://santo.cancaonova.com/santo/beatos-jose-caselles-moncho-e-jose-castell-camps-mártires-salesianos/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 13, 36-43, terça-feira da 17ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus explica a parábola do joio e lembra que a história caminha para a verdade plena de Deus.",
+          "O mal não terá a última palavra, e os justos brilharão no Reino do Pai.",
+          "A esperança cristã sustenta a fidelidade mesmo quando a realidade parece confusa ou hostil."
+        ]
+      },
+      "closingQuote": {
+        "text": "A esperança não decepciona.",
+        "source": "São Paulo Apóstolo",
+        "reason": "Frase bíblica paulina, tradicional na vida da Igreja; foi escolhida porque o evangelho fala da colheita final e os beatos do dia testemunham perseverança na esperança até o fim."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/072826.cfm",
+        "saint": "https://santo.cancaonova.com/santo/beatos-jose-caselles-moncho-e-jose-castell-camps-mártires-salesianos/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-29": {
+      "status": "complete",
+      "editionLabel": "29 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "memoria",
+        "season": "17ª Semana do Tempo Comum",
+        "celebrationTitle": "Santos Marta, Maria e Lázaro",
+        "colorName": "branco",
+        "cssColor": "#FFFFFF",
+        "gospelShort": "Jo 11, 19-27 ou Lc 10, 38-42"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 29 de Julho",
+        "name": "Santos Marta, Maria e Lázaro",
+        "description": "Amigos de Jesus em Betânia, sinal de família que acolhe, escuta, serve e crê.",
+        "url": "https://santo.cancaonova.com/santo/santos-marta-maria-e-lazaro-amigos-de-jesus/"
+      },
+      "gospel": {
+        "ref": "Evangelho da memória dos Santos Marta, Maria e Lázaro: João 11, 19-27 ou Lucas 10, 38-42.",
+        "lines": [
+          "A liturgia mostra a casa de Betânia como lugar de amizade, serviço, escuta e fé em Cristo.",
+          "Marta professa a fé, Maria se coloca aos pés do Senhor e Lázaro recorda a esperança da vida nova.",
+          "A família cristã é chamada a unir acolhida, contemplação e confiança no Ressuscitado."
+        ]
+      },
+      "closingQuote": {
+        "text": "Para Deus, nada é pequeno.",
+        "source": "Santa Teresa de Calcutá",
+        "reason": "Frase amplamente atribuída a Santa Teresa de Calcutá; foi escolhida porque a memória de Betânia valoriza a santidade do lar, do serviço e da escuta concreta de Jesus."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://liturgia.cancaonova.com/pb/liturgia/santos-marta-maria-e-lazaro-memoria-terca-feira/",
+        "saint": "https://santo.cancaonova.com/santo/santos-marta-maria-e-lazaro-amigos-de-jesus/",
+        "quote": "",
+        "liturgy": "https://liturgia.cancaonova.com/pb/liturgia/santos-marta-maria-e-lazaro-memoria-terca-feira/"
+      },
+      "sourceUrl": "https://liturgia.cancaonova.com/pb/liturgia/santos-marta-maria-e-lazaro-memoria-terca-feira/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-30": {
+      "status": "complete",
+      "editionLabel": "30 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "17ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 13, 47-53"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 30 de Julho",
+        "name": "São Pedro Crisólogo",
+        "description": "Bispo e doutor da Igreja, célebre pregador que anunciava a fé com clareza e vigor pastoral.",
+        "url": "https://santo.cancaonova.com/santo/sao-pedro-crisologo-famoso-pregador-do-evangelho/"
+      },
+      "gospel": {
+        "ref": "Evangelho do dia no Brasil: Mateus 13, 47-53, quinta-feira da 17ª Semana do Tempo Comum.",
+        "lines": [
+          "Jesus compara o Reino a uma rede que recolhe de tudo e aponta para o discernimento final.",
+          "A vida presente é tempo de conversão, seriedade e preparação para o encontro definitivo com Deus.",
+          "O discípulo sábio aprende a guardar o antigo e o novo à luz do Evangelho."
+        ]
+      },
+      "closingQuote": {
+        "text": "Pregai sempre o Evangelho.",
+        "source": "São Francisco de Assis",
+        "reason": "Frase amplamente associada a São Francisco de Assis; foi escolhida porque o evangelho fala do discernimento do Reino e São Pedro Crisólogo foi grande pregador e formador do povo na fé."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://bible.usccb.org/bible/readings/073026.cfm",
+        "saint": "https://santo.cancaonova.com/santo/sao-pedro-crisologo-famoso-pregador-do-evangelho/",
+        "quote": "",
+        "liturgy": "https://www.cnbb.org.br/liturgia-diaria/"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-07-31": {
+      "status": "complete",
+      "editionLabel": "31 de julho de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "memoria",
+        "season": "17ª Semana do Tempo Comum",
+        "celebrationTitle": "Santo Inácio de Loyola",
+        "colorName": "branco",
+        "cssColor": "#FFFFFF",
+        "gospelShort": "Mt 13, 54-58"
+      },
+      "saint": {
+        "feast": "Santo do Dia - 31 de Julho",
+        "name": "Santo Inácio de Loyola",
+        "description": "Fundador da Companhia de Jesus, mestre do discernimento e dos Exercícios Espirituais.",
+        "url": "https://santo.cancaonova.com/santo/santo-inacio-de-loyola-fundador-da-companhia-de-jesus/"
+      },
+      "gospel": {
+        "ref": "Evangelho da memória de Santo Inácio de Loyola: Mateus 13, 54-58.",
+        "lines": [
+          "Jesus é recusado por quem pensa conhecê-lo apenas de modo superficial.",
+          "A familiaridade sem abertura do coração pode impedir o acolhimento da graça.",
+          "O discípulo é chamado a renovar o olhar para reconhecer a ação de Deus além das aparências."
+        ]
+      },
+      "closingQuote": {
+        "text": "Em tudo amar e servir.",
+        "source": "Santo Inácio de Loyola",
+        "reason": "Síntese clássica da espiritualidade inaciana; foi escolhida porque a memória do santo convida ao discernimento concreto, e o evangelho pede um olhar de fé que vá além do costume."
+      },
+      "sourceUrls": {
+        "liturgyPolicy": "https://www.cnbb.org.br/liturgia-diaria/",
+        "liturgyDraft": "https://liturgia.cancaonova.com/pb/liturgia/santo-inacio-de-loyola-presbitero-memoria-sexta-feira/",
+        "saint": "https://santo.cancaonova.com/santo/santo-inacio-de-loyola-fundador-da-companhia-de-jesus/",
+        "quote": "",
+        "liturgy": "https://liturgia.cancaonova.com/pb/liturgia/santo-inacio-de-loyola-presbitero-memoria-sexta-feira/"
+      },
+      "sourceUrl": "https://liturgia.cancaonova.com/pb/liturgia/santo-inacio-de-loyola-presbitero-memoria-sexta-feira/",
+      "reviewStatus": "operational-cache",
+      "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
     }
   }
 }

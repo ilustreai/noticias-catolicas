@@ -226,6 +226,22 @@ function pickByKind(items, kind, limit, selected, sourceCounts) {
   }
 }
 
+function saintUrlFromLiturgy(liturgy) {
+  return liturgy?.saint?.url || liturgy?.sourceUrls?.saint || '';
+}
+
+function attachSaintUrl(selection, liturgy) {
+  const saintUrl = saintUrlFromLiturgy(liturgy);
+  if (!saintUrl) return selection;
+  return {
+    ...selection,
+    saint: {
+      ...selection.saint,
+      url: selection.saint?.url || saintUrl
+    }
+  };
+}
+
 function deterministicSelection(candidates) {
   const selected = [];
   const sourceCounts = new Map();
@@ -316,7 +332,7 @@ async function main() {
   }
 
   const ai = await aiSelection({ date, liturgy, candidates });
-  const selection = ai ?? {
+  let selection = ai ?? {
     date,
     editionLabel: liturgy.editionLabel,
     liturgical: liturgy.liturgical,
@@ -326,6 +342,7 @@ async function main() {
     news: deterministicSelection(candidates),
     closingQuote: liturgy.closingQuote
   };
+  selection = attachSaintUrl(selection, liturgy);
 
   const result = validateSelection(selection);
   if (!result.ok) {
