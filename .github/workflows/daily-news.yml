@@ -67,8 +67,14 @@ jobs:
       - name: Verify public site
         shell: bash
         run: |
-          sleep 180
-          html="$(curl -fsSL https://noticias.ilustreai.com.br/)"
-          grep -q "A Igreja viva no mundo de hoje" <<< "$html"
-          count="$(grep -o 'class="news-item' <<< "$html" | wc -l)"
-          test "$count" -ge 5
+          for attempt in {1..12}; do
+            html="$(curl -fsSL https://noticias.ilustreai.com.br/ || true)"
+            count="$(grep -o 'class="news-item' <<< "$html" | wc -l)"
+            if grep -q 'class="hero-title"' <<< "$html" && [ "$count" -ge 5 ]; then
+              exit 0
+            fi
+            echo "Waiting for public site deployment... attempt ${attempt}/12, news items: ${count}"
+            sleep 30
+          done
+          echo "Public site verification failed after waiting for deployment."
+          exit 1

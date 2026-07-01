@@ -70,6 +70,45 @@ function isHttpsUrl(value) {
   }
 }
 
+function isArticleUrl(value) {
+  try {
+    const url = new URL(value);
+    const pathname = url.pathname.replace(/\/+$/, '') || '/';
+    if (pathname === '/') return false;
+    const segments = pathname
+      .split('/')
+      .filter(Boolean)
+      .map((segment) => normalizeText(segment).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''));
+    const menuSegments = new Set([
+      'organismos',
+      'institucional',
+      'sobre',
+      'quem-somos',
+      'contato',
+      'expediente',
+      'conselho-economico-fiscal'
+    ]);
+    if (segments.length <= 1 && menuSegments.has(segments[0])) return false;
+    if (segments.some((segment) => segment.startsWith('conselho-economico'))) return false;
+    if (pathname.includes('_')) return false;
+    if (/\/(pt|en|es|it|fr|de)\.html$/i.test(pathname)) return false;
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function hasEditorialResidue(value) {
+  const text = String(value ?? '');
+  return [
+    /Continue lendo/i,
+    /&#(?:x?[0-9a-f]+);/i,
+    /&amp;#(?:x?[0-9a-f]+);/i,
+    /O post .* apareceu primeiro/i,
+    /L'articolo .+$/i
+  ].some((pattern) => pattern.test(text));
+}
+
 function sourceCount(news, sourceSet) {
   return news.filter((item) => sourceSet.has(sourceKey(item.source))).length;
 }
@@ -151,6 +190,8 @@ export function validateSelection(selection) {
     if (!item.title || item.title.length < 24) errors.push(`${label}.title is too short`);
     if (!item.summary || item.summary.length < 40) errors.push(`${label}.summary is too short`);
     if (!isHttpsUrl(item.url)) errors.push(`${label}.url must be an https URL`);
+    if (isHttpsUrl(item.url) && !isArticleUrl(item.url)) errors.push(`${label}.url must be a clear article URL`);
+    if (hasEditorialResidue(`${item.title} ${item.summary}`)) errors.push(`${label}.text contains editorial residue`);
     if (seenUrls.has(item.url)) errors.push(`${label}.url is duplicated`);
     if (looksLikeSaintContent(item, selection.saint)) errors.push(`${label}.saint content must stay in saint block`);
     seenUrls.add(item.url);
@@ -272,7 +313,12 @@ export function validateRenderedHtml(html, selection) {
   if (!html.includes(selection.gospel.ref)) errors.push('missing gospel ref');
   if (selection.closingQuote?.text && !html.includes(selection.closingQuote.text)) errors.push('missing closing quote text');
   if (selection.closingQuote?.source && !html.includes(selection.closingQuote.source)) errors.push('missing closing quote source');
-  if ((html.match(/class="news-item/g) ?? []).length < 5) errors.push('missing news items');
+  if (!html.includes('class="hero-title"')) errors.push('missing hero title');
+  const renderedNewsCount = (html.match(/class="news-item/g) ?? []).length;
+  if (renderedNewsCount < 5) errors.push('missing news items');
+  if (Array.isArray(selection.news) && renderedNewsCount !== selection.news.length) {
+    errors.push('rendered news item count mismatch');
+  }
   if (html.includes('{{')) errors.push('unresolved template token');
 
   const scriptTags = html.match(/<script[\s\S]*?<\/script>/gi) ?? [];

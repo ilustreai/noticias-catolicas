@@ -128,6 +128,42 @@ test('validateSelection rejects poor source diversity and saint content inside n
   assert.match(result.errors.join('\n'), /saint content must stay in saint block/);
 });
 
+test('validateSelection rejects RSS residue and HTML entities in news text', () => {
+  const draft = structuredClone(validSelection);
+  draft.news[3].summary = 'A comunidade publicou nova agenda pastoral. Continue lendo &#8594; O post apareceu primeiro.';
+
+  const result = validateSelection(draft);
+
+  assert.equal(result.ok, false);
+  assert.match(result.errors.join('\n'), /editorial residue/);
+});
+
+test('validateSelection rejects homepage and menu URLs as news items', () => {
+  const homepageDraft = structuredClone(validSelection);
+  homepageDraft.news[3].url = 'https://noticias.cancaonova.com/';
+
+  const homepageResult = validateSelection(homepageDraft);
+
+  assert.equal(homepageResult.ok, false);
+  assert.match(homepageResult.errors.join('\n'), /article URL/);
+
+  const menuDraft = structuredClone(validSelection);
+  menuDraft.news[2].url = 'https://www.cnbb.org.br/organismos/';
+
+  const menuResult = validateSelection(menuDraft);
+
+  assert.equal(menuResult.ok, false);
+  assert.match(menuResult.errors.join('\n'), /article URL/);
+
+  const genericMenuDraft = structuredClone(validSelection);
+  genericMenuDraft.news[4].url = 'https://comshalom.org/institucional/';
+
+  const genericMenuResult = validateSelection(genericMenuDraft);
+
+  assert.equal(genericMenuResult.ok, false);
+  assert.match(genericMenuResult.errors.join('\n'), /article URL/);
+});
+
 test('validateSelection requires Brazilian feast or solemnity title when rank is special', () => {
   const draft = structuredClone(validSelection);
   draft.liturgical.rank = 'solenidade';
@@ -181,4 +217,47 @@ test('validateRenderedHtml rejects broken or unsafe output', () => {
   assert.match(result.errors.join('\n'), /internal term/);
   assert.match(result.errors.join('\n'), /missing rel/);
   assert.match(result.errors.join('\n'), /inline script/);
+});
+
+test('validateRenderedHtml enforces the public page contract without brittle title text', () => {
+  const eightNewsSelection = structuredClone(validSelection);
+  eightNewsSelection.news = [
+    ...validSelection.news,
+    {
+      source: 'Shalom',
+      title: 'Comunidade Shalom partilha testemunhos de evangelizacao e caridade',
+      summary: 'A comunidade apresentou historias de missao, oracao e servico pastoral em uma pauta leve e confiavel.',
+      url: 'https://comshalom.org/comunidade-shalom-partilha-testemunhos-de-evangelizacao-e-caridade/'
+    },
+    {
+      source: 'Shalom',
+      title: 'Jovens participam de encontro catolico com formacao e louvor',
+      summary: 'O encontro reuniu jovens para momentos de espiritualidade, comunhao e aprofundamento da fe.',
+      url: 'https://comshalom.org/jovens-participam-de-encontro-catolico-com-formacao-e-louvor/'
+    },
+    {
+      source: 'CNBB',
+      title: 'Pastorais sociais reforcam compromisso com comunidades vulneraveis',
+      summary: 'Iniciativas ligadas a Igreja no Brasil seguem acompanhando familias e comunidades em situacao de fragilidade.',
+      url: 'https://www.cnbb.org.br/pastorais-sociais-reforcam-compromisso-com-comunidades-vulneraveis/'
+    }
+  ];
+
+  const html = buildPage(eightNewsSelection);
+  const contract = validateRenderedHtml(html, eightNewsSelection);
+
+  assert.equal(contract.ok, true);
+
+  const oldLiteralTitleCheckWouldFail = !html.includes('A Igreja viva no mundo de hoje');
+  assert.equal(oldLiteralTitleCheckWouldFail, true);
+
+  const missingHero = html.replace('class="hero-title"', 'class="hero-title-missing"');
+  const missingHeroResult = validateRenderedHtml(missingHero, eightNewsSelection);
+  assert.equal(missingHeroResult.ok, false);
+  assert.match(missingHeroResult.errors.join('\n'), /missing hero title/);
+
+  const missingOneNews = html.replace(/<article class="news-item reveal">[\s\S]*?<\/article>/, '');
+  const missingOneNewsResult = validateRenderedHtml(missingOneNews, eightNewsSelection);
+  assert.equal(missingOneNewsResult.ok, false);
+  assert.match(missingOneNewsResult.errors.join('\n'), /rendered news item count mismatch/);
 });
