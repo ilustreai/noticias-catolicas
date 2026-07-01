@@ -1,0 +1,15 @@
+name = "telegram-ilustre-control"
+main = "index.mjs"
+compatibility_date = "2026-07-01"
+
+[vars]
+GITHUB_OWNER = "ilustreai"
+GITHUB_REPO = "noticias-catolicas"
+GITHUB_REF = "main"
+PUBLIC_SITE_URL = "https://noticias.ilustreai.com.br/"
+
+# Configure these as Cloudflare Worker secrets, not plain vars:
+# wrangler secret put TELEGRAM_BOT_TOKEN
+# wrangler secret put TELEGRAM_CHAT_ID
+# wrangler secret put TELEGRAM_WEBHOOK_SECRET
+# wrangler secret put GITHUB_TOKEN
