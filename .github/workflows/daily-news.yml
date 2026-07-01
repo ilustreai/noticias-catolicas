@@ -91,13 +91,6 @@ jobs:
             exit 0
           fi
 
-          run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-          message="Falha na automacao: ${GITHUB_WORKFLOW}
-Repositorio: ${GITHUB_REPOSITORY}
-Branch: ${GITHUB_REF_NAME}
-Commit: ${GITHUB_SHA}
-Run: ${run_url}"
-
           curl -fsS -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
             -d "chat_id=${TELEGRAM_CHAT_ID}" \
-            --data-urlencode "text=${message}"
+            --data-urlencode "text=$(printf 'Falha na automacao: %s\nRepositorio: %s\nBranch: %s\nCommit: %s\nRun: %s/%s/actions/runs/%s' "$GITHUB_WORKFLOW" "$GITHUB_REPOSITORY" "$GITHUB_REF_NAME" "$GITHUB_SHA" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")"
