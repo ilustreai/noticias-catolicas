@@ -1,26 +1,27 @@
 {
-  "date": "2026-06-30",
-  "editionLabel": "30 de junho de 2026",
+  "date": "2026-07-01",
+  "editionLabel": "1 de julho de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "13ª Semana do Tempo Comum",
     "celebrationTitle": "",
     "colorName": "verde",
-    "cssColor": "#2F6B4F",
-    "gospelShort": "Mt 8, 23-27"
+    "cssColor": "#2E7D32",
+    "gospelShort": "Mt 8, 28-34"
   },
   "saint": {
-    "feast": "Memória facultativa - 30 de Junho",
-    "name": "Primeiros Santos Mártires da Igreja de Roma",
-    "description": "Cristãos martirizados em Roma no primeiro século, testemunham a fidelidade a Cristo em meio à perseguição."
+    "feast": "Santo do Dia - 1 de Julho",
+    "name": "Beata Madre Maria Assunta Marchetti",
+    "description": "Religiosa missionária que serviu com ternura os órfãos, os pobres e os migrantes, vendo neles a presença de Cristo.",
+    "url": "https://santo.cancaonova.com/santo/beata-madre-maria-assunta-marchetti/"
   },
   "gospel": {
-    "ref": "Mateus 8, 23-27 - 13ª Semana do Tempo Comum",
+    "ref": "Evangelho do dia no Brasil: Mateus 8, 28-34, quarta-feira da 13ª Semana do Tempo Comum.",
     "lines": [
-      "Jesus acompanha os discípulos no barco em meio a tempestade.",
-      "O medo dos discípulos encontra a autoridade de Cristo sobre o mar.",
-      "A fé amadurece quando aprende a confiar no Senhor tambem na travessia."
+      "Jesus liberta dois homens dominados pelo mal e devolve dignidade a vidas que todos evitavam.",
+      "O poder de Cristo vence aquilo que aprisiona a pessoa por dentro e por fora.",
+      "O discípulo é chamado a preferir a salvação das pessoas aos interesses que endurecem o coração."
     ]
   },
   "sponsor": {
@@ -37,45 +38,45 @@
       "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-audiencia-delegacao-patriarcado-ecumenico.html"
     },
     {
+      "source": "Vatican News",
+      "title": "Papa: como Pedro e Paulo, sejamos construtores de unidade",
+      "summary": "Papa: como Pedro e Paulo, sejamos construtores de unidade. Item recente selecionado na pagina publica de Vatican News. Leia o texto integral na fonte.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-homilia-solenidade-santos-pedro-paulo-palio.html"
+    },
+    {
       "source": "CNBB",
-      "title": "CNBB envia carta aos parlamentares brasileiros na qual reafirma sua posição contrária a redução",
-      "summary": "A CNBB aponta, na carta, que o ordenamento jurídico brasileiro ja prevê mecanismos de responsabilização para os adolescentes mediante a aplicação de medidas socioeducativas previstas no Estatuto da Criança e.",
-      "url": "https://www.cnbb.org.br/cnbb-envia-carta-aos-parlamentares-brasileiros/"
+      "title": "Papa Leão XIV aceita pedido de renúncia de dom Joaquín Pertíñez Fernández à diocese de Rio Bran",
+      "summary": "A Nunciatura Apostólica no Brasil comunicou, nesta quarta-feira, 1º de julho, que o Papa Leão XIV aceitou o pedido de renúncia de dom Joaquín Pertíñez Fernández ao governo pastoral da diocese de Rio Branco, no.",
+      "url": "https://www.cnbb.org.br/papa-leao-xiv-aceita-pedido-de-renuncia-de-dom-joaquin-pertinez-fernandez/"
     },
     {
       "source": "ACI Digital",
-      "title": "Vaticano Leão XIV nomeia freira para chefiar dicastério de Desenvolvimento Humano Integral",
-      "summary": "Vaticano Leão XIV nomeia freira para chefiar dicastério de Desenvolvimento Humano Integral. Item recente selecionado na pagina publica de ACI Digital. Leia o texto integral na fonte.",
-      "url": "https://www.acidigital.com/noticia/68713/leao-xiv-nomeia-freira-para-chefiar-dicasterio-de-desenvolvimento-humano-integral"
+      "title": "Santos Hoje é celebrado são Junípero Serra, o apóstolo da Califórnia",
+      "summary": "Santos Hoje é celebrado são Junípero Serra, o apóstolo da Califórnia. Item recente selecionado na pagina publica de ACI Digital. Leia o texto integral na fonte.",
+      "url": "https://www.acidigital.com/noticia/52525/hoje-e-celebrado-sao-junipero-serra-o-apostolo-da-california"
     },
     {
       "source": "ACI Digital",
-      "title": "Mundo Barriga de aluguel volta ao centro da política francesa com candidato à Presidência",
-      "summary": "Mundo Barriga de aluguel volta ao centro da política francesa com candidato à Presidência. Item recente selecionado na pagina publica de ACI Digital. Leia o texto integral na fonte.",
-      "url": "https://www.acidigital.com/noticia/68709/barriga-de-aluguel-volta-ao-centro-da-politica-francesa-com-candidato-a-presidencia"
+      "title": "Brasil ADF Internacional assume defesa de casal condenado por homeschooling e diz que sentença",
+      "summary": "Brasil ADF Internacional assume defesa de casal condenado por homeschooling e diz que sentença é ‘100% ideológica’. Item recente selecionado na pagina publica de ACI Digital. Leia o texto integral na fonte.",
+      "url": "https://www.acidigital.com/noticia/68717/adf-internacional-assume-defesa-de-casal-condenado-por-homeschooling-e-diz-que-sentenca-e-100-ideologica"
+    },
+    {
+      "source": "CNBB",
+      "title": "Papa Leão XIV conclui o Consistório animando cardeais a promoverem a sinodalidade e fala de esp",
+      "summary": "O Papa Leão XIV concluiu o Consistório Extraordinário no último sábado, 27 de junho, com um discurso no qual recordou os principais pontos debatidos com os cardeais reunidos em Roma nos dias 26 e 27, como a.",
+      "url": "https://www.cnbb.org.br/papa-leao-xiv-discurso-conclusivo-do-consistorio-junho-2026/"
     },
     {
       "source": "Canção Nova",
       "title": "30 anos de Canção Nova na Internet",
       "summary": "30 anos de Canção Nova na Internet. Item recente selecionado na pagina publica de Canção Nova. Leia o texto integral na fonte.",
       "url": "https://noticias.cancaonova.com/cancao-nova/30anos-cancaonova-internet/"
-    },
-    {
-      "source": "Vatican News",
-      "title": "Leão XIV: a unidade de Pedro e Paulo inspire fraternidade entre os povos, não domínio",
-      "summary": "Leão XIV: a unidade de Pedro e Paulo inspire fraternidade entre os povos, não domínio. Item recente selecionado na pagina publica de Vatican News. Leia o texto integral na fonte.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-angelus-29-junho-2026.html"
-    },
-    {
-      "source": "Canção Nova",
-      "title": "16ª Assembleia Geral Canção Nova",
-      "summary": "16ª Assembleia Geral Canção Nova. Item recente selecionado na pagina publica de Canção Nova. Leia o texto integral na fonte.",
-      "url": "https://noticias.cancaonova.com/cancao-nova/16-ag-cancao-nova/"
     }
   ],
   "closingQuote": {
-    "text": "O sangue dos mártires é semente de cristãos.",
-    "source": "Tertuliano",
-    "reason": "Frase patrística ligada ao testemunho dos mártires celebrados no dia."
+    "text": "Tudo é graça.",
+    "source": "Santa Teresinha do Menino Jesus",
+    "reason": "Frase amplamente atribuída a Santa Teresinha; foi escolhida porque o evangelho mostra a libertação como dom gratuito de Cristo, e a vida da Beata Maria Assunta foi marcada por serviço humilde à graça nos pobres."
   }
 }
