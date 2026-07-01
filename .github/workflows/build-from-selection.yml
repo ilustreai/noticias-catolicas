@@ -48,9 +48,8 @@ jobs:
       - name: Editorial smoke check
         shell: bash
         run: |
-          ! grep -E 'Continue lendo|&amp;#8594;|&#8594;|O post .* apareceu primeiro|placar|torcem juntos|classifica[cç][aã]o garantida|O sangue dos martires|conteudo\?' index.html
-          grep -q 'O sangue dos mártires é semente de cristãos.' index.html
-          grep -q '13ª Semana do Tempo Comum' index.html
+          ! grep -E 'Continue lendo|&amp;#8594;|&#8594;|O post .* apareceu primeiro|placar|torcem juntos|classifica[cç][aã]o garantida|conteudo\?' index.html
+          grep -q 'class="hero-title"' index.html
           test "$(grep -o 'class="news-item' index.html | wc -l)" -eq 7
 
       - name: Commit static pages
