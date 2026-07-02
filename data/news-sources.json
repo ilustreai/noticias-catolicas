@@ -11,7 +11,12 @@
   {
     "source": "CNBB",
     "kind": "brazil",
-    "feedUrl": "https://www.cnbb.org.br/feed/"
+    "feedUrl": "https://www.cnbb.org.br/feed/",
+    "pageUrls": [
+      "https://www.cnbb.org.br/papa-leao-xiv-propoe-paz-sinodalidade-e-ardor-missionario-na-abertura-do-consistorio-extraordinario/",
+      "https://www.cnbb.org.br/quatro-arcebispos-brasileiros-palio-arquiepiscopal/",
+      "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/"
+    ]
   },
   {
     "source": "ACI Digital",
