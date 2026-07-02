@@ -27,51 +27,51 @@
   "sponsor": {
     "enabled": true,
     "label": "Apoio",
-    "text": "Gostou do conteúdo? Considere apoiar esse projeto assinando nosso conteúdo exclusivo no Instagram @ilustre.ai.",
+    "text": "Gostou do conteudo? Considere apoiar esse projeto assinando nosso conteudo exclusivo no Instagram @ilustre.ai.",
     "url": "https://www.instagram.com/ilustre.ai"
   },
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa: cristãos devem ser sinal crível de paz. Está em jogo o futuro da humanidade",
-      "summary": "Papa: cristãos devem ser sinal crível de paz. Está em jogo o futuro da humanidade. Item recente selecionado na pagina publica de Vatican News. Leia o texto integral na fonte.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-audiencia-delegacao-patriarcado-ecumenico.html"
-    },
-    {
-      "source": "Vatican News",
       "title": "Papa: como Pedro e Paulo, sejamos construtores de unidade",
-      "summary": "Papa: como Pedro e Paulo, sejamos construtores de unidade. Item recente selecionado na pagina publica de Vatican News. Leia o texto integral na fonte.",
+      "summary": "Papa: como Pedro e Paulo, sejamos construtores de unidade. Papa: como Pedro e Paulo, sejamos construtores.",
       "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-homilia-solenidade-santos-pedro-paulo-palio.html"
     },
     {
-      "source": "CNBB",
-      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização d",
-      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das.",
-      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Santos Hoje começa a novena a são Bento, padroeiro da Europa",
-      "summary": "Santos Hoje começa a novena a são Bento, padroeiro da Europa. Item recente selecionado na pagina publica de ACI Digital. Leia o texto integral na fonte.",
-      "url": "https://www.acidigital.com/noticia/52527/hoje-comeca-a-novena-a-sao-bento-padroeiro-da-europa"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Santos Hoje a Igreja celebra cinco missionários jesuítas de diferentes épocas",
-      "summary": "Santos Hoje a Igreja celebra cinco missionários jesuítas de diferentes épocas. Item recente selecionado na pagina publica de ACI Digital. Leia o texto integral na fonte.",
-      "url": "https://www.acidigital.com/noticia/52526/hoje-a-igreja-celebra-cinco-missionarios-jesuitas-de-diferentes-epocas"
+      "source": "Vatican News",
+      "title": "Papa se solidariza com vítimas do terremoto na Venezuela e encoraja à solidariedade",
+      "summary": "Papa se solidariza com vítimas do terremoto na Venezuela e encoraja à solidariedade. Papa se solidariza com vítimas do terremoto na Venezuela e encoraja.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-angelus-apelo-venezuela-terremoto-26-junho-2026.html"
     },
     {
       "source": "CNBB",
-      "title": "CNBB destaca paz e missão no Consistório",
-      "summary": "A CNBB repercutiu a abertura do consistório extraordinário, sublinhando o chamado à paz, à sinodalidade e ao ardor missionário na.",
-      "url": "https://www.cnbb.org.br/papa-leao-xiv-propoe-paz-sinodalidade-e-ardor-missionario-na-abertura-do-consistorio-extraordinario/"
+      "title": "Igreja Católica lança campanha de solidariedade e fraternidade às vítimas dos terremotos da Venezuela",
+      "summary": "A Igreja Católica lança nesta quarta-feira, 1º de julho, a campanha “SOS Venezuela - Solidariedade e Fraternidade”, uma mobilização nacional para arrecadar recursos destinados às famílias atingidas.",
+      "url": "https://www.cnbb.org.br/igreja-catolica-lanca-campanha-de-solidariedade-e-fraternidade-as-vitimas-dos-terremotos-da-venezuela-sos-venezuela/"
     },
     {
       "source": "Canção Nova",
-      "title": "30 anos de Canção Nova na Internet",
-      "summary": "30 anos de Canção Nova na Internet. Item recente selecionado na pagina publica de Canção Nova. Leia o texto integral na fonte.",
-      "url": "https://noticias.cancaonova.com/cancao-nova/30anos-cancaonova-internet/"
+      "title": "Cristãos devem ser sinal crível de paz, afirma Papa",
+      "summary": "Audiência no Vaticano Cristãos devem ser sinal crível de paz, afirma Papa. Audiência no Vaticano Cristãos devem ser sinal crível de paz,.",
+      "url": "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/cristaos-devem-ser-sinal-crivel-de-paz-afirma-papa/"
+    },
+    {
+      "source": "Canção Nova",
+      "title": "Colônia de férias no Vaticano Papa às crianças: Deus olha para os corações, não para o celular",
+      "summary": "Colônia de férias no Vaticano Papa às crianças: Deus olha para os corações, não para.",
+      "url": "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/papa-as-criancas-deus-olha-para-os-coracoes-nao-para-o-celular/"
+    },
+    {
+      "source": "CNBB",
+      "title": "Papa Leão XIV conclui o Consistório animando cardeais a promoverem a sinodalidade",
+      "summary": "Papa Leão XIV conclui o Consistório animando cardeais a promoverem a sinodalidade e fala de.",
+      "url": "https://www.cnbb.org.br/papa-leao-xiv-discurso-conclusivo-do-consistorio-junho-2026/"
+    },
+    {
+      "source": "Shalom",
+      "title": "Papa Leão XIV recorda viagem à Espanha e convida a Europa a redescobrir suas raízes cristãs",
+      "summary": "Papa Leão XIV recorda viagem à Espanha e convida a Europa a redescobrir suas raízes cristãs Durante.",
+      "url": "https://comshalom.org/papa-leao-xiv-recorda-viagem-a-espanha-e-convida-a-europa-a-redescobrir-suas-raizes-cristas/"
     }
   ],
   "closingQuote": {

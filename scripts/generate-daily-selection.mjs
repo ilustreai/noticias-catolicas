@@ -61,6 +61,7 @@ function stripHtml(value) {
     .replace(/\]\]>/g, '')
     .replace(/<[^>]+>/g, ' ')
     .replace(/&nbsp;/g, ' ')
+    .replace(/&#\d+;/g, ' ')
     .replace(/&amp;/g, '&')
     .replace(/&quot;/g, '"')
     .replace(/&#039;/g, "'")
@@ -129,6 +130,95 @@ function normalize(value) {
     .trim();
 }
 
+function scoreNewsCandidate(item, today) {
+  const title = normalize(item.title);
+  const summary = normalize(item.summary);
+  const url = normalize(item.url);
+  let score = 0;
+
+  if (item.source === 'Vatican News' || item.source === 'Santa Se' || item.source === 'Vaticano') score += 40;
+  if (item.source === 'CNBB') score += 34;
+  if (item.source === 'ACI Digital' || item.source === 'Canção Nova' || item.source === 'CanÃ§Ã£o Nova' || item.source === 'Shalom' || item.source === 'Comunidade Shalom') score += 30;
+
+  const hotTerms = [
+    ['papa', 22],
+    ['leao xiv', 20],
+    ['vaticano', 16],
+    ['consistorio', 16],
+    ['angelus', 14],
+    ['audiencia', 12],
+    ['homilia', 10],
+    ['unidade', 10],
+    ['paz', 10],
+    ['gaza', 14],
+    ['venezuela', 14],
+    ['amazonia', 12],
+    ['familia', 12],
+    ['jovens', 10],
+    ['missao', 10],
+    ['missionario', 10],
+    ['santos', 8]
+  ];
+
+  for (const [term, value] of hotTerms) {
+    if (title.includes(term) || summary.includes(term) || url.includes(term)) score += value;
+  }
+
+  if (title.length >= 55) score += 6;
+  if (summary.length >= 120) score += 4;
+  if (item.published) {
+    const age = Math.max(0, daysBetween(today, item.published));
+    score += Math.max(0, 18 - (age * 5));
+  } else {
+    score += 3;
+  }
+
+  if (item.kind === 'vatican') score += 10;
+  if (item.kind === 'brazil') score += 8;
+  if (item.kind === 'trusted') score += 6;
+
+  return score;
+}
+
+function rankCandidates(candidates, today) {
+  return [...candidates].sort((a, b) => {
+    const scoreDiff = scoreNewsCandidate(b, today) - scoreNewsCandidate(a, today);
+    if (scoreDiff !== 0) return scoreDiff;
+    const publishedDiff = String(b.published).localeCompare(String(a.published));
+    if (publishedDiff !== 0) return publishedDiff;
+    return String(a.source).localeCompare(String(b.source));
+  });
+}
+
+function pickClosingQuote(liturgy) {
+  const saintName = normalize(liturgy?.saint?.name);
+  const saintQuote = liturgy?.closingQuote;
+  if (saintQuote?.text && saintQuote?.source) return saintQuote;
+
+  if (saintName) {
+    return {
+      text: 'Que a caridade do santo do dia nos ensine a viver a fé com mais simplicidade e entrega.',
+      source: liturgy?.saint?.name || 'Santo do dia',
+      reason: 'Fallback ligado ao santo do dia quando o cache liturgico nao traz uma frase propria.'
+    };
+  }
+
+  const gospelShort = liturgy?.gospel?.ref || liturgy?.liturgical?.gospelShort || '';
+  if (gospelShort) {
+    return {
+      text: 'Que o Evangelho de hoje nos conduza a uma vida mais fiel, mais serena e mais convertida.',
+      source: gospelShort,
+      reason: 'Fallback ligado ao evangelho quando o santo do dia nao fornece frase propria.'
+    };
+  }
+
+  return {
+    text: 'Fazei tudo por amor.',
+    source: 'São Francisco de Sales',
+    reason: 'Fallback genérico usado apenas quando o cache liturgico nao traz santo nem evangelho suficientes para amarrar a frase.'
+  };
+}
+
 function likelyArticleUrl(url) {
   let parsed;
   try {
@@ -151,6 +241,9 @@ function likelyNewsTitle(title) {
   const text = normalize(title);
   if (title.length < 24) return false;
   const blocked = [
+    'cookies',
+    'preferencias de cookies',
+    'definir preferencias de cookies',
     'santo do dia',
     'santa do dia',
     'liturgia diaria',
@@ -215,15 +308,50 @@ function daysBetween(a, b) {
 }
 
 function makeSummary(item) {
-  const clean = stripHtml(item.summary || '');
+  const clean = stripHtml(item.summary || '')
+    .replace(/\s*Item recente selecionado na pagina publica de [^.]+\.?\s*/gi, ' ')
+    .replace(/\s*Leia o texto integral na fonte original\.?\s*/gi, ' ')
+    .replace(/\s*Leia o texto integral na fonte\.?\s*/gi, ' ')
+    .replace(/\s*Leia o texto integral\.?\s*/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
   const base = clean.length >= 80 ? clean : `${item.title}. ${clean}`;
   const trimmed = base.slice(0, 210).replace(/\s+\S*$/, '').trim();
   const sentence = trimmed.length >= 40 ? trimmed : `${item.title} foi destaque em ${item.source}, em noticia recente acompanhada pela curadoria catolica.`;
   return sentence.endsWith('.') ? sentence : `${sentence}.`;
 }
 
+function cleanHeadlinePrefix(title, source) {
+  const sourceName = normalize(source);
+  const text = stripHtml(title).replace(/\s+/g, ' ').trim();
+  const normalized = normalize(text);
+  const prefixes = [
+    'santos hoje',
+    'hoje',
+    'vaticano',
+    'audiencia no vaticano',
+    'igreja celebra',
+    'acidente',
+    'destaques'
+  ];
+
+  for (const prefix of prefixes) {
+    if (normalized.startsWith(prefix)) {
+      const stripped = text.slice(prefix.length).trim().replace(/^[:\-–—]\s*/, '');
+      if (stripped.length >= 24) return stripped;
+    }
+  }
+
+  if (sourceName && normalized.startsWith(sourceName)) {
+    const stripped = text.slice(source.length).trim().replace(/^[:\-–—]\s*/, '');
+    if (stripped.length >= 24) return stripped;
+  }
+
+  return text;
+}
+
 function makeTitle(item) {
-  const title = stripHtml(item.title).replace(/\s+/g, ' ').trim();
+  const title = cleanHeadlinePrefix(item.title, item.source);
   if (title.length >= 24) return title.slice(0, 95);
   return `${title} ganha destaque na Igreja`.slice(0, 95);
 }
@@ -245,6 +373,9 @@ function uniqueItems(items) {
 function rejectsEditorially(item) {
   const text = normalize(`${item.title} ${item.summary} ${item.url}`);
   const blocked = [
+    'cookies',
+    'preferencias de cookies',
+    'definir preferencias de cookies',
     'santo do dia',
     'santa do dia',
     'liturgia diaria',
@@ -281,6 +412,17 @@ function attachSaintUrl(selection, liturgy) {
       ...selection.saint,
       url: selection.saint?.url || saintUrl
     }
+  };
+}
+
+function cleanSelectionNews(selection) {
+  return {
+    ...selection,
+    news: (selection.news ?? []).map((item) => ({
+      ...item,
+      title: makeTitle(item),
+      summary: makeSummary(item)
+    }))
   };
 }
 
@@ -409,10 +551,10 @@ async function main() {
 
   const sources = readJson(path.join(rootDir, 'data', 'news-sources.json'));
   const fetched = (await Promise.all(sources.map(fetchSource))).flat();
-  const candidates = uniqueItems(fetched)
+  const candidates = rankCandidates(uniqueItems(fetched)
     .filter((item) => !item.published || daysBetween(date, item.published) <= 3)
     .filter((item) => !rejectsEditorially(item))
-    .sort((a, b) => String(b.published).localeCompare(String(a.published)));
+    , date);
 
   if (candidates.length < 5) {
     throw new Error(`Only ${candidates.length} valid candidates found`);
@@ -431,16 +573,36 @@ async function main() {
     gospel: liturgy.gospel,
     sponsor,
     news: deterministicSelection(candidates),
-    closingQuote: liturgy.closingQuote
+    closingQuote: pickClosingQuote(liturgy)
   };
+  selection = cleanSelectionNews(selection);
   selection = attachSaintUrl(selection, liturgy);
   selection = repairSaintContentNews(selection, candidates);
 
   const result = validateSelection(selection);
   if (!result.ok) {
-    console.error('Generated selection failed validation:');
-    result.errors.forEach((error) => console.error(`- ${error}`));
-    process.exit(1);
+    if (ai) {
+      console.warn('AI selection failed validation; falling back to deterministic selection.');
+      selection = cleanSelectionNews({
+        date,
+        editionLabel: liturgy.editionLabel,
+        liturgical: liturgy.liturgical,
+        saint: liturgy.saint,
+        gospel: liturgy.gospel,
+        sponsor,
+        news: deterministicSelection(candidates),
+        closingQuote: pickClosingQuote(liturgy)
+      });
+      selection = attachSaintUrl(selection, liturgy);
+      selection = repairSaintContentNews(selection, candidates);
+    }
+
+    const fallbackResult = validateSelection(selection);
+    if (!fallbackResult.ok) {
+      console.error('Generated selection failed validation:');
+      fallbackResult.errors.forEach((error) => console.error(`- ${error}`));
+      process.exit(1);
+    }
   }
 
   writeFileEnsured(path.join(rootDir, 'data', 'daily-selection.json'), `${JSON.stringify(selection, null, 2)}\n`);
