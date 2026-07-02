@@ -14,7 +14,7 @@
     "feast": "Santo do Dia - 2 de Julho",
     "name": "São Bernardino Realino",
     "description": "Jesuíta que abandonou honras mundanas para dedicar-se com bondade ao ministério da palavra, aos doentes e aos presos.",
-    "url": "https://santo.cancaonova.com/santo/sao-bernardino-realino/"
+    "url": "https://santo.cancaonova.com/santo/sao-bernardino-realino-salvava-almas-para-deus1/"
   },
   "gospel": {
     "ref": "Evangelho do dia no Brasil: Mateus 9, 1-8, quinta-feira da 13ª Semana do Tempo Comum.",
@@ -27,44 +27,56 @@
   "sponsor": {
     "enabled": true,
     "label": "Apoio",
-    "text": "Gostou do conteudo? Considere apoiar esse projeto assinando nosso conteudo exclusivo no Instagram @ilustre.ai.",
+    "text": "Gostou do conteúdo? Considere apoiar esse projeto assinando nosso conteúdo exclusivo no Instagram @ilustre.ai.",
     "url": "https://www.instagram.com/ilustre.ai"
   },
   "news": [
     {
       "source": "Vatican News",
       "title": "Papa: cristãos devem ser sinal crível de paz. Está em jogo o futuro da humanidade",
-      "summary": "O Papa insistiu no testemunho cristão como sinal concreto de paz e responsabilidade histórica diante dos conflitos atuais.",
+      "summary": "Papa: cristãos devem ser sinal crível de paz. Está em jogo o futuro da humanidade. Item recente selecionado na pagina publica de Vatican News. Leia o texto integral na fonte.",
       "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-audiencia-delegacao-patriarcado-ecumenico.html"
     },
     {
       "source": "Vatican News",
       "title": "Papa: como Pedro e Paulo, sejamos construtores de unidade",
-      "summary": "A homilia de São Pedro e São Paulo foi lida como apelo à unidade e ao serviço da comunhão na Igreja.",
+      "summary": "Papa: como Pedro e Paulo, sejamos construtores de unidade. Item recente selecionado na pagina publica de Vatican News. Leia o texto integral na fonte.",
       "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-homilia-solenidade-santos-pedro-paulo-palio.html"
     },
     {
       "source": "CNBB",
-      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
-      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização d",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das.",
       "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV pede orações em julho pela proteção da vida em todas as suas fases",
-      "summary": "A ACI repercutiu a intenção de oração do Papa para julho, com foco na dignidade da vida humana em todas as etapas.",
-      "url": "https://www.acidigital.com/noticia/68725/leao-xiv-pede-oracoes-em-julho-pela-protecao-da-vida-em-todas-as-suas-fases"
+      "title": "Santos Hoje começa a novena a são Bento, padroeiro da Europa",
+      "summary": "Santos Hoje começa a novena a são Bento, padroeiro da Europa. Item recente selecionado na pagina publica de ACI Digital. Leia o texto integral na fonte.",
+      "url": "https://www.acidigital.com/noticia/52527/hoje-comeca-a-novena-a-sao-bento-padroeiro-da-europa"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Santos Hoje a Igreja celebra cinco missionários jesuítas de diferentes épocas",
+      "summary": "Santos Hoje a Igreja celebra cinco missionários jesuítas de diferentes épocas. Item recente selecionado na pagina publica de ACI Digital. Leia o texto integral na fonte.",
+      "url": "https://www.acidigital.com/noticia/52526/hoje-a-igreja-celebra-cinco-missionarios-jesuitas-de-diferentes-epocas"
+    },
+    {
+      "source": "CNBB",
+      "title": "CNBB destaca paz e missão no Consistório",
+      "summary": "A CNBB repercutiu a abertura do consistório extraordinário, sublinhando o chamado à paz, à sinodalidade e ao ardor missionário na.",
+      "url": "https://www.cnbb.org.br/papa-leao-xiv-propoe-paz-sinodalidade-e-ardor-missionario-na-abertura-do-consistorio-extraordinario/"
     },
     {
       "source": "Canção Nova",
       "title": "30 anos de Canção Nova na Internet",
-      "summary": "A Canção Nova relembrou três décadas de presença digital e evangelização contínua na internet.",
+      "summary": "30 anos de Canção Nova na Internet. Item recente selecionado na pagina publica de Canção Nova. Leia o texto integral na fonte.",
       "url": "https://noticias.cancaonova.com/cancao-nova/30anos-cancaonova-internet/"
     }
   ],
   "closingQuote": {
-    "text": "Tudo é graça.",
-    "source": "Santa Teresinha do Menino Jesus",
-    "reason": "Frase breve e segura, coerente com o evangelho do perdão que restaura e com a espiritualidade da confiança."
+    "text": "Fazei tudo por amor.",
+    "source": "São Francisco de Sales",
+    "reason": "Frase amplamente atribuída a São Francisco de Sales; foi escolhida porque o evangelho une perdão e cura, e São Bernardino Realino viveu a caridade pastoral como amor concreto."
   }
 }
