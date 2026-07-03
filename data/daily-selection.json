@@ -24,108 +24,59 @@
       "A Igreja aprende a crer mesmo sem ver, apoiando-se na presença viva do Senhor."
     ]
   },
-  "closingQuote": {
-    "text": "Meu Senhor e meu Deus.",
-    "source": "São Tomé Apóstolo",
-    "reason": "Resume a passagem da dúvida sincera à fé adorante do evangelho da festa."
-  },
   "sponsor": {
     "enabled": true,
     "label": "Apoio",
-    "text": "Gostou do conteudo? Considere apoiar esse projeto assinando nosso conteudo exclusivo no Instagram @ilustre.ai.",
+    "text": "Gostou do conteúdo? Considere apoiar esse projeto assinando nosso conteúdo exclusivo no Instagram @ilustre.ai.",
     "url": "https://www.instagram.com/ilustre.ai"
   },
   "news": [
     {
       "source": "Vatican News",
-      "category": "central",
-      "title": "Doutrina da Fé critica a lógica da guerra",
-      "summary": "No Consistório, o cardeal Victor Manuel Fernández pediu que a Igreja resista a justificativas religiosas para conflitos injustos e defenda a dignidade humana.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/cardeal-fernandez-acoes-militares-gaza-libano-desproporcionais.html",
-      "storyHook": "O Papa e a Cúria insistem em paz concreta e linguagem moral clara.",
-      "confirmations": [
-        "Fonte principal: Vatican News"
-      ],
-      "selectedBecause": "Abre a edição com um tema doutrinal forte, recente e de alto peso eclesial.",
-      "editorialNote": "Tom direto, sem dramatização; mantém a chave de doutrina e paz."
+      "title": "Papa: como Pedro e Paulo, sejamos construtores de unidade",
+      "summary": "Papa: como Pedro e Paulo, sejamos construtores de unidade. Papa: como Pedro e Paulo, sejamos construtores.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-homilia-solenidade-santos-pedro-paulo-palio.html"
     },
     {
       "source": "Vatican News",
-      "category": "central",
-      "title": "Amazônia leva ao Vaticano sinal de comunhão",
-      "summary": "Dom Alberto Taveira falou sobre a entrega do pálio ao sucessor em Belém e sobre a força da fé católica na região amazônica.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/dom-alberto-taveira-comunhao-desafios-fe-amazonia.html",
-      "storyHook": "Uma pauta de Igreja local com leitura de comunhão e missão.",
-      "confirmations": [
-        "Fonte principal: Vatican News"
-      ],
-      "selectedBecause": "Traz Igreja no Brasil em chave de comunhão, não de conflito.",
-      "editorialNote": "Valoriza o vínculo com a Igreja universal e a realidade amazônica."
+      "title": "Papa se solidariza com vítimas do terremoto na Venezuela e encoraja à solidariedade",
+      "summary": "Papa se solidariza com vítimas do terremoto na Venezuela e encoraja à solidariedade. Papa se solidariza com vítimas do terremoto na Venezuela e encoraja.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-angelus-apelo-venezuela-terremoto-26-junho-2026.html"
     },
     {
       "source": "CNBB",
-      "category": "central",
-      "title": "Arcebispos brasileiros receberão o pálio",
-      "summary": "Na Solenidade de São Pedro e São Paulo, quatro arcebispos do Brasil receberão a insígnia que expressa comunhão com o sucessor de Pedro.",
-      "url": "https://www.cnbb.org.br/quatro-arcebispos-brasileiros-palio-arquiepiscopal/",
-      "storyHook": "Comunhão episcopal e sinal litúrgico para o Brasil.",
-      "confirmations": [
-        "Fonte principal: CNBB"
-      ],
-      "selectedBecause": "É a principal leitura brasileira de comunhão apostólica disponível no bloco validado.",
-      "editorialNote": "Conecta bem com a festa de São Tomé e com a dimensão apostólica da Igreja."
-    },
-    {
-      "source": "ACI Digital",
-      "category": "central",
-      "title": "Consistório retoma debate sobre escuta",
-      "summary": "A cobertura da ACI Digital situa a tentativa de ampliar a escuta dos cardeais e recolher contribuições para o discernimento da Igreja.",
-      "url": "https://www.acidigital.com/noticia/68677/segundo-consistorio-de-leao-xiv-enfrenta-preocupacao-com-estrutura-sinodal",
-      "storyHook": "Discernimento e governo eclesial voltam ao centro.",
-      "confirmations": [
-        "Fonte principal: ACI Digital"
-      ],
-      "selectedBecause": "Mantém a linha de formação e discernimento sem repetir os mesmos recortes do dia anterior.",
-      "editorialNote": "Evita linguagem interna; destaca o eixo sinodal com sobriedade."
-    },
-    {
-      "source": "ACI Digital",
-      "category": "central",
-      "title": "Capela histórica reabre em São Paulo",
-      "summary": "A Capela de Nossa Senhora dos Aflitos, na Liberdade, voltou a acolher fiéis depois de restauração e recorda uma página importante da memória religiosa da cidade.",
-      "url": "https://www.acidigital.com/noticia/68675/capela-de-nossa-senhora-dos-aflitos-e-reaberta-em-sao-paulo",
-      "storyHook": "Patrimônio católico e memória viva na cidade.",
-      "confirmations": [
-        "Fonte principal: ACI Digital"
-      ],
-      "selectedBecause": "Equilibra a edição com uma pauta local, concreta e pastoralmente positiva.",
-      "editorialNote": "Boa peça de interesse comunitário, sem sensacionalismo."
+      "title": "Verdade, comunicação e democracia na era da Inteligência Artificial",
+      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) No capítulo IV da Encíclica Magnifica Humanitas (MH), o Papa Leão XIV analisa os profundos desafios da revolução tecnológica, particularmente da.",
+      "url": "https://www.cnbb.org.br/verdade-comunicacao-e-democracia-na-era-da-inteligencia-artificial/"
     },
     {
       "source": "Canção Nova",
-      "category": "variety",
-      "title": "Salvador inaugura rota de peregrinação",
-      "summary": "A Arquidiocese de Salvador preparou o Caminho de Antônio, percurso de fé que une igrejas históricas e fortalece a peregrinação urbana.",
-      "url": "https://noticias.cancaonova.com/igreja/arquidiocese-de-salvador-inaugura-nova-rota-de-peregrinacao/",
-      "storyHook": "Fé popular, cidade e peregrinação no mesmo caminho.",
-      "confirmations": [
-        "Fonte principal: Canção Nova"
-      ],
-      "selectedBecause": "Cumpre a variedade pastoral com um tema de devoção e presença comunitária.",
-      "editorialNote": "Mantém o tom local e celebrativo."
+      "title": "Cristãos devem ser sinal crível de paz, afirma Papa",
+      "summary": "Audiência no Vaticano Cristãos devem ser sinal crível de paz, afirma Papa. Audiência no Vaticano Cristãos devem ser sinal crível de paz.",
+      "url": "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/cristaos-devem-ser-sinal-crivel-de-paz-afirma-papa/"
+    },
+    {
+      "source": "Canção Nova",
+      "title": "divulga intenção de oração do Papa para o mês de julho",
+      "summary": "Vaticano divulga intenção de oração do Papa para o mês de julho. Vaticano divulga intenção de oração do Papa para o mês.",
+      "url": "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/vaticano-divulga-intencao-de-oracao-do-papa-para-o-mes-de-julho/"
     },
     {
       "source": "Shalom",
-      "category": "variety",
-      "title": "Missão em Haifa fortalece evangelização",
-      "summary": "A Comunidade Shalom destacou um encontro de cura em Haifa, sinal de presença missionária e evangelização católica em contexto de Terra Santa.",
-      "url": "https://comshalom.org/encontro-de-cura-da-missao-haifa-em-israel-fortalece-evangelizacao-na-terra-santa/",
-      "storyHook": "Missão em terra santa com testemunho de cura e evangelização.",
-      "confirmations": [
-        "Fonte principal: Comunidade Shalom"
-      ],
-      "selectedBecause": "Fecha a edição com variedade comunitária e horizonte missionário.",
-      "editorialNote": "Foco em missão e testemunho, sem exagero retórico."
+      "title": "Papa Leão XIV recorda viagem à Espanha e convida a Europa a redescobrir suas raízes cristãs Dur",
+      "summary": "Papa Leão XIV recorda viagem à Espanha e convida a Europa a redescobrir suas raízes cristãs Durante.",
+      "url": "https://comshalom.org/papa-leao-xiv-recorda-viagem-a-espanha-e-convida-a-europa-a-redescobrir-suas-raizes-cristas/"
+    },
+    {
+      "source": "Shalom",
+      "title": "JMJ Seul 2027: Papa Leão XIV e presidente da Coreia do Sul debatem preparativos para o evento D",
+      "summary": "JMJ Seul 2027: Papa Leão XIV e presidente da Coreia do Sul debatem preparativos para o evento Durante audiência.",
+      "url": "https://comshalom.org/jmj-seul-2027-papa-leao-xiv-e-presidente-da-coreia-do-sul-debatem-preparativos-para-o-evento/"
     }
-  ]
+  ],
+  "closingQuote": {
+    "text": "Meu Senhor e meu Deus.",
+    "source": "São Tomé Apóstolo",
+    "reason": "É a confissão do próprio Tomé no evangelho da festa; foi escolhida por resumir perfeitamente a passagem da dúvida para a fé adorante."
+  }
 }
