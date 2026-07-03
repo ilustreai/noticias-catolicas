@@ -1,82 +1,131 @@
 {
-  "date": "2026-07-02",
-  "editionLabel": "2 de julho de 2026",
+  "date": "2026-07-03",
+  "editionLabel": "3 de julho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "festa",
     "season": "13ª Semana do Tempo Comum",
-    "celebrationTitle": "",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 9, 1-8"
+    "celebrationTitle": "São Tomé, Apóstolo",
+    "colorName": "vermelho",
+    "cssColor": "#C62828",
+    "gospelShort": "Jo 20, 24-29"
   },
   "saint": {
-    "feast": "Santo do Dia - 2 de Julho",
-    "name": "São Bernardino Realino",
-    "description": "Jesuíta que abandonou honras mundanas para dedicar-se com bondade ao ministério da palavra, aos doentes e aos presos.",
-    "url": "https://santo.cancaonova.com/santo/sao-bernardino-realino-salvava-almas-para-deus1/"
+    "feast": "Santo do Dia - 3 de Julho",
+    "name": "São Tomé Apóstolo",
+    "description": "Apóstolo que passou da dúvida sincera à profissão de fé e se tornou testemunha do Ressuscitado.",
+    "url": "https://santo.cancaonova.com/santo/sao-tome-apostolo/"
   },
   "gospel": {
-    "ref": "Evangelho do dia no Brasil: Mateus 9, 1-8, quinta-feira da 13ª Semana do Tempo Comum.",
+    "ref": "Evangelho da festa de São Tomé, Apóstolo: João 20, 24-29.",
     "lines": [
-      "Jesus cura o paralítico começando pelo perdão, atingindo a raiz mais profunda da ferida humana.",
-      "A misericórdia do Senhor toca alma e corpo e devolve ao homem a possibilidade de recomeçar.",
-      "A fé abre espaço para uma vida levantada, reconciliada e posta novamente a caminho."
+      "Tomé encontra o Ressuscitado e a sua incredulidade é transformada em adoração.",
+      "Jesus não humilha a busca honesta, mas a conduz à fé madura e pessoal.",
+      "A Igreja aprende a crer mesmo sem ver, apoiando-se na presença viva do Senhor."
     ]
+  },
+  "closingQuote": {
+    "text": "Meu Senhor e meu Deus.",
+    "source": "São Tomé Apóstolo",
+    "reason": "Resume a passagem da dúvida sincera à fé adorante do evangelho da festa."
   },
   "sponsor": {
     "enabled": true,
     "label": "Apoio",
-    "text": "Gostou do conteúdo? Considere apoiar esse projeto assinando nosso conteúdo exclusivo no Instagram @ilustre.ai.",
+    "text": "Gostou do conteudo? Considere apoiar esse projeto assinando nosso conteudo exclusivo no Instagram @ilustre.ai.",
     "url": "https://www.instagram.com/ilustre.ai"
   },
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa: como Pedro e Paulo, sejamos construtores de unidade",
-      "summary": "Papa: como Pedro e Paulo, sejamos construtores de unidade. Papa: como Pedro e Paulo, sejamos construtores.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-homilia-solenidade-santos-pedro-paulo-palio.html"
+      "category": "central",
+      "title": "Doutrina da Fé critica a lógica da guerra",
+      "summary": "No Consistório, o cardeal Victor Manuel Fernández pediu que a Igreja resista a justificativas religiosas para conflitos injustos e defenda a dignidade humana.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/cardeal-fernandez-acoes-militares-gaza-libano-desproporcionais.html",
+      "storyHook": "O Papa e a Cúria insistem em paz concreta e linguagem moral clara.",
+      "confirmations": [
+        "Fonte principal: Vatican News"
+      ],
+      "selectedBecause": "Abre a edição com um tema doutrinal forte, recente e de alto peso eclesial.",
+      "editorialNote": "Tom direto, sem dramatização; mantém a chave de doutrina e paz."
     },
     {
       "source": "Vatican News",
-      "title": "Papa se solidariza com vítimas do terremoto na Venezuela e encoraja à solidariedade",
-      "summary": "Papa se solidariza com vítimas do terremoto na Venezuela e encoraja à solidariedade. Papa se solidariza com vítimas do terremoto na Venezuela e encoraja.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-angelus-apelo-venezuela-terremoto-26-junho-2026.html"
+      "category": "central",
+      "title": "Amazônia leva ao Vaticano sinal de comunhão",
+      "summary": "Dom Alberto Taveira falou sobre a entrega do pálio ao sucessor em Belém e sobre a força da fé católica na região amazônica.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/dom-alberto-taveira-comunhao-desafios-fe-amazonia.html",
+      "storyHook": "Uma pauta de Igreja local com leitura de comunhão e missão.",
+      "confirmations": [
+        "Fonte principal: Vatican News"
+      ],
+      "selectedBecause": "Traz Igreja no Brasil em chave de comunhão, não de conflito.",
+      "editorialNote": "Valoriza o vínculo com a Igreja universal e a realidade amazônica."
     },
     {
       "source": "CNBB",
-      "title": "Igreja Católica lança campanha de solidariedade e fraternidade às vítimas dos terremotos da Ven",
-      "summary": "A Igreja Católica lança nesta quarta-feira, 1º de julho, a campanha “SOS Venezuela Solidariedade e Fraternidade”, uma mobilização nacional para arrecadar recursos destinados às famílias atingidas.",
-      "url": "https://www.cnbb.org.br/igreja-catolica-lanca-campanha-de-solidariedade-e-fraternidade-as-vitimas-dos-terremotos-da-venezuela-sos-venezuela/"
+      "category": "central",
+      "title": "Arcebispos brasileiros receberão o pálio",
+      "summary": "Na Solenidade de São Pedro e São Paulo, quatro arcebispos do Brasil receberão a insígnia que expressa comunhão com o sucessor de Pedro.",
+      "url": "https://www.cnbb.org.br/quatro-arcebispos-brasileiros-palio-arquiepiscopal/",
+      "storyHook": "Comunhão episcopal e sinal litúrgico para o Brasil.",
+      "confirmations": [
+        "Fonte principal: CNBB"
+      ],
+      "selectedBecause": "É a principal leitura brasileira de comunhão apostólica disponível no bloco validado.",
+      "editorialNote": "Conecta bem com a festa de São Tomé e com a dimensão apostólica da Igreja."
+    },
+    {
+      "source": "ACI Digital",
+      "category": "central",
+      "title": "Consistório retoma debate sobre escuta",
+      "summary": "A cobertura da ACI Digital situa a tentativa de ampliar a escuta dos cardeais e recolher contribuições para o discernimento da Igreja.",
+      "url": "https://www.acidigital.com/noticia/68677/segundo-consistorio-de-leao-xiv-enfrenta-preocupacao-com-estrutura-sinodal",
+      "storyHook": "Discernimento e governo eclesial voltam ao centro.",
+      "confirmations": [
+        "Fonte principal: ACI Digital"
+      ],
+      "selectedBecause": "Mantém a linha de formação e discernimento sem repetir os mesmos recortes do dia anterior.",
+      "editorialNote": "Evita linguagem interna; destaca o eixo sinodal com sobriedade."
+    },
+    {
+      "source": "ACI Digital",
+      "category": "central",
+      "title": "Capela histórica reabre em São Paulo",
+      "summary": "A Capela de Nossa Senhora dos Aflitos, na Liberdade, voltou a acolher fiéis depois de restauração e recorda uma página importante da memória religiosa da cidade.",
+      "url": "https://www.acidigital.com/noticia/68675/capela-de-nossa-senhora-dos-aflitos-e-reaberta-em-sao-paulo",
+      "storyHook": "Patrimônio católico e memória viva na cidade.",
+      "confirmations": [
+        "Fonte principal: ACI Digital"
+      ],
+      "selectedBecause": "Equilibra a edição com uma pauta local, concreta e pastoralmente positiva.",
+      "editorialNote": "Boa peça de interesse comunitário, sem sensacionalismo."
     },
     {
       "source": "Canção Nova",
-      "title": "Cristãos devem ser sinal crível de paz, afirma Papa",
-      "summary": "Audiência no Vaticano Cristãos devem ser sinal crível de paz, afirma Papa. Audiência no Vaticano Cristãos devem ser sinal crível de paz.",
-      "url": "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/cristaos-devem-ser-sinal-crivel-de-paz-afirma-papa/"
-    },
-    {
-      "source": "Canção Nova",
-      "title": "Colônia de férias no Vaticano Papa às crianças: Deus olha para os corações, não para o celular",
-      "summary": "Colônia de férias no Vaticano Papa às crianças: Deus olha para os corações, não para.",
-      "url": "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/papa-as-criancas-deus-olha-para-os-coracoes-nao-para-o-celular/"
-    },
-    {
-      "source": "CNBB",
-      "title": "Papa Leão XIV conclui o Consistório animando cardeais a promoverem a sinodalidade e fala de esp",
-      "summary": "Papa Leão XIV conclui o Consistório animando cardeais a promoverem a sinodalidade e fala de.",
-      "url": "https://www.cnbb.org.br/papa-leao-xiv-discurso-conclusivo-do-consistorio-junho-2026/"
+      "category": "variety",
+      "title": "Salvador inaugura rota de peregrinação",
+      "summary": "A Arquidiocese de Salvador preparou o Caminho de Antônio, percurso de fé que une igrejas históricas e fortalece a peregrinação urbana.",
+      "url": "https://noticias.cancaonova.com/igreja/arquidiocese-de-salvador-inaugura-nova-rota-de-peregrinacao/",
+      "storyHook": "Fé popular, cidade e peregrinação no mesmo caminho.",
+      "confirmations": [
+        "Fonte principal: Canção Nova"
+      ],
+      "selectedBecause": "Cumpre a variedade pastoral com um tema de devoção e presença comunitária.",
+      "editorialNote": "Mantém o tom local e celebrativo."
     },
     {
       "source": "Shalom",
-      "title": "Papa Leão XIV recorda viagem à Espanha e convida a Europa a redescobrir suas raízes cristãs Dur",
-      "summary": "Papa Leão XIV recorda viagem à Espanha e convida a Europa a redescobrir suas raízes cristãs Durante.",
-      "url": "https://comshalom.org/papa-leao-xiv-recorda-viagem-a-espanha-e-convida-a-europa-a-redescobrir-suas-raizes-cristas/"
+      "category": "variety",
+      "title": "Missão em Haifa fortalece evangelização",
+      "summary": "A Comunidade Shalom destacou um encontro de cura em Haifa, sinal de presença missionária e evangelização católica em contexto de Terra Santa.",
+      "url": "https://comshalom.org/encontro-de-cura-da-missao-haifa-em-israel-fortalece-evangelizacao-na-terra-santa/",
+      "storyHook": "Missão em terra santa com testemunho de cura e evangelização.",
+      "confirmations": [
+        "Fonte principal: Comunidade Shalom"
+      ],
+      "selectedBecause": "Fecha a edição com variedade comunitária e horizonte missionário.",
+      "editorialNote": "Foco em missão e testemunho, sem exagero retórico."
     }
-  ],
-  "closingQuote": {
-    "text": "Fazei tudo por amor.",
-    "source": "São Francisco de Sales",
-    "reason": "Frase amplamente atribuída a São Francisco de Sales; foi escolhida porque o evangelho une perdão e cura, e São Bernardino Realino viveu a caridade pastoral como amor concreto."
-  }
+  ]
 }
