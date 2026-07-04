@@ -1,27 +1,27 @@
 {
-  "date": "2026-07-03",
-  "editionLabel": "3 de julho de 2026",
+  "date": "2026-07-04",
+  "editionLabel": "4 de julho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "festa",
+    "rank": "tempo",
     "season": "13ª Semana do Tempo Comum",
-    "celebrationTitle": "São Tomé, Apóstolo",
-    "colorName": "vermelho",
-    "cssColor": "#C62828",
-    "gospelShort": "Jo 20, 24-29"
+    "celebrationTitle": "",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Mt 9, 14-17"
   },
   "saint": {
-    "feast": "Santo do Dia - 3 de Julho",
-    "name": "São Tomé Apóstolo",
-    "description": "Apóstolo que passou da dúvida sincera à profissão de fé e se tornou testemunha do Ressuscitado.",
-    "url": "https://santo.cancaonova.com/santo/sao-tome-apostolo/"
+    "feast": "Santo do Dia - 4 de Julho",
+    "name": "Santa Isabel de Portugal",
+    "description": "Rainha santa que uniu oração, caridade e reconciliação, tornando-se sinal de paz no coração da família e do reino.",
+    "url": "https://santo.cancaonova.com/santo/santa-isabel-de-portugal/"
   },
   "gospel": {
-    "ref": "Evangelho da festa de São Tomé, Apóstolo: João 20, 24-29.",
+    "ref": "Evangelho do dia no Brasil: Mateus 9, 14-17, sábado da 13ª Semana do Tempo Comum.",
     "lines": [
-      "Tomé encontra o Ressuscitado e a sua incredulidade é transformada em adoração.",
-      "Jesus não humilha a busca honesta, mas a conduz à fé madura e pessoal.",
-      "A Igreja aprende a crer mesmo sem ver, apoiando-se na presença viva do Senhor."
+      "Jesus recorda que a sua presença inaugura um tempo novo, que não cabe em velhos esquemas.",
+      "O Evangelho pede coração renovado para acolher a novidade do Reino.",
+      "A vida cristã amadurece quando deixa Cristo transformar hábitos, motivações e escolhas."
     ]
   },
   "sponsor": {
@@ -57,9 +57,9 @@
     },
     {
       "source": "Canção Nova",
-      "title": "divulga intenção de oração do Papa para o mês de julho",
-      "summary": "Vaticano divulga intenção de oração do Papa para o mês de julho. Vaticano divulga intenção de oração do Papa para o mês.",
-      "url": "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/vaticano-divulga-intencao-de-oracao-do-papa-para-o-mes-de-julho/"
+      "title": "sexta-feira, 3 de julho de 2026, 14h31 Papa ressalta direito à vida e à liberdade durante homen",
+      "summary": "sexta-feira, 3 de julho de 2026, 14h31 Papa ressalta direito à vida e à liberdade durante homenagem nos EUA Conectado do Vaticano, Leão XIV foi homenageado com a Medalha da Liberdade em cerimônia na.",
+      "url": "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/papa-ressalta-direito-a-vida-e-a-liberdade-durante-homenagem-nos-eua/"
     },
     {
       "source": "Shalom",
@@ -75,8 +75,8 @@
     }
   ],
   "closingQuote": {
-    "text": "Meu Senhor e meu Deus.",
-    "source": "São Tomé Apóstolo",
-    "reason": "É a confissão do próprio Tomé no evangelho da festa; foi escolhida por resumir perfeitamente a passagem da dúvida para a fé adorante."
+    "text": "Onde não há amor, põe amor, e encontrarás amor.",
+    "source": "São João da Cruz",
+    "reason": "Frase amplamente atribuída a São João da Cruz; foi escolhida porque o evangelho fala da novidade que Cristo traz, e Santa Isabel viveu essa novidade reconciliando conflitos pelo amor."
   }
 }
