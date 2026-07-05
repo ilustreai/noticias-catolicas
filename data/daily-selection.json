@@ -5,120 +5,78 @@
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "14Âº Domingo do Tempo Comum",
+    "celebrationTitle": "14º Domingo do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
     "gospelShort": "Mt 11, 25-30"
   },
   "saint": {
     "feast": "Santo do Dia - 5 de Julho",
-    "name": "Santo AntÃ´nio Maria Zaccaria",
-    "description": "Sacerdote reformador apaixonado pela Eucaristia, dedicado Ã  renovaÃ§Ã£o da vida cristÃ£ e da famÃ­lia."
+    "name": "Santo Antônio Maria Zaccaria",
+    "description": "Sacerdote reformador apaixonado pela Eucaristia, dedicado à renovação da vida cristã e da família.",
+    "url": "https://santo.cancaonova.com/santo/santo-antonio-maria-zaccaria-pioneiro-da-pastoral-familiar/"
   },
   "gospel": {
-    "ref": "Evangelho do 14Âº Domingo do Tempo Comum no Brasil: Mateus 11, 25-30.",
+    "ref": "Evangelho do 14º Domingo do Tempo Comum no Brasil: Mateus 11, 25-30.",
     "lines": [
-      "Jesus bendiz o Pai porque os pequenos acolhem os mistÃ©rios do Reino com simplicidade.",
-      "O Senhor convida os cansados a encontrar descanso no seu coraÃ§Ã£o manso e humilde.",
-      "Seguir Cristo nÃ£o elimina a cruz, mas transforma o peso da vida em caminho de comunhÃ£o."
+      "Jesus bendiz o Pai porque os pequenos acolhem os mistérios do Reino com simplicidade.",
+      "O Senhor convida os cansados a encontrar descanso no seu coração manso e humilde.",
+      "Seguir Cristo não elimina a cruz, mas transforma o peso da vida em caminho de comunhão."
     ]
   },
-  "closingQuote": {
-    "text": "Nada te perturbe, nada te espante; sÃ³ Deus basta.",
-    "source": "Santa Teresa de Jesus",
-    "reason": "Frase clÃ¡ssica e amplamente reconhecida de Santa Teresa de Jesus; foi escolhida porque o evangelho oferece repouso em Cristo aos cansados e o santo do dia conduz a vida espiritual ao centro."
+  "sponsor": {
+    "enabled": true,
+    "label": "Apoio",
+    "text": "Gostou do conteúdo? Considere apoiar esse projeto assinando nosso conteúdo exclusivo no Instagram @ilustre.ai.",
+    "url": "https://www.instagram.com/ilustre.ai"
   },
   "news": [
     {
       "source": "Vatican News",
-      "category": "central",
-      "title": "No Dia Mundial da Caridade do Papa, a gratidÃ£o de LeÃ£o XIV pela solidariedade",
-      "summary": "A celebraÃ§Ã£o da caridade pontifÃ­cia destacou a gratidÃ£o do Papa aos que sustentam a missÃ£o da Igreja com gestos concretos de ajuda e proximidade.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-caridade-obolo-sao-pedro-29-junho-2026.html",
-      "storyHook": "Caridade concreta como linguagem pÃºblica da Igreja.",
-      "confirmations": [
-        "Fonte principal: Vatican News"
-      ],
-      "selectedBecause": "Abre a ediÃ§Ã£o com uma pauta papal recente e fora da janela de repetiÃ§Ã£o.",
-      "editorialNote": "Enfatiza a caridade sem tom promocional."
+      "title": "Papa: como Pedro e Paulo, sejamos construtores de unidade",
+      "summary": "Papa: como Pedro e Paulo, sejamos construtores de unidade. Papa: como Pedro e Paulo, sejamos construtores.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-homilia-solenidade-santos-pedro-paulo-palio.html"
     },
     {
       "source": "Vatican News",
-      "category": "central",
-      "title": "Papa agradece a voluntÃ¡rios pelos tapetes decorados na Solenidade de Pedro e Paulo",
-      "summary": "LeÃ£o XIV valorizou o trabalho discreto de voluntÃ¡rios e artistas que serviram a liturgia com beleza e participaÃ§Ã£o comunitÃ¡ria.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-infiorata-osservatore-strada-angelus-29-junho-26.html",
-      "storyHook": "Liturgia bonita nasce de serviÃ§o escondido.",
-      "confirmations": [
-        "Fonte principal: Vatican News"
-      ],
-      "selectedBecause": "Complementa o eixo do Papa com uma leitura litÃºrgica e comunitÃ¡ria.",
-      "editorialNote": "MantÃ©m foco no serviÃ§o e na participaÃ§Ã£o do povo."
+      "title": "Papa se solidariza com vítimas do terremoto na Venezuela e encoraja à solidariedade",
+      "summary": "Papa se solidariza com vítimas do terremoto na Venezuela e encoraja à solidariedade. Papa se solidariza com vítimas do terremoto na Venezuela e encoraja.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-angelus-apelo-venezuela-terremoto-26-junho-2026.html"
     },
     {
       "source": "CNBB",
-      "category": "central",
-      "title": "CNBB envia carta aos parlamentares brasileiros na qual reafirma sua posiÃ§Ã£o contrÃ¡ria Ã  reduÃ§Ã£o",
-      "summary": "A CNBB reiterou que o ordenamento jurÃ­dico jÃ¡ prevÃª responsabilizaÃ§Ã£o de adolescentes e defendeu a proteÃ§Ã£o integral com base na dignidade humana.",
-      "url": "https://www.cnbb.org.br/cnbb-envia-carta-aos-parlamentares-brasileiros/",
-      "storyHook": "Responsabilidade e proteÃ§Ã£o integral em debate pÃºblico.",
-      "confirmations": [
-        "Fonte principal: CNBB"
-      ],
-      "selectedBecause": "Garante presenÃ§a brasileira clara e uma pauta social com leitura eclesial.",
-      "editorialNote": "Trata um tema sensÃ­vel com sobriedade, sem polarizaÃ§Ã£o."
+      "title": "Verdade, comunicação e democracia na era da Inteligência Artificial",
+      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) No capítulo IV da Encíclica Magnifica Humanitas (MH), o Papa Leão XIV analisa os profundos desafios da revolução tecnológica, particularmente da.",
+      "url": "https://www.cnbb.org.br/verdade-comunicacao-e-democracia-na-era-da-inteligencia-artificial/"
     },
     {
-      "source": "ACI Digital",
-      "category": "central",
-      "title": "Vaticano LeÃ£o XIV nomeia freira para chefiar dicastÃ©rio de Desenvolvimento Humano Integral",
-      "summary": "A ACI Digital destacou a nomeaÃ§Ã£o de uma religiosa para a chefia do dicastÃ©rio, com atenÃ§Ã£o ao serviÃ§o Ã  dignidade humana e Ã  missÃ£o da Igreja.",
-      "url": "https://www.acidigital.com/noticia/68713/leao-xiv-nomeia-freira-para-chefiar-dicasterio-de-desenvolvimento-humano-integral",
-      "storyHook": "ServiÃ§o Ã  dignidade humana no centro da decisÃ£o.",
-      "confirmations": [
-        "Fonte principal: ACI Digital"
-      ],
-      "selectedBecause": "Acrescenta uma pauta institucional recente e de leitura pastoral ampla.",
-      "editorialNote": "Evita destaque excessivo no cargo e enfatiza a missÃ£o."
+      "source": "Canção Nova",
+      "title": "Cristãos devem ser sinal crível de paz, afirma Papa",
+      "summary": "Audiência no Vaticano Cristãos devem ser sinal crível de paz, afirma Papa. Audiência no Vaticano Cristãos devem ser sinal crível de paz.",
+      "url": "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/cristaos-devem-ser-sinal-crivel-de-paz-afirma-papa/"
     },
     {
-      "source": "ACI Digital",
-      "category": "central",
-      "title": "LeÃ£o XIV pede oraÃ§Ãµes em julho pela proteÃ§Ã£o da vida em todas as suas fases",
-      "summary": "A ACI repercutiu a intenÃ§Ã£o de oraÃ§Ã£o do Papa para julho, com foco na dignidade da vida humana em todas as etapas.",
-      "url": "https://www.acidigital.com/noticia/68725/leao-xiv-pede-oracoes-em-julho-pela-protecao-da-vida-em-todas-as-suas-fases",
-      "storyHook": "Dignidade da vida em oraÃ§Ã£o e compromisso.",
-      "confirmations": [
-        "Fonte principal: ACI Digital"
-      ],
-      "selectedBecause": "MantÃ©m a leitura papal e Ã©tica sem repetir os URLs dos Ãºltimos 3 dias.",
-      "editorialNote": "Boa ponte entre vida e espiritualidade pÃºblica."
+      "source": "Canção Nova",
+      "title": "sexta-feira, 3 de julho de 2026, 14h31 Papa ressalta direito à vida e à liberdade durante homen",
+      "summary": "sexta-feira, 3 de julho de 2026, 14h31 Papa ressalta direito à vida e à liberdade durante homenagem nos EUA Conectado do Vaticano, Leão XIV foi homenageado com a Medalha da Liberdade em cerimônia na.",
+      "url": "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/papa-ressalta-direito-a-vida-e-a-liberdade-durante-homenagem-nos-eua/"
     },
     {
-      "source": "CanÃ§Ã£o Nova",
-      "category": "variety",
-      "title": "30 anos de CanÃ§Ã£o Nova na Internet",
-      "summary": "A CanÃ§Ã£o Nova relembrou trÃªs dÃ©cadas de presenÃ§a digital e evangelizaÃ§Ã£o contÃ­nua na internet.",
-      "url": "https://noticias.cancaonova.com/cancao-nova/30anos-cancaonova-internet/",
-      "storyHook": "EvangelizaÃ§Ã£o digital com histÃ³ria e frutos.",
-      "confirmations": [
-        "Fonte principal: CanÃ§Ã£o Nova"
-      ],
-      "selectedBecause": "Fecha a ediÃ§Ã£o com variedade pastoral e memÃ³ria evangelizadora.",
-      "editorialNote": "Tom celebrativo e sÃ³brio, sem exagero promocional."
+      "source": "Shalom",
+      "title": "Papa Leão XIV recorda viagem à Espanha e convida a Europa a redescobrir suas raízes cristãs Dur",
+      "summary": "Papa Leão XIV recorda viagem à Espanha e convida a Europa a redescobrir suas raízes cristãs Durante.",
+      "url": "https://comshalom.org/papa-leao-xiv-recorda-viagem-a-espanha-e-convida-a-europa-a-redescobrir-suas-raizes-cristas/"
     },
     {
-      "source": "CanÃ§Ã£o Nova",
-      "category": "variety",
-      "title": "Vaticano divulga intenÃ§Ã£o de oraÃ§Ã£o do Papa para o mÃªs de julho",
-      "summary": "A CanÃ§Ã£o Nova destacou a intenÃ§Ã£o mensal do Papa, Ãºtil para amarrar oraÃ§Ã£o, missÃ£o e leitura espiritual do mÃªs.",
-      "url": "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/vaticano-divulga-intencao-de-oracao-do-papa-para-o-mes-de-julho/",
-      "storyHook": "OraÃ§Ã£o mensal como horizonte missionÃ¡rio.",
-      "confirmations": [
-        "Fonte principal: CanÃ§Ã£o Nova"
-      ],
-      "selectedBecause": "Completa a dupla final de variedade com uma peÃ§a de formaÃ§Ã£o espiritual.",
-      "editorialNote": "MantÃ©m a linguagem interna mÃ­nima e centrada na missÃ£o."
+      "source": "Shalom",
+      "title": "JMJ Seul 2027: Papa Leão XIV e presidente da Coreia do Sul debatem preparativos para o evento D",
+      "summary": "JMJ Seul 2027: Papa Leão XIV e presidente da Coreia do Sul debatem preparativos para o evento Durante audiência.",
+      "url": "https://comshalom.org/jmj-seul-2027-papa-leao-xiv-e-presidente-da-coreia-do-sul-debatem-preparativos-para-o-evento/"
     }
-  ]
+  ],
+  "closingQuote": {
+    "text": "Nada te perturbe, nada te espante; só Deus basta.",
+    "source": "Santa Teresa de Jesus",
+    "reason": "Frase clássica e amplamente reconhecida de Santa Teresa de Jesus; foi escolhida porque o evangelho oferece repouso em Cristo aos cansados e o santo do dia conduzia os fiéis para o centro da vida espiritual."
+  }
 }
