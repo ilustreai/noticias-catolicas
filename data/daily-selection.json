@@ -13,118 +13,70 @@
   "saint": {
     "feast": "Santo do Dia - 6 de Julho",
     "name": "Santa Maria Goretti",
-    "description": "Jovem virgem e mártir que testemunhou pureza, coragem e perdão até o derramamento do sangue."
+    "description": "Jovem virgem e mártir que testemunhou pureza, coragem e perdão até o derramamento do sangue.",
+    "url": "https://santo.cancaonova.com/santo/santa-maria-goretti-a-santa-da-castidade/"
   },
   "gospel": {
     "ref": "Evangelho do dia no Brasil: Mateus 9, 18-26, segunda-feira da 14ª Semana do Tempo Comum.",
     "lines": [
       "Jesus atende a fé insistente de quem o procura em meio à dor e à morte.",
-      "No toque humilde e na entrega perseverante, brota a vida nova que só Deus pode dar.",
+      "No toque humilde e na confiança perseverante, brota a vida nova que só Deus pode dar.",
       "O cristão aprende a levar suas perdas a Cristo, crendo que Ele continua a levantar os caídos."
     ]
-  },
-  "closingQuote": {
-    "text": "A pureza é a força dos fortes.",
-    "source": "Santa Maria Goretti",
-    "reason": "Frase amplamente atribuída a Santa Maria Goretti; foi escolhida porque o evangelho mostra a força da fé simples e a santa do dia testemunha firmeza interior."
   },
   "sponsor": {
     "enabled": true,
     "label": "Apoio",
-    "url": "https://www.instagram.com/ilustre.ai",
-    "text": "Gostou do conteudo? Considere apoiar esse projeto assinando nosso conteudo exclusivo no Instagram @ilustre.ai."
+    "text": "Gostou do conteudo? Considere apoiar esse projeto assinando nosso conteudo exclusivo no Instagram @ilustre.ai.",
+    "url": "https://www.instagram.com/ilustre.ai"
   },
   "news": [
     {
       "source": "Vatican News",
-      "category": "central",
       "title": "Papa: como Pedro e Paulo, sejamos construtores de unidade",
-      "summary": "Leão XIV retoma o testemunho dos apóstolos para chamar a Igreja a uma unidade concreta, humilde e reconhecível no mundo.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-homilia-solenidade-santos-pedro-paulo-palio.html",
-      "storyHook": "Unidade cristã precisa aparecer em gestos concretos.",
-      "confirmations": [
-        "Fonte principal: Vatican News"
-      ],
-      "selectedBecause": "Atende ao pedido de priorizar uma reflexão recente do Papa em segunda-feira e está fora da janela de repetição dos últimos 3 dias.",
-      "editorialNote": "Trata a fala papal como apelo espiritual, não como slogan."
+      "summary": "Papa: como Pedro e Paulo, sejamos construtores de unidade. Papa: como Pedro e Paulo, sejamos construtores de unidade. Papa: como Pedro e Paulo, sejamos construtores.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-homilia-solenidade-santos-pedro-paulo-palio.html"
     },
     {
       "source": "Vatican News",
-      "category": "central",
-      "title": "Papa se reúne com delegação do Patriarcado Ecumênico",
-      "summary": "A audiência reforça o cuidado de Leão XIV com a fraternidade entre as Igrejas e com o caminho da unidade cristã.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-audiencia-delegacao-patriarcado-ecumenico.html",
-      "storyHook": "Unidade cristã também se constrói no diálogo.",
-      "confirmations": [
-        "Fonte principal: Vatican News"
-      ],
-      "selectedBecause": "Complementa a leitura papal do dia com tom pastoral e linguagem ecumênica.",
-      "editorialNote": "Evita reduções diplomáticas e preserva o foco na comunhão."
+      "title": "Papa se solidariza com vítimas do terremoto na Venezuela e encoraja à solidariedade",
+      "summary": "Papa se solidariza com vítimas do terremoto na Venezuela e encoraja à solidariedade. Papa se solidariza com vítimas do terremoto na Venezuela e encoraja à solidariedade. Papa se solidariza com vítimas do terremoto na Venezuela e encoraja.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-angelus-apelo-venezuela-terremoto-26-junho-2026.html"
     },
     {
       "source": "CNBB",
-      "category": "central",
-      "title": "Igreja Católica lança campanha de solidariedade às vítimas dos terremotos da Venezuela",
-      "summary": "A CNBB mobiliza a Igreja no Brasil para apoiar as famílias atingidas, articulando solidariedade concreta e fraternidade.",
-      "url": "https://www.cnbb.org.br/igreja-catolica-lanca-campanha-de-solidariedade-e-fraternidade-as-vitimas-dos-terremotos-da-venezuela-sos-venezuela/",
-      "storyHook": "Solidariedade que se converte em ajuda real.",
-      "confirmations": [
-        "Fonte principal: CNBB"
-      ],
-      "selectedBecause": "Mantém presença brasileira clara e trata uma pauta social recente com tom eclesial sóbrio.",
-      "editorialNote": "Prioriza ajuda concreta e evita dramatização."
+      "title": "Papa Leão XIV no Jubileu dos encarcerados: “Que ninguém se perca! Que todos sejam salvos!”",
+      "summary": "Papa Leão XIV no Jubileu dos encarcerados: “Que ninguém se perca! Que todos sejam salvos!”. Papa Leão XIV no Jubileu dos encarcerados: “Que ninguém se perca! Que todos sejam salvos!”. Papa Leão XIV no Jubileu dos encarcerados: “Que ninguém.",
+      "url": "https://www.cnbb.org.br/papa-leao-jubileu-encarcerados-que-ninguem-se-perca/"
     },
     {
       "source": "ACI Digital",
-      "category": "central",
-      "title": "Leão XIV pede orações em julho pela proteção da vida em todas as suas fases",
-      "summary": "A ACI repercute a intenção de oração do Papa para julho, com foco na dignidade da vida humana em todas as etapas.",
-      "url": "https://www.acidigital.com/noticia/68725/leao-xiv-pede-oracoes-em-julho-pela-protecao-da-vida-em-todas-as-suas-fases",
-      "storyHook": "Vida humana como intenção de oração.",
-      "confirmations": [
-        "Fonte principal: ACI Digital"
-      ],
-      "selectedBecause": "Leitura papal e ética com pouca fricção editorial e boa utilidade espiritual para o mês.",
-      "editorialNote": "Enquadra a notícia como oração e compromisso."
+      "title": "Leão XIV diz que continua a rezar por todo o povo venezuelano",
+      "summary": "5 de jul de 2026 às 16:03 .- O papa Leão XIV disse hoje (5), depois da oração do Ângelus, que continua rezando pela Venezuela, atingida por dois terremotos no norte do país em 24 de junho, com apenas 39 segundos de intervalo entre eles.",
+      "url": "https://www.acidigital.com/noticia/68789/leao-xiv-diz-que-continua-a-rezar-por-todo-o-povo-venezuelano"
+    },
+    {
+      "source": "O São Paulo",
+      "title": "Papa leva esperança a Lampedusa e visita monumento em homenagem a migrantes",
+      "summary": "O Papa Leão XIV, após pouco mais de uma hora de viagem, chegou às 8h54 do horário italiano na ilha de Lampedusa para a tão aguardada visita pastoral neste sábado, 4 de julho, em que retoma um dos gestos mais emblemáticos do pontificado.",
+      "url": "https://osaopaulo.org.br/vaticano/papa-leva-esperanca-a-lampedusa-e-visita-monumento-em-homenagem-a-migrantes/"
     },
     {
       "source": "ACI Digital",
-      "category": "central",
-      "title": "Vaticano Leão XIV nomeia freira para chefiar dicastério de Desenvolvimento Humano Integral",
-      "summary": "A ACI destaca a nomeação de uma religiosa para a chefia do dicastério, com atenção à missão da Igreja no serviço à dignidade humana.",
-      "url": "https://www.acidigital.com/noticia/68713/leao-xiv-nomeia-freira-para-chefiar-dicasterio-de-desenvolvimento-humano-integral",
-      "storyHook": "Serviço à dignidade humana no centro da decisão.",
-      "confirmations": [
-        "Fonte principal: ACI Digital"
-      ],
-      "selectedBecause": "Acrescenta uma pauta institucional recente sem repetir os links usados nos últimos 3 dias.",
-      "editorialNote": "Realça a missão, não o cargo em si."
+      "title": "Na hora do pecado, Cristo é perdão, diz Leão XIV",
+      "summary": "5 de jul de 2026 às 15:03 .- No Ângelus de hoje (5), o papa Leão XIV disse que “a simplicidade de um gesto tão espontâneo e alegre corresponde ao estilo de Deus, que gosta de se revelar “aos pequeninos”, enquanto permanece escondido.",
+      "url": "https://www.acidigital.com/noticia/68787/na-hora-do-pecado-cristo-e-perdao-diz-leao-xiv"
     },
     {
-      "source": "Canção Nova",
-      "category": "variety",
-      "title": "30 anos de Canção Nova na Internet",
-      "summary": "A Canção Nova relembra três décadas de presença digital e evangelização contínua na internet.",
-      "url": "https://noticias.cancaonova.com/cancao-nova/30anos-cancaonova-internet/",
-      "storyHook": "Evangelização digital com história e frutos.",
-      "confirmations": [
-        "Fonte principal: Canção Nova"
-      ],
-      "selectedBecause": "Fecha a edição com memória evangelizadora e variedade pastoral.",
-      "editorialNote": "Tom celebrativo, sem promoção excessiva."
-    },
-    {
-      "source": "Shalom",
-      "category": "variety",
-      "title": "Papa Leão XIV recorda viagem à Espanha e convida a Europa a redescobrir suas raízes cristãs",
-      "summary": "A Comunidade Shalom repercute o convite do Papa para reencontrar as raízes cristãs da Europa e renovar a esperança missionária.",
-      "url": "https://comshalom.org/papa-leao-xiv-recorda-viagem-a-espanha-e-convida-a-europa-a-redescobrir-suas-raizes-cristas/",
-      "storyHook": "Raízes cristãs como chamada missionária.",
-      "confirmations": [
-        "Fonte principal: Shalom"
-      ],
-      "selectedBecause": "Completa a dupla final com uma peça comunitária confiável e recente.",
-      "editorialNote": "Mantém o tom de missão e cultura cristã."
+      "source": "CNBB",
+      "title": "Repam reforça apoio ao povo Yanomami e Papa Leão XIV envia mensagem de solidariedade",
+      "summary": "Repam reforça apoio ao povo Yanomami e Papa Leão XIV envia mensagem de solidariedade. Repam reforça apoio ao povo Yanomami e Papa Leão XIV envia mensagem de solidariedade. Repam reforça apoio ao povo Yanomami e Papa Leão XIV envia mensagem.",
+      "url": "https://www.cnbb.org.br/repam-reforca-apoio-ao-povo-yanomami-e-papa-leao-xiv-envia-mensagem-de-solidariedade/"
     }
-  ]
+  ],
+  "closingQuote": {
+    "text": "A pureza é a força dos fortes.",
+    "source": "Santa Maria Goretti",
+    "reason": "Frase amplamente atribuída a Santa Maria Goretti; foi escolhida porque o evangelho mostra a força da fé simples e confiante, e a santa do dia testemunha firmeza interior."
+  }
 }
