@@ -136,9 +136,9 @@ function scoreNewsCandidate(item, today) {
   const url = normalize(item.url);
   let score = 0;
 
-  if (item.source === 'Vatican News' || item.source === 'Santa Se' || item.source === 'Vaticano') score += 40;
+  if (item.source === 'Vatican News' || item.source === 'Santa Se' || item.source === 'Vaticano' || item.source === 'Vatican Insider') score += 40;
   if (item.source === 'CNBB') score += 34;
-  if (item.source === 'ACI Digital' || item.source === 'Canção Nova' || item.source === 'CanÃ§Ã£o Nova' || item.source === 'Shalom' || item.source === 'Comunidade Shalom' || item.source === 'O São Paulo' || item.source === 'O Sao Paulo') score += 30;
+  if (item.source === 'ACI Digital' || item.source === 'Canção Nova' || item.source === 'CanÃ§Ã£o Nova' || item.source === 'Shalom' || item.source === 'Comunidade Shalom' || item.source === 'O São Paulo' || item.source === 'O Sao Paulo' || item.source === 'Aleteia' || item.source === 'Gaudium Press') score += 30;
 
   const hotTerms = [
     ['papa', 22],
@@ -170,7 +170,7 @@ function scoreNewsCandidate(item, today) {
     const age = Math.max(0, daysBetween(today, item.published));
     score += Math.max(0, 18 - (age * 5));
   } else {
-    score += 3;
+    score -= 10;
   }
 
   if (item.kind === 'vatican') score += 10;
@@ -178,6 +178,17 @@ function scoreNewsCandidate(item, today) {
   if (item.kind === 'trusted') score += 6;
 
   return score;
+}
+
+function topicClusters(item) {
+  const text = normalize(`${item.title} ${item.summary}`);
+  const clusters = [];
+  if (/\bpapa\b|leaoxiv|pontifice/.test(text)) clusters.push('papa');
+  if (/vaticano|santase|consistorio|cardeais?/.test(text)) clusters.push('vaticano');
+  if (/gaza|venezuela|ucrania/.test(text)) clusters.push('mundo');
+  if (/familia|jovens|vocacao|educacao/.test(text)) clusters.push('social');
+  if (/cnbb|brasil|conferencia|episcopado/.test(text)) clusters.push('brasil');
+  return clusters;
 }
 
 function rankCandidates(candidates, today) {
@@ -320,6 +331,10 @@ function makeSummary(item) {
     .replace(/\s*Leia o texto integral\.?\s*/gi, ' ')
     .replace(/\s*Continue lendo[^.]*\.?\s*/gi, ' ')
     .replace(/\s*O post[^.]*apareceu primeiro[^.]*\.?\s*/gi, ' ')
+    .replace(/\s*Ver artigo\s*/gi, ' ')
+    .replace(/\s*The post[^.]*appeared first on[^.]*\.?\s*/gi, ' ')
+    .replace(/\s*L'articolo[^.]*\.?\s*/gi, ' ')
+    .replace(/^\d{1,2}\s+de\s+[a-záéíóúâêîôûãõç]+\s+de\s+\d{4}\s+.*?\.-\s+/i, '')
     .replace(/&#\d+;|&amp;#\d+;/g, ' ')
     .replace(/&lt;|&gt;|&amp;|&quot;|&#039;/g, ' ')
     .replace(/\s+/g, ' ')
@@ -327,9 +342,20 @@ function makeSummary(item) {
   const title = stripHtml(item.title || '').replace(/\s+/g, ' ').trim();
   const cleanNorm = normalize(clean);
   const titleNorm = normalize(title);
-  const isSameAsTitle = cleanNorm.length > 0 && titleNorm.length > 0 && (cleanNorm === titleNorm || cleanNorm.startsWith(titleNorm));
-  const base = (!isSameAsTitle && clean.length >= 80) ? clean : `${title}. ${clean}`;
-  const trimmed = base.slice(0, 240).replace(/\s+\S*$/, '').trim();
+  const isSameAsTitle = cleanNorm.length > 0 && titleNorm.length > 0 && (cleanNorm === titleNorm || cleanNorm.startsWith(titleNorm) || titleNorm.startsWith(cleanNorm));
+
+  if (isSameAsTitle) {
+    const fallback = `${title}. Leia a noticia completa em ${item.source}.`;
+    if (fallback.length >= 40) {
+      const sliced = fallback.slice(0, 240);
+      return sliced.length < fallback.length ? sliced.replace(/\s+\S*$/, '') : sliced;
+    }
+    return `${title} foi destaque em ${item.source}, em noticia recente acompanhada pela curadoria catolica.`;
+  }
+
+  const base = clean.length >= 80 ? clean : `${title}. ${clean}`;
+  const sliced = base.slice(0, 240).trim();
+  const trimmed = sliced.length < base.length ? sliced.replace(/\s+\S*$/, '') : sliced;
   if (trimmed.length >= 60) return trimmed.endsWith('.') ? trimmed : `${trimmed}.`;
   if (trimmed.length >= 40) return `${trimmed}.`;
   return `${title} foi destaque em ${item.source}, em noticia recente acompanhada pela curadoria catolica.`;
@@ -419,11 +445,17 @@ function rejectsEditorially(item) {
   return blocked.some((term) => text.includes(term));
 }
 
-function pickByKind(items, kind, limit, selected, sourceCounts) {
+function pickByKind(items, kind, limit, selected, sourceCounts, topicCounts) {
   for (const item of items.filter((candidate) => candidate.kind === kind)) {
     if (selected.length >= 7) break;
     if (selected.includes(item)) continue;
     if ((sourceCounts.get(item.source) ?? 0) >= 2) continue;
+    if (topicCounts) {
+      const topics = topicClusters(item);
+      const saturated = topics.length > 0 && topics.some((t) => (topicCounts.get(t) ?? 0) >= 2);
+      if (saturated) continue;
+      topics.forEach((t) => topicCounts.set(t, (topicCounts.get(t) ?? 0) + 1));
+    }
     selected.push(item);
     sourceCounts.set(item.source, (sourceCounts.get(item.source) ?? 0) + 1);
     if (selected.filter((candidate) => candidate.kind === kind).length >= limit) break;
@@ -460,13 +492,18 @@ function cleanSelectionNews(selection) {
 function deterministicSelection(candidates) {
   const selected = [];
   const sourceCounts = new Map();
-  pickByKind(candidates, 'vatican', 2, selected, sourceCounts);
-  pickByKind(candidates, 'brazil', 1, selected, sourceCounts);
-  pickByKind(candidates, 'trusted', 2, selected, sourceCounts);
+  const topicCounts = new Map();
+  pickByKind(candidates, 'vatican', 2, selected, sourceCounts, topicCounts);
+  pickByKind(candidates, 'brazil', 1, selected, sourceCounts, topicCounts);
+  pickByKind(candidates, 'trusted', 2, selected, sourceCounts, topicCounts);
   for (const item of candidates) {
     if (selected.length >= 7) break;
     if (selected.includes(item)) continue;
     if ((sourceCounts.get(item.source) ?? 0) >= 2) continue;
+    const topics = topicClusters(item);
+    const saturated = topics.length > 0 && topics.some((t) => (topicCounts.get(t) ?? 0) >= 2);
+    if (saturated) continue;
+    topics.forEach((t) => topicCounts.set(t, (topicCounts.get(t) ?? 0) + 1));
     selected.push(item);
     sourceCounts.set(item.source, (sourceCounts.get(item.source) ?? 0) + 1);
   }

@@ -23,17 +23,22 @@ const allowedSourceKeys = new Set([
   'Cancao Nova',
   'Comunidade Shalom',
   'Shalom',
-  'O Sao Paulo'
+  'O Sao Paulo',
+  'Aleteia',
+  'Gaudium Press',
+  'Vatican Insider'
 ].map((source) => sourceKey(source)));
 
-const vaticanSourceKeys = new Set(['Vatican News', 'Santa Se', 'Vaticano'].map((source) => sourceKey(source)));
+const vaticanSourceKeys = new Set(['Vatican News', 'Santa Se', 'Vaticano', 'Vatican Insider'].map((source) => sourceKey(source)));
 const brazilSourceKeys = new Set(['CNBB'].map((source) => sourceKey(source)));
 const trustedCatholicSourceKeys = new Set([
   'ACI Digital',
   'Cancao Nova',
   'Comunidade Shalom',
   'Shalom',
-  'O Sao Paulo'
+  'O Sao Paulo',
+  'Aleteia',
+  'Gaudium Press'
 ].map((source) => sourceKey(source)));
 const liturgicalRanks = new Set(['tempo', 'memoria', 'festa', 'solenidade']);
 

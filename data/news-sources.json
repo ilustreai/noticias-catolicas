@@ -35,5 +35,20 @@
     "source": "O São Paulo",
     "kind": "trusted",
     "feedUrl": "https://osaopaulo.org.br/feed/"
+  },
+  {
+    "source": "Aleteia",
+    "kind": "trusted",
+    "feedUrl": "https://pt.aleteia.org/feed/"
+  },
+  {
+    "source": "Gaudium Press",
+    "kind": "trusted",
+    "feedUrl": "https://gaudiumpress.org/feed/"
+  },
+  {
+    "source": "Vatican Insider",
+    "kind": "vatican",
+    "feedUrl": "https://www.lastampa.it/vatican-insider/rss"
   }
 ]
