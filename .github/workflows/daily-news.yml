@@ -8,13 +8,12 @@ on:
     paths:
       - 'scripts/build-html.mjs'
       - 'scripts/generate-daily-selection.mjs'
-      - 'scripts/polish-selection.mjs'
       - 'data/liturgical-calendar-2026.json'
       - 'data/news-sources.json'
       - 'template/noticias-catolicas.template.html'
       - '.github/workflows/daily-news.yml'
   schedule:
-    - cron: '0 7 * * *'
+    - cron: '30 7 * * *'
 
 permissions:
   contents: write
@@ -46,9 +45,6 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4o-mini' }}
         run: npm run generate
-
-      - name: Polish Portuguese and editorial residue
-        run: node scripts/polish-selection.mjs data/daily-selection.json
 
       - name: Validate daily selection
         run: npm run validate
