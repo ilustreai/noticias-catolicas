@@ -23,7 +23,8 @@ const allowedSourceKeys = new Set([
   'ACI Digital',
   'Cancao Nova',
   'Comunidade Shalom',
-  'Shalom'
+  'Shalom',
+  'O Sao Paulo'
 ].map((source) => sourceKey(source)));
 
 const vaticanSourceKeys = new Set(['Vatican News', 'Santa Se', 'Vaticano'].map((source) => sourceKey(source)));
@@ -32,7 +33,8 @@ const trustedCatholicSourceKeys = new Set([
   'ACI Digital',
   'Cancao Nova',
   'Comunidade Shalom',
-  'Shalom'
+  'Shalom',
+  'O Sao Paulo'
 ].map((source) => sourceKey(source)));
 const liturgicalRanks = new Set(['tempo', 'memoria', 'festa', 'solenidade']);
 

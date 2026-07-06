@@ -13,32 +13,27 @@
     "kind": "brazil",
     "feedUrl": "https://www.cnbb.org.br/feed/",
     "pageUrls": [
-      "https://www.cnbb.org.br/papa-leao-xiv-propoe-paz-sinodalidade-e-ardor-missionario-na-abertura-do-consistorio-extraordinario/",
-      "https://www.cnbb.org.br/quatro-arcebispos-brasileiros-palio-arquiepiscopal/",
-      "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/"
+      "https://www.cnbb.org.br/"
     ]
   },
   {
     "source": "ACI Digital",
     "kind": "trusted",
-    "pageUrls": [
-      "https://www.acidigital.com/"
-    ]
+    "feedUrl": "https://www.acidigital.com/rss/rss.php"
   },
   {
     "source": "Canção Nova",
     "kind": "trusted",
-    "pageUrls": [
-      "https://noticias.cancaonova.com/igreja/",
-      "https://noticias.cancaonova.com/especiais/pontificado/leao-xiv/"
-    ]
+    "feedUrl": "https://noticias.cancaonova.com/feed/"
   },
   {
     "source": "Shalom",
     "kind": "trusted",
-    "pageUrls": [
-      "https://comshalom.org/noticias/",
-      "https://comshalom.org/evangelizacao/"
-    ]
+    "feedUrl": "https://comshalom.org/feed/"
+  },
+  {
+    "source": "O São Paulo",
+    "kind": "trusted",
+    "feedUrl": "https://osaopaulo.org.br/feed/"
   }
 ]

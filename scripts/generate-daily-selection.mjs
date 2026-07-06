@@ -138,7 +138,7 @@ function scoreNewsCandidate(item, today) {
 
   if (item.source === 'Vatican News' || item.source === 'Santa Se' || item.source === 'Vaticano') score += 40;
   if (item.source === 'CNBB') score += 34;
-  if (item.source === 'ACI Digital' || item.source === 'Canção Nova' || item.source === 'CanÃ§Ã£o Nova' || item.source === 'Shalom' || item.source === 'Comunidade Shalom') score += 30;
+  if (item.source === 'ACI Digital' || item.source === 'Canção Nova' || item.source === 'CanÃ§Ã£o Nova' || item.source === 'Shalom' || item.source === 'Comunidade Shalom' || item.source === 'O São Paulo' || item.source === 'O Sao Paulo') score += 30;
 
   const hotTerms = [
     ['papa', 22],
@@ -257,8 +257,13 @@ function likelyNewsTitle(title) {
     'noticias a servico da vida e da esperanca',
     'conselho economico fiscal',
     'instagram',
-    'youtube'
+    'youtube',
+    'nomeado em',
+    'nomeada em',
+    'foi nomeado',
+    'foi nomeada'
   ];
+  if (/^\d{1,2}\s+de\s+\w+/.test(text)) return false;
   return !blocked.some((term) => text.includes(term));
 }
 
@@ -313,16 +318,24 @@ function makeSummary(item) {
     .replace(/\s*Leia o texto integral na fonte original\.?\s*/gi, ' ')
     .replace(/\s*Leia o texto integral na fonte\.?\s*/gi, ' ')
     .replace(/\s*Leia o texto integral\.?\s*/gi, ' ')
+    .replace(/\s*Continue lendo[^.]*\.?\s*/gi, ' ')
+    .replace(/\s*O post[^.]*apareceu primeiro[^.]*\.?\s*/gi, ' ')
+    .replace(/&#\d+;|&amp;#\d+;/g, ' ')
+    .replace(/&lt;|&gt;|&amp;|&quot;|&#039;/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
-  const base = clean.length >= 80 ? clean : `${item.title}. ${clean}`;
-  const trimmed = base.slice(0, 210).replace(/\s+\S*$/, '').trim();
-  const sentence = trimmed.length >= 40 ? trimmed : `${item.title} foi destaque em ${item.source}, em noticia recente acompanhada pela curadoria catolica.`;
-  return sentence.endsWith('.') ? sentence : `${sentence}.`;
+  const title = stripHtml(item.title || '').replace(/\s+/g, ' ').trim();
+  const cleanNorm = normalize(clean);
+  const titleNorm = normalize(title);
+  const isSameAsTitle = cleanNorm.length > 0 && titleNorm.length > 0 && (cleanNorm === titleNorm || cleanNorm.startsWith(titleNorm));
+  const base = (!isSameAsTitle && clean.length >= 80) ? clean : `${title}. ${clean}`;
+  const trimmed = base.slice(0, 240).replace(/\s+\S*$/, '').trim();
+  if (trimmed.length >= 60) return trimmed.endsWith('.') ? trimmed : `${trimmed}.`;
+  if (trimmed.length >= 40) return `${trimmed}.`;
+  return `${title} foi destaque em ${item.source}, em noticia recente acompanhada pela curadoria catolica.`;
 }
 
 function cleanHeadlinePrefix(title, source) {
-  const sourceName = normalize(source);
   const text = stripHtml(title).replace(/\s+/g, ' ').trim();
   const normalized = normalize(text);
   const prefixes = [
@@ -342,8 +355,21 @@ function cleanHeadlinePrefix(title, source) {
     }
   }
 
-  if (sourceName && normalized.startsWith(sourceName)) {
+  const sourceNorm = normalize(source);
+  if (sourceNorm && normalized.startsWith(sourceNorm)) {
     const stripped = text.slice(source.length).trim().replace(/^[:\-–—]\s*/, '');
+    if (stripped.length >= 24) return stripped;
+  }
+
+  const dateTimeMatch = text.match(/^(?:[^A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇP]*[A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇ][a-záéíóúâêîôûãõç]+(?:[-\s][a-záéíóúâêîôûãõç]+)?,\s+)?\d{1,2}\s+de\s+[a-záéíóúâêîôûãõç]+\s+de\s+\d{4}(?:,\s+\d{1,2}h\d{2})?\s+/i);
+  if (dateTimeMatch) {
+    const stripped = text.slice(dateTimeMatch[0].length).trim();
+    if (stripped.length >= 24) return stripped;
+  }
+
+  const timePrefix = text.match(/^\d{1,2}h\d{2}\s+/);
+  if (timePrefix) {
+    const stripped = text.slice(timePrefix[0].length).trim();
     if (stripped.length >= 24) return stripped;
   }
 
@@ -352,8 +378,10 @@ function cleanHeadlinePrefix(title, source) {
 
 function makeTitle(item) {
   const title = cleanHeadlinePrefix(item.title, item.source);
-  if (title.length >= 24) return title.slice(0, 95);
-  return `${title} ganha destaque na Igreja`.slice(0, 95);
+  const cleaned = title.replace(/\s+[A-Z][a-z]{0,2}$/, '').trim();
+  const final = cleaned.length >= 24 ? cleaned : title;
+  if (final.length >= 24) return final.slice(0, 95);
+  return `${final} ganha destaque na Igreja`.slice(0, 95);
 }
 
 function uniqueItems(items) {
@@ -383,7 +411,10 @@ function rejectsEditorially(item) {
     'evangelho do dia',
     'oracao do dia',
     'solenidade de sao pedro',
-    'sao pedro e sao paulo'
+    'sao pedro e sao paulo',
+    'continue lendo',
+    'o post',
+    'apareceu primeiro'
   ];
   return blocked.some((term) => text.includes(term));
 }
