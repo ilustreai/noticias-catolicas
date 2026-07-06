@@ -50,13 +50,15 @@ jobs:
         run: npm run validate
 
       - name: Build static page at repository root
-        run: node scripts/build-html.mjs data/daily-selection.json .
+        run: |
+          node scripts/build-html.mjs data/daily-selection.json .
+          cp -f index.html public/index.html
 
       - name: Commit generated selection and static page
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/daily-selection.json index.html *.html
+          git add data/daily-selection.json index.html public/index.html *.html
           git diff --cached --quiet || git commit -m "chore: publish daily catholic news"
           git push
 
