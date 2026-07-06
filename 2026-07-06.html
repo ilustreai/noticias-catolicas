@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noticias Catolicas - 6 de julho de 2026 - @ilustre.ai</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=EB+Garamond:wght@500;600&family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F9F6F0;
+    --ink: #1A1410;
+    --wine: #6B1A2A;
+    --gold: #B8943F;
+    --gold-lt: #D4AF6A;
+    --navy: #1C2B4A;
+    --mist: #E8E2D8;
+    --rule: rgba(184,148,63,0.35);
+    --liturgical-color: #2E7D32;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--paper); color: var(--ink); font-family: 'EB Garamond', Georgia, serif; font-size: 18px; line-height: 1.7; overflow-x: hidden; }
+  a { color: inherit; }
+  .masthead { background: var(--navy); position: sticky; top: 0; z-index: 10; box-shadow: 0 2px 24px rgba(0,0,0,0.22); }
+  .masthead-inner { max-width: 900px; margin: 0 auto; display: flex; align-items: flex-start; justify-content: space-between; flex-direction: column; gap: 12px; padding: 14px 24px 18px; }
+  .masthead-brand { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.14em; color: var(--gold); text-transform: uppercase; text-decoration: none; }
+  .masthead-date { font-family: 'Inter', sans-serif; font-size: 11px; letter-spacing: 0.12em; color: rgba(255,255,255,0.58); text-transform: uppercase; }
+  .hero { background: var(--navy); padding: 54px 24px 64px; position: relative; overflow: hidden; }
+  .hero-content { max-width: 900px; margin: 0 auto; }
+  .hero-title { font-family: 'Playfair Display', serif; font-size: clamp(38px, 7vw, 72px); font-weight: 900; line-height: 1.05; color: white; margin-bottom: 24px; }
+  .hero-title em { color: var(--gold-lt); font-style: italic; }
+  .hero-subtitle { font-size: 20px; font-style: italic; color: rgba(255,255,255,0.72); max-width: 610px; }
+  .liturgy-strip { background: var(--liturgical-color); padding: 0 24px; }
+  .liturgy-inner { max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: repeat(2, 1fr); border-left: 1px solid rgba(255,255,255,0.14); }
+  .liturgy-cell { padding: 20px 24px; border-right: 1px solid rgba(255,255,255,0.14); }
+  .liturgy-label { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.72); margin-bottom: 7px; }
+  .liturgy-value { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 700; color: white; line-height: 1.3; }
+  .liturgy-value.gold { color: var(--gold-lt); }
+  .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+  .section-header { display: flex; align-items: center; gap: 16px; margin: 56px 0 32px; }
+  .section-header-line { flex: 1; height: 1px; background: var(--mist); }
+  .section-header-title { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--wine); white-space: nowrap; }
+  .saint-card { background: white; border: 1px solid var(--mist); border-top: 3px solid var(--gold); padding: 36px 40px; margin-bottom: 20px; }
+  .saint-name { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; color: var(--navy); line-height: 1.2; margin-bottom: 8px; }
+  .saint-feast { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--wine); margin-bottom: 12px; }
+  .saint-bio { font-family: 'Inter', sans-serif; font-size: 15px; color: #4a4040; line-height: 1.8; }
+  .gospel-card { background: var(--navy); padding: 40px 44px; margin-bottom: 20px; }
+  .gospel-ref { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; }
+  .gospel-text { font-family: 'EB Garamond', Georgia, serif; font-size: 24px; font-weight: 500; color: white; line-height: 1.5; max-width: 640px; }
+  .gospel-line { display: block; }
+  .gospel-line + .gospel-line { margin-top: 8px; }
+  .news-feed { display: flex; flex-direction: column; gap: 0; }
+  .news-item { display: grid; grid-template-columns: 56px 1fr; border-top: 1px solid var(--mist); }
+  .news-item:last-child { border-bottom: 1px solid var(--mist); }
+  .news-index { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; color: var(--gold); padding: 28px 16px 0 0; }
+  .news-body { padding: 28px 0 30px; }
+  .news-source { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--wine); margin-bottom: 10px; }
+  .news-headline { font-family: 'Playfair Display', serif; font-size: 25px; line-height: 1.24; color: var(--navy); margin-bottom: 12px; }
+  .news-summary { font-family: 'Inter', sans-serif; font-size: 15px; line-height: 1.72; color: #4a4040; max-width: 680px; margin-bottom: 18px; }
+  .btn-source { display: inline-flex; align-items: center; gap: 8px; font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--wine); text-decoration: none; border-bottom: 1px solid var(--gold); padding-bottom: 3px; }
+  .closing-quote { margin: 44px 0 0; padding: 34px 38px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); color: var(--navy); }
+  .closing-quote-label { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--wine); margin-bottom: 12px; }
+  .closing-quote-text { font-family: 'Playfair Display', serif; font-size: clamp(25px, 5vw, 40px); line-height: 1.2; color: var(--navy); }
+  .closing-quote-source { margin-top: 14px; font-family: 'Inter', sans-serif; font-size: 13px; color: #4a4040; }
+  .sponsor-bar { margin: 28px 0 0; min-height: 40px; display: flex; align-items: center; gap: 12px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); color: var(--navy); font-family: 'Inter', sans-serif; font-size: 13px; }
+  .sponsor-label { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--wine); }
+  footer { margin-top: 64px; background: var(--navy); color: white; padding: 44px 24px; text-align: center; }
+  .footer-brand { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold-lt); }
+  .footer-sub { font-family: 'Inter', sans-serif; font-size: 12px; color: rgba(255,255,255,0.55); margin-top: 8px; }
+  .footer-link { display: inline-block; margin-top: 18px; font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: white; text-decoration: none; }
+</style>
+</head>
+<body>
+<header class="masthead"><div class="masthead-inner"><a class="masthead-brand" href="#">Notícias Católicas · ilustre.ai</a><span class="masthead-date">6 de julho de 2026</span></div></header>
+<section class="hero"><div class="hero-content"><h1 class="hero-title">A Igreja <em>viva</em><br>no mundo de hoje</h1><p class="hero-subtitle">Um giro simples para voce se situar, rezar melhor e acompanhar o que acontece na Igreja hoje.</p></div></section>
+<div class="liturgy-strip"><div class="liturgy-inner"><div class="liturgy-cell"><div class="liturgy-label">Tempo Litúrgico</div><div class="liturgy-value gold">14º Domingo do Tempo Comum</div></div><div class="liturgy-cell"><div class="liturgy-label">Evangelho do Dia</div><div class="liturgy-value">Mt 9, 18-26</div></div></div></div>
+<main class="container"><div class="section-header"><span class="section-header-title">Santo do Dia</span><div class="section-header-line"></div></div><div class="saint-card"><div class="saint-feast">Santo do Dia - 6 de Julho</div><h2 class="saint-name">Santa Maria Goretti</h2><p class="saint-bio">Jovem virgem e mártir que testemunhou pureza, coragem e perdão até o derramamento do sangue.</p></div><div class="section-header"><span class="section-header-title">Evangelho</span><div class="section-header-line"></div></div><div class="gospel-card"><div class="gospel-ref">Evangelho do dia no Brasil: Mateus 9, 18-26, segunda-feira da 14ª Semana do Tempo Comum.</div><p class="gospel-text"><span class="gospel-line">Jesus atende a fé insistente de quem o procura em meio à dor e à morte.</span><span class="gospel-line">No toque humilde e na entrega perseverante, brota a vida nova que só Deus pode dar.</span><span class="gospel-line">O cristão aprende a levar suas perdas a Cristo, crendo que Ele continua a levantar os caídos.</span></p></div><div class="section-header"><span class="section-header-title">Notícias Selecionadas</span><div class="section-header-line"></div></div><div class="news-feed" id="news-feed"><article class="news-item reveal"><div class="news-index">01</div><div class="news-body"><div class="news-source">Vatican News</div><h3 class="news-headline">Papa: como Pedro e Paulo, sejamos construtores de unidade</h3><p class="news-summary">Leão XIV retoma o testemunho dos apóstolos para chamar a Igreja a uma unidade concreta, humilde e reconhecível no mundo.</p><a class="btn-source" href="https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-homilia-solenidade-santos-pedro-paulo-palio.html" target="_blank" rel="noopener noreferrer">Ler na fonte</a></div></article><article class="news-item reveal"><div class="news-index">02</div><div class="news-body"><div class="news-source">Vatican News</div><h3 class="news-headline">Papa se reúne com delegação do Patriarcado Ecumênico</h3><p class="news-summary">A audiência reforça o cuidado de Leão XIV com a fraternidade entre as Igrejas e com o caminho da unidade cristã.</p><a class="btn-source" href="https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-audiencia-delegacao-patriarcado-ecumenico.html" target="_blank" rel="noopener noreferrer">Ler na fonte</a></div></article><article class="news-item reveal"><div class="news-index">03</div><div class="news-body"><div class="news-source">CNBB</div><h3 class="news-headline">Igreja Católica lança campanha de solidariedade às vítimas dos terremotos da Venezuela</h3><p class="news-summary">A CNBB mobiliza a Igreja no Brasil para apoiar as famílias atingidas, articulando solidariedade concreta e fraternidade.</p><a class="btn-source" href="https://www.cnbb.org.br/igreja-catolica-lanca-campanha-de-solidariedade-e-fraternidade-as-vitimas-dos-terremotos-da-venezuela-sos-venezuela/" target="_blank" rel="noopener noreferrer">Ler na fonte</a></div></article><article class="news-item reveal"><div class="news-index">04</div><div class="news-body"><div class="news-source">ACI Digital</div><h3 class="news-headline">Leão XIV pede orações em julho pela proteção da vida em todas as suas fases</h3><p class="news-summary">A ACI repercute a intenção de oração do Papa para julho, com foco na dignidade da vida humana em todas as etapas.</p><a class="btn-source" href="https://www.acidigital.com/noticia/68725/leao-xiv-pede-oracoes-em-julho-pela-protecao-da-vida-em-todas-as-suas-fases" target="_blank" rel="noopener noreferrer">Ler na fonte</a></div></article><article class="news-item reveal"><div class="news-index">05</div><div class="news-body"><div class="news-source">ACI Digital</div><h3 class="news-headline">Vaticano Leão XIV nomeia freira para chefiar dicastério de Desenvolvimento Humano Integral</h3><p class="news-summary">A ACI destaca a nomeação de uma religiosa para a chefia do dicastério, com atenção à missão da Igreja no serviço à dignidade humana.</p><a class="btn-source" href="https://www.acidigital.com/noticia/68713/leao-xiv-nomeia-freira-para-chefiar-dicasterio-de-desenvolvimento-humano-integral" target="_blank" rel="noopener noreferrer">Ler na fonte</a></div></article><article class="news-item reveal"><div class="news-index">06</div><div class="news-body"><div class="news-source">Canção Nova</div><h3 class="news-headline">30 anos de Canção Nova na Internet</h3><p class="news-summary">A Canção Nova relembra três décadas de presença digital e evangelização contínua na internet.</p><a class="btn-source" href="https://noticias.cancaonova.com/cancao-nova/30anos-cancaonova-internet/" target="_blank" rel="noopener noreferrer">Ler na fonte</a></div></article><article class="news-item reveal"><div class="news-index">07</div><div class="news-body"><div class="news-source">Shalom</div><h3 class="news-headline">Papa Leão XIV recorda viagem à Espanha e convida a Europa a redescobrir suas raízes cristãs</h3><p class="news-summary">A Comunidade Shalom repercute o convite do Papa para reencontrar as raízes cristãs da Europa e renovar a esperança missionária.</p><a class="btn-source" href="https://comshalom.org/papa-leao-xiv-recorda-viagem-a-espanha-e-convida-a-europa-a-redescobrir-suas-raizes-cristas/" target="_blank" rel="noopener noreferrer">Ler na fonte</a></div></article></div><aside class="closing-quote"><div class="closing-quote-label">Para guardar hoje</div><p class="closing-quote-text">A pureza é a força dos fortes.</p><p class="closing-quote-source">Santa Maria Goretti</p><button class="story-download" type="button" id="download-story-quote">Baixar para Stories</button></aside><aside class="sponsor-bar"><span class="sponsor-label">Apoio</span><a href="https://www.instagram.com/ilustre.ai" target="_blank" rel="noopener noreferrer">Gostou do conteudo? Considere apoiar esse projeto assinando nosso conteudo exclusivo no Instagram @ilustre.ai.</a></aside></main><footer><p class="footer-brand">Curadoria por @ilustre.ai</p><p class="footer-sub">Arte sacra e evangelização digital</p><a class="footer-link" href="https://www.instagram.com/ilustre.ai" target="_blank" rel="noopener noreferrer">Instagram · @ilustre.ai</a></footer><script>/* local story download script omitted in archiving */</script></body></html>
