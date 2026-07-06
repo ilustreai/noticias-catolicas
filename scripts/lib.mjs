@@ -7,12 +7,11 @@ const rootDir = path.resolve(__dirname, '..');
 
 export const internalTerms = [
   'teste manual',
-  'confianca',
   'revalidar',
   'nao confirmado',
   'alerta interno',
-  'operador',
-  'bastidor'
+  'confianca alta',
+  'confianca editorial'
 ];
 
 const allowedSourceKeys = new Set([
