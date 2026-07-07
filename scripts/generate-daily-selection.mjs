@@ -289,16 +289,26 @@ async function fetchPage(source, pageUrl) {
     if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
     const html = await response.text();
     const anchors = [...html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)];
+    const dates = [];
+    const dateRegex = /\b(\d{2})\/(\d{2})\/(\d{4})\b/g;
+    let dm;
+    while ((dm = dateRegex.exec(html)) !== null) {
+      dates.push({ pos: dm.index, date: `${dm[3]}-${dm[2]}-${dm[1]}` });
+    }
     return anchors.map((match) => {
       const url = absoluteUrl(match[1], pageUrl).split('#')[0];
       const title = stripHtml(match[2]);
+      let published = '';
+      for (let i = dates.length - 1; i >= 0; i--) {
+        if (dates[i].pos < match.index) { published = dates[i].date; break; }
+      }
       return {
         source: source.source,
         kind: source.kind,
         title,
         summary: `${title}. Item recente selecionado na pagina publica de ${source.source}. Leia o texto integral na fonte original.`,
         url,
-        published: ''
+        published
       };
     }).filter((item) => likelyArticleUrl(item.url) && likelyNewsTitle(item.title));
   } catch (error) {
