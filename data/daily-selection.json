@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-06",
-  "editionLabel": "6 de julho de 2026",
+  "date": "2026-07-07",
+  "editionLabel": "7 de julho de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
@@ -8,20 +8,20 @@
     "celebrationTitle": "",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 9, 18-26"
+    "gospelShort": "Mt 9, 32-38"
   },
   "saint": {
-    "feast": "Santo do Dia - 6 de Julho",
-    "name": "Santa Maria Goretti",
-    "description": "Jovem virgem e mártir que testemunhou pureza, coragem e perdão até o derramamento do sangue.",
-    "url": "https://santo.cancaonova.com/santo/santa-maria-goretti-a-santa-da-castidade/"
+    "feast": "Santo do Dia - 7 de Julho",
+    "name": "Beata Maria Romero",
+    "description": "Filha espiritual de Dom Bosco que fez da caridade criativa um socorro real aos pobres e marginalizados.",
+    "url": "https://santo.cancaonova.com/santo/beata-maria-romero-socorro-dos-pobres-e-marginalizados/"
   },
   "gospel": {
-    "ref": "Evangelho do dia no Brasil: Mateus 9, 18-26, segunda-feira da 14ª Semana do Tempo Comum.",
+    "ref": "Evangelho do dia no Brasil: Mateus 9, 32-38, terça-feira da 14ª Semana do Tempo Comum.",
     "lines": [
-      "Jesus atende a fé insistente de quem o procura em meio à dor e à morte.",
-      "No toque humilde e na confiança perseverante, brota a vida nova que só Deus pode dar.",
-      "O cristão aprende a levar suas perdas a Cristo, crendo que Ele continua a levantar os caídos."
+      "Jesus cura, anuncia e se comove diante das multidões cansadas e desorientadas.",
+      "O coração do Pastor revela que a missão nasce da compaixão e não do protagonismo.",
+      "A Igreja é chamada a rezar por operários e a ser resposta misericordiosa ao sofrimento humano."
     ]
   },
   "sponsor": {
@@ -45,9 +45,9 @@
     },
     {
       "source": "CNBB",
-      "title": "Repousemos nosso coração no Senhor Ressuscitado!",
-      "summary": "Cardeal Orani João Tempesta Arcebispo do Rio de Janeiro (RJ) A liturgia deste décimo quarto domingo do Tempo Comum nos coloca diante de um dos ensinamentos mais profundos e consoladores do Evangelho. Na nossa caminhada diária, muitas.",
-      "url": "https://www.cnbb.org.br/repousemos-nosso-coracao-no-senhor-ressuscitado/"
+      "title": "Comissão Episcopal para a Liturgia reúne Equipe de Reflexão para avaliar o quadriênio e projeta",
+      "summary": "A Comissão Episcopal para a Liturgia da Conferência Nacional dos Bispos do Brasil (CNBB) reuniu, entre os dias 3 e 7 de julho, na Casa Dom das Pontificas Obras Missionárias (POM), em Brasília (DF), a Equipe de Reflexão dos seus três.",
+      "url": "https://www.cnbb.org.br/comissao-episcopal-para-a-liturgia-reune-equipe-de-reflexao-para-avaliar-o-quadrienio/"
     },
     {
       "source": "Shalom",
@@ -56,27 +56,27 @@
       "url": "https://comshalom.org/oh-sorte-onde-esta-tua-vitoria-catolico-pode-apostar/"
     },
     {
-      "source": "Shalom",
-      "title": "Comunidade Católica Shalom celebra 30 anos de missão no Rio de Janeiro com Missa na Catedral",
-      "summary": "Neste domingo (5), a Comunidade Católica Shalom celebra 30 anos da missão do Rio de Janeiro com missa de ação de graças na Catedral Metropolitana de São Sebastião.",
-      "url": "https://comshalom.org/comunidade-catolica-shalom-celebra-30-anos-de-missao-no-rio-de-janeiro-com-missa-na-catedral-metropolitana/"
+      "source": "ACI Digital",
+      "title": "Encontro no Vaticano em outubro tem como foco o divórcio e outras questões familiares",
+      "summary": "Uma reunião de bispos no Vaticano em outubro terá como foco o divórcio e a separação, entre outras questões relacionadas à família, segundo documento preparatório divulgado hoje (6).",
+      "url": "https://www.acidigital.com/noticia/68805/encontro-no-vaticano-em-outubro-tem-como-foco-o-divorcio-e-outras-questoes-familiares"
     },
     {
-      "source": "CNBB",
-      "title": "15º Domingo do Tempo Comum – Ciclo",
-      "summary": "Dom Antonio Carlos Rossi Keller Bispo de Frederico Westphalen (RS) Acolher com amor a Palavra de Deus Hoje a Liturgia nos convida a refletir sobre algo fundamental na vida cristã: a acolhida da Palavra. Não é uma palavra qualquer, mas a.",
-      "url": "https://www.cnbb.org.br/15o-domingo-do-tempo-comum-ciclo-a/"
+      "source": "Shalom",
+      "title": "PARTILHE: Comunidade Shalom realiza arrecadação para evangelização na África",
+      "summary": "Durante o Julho da Paz, a Comunidade realizará a campanha, que também tem o objetivo de colaborar com a construção de mais uma casa de formação no Ceará.",
+      "url": "https://comshalom.org/comunidade-shalom-realiza-arrecadacao-para-evangelizacao-na-africa-2026/"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV passa dia dos 250 anos da Independência dos EUA com migrantes africanos em Lampedusa",
-      "summary": "A cerca de 130 quilômetros da Tunísia, país do norte da África, Lampedusa é uma das principais portas de entrada para africanos que fogem da pobreza e da violência rumo ao continente europeu.",
-      "url": "https://www.acidigital.com/noticia/68767/leao-xiv-passa-dia-dos-250-anos-da-independencia-dos-eua-com-migrantes-africanos-em-lampedusa"
+      "title": "Leão XIV diz que continua a rezar por todo o povo venezuelano",
+      "summary": "O papa Leão XIV disse hoje (5), depois da oração do Ângelus, que continua rezando pela Venezuela, atingida por dois terremotos no norte do país em 24 de junho, com apenas 39 segundos de intervalo entre eles. A tragédia já deixou 2.954.",
+      "url": "https://www.acidigital.com/noticia/68789/leao-xiv-diz-que-continua-a-rezar-por-todo-o-povo-venezuelano"
     }
   ],
   "closingQuote": {
-    "text": "A pureza é a força dos fortes.",
-    "source": "Santa Maria Goretti",
-    "reason": "Frase amplamente atribuída a Santa Maria Goretti; foi escolhida porque o evangelho mostra a força da fé simples e confiante, e a santa do dia testemunha firmeza interior."
+    "text": "A alegria é sinal de um coração que ama.",
+    "source": "Santa Teresa de Calcutá",
+    "reason": "Frase amplamente atribuída a Santa Teresa de Calcutá; foi escolhida porque a compaixão do evangelho se traduz em serviço concreto, como ocorreu na vida apostólica da Beata Maria Romero."
   }
 }
