@@ -33,45 +33,45 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa à Venezuela: “nas minhas orações, recordo as vítimas do terremoto”",
-      "summary": "Papa à Venezuela: “nas minhas orações, recordo as vítimas do terremoto”. Leia a noticia completa em Vatican News.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-leao-xiv-angelus-apelo-venezuela-terremoto-5-julho-2026.html"
+      "title": "Amoris laetitia: publicado documento preparatório para o Encontro de outubro de 2026",
+      "summary": "Amoris laetitia: publicado documento preparatório para o Encontro de outubro de 2026. Leia a noticia completa em Vatican News.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/amoris-laetitia-publicado-documento-encontro-outubro-2026.html"
     },
     {
       "source": "Vatican News",
-      "title": "Portugal: “Sublinhar a importância da missão dos leigos”, diz Rui Lourenço Teixeira",
-      "summary": "Portugal: “Sublinhar a importância da missão dos leigos”, diz Rui Lourenço Teixeira. Leia a noticia completa em Vatican News.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/portugal-missao-bispos-leigos-familia-comunhao-participacao.html"
+      "title": "Gaza: o Hamas dissolve o órgão governamental do território palestino",
+      "summary": "Gaza: o Hamas dissolve o órgão governamental do território palestino. Leia a noticia completa em Vatican News.",
+      "url": "https://www.vaticannews.va/pt/mundo/news/2026-07/gaza-hamas-dissolve-governo-palestino.html"
     },
     {
       "source": "CNBB",
-      "title": "Dom Bruno na abertura da Assembleia da Pastoral Familiar: “Alimentar a fé da família é alimenta",
-      "summary": "Início do encontro da Pastoral Familiar foi realizado na sede da CNBB, em Brasília, com a participação do núncio apostólico no Brasil, dom Giambatistta Diquattro, e contou com uma conferência celebrativa sobre os 45 anos da exortação.",
-      "url": "https://www.cnbb.org.br/dom-bruno-abertura-assembleia-pastoral-familiar/"
+      "title": "Papa Leão XIV no Jubileu dos encarcerados: “Que ninguém se perca! Que todos sejam salvos!”",
+      "summary": "Papa Leão XIV no Jubileu dos encarcerados: “Que ninguém se perca! Que todos sejam salvos!”. Leia a noticia completa em CNBB.",
+      "url": "https://www.cnbb.org.br/papa-leao-jubileu-encarcerados-que-ninguem-se-perca/"
+    },
+    {
+      "source": "O São Paulo",
+      "title": "Leão XIV almoça com 200 pessoas carentes da Diocese de Roma no próximo sábado",
+      "summary": "A iniciativa, realizada nos Jardins do Vaticano em Castel Gandolfo, intitula-se “Almoçando com o Papa” e tem como objetivo reproduzir a experiência de agosto de 2025, quando o Pontífice se sentou à mesa com pessoas em situação de.",
+      "url": "https://osaopaulo.org.br/vaticano/leao-xiv-almoca-com-200-pessoas-carentes-da-diocese-de-roma-no-proximo-sabado/"
+    },
+    {
+      "source": "O São Paulo",
+      "title": "O social é indispensável",
+      "summary": "O crime prolifera onde a ordem pública não é mantida. Mas a ordem pública exige justiça social, oportunidade para os jovens, ambiente adequado para o desenvolvimento das famílias. Onde faltam estes elementos, o Estado deve agir não apenas.",
+      "url": "https://osaopaulo.org.br/cidadania/o-social-e-indispensavel/"
     },
     {
       "source": "Shalom",
-      "title": "44 anos: campanha apoia a formação de missionários e fortalece missão na África",
-      "summary": "Durante o Julho da Paz, campanha dos 44 anos tem o objetivo de colaborar com a construção de mais uma casa de formação e no apoio às missões da África.",
-      "url": "https://comshalom.org/partilhe-comunidade-shalom-realiza-arrecadacao-para-evangelizacao-na-africa/"
+      "title": "Oh sorte, onde está tua vitória? Católico pode apostar?",
+      "summary": "Num tempo em que tem crescido cada vez mais o número de apostadores, temos uma sociedade cada vez mais lançada à sorte. Só se fala nisso, em todo canto: nas empresas, na academia, nas rodas de amigos, na família Mas, afinal, católico.",
+      "url": "https://comshalom.org/oh-sorte-onde-esta-tua-vitoria-catolico-pode-apostar/"
     },
     {
-      "source": "Shalom",
-      "title": "Comunidade Católica Shalom celebra 30 anos de atuação no Rio e renova missão de evangelizar",
-      "summary": "Missa em Ação de Graças na Catedral Metropolitana reuniu fiéis, missionários e representantes da Igreja para celebrar três décadas de atuação na capital fluminense.",
-      "url": "https://comshalom.org/comunidade-catolica-shalom-celebra-30-anos-de-atuacao-no-rio-e-renova-missao-de-evangelizar/"
-    },
-    {
-      "source": "CNBB",
-      "title": "Regional Leste 2 estuda projeto missionário na diocese de Canelones, no Uruguai",
-      "summary": "Durante a Assembleia do Conselho Episcopal Regional (Conser), realizada na última semana, em Belo Horizonte (MG), foi apresentada a realidade da diocese uruguaia e a proposta de Missão Ad Gentes. Os bispos conversaram com o presidente da.",
-      "url": "https://www.cnbb.org.br/leste-2-projeto-missionario-diocese-canelones-uruguai/"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Encontro no Vaticano em outubro tem como foco o divórcio e outras questões familiares",
-      "summary": "Uma reunião de bispos no Vaticano em outubro terá como foco o divórcio e a separação, entre outras questões relacionadas à família, segundo documento preparatório divulgado hoje (6).",
-      "url": "https://www.acidigital.com/noticia/68805/encontro-no-vaticano-em-outubro-tem-como-foco-o-divorcio-e-outras-questoes-familiares"
+      "source": "Aleteia",
+      "title": "Igreja católica brasileira responde concretamente ao drama da Venezuela",
+      "summary": "O solo treme. O concreto cede. Vidas inteiras desaparecem em uma fração de segundos. No dia 24 de junho de 2026, a Venezuela foi golpeada por um duplo terremoto de magnitudes 7,2 e 7,5 que dilacerou as regiões centro-norte e costeira do.",
+      "url": "https://pt.aleteia.org/2026/07/08/igreja-catolica-brasileira-responde-concretamente-ao-drama-da-venezuela/"
     }
   ],
   "closingQuote": {
