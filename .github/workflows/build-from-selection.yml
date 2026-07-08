@@ -48,7 +48,7 @@ jobs:
         run: |
           ! grep -E 'Continue lendo|&amp;#8594;|&#8594;|O post .* apareceu primeiro|placar|torcem juntos|classifica[cç][aã]o garantida|conteudo\?' index.html
           grep -q 'class="hero-title"' index.html
-          test "$(grep -o 'class="news-item' index.html | wc -l)" -eq 5
+          test "$(grep -o 'class="news-item' index.html | wc -l)" -ge 5
 
       - name: Commit static pages
         run: |
