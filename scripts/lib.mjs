@@ -270,10 +270,8 @@ function renderGospelLines(lines) {
     .join('\n      ');
 }
 
-function renderGospelLink(selection) {
-  const date = selection.date.replace(/-/g, '/');
-  const url = `https://www.cnbb.org.br/liturgia/${date}/`;
-  return `<a class="btn-source" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">
+function renderGospelLink() {
+  return `<a class="btn-source gospel-link" href="https://www.cnbb.org.br/liturgia-diaria/" target="_blank" rel="noopener noreferrer">
     Ler o Evangelho na CNBB
     <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
       <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -296,13 +294,13 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{PAGE_TITLE}}': `Noticias Catolicas - ${selection.editionLabel} - @ilustre.ai`,
     '{{HERO_EYEBROW}}': `Curadoria diaria - ${selection.editionLabel}`,
     '{{LITURGICAL_SEASON}}': liturgicalDisplayTitle(selection.liturgical),
-    '{{GOSPEL_SHORT}}': simplifyGospelRef(selection.liturgical.gospelShort),
+    '{{GOSPEL_SHORT}}': selection.liturgical.gospelShort,
     '{{EDITION_LABEL}}': selection.editionLabel,
     '{{SAINT_FEAST}}': selection.saint.feast,
     '{{SAINT_NAME}}': selection.saint.name,
     '{{SAINT_DESCRIPTION}}': selection.saint.description,
     '{{SAINT_MORE_LINK}}': renderSaintMoreLink(selection.saint),
-    '{{GOSPEL_REF}}': selection.gospel.ref,
+    '{{GOSPEL_REF}}': simplifyGospelRef(selection.gospel.ref),
     '{{GOSPEL_LINES}}': renderGospelLines(selection.gospel.lines),
     '{{GOSPEL_LINK}}': renderGospelLink(selection),
     '{{NEWS_ITEMS}}': renderNews(selection.news),
@@ -332,7 +330,7 @@ export function validateRenderedHtml(html, selection) {
   if (!html.includes(selection.liturgical.cssColor)) errors.push('missing liturgical color');
   if (!html.includes(liturgicalDisplayTitle(selection.liturgical))) errors.push('missing liturgical display title');
   if (!html.includes(selection.saint.name)) errors.push('missing saint name');
-  if (!html.includes(selection.gospel.ref)) errors.push('missing gospel ref');
+  if (!html.includes(simplifyGospelRef(selection.gospel.ref))) errors.push('missing gospel ref');
   if (selection.closingQuote?.text && !html.includes(selection.closingQuote.text)) errors.push('missing closing quote text');
   if (selection.closingQuote?.source && !html.includes(selection.closingQuote.source)) errors.push('missing closing quote source');
   if (!html.includes('class="hero-title"')) errors.push('missing hero title');
