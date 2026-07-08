@@ -138,7 +138,7 @@ function scoreNewsCandidate(item, today) {
 
   if (item.source === 'Vatican News' || item.source === 'Santa Se' || item.source === 'Vaticano' || item.source === 'Vatican Insider') score += 40;
   if (item.source === 'CNBB') score += 34;
-  if (item.source === 'ACI Digital' || item.source === 'Canção Nova' || item.source === 'CanÃ§Ã£o Nova' || item.source === 'Shalom' || item.source === 'Comunidade Shalom' || item.source === 'O São Paulo' || item.source === 'O Sao Paulo' || item.source === 'Aleteia' || item.source === 'Gaudium Press') score += 30;
+  if (item.source === 'ACI Digital' || item.source === 'Canção Nova' || item.source === 'CanÃ§Ã£o Nova' || item.source === 'Shalom' || item.source === 'Comunidade Shalom' || item.source === 'Aleteia' || item.source === 'Gaudium Press') score += 30;
 
   const hotTerms = [
     ['papa', 22],

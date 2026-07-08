@@ -23,7 +23,6 @@ const allowedSourceKeys = new Set([
   'Cancao Nova',
   'Comunidade Shalom',
   'Shalom',
-  'O Sao Paulo',
   'Aleteia',
   'Gaudium Press',
   'Vatican Insider'
@@ -36,7 +35,6 @@ const trustedCatholicSourceKeys = new Set([
   'Cancao Nova',
   'Comunidade Shalom',
   'Shalom',
-  'O Sao Paulo',
   'Aleteia',
   'Gaudium Press'
 ].map((source) => sourceKey(source)));
