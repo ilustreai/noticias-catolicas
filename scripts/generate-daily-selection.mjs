@@ -168,7 +168,7 @@ function scoreNewsCandidate(item, today) {
   if (summary.length >= 120) score += 4;
   if (item.published) {
     const age = Math.max(0, daysBetween(today, item.published));
-    score += Math.max(0, 18 - (age * 5));
+    score += Math.max(0, 50 - (age ** 2 * 12));
   } else {
     score -= 10;
   }

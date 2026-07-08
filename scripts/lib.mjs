@@ -270,6 +270,21 @@ function renderGospelLines(lines) {
     .join('\n      ');
 }
 
+function renderGospelLink(selection) {
+  const date = selection.date.replace(/-/g, '/');
+  const url = `https://www.cnbb.org.br/liturgia/${date}/`;
+  return `<a class="btn-source" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">
+    Ler o Evangelho na CNBB
+    <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <path d="M1 9L9 1M9 1H3M9 1V7"/>
+    </svg>
+  </a>`;
+}
+
+function simplifyGospelRef(ref) {
+  return ref.replace(/^Evangelho do dia no Brasil:\s*/i, '').replace(/,\s*[^,]+$/, '');
+}
+
 export function loadTemplate(templatePath = path.join(rootDir, 'template', 'noticias-catolicas.template.html')) {
   return fs.readFileSync(templatePath, 'utf8');
 }
@@ -281,7 +296,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{PAGE_TITLE}}': `Noticias Catolicas - ${selection.editionLabel} - @ilustre.ai`,
     '{{HERO_EYEBROW}}': `Curadoria diaria - ${selection.editionLabel}`,
     '{{LITURGICAL_SEASON}}': liturgicalDisplayTitle(selection.liturgical),
-    '{{GOSPEL_SHORT}}': selection.liturgical.gospelShort,
+    '{{GOSPEL_SHORT}}': simplifyGospelRef(selection.liturgical.gospelShort),
     '{{EDITION_LABEL}}': selection.editionLabel,
     '{{SAINT_FEAST}}': selection.saint.feast,
     '{{SAINT_NAME}}': selection.saint.name,
@@ -289,6 +304,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{SAINT_MORE_LINK}}': renderSaintMoreLink(selection.saint),
     '{{GOSPEL_REF}}': selection.gospel.ref,
     '{{GOSPEL_LINES}}': renderGospelLines(selection.gospel.lines),
+    '{{GOSPEL_LINK}}': renderGospelLink(selection),
     '{{NEWS_ITEMS}}': renderNews(selection.news),
     '{{CLOSING_QUOTE_TEXT}}': escapeHtml(selection.closingQuote?.text ?? ''),
     '{{CLOSING_QUOTE_SOURCE}}': escapeHtml(selection.closingQuote?.source ?? ''),
