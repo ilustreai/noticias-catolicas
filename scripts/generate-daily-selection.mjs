@@ -499,14 +499,34 @@ function cleanSelectionNews(selection) {
   };
 }
 
-function deterministicSelection(candidates) {
+function loadPreviousSelection(rootDir) {
+  try {
+    const filePath = path.join(rootDir, 'data', 'daily-selection.json');
+    if (!fs.existsSync(filePath)) return { urls: new Set(), titles: new Set() };
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    const urls = new Set();
+    const titles = new Set();
+    for (const item of (data.news || [])) {
+      if (item.url) urls.add(item.url);
+      if (item.title) titles.add(normalize(item.title).slice(0, 80));
+    }
+    return { urls, titles };
+  } catch {
+    return { urls: new Set(), titles: new Set() };
+  }
+}
+
+function deterministicSelection(candidates, previousUrls, previousTitles) {
   const selected = [];
   const sourceCounts = new Map();
   const topicCounts = new Map();
-  pickByKind(candidates, 'vatican', 2, selected, sourceCounts, topicCounts);
-  pickByKind(candidates, 'brazil', 1, selected, sourceCounts, topicCounts);
-  pickByKind(candidates, 'trusted', 2, selected, sourceCounts, topicCounts);
-  for (const item of candidates) {
+  const isRepeat = (c) => previousUrls?.has(c.url) || previousTitles?.has(normalize(c.title).slice(0, 80));
+  const fresh = candidates.filter((c) => !isRepeat(c));
+  const pool = fresh.length >= 5 ? fresh : candidates;
+  pickByKind(pool, 'vatican', 2, selected, sourceCounts, topicCounts);
+  pickByKind(pool, 'brazil', 1, selected, sourceCounts, topicCounts);
+  pickByKind(pool, 'trusted', 2, selected, sourceCounts, topicCounts);
+  for (const item of pool) {
     if (selected.length >= 7) break;
     if (selected.includes(item)) continue;
     if ((sourceCounts.get(item.source) ?? 0) >= 2) continue;
@@ -642,6 +662,7 @@ async function main() {
     console.warn(`Only ${candidates.length} candidates found; continuing with a shorter but valid edition`);
   }
 
+  const prev = loadPreviousSelection(rootDir);
   const ai = await aiSelection({ date, liturgy, candidates });
   let selection = ai ?? {
     date,
@@ -650,7 +671,7 @@ async function main() {
     saint: liturgy.saint,
     gospel: liturgy.gospel,
     sponsor,
-    news: deterministicSelection(candidates),
+    news: deterministicSelection(candidates, prev.urls, prev.titles),
     closingQuote: pickClosingQuote(liturgy)
   };
   selection = cleanSelectionNews(selection);
@@ -668,7 +689,7 @@ async function main() {
         saint: liturgy.saint,
         gospel: liturgy.gospel,
         sponsor,
-        news: deterministicSelection(candidates),
+        news: deterministicSelection(candidates, prev.urls, prev.titles),
         closingQuote: pickClosingQuote(liturgy)
       });
       selection = attachSaintUrl(selection, liturgy);
