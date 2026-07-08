@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-07",
-  "editionLabel": "7 de julho de 2026",
+  "date": "2026-07-08",
+  "editionLabel": "8 de julho de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
@@ -8,20 +8,20 @@
     "celebrationTitle": "",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 9, 32-38"
+    "gospelShort": "Mt 10, 1-7"
   },
   "saint": {
-    "feast": "Santo do Dia - 7 de Julho",
-    "name": "Beata Maria Romero",
-    "description": "Filha espiritual de Dom Bosco que fez da caridade criativa um socorro real aos pobres e marginalizados.",
-    "url": "https://santo.cancaonova.com/santo/beata-maria-romero-socorro-dos-pobres-e-marginalizados/"
+    "feast": "Santo do Dia - 8 de Julho",
+    "name": "Beato João Schiavo",
+    "description": "Missionário josefino ligado ao Brasil, dedicado à formação, à educação e ao serviço discreto da Igreja.",
+    "url": "https://santo.cancaonova.com/santo/beato-joao-schiavo-fundador-da-missão-josefina-no-brasil/"
   },
   "gospel": {
-    "ref": "Evangelho do dia no Brasil: Mateus 9, 32-38, terça-feira da 14ª Semana do Tempo Comum.",
+    "ref": "Evangelho do dia no Brasil: Mateus 10, 1-7, quarta-feira da 14ª Semana do Tempo Comum.",
     "lines": [
-      "Jesus cura, anuncia e se comove diante das multidões cansadas e desorientadas.",
-      "O coração do Pastor revela que a missão nasce da compaixão e não do protagonismo.",
-      "A Igreja é chamada a rezar por operários e a ser resposta misericordiosa ao sofrimento humano."
+      "Jesus chama os Doze pelo nome, confia-lhes autoridade espiritual e os envia ao encontro do povo.",
+      "A missão nasce da intimidade com Cristo antes de se tornar anúncio e serviço.",
+      "Todo chamado é graça recebida para o bem dos outros e nunca posse privada."
     ]
   },
   "sponsor": {
@@ -39,9 +39,9 @@
     },
     {
       "source": "Vatican News",
-      "title": "Leão: acolher e defender os migrantes para enriquecer a história dos EUA",
-      "summary": "Leão: acolher e defender os migrantes para enriquecer a história dos EUA. Leia a noticia completa em Vatican News.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-leao-xiv-carta-eua-4-julho-2026-250-anos-independencia.html"
+      "title": "Portugal: “Sublinhar a importância da missão dos leigos”, diz Rui Lourenço Teixeira",
+      "summary": "Portugal: “Sublinhar a importância da missão dos leigos”, diz Rui Lourenço Teixeira. Leia a noticia completa em Vatican News.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/portugal-missao-bispos-leigos-familia-comunhao-participacao.html"
     },
     {
       "source": "CNBB",
@@ -51,15 +51,15 @@
     },
     {
       "source": "Shalom",
-      "title": "Comunidade Católica Shalom celebra 30 anos de atuação no Rio e renova missão de evangelizar",
-      "summary": "Missa em Ação de Graças na Catedral Metropolitana reuniu fiéis, missionários e representantes da Igreja para celebrar três décadas de atuação na capital fluminense.",
-      "url": "https://comshalom.org/comunidade-catolica-shalom-celebra-30-anos-de-atuacao-no-rio-e-renova-missao-de-evangelizar/"
+      "title": "44 anos: campanha apoia a formação de missionários e fortalece missão na África",
+      "summary": "Durante o Julho da Paz, campanha dos 44 anos tem o objetivo de colaborar com a construção de mais uma casa de formação e no apoio às missões da África.",
+      "url": "https://comshalom.org/partilhe-comunidade-shalom-realiza-arrecadacao-para-evangelizacao-na-africa/"
     },
     {
       "source": "Shalom",
-      "title": "Oh sorte, onde está tua vitória? Católico pode apostar?",
-      "summary": "Num tempo em que tem crescido cada vez mais o número de apostadores, temos uma sociedade cada vez mais lançada à sorte. Só se fala nisso, em todo canto: nas empresas, na academia, nas rodas de amigos, na família Mas, afinal, católico.",
-      "url": "https://comshalom.org/oh-sorte-onde-esta-tua-vitoria-catolico-pode-apostar/"
+      "title": "Comunidade Católica Shalom celebra 30 anos de atuação no Rio e renova missão de evangelizar",
+      "summary": "Missa em Ação de Graças na Catedral Metropolitana reuniu fiéis, missionários e representantes da Igreja para celebrar três décadas de atuação na capital fluminense.",
+      "url": "https://comshalom.org/comunidade-catolica-shalom-celebra-30-anos-de-atuacao-no-rio-e-renova-missao-de-evangelizar/"
     },
     {
       "source": "CNBB",
@@ -69,14 +69,14 @@
     },
     {
       "source": "ACI Digital",
-      "title": "FSSPX rejeita excomunhão e classifica como ‘objetivamente’ injusta e inválida",
-      "summary": "A Fraternidade Sacerdotal São Pio X (FSSPX), cujos membros são conhecidos como \"lefebvristas\", rejeitou as recentes excomunhões decretadas pela Santa Sé devido à consagração de quatro bispos sem autorização papal na quarta-feira (1) e.",
-      "url": "https://www.acidigital.com/noticia/68797/fsspx-rejeita-excomunhao-e-classifica-como-objetivamente-injusta-e-invalida"
+      "title": "Encontro no Vaticano em outubro tem como foco o divórcio e outras questões familiares",
+      "summary": "Uma reunião de bispos no Vaticano em outubro terá como foco o divórcio e a separação, entre outras questões relacionadas à família, segundo documento preparatório divulgado hoje (6).",
+      "url": "https://www.acidigital.com/noticia/68805/encontro-no-vaticano-em-outubro-tem-como-foco-o-divorcio-e-outras-questoes-familiares"
     }
   ],
   "closingQuote": {
-    "text": "A alegria é sinal de um coração que ama.",
-    "source": "Santa Teresa de Calcutá",
-    "reason": "Frase amplamente atribuída a Santa Teresa de Calcutá; foi escolhida porque a compaixão do evangelho se traduz em serviço concreto, como ocorreu na vida apostólica da Beata Maria Romero."
+    "text": "Senhor, fazei de mim um instrumento de vossa paz.",
+    "source": "São Francisco de Assis",
+    "reason": "Frase tradicionalmente associada à espiritualidade franciscana e amplamente usada na vida da Igreja; foi escolhida porque o evangelho fala de envio missionário, em sintonia com a vida apostólica e formativa do Beato João Schiavo."
   }
 }
