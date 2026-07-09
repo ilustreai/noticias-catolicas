@@ -278,7 +278,15 @@ function renderGospelLink() {
 }
 
 function simplifyGospelRef(ref) {
-  return ref.replace(/^Evangelho do dia no Brasil:\s*/i, '').replace(/,\s*[^,]+$/, '');
+  const body = ref.includes(':') ? ref.split(':').slice(1).join(':').trim() : ref.trim();
+  return body.replace(/,\s*(segunda|terça|quarta|quinta|sexta|sábado|domingo)-feira.*$/, '');
+}
+
+function isLightColor(hex) {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return (r * 299 + g * 587 + b * 114) / 1000 > 180;
 }
 
 export function loadTemplate(templatePath = path.join(rootDir, 'template', 'noticias-catolicas.template.html')) {
@@ -288,6 +296,7 @@ export function loadTemplate(templatePath = path.join(rootDir, 'template', 'noti
 export function buildPage(selection, template = loadTemplate()) {
   const replacements = {
     '{{LITURGICAL_COLOR}}': selection.liturgical.cssColor,
+    '{{LITURGICAL_TEXT_MODIFIER}}': isLightColor(selection.liturgical.cssColor) ? ' liturgy-light' : '',
     '{{EDITION_DATE}}': selection.date,
     '{{PAGE_TITLE}}': `Noticias Catolicas - ${selection.editionLabel} - @ilustre.ai`,
     '{{HERO_EYEBROW}}': `Curadoria diaria - ${selection.editionLabel}`,

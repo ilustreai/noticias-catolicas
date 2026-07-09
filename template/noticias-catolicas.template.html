@@ -92,16 +92,21 @@
     background: var(--liturgical-color);
     padding: 0 24px;
   }
+  .liturgy-strip.liturgy-light {
+    --liturgy-text: rgba(0,0,0,0.85);
+    --liturgy-muted: rgba(0,0,0,0.55);
+    --liturgy-rule: rgba(0,0,0,0.12);
+  }
   .liturgy-inner {
     max-width: 900px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border-left: 1px solid rgba(255,255,255,0.14);
+    border-left: 1px solid var(--liturgy-rule, rgba(255,255,255,0.14));
   }
   .liturgy-cell {
     padding: 20px 24px;
-    border-right: 1px solid rgba(255,255,255,0.14);
+    border-right: 1px solid var(--liturgy-rule, rgba(255,255,255,0.14));
   }
   .liturgy-label {
     font-family: 'Inter', sans-serif;
@@ -109,14 +114,14 @@
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: rgba(255,255,255,0.72);
+    color: var(--liturgy-muted, rgba(255,255,255,0.72));
     margin-bottom: 7px;
   }
   .liturgy-value {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: white;
+    color: var(--liturgy-text, white);
     line-height: 1.3;
   }
   .liturgy-value.gold { color: var(--gold-lt); }
@@ -397,7 +402,7 @@
   </div>
 </section>
 
-<div class="liturgy-strip">
+<div class="liturgy-strip{{LITURGICAL_TEXT_MODIFIER}}">
   <div class="liturgy-inner">
     <div class="liturgy-cell">
       <div class="liturgy-label">Tempo Litúrgico</div>
