@@ -1,27 +1,27 @@
 {
-  "date": "2026-07-08",
-  "editionLabel": "8 de julho de 2026",
+  "date": "2026-07-09",
+  "editionLabel": "9 de julho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "14ª Semana do Tempo Comum",
-    "celebrationTitle": "",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 10, 1-7"
+    "celebrationTitle": "Santa Paulina do Coração Agonizante de Jesus",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Mt 10, 7-15"
   },
   "saint": {
-    "feast": "Santo do Dia - 8 de Julho",
-    "name": "Beato João Schiavo",
-    "description": "Missionário josefino ligado ao Brasil, dedicado à formação, à educação e ao serviço discreto da Igreja.",
-    "url": "https://santo.cancaonova.com/santo/beato-joao-schiavo-fundador-da-missão-josefina-no-brasil/"
+    "feast": "Santo do Dia - 9 de Julho",
+    "name": "Santa Paulina do Coração Agonizante de Jesus",
+    "description": "Primeira santa do Brasil, fundadora e serva dos pobres, dos enfermos e dos mais vulneráveis.",
+    "url": "https://santo.cancaonova.com/santo/santa-paulina-do-coracao-agonizante-de-jesus/"
   },
   "gospel": {
-    "ref": "Evangelho do dia no Brasil: Mateus 10, 1-7, quarta-feira da 14ª Semana do Tempo Comum.",
+    "ref": "Evangelho da memória de Santa Paulina no Brasil: Mateus 10, 7-15.",
     "lines": [
-      "Jesus chama os Doze pelo nome, confia-lhes autoridade espiritual e os envia ao encontro do povo.",
-      "A missão nasce da intimidade com Cristo antes de se tornar anúncio e serviço.",
-      "Todo chamado é graça recebida para o bem dos outros e nunca posse privada."
+      "Jesus envia os discípulos a anunciar o Reino com simplicidade, gratuidade e confiança.",
+      "O missionário não leva a si mesmo, mas a paz de Deus e o cuidado pelos feridos.",
+      "A vida cristã frutifica quando o que recebemos de graça se transforma em doação."
     ]
   },
   "sponsor": {
@@ -33,50 +33,50 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa à Venezuela: “nas minhas orações, recordo as vítimas do terremoto”",
-      "summary": "Papa à Venezuela: “nas minhas orações, recordo as vítimas do terremoto”. Leia a noticia completa em Vatican News.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-leao-xiv-angelus-apelo-venezuela-terremoto-5-julho-2026.html"
+      "title": "López Romero, acusado de supostos abusos, anuncia renúncia temporária",
+      "summary": "López Romero, acusado de supostos abusos, anuncia renúncia temporária. Leia a noticia completa em Vatican News.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/cardeal-lopez-romero-acusacoes-abusos-investigacao-igreja-rabat.html"
     },
     {
       "source": "Vatican News",
-      "title": "D. Alberto Vera - A Igreja precisa de sacerdotes santos",
-      "summary": "D. Alberto Vera - A Igreja precisa de sacerdotes santos. Leia a noticia completa em Vatican News.",
-      "url": "https://www.vaticannews.va/pt/africa/news/2026-07/d-alberto-vera-a-igreja-precisa-de-sacerdotes-santos.html"
+      "title": "Primeira Assembleia Eclesial da Amazônia equatoriana",
+      "summary": "Primeira Assembleia Eclesial da Amazônia equatoriana. Leia a noticia completa em Vatican News.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/primeira-assembleia-eclesial-amazonia-equatoriana.html"
     },
     {
       "source": "CNBB",
-      "title": "Regional Leste 2 estuda projeto missionário na diocese de Canelones, no Uruguai",
-      "summary": "Durante a Assembleia do Conselho Episcopal Regional (Conser), realizada na última semana, em Belo Horizonte (MG), foi apresentada a realidade da diocese uruguaia e a proposta de Missão Ad Gentes. Os bispos conversaram com o presidente da.",
-      "url": "https://www.cnbb.org.br/leste-2-projeto-missionario-diocese-canelones-uruguai/"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Cristãos do Líbano temem que soberania seja negociada na diplomacia regional",
-      "summary": "O patriarca maronita, cardeal Bechara Boutros Rai, que se encontrou com o papa Leão XIV na semana passada, disse que a visita do papa ao Líbano em dezembro do ano passado, realizada sob o lema Bem-aventurados os pacificadores (Mt 5,9),.",
-      "url": "https://www.acidigital.com/noticia/68815/cristaos-do-libano-temem-que-soberania-seja-negociada-na-diplomacia-regional"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "Igreja da França apresenta logotipo oficial da visita apostólica de Leão XIV",
-      "summary": "Igreja da França apresenta logotipo oficial da visita apostólica de Leão XIV. Leia a noticia completa em Gaudium Press.",
-      "url": "https://gaudiumpress.org/content/igreja-da-franca-apresenta-logotipo-oficial-da-visita-apostolica-de-leao-xiv/"
+      "title": "Dom Bruno na abertura da Assembleia da Pastoral Familiar: “Alimentar a fé da família é alimenta",
+      "summary": "Início do encontro da Pastoral Familiar foi realizado na sede da CNBB, em Brasília, com a participação do núncio apostólico no Brasil, dom Giambatistta Diquattro, e contou com uma conferência celebrativa sobre os 45 anos da exortação.",
+      "url": "https://www.cnbb.org.br/dom-bruno-abertura-assembleia-pastoral-familiar/"
     },
     {
       "source": "Shalom",
-      "title": "Comunidade Católica Shalom celebra 30 anos de atuação no Rio e renova missão de evangelizar",
-      "summary": "Missa em Ação de Graças na Catedral Metropolitana reuniu fiéis, missionários e representantes da Igreja para celebrar três décadas de atuação na capital fluminense.",
-      "url": "https://comshalom.org/comunidade-catolica-shalom-celebra-30-anos-de-atuacao-no-rio-e-renova-missao-de-evangelizar/"
+      "title": "44 anos: campanha apoia a formação de missionários e fortalece missão na África",
+      "summary": "Durante o Julho da Paz, campanha dos 44 anos tem o objetivo de colaborar com a construção de mais uma casa de formação e no apoio às missões da África.",
+      "url": "https://comshalom.org/partilhe-comunidade-shalom-realiza-arrecadacao-para-evangelizacao-na-africa/"
     },
     {
-      "source": "Aleteia",
-      "title": "Igreja católica brasileira responde concretamente ao drama da Venezuela",
-      "summary": "O solo treme. O concreto cede. Vidas inteiras desaparecem em uma fração de segundos. No dia 24 de junho de 2026, a Venezuela foi golpeada por um duplo terremoto de magnitudes 7,2 e 7,5 que dilacerou as regiões centro-norte e costeira do.",
-      "url": "https://pt.aleteia.org/2026/07/08/igreja-catolica-brasileira-responde-concretamente-ao-drama-da-venezuela/"
+      "source": "ACI Digital",
+      "title": "recordamos o beato Eugênio III, papa que trabalhou pela unidade do mundo cristão",
+      "summary": "Hoje (8), a Igreja recorda o beato papa Eugênio III, que era considerado por santo Antônio de Pádua como \"um dos maiores pontífices e que mais sofreram\".",
+      "url": "https://www.acidigital.com/noticia/52603/hoje-recordamos-o-beato-eugenio-iii-papa-que-trabalhou-pela-unidade-do-mundo-cristao"
+    },
+    {
+      "source": "Shalom",
+      "title": "Comunidade Shalom celebra 44 anos anunciando a",
+      "summary": "Gratidão e reconhecimento: foram os dois pontos destacados por Moysés Azevedo nos 44 anos da Comunidade Shalom.",
+      "url": "https://comshalom.org/comunidade-shalom-celebra-43-anos-anunciando-a-paz/"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Sejam a luz de Cristo em tempos difíceis, diz Leão XIV a cristãos iraquianos",
+      "summary": "A Santa Sé publicou hoje (8) uma mensagem em vídeo de Leão XIV para o Encontro da Juventude de Ankawa.",
+      "url": "https://www.acidigital.com/noticia/68845/sejam-a-luz-de-cristo-em-tempos-dificeis-diz-leao-xiv-a-cristaos-iraquianos"
     }
   ],
   "closingQuote": {
-    "text": "Senhor, fazei de mim um instrumento de vossa paz.",
-    "source": "São Francisco de Assis",
-    "reason": "Frase tradicionalmente associada à espiritualidade franciscana e amplamente usada na vida da Igreja; foi escolhida porque o evangelho fala de envio missionário, em sintonia com a vida apostólica e formativa do Beato João Schiavo."
+    "text": "Nunca, jamais desanimeis, embora venham ventos contrários.",
+    "source": "Santa Paulina",
+    "reason": "Frase amplamente associada a Santa Paulina; foi escolhida porque a memória brasileira da santa e o evangelho do envio pedem perseverança, generosidade e coragem missionária."
   }
 }
