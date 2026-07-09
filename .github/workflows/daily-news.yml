@@ -40,6 +40,9 @@ jobs:
       - name: Validate tests
         run: npm test
 
+      - name: Generate daily selection
+        run: npm run generate
+
       - name: Validate daily selection
         run: npm run validate
 
