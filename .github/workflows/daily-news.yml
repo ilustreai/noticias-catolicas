@@ -40,12 +40,6 @@ jobs:
       - name: Validate tests
         run: npm test
 
-      - name: Generate daily selection
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4o-mini' }}
-        run: npm run generate
-
       - name: Validate daily selection
         run: npm run validate
 
