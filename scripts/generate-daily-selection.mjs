@@ -6,7 +6,7 @@ const rootDir = process.cwd();
 const sponsor = {
   enabled: true,
   label: 'Apoio',
-  text: 'Gostou do conteudo? Considere apoiar esse projeto assinando nosso conteudo exclusivo no Instagram @ilustre.ai.',
+  text: 'Gostou do conteúdo? Considere apoiar esse projeto assinando nosso conteúdo exclusivo no Instagram @ilustre.ai.',
   url: 'https://www.instagram.com/ilustre.ai'
 };
 
@@ -145,9 +145,9 @@ function scoreNewsCandidate(item, today) {
   const url = normalize(item.url);
   let score = 0;
 
-  if (item.source === 'Vatican News' || item.source === 'Santa Se' || item.source === 'Vaticano' || item.source === 'Vatican Insider') score += 40;
+  if (item.source === 'Vatican News' || item.source === 'Santa Sé' || item.source === 'Vaticano' || item.source === 'Vatican Insider') score += 40;
   if (item.source === 'CNBB') score += 34;
-  if (item.source === 'ACI Digital' || item.source === 'Canção Nova' || item.source === 'CanÃ§Ã£o Nova' || item.source === 'Shalom' || item.source === 'Comunidade Shalom' || item.source === 'Aleteia' || item.source === 'Gaudium Press') score += 30;
+  if (item.source === 'ACI Digital' || item.source === 'Canção Nova' || item.source === 'Shalom' || item.source === 'Comunidade Shalom' || item.source === 'Aleteia' || item.source === 'Gaudium Press') score += 30;
 
   const hotTerms = [
     ['papa', 22],
@@ -671,8 +671,8 @@ async function enrichSummaries(items) {
       html.match(/<main[\s\S]*?<\/main>/i)?.[0],
       html
     ].filter(Boolean);
-    const skipPattern = /^(?:Por\s|Publicado|Compartilhe|Inscreva|Siga|Leia\s|Foto|Crédito|\.{3}|document\.|Facebook|Twitter|Instagram|YouTube|Cookie|Concordo|Li e aceito)/i;
-    const skipContent = /\([DE]\)\s*(?:e|\))|Rogério|Crédito|^África|Cookie\sPolicy|concorda|concordo|Li e aceito|Selecione sua língua|Programação Podcast/i;
+    const skipPattern = /^(?:Por\s|Publicado|Compartilhe|Inscreva|Siga|Leia\s|Foto|Crédito|\.{3}|document\.|Facebook|Twitter|Instagram|YouTube|Cookie|Concordo|Li e aceito|Clique\s|Acesse\s|Assista\s|Ouça\s)/i;
+    const skipContent = /\([DE]\)\s*(?:e|\))|Rogério|Crédito|^África|Cookie\sPolicy|concorda|concordo|Li e aceito|Selecione sua língua|Programação Podcast|>>\s|Clique\s|Inscreva-se|Siga\s|Assine\s|WhatsApp|Telegram|Newsletter|canal do/i;
     const skipShort = (s) => s.length < 60 || skipPattern.test(s) || skipContent.test(s);
     const htmlEntities = { '&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&#039;':"'",'&nbsp;':' ','&aacute;':'á','&eacute;':'é','&iacute;':'í','&oacute;':'ó','&uacute;':'ú','&atilde;':'ã','&otilde;':'õ','&ccedil;':'ç','&acirc;':'â','&ecirc;':'ê','&ocirc;':'ô','&uuml;':'ü','&Aacute;':'Á','&Eacute;':'É','&Iacute;':'Í','&Oacute;':'Ó','&Uacute;':'Ú','&Atilde;':'Ã','&Otilde;':'Õ','&Ccedil;':'Ç','&Acirc;':'Â','&Ecirc;':'Ê','&Ocirc;':'Ô','&agrave;':'à','&Agrave;':'À' };
     const clean = s => {
@@ -694,6 +694,7 @@ async function enrichSummaries(items) {
       }
       if (collected.length > 0) {
         let summary = collected.join(' ');
+        summary = summary.replace(/>>[^.]*\.\s*/g, '').replace(/(?:Clique|Acesse|Assine|Siga|Inscreva)[^.]*\.\s*/gi, '').replace(/(?:WhatsApp|Telegram|YouTube|Instagram)[^.]*\.\s*/gi, '').replace(/Receba\s[^.]*\.\s*/gi, '').trim();
         const maxChars = 500;
         if (summary.length <= maxChars) return summary;
         const truncated = summary.slice(0, maxChars);
@@ -713,6 +714,9 @@ async function enrichSummaries(items) {
         const fp = buildSummary(result.value);
         if (fp) item.summary = fp;
       }
+    }
+    if (item.summary) {
+      item.summary = item.summary.replace(/>>[^.]*\.\s*/g, '').replace(/(?:Clique|Acesse|Assine|Siga|Inscreva)[^.]*\.\s*/gi, '').replace(/Receba\s[^.]*\.\s*/gi, '').trim();
     }
     return item;
   });

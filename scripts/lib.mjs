@@ -8,19 +8,19 @@ const rootDir = path.resolve(__dirname, '..');
 export const internalTerms = [
   'teste manual',
   'revalidar',
-  'nao confirmado',
+  'não confirmado',
   'alerta interno',
-  'confianca alta',
-  'confianca editorial'
+  'confiança alta',
+  'confiança editorial'
 ];
 
 const allowedSourceKeys = new Set([
   'Vatican News',
-  'Santa Se',
+  'Santa Sé',
   'Vaticano',
   'CNBB',
   'ACI Digital',
-  'Cancao Nova',
+  'Canção Nova',
   'Comunidade Shalom',
   'Shalom',
   'Aleteia',
@@ -28,11 +28,11 @@ const allowedSourceKeys = new Set([
   'Vatican Insider'
 ].map((source) => sourceKey(source)));
 
-const vaticanSourceKeys = new Set(['Vatican News', 'Santa Se', 'Vaticano', 'Vatican Insider'].map((source) => sourceKey(source)));
+const vaticanSourceKeys = new Set(['Vatican News', 'Santa Sé', 'Vaticano', 'Vatican Insider'].map((source) => sourceKey(source)));
 const brazilSourceKeys = new Set(['CNBB'].map((source) => sourceKey(source)));
 const trustedCatholicSourceKeys = new Set([
   'ACI Digital',
-  'Cancao Nova',
+  'Canção Nova',
   'Comunidade Shalom',
   'Shalom',
   'Aleteia',
@@ -333,8 +333,8 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{LITURGICAL_COLOR}}': selection.liturgical.cssColor,
     '{{LITURGICAL_TEXT_MODIFIER}}': isLightColor(selection.liturgical.cssColor) ? ' liturgy-light' : '',
     '{{EDITION_DATE}}': selection.date,
-    '{{PAGE_TITLE}}': `Noticias Catolicas - ${selection.editionLabel} - @ilustre.ai`,
-    '{{HERO_EYEBROW}}': `Curadoria diaria - ${selection.editionLabel}`,
+    '{{PAGE_TITLE}}': `Notícias Católicas - ${selection.editionLabel} - @ilustre.ai`,
+    '{{HERO_EYEBROW}}': `Curadoria diária - ${selection.editionLabel}`,
     '{{LITURGICAL_SEASON}}': liturgicalDisplayTitle(selection.liturgical),
     '{{GOSPEL_SHORT}}': selection.liturgical.gospelShort,
     '{{EDITION_LABEL}}': selection.editionLabel,
@@ -355,8 +355,8 @@ export function buildPage(selection, template = loadTemplate()) {
     template
   );
 
-  const quoteText = escapeHtml(selection.closingQuote?.text ?? 'Tudo por amor, nada por forca.');
-  const quoteSource = escapeHtml(selection.closingQuote?.source ?? 'Sao Francisco de Sales');
+  const quoteText = escapeHtml(selection.closingQuote?.text ?? 'Tudo por amor, nada por força.');
+  const quoteSource = escapeHtml(selection.closingQuote?.source ?? 'São Francisco de Sales');
 
   return html
     .replace(/(<p class="closing-quote-text">)([\s\S]*?)(<\/p>)/, `$1${quoteText}$3`)
