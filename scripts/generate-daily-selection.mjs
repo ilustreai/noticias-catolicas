@@ -97,14 +97,23 @@ async function fetchFeed(source) {
     if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
     const xml = await response.text();
     const blocks = [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map((match) => match[0]);
-    return blocks.map((block) => ({
-      source: source.source,
-      kind: source.kind,
-      title: textBetween(block, 'title'),
-      summary: textBetween(block, 'description') || textBetween(block, 'content:encoded'),
-      url: textBetween(block, 'link') || textBetween(block, 'guid'),
-      published: isoDateFromFeed(textBetween(block, 'pubDate') || textBetween(block, 'updated'))
-    })).filter((item) => item.title && item.url?.startsWith('https://'));
+    return blocks.map((block) => {
+      const title = textBetween(block, 'title');
+      const desc = textBetween(block, 'description');
+      const contentEncoded = textBetween(block, 'content:encoded');
+      const descNorm = normalize(desc || '');
+      const titleNorm = normalize(title || '');
+      const isDescTitle = descNorm === titleNorm || descNorm.startsWith(titleNorm) || titleNorm.startsWith(descNorm);
+      const summary = (!isDescTitle && desc) || contentEncoded || desc || '';
+      return {
+        source: source.source,
+        kind: source.kind,
+        title,
+        summary,
+        url: textBetween(block, 'link') || textBetween(block, 'guid'),
+        published: isoDateFromFeed(textBetween(block, 'pubDate') || textBetween(block, 'updated'))
+      };
+    }).filter((item) => item.title && item.url?.startsWith('https://'));
   } catch (error) {
     console.error(`Feed failed: ${source.source} - ${error.message}`);
     return [];
@@ -306,7 +315,7 @@ async function fetchPage(source, pageUrl) {
         source: source.source,
         kind: source.kind,
         title,
-        summary: `${title}. Item recente selecionado na pagina publica de ${source.source}. Leia o texto integral na fonte original.`,
+        summary: title,
         url,
         published
       };
@@ -355,12 +364,7 @@ function makeSummary(item) {
   const isSameAsTitle = cleanNorm.length > 0 && titleNorm.length > 0 && (cleanNorm === titleNorm || cleanNorm.startsWith(titleNorm) || titleNorm.startsWith(cleanNorm));
 
   if (isSameAsTitle) {
-    const fallback = `${title}. Leia a noticia completa em ${item.source}.`;
-    if (fallback.length >= 40) {
-      const sliced = fallback.slice(0, 240);
-      return sliced.length < fallback.length ? sliced.replace(/\s+\S*$/, '') : sliced;
-    }
-    return `${title} foi destaque em ${item.source}, em noticia recente acompanhada pela curadoria catolica.`;
+    return clean.length > 0 ? clean : title;
   }
 
   const base = clean.length >= 80 ? clean : `${title}. ${clean}`;
