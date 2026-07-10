@@ -647,7 +647,7 @@ async function enrichSummaries(items) {
   const needsEnrich = items.filter(item => {
     const normItem = normalize(item.summary || '');
     const normTitle = normalize(item.title || '');
-    return !item.summary || item.summary.length < 60 || normItem === normTitle || normItem.startsWith(normTitle) || normTitle.startsWith(normItem);
+    return !item.summary || item.summary.length < 120 || normItem === normTitle || normItem.startsWith(normTitle) || normTitle.startsWith(normItem);
   });
   if (needsEnrich.length === 0) return items;
   const results = await Promise.allSettled(needsEnrich.map(item =>
@@ -664,17 +664,44 @@ async function enrichSummaries(items) {
       .replace(/&[a-zA-Z]+;/g, m => entities[m] || m)
       .replace(/^["""'\s]+|["""'\s]+$/g, '').trim();
   };
-  const firstParagraph = html => {
-    const article = html.match(/<article[\s\S]*?<\/article>/i)?.[0] || html.match(/<main[\s\S]*?<\/main>/i)?.[0] || html.match(/class="[^"]*(?:article|post|entry|content)-?(?:body|text|content)[^"]*"[\s\S]*?(?=<\/div>|<\/article>)/i)?.[0] || html;
-    const ps = [...article.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)];
-    for (const m of ps) {
-      const text = simpleClean(m[1]);
-      if (text.length >= 60 && text.length < 800) return text;
-    }
-    const fallback = simpleClean(article.slice(0, 800));
-    if (fallback.length >= 60) {
-      const sentence = fallback.match(/[^.!?]+[.!?]/);
-      return sentence ? sentence[0].trim() : fallback.slice(0, 200);
+  const buildSummary = html => {
+    const contentZones = [
+      html.match(/class="[^"]*(?:main-article-content|post-content|entry-content|theme-post-content|article-body|article-content)[^"]*"[\s\S]*?(?=<\/div>)/i)?.[0],
+      html.match(/<article[\s\S]*?<\/article>/i)?.[0],
+      html.match(/<main[\s\S]*?<\/main>/i)?.[0],
+      html
+    ].filter(Boolean);
+    const skipPattern = /^(?:Por\s|Publicado|Compartilhe|Inscreva|Siga|Leia\s|Foto|Crédito|\.{3}|document\.|Facebook|Twitter|Instagram|YouTube|Cookie|Concordo|Li e aceito)/i;
+    const skipContent = /\([DE]\)\s*(?:e|\))|Rogério|Crédito|^África|Cookie\sPolicy|concorda|concordo|Li e aceito|Selecione sua língua|Programação Podcast/i;
+    const skipShort = (s) => s.length < 60 || skipPattern.test(s) || skipContent.test(s);
+    const htmlEntities = { '&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&#039;':"'",'&nbsp;':' ','&aacute;':'á','&eacute;':'é','&iacute;':'í','&oacute;':'ó','&uacute;':'ú','&atilde;':'ã','&otilde;':'õ','&ccedil;':'ç','&acirc;':'â','&ecirc;':'ê','&ocirc;':'ô','&uuml;':'ü','&Aacute;':'Á','&Eacute;':'É','&Iacute;':'Í','&Oacute;':'Ó','&Uacute;':'Ú','&Atilde;':'Ã','&Otilde;':'Õ','&Ccedil;':'Ç','&Acirc;':'Â','&Ecirc;':'Ê','&Ocirc;':'Ô','&agrave;':'à','&Agrave;':'À' };
+    const clean = s => {
+      const text = s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()
+        .replace(/&#\d+;/g, m => String.fromCharCode(m.slice(2,-1)))
+        .replace(/&amp;#\d+;/g, m => String.fromCharCode(m.slice(5,-1)))
+        .replace(/&[a-zA-Z]+;/g, m => htmlEntities[m] || m)
+        .replace(/^["""'\s]+|["""'\s]+$/g, '').trim();
+      return text.length >= 60 ? text : '';
+    };
+    for (const zone of contentZones) {
+      const ps = [...zone.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)];
+      const collected = [];
+      for (const m of ps) {
+        const text = clean(m[1]);
+        if (!text || skipShort(text)) continue;
+        collected.push(text);
+        if (collected.length >= 3) break;
+      }
+      if (collected.length > 0) {
+        let summary = collected.join(' ');
+        const maxChars = 500;
+        if (summary.length <= maxChars) return summary;
+        const truncated = summary.slice(0, maxChars);
+        const lastSentence = truncated.match(/.*[.!?]/);
+        const lastBreak = truncated.lastIndexOf(' ');
+        const cut = lastSentence ? lastSentence[0].length + 1 : (lastBreak > maxChars - 100 ? lastBreak : maxChars);
+        return summary.slice(0, cut).trim() + '...';
+      }
     }
     return '';
   };
@@ -683,7 +710,7 @@ async function enrichSummaries(items) {
       const idx = needsEnrich.indexOf(item);
       const result = results[idx];
       if (result?.status === 'fulfilled' && result.value) {
-        const fp = firstParagraph(result.value);
+        const fp = buildSummary(result.value);
         if (fp) item.summary = fp;
       }
     }

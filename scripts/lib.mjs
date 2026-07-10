@@ -256,21 +256,13 @@ export function validateSelection(selection) {
 }
 
 function renderNews(news) {
-  return news.map((item, index) => {
-    const summary = item.summary;
-    const summarySameAsTitle = summary && item.title && (
-      summary === item.title ||
-      summary.replace(/[.!]+$/, '') === item.title.replace(/[.!]+$/, '') ||
-      summary === item.title.replace(/[.!]+$/, '')
-    );
-    const summaryHtml = summarySameAsTitle ? '' : `<p class="news-summary">${escapeHtml(summary)}</p>`;
-    return `
+  return news.map((item, index) => `
     <article class="news-item reveal">
       <div class="news-index">${String(index + 1).padStart(2, '0')}</div>
       <div class="news-body">
         <div class="news-source">${escapeHtml(item.source)}</div>
         <h3 class="news-headline">${escapeHtml(item.title)}</h3>
-        ${summaryHtml}
+        <p class="news-summary">${escapeHtml(item.summary)}</p>
         <a class="btn-source" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
@@ -278,8 +270,7 @@ function renderNews(news) {
           </svg>
         </a>
       </div>
-    </article>`;
-  }).join('\n');
+    </article>`).join('\n');
 }
 
 function renderSponsor(sponsor) {
