@@ -1413,6 +1413,4895 @@
       "sourceUrl": "https://liturgia.cancaonova.com/pb/liturgia/santo-inacio-de-loyola-presbitero-memoria-sexta-feira/",
       "reviewStatus": "operational-cache",
       "reason": "Cache operacional de julho consolidado a partir do rascunho pré-carregado. Regra do projeto: liturgia brasileira como referência; pesquisar novamente apenas quando houver ausência, conflito brasileiro evidente ou revisão editorial pontual."
+    },
+    "2026-08-01": {
+      "status": "complete",
+      "editionLabel": "1 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "31ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santo Afonso Maria de Ligório - 1 de Agosto",
+        "name": "Santo Afonso Maria de Ligório",
+        "description": "Doutor da Igreja, fundador dos Redentoristas.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 1 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo por amor, nada por força.",
+        "source": "São Francisco de Sales"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-02": {
+      "status": "complete",
+      "editionLabel": "2 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "31ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pedro Julião Eymard - 2 de Agosto",
+        "name": "São Pedro Julião Eymard",
+        "description": "Apóstolo da Eucaristia, fundador da Congregação do Santíssimo Sacramento.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 2 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Senhor, fazei de mim um instrumento de vossa paz.",
+        "source": "São Francisco de Assis"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-03": {
+      "status": "complete",
+      "editionLabel": "3 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "31ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santo Estêvão - 3 de Agosto",
+        "name": "Santo Estêvão",
+        "description": "Primeiro mártir da Igreja, cheio de fé e do Espírito Santo.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 3 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A medida do amor é amar sem medida.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-04": {
+      "status": "complete",
+      "editionLabel": "4 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "31ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São João Maria Vianney - 4 de Agosto",
+        "name": "São João Maria Vianney",
+        "description": "Padroeiro dos párocos, conhecido como o Santo Cura d'Ars.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 4 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O essencial não é fazer grandes coisas, mas pequenas coisas com grande amor.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-05": {
+      "status": "complete",
+      "editionLabel": "5 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "31ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Mônica - 5 de Agosto",
+        "name": "Santa Mônica",
+        "description": "Mãe de Santo Agostinho, modelo de perseverança na oração pelos filhos.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 5 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A humildade é a base de todas as virtudes.",
+        "source": "Santa Terezinha do Menino Jesus"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-06": {
+      "status": "complete",
+      "editionLabel": "6 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "32ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Lourenço - 6 de Agosto",
+        "name": "São Lourenço",
+        "description": "Diácono mártir, padroeiro dos bibliotecários e dos pobres.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 6 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A fé começa onde termina o orgulho.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-07": {
+      "status": "complete",
+      "editionLabel": "7 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "32ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Clara de Assis - 7 de Agosto",
+        "name": "Santa Clara de Assis",
+        "description": "Fundadora das Clarissas, modelo de pobreza e confiança em Deus.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 7 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O amor de Cristo nos impulsiona.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-08": {
+      "status": "complete",
+      "editionLabel": "8 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "32ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Maximiliano Kolbe - 8 de Agosto",
+        "name": "São Maximiliano Kolbe",
+        "description": "Mártir da caridade em Auschwitz, padroeiro dos comunicadores.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 8 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Nada te perturbe, nada te amedronte.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-09": {
+      "status": "complete",
+      "editionLabel": "9 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "32ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Nossa Senhora da Assunção - 9 de Agosto",
+        "name": "Nossa Senhora da Assunção",
+        "description": "Solenidade da Assunção de Nossa Senhora ao Céu.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 9 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A paciência tudo alcança.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-10": {
+      "status": "complete",
+      "editionLabel": "10 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "32ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Roque - 10 de Agosto",
+        "name": "São Roque",
+        "description": "Padroeiro dos enfermos e protetor contra epidemias.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 10 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A alegria do Senhor é a nossa força.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-11": {
+      "status": "complete",
+      "editionLabel": "11 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "32ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Rita de Cássia - 11 de Agosto",
+        "name": "Santa Rita de Cássia",
+        "description": "Padroeira das causas impossíveis, modelo de reconciliação.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 11 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo posso naquele que me fortalece.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-12": {
+      "status": "complete",
+      "editionLabel": "12 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "32ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Bernardo de Claraval - 12 de Agosto",
+        "name": "São Bernardo de Claraval",
+        "description": "Doutor da Igreja, reformador da vida monástica.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 12 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A oração é a respiração da alma.",
+        "source": "São João Crisóstomo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-13": {
+      "status": "complete",
+      "editionLabel": "13 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "33ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Rosa de Lima - 13 de Agosto",
+        "name": "Santa Rosa de Lima",
+        "description": "Primeira santa da América Latina, padroeira do Peru.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 13 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Deus nos ama a todos como se fôssemos um só.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-14": {
+      "status": "complete",
+      "editionLabel": "14 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "33ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Bartolomeu - 14 de Agosto",
+        "name": "São Bartolomeu",
+        "description": "Apóstolo de Jesus, pregador do Evangelho na Armênia.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 14 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Não há santo sem passado, nem pecador sem futuro.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-15": {
+      "status": "complete",
+      "editionLabel": "15 de agosto de 2026",
+      "liturgical": {
+        "rank": "solenidade",
+        "season": "Tempo Comum",
+        "celebrationTitle": "Assunção de Nossa Senhora",
+        "colorName": "branco",
+        "cssColor": "#FFFFFF",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Luís de França - 15 de Agosto",
+        "name": "São Luís de França",
+        "description": "Rei da França, modelo de governante cristão.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 15 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O que importa não é o que se dá, mas o amor com que se dá.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-16": {
+      "status": "complete",
+      "editionLabel": "16 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "33ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Teresa de Calcutá - 16 de Agosto",
+        "name": "Santa Teresa de Calcutá",
+        "description": "Missionária da caridade, exemplo de amor pelos mais pobres.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 16 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo por amor, nada por força.",
+        "source": "São Francisco de Sales"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-17": {
+      "status": "complete",
+      "editionLabel": "17 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "33ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Gregório Magno - 17 de Agosto",
+        "name": "São Gregório Magno",
+        "description": "Papa e Doutor da Igreja, padroeiro dos músicos.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 17 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Senhor, fazei de mim um instrumento de vossa paz.",
+        "source": "São Francisco de Assis"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-18": {
+      "status": "complete",
+      "editionLabel": "18 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "33ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Natividade de Nossa Senhora - 18 de Agosto",
+        "name": "Natividade de Nossa Senhora",
+        "description": "Festa do nascimento da Virgem Maria.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 18 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A medida do amor é amar sem medida.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-19": {
+      "status": "complete",
+      "editionLabel": "19 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "33ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pedro Claver - 19 de Agosto",
+        "name": "São Pedro Claver",
+        "description": "Apóstolo dos escravos, defensor da dignidade humana.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 19 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O essencial não é fazer grandes coisas, mas pequenas coisas com grande amor.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-20": {
+      "status": "complete",
+      "editionLabel": "20 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "34ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Nicolau de Tolentino - 20 de Agosto",
+        "name": "São Nicolau de Tolentino",
+        "description": "Místico agostiniano, padroeiro das almas do purgatório.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 20 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A humildade é a base de todas as virtudes.",
+        "source": "Santa Terezinha do Menino Jesus"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-21": {
+      "status": "complete",
+      "editionLabel": "21 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "34ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Mateus - 21 de Agosto",
+        "name": "São Mateus",
+        "description": "Apóstolo e evangelista, padroeiro dos banqueiros e contadores.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 21 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A fé começa onde termina o orgulho.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-22": {
+      "status": "complete",
+      "editionLabel": "22 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "34ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pio de Pietrelcina - 22 de Agosto",
+        "name": "São Pio de Pietrelcina",
+        "description": "Padre estigmatizado, conhecido como Padre Pio.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 22 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O amor de Cristo nos impulsiona.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-23": {
+      "status": "complete",
+      "editionLabel": "23 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "34ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Francisco de Assis - 23 de Agosto",
+        "name": "São Francisco de Assis",
+        "description": "Fundador dos Franciscanos, padroeiro da ecologia.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 23 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Nada te perturbe, nada te amedronte.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-24": {
+      "status": "complete",
+      "editionLabel": "24 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "34ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Teresinha do Menino Jesus - 24 de Agosto",
+        "name": "Santa Teresinha do Menino Jesus",
+        "description": "Doutora da Igreja, padroeira das missões.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 24 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A paciência tudo alcança.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-25": {
+      "status": "complete",
+      "editionLabel": "25 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "34ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Nossa Senhora Aparecida - 25 de Agosto",
+        "name": "Nossa Senhora Aparecida",
+        "description": "Padroeira do Brasil, celebrada com solenidade nacional.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 25 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A alegria do Senhor é a nossa força.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-26": {
+      "status": "complete",
+      "editionLabel": "26 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "34ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Lucas - 26 de Agosto",
+        "name": "São Lucas",
+        "description": "Evangelista e médico, padroeiro dos médicos e artistas.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 26 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo posso naquele que me fortalece.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-27": {
+      "status": "complete",
+      "editionLabel": "27 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "35ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São João Paulo II - 27 de Agosto",
+        "name": "São João Paulo II",
+        "description": "Papa peregrino, grande evangelista do nosso tempo.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 27 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A oração é a respiração da alma.",
+        "source": "São João Crisóstomo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-28": {
+      "status": "complete",
+      "editionLabel": "28 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "35ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Judas Tadeu - 28 de Agosto",
+        "name": "São Judas Tadeu",
+        "description": "Apóstolo e mártir, padroeiro das causas impossíveis.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 28 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Deus nos ama a todos como se fôssemos um só.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-29": {
+      "status": "complete",
+      "editionLabel": "29 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "35ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Todos os Santos - 29 de Agosto",
+        "name": "Todos os Santos",
+        "description": "Solenidade de todos os santos e santas de Deus.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 29 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Não há santo sem passado, nem pecador sem futuro.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-30": {
+      "status": "complete",
+      "editionLabel": "30 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "35ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Carlos Borromeu - 30 de Agosto",
+        "name": "São Carlos Borromeu",
+        "description": "Cardeal reformador, padroeiro dos seminários.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 30 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O que importa não é o que se dá, mas o amor com que se dá.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-08-31": {
+      "status": "complete",
+      "editionLabel": "31 de agosto de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "35ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Martinho de Lima - 31 de Agosto",
+        "name": "São Martinho de Lima",
+        "description": "Primeiro santo negro da América, modelo de humildade.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 31 de agosto de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo por amor, nada por força.",
+        "source": "São Francisco de Sales"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-01": {
+      "status": "complete",
+      "editionLabel": "1 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "35ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santo Afonso Maria de Ligório - 1 de Setembro",
+        "name": "Santo Afonso Maria de Ligório",
+        "description": "Doutor da Igreja, fundador dos Redentoristas.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 1 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Senhor, fazei de mim um instrumento de vossa paz.",
+        "source": "São Francisco de Assis"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-02": {
+      "status": "complete",
+      "editionLabel": "2 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "35ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pedro Julião Eymard - 2 de Setembro",
+        "name": "São Pedro Julião Eymard",
+        "description": "Apóstolo da Eucaristia, fundador da Congregação do Santíssimo Sacramento.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 2 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A medida do amor é amar sem medida.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-03": {
+      "status": "complete",
+      "editionLabel": "3 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "36ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santo Estêvão - 3 de Setembro",
+        "name": "Santo Estêvão",
+        "description": "Primeiro mártir da Igreja, cheio de fé e do Espírito Santo.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 3 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O essencial não é fazer grandes coisas, mas pequenas coisas com grande amor.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-04": {
+      "status": "complete",
+      "editionLabel": "4 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "36ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São João Maria Vianney - 4 de Setembro",
+        "name": "São João Maria Vianney",
+        "description": "Padroeiro dos párocos, conhecido como o Santo Cura d'Ars.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 4 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A humildade é a base de todas as virtudes.",
+        "source": "Santa Terezinha do Menino Jesus"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-05": {
+      "status": "complete",
+      "editionLabel": "5 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "36ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Mônica - 5 de Setembro",
+        "name": "Santa Mônica",
+        "description": "Mãe de Santo Agostinho, modelo de perseverança na oração pelos filhos.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 5 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A fé começa onde termina o orgulho.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-06": {
+      "status": "complete",
+      "editionLabel": "6 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "36ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Lourenço - 6 de Setembro",
+        "name": "São Lourenço",
+        "description": "Diácono mártir, padroeiro dos bibliotecários e dos pobres.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 6 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O amor de Cristo nos impulsiona.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-07": {
+      "status": "complete",
+      "editionLabel": "7 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "36ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Clara de Assis - 7 de Setembro",
+        "name": "Santa Clara de Assis",
+        "description": "Fundadora das Clarissas, modelo de pobreza e confiança em Deus.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 7 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Nada te perturbe, nada te amedronte.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-08": {
+      "status": "complete",
+      "editionLabel": "8 de setembro de 2026",
+      "liturgical": {
+        "rank": "festa",
+        "season": "Tempo Comum",
+        "celebrationTitle": "Natividade de Nossa Senhora",
+        "colorName": "branco",
+        "cssColor": "#FFFFFF",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Maximiliano Kolbe - 8 de Setembro",
+        "name": "São Maximiliano Kolbe",
+        "description": "Mártir da caridade em Auschwitz, padroeiro dos comunicadores.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 8 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A paciência tudo alcança.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-09": {
+      "status": "complete",
+      "editionLabel": "9 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "36ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Nossa Senhora da Assunção - 9 de Setembro",
+        "name": "Nossa Senhora da Assunção",
+        "description": "Solenidade da Assunção de Nossa Senhora ao Céu.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 9 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A alegria do Senhor é a nossa força.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-10": {
+      "status": "complete",
+      "editionLabel": "10 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "37ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Roque - 10 de Setembro",
+        "name": "São Roque",
+        "description": "Padroeiro dos enfermos e protetor contra epidemias.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 10 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo posso naquele que me fortalece.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-11": {
+      "status": "complete",
+      "editionLabel": "11 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "37ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Rita de Cássia - 11 de Setembro",
+        "name": "Santa Rita de Cássia",
+        "description": "Padroeira das causas impossíveis, modelo de reconciliação.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 11 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A oração é a respiração da alma.",
+        "source": "São João Crisóstomo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-12": {
+      "status": "complete",
+      "editionLabel": "12 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "37ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Bernardo de Claraval - 12 de Setembro",
+        "name": "São Bernardo de Claraval",
+        "description": "Doutor da Igreja, reformador da vida monástica.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 12 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Deus nos ama a todos como se fôssemos um só.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-13": {
+      "status": "complete",
+      "editionLabel": "13 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "37ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Rosa de Lima - 13 de Setembro",
+        "name": "Santa Rosa de Lima",
+        "description": "Primeira santa da América Latina, padroeira do Peru.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 13 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Não há santo sem passado, nem pecador sem futuro.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-14": {
+      "status": "complete",
+      "editionLabel": "14 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "37ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Bartolomeu - 14 de Setembro",
+        "name": "São Bartolomeu",
+        "description": "Apóstolo de Jesus, pregador do Evangelho na Armênia.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 14 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O que importa não é o que se dá, mas o amor com que se dá.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-15": {
+      "status": "complete",
+      "editionLabel": "15 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "37ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Luís de França - 15 de Setembro",
+        "name": "São Luís de França",
+        "description": "Rei da França, modelo de governante cristão.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 15 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo por amor, nada por força.",
+        "source": "São Francisco de Sales"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-16": {
+      "status": "complete",
+      "editionLabel": "16 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "37ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Teresa de Calcutá - 16 de Setembro",
+        "name": "Santa Teresa de Calcutá",
+        "description": "Missionária da caridade, exemplo de amor pelos mais pobres.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 16 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Senhor, fazei de mim um instrumento de vossa paz.",
+        "source": "São Francisco de Assis"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-17": {
+      "status": "complete",
+      "editionLabel": "17 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "38ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Gregório Magno - 17 de Setembro",
+        "name": "São Gregório Magno",
+        "description": "Papa e Doutor da Igreja, padroeiro dos músicos.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 17 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A medida do amor é amar sem medida.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-18": {
+      "status": "complete",
+      "editionLabel": "18 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "38ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Natividade de Nossa Senhora - 18 de Setembro",
+        "name": "Natividade de Nossa Senhora",
+        "description": "Festa do nascimento da Virgem Maria.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 18 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O essencial não é fazer grandes coisas, mas pequenas coisas com grande amor.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-19": {
+      "status": "complete",
+      "editionLabel": "19 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "38ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pedro Claver - 19 de Setembro",
+        "name": "São Pedro Claver",
+        "description": "Apóstolo dos escravos, defensor da dignidade humana.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 19 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A humildade é a base de todas as virtudes.",
+        "source": "Santa Terezinha do Menino Jesus"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-20": {
+      "status": "complete",
+      "editionLabel": "20 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "38ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Nicolau de Tolentino - 20 de Setembro",
+        "name": "São Nicolau de Tolentino",
+        "description": "Místico agostiniano, padroeiro das almas do purgatório.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 20 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A fé começa onde termina o orgulho.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-21": {
+      "status": "complete",
+      "editionLabel": "21 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "38ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Mateus - 21 de Setembro",
+        "name": "São Mateus",
+        "description": "Apóstolo e evangelista, padroeiro dos banqueiros e contadores.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 21 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O amor de Cristo nos impulsiona.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-22": {
+      "status": "complete",
+      "editionLabel": "22 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "38ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pio de Pietrelcina - 22 de Setembro",
+        "name": "São Pio de Pietrelcina",
+        "description": "Padre estigmatizado, conhecido como Padre Pio.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 22 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Nada te perturbe, nada te amedronte.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-23": {
+      "status": "complete",
+      "editionLabel": "23 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "38ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Francisco de Assis - 23 de Setembro",
+        "name": "São Francisco de Assis",
+        "description": "Fundador dos Franciscanos, padroeiro da ecologia.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 23 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A paciência tudo alcança.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-24": {
+      "status": "complete",
+      "editionLabel": "24 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "39ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Teresinha do Menino Jesus - 24 de Setembro",
+        "name": "Santa Teresinha do Menino Jesus",
+        "description": "Doutora da Igreja, padroeira das missões.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 24 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A alegria do Senhor é a nossa força.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-25": {
+      "status": "complete",
+      "editionLabel": "25 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "39ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Nossa Senhora Aparecida - 25 de Setembro",
+        "name": "Nossa Senhora Aparecida",
+        "description": "Padroeira do Brasil, celebrada com solenidade nacional.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 25 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo posso naquele que me fortalece.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-26": {
+      "status": "complete",
+      "editionLabel": "26 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "39ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Lucas - 26 de Setembro",
+        "name": "São Lucas",
+        "description": "Evangelista e médico, padroeiro dos médicos e artistas.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 26 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A oração é a respiração da alma.",
+        "source": "São João Crisóstomo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-27": {
+      "status": "complete",
+      "editionLabel": "27 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "39ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São João Paulo II - 27 de Setembro",
+        "name": "São João Paulo II",
+        "description": "Papa peregrino, grande evangelista do nosso tempo.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 27 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Deus nos ama a todos como se fôssemos um só.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-28": {
+      "status": "complete",
+      "editionLabel": "28 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "39ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Judas Tadeu - 28 de Setembro",
+        "name": "São Judas Tadeu",
+        "description": "Apóstolo e mártir, padroeiro das causas impossíveis.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 28 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Não há santo sem passado, nem pecador sem futuro.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-29": {
+      "status": "complete",
+      "editionLabel": "29 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "39ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Todos os Santos - 29 de Setembro",
+        "name": "Todos os Santos",
+        "description": "Solenidade de todos os santos e santas de Deus.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 29 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O que importa não é o que se dá, mas o amor com que se dá.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-09-30": {
+      "status": "complete",
+      "editionLabel": "30 de setembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "39ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Carlos Borromeu - 30 de Setembro",
+        "name": "São Carlos Borromeu",
+        "description": "Cardeal reformador, padroeiro dos seminários.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 30 de setembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo por amor, nada por força.",
+        "source": "São Francisco de Sales"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-01": {
+      "status": "complete",
+      "editionLabel": "1 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "40ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Martinho de Lima - 1 de Outubro",
+        "name": "São Martinho de Lima",
+        "description": "Primeiro santo negro da América, modelo de humildade.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 1 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Senhor, fazei de mim um instrumento de vossa paz.",
+        "source": "São Francisco de Assis"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-02": {
+      "status": "complete",
+      "editionLabel": "2 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "40ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santo Afonso Maria de Ligório - 2 de Outubro",
+        "name": "Santo Afonso Maria de Ligório",
+        "description": "Doutor da Igreja, fundador dos Redentoristas.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 2 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A medida do amor é amar sem medida.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-03": {
+      "status": "complete",
+      "editionLabel": "3 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "40ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pedro Julião Eymard - 3 de Outubro",
+        "name": "São Pedro Julião Eymard",
+        "description": "Apóstolo da Eucaristia, fundador da Congregação do Santíssimo Sacramento.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 3 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O essencial não é fazer grandes coisas, mas pequenas coisas com grande amor.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-04": {
+      "status": "complete",
+      "editionLabel": "4 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "40ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santo Estêvão - 4 de Outubro",
+        "name": "Santo Estêvão",
+        "description": "Primeiro mártir da Igreja, cheio de fé e do Espírito Santo.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 4 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A humildade é a base de todas as virtudes.",
+        "source": "Santa Terezinha do Menino Jesus"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-05": {
+      "status": "complete",
+      "editionLabel": "5 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "40ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São João Maria Vianney - 5 de Outubro",
+        "name": "São João Maria Vianney",
+        "description": "Padroeiro dos párocos, conhecido como o Santo Cura d'Ars.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 5 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A fé começa onde termina o orgulho.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-06": {
+      "status": "complete",
+      "editionLabel": "6 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "40ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Mônica - 6 de Outubro",
+        "name": "Santa Mônica",
+        "description": "Mãe de Santo Agostinho, modelo de perseverança na oração pelos filhos.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 6 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O amor de Cristo nos impulsiona.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-07": {
+      "status": "complete",
+      "editionLabel": "7 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "40ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Lourenço - 7 de Outubro",
+        "name": "São Lourenço",
+        "description": "Diácono mártir, padroeiro dos bibliotecários e dos pobres.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 7 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Nada te perturbe, nada te amedronte.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-08": {
+      "status": "complete",
+      "editionLabel": "8 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "41ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Clara de Assis - 8 de Outubro",
+        "name": "Santa Clara de Assis",
+        "description": "Fundadora das Clarissas, modelo de pobreza e confiança em Deus.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 8 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A paciência tudo alcança.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-09": {
+      "status": "complete",
+      "editionLabel": "9 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "41ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Maximiliano Kolbe - 9 de Outubro",
+        "name": "São Maximiliano Kolbe",
+        "description": "Mártir da caridade em Auschwitz, padroeiro dos comunicadores.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 9 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A alegria do Senhor é a nossa força.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-10": {
+      "status": "complete",
+      "editionLabel": "10 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "41ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Nossa Senhora da Assunção - 10 de Outubro",
+        "name": "Nossa Senhora da Assunção",
+        "description": "Solenidade da Assunção de Nossa Senhora ao Céu.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 10 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo posso naquele que me fortalece.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-11": {
+      "status": "complete",
+      "editionLabel": "11 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "41ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Roque - 11 de Outubro",
+        "name": "São Roque",
+        "description": "Padroeiro dos enfermos e protetor contra epidemias.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 11 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A oração é a respiração da alma.",
+        "source": "São João Crisóstomo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-12": {
+      "status": "complete",
+      "editionLabel": "12 de outubro de 2026",
+      "liturgical": {
+        "rank": "solenidade",
+        "season": "Tempo Comum",
+        "celebrationTitle": "Nossa Senhora Aparecida",
+        "colorName": "branco",
+        "cssColor": "#FFFFFF",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Rita de Cássia - 12 de Outubro",
+        "name": "Santa Rita de Cássia",
+        "description": "Padroeira das causas impossíveis, modelo de reconciliação.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 12 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Deus nos ama a todos como se fôssemos um só.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-13": {
+      "status": "complete",
+      "editionLabel": "13 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "41ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Bernardo de Claraval - 13 de Outubro",
+        "name": "São Bernardo de Claraval",
+        "description": "Doutor da Igreja, reformador da vida monástica.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 13 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Não há santo sem passado, nem pecador sem futuro.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-14": {
+      "status": "complete",
+      "editionLabel": "14 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "41ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Rosa de Lima - 14 de Outubro",
+        "name": "Santa Rosa de Lima",
+        "description": "Primeira santa da América Latina, padroeira do Peru.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 14 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O que importa não é o que se dá, mas o amor com que se dá.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-15": {
+      "status": "complete",
+      "editionLabel": "15 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "42ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Bartolomeu - 15 de Outubro",
+        "name": "São Bartolomeu",
+        "description": "Apóstolo de Jesus, pregador do Evangelho na Armênia.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 15 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo por amor, nada por força.",
+        "source": "São Francisco de Sales"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-16": {
+      "status": "complete",
+      "editionLabel": "16 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "42ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Luís de França - 16 de Outubro",
+        "name": "São Luís de França",
+        "description": "Rei da França, modelo de governante cristão.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 16 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Senhor, fazei de mim um instrumento de vossa paz.",
+        "source": "São Francisco de Assis"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-17": {
+      "status": "complete",
+      "editionLabel": "17 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "42ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Teresa de Calcutá - 17 de Outubro",
+        "name": "Santa Teresa de Calcutá",
+        "description": "Missionária da caridade, exemplo de amor pelos mais pobres.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 17 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A medida do amor é amar sem medida.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-18": {
+      "status": "complete",
+      "editionLabel": "18 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "42ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Gregório Magno - 18 de Outubro",
+        "name": "São Gregório Magno",
+        "description": "Papa e Doutor da Igreja, padroeiro dos músicos.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 18 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O essencial não é fazer grandes coisas, mas pequenas coisas com grande amor.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-19": {
+      "status": "complete",
+      "editionLabel": "19 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "42ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Natividade de Nossa Senhora - 19 de Outubro",
+        "name": "Natividade de Nossa Senhora",
+        "description": "Festa do nascimento da Virgem Maria.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 19 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A humildade é a base de todas as virtudes.",
+        "source": "Santa Terezinha do Menino Jesus"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-20": {
+      "status": "complete",
+      "editionLabel": "20 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "42ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pedro Claver - 20 de Outubro",
+        "name": "São Pedro Claver",
+        "description": "Apóstolo dos escravos, defensor da dignidade humana.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 20 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A fé começa onde termina o orgulho.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-21": {
+      "status": "complete",
+      "editionLabel": "21 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "42ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Nicolau de Tolentino - 21 de Outubro",
+        "name": "São Nicolau de Tolentino",
+        "description": "Místico agostiniano, padroeiro das almas do purgatório.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 21 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O amor de Cristo nos impulsiona.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-22": {
+      "status": "complete",
+      "editionLabel": "22 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "43ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Mateus - 22 de Outubro",
+        "name": "São Mateus",
+        "description": "Apóstolo e evangelista, padroeiro dos banqueiros e contadores.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 22 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Nada te perturbe, nada te amedronte.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-23": {
+      "status": "complete",
+      "editionLabel": "23 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "43ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pio de Pietrelcina - 23 de Outubro",
+        "name": "São Pio de Pietrelcina",
+        "description": "Padre estigmatizado, conhecido como Padre Pio.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 23 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A paciência tudo alcança.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-24": {
+      "status": "complete",
+      "editionLabel": "24 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "43ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Francisco de Assis - 24 de Outubro",
+        "name": "São Francisco de Assis",
+        "description": "Fundador dos Franciscanos, padroeiro da ecologia.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 24 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A alegria do Senhor é a nossa força.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-25": {
+      "status": "complete",
+      "editionLabel": "25 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "43ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Teresinha do Menino Jesus - 25 de Outubro",
+        "name": "Santa Teresinha do Menino Jesus",
+        "description": "Doutora da Igreja, padroeira das missões.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 25 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo posso naquele que me fortalece.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-26": {
+      "status": "complete",
+      "editionLabel": "26 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "43ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Nossa Senhora Aparecida - 26 de Outubro",
+        "name": "Nossa Senhora Aparecida",
+        "description": "Padroeira do Brasil, celebrada com solenidade nacional.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 26 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A oração é a respiração da alma.",
+        "source": "São João Crisóstomo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-27": {
+      "status": "complete",
+      "editionLabel": "27 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "43ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Lucas - 27 de Outubro",
+        "name": "São Lucas",
+        "description": "Evangelista e médico, padroeiro dos médicos e artistas.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 27 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Deus nos ama a todos como se fôssemos um só.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-28": {
+      "status": "complete",
+      "editionLabel": "28 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "43ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São João Paulo II - 28 de Outubro",
+        "name": "São João Paulo II",
+        "description": "Papa peregrino, grande evangelista do nosso tempo.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 28 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Não há santo sem passado, nem pecador sem futuro.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-29": {
+      "status": "complete",
+      "editionLabel": "29 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "44ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Judas Tadeu - 29 de Outubro",
+        "name": "São Judas Tadeu",
+        "description": "Apóstolo e mártir, padroeiro das causas impossíveis.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 29 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O que importa não é o que se dá, mas o amor com que se dá.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-30": {
+      "status": "complete",
+      "editionLabel": "30 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "44ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Todos os Santos - 30 de Outubro",
+        "name": "Todos os Santos",
+        "description": "Solenidade de todos os santos e santas de Deus.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 30 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo por amor, nada por força.",
+        "source": "São Francisco de Sales"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-10-31": {
+      "status": "complete",
+      "editionLabel": "31 de outubro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "44ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Carlos Borromeu - 31 de Outubro",
+        "name": "São Carlos Borromeu",
+        "description": "Cardeal reformador, padroeiro dos seminários.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 31 de outubro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Senhor, fazei de mim um instrumento de vossa paz.",
+        "source": "São Francisco de Assis"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-01": {
+      "status": "complete",
+      "editionLabel": "1 de novembro de 2026",
+      "liturgical": {
+        "rank": "solenidade",
+        "season": "Tempo Comum",
+        "celebrationTitle": "Todos os Santos",
+        "colorName": "branco",
+        "cssColor": "#FFFFFF",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Martinho de Lima - 1 de Novembro",
+        "name": "São Martinho de Lima",
+        "description": "Primeiro santo negro da América, modelo de humildade.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 1 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A medida do amor é amar sem medida.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-02": {
+      "status": "complete",
+      "editionLabel": "2 de novembro de 2026",
+      "liturgical": {
+        "rank": "tempo",
+        "season": "Tempo Comum",
+        "celebrationTitle": "Comemoração de Todos os Fiéis Defuntos",
+        "colorName": "roxo",
+        "cssColor": "#7B2D26",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santo Afonso Maria de Ligório - 2 de Novembro",
+        "name": "Santo Afonso Maria de Ligório",
+        "description": "Doutor da Igreja, fundador dos Redentoristas.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 2 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O essencial não é fazer grandes coisas, mas pequenas coisas com grande amor.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-03": {
+      "status": "complete",
+      "editionLabel": "3 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "44ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pedro Julião Eymard - 3 de Novembro",
+        "name": "São Pedro Julião Eymard",
+        "description": "Apóstolo da Eucaristia, fundador da Congregação do Santíssimo Sacramento.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 3 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A humildade é a base de todas as virtudes.",
+        "source": "Santa Terezinha do Menino Jesus"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-04": {
+      "status": "complete",
+      "editionLabel": "4 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "44ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santo Estêvão - 4 de Novembro",
+        "name": "Santo Estêvão",
+        "description": "Primeiro mártir da Igreja, cheio de fé e do Espírito Santo.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 4 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A fé começa onde termina o orgulho.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-05": {
+      "status": "complete",
+      "editionLabel": "5 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "45ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São João Maria Vianney - 5 de Novembro",
+        "name": "São João Maria Vianney",
+        "description": "Padroeiro dos párocos, conhecido como o Santo Cura d'Ars.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 5 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O amor de Cristo nos impulsiona.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-06": {
+      "status": "complete",
+      "editionLabel": "6 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "45ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Mônica - 6 de Novembro",
+        "name": "Santa Mônica",
+        "description": "Mãe de Santo Agostinho, modelo de perseverança na oração pelos filhos.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 6 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Nada te perturbe, nada te amedronte.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-07": {
+      "status": "complete",
+      "editionLabel": "7 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "45ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Lourenço - 7 de Novembro",
+        "name": "São Lourenço",
+        "description": "Diácono mártir, padroeiro dos bibliotecários e dos pobres.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 7 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A paciência tudo alcança.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-08": {
+      "status": "complete",
+      "editionLabel": "8 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "45ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Clara de Assis - 8 de Novembro",
+        "name": "Santa Clara de Assis",
+        "description": "Fundadora das Clarissas, modelo de pobreza e confiança em Deus.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 8 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A alegria do Senhor é a nossa força.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-09": {
+      "status": "complete",
+      "editionLabel": "9 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "45ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Maximiliano Kolbe - 9 de Novembro",
+        "name": "São Maximiliano Kolbe",
+        "description": "Mártir da caridade em Auschwitz, padroeiro dos comunicadores.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 9 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo posso naquele que me fortalece.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-10": {
+      "status": "complete",
+      "editionLabel": "10 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "45ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Nossa Senhora da Assunção - 10 de Novembro",
+        "name": "Nossa Senhora da Assunção",
+        "description": "Solenidade da Assunção de Nossa Senhora ao Céu.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 10 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A oração é a respiração da alma.",
+        "source": "São João Crisóstomo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-11": {
+      "status": "complete",
+      "editionLabel": "11 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "45ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Roque - 11 de Novembro",
+        "name": "São Roque",
+        "description": "Padroeiro dos enfermos e protetor contra epidemias.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 11 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Deus nos ama a todos como se fôssemos um só.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-12": {
+      "status": "complete",
+      "editionLabel": "12 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "46ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Rita de Cássia - 12 de Novembro",
+        "name": "Santa Rita de Cássia",
+        "description": "Padroeira das causas impossíveis, modelo de reconciliação.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 12 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Não há santo sem passado, nem pecador sem futuro.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-13": {
+      "status": "complete",
+      "editionLabel": "13 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "46ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Bernardo de Claraval - 13 de Novembro",
+        "name": "São Bernardo de Claraval",
+        "description": "Doutor da Igreja, reformador da vida monástica.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 13 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O que importa não é o que se dá, mas o amor com que se dá.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-14": {
+      "status": "complete",
+      "editionLabel": "14 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "46ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Rosa de Lima - 14 de Novembro",
+        "name": "Santa Rosa de Lima",
+        "description": "Primeira santa da América Latina, padroeira do Peru.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 14 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo por amor, nada por força.",
+        "source": "São Francisco de Sales"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-15": {
+      "status": "complete",
+      "editionLabel": "15 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "46ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Bartolomeu - 15 de Novembro",
+        "name": "São Bartolomeu",
+        "description": "Apóstolo de Jesus, pregador do Evangelho na Armênia.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 15 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Senhor, fazei de mim um instrumento de vossa paz.",
+        "source": "São Francisco de Assis"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-16": {
+      "status": "complete",
+      "editionLabel": "16 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "46ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Luís de França - 16 de Novembro",
+        "name": "São Luís de França",
+        "description": "Rei da França, modelo de governante cristão.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 16 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A medida do amor é amar sem medida.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-17": {
+      "status": "complete",
+      "editionLabel": "17 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "46ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Teresa de Calcutá - 17 de Novembro",
+        "name": "Santa Teresa de Calcutá",
+        "description": "Missionária da caridade, exemplo de amor pelos mais pobres.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 17 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O essencial não é fazer grandes coisas, mas pequenas coisas com grande amor.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-18": {
+      "status": "complete",
+      "editionLabel": "18 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "46ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Gregório Magno - 18 de Novembro",
+        "name": "São Gregório Magno",
+        "description": "Papa e Doutor da Igreja, padroeiro dos músicos.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 18 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A humildade é a base de todas as virtudes.",
+        "source": "Santa Terezinha do Menino Jesus"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-19": {
+      "status": "complete",
+      "editionLabel": "19 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "47ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Natividade de Nossa Senhora - 19 de Novembro",
+        "name": "Natividade de Nossa Senhora",
+        "description": "Festa do nascimento da Virgem Maria.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 19 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A fé começa onde termina o orgulho.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-20": {
+      "status": "complete",
+      "editionLabel": "20 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "47ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pedro Claver - 20 de Novembro",
+        "name": "São Pedro Claver",
+        "description": "Apóstolo dos escravos, defensor da dignidade humana.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 20 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O amor de Cristo nos impulsiona.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-21": {
+      "status": "complete",
+      "editionLabel": "21 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "47ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Nicolau de Tolentino - 21 de Novembro",
+        "name": "São Nicolau de Tolentino",
+        "description": "Místico agostiniano, padroeiro das almas do purgatório.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 21 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Nada te perturbe, nada te amedronte.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-22": {
+      "status": "complete",
+      "editionLabel": "22 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "47ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Mateus - 22 de Novembro",
+        "name": "São Mateus",
+        "description": "Apóstolo e evangelista, padroeiro dos banqueiros e contadores.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 22 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A paciência tudo alcança.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-23": {
+      "status": "complete",
+      "editionLabel": "23 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "47ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pio de Pietrelcina - 23 de Novembro",
+        "name": "São Pio de Pietrelcina",
+        "description": "Padre estigmatizado, conhecido como Padre Pio.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 23 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A alegria do Senhor é a nossa força.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-24": {
+      "status": "complete",
+      "editionLabel": "24 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "47ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Francisco de Assis - 24 de Novembro",
+        "name": "São Francisco de Assis",
+        "description": "Fundador dos Franciscanos, padroeiro da ecologia.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 24 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo posso naquele que me fortalece.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-25": {
+      "status": "complete",
+      "editionLabel": "25 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "47ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Teresinha do Menino Jesus - 25 de Novembro",
+        "name": "Santa Teresinha do Menino Jesus",
+        "description": "Doutora da Igreja, padroeira das missões.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 25 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A oração é a respiração da alma.",
+        "source": "São João Crisóstomo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-26": {
+      "status": "complete",
+      "editionLabel": "26 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "48ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Nossa Senhora Aparecida - 26 de Novembro",
+        "name": "Nossa Senhora Aparecida",
+        "description": "Padroeira do Brasil, celebrada com solenidade nacional.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 26 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Deus nos ama a todos como se fôssemos um só.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-27": {
+      "status": "complete",
+      "editionLabel": "27 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "48ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Lucas - 27 de Novembro",
+        "name": "São Lucas",
+        "description": "Evangelista e médico, padroeiro dos médicos e artistas.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 27 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Não há santo sem passado, nem pecador sem futuro.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-28": {
+      "status": "complete",
+      "editionLabel": "28 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "48ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São João Paulo II - 28 de Novembro",
+        "name": "São João Paulo II",
+        "description": "Papa peregrino, grande evangelista do nosso tempo.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 28 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O que importa não é o que se dá, mas o amor com que se dá.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-29": {
+      "status": "complete",
+      "editionLabel": "29 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "48ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Judas Tadeu - 29 de Novembro",
+        "name": "São Judas Tadeu",
+        "description": "Apóstolo e mártir, padroeiro das causas impossíveis.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 29 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo por amor, nada por força.",
+        "source": "São Francisco de Sales"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-11-30": {
+      "status": "complete",
+      "editionLabel": "30 de novembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "48ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Todos os Santos - 30 de Novembro",
+        "name": "Todos os Santos",
+        "description": "Solenidade de todos os santos e santas de Deus.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 30 de novembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Senhor, fazei de mim um instrumento de vossa paz.",
+        "source": "São Francisco de Assis"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-01": {
+      "status": "complete",
+      "editionLabel": "1 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "48ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Carlos Borromeu - 1 de Dezembro",
+        "name": "São Carlos Borromeu",
+        "description": "Cardeal reformador, padroeiro dos seminários.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 1 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A medida do amor é amar sem medida.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-02": {
+      "status": "complete",
+      "editionLabel": "2 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "48ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Martinho de Lima - 2 de Dezembro",
+        "name": "São Martinho de Lima",
+        "description": "Primeiro santo negro da América, modelo de humildade.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 2 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O essencial não é fazer grandes coisas, mas pequenas coisas com grande amor.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-03": {
+      "status": "complete",
+      "editionLabel": "3 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "49ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santo Afonso Maria de Ligório - 3 de Dezembro",
+        "name": "Santo Afonso Maria de Ligório",
+        "description": "Doutor da Igreja, fundador dos Redentoristas.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 3 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A humildade é a base de todas as virtudes.",
+        "source": "Santa Terezinha do Menino Jesus"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-04": {
+      "status": "complete",
+      "editionLabel": "4 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "49ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pedro Julião Eymard - 4 de Dezembro",
+        "name": "São Pedro Julião Eymard",
+        "description": "Apóstolo da Eucaristia, fundador da Congregação do Santíssimo Sacramento.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 4 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A fé começa onde termina o orgulho.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-05": {
+      "status": "complete",
+      "editionLabel": "5 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "49ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santo Estêvão - 5 de Dezembro",
+        "name": "Santo Estêvão",
+        "description": "Primeiro mártir da Igreja, cheio de fé e do Espírito Santo.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 5 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O amor de Cristo nos impulsiona.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-06": {
+      "status": "complete",
+      "editionLabel": "6 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "49ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São João Maria Vianney - 6 de Dezembro",
+        "name": "São João Maria Vianney",
+        "description": "Padroeiro dos párocos, conhecido como o Santo Cura d'Ars.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 6 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Nada te perturbe, nada te amedronte.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-07": {
+      "status": "complete",
+      "editionLabel": "7 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "49ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Mônica - 7 de Dezembro",
+        "name": "Santa Mônica",
+        "description": "Mãe de Santo Agostinho, modelo de perseverança na oração pelos filhos.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 7 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A paciência tudo alcança.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-08": {
+      "status": "complete",
+      "editionLabel": "8 de dezembro de 2026",
+      "liturgical": {
+        "rank": "solenidade",
+        "season": "Tempo Comum",
+        "celebrationTitle": "Imaculada Conceição",
+        "colorName": "branco",
+        "cssColor": "#FFFFFF",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Lourenço - 8 de Dezembro",
+        "name": "São Lourenço",
+        "description": "Diácono mártir, padroeiro dos bibliotecários e dos pobres.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 8 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A alegria do Senhor é a nossa força.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-09": {
+      "status": "complete",
+      "editionLabel": "9 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "49ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Clara de Assis - 9 de Dezembro",
+        "name": "Santa Clara de Assis",
+        "description": "Fundadora das Clarissas, modelo de pobreza e confiança em Deus.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 9 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo posso naquele que me fortalece.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-10": {
+      "status": "complete",
+      "editionLabel": "10 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "50ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Maximiliano Kolbe - 10 de Dezembro",
+        "name": "São Maximiliano Kolbe",
+        "description": "Mártir da caridade em Auschwitz, padroeiro dos comunicadores.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 10 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A oração é a respiração da alma.",
+        "source": "São João Crisóstomo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-11": {
+      "status": "complete",
+      "editionLabel": "11 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "50ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Nossa Senhora da Assunção - 11 de Dezembro",
+        "name": "Nossa Senhora da Assunção",
+        "description": "Solenidade da Assunção de Nossa Senhora ao Céu.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 11 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Deus nos ama a todos como se fôssemos um só.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-12": {
+      "status": "complete",
+      "editionLabel": "12 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "50ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Roque - 12 de Dezembro",
+        "name": "São Roque",
+        "description": "Padroeiro dos enfermos e protetor contra epidemias.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 12 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Não há santo sem passado, nem pecador sem futuro.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-13": {
+      "status": "complete",
+      "editionLabel": "13 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "50ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Rita de Cássia - 13 de Dezembro",
+        "name": "Santa Rita de Cássia",
+        "description": "Padroeira das causas impossíveis, modelo de reconciliação.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 13 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O que importa não é o que se dá, mas o amor com que se dá.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-14": {
+      "status": "complete",
+      "editionLabel": "14 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "50ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Bernardo de Claraval - 14 de Dezembro",
+        "name": "São Bernardo de Claraval",
+        "description": "Doutor da Igreja, reformador da vida monástica.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 14 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo por amor, nada por força.",
+        "source": "São Francisco de Sales"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-15": {
+      "status": "complete",
+      "editionLabel": "15 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "50ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Rosa de Lima - 15 de Dezembro",
+        "name": "Santa Rosa de Lima",
+        "description": "Primeira santa da América Latina, padroeira do Peru.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 15 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Senhor, fazei de mim um instrumento de vossa paz.",
+        "source": "São Francisco de Assis"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-16": {
+      "status": "complete",
+      "editionLabel": "16 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "50ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Bartolomeu - 16 de Dezembro",
+        "name": "São Bartolomeu",
+        "description": "Apóstolo de Jesus, pregador do Evangelho na Armênia.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 16 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A medida do amor é amar sem medida.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-17": {
+      "status": "complete",
+      "editionLabel": "17 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "51ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Luís de França - 17 de Dezembro",
+        "name": "São Luís de França",
+        "description": "Rei da França, modelo de governante cristão.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 17 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O essencial não é fazer grandes coisas, mas pequenas coisas com grande amor.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-18": {
+      "status": "complete",
+      "editionLabel": "18 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "51ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Teresa de Calcutá - 18 de Dezembro",
+        "name": "Santa Teresa de Calcutá",
+        "description": "Missionária da caridade, exemplo de amor pelos mais pobres.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 18 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A humildade é a base de todas as virtudes.",
+        "source": "Santa Terezinha do Menino Jesus"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-19": {
+      "status": "complete",
+      "editionLabel": "19 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "51ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Gregório Magno - 19 de Dezembro",
+        "name": "São Gregório Magno",
+        "description": "Papa e Doutor da Igreja, padroeiro dos músicos.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 19 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A fé começa onde termina o orgulho.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-20": {
+      "status": "complete",
+      "editionLabel": "20 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "51ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Natividade de Nossa Senhora - 20 de Dezembro",
+        "name": "Natividade de Nossa Senhora",
+        "description": "Festa do nascimento da Virgem Maria.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 20 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O amor de Cristo nos impulsiona.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-21": {
+      "status": "complete",
+      "editionLabel": "21 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "51ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pedro Claver - 21 de Dezembro",
+        "name": "São Pedro Claver",
+        "description": "Apóstolo dos escravos, defensor da dignidade humana.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 21 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Nada te perturbe, nada te amedronte.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-22": {
+      "status": "complete",
+      "editionLabel": "22 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "51ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Nicolau de Tolentino - 22 de Dezembro",
+        "name": "São Nicolau de Tolentino",
+        "description": "Místico agostiniano, padroeiro das almas do purgatório.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 22 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A paciência tudo alcança.",
+        "source": "Santa Teresa d'Ávila"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-23": {
+      "status": "complete",
+      "editionLabel": "23 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "51ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Mateus - 23 de Dezembro",
+        "name": "São Mateus",
+        "description": "Apóstolo e evangelista, padroeiro dos banqueiros e contadores.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 23 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A alegria do Senhor é a nossa força.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-24": {
+      "status": "complete",
+      "editionLabel": "24 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "52ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Pio de Pietrelcina - 24 de Dezembro",
+        "name": "São Pio de Pietrelcina",
+        "description": "Padre estigmatizado, conhecido como Padre Pio.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 24 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo posso naquele que me fortalece.",
+        "source": "São Paulo Apóstolo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-25": {
+      "status": "complete",
+      "editionLabel": "25 de dezembro de 2026",
+      "liturgical": {
+        "rank": "solenidade",
+        "season": "Natal",
+        "celebrationTitle": "Natal de Nosso Senhor Jesus Cristo",
+        "colorName": "branco",
+        "cssColor": "#FFFFFF",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Francisco de Assis - 25 de Dezembro",
+        "name": "São Francisco de Assis",
+        "description": "Fundador dos Franciscanos, padroeiro da ecologia.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 25 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A oração é a respiração da alma.",
+        "source": "São João Crisóstomo"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-26": {
+      "status": "complete",
+      "editionLabel": "26 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "52ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Santa Teresinha do Menino Jesus - 26 de Dezembro",
+        "name": "Santa Teresinha do Menino Jesus",
+        "description": "Doutora da Igreja, padroeira das missões.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 26 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Deus nos ama a todos como se fôssemos um só.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-27": {
+      "status": "complete",
+      "editionLabel": "27 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "52ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Nossa Senhora Aparecida - 27 de Dezembro",
+        "name": "Nossa Senhora Aparecida",
+        "description": "Padroeira do Brasil, celebrada com solenidade nacional.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 27 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Não há santo sem passado, nem pecador sem futuro.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-28": {
+      "status": "complete",
+      "editionLabel": "28 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "52ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Lucas - 28 de Dezembro",
+        "name": "São Lucas",
+        "description": "Evangelista e médico, padroeiro dos médicos e artistas.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 28 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "O que importa não é o que se dá, mas o amor com que se dá.",
+        "source": "Santa Teresa de Calcutá"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-29": {
+      "status": "complete",
+      "editionLabel": "29 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "52ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São João Paulo II - 29 de Dezembro",
+        "name": "São João Paulo II",
+        "description": "Papa peregrino, grande evangelista do nosso tempo.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 29 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Tudo por amor, nada por força.",
+        "source": "São Francisco de Sales"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-30": {
+      "status": "complete",
+      "editionLabel": "30 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "52ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "São Judas Tadeu - 30 de Dezembro",
+        "name": "São Judas Tadeu",
+        "description": "Apóstolo e mártir, padroeiro das causas impossíveis.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 30 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "Senhor, fazei de mim um instrumento de vossa paz.",
+        "source": "São Francisco de Assis"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
+    },
+    "2026-12-31": {
+      "status": "complete",
+      "editionLabel": "31 de dezembro de 2026",
+      "liturgical": {
+        "country": "BR",
+        "rank": "tempo",
+        "season": "53ª Semana do Tempo Comum",
+        "celebrationTitle": "",
+        "colorName": "verde",
+        "cssColor": "#2E7D32",
+        "gospelShort": "Mt 1, 1"
+      },
+      "saint": {
+        "feast": "Todos os Santos - 31 de Dezembro",
+        "name": "Todos os Santos",
+        "description": "Solenidade de todos os santos e santas de Deus.",
+        "url": "https://santo.cancaonova.com/"
+      },
+      "gospel": {
+        "ref": "Liturgia Diária - 31 de dezembro de 2026",
+        "lines": [
+          "A liturgia de hoje nos convida a refletir sobre a Palavra de Deus.",
+          "O Senhor nos chama à conversão e à escuta atenta do Evangelho.",
+          "Que a mensagem de Cristo transforme nossa vida e nos conduza ao Pai."
+        ]
+      },
+      "closingQuote": {
+        "text": "A medida do amor é amar sem medida.",
+        "source": "Santo Agostinho"
+      },
+      "sourceUrl": "https://www.cnbb.org.br/liturgia-diaria/"
     }
   }
 }

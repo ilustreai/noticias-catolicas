@@ -40,6 +40,9 @@ jobs:
       - name: Validate tests
         run: npm test
 
+      - name: Refresh liturgical cache
+        run: node scripts/refresh-liturgical-cache.mjs
+
       - name: Generate daily selection
         run: npm run generate
 
