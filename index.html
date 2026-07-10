@@ -40,6 +40,20 @@
     top: 0;
     z-index: 10;
     box-shadow: 0 2px 24px rgba(0,0,0,0.22);
+    transition: background 0.4s ease;
+  }
+  .masthead.scrolled {
+    background: var(--liturgical-color);
+  }
+  .masthead.scrolled.liturgy-light {
+    --masthead-text: rgba(0,0,0,0.85);
+    --masthead-muted: rgba(0,0,0,0.55);
+  }
+  .masthead.scrolled .masthead-brand {
+    color: var(--masthead-text, var(--gold));
+  }
+  .masthead.scrolled .masthead-date {
+    color: var(--masthead-muted, rgba(255,255,255,0.58));
   }
   .masthead-inner {
     max-width: 900px;
@@ -354,6 +368,22 @@
     color: white;
     text-decoration: none;
   }
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .reveal.visible:nth-child(2) { transition-delay: 0.08s; }
+  .reveal.visible:nth-child(3) { transition-delay: 0.16s; }
+  .reveal.visible:nth-child(4) { transition-delay: 0.24s; }
+  .reveal.visible:nth-child(5) { transition-delay: 0.32s; }
+  .reveal.visible:nth-child(6) { transition-delay: 0.40s; }
+  .reveal.visible:nth-child(7) { transition-delay: 0.48s; }
+
   @media (max-width: 720px) {
     body { font-size: 17px; }
     .liturgy-strip { padding: 0; }
@@ -403,7 +433,7 @@
 <body>
 <header class="masthead">
   <div class="masthead-inner">
-    <a class="masthead-brand" href="#">Notícias Católicas · ilustre.ai</a>
+    <a class="masthead-brand" href="#">newsletter &bull; ilustre.ai</a>
     <span class="masthead-date">10 de julho de 2026</span>
   </div>
 </header>
@@ -411,7 +441,7 @@
 <section class="hero">
   <div class="hero-content">
     <h1 class="hero-title">A Igreja <em>viva</em><br>no mundo de hoje</h1>
-    <p class="hero-subtitle">Um giro simples para voce se situar, rezar melhor e acompanhar o que acontece na Igreja hoje.</p>
+    <p class="hero-subtitle">uma pausa antes do mundo acelerar</p>
   </div>
 </section>
 
@@ -607,87 +637,113 @@
 <script>
   (function () {
     var button = document.getElementById('download-story-quote');
-    if (!button) return;
-    function dataUrlToBlob(dataUrl) {
-      var parts = dataUrl.split(',');
-      var mime = parts[0].match(/:(.*?);/)[1];
-      var bytes = atob(parts[1]);
-      var buf = new Uint8Array(bytes.length);
-      for (var i = 0; i < bytes.length; i++) buf[i] = bytes.charCodeAt(i);
-      return new Blob([buf], { type: mime });
+    if (button) {
+      function dataUrlToBlob(dataUrl) {
+        var parts = dataUrl.split(',');
+        var mime = parts[0].match(/:(.*?);/)[1];
+        var bytes = atob(parts[1]);
+        var buf = new Uint8Array(bytes.length);
+        for (var i = 0; i < bytes.length; i++) buf[i] = bytes.charCodeAt(i);
+        return new Blob([buf], { type: mime });
+      }
+
+      function downloadCanvas(canvas) {
+        var dataUrl = canvas.toDataURL('image/png');
+        if (navigator.share) {
+          try {
+            navigator.share({
+              files: [new File([dataUrlToBlob(dataUrl)], 'ilustre-ai.png', { type: 'image/png' })],
+              title: 'ilustre.ai'
+            }).catch(function () {});
+          } catch (e) {}
+        }
+      }
+      function wrapStoryText(context, text, maxWidth) {
+        var words = String(text || '').split(/\s+/).filter(Boolean);
+        var lines = [];
+        var line = '';
+        words.forEach(function (word) {
+          var candidate = line ? line + ' ' + word : word;
+          if (context.measureText(candidate).width <= maxWidth || !line) {
+            line = candidate;
+            return;
+          }
+          lines.push(line);
+          line = word;
+        });
+        if (line) lines.push(line);
+        return lines;
+      }
+      function drawStoryCard(quote, source) {
+        var canvas = document.createElement('canvas');
+        canvas.width = 1080;
+        canvas.height = 1920;
+        var context = canvas.getContext('2d');
+        context.fillStyle = '#F9F6F0';
+        context.fillRect(0, 0, 1080, 1920);
+        context.strokeStyle = 'rgba(184,148,63,0.42)';
+        context.lineWidth = 3;
+        context.beginPath();
+        context.moveTo(120, 210);
+        context.lineTo(960, 210);
+        context.moveTo(120, 1660);
+        context.lineTo(960, 1660);
+        context.stroke();
+        context.textAlign = 'center';
+        context.textBaseline = 'alphabetic';
+        context.fillStyle = '#1C2B4A';
+        context.font = '900 74px "Playfair Display", Georgia, serif';
+        var lines = wrapStoryText(context, quote, 870);
+        var lineHeight = 92;
+        var startY = Math.round((1920 - lines.length * lineHeight) / 2) + 20;
+        lines.forEach(function (line, index) {
+          context.fillText(line, 540, startY + index * lineHeight);
+        });
+        context.fillStyle = '#4a4040';
+        context.font = '500 36px Inter, Arial, sans-serif';
+        context.fillText(source, 540, startY + lines.length * lineHeight + 70);
+        context.fillStyle = '#6B1A2A';
+        context.font = '700 28px Inter, Arial, sans-serif';
+        context.fillText('by ilustre.ai', 540, 1765);
+        return canvas;
+      }
+      button.addEventListener('click', function () {
+        var quoteElement = document.querySelector('.closing-quote-text');
+        var sourceElement = document.querySelector('.closing-quote-source');
+        var quote = quoteElement ? quoteElement.textContent.trim() : '';
+        var source = sourceElement ? sourceElement.textContent.trim() : '';
+        if (!quote) return;
+        Promise.resolve(document.fonts ? document.fonts.ready : undefined)
+          .then(function () { return drawStoryCard(quote, source); })
+          .then(function (canvas) { downloadCanvas(canvas); })
+          .catch(function () { button.textContent = 'Tente novamente'; });
+      });
     }
 
-    function downloadCanvas(canvas) {
-      var dataUrl = canvas.toDataURL('image/png');
-      if (navigator.share) {
-        try {
-          navigator.share({
-            files: [new File([dataUrlToBlob(dataUrl)], 'ilustre-ai.png', { type: 'image/png' })],
-            title: 'ilustre.ai'
-          }).catch(function () {});
-        } catch (e) {}
-      }
+    var masthead = document.querySelector('.masthead');
+    var trigger = document.querySelector('.liturgy-strip');
+    if (masthead && trigger && 'IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          masthead.classList.toggle('scrolled', !entry.isIntersecting);
+        });
+      }, { threshold: 0 }).observe(trigger);
     }
-    function wrapStoryText(context, text, maxWidth) {
-      var words = String(text || '').split(/\s+/).filter(Boolean);
-      var lines = [];
-      var line = '';
-      words.forEach(function (word) {
-        var candidate = line ? line + ' ' + word : word;
-        if (context.measureText(candidate).width <= maxWidth || !line) {
-          line = candidate;
-          return;
-        }
-        lines.push(line);
-        line = word;
-      });
-      if (line) lines.push(line);
-      return lines;
+
+    var reveals = document.querySelectorAll('.reveal');
+    if (reveals.length > 0 && 'IntersectionObserver' in window) {
+      var revealObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+      reveals.forEach(function (el) { revealObserver.observe(el); });
+    } else {
+      reveals.forEach(function (el) { el.classList.add('visible'); });
     }
-    function drawStoryCard(quote, source) {
-      var canvas = document.createElement('canvas');
-      canvas.width = 1080;
-      canvas.height = 1920;
-      var context = canvas.getContext('2d');
-      context.fillStyle = '#F9F6F0';
-      context.fillRect(0, 0, 1080, 1920);
-      context.strokeStyle = 'rgba(184,148,63,0.42)';
-      context.lineWidth = 3;
-      context.beginPath();
-      context.moveTo(120, 210);
-      context.lineTo(960, 210);
-      context.moveTo(120, 1660);
-      context.lineTo(960, 1660);
-      context.stroke();
-      context.textAlign = 'center';
-      context.textBaseline = 'alphabetic';
-      context.fillStyle = '#1C2B4A';
-      context.font = '900 74px "Playfair Display", Georgia, serif';
-      var lines = wrapStoryText(context, quote, 870);
-      var lineHeight = 92;
-      var startY = Math.round((1920 - lines.length * lineHeight) / 2) + 20;
-      lines.forEach(function (line, index) {
-        context.fillText(line, 540, startY + index * lineHeight);
-      });
-      context.fillStyle = '#4a4040';
-      context.font = '500 36px Inter, Arial, sans-serif';
-      context.fillText(source, 540, startY + lines.length * lineHeight + 70);
-      context.fillStyle = '#6B1A2A';
-      context.font = '700 28px Inter, Arial, sans-serif';
-      context.fillText('by ilustre.ai', 540, 1765);
-      return canvas;
-    }
-    button.addEventListener('click', function () {
-      var quoteElement = document.querySelector('.closing-quote-text');
-      var sourceElement = document.querySelector('.closing-quote-source');
-      var quote = quoteElement ? quoteElement.textContent.trim() : '';
-      var source = sourceElement ? sourceElement.textContent.trim() : '';
-      if (!quote) return;
-      Promise.resolve(document.fonts ? document.fonts.ready : undefined)
-        .then(function () { return drawStoryCard(quote, source); })
-        .then(function (canvas) { downloadCanvas(canvas); })
-        .catch(function () { button.textContent = 'Tente novamente'; });
-    });
   })();
 </script>
 </body>
