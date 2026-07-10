@@ -50,7 +50,7 @@ function storyDownloadAssets(date) {
 
   const markup = `
     <button class="story-download" type="button" id="download-story-quote">Baixar para Stories</button>
-    <p class="story-hint">Se houver erro, abra no navegador ou abra no Chrome: toque em <span class="three-dots">&#x22EE;</span> &#x2192; Abrir no Chrome</p>
+    <p class="story-hint">N\u00e3o funcionou? Toque em <span class="three-dots">&#x22EE;</span> e selecione <strong>Abrir no Chrome</strong></p>
   </aside>`;
 
   const script = `<script>
