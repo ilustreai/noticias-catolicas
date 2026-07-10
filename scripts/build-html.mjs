@@ -50,7 +50,7 @@ function storyDownloadAssets(date) {
 
   const markup = `
     <button class="story-download" type="button" id="download-story-quote">Baixar para Stories</button>
-    <p class="story-hint">Se houver erro, toque em <span class="three-dots">&#x22EE;</span> e abra no navegador</p>
+    <p class="story-hint">Se houver erro, abra no navegador ou abra no Chrome: toque em <span class="three-dots">&#x22EE;</span> &#x2192; Abrir no Chrome</p>
   </aside>`;
 
   const script = `<script>
@@ -66,27 +66,6 @@ function storyDownloadAssets(date) {
       return new Blob([buf], { type: mime });
     }
 
-    function showErrorOverlay(dataUrl) {
-      var img = document.createElement('img');
-      img.src = dataUrl;
-      img.style.cssText = 'display:block;width:100%;max-width:400px;margin:0 auto;border-radius:12px;box-shadow:0 4px 40px rgba(0,0,0,0.5)';
-      var msg = document.createElement('p');
-      msg.innerHTML = 'Toque em <span style="font-size:22px;letter-spacing:2px">&#x22EE;</span> no canto superior direito e selecione <strong>Abrir no Navegador</strong>';
-      msg.style.cssText = 'color:#ccc;font-family:sans-serif;font-size:15px;line-height:1.6;margin:20px 0 0;text-align:center;max-width:340px';
-      var closeHint = document.createElement('p');
-      closeHint.textContent = 'Toque fora da imagem para fechar';
-      closeHint.style.cssText = 'color:#888;font-family:sans-serif;font-size:12px;margin:16px 0 0;text-align:center';
-      var box = document.createElement('div');
-      box.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.88);display:flex;align-items:center;justify-content:center;z-index:99999;flex-direction:column;padding:24px';
-      box.appendChild(img);
-      box.appendChild(msg);
-      box.appendChild(closeHint);
-      box.addEventListener('click', function (e) {
-        if (e.target === box) box.remove();
-      });
-      document.body.appendChild(box);
-    }
-
     function downloadCanvas(canvas) {
       var dataUrl = canvas.toDataURL('image/png');
       if (navigator.share) {
@@ -94,11 +73,9 @@ function storyDownloadAssets(date) {
           navigator.share({
             files: [new File([dataUrlToBlob(dataUrl)], 'ilustre-ai.png', { type: 'image/png' })],
             title: 'ilustre.ai'
-          }).catch(function () { showErrorOverlay(dataUrl); });
-          return;
+          }).catch(function () {});
         } catch (e) {}
       }
-      showErrorOverlay(dataUrl);
     }
     function wrapStoryText(context, text, maxWidth) {
       var words = String(text || '').split(/\\s+/).filter(Boolean);
