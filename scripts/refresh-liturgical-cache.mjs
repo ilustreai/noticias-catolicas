@@ -109,14 +109,35 @@ function fmtBRMonth(m) {
   return MONTHS_BR[m - 1] || '';
 }
 
-function pickQuote(dateStr, season, saintName) {
+function cleanGospelLine(line) {
+  return line.replace(/^\d+\s*/g, '').replace(/([:;,\s])\d+\s*/g, '$1').replace(/["""']/g, '').replace(/^[-,;\s]+/, '').trim();
+}
+
+function pickQuote(dateStr, season, saintName, gospelLines) {
   // 1. Saint-specific quote if saint name matches
   if (saintName) {
     const saintQ = SAINT_QUOTES.find(q => saintName.includes(q.match));
     if (saintQ) return { text: saintQ.text, source: saintQ.source };
   }
 
-  // 2. Season-specific pool, selected by date hash
+  // 2. Gospel verse as quote of the day (prefer last line, skip "Naquele tempo" openers)
+  if (gospelLines && gospelLines.length > 0) {
+    for (var i = gospelLines.length - 1; i >= 0; i--) {
+      var cleaned = cleanGospelLine(gospelLines[i]);
+      if (cleaned.length > 30 && cleaned.length < 200 && !/^Naquele tempo/i.test(cleaned)) {
+        return { text: cleaned, source: 'Evangelho do Dia' };
+      }
+    }
+    // fallback: any line long enough
+    for (var j = 0; j < gospelLines.length; j++) {
+      var fallback = cleanGospelLine(gospelLines[j]);
+      if (fallback.length > 30 && fallback.length < 200) {
+        return { text: fallback, source: 'Evangelho do Dia' };
+      }
+    }
+  }
+
+  // 3. Season-specific pool, selected by date hash
   const pool = QUOTES_BY_SEASON[season] || QUOTES_BY_SEASON['Tempo Comum'];
   let hash = 0;
   for (let i = 0; i < dateStr.length; i++) hash = ((hash << 5) - hash) + dateStr.charCodeAt(i);
@@ -407,7 +428,7 @@ async function main() {
     const cnSaint = cnSaints?.[dateStr];
     const gospel = cnGospel || defaultGospel(dateStr);
     const saintName = cnSaint?.name || bc.celebration || '';
-    const quote = pickQuote(dateStr, bc.season, saintName);
+    const quote = pickQuote(dateStr, bc.season, saintName, gospel.lines);
 
     const entry = {
       status: 'complete',
