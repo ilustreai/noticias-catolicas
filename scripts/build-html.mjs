@@ -42,54 +42,9 @@ function storyDownloadAssets(date) {
   (function () {
     var button = document.getElementById('download-story-quote');
     if (!button) return;
-    function downloadCanvas(canvas, filename) {
+    function downloadCanvas(canvas) {
       var dataUrl = canvas.toDataURL('image/png');
-
-      function fallbackNewWindow() {
-        var w = window.open('about:blank', '_blank');
-        if (w) {
-          w.document.write('<html><body style="margin:0;background:#f9f6f0"><img src="' + dataUrl + '" style="display:block;width:100%;max-width:480px;margin:0 auto;cursor:pointer" onclick="this.select()"><p style="text-align:center;font-family:sans-serif;color:#666;margin-top:12px">Segure na imagem para salvar</p></body></html>');
-          w.document.close();
-        } else {
-          var img = document.createElement('img');
-          img.src = dataUrl;
-          img.style.cssText = 'display:block;width:100%;max-width:480px;margin:20px auto;cursor:pointer';
-          var container = document.createElement('div');
-          container.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.7);display:flex;align-items:center;justify-content:center;z-index:9999;flex-direction:column';
-          container.appendChild(img);
-          container.addEventListener('click', function () { container.remove(); });
-          document.body.appendChild(container);
-        }
-      }
-
-      if (navigator.share && navigator.canShare) {
-        canvas.toBlob(function (blob) {
-          if (blob && navigator.canShare({ files: [new File([blob], filename, { type: 'image/png' })] })) {
-            navigator.share({ files: [new File([blob], filename, { type: 'image/png' })], title: 'ilustre.ai' }).catch(function () {});
-            return;
-          }
-          fallbackNewWindow();
-        }, 'image/png');
-        return;
-      }
-
-      if (canvas.toBlob) {
-        canvas.toBlob(function (blob) {
-          if (!blob) { fallbackNewWindow(); return; }
-          var url = URL.createObjectURL(blob);
-          var link = document.createElement('a');
-          link.href = url;
-          link.download = filename;
-          document.body.appendChild(link);
-          link.click();
-          link.remove();
-          setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
-          setTimeout(function () { if (!document.querySelector('a[download]')) fallbackNewWindow(); }, 1500);
-        }, 'image/png');
-        return;
-      }
-
-      fallbackNewWindow();
+      window.open(dataUrl, '_blank');
     }
     function wrapStoryText(context, text, maxWidth) {
       var words = String(text || '').split(/\\s+/).filter(Boolean);
@@ -148,7 +103,7 @@ function storyDownloadAssets(date) {
       if (!quote) return;
       Promise.resolve(document.fonts ? document.fonts.ready : undefined)
         .then(function () { return drawStoryCard(quote, source); })
-        .then(function (canvas) { downloadCanvas(canvas, 'ilustre-ai-frase-${date}.png'); })
+        .then(function (canvas) { downloadCanvas(canvas); })
         .catch(function () { button.textContent = 'Tente novamente'; });
     });
   })();
