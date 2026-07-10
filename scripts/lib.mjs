@@ -293,9 +293,13 @@ function renderSaintMoreLink(saint) {
     </a>`;
 }
 
+function cleanGospelLine(line) {
+  return line.replace(/^\d+\s*/g, '').replace(/([:;,\s])\d+\s*/g, '$1').replace(/^[-,;\s]+/, '').trim();
+}
+
 function renderGospelLines(lines) {
   return lines
-    .map((line) => `<span class="gospel-line">${escapeHtml(line)}</span>`)
+    .map((line) => `<span class="gospel-line">${escapeHtml(cleanGospelLine(line))}</span>`)
     .join('\n      ');
 }
 

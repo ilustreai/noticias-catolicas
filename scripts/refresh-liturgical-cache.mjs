@@ -121,12 +121,7 @@ function pickQuote(dateStr, season, saintName, keyVerse, gospelLines) {
     if (saintQ) return { text: saintQ.text, source: saintQ.source };
   }
 
-  // 2. Alleluia key verse from CN page (between Evangelho title and Proclamação)
-  if (keyVerse) {
-    return { text: keyVerse, source: 'Evangelho do Dia' };
-  }
-
-  // 3. Gospel extracted line as fallback
+  // 2. Gospel extracted line as fallback (key verse is now featured in header)
   if (gospelLines && gospelLines.length > 0) {
     for (var offset = 0; offset < gospelLines.length; offset++) {
       var i = offset === 0 ? 1 : (offset === 1 ? gospelLines.length - 1 : offset - 2);
@@ -305,15 +300,16 @@ function extractKeyLines(text) {
   clean = clean.replace(/^-[^.]*\.\s*/i, '');
   clean = clean.replace(/\s*Palavra da Salvação[\s\S]*$/, '').trim();
   const sentences = clean.split(/(?<=[\.!?])\s+/).filter(s => s.trim().length > 30);
-  if (sentences.length >= 3) {
+  const cleaned = sentences.map(s => cleanGospelLine(s));
+  if (cleaned.length >= 3) {
     return [
-      sentences[0].replace(/^["""']|["""']$/g, '').trim(),
-      sentences[Math.floor(sentences.length / 2)].replace(/^["""']|["""']$/g, '').trim(),
-      sentences[sentences.length - 1].replace(/^["""']|["""']$/g, '').trim(),
+      cleaned[0],
+      cleaned[Math.floor(cleaned.length / 2)],
+      cleaned[cleaned.length - 1],
     ];
   }
-  if (sentences.length > 0) {
-    const result = sentences.map(s => s.replace(/^["""']|["""']$/g, '').trim());
+  if (cleaned.length > 0) {
+    const result = cleaned.map(s => s);
     while (result.length < 3) result.push(result[result.length - 1]);
     return result.slice(0, 3);
   }

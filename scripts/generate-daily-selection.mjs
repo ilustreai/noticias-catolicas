@@ -204,7 +204,7 @@ function rankCandidates(candidates, today) {
 function pickClosingQuote(liturgy) {
   const saintName = normalize(liturgy?.saint?.name);
   const saintQuote = liturgy?.closingQuote;
-  if (saintQuote?.text && saintQuote?.source) return saintQuote;
+  if (saintQuote?.text && saintQuote?.source && saintQuote.source !== 'Evangelho do Dia') return saintQuote;
 
   if (saintName) {
     return {
