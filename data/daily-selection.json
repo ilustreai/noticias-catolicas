@@ -1,27 +1,27 @@
 {
-  "date": "2026-07-09",
-  "editionLabel": "9 de julho de 2026",
+  "date": "2026-07-10",
+  "editionLabel": "10 de julho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "14ª Semana do Tempo Comum",
-    "celebrationTitle": "Santa Paulina do Coração Agonizante de Jesus",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Mt 10, 7-15"
+    "celebrationTitle": "",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Mt 10, 16-23"
   },
   "saint": {
-    "feast": "Santo do Dia - 9 de Julho",
-    "name": "Santa Paulina do Coração Agonizante de Jesus",
-    "description": "Primeira santa do Brasil, fundadora e serva dos pobres, dos enfermos e dos mais vulneráveis.",
-    "url": "https://santo.cancaonova.com/santo/santa-paulina-do-coracao-agonizante-de-jesus/"
+    "feast": "Santo do Dia - 10 de Julho",
+    "name": "Santo Olavo",
+    "description": "Rei da Noruega que favoreceu a evangelização do seu povo e permaneceu firme na confissão cristã.",
+    "url": "https://santo.cancaonova.com/santo/santo-olavo-rei-da-noruega/"
   },
   "gospel": {
-    "ref": "Evangelho da memória de Santa Paulina no Brasil: Mateus 10, 7-15.",
+    "ref": "Evangelho do dia no Brasil: Mateus 10, 16-23, sexta-feira da 14ª Semana do Tempo Comum.",
     "lines": [
-      "Jesus envia os discípulos a anunciar o Reino com simplicidade, gratuidade e confiança.",
-      "O missionário não leva a si mesmo, mas a paz de Deus e o cuidado pelos feridos.",
-      "A vida cristã frutifica quando o que recebemos de graça se transforma em doação."
+      "Jesus prepara os discípulos para perseguições sem lhes tirar a paz nem a confiança.",
+      "A prudência e a simplicidade caminham juntas na missão quando o Reino encontra resistências.",
+      "O Espírito sustenta o testemunho fiel nos momentos em que a fé é provada."
     ]
   },
   "sponsor": {
@@ -33,50 +33,50 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Documentário sobre 400 anos das Missões Jesuítico-Guarani já pode ser acessado on-line",
-      "summary": "Documentário sobre 400 anos das Missões Jesuítico-Guarani já pode ser acessado on-line. Leia a noticia completa em Vatican News.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/documentario-400-anos-missoes-jesuitico-guarani-rs-2026.html"
+      "title": "Santa Sé: comércio justo e transferência de tecnologia para erradicar a pobreza",
+      "summary": "Santa Sé: comércio justo e transferência de tecnologia para erradicar a pobreza. Leia a noticia completa em Vatican News.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/missao-permanente-santa-se-onu-forum-desenvolvimento-sustentavel.html"
     },
     {
       "source": "Vatican News",
-      "title": "Igreja acompanha luta dos Guaratira por reconhecimento do território Tanaru",
-      "summary": "Igreja acompanha luta dos Guaratira por reconhecimento do território Tanaru. Leia a noticia completa em Vatican News.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/igreja-luta-povo-guaratira-reconhecimento-territorio-tanaru.html"
+      "title": "Morte de Dom Osório: \"Transformar a tragédia em caminho de conversão e renovação\"",
+      "summary": "Morte de Dom Osório: \"Transformar a tragédia em caminho de conversão e renovação\". Leia a noticia completa em Vatican News.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/mocambique-bispos-encontro-leao-xiv-morte-dom-osorio.html"
     },
     {
       "source": "CNBB",
-      "title": "Papa Leão XIV no Jubileu dos encarcerados: “Que ninguém se perca! Que todos sejam salvos!”",
-      "summary": "Papa Leão XIV no Jubileu dos encarcerados: “Que ninguém se perca! Que todos sejam salvos!”. Leia a noticia completa em CNBB.",
-      "url": "https://www.cnbb.org.br/papa-leao-jubileu-encarcerados-que-ninguem-se-perca/"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "Papa Leão XIV ao embaixador americano junto à Santa Sé: “Amo sinceramente minha pátria”",
-      "summary": "Papa Leão XIV ao embaixador americano junto à Santa Sé: “Amo sinceramente minha pátria”. Leia a noticia completa em Gaudium Press.",
-      "url": "https://gaudiumpress.org/content/papa-leao-xiv-ao-embaixador-americano-junto-a-santa-se-amo-sinceramente-minha-patria/"
+      "title": "Inscrições prorrogadas, até 12/7, para o curso Liderança e Coordenação de Grupos de Jovens",
+      "summary": "Segundo a Comissão para a Juventude da CNBB, trata-se de uma proposta formativa da Pastoral Juvenil do Brasil, voltada a fortalecer o protagonismo juvenil e preparar jovens líderes para o serviço e a comunhão. \"É um itinerário de.",
+      "url": "https://www.cnbb.org.br/inscricoes-prorrogadas-curso-lideranca-e-coordenacao-de-grupos-de-jovens/"
     },
     {
       "source": "ACI Digital",
-      "title": "A medalha milagrosa me salvou, diz homem que saiu vivo dos escombros depois do terremoto na",
-      "summary": "Em Playa Grande, um bairro nobre da cidade de La Guaira, Kamar Galíndez estava no último andar do hotel Chipi's Beach, prestes a começar seu treino diário na academia, sem imaginar que sua vida mudaria para sempre.",
-      "url": "https://www.acidigital.com/noticia/68833/a-medalha-milagrosa-me-salvou-diz-homem-que-saiu-vivo-dos-escombros-depois-do-terremoto-na-venezuela"
+      "title": "Leão XIV pede à ONU que combata o uso indevido da IA para promover a dignidade humana",
+      "summary": "O papa Leão XIV, retomando sua recente encíclica Magnifica humanitas, voltou a fazer um apelo ao diálogo sobre a inteligência artificial (IA), ao mesmo tempo em que reconheceu as sérias preocupações que ainda persistem.",
+      "url": "https://www.acidigital.com/noticia/68851/leao-xiv-pede-a-onu-que-combata-o-uso-indevido-da-ia-para-promover-a-dignidade-humana"
     },
     {
-      "source": "Aleteia",
-      "title": "Igreja católica brasileira responde concretamente ao drama da Venezuela",
-      "summary": "O solo treme. O concreto cede. Vidas inteiras desaparecem em uma fração de segundos. No dia 24 de junho de 2026, a Venezuela foi golpeada por um duplo terremoto de magnitudes 7,2 e 7,5 que dilacerou as regiões centro-norte e costeira do.",
-      "url": "https://pt.aleteia.org/2026/07/08/igreja-catolica-brasileira-responde-concretamente-ao-drama-da-venezuela/"
+      "source": "ACI Digital",
+      "title": "Conferência Episcopal Francesa apresenta logo oficial da visita do papa ao país",
+      "summary": "A Conferência Episcopal Francesa apresentou o logo oficial da visita do papa Leão XIV ao país, prevista para os dias 25 a 28 de setembro.",
+      "url": "https://www.acidigital.com/noticia/68849/conferencia-episcopal-francesa-apresenta-logo-oficial-da-visita-do-papa-ao-pais"
     },
     {
-      "source": "Aleteia",
-      "title": "Sou católico e fui convidado para um templo protestante. Posso ir?",
-      "summary": "O convite pode vir de um amigo próximo, de um colega de trabalho ou de um parente querido. A intenção, geralmente, é compartilhar um momento importante da vida deles — um casamento, um batizado, um culto de ação de graças ou uma.",
-      "url": "https://pt.aleteia.org/2026/07/09/sou-catolico-e-fui-convidado-para-um-templo-protestante-posso-ir/"
+      "source": "Shalom",
+      "title": "Igreja do Ressuscitado acolherá Ordenação Presbiteral pela primeira vez; saiba mais",
+      "summary": "Quatro missionários serão ordenados sacerdotes com a imposição das mãos de Dom Gregório Paixão, Arcebispo de Fortaleza.",
+      "url": "https://comshalom.org/primeira-ordenacao-presbiteral-igreja-do-ressuscitado/"
+    },
+    {
+      "source": "Shalom",
+      "title": "Comunidade Shalom celebra 44 anos anunciando a",
+      "summary": "Gratidão e reconhecimento: foram os dois pontos destacados por Moysés Azevedo nos 44 anos da Comunidade Shalom.",
+      "url": "https://comshalom.org/comunidade-shalom-celebra-43-anos-anunciando-a-paz/"
     }
   ],
   "closingQuote": {
-    "text": "Nunca, jamais desanimeis, embora venham ventos contrários.",
-    "source": "Santa Paulina",
-    "reason": "Frase amplamente associada a Santa Paulina; foi escolhida porque a memória brasileira da santa e o evangelho do envio pedem perseverança, generosidade e coragem missionária."
+    "text": "Não tenhais medo.",
+    "source": "São João Paulo II",
+    "reason": "Frase clássica de São João Paulo II; foi escolhida porque o evangelho trata da coragem em meio à perseguição, e o santo do dia é lembrado pela firmeza da fé."
   }
 }
