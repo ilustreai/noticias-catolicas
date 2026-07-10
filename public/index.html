@@ -40,20 +40,6 @@
     top: 0;
     z-index: 10;
     box-shadow: 0 2px 24px rgba(0,0,0,0.22);
-    transition: background 0.4s ease;
-  }
-  .masthead.scrolled {
-    background: var(--liturgical-color);
-  }
-  .masthead.scrolled.liturgy-light {
-    --masthead-text: rgba(0,0,0,0.85);
-    --masthead-muted: rgba(0,0,0,0.55);
-  }
-  .masthead.scrolled .masthead-brand {
-    color: var(--masthead-text, var(--gold));
-  }
-  .masthead.scrolled .masthead-date {
-    color: var(--masthead-muted, rgba(255,255,255,0.58));
   }
   .masthead-inner {
     max-width: 900px;
@@ -368,22 +354,6 @@
     color: white;
     text-decoration: none;
   }
-  .reveal {
-    opacity: 0;
-    transform: translateY(24px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-  }
-  .reveal.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  .reveal.visible:nth-child(2) { transition-delay: 0.08s; }
-  .reveal.visible:nth-child(3) { transition-delay: 0.16s; }
-  .reveal.visible:nth-child(4) { transition-delay: 0.24s; }
-  .reveal.visible:nth-child(5) { transition-delay: 0.32s; }
-  .reveal.visible:nth-child(6) { transition-delay: 0.40s; }
-  .reveal.visible:nth-child(7) { transition-delay: 0.48s; }
-
   @media (max-width: 720px) {
     body { font-size: 17px; }
     .liturgy-strip { padding: 0; }
@@ -433,7 +403,7 @@
 <body>
 <header class="masthead">
   <div class="masthead-inner">
-    <a class="masthead-brand" href="#">newsletter &bull; ilustre.ai</a>
+    <a class="masthead-brand" href="#">Notícias Católicas · ilustre.ai</a>
     <span class="masthead-date">10 de julho de 2026</span>
   </div>
 </header>
@@ -441,7 +411,7 @@
 <section class="hero">
   <div class="hero-content">
     <h1 class="hero-title">A Igreja <em>viva</em><br>no mundo de hoje</h1>
-    <p class="hero-subtitle">uma pausa antes do mundo acelerar</p>
+    <p class="hero-subtitle">Um giro simples para voce se situar, rezar melhor e acompanhar o que acontece na Igreja hoje.</p>
   </div>
 </section>
 
@@ -631,7 +601,7 @@
   <p class="footer-sub">Arte sacra e evangelização digital</p>
   <a class="footer-link" href="https://www.instagram.com/ilustre.ai" target="_blank" rel="noopener noreferrer">
     Instagram · @ilustre.ai
-  </a>
+  </a>
 </footer>
 
 <script>
