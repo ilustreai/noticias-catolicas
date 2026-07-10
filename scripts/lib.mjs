@@ -332,7 +332,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{PAGE_TITLE}}': `Noticias Catolicas - ${selection.editionLabel} - @ilustre.ai`,
     '{{HERO_EYEBROW}}': `Curadoria diaria - ${selection.editionLabel}`,
     '{{LITURGICAL_SEASON}}': liturgicalDisplayTitle(selection.liturgical),
-    '{{GOSPEL_SHORT}}': selection.liturgical.gospelShort,
+    '{{GOSPEL_SHORT}}': selection.gospel?.keyVerse || selection.liturgical.gospelShort,
     '{{EDITION_LABEL}}': selection.editionLabel,
     '{{SAINT_NAME}}': selection.saint.name,
     '{{SAINT_DESCRIPTION}}': selection.saint.description,
