@@ -157,8 +157,12 @@ function romanToArabic(text) {
   });
 }
 
+function formatWeekTitle(text) {
+  return text.replace(/ da Semana (\d+) do /g, ' - $1\u00B0 Semana do ');
+}
+
 function liturgicalDisplayTitle(liturgical) {
-  return romanToArabic(liturgical?.celebrationTitle || liturgical?.season || '');
+  return formatWeekTitle(romanToArabic(liturgical?.celebrationTitle || liturgical?.season || ''));
 }
 
 function collectText(value, bucket = []) {
