@@ -44,7 +44,41 @@ function storyDownloadAssets(date) {
     if (!button) return;
     function downloadCanvas(canvas) {
       var dataUrl = canvas.toDataURL('image/png');
-      window.open(dataUrl, '_blank');
+
+      if (navigator.share) {
+        canvas.toBlob(function (blob) {
+          if (blob) {
+            try {
+              navigator.share({
+                files: [new File([blob], 'ilustre-ai.png', { type: 'image/png' })],
+                title: 'ilustre.ai'
+              }).catch(function () {});
+              return;
+            } catch (e) {}
+          }
+          showImageInline(dataUrl);
+        }, 'image/png');
+        return;
+      }
+
+      showImageInline(dataUrl);
+    }
+
+    function showImageInline(dataUrl) {
+      var img = document.createElement('img');
+      img.src = dataUrl;
+      img.style.cssText = 'display:block;width:100%;max-width:480px;margin:0 auto;border-radius:8px';
+      var box = document.createElement('div');
+      box.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.85);display:flex;align-items:center;justify-content:center;z-index:99999;flex-direction:column;padding:20px';
+      var hint = document.createElement('p');
+      hint.textContent = 'Segure na imagem para salvar';
+      hint.style.cssText = 'color:#fff;font-family:sans-serif;font-size:14px;margin-bottom:16px';
+      box.appendChild(hint);
+      box.appendChild(img);
+      box.addEventListener('click', function (e) {
+        if (e.target === box) box.remove();
+      });
+      document.body.appendChild(box);
     }
     function wrapStoryText(context, text, maxWidth) {
       var words = String(text || '').split(/\\s+/).filter(Boolean);
