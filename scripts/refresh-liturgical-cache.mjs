@@ -120,19 +120,15 @@ function pickQuote(dateStr, season, saintName, gospelLines) {
     if (saintQ) return { text: saintQ.text, source: saintQ.source };
   }
 
-  // 2. Gospel verse as quote of the day (prefer last line, skip "Naquele tempo" openers)
+  // 2. Gospel key verse (index 1 is the CN highlighted verse, between EVANGELHO and Proclamação)
   if (gospelLines && gospelLines.length > 0) {
-    for (var i = gospelLines.length - 1; i >= 0; i--) {
+    // prefer the second line — typically the key verse of the day
+    for (var offset = 0; offset < gospelLines.length; offset++) {
+      var i = offset === 0 ? 1 : (offset === 1 ? gospelLines.length - 1 : offset - 2);
+      if (i < 0 || i >= gospelLines.length) continue;
       var cleaned = cleanGospelLine(gospelLines[i]);
       if (cleaned.length > 30 && cleaned.length < 200 && !/^Naquele tempo/i.test(cleaned)) {
         return { text: cleaned, source: 'Evangelho do Dia' };
-      }
-    }
-    // fallback: any line long enough
-    for (var j = 0; j < gospelLines.length; j++) {
-      var fallback = cleanGospelLine(gospelLines[j]);
-      if (fallback.length > 30 && fallback.length < 200) {
-        return { text: fallback, source: 'Evangelho do Dia' };
       }
     }
   }
