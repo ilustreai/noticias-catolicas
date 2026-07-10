@@ -42,43 +42,58 @@ function storyDownloadAssets(date) {
   (function () {
     var button = document.getElementById('download-story-quote');
     if (!button) return;
-    function downloadCanvas(canvas) {
-      var dataUrl = canvas.toDataURL('image/png');
-
-      if (navigator.share) {
-        canvas.toBlob(function (blob) {
-          if (blob) {
-            try {
-              navigator.share({
-                files: [new File([blob], 'ilustre-ai.png', { type: 'image/png' })],
-                title: 'ilustre.ai'
-              }).catch(function () {});
-              return;
-            } catch (e) {}
-          }
-          showImageInline(dataUrl);
-        }, 'image/png');
-        return;
-      }
-
-      showImageInline(dataUrl);
+    function dataUrlToBlob(dataUrl) {
+      var parts = dataUrl.split(',');
+      var mime = parts[0].match(/:(.*?);/)[1];
+      var bytes = atob(parts[1]);
+      var buf = new Uint8Array(bytes.length);
+      for (var i = 0; i < bytes.length; i++) buf[i] = bytes.charCodeAt(i);
+      return new Blob([buf], { type: mime });
     }
 
-    function showImageInline(dataUrl) {
+    function showStoryOverlay(dataUrl) {
       var img = document.createElement('img');
       img.src = dataUrl;
-      img.style.cssText = 'display:block;width:100%;max-width:480px;margin:0 auto;border-radius:8px';
-      var box = document.createElement('div');
-      box.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.85);display:flex;align-items:center;justify-content:center;z-index:99999;flex-direction:column;padding:20px';
+      img.style.cssText = 'display:block;width:100%;max-width:400px;margin:0 auto;border-radius:12px;box-shadow:0 4px 40px rgba(0,0,0,0.5)';
+      var shareBtn = document.createElement('button');
+      shareBtn.textContent = 'Compartilhar';
+      shareBtn.style.cssText = 'margin-top:20px;padding:12px 32px;background:#6B1A2A;color:#fff;border:none;border-radius:8px;font-size:16px;font-weight:700;font-family:sans-serif;cursor:pointer';
+      shareBtn.addEventListener('click', function () {
+        try {
+          navigator.share({
+            files: [new File([dataUrlToBlob(dataUrl)], 'ilustre-ai.png', { type: 'image/png' })],
+            title: 'ilustre.ai'
+          }).catch(function () {});
+        } catch (e) {}
+      });
       var hint = document.createElement('p');
-      hint.textContent = 'Segure na imagem para salvar';
-      hint.style.cssText = 'color:#fff;font-family:sans-serif;font-size:14px;margin-bottom:16px';
-      box.appendChild(hint);
+      hint.textContent = 'Toque em "Compartilhar" ou segure na imagem para salvar';
+      hint.style.cssText = 'color:#ccc;font-family:sans-serif;font-size:13px;margin:12px 0 0;text-align:center';
+      var box = document.createElement('div');
+      box.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.88);display:flex;align-items:center;justify-content:center;z-index:99999;flex-direction:column;padding:24px';
       box.appendChild(img);
+      box.appendChild(shareBtn);
+      box.appendChild(hint);
       box.addEventListener('click', function (e) {
         if (e.target === box) box.remove();
       });
       document.body.appendChild(box);
+    }
+
+    function downloadCanvas(canvas) {
+      var dataUrl = canvas.toDataURL('image/png');
+
+      if (navigator.share) {
+        try {
+          navigator.share({
+            files: [new File([dataUrlToBlob(dataUrl)], 'ilustre-ai.png', { type: 'image/png' })],
+            title: 'ilustre.ai'
+          }).catch(function () { showStoryOverlay(dataUrl); });
+          return;
+        } catch (e) {}
+      }
+
+      showStoryOverlay(dataUrl);
     }
     function wrapStoryText(context, text, maxWidth) {
       var words = String(text || '').split(/\\s+/).filter(Boolean);
