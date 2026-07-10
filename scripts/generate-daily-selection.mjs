@@ -643,6 +643,54 @@ async function aiSelection({ date, liturgy, candidates }) {
   return JSON.parse(payload.choices[0].message.content);
 }
 
+async function enrichSummaries(items) {
+  const needsEnrich = items.filter(item => {
+    const normItem = normalize(item.summary || '');
+    const normTitle = normalize(item.title || '');
+    return !item.summary || item.summary.length < 60 || normItem === normTitle || normItem.startsWith(normTitle) || normTitle.startsWith(normItem);
+  });
+  if (needsEnrich.length === 0) return items;
+  const results = await Promise.allSettled(needsEnrich.map(item =>
+    fetch(item.url, {
+      headers: { 'user-agent': 'ilustre.ai noticias catolicas (+https://noticias.ilustreai.com.br)' },
+      signal: AbortSignal.timeout(15000)
+    }).then(r => r.ok ? r.text() : '').catch(() => '')
+  ));
+  const simpleClean = s => {
+    const entities = { '&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&#039;':"'",'&nbsp;':' ','&aacute;':'á','&eacute;':'é','&iacute;':'í','&oacute;':'ó','&uacute;':'ú','&atilde;':'ã','&otilde;':'õ','&ccedil;':'ç','&acirc;':'â','&ecirc;':'ê','&ocirc;':'ô','&uuml;':'ü','&Aacute;':'Á','&Eacute;':'É','&Iacute;':'Í','&Oacute;':'Ó','&Uacute;':'Ú','&Atilde;':'Ã','&Otilde;':'Õ','&Ccedil;':'Ç','&Acirc;':'Â','&Ecirc;':'Ê','&Ocirc;':'Ô','&Uuml;':'Ü','&agrave;':'à','&Agrave;':'À' };
+    return s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()
+      .replace(/&#\d+;/g, m => String.fromCharCode(m.slice(2,-1)))
+      .replace(/&amp;#\d+;/g, m => String.fromCharCode(m.slice(5,-1)))
+      .replace(/&[a-zA-Z]+;/g, m => entities[m] || m)
+      .replace(/^["""'\s]+|["""'\s]+$/g, '').trim();
+  };
+  const firstParagraph = html => {
+    const article = html.match(/<article[\s\S]*?<\/article>/i)?.[0] || html.match(/<main[\s\S]*?<\/main>/i)?.[0] || html.match(/class="[^"]*(?:article|post|entry|content)-?(?:body|text|content)[^"]*"[\s\S]*?(?=<\/div>|<\/article>)/i)?.[0] || html;
+    const ps = [...article.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)];
+    for (const m of ps) {
+      const text = simpleClean(m[1]);
+      if (text.length >= 60 && text.length < 800) return text;
+    }
+    const fallback = simpleClean(article.slice(0, 800));
+    if (fallback.length >= 60) {
+      const sentence = fallback.match(/[^.!?]+[.!?]/);
+      return sentence ? sentence[0].trim() : fallback.slice(0, 200);
+    }
+    return '';
+  };
+  return items.map(item => {
+    if (needsEnrich.includes(item)) {
+      const idx = needsEnrich.indexOf(item);
+      const result = results[idx];
+      if (result?.status === 'fulfilled' && result.value) {
+        const fp = firstParagraph(result.value);
+        if (fp) item.summary = fp;
+      }
+    }
+    return item;
+  });
+}
+
 async function main() {
   const date = todayInSaoPaulo();
   const calendar = readJson(path.join(rootDir, 'data', 'liturgical-calendar-2026.json'));
@@ -681,6 +729,7 @@ async function main() {
   selection = cleanSelectionNews(selection);
   selection = attachSaintUrl(selection, liturgy);
   selection = repairSaintContentNews(selection, candidates);
+  if (selection.news) selection.news = await enrichSummaries(selection.news);
 
   const result = validateSelection(selection);
   if (!result.ok) {
@@ -698,6 +747,7 @@ async function main() {
       });
       selection = attachSaintUrl(selection, liturgy);
       selection = repairSaintContentNews(selection, candidates);
+      if (selection.news) selection.news = await enrichSummaries(selection.news);
     }
 
     const fallbackResult = validateSelection(selection);
