@@ -303,7 +303,6 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{LITURGICAL_SEASON}}': liturgicalDisplayTitle(selection.liturgical),
     '{{GOSPEL_SHORT}}': selection.liturgical.gospelShort,
     '{{EDITION_LABEL}}': selection.editionLabel,
-    '{{SAINT_FEAST}}': selection.saint.feast,
     '{{SAINT_NAME}}': selection.saint.name,
     '{{SAINT_DESCRIPTION}}': selection.saint.description,
     '{{SAINT_MORE_LINK}}': renderSaintMoreLink(selection.saint),

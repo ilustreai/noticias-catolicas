@@ -28,6 +28,9 @@
     font-size: 18px;
     line-height: 1.7;
     overflow-x: hidden;
+    -webkit-touch-callout: default;
+    -webkit-user-select: text;
+    user-select: text;
   }
   a { color: inherit; }
 
@@ -158,15 +161,6 @@
     color: var(--navy);
     line-height: 1.2;
     margin-bottom: 8px;
-  }
-  .saint-feast {
-    font-family: 'Inter', sans-serif;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--wine);
-    margin-bottom: 12px;
   }
   .saint-bio {
     font-family: 'Inter', sans-serif;
@@ -422,7 +416,6 @@
   </div>
 
   <div class="saint-card">
-    <div class="saint-feast">{{SAINT_FEAST}}</div>
     <h2 class="saint-name">{{SAINT_NAME}}</h2>
     <p class="saint-bio">{{SAINT_DESCRIPTION}}</p>
 {{SAINT_MORE_LINK}}
