@@ -130,8 +130,35 @@ function looksLikeSaintContent(item, saint) {
   return saintNameTokens(saint?.name).some((token) => text.includes(token));
 }
 
+const ROMAN_MAP = (function () {
+  var m = {}, val = { I:1, V:5, X:10, L:50, C:100 };
+  function parse(s) {
+    var r = 0, i = 0;
+    while (i < s.length) {
+      var cur = val[s[i]], nxt = val[s[i+1]] || 0;
+      r += cur < nxt ? nxt - cur : cur;
+      i += cur < nxt ? 2 : 1;
+    }
+    return r;
+  }
+  for (var num = 1; num <= 40; num++) {
+    var s = '';
+    var n = num;
+    var sym = [['X',10],['IX',9],['V',5],['IV',4],['I',1]];
+    for (var j = 0; j < sym.length; j++) { while (n >= sym[j][1]) { s += sym[j][0]; n -= sym[j][1]; } }
+    m[s] = num;
+  }
+  return m;
+})();
+
+function romanToArabic(text) {
+  return text.replace(/\b[XIV]+\b/g, function (match) {
+    return ROMAN_MAP[match] !== undefined ? String(ROMAN_MAP[match]) : match;
+  });
+}
+
 function liturgicalDisplayTitle(liturgical) {
-  return liturgical?.celebrationTitle || liturgical?.season || '';
+  return romanToArabic(liturgical?.celebrationTitle || liturgical?.season || '');
 }
 
 function collectText(value, bucket = []) {
