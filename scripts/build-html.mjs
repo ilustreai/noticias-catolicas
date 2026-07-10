@@ -32,10 +32,25 @@ function storyDownloadAssets(date) {
     text-transform: uppercase;
     cursor: pointer;
   }
+  .story-hint {
+    margin: 8px 0 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    color: #999;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+  .story-hint .three-dots {
+    font-size: 16px;
+    font-weight: 700;
+    color: #666;
+    vertical-align: middle;
+  }
 `;
 
   const markup = `
     <button class="story-download" type="button" id="download-story-quote">Baixar para Stories</button>
+    <p class="story-hint">Se houver erro, toque em <span class="three-dots">&#x22EE;</span> e abra no navegador</p>
   </aside>`;
 
   const script = `<script>
@@ -51,29 +66,21 @@ function storyDownloadAssets(date) {
       return new Blob([buf], { type: mime });
     }
 
-    function showStoryOverlay(dataUrl) {
+    function showErrorOverlay(dataUrl) {
       var img = document.createElement('img');
       img.src = dataUrl;
       img.style.cssText = 'display:block;width:100%;max-width:400px;margin:0 auto;border-radius:12px;box-shadow:0 4px 40px rgba(0,0,0,0.5)';
-      var shareBtn = document.createElement('button');
-      shareBtn.textContent = 'Compartilhar';
-      shareBtn.style.cssText = 'margin-top:20px;padding:12px 32px;background:#6B1A2A;color:#fff;border:none;border-radius:8px;font-size:16px;font-weight:700;font-family:sans-serif;cursor:pointer';
-      shareBtn.addEventListener('click', function () {
-        try {
-          navigator.share({
-            files: [new File([dataUrlToBlob(dataUrl)], 'ilustre-ai.png', { type: 'image/png' })],
-            title: 'ilustre.ai'
-          }).catch(function () {});
-        } catch (e) {}
-      });
-      var hint = document.createElement('p');
-      hint.textContent = 'Toque em "Compartilhar" ou segure na imagem para salvar';
-      hint.style.cssText = 'color:#ccc;font-family:sans-serif;font-size:13px;margin:12px 0 0;text-align:center';
+      var msg = document.createElement('p');
+      msg.innerHTML = 'Toque em <span style="font-size:22px;letter-spacing:2px">&#x22EE;</span> no canto superior direito e selecione <strong>Abrir no Navegador</strong>';
+      msg.style.cssText = 'color:#ccc;font-family:sans-serif;font-size:15px;line-height:1.6;margin:20px 0 0;text-align:center;max-width:340px';
+      var closeHint = document.createElement('p');
+      closeHint.textContent = 'Toque fora da imagem para fechar';
+      closeHint.style.cssText = 'color:#888;font-family:sans-serif;font-size:12px;margin:16px 0 0;text-align:center';
       var box = document.createElement('div');
       box.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.88);display:flex;align-items:center;justify-content:center;z-index:99999;flex-direction:column;padding:24px';
       box.appendChild(img);
-      box.appendChild(shareBtn);
-      box.appendChild(hint);
+      box.appendChild(msg);
+      box.appendChild(closeHint);
       box.addEventListener('click', function (e) {
         if (e.target === box) box.remove();
       });
@@ -82,18 +89,16 @@ function storyDownloadAssets(date) {
 
     function downloadCanvas(canvas) {
       var dataUrl = canvas.toDataURL('image/png');
-
       if (navigator.share) {
         try {
           navigator.share({
             files: [new File([dataUrlToBlob(dataUrl)], 'ilustre-ai.png', { type: 'image/png' })],
             title: 'ilustre.ai'
-          }).catch(function () { showStoryOverlay(dataUrl); });
+          }).catch(function () { showErrorOverlay(dataUrl); });
           return;
         } catch (e) {}
       }
-
-      showStoryOverlay(dataUrl);
+      showErrorOverlay(dataUrl);
     }
     function wrapStoryText(context, text, maxWidth) {
       var words = String(text || '').split(/\\s+/).filter(Boolean);
