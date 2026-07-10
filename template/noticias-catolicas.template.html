@@ -40,6 +40,20 @@
     top: 0;
     z-index: 10;
     box-shadow: 0 2px 24px rgba(0,0,0,0.22);
+    transition: background 0.4s ease;
+  }
+  .masthead.scrolled {
+    background: var(--liturgical-color);
+  }
+  .masthead.scrolled.liturgy-light {
+    --masthead-text: rgba(0,0,0,0.85);
+    --masthead-muted: rgba(0,0,0,0.55);
+  }
+  .masthead.scrolled .masthead-brand {
+    color: var(--masthead-text, var(--gold));
+  }
+  .masthead.scrolled .masthead-date {
+    color: var(--masthead-muted, rgba(255,255,255,0.58));
   }
   .masthead-inner {
     max-width: 900px;
@@ -367,6 +381,22 @@
     font-weight: 600;
   }
 
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .reveal.visible:nth-child(2) { transition-delay: 0.08s; }
+  .reveal.visible:nth-child(3) { transition-delay: 0.16s; }
+  .reveal.visible:nth-child(4) { transition-delay: 0.24s; }
+  .reveal.visible:nth-child(5) { transition-delay: 0.32s; }
+  .reveal.visible:nth-child(6) { transition-delay: 0.40s; }
+  .reveal.visible:nth-child(7) { transition-delay: 0.48s; }
+
   @media (max-width: 720px) {
     body { font-size: 17px; }
     .liturgy-strip { padding: 0; }
@@ -382,9 +412,9 @@
 </style>
 </head>
 <body>
-<header class="masthead">
+<header class="masthead{{LITURGICAL_TEXT_MODIFIER}}">
   <div class="masthead-inner">
-    <a class="masthead-brand" href="#">Notícias Católicas · ilustre.ai</a>
+    <a class="masthead-brand" href="#">newsletter &bull; ilustre.ai</a>
     <span class="masthead-date">{{EDITION_LABEL}}</span>
   </div>
 </header>
@@ -392,7 +422,7 @@
 <section class="hero">
   <div class="hero-content">
     <h1 class="hero-title">A Igreja <em>viva</em><br>no mundo de hoje</h1>
-    <p class="hero-subtitle">Um giro simples para voce se situar, rezar melhor e acompanhar o que acontece na Igreja hoje.</p>
+    <p class="hero-subtitle">uma pausa antes do mundo acelerar</p>
   </div>
 </section>
 
@@ -467,16 +497,42 @@
 <script>
   (function () {
     var counter = document.getElementById('edition-view-count');
-    if (!counter) return;
+    if (counter) {
+      var key = 'ilustre.ai.noticias.views.{{EDITION_DATE}}';
+      try {
+        var current = parseInt(localStorage.getItem(key) || '0', 10);
+        var next = Number.isFinite(current) ? current + 1 : 1;
+        localStorage.setItem(key, String(next));
+        counter.textContent = String(next);
+      } catch (e) {
+        counter.textContent = '1';
+      }
+    }
 
-    var key = 'ilustre.ai.noticias.views.{{EDITION_DATE}}';
-    try {
-      var current = parseInt(localStorage.getItem(key) || '0', 10);
-      var next = Number.isFinite(current) ? current + 1 : 1;
-      localStorage.setItem(key, String(next));
-      counter.textContent = String(next);
-    } catch (error) {
-      counter.textContent = '1';
+    var masthead = document.querySelector('.masthead');
+    var trigger = document.querySelector('.liturgy-strip');
+    if (masthead && trigger) {
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          masthead.classList.toggle('scrolled', !entry.isIntersecting);
+        });
+      }, { threshold: 0 });
+      observer.observe(trigger);
+    }
+
+    var reveals = document.querySelectorAll('.reveal');
+    if (reveals.length > 0 && 'IntersectionObserver' in window) {
+      var revealObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+      reveals.forEach(function (el) { revealObserver.observe(el); });
+    } else {
+      reveals.forEach(function (el) { el.classList.add('visible'); });
     }
   })();
 </script>

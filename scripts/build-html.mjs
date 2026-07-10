@@ -56,87 +56,113 @@ function storyDownloadAssets(date) {
   const script = `<script>
   (function () {
     var button = document.getElementById('download-story-quote');
-    if (!button) return;
-    function dataUrlToBlob(dataUrl) {
-      var parts = dataUrl.split(',');
-      var mime = parts[0].match(/:(.*?);/)[1];
-      var bytes = atob(parts[1]);
-      var buf = new Uint8Array(bytes.length);
-      for (var i = 0; i < bytes.length; i++) buf[i] = bytes.charCodeAt(i);
-      return new Blob([buf], { type: mime });
+    if (button) {
+      function dataUrlToBlob(dataUrl) {
+        var parts = dataUrl.split(',');
+        var mime = parts[0].match(/:(.*?);/)[1];
+        var bytes = atob(parts[1]);
+        var buf = new Uint8Array(bytes.length);
+        for (var i = 0; i < bytes.length; i++) buf[i] = bytes.charCodeAt(i);
+        return new Blob([buf], { type: mime });
+      }
+
+      function downloadCanvas(canvas) {
+        var dataUrl = canvas.toDataURL('image/png');
+        if (navigator.share) {
+          try {
+            navigator.share({
+              files: [new File([dataUrlToBlob(dataUrl)], 'ilustre-ai.png', { type: 'image/png' })],
+              title: 'ilustre.ai'
+            }).catch(function () {});
+          } catch (e) {}
+        }
+      }
+      function wrapStoryText(context, text, maxWidth) {
+        var words = String(text || '').split(/\\s+/).filter(Boolean);
+        var lines = [];
+        var line = '';
+        words.forEach(function (word) {
+          var candidate = line ? line + ' ' + word : word;
+          if (context.measureText(candidate).width <= maxWidth || !line) {
+            line = candidate;
+            return;
+          }
+          lines.push(line);
+          line = word;
+        });
+        if (line) lines.push(line);
+        return lines;
+      }
+      function drawStoryCard(quote, source) {
+        var canvas = document.createElement('canvas');
+        canvas.width = 1080;
+        canvas.height = 1920;
+        var context = canvas.getContext('2d');
+        context.fillStyle = '#F9F6F0';
+        context.fillRect(0, 0, 1080, 1920);
+        context.strokeStyle = 'rgba(184,148,63,0.42)';
+        context.lineWidth = 3;
+        context.beginPath();
+        context.moveTo(120, 210);
+        context.lineTo(960, 210);
+        context.moveTo(120, 1660);
+        context.lineTo(960, 1660);
+        context.stroke();
+        context.textAlign = 'center';
+        context.textBaseline = 'alphabetic';
+        context.fillStyle = '#1C2B4A';
+        context.font = '900 74px "Playfair Display", Georgia, serif';
+        var lines = wrapStoryText(context, quote, 870);
+        var lineHeight = 92;
+        var startY = Math.round((1920 - lines.length * lineHeight) / 2) + 20;
+        lines.forEach(function (line, index) {
+          context.fillText(line, 540, startY + index * lineHeight);
+        });
+        context.fillStyle = '#4a4040';
+        context.font = '500 36px Inter, Arial, sans-serif';
+        context.fillText(source, 540, startY + lines.length * lineHeight + 70);
+        context.fillStyle = '#6B1A2A';
+        context.font = '700 28px Inter, Arial, sans-serif';
+        context.fillText('by ilustre.ai', 540, 1765);
+        return canvas;
+      }
+      button.addEventListener('click', function () {
+        var quoteElement = document.querySelector('.closing-quote-text');
+        var sourceElement = document.querySelector('.closing-quote-source');
+        var quote = quoteElement ? quoteElement.textContent.trim() : '';
+        var source = sourceElement ? sourceElement.textContent.trim() : '';
+        if (!quote) return;
+        Promise.resolve(document.fonts ? document.fonts.ready : undefined)
+          .then(function () { return drawStoryCard(quote, source); })
+          .then(function (canvas) { downloadCanvas(canvas); })
+          .catch(function () { button.textContent = 'Tente novamente'; });
+      });
     }
 
-    function downloadCanvas(canvas) {
-      var dataUrl = canvas.toDataURL('image/png');
-      if (navigator.share) {
-        try {
-          navigator.share({
-            files: [new File([dataUrlToBlob(dataUrl)], 'ilustre-ai.png', { type: 'image/png' })],
-            title: 'ilustre.ai'
-          }).catch(function () {});
-        } catch (e) {}
-      }
+    var masthead = document.querySelector('.masthead');
+    var trigger = document.querySelector('.liturgy-strip');
+    if (masthead && trigger && 'IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          masthead.classList.toggle('scrolled', !entry.isIntersecting);
+        });
+      }, { threshold: 0 }).observe(trigger);
     }
-    function wrapStoryText(context, text, maxWidth) {
-      var words = String(text || '').split(/\\s+/).filter(Boolean);
-      var lines = [];
-      var line = '';
-      words.forEach(function (word) {
-        var candidate = line ? line + ' ' + word : word;
-        if (context.measureText(candidate).width <= maxWidth || !line) {
-          line = candidate;
-          return;
-        }
-        lines.push(line);
-        line = word;
-      });
-      if (line) lines.push(line);
-      return lines;
+
+    var reveals = document.querySelectorAll('.reveal');
+    if (reveals.length > 0 && 'IntersectionObserver' in window) {
+      var revealObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+      reveals.forEach(function (el) { revealObserver.observe(el); });
+    } else {
+      reveals.forEach(function (el) { el.classList.add('visible'); });
     }
-    function drawStoryCard(quote, source) {
-      var canvas = document.createElement('canvas');
-      canvas.width = 1080;
-      canvas.height = 1920;
-      var context = canvas.getContext('2d');
-      context.fillStyle = '#F9F6F0';
-      context.fillRect(0, 0, 1080, 1920);
-      context.strokeStyle = 'rgba(184,148,63,0.42)';
-      context.lineWidth = 3;
-      context.beginPath();
-      context.moveTo(120, 210);
-      context.lineTo(960, 210);
-      context.moveTo(120, 1660);
-      context.lineTo(960, 1660);
-      context.stroke();
-      context.textAlign = 'center';
-      context.textBaseline = 'alphabetic';
-      context.fillStyle = '#1C2B4A';
-      context.font = '900 74px "Playfair Display", Georgia, serif';
-      var lines = wrapStoryText(context, quote, 870);
-      var lineHeight = 92;
-      var startY = Math.round((1920 - lines.length * lineHeight) / 2) + 20;
-      lines.forEach(function (line, index) {
-        context.fillText(line, 540, startY + index * lineHeight);
-      });
-      context.fillStyle = '#4a4040';
-      context.font = '500 36px Inter, Arial, sans-serif';
-      context.fillText(source, 540, startY + lines.length * lineHeight + 70);
-      context.fillStyle = '#6B1A2A';
-      context.font = '700 28px Inter, Arial, sans-serif';
-      context.fillText('by ilustre.ai', 540, 1765);
-      return canvas;
-    }
-    button.addEventListener('click', function () {
-      var quoteElement = document.querySelector('.closing-quote-text');
-      var sourceElement = document.querySelector('.closing-quote-source');
-      var quote = quoteElement ? quoteElement.textContent.trim() : '';
-      var source = sourceElement ? sourceElement.textContent.trim() : '';
-      if (!quote) return;
-      Promise.resolve(document.fonts ? document.fonts.ready : undefined)
-        .then(function () { return drawStoryCard(quote, source); })
-        .then(function (canvas) { downloadCanvas(canvas); })
-        .catch(function () { button.textContent = 'Tente novamente'; });
-    });
   })();
 </script>`;
 
