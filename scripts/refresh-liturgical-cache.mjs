@@ -97,6 +97,7 @@ const SAINT_QUOTES = [
   { match: 'Boaventura', text: 'A perfeição da vida cristã está na caridade.', source: 'São Boaventura' },
   { match: 'João Paulo II', text: 'Não tenhais medo! Abri as portas a Cristo!', source: 'São João Paulo II' },
   { match: 'Pio', text: 'Rezai, esperai, não vos preocupeis.', source: 'São Pio de Pietrelcina' },
+  { match: 'Bento', text: 'Escuta, filho, os preceitos do mestre e inclina o coração.', source: 'São Bento' },
 ];
 
 const MONTHS_BR = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
@@ -113,16 +114,20 @@ function cleanGospelLine(line) {
   return line.replace(/^\d+\s*/g, '').replace(/([:;,\s])\d+\s*/g, '$1').replace(/["""']/g, '').replace(/^[-,;\s]+/, '').trim();
 }
 
-function pickQuote(dateStr, season, saintName, gospelLines) {
+function pickQuote(dateStr, season, saintName, keyVerse, gospelLines) {
   // 1. Saint-specific quote if saint name matches
   if (saintName) {
     const saintQ = SAINT_QUOTES.find(q => saintName.includes(q.match));
     if (saintQ) return { text: saintQ.text, source: saintQ.source };
   }
 
-  // 2. Gospel key verse (index 1 is the CN highlighted verse, between EVANGELHO and Proclamação)
+  // 2. Alleluia key verse from CN page (between Evangelho title and Proclamação)
+  if (keyVerse) {
+    return { text: keyVerse, source: 'Evangelho do Dia' };
+  }
+
+  // 3. Gospel extracted line as fallback
   if (gospelLines && gospelLines.length > 0) {
-    // prefer the second line — typically the key verse of the day
     for (var offset = 0; offset < gospelLines.length; offset++) {
       var i = offset === 0 ? 1 : (offset === 1 ? gospelLines.length - 1 : offset - 2);
       if (i < 0 || i >= gospelLines.length) continue;
@@ -133,7 +138,7 @@ function pickQuote(dateStr, season, saintName, gospelLines) {
     }
   }
 
-  // 3. Season-specific pool, selected by date hash
+  // 4. Season-specific pool, selected by date hash
   const pool = QUOTES_BY_SEASON[season] || QUOTES_BY_SEASON['Tempo Comum'];
   let hash = 0;
   for (let i = 0; i < dateStr.length; i++) hash = ((hash << 5) - hash) + dateStr.charCodeAt(i);
@@ -267,11 +272,22 @@ async function fetchCNGospelFromUrl(url) {
   const gospelRef = refs.filter(r => /^(Mt|Mc|Lc|Jo|At)/.test(r[1])).pop()?.[1] || refs[refs.length - 1]?.[1];
   if (!gospelRef) return null;
 
-  const gospelIdx = text.indexOf('Proclamação do Evangelho');
-  if (gospelIdx < 0) return null;
+  // Extract Alleluia verse (between Evangelho title and Proclamação)
+  const evangelhoIdx = text.indexOf('Evangelho (');
+  const proclamacaoIdx = text.indexOf('Proclamação do Evangelho');
+  let keyVerse = '';
+  if (evangelhoIdx >= 0 && proclamacaoIdx > evangelhoIdx) {
+    const between = text.slice(evangelhoIdx, proclamacaoIdx);
+    const alleluiaMatch = between.match(/- Aleluia, Aleluia, Aleluia\.\s*<\/p>\s*<p[^>]*>([^<]+)<\/p>/);
+    if (alleluiaMatch) {
+      keyVerse = alleluiaMatch[1].replace(/<[^>]+>/g, '').replace(/^-\s*/, '').trim();
+    }
+  }
 
-  const gospelEnd = text.indexOf('Palavra da Salvação', gospelIdx);
-  const gospelSection = gospelEnd > 0 ? text.slice(gospelIdx, gospelEnd + 100) : text.slice(gospelIdx, gospelIdx + 5000);
+  if (proclamacaoIdx < 0) return null;
+
+  const gospelEnd = text.indexOf('Palavra da Salvação', proclamacaoIdx);
+  const gospelSection = gospelEnd > 0 ? text.slice(proclamacaoIdx, gospelEnd + 100) : text.slice(proclamacaoIdx, proclamacaoIdx + 5000);
 
   const gospelText = gospelSection.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
   const bookMap = { Mt: 'Mateus', Mc: 'Marcos', Lc: 'Lucas', Jo: 'João', At: 'Atos' };
@@ -281,7 +297,7 @@ async function fetchCNGospelFromUrl(url) {
 
   const verses = extractKeyLines(gospelText);
 
-  return { ref: fullRef, short: gospelRef, lines: verses, fullText: gospelText };
+  return { ref: fullRef, short: gospelRef, lines: verses, fullText: gospelText, keyVerse: keyVerse };
 }
 
 function extractKeyLines(text) {
@@ -363,6 +379,7 @@ function defaultGospel(dateStr) {
       'Cristo nos ensina o caminho da verdadeira felicidade.',
       'Que a mensagem do Evangelho transforme nossos corações.',
     ],
+    keyVerse: '',
   };
 }
 
@@ -424,7 +441,8 @@ async function main() {
     const cnSaint = cnSaints?.[dateStr];
     const gospel = cnGospel || defaultGospel(dateStr);
     const saintName = cnSaint?.name || bc.celebration || '';
-    const quote = pickQuote(dateStr, bc.season, saintName, gospel.lines);
+    const keyVerse = cnGospel?.keyVerse || '';
+    const quote = pickQuote(dateStr, bc.season, saintName, keyVerse, gospel.lines);
 
     const entry = {
       status: 'complete',
@@ -447,6 +465,7 @@ async function main() {
       gospel: {
         ref: gospel.ref,
         lines: gospel.lines,
+        keyVerse: gospel.keyVerse || '',
       },
       closingQuote: quote,
       sourceUrl: cnSaint?.url || (cnGospel ? CN_LITURGY : bc.source),
@@ -468,6 +487,7 @@ async function main() {
         if (cnGospel) {
           existing.gospel.ref = gospel.ref;
           existing.gospel.lines = gospel.lines;
+          existing.gospel.keyVerse = gospel.keyVerse || '';
           existing.liturgical.gospelShort = gospel.short;
         }
         if (cnSaint) {
