@@ -374,7 +374,7 @@ export function validateRenderedHtml(html, selection) {
   if (!html.includes(simplifyGospelRef(selection.gospel.ref))) errors.push('missing gospel ref');
   if (selection.closingQuote?.text && !html.includes(selection.closingQuote.text)) errors.push('missing closing quote text');
   if (selection.closingQuote?.source && !html.includes(selection.closingQuote.source)) errors.push('missing closing quote source');
-  if (!html.includes('class="hero-subtitle"')) errors.push('missing hero subtitle');
+  if (!html.includes('class="hero-title"')) errors.push('missing hero title');
   const renderedNewsCount = (html.match(/class="news-item/g) ?? []).length;
   if (renderedNewsCount < 5) errors.push('missing news items');
   if (Array.isArray(selection.news) && renderedNewsCount !== selection.news.length) {

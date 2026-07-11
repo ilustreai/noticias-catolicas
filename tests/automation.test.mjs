@@ -251,10 +251,10 @@ test('validateRenderedHtml enforces the public page contract without brittle tit
   const oldLiteralTitleCheckWouldFail = !html.includes('A Igreja viva no mundo de hoje');
   assert.equal(oldLiteralTitleCheckWouldFail, true);
 
-  const missingHero = html.replace('class="hero-subtitle"', 'class="hero-subtitle-missing"');
+  const missingHero = html.replace('class="hero-title"', 'class="hero-title-missing"');
   const missingHeroResult = validateRenderedHtml(missingHero, eightNewsSelection);
   assert.equal(missingHeroResult.ok, false);
-  assert.match(missingHeroResult.errors.join('\n'), /missing hero subtitle/);
+  assert.match(missingHeroResult.errors.join('\n'), /missing hero title/);
 
   const missingOneNews = html.replace(/<article class="news-item reveal">[\s\S]*?<\/article>/, '');
   const missingOneNewsResult = validateRenderedHtml(missingOneNews, eightNewsSelection);
