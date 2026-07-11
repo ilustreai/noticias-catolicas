@@ -11,6 +11,7 @@ import {
 const rootDir = process.cwd();
 const dataPath = process.argv[2] ?? path.join(rootDir, 'data', 'daily-selection.json');
 const outputDir = process.argv[3] ?? path.join(rootDir, 'public');
+const edition = process.env.EDITION || '1';
 const selection = readJson(dataPath);
 
 function storyDownloadAssets(date) {
@@ -199,7 +200,7 @@ const publicHtml = addStoryDownload(html, selection.date);
 
 const candidatePath = path.join(outputDir, 'index.candidate.html');
 const indexPath = path.join(outputDir, 'index.html');
-const archivePath = path.join(outputDir, `${selection.date}.html`);
+const archivePath = path.join(outputDir, `${selection.date}-${edition}.html`);
 
 writeFileEnsured(candidatePath, publicHtml);
 fs.copyFileSync(candidatePath, indexPath);

@@ -868,11 +868,13 @@ async function main() {
     console.warn(`Only ${candidates.length} candidates found; continuing with a shorter but valid edition`);
   }
 
+  const edition = process.env.EDITION || '1';
+  const editionSuffix = edition === '2' ? ' · 2ª edição' : ' · 1ª edição';
   const prev = loadPreviousSelection(rootDir);
   const ai = await aiSelection({ date, liturgy, candidates });
   let selection = ai ?? {
     date,
-    editionLabel: liturgy.editionLabel,
+    editionLabel: liturgy.editionLabel + editionSuffix,
     liturgical: liturgy.liturgical,
     saint: liturgy.saint,
     gospel: liturgy.gospel,
@@ -898,7 +900,7 @@ async function main() {
       console.warn('AI selection failed validation; falling back to deterministic selection.');
       selection = cleanSelectionNews({
         date,
-        editionLabel: liturgy.editionLabel,
+        editionLabel: liturgy.editionLabel + editionSuffix,
         liturgical: liturgy.liturgical,
         saint: liturgy.saint,
         gospel: liturgy.gospel,
