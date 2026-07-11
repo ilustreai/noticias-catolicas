@@ -81,6 +81,17 @@
     color: rgba(255,255,255,0.58);
     text-transform: uppercase;
   }
+  .masthead-edition {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: rgba(255,255,255,0.35);
+    margin-left: auto;
+  }
+  .masthead.scrolled .masthead-edition {
+    color: var(--masthead-muted, rgba(255,255,255,0.35));
+  }
 
   .hero {
     background: var(--navy);
@@ -416,7 +427,10 @@
 <header class="masthead{{LITURGICAL_TEXT_MODIFIER}}">
   <div class="masthead-inner">
     <a class="masthead-brand" href="#">newsletter &bull; ilustre.ai</a>
-    <span class="masthead-date">{{EDITION_LABEL}}</span>
+    <div style="display:flex;align-items:center;gap:14px;width:100%">
+      <span class="masthead-date">{{EDITION_LABEL}}</span>
+      <span class="masthead-edition">{{EDITION_TAG}}</span>
+    </div>
   </div>
 </header>
 

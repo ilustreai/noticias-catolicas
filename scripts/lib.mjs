@@ -331,6 +331,12 @@ export function loadTemplate(templatePath = path.join(rootDir, 'template', 'noti
   return fs.readFileSync(templatePath, 'utf8');
 }
 
+function editionTag(label) {
+  if (/2ª|2°/.test(label)) return '2°ed';
+  if (/1ª|1°/.test(label)) return '1°ed';
+  return '';
+}
+
 export function buildPage(selection, template = loadTemplate()) {
   const replacements = {
     '{{LITURGICAL_COLOR}}': selection.liturgical.cssColor,
@@ -341,6 +347,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{LITURGICAL_SEASON}}': liturgicalDisplayTitle(selection.liturgical),
     '{{GOSPEL_SHORT}}': selection.liturgical.gospelShort,
     '{{EDITION_LABEL}}': selection.editionLabel,
+    '{{EDITION_TAG}}': editionTag(selection.editionLabel),
     '{{SAINT_NAME}}': selection.saint.name,
     '{{SAINT_DESCRIPTION}}': selection.saint.description,
     '{{SAINT_MORE_LINK}}': renderSaintMoreLink(selection.saint),
