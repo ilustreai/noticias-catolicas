@@ -17,24 +17,21 @@ const fallbackItemsBySource = {
       kind: 'brazil',
       title: 'CNBB destaca paz e missão no Consistório',
       summary: 'A CNBB repercutiu a abertura do consistório extraordinário, sublinhando o chamado à paz, à sinodalidade e ao ardor missionário na Igreja.',
-      url: 'https://www.cnbb.org.br/papa-leao-xiv-propoe-paz-sinodalidade-e-ardor-missionario-na-abertura-do-consistorio-extraordinario/',
-      published: '2026-06-29'
+      url: 'https://www.cnbb.org.br/papa-leao-xiv-propoe-paz-sinodalidade-e-ardor-missionario-na-abertura-do-consistorio-extraordinario/'
     },
     {
       source: 'CNBB',
       kind: 'brazil',
       title: 'Quatro arcebispos brasileiros recebem o pálio arquiepiscopal',
       summary: 'A CNBB destacou a celebração com quatro arcebispos brasileiros que receberam o pálio em sinal de comunhão e serviço na Igreja no Brasil.',
-      url: 'https://www.cnbb.org.br/quatro-arcebispos-brasileiros-palio-arquiepiscopal/',
-      published: '2026-06-28'
+      url: 'https://www.cnbb.org.br/quatro-arcebispos-brasileiros-palio-arquiepiscopal/'
     },
     {
       source: 'CNBB',
       kind: 'brazil',
       title: 'Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias',
       summary: 'A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.',
-      url: 'https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/',
-      published: '2026-07-01'
+      url: 'https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/'
     }
   ]
 };

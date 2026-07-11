@@ -120,7 +120,7 @@ function sourceCount(news, sourceSet) {
 function saintNameTokens(name) {
   return normalizeText(name)
     .split(/[^a-z0-9]+/)
-    .filter((token) => token.length >= 5 && !['santo', 'santa'].includes(token));
+    .filter((token) => token.length >= 6 && !['santo', 'santa'].includes(token));
 }
 
 function looksLikeSaintContent(item, saint) {
