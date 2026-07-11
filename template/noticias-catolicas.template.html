@@ -84,23 +84,36 @@
 
   .hero {
     background: var(--navy);
-    padding: 48px 24px 56px;
+    padding: 64px 24px 56px;
     position: relative;
     overflow: hidden;
+    text-align: center;
     transition: background 0.4s ease;
   }
   .hero.scrolled {
     background: var(--liturgical-color);
   }
-  .hero-content { max-width: 900px; margin: 0 auto; }
+  .hero-rule {
+    width: 48px;
+    height: 1px;
+    background: var(--gold);
+    margin: 0 auto 28px;
+    opacity: 0.5;
+  }
+  .hero-content { max-width: 640px; margin: 0 auto; }
   .hero-title {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(38px, 7vw, 72px);
-    font-weight: 900;
-    line-height: 1.05;
+    font-size: clamp(26px, 4.2vw, 42px);
+    font-weight: 700;
+    line-height: 1.2;
     color: white;
+    letter-spacing: -0.01em;
   }
-  .hero-title em { color: var(--gold-lt); font-style: italic; }
+  .hero-title em {
+    color: var(--gold-lt);
+    font-style: italic;
+    font-weight: 800;
+  }
 
   .liturgy-strip {
     background: var(--liturgical-color);
@@ -418,6 +431,7 @@
 
 <section class="hero">
   <div class="hero-content">
+    <div class="hero-rule"></div>
     <h1 class="hero-title">uma <em>pausa</em> antes do mundo acelerar</h1>
   </div>
 </section>
