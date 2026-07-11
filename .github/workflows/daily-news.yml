@@ -23,8 +23,8 @@ permissions:
   issues: write
 
 concurrency:
-  group: daily-catholic-news
-  cancel-in-progress: false
+  group: catholic-news-publish
+  cancel-in-progress: true
 
 jobs:
   publish:
@@ -61,8 +61,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/daily-selection.json index.html public/index.html *.html
-          git diff --cached --quiet || git commit -m "chore: publish daily catholic news"
+          git add data/daily-selection.json index.html public/index.html
+          git diff --cached --quiet || git commit -m "chore: publish daily catholic news - $(date -u +%Y-%m-%d)"
+          git pull --rebase
           git push
 
       - name: Verify public site
