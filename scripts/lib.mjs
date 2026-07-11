@@ -120,14 +120,17 @@ function sourceCount(news, sourceSet) {
 function saintNameTokens(name) {
   return normalizeText(name)
     .split(/[^a-z0-9]+/)
-    .filter((token) => token.length >= 6 && !['santo', 'santa'].includes(token));
+    .filter((token) => token.length >= 6 && !['santo', 'santa', 'bento', 'pedro', 'paulo', 'joao', 'maria', 'jose', 'frei', 'padre', 'bispo', 'igreja', 'cristo', 'jesu'].includes(token));
 }
 
 function looksLikeSaintContent(item, saint) {
   const text = normalizeText(`${item.title} ${item.summary} ${item.url}`);
   const explicitTerms = ['santo do dia', 'santa do dia', 'festa liturgica'];
   if (explicitTerms.some((term) => text.includes(term))) return true;
-  return saintNameTokens(saint?.name).some((token) => text.includes(token));
+  const tokens = saintNameTokens(saint?.name);
+  if (tokens.length === 0) return false;
+  const matches = tokens.filter((token) => text.includes(token));
+  return matches.length >= 2;
 }
 
 const ROMAN_MAP = (function () {

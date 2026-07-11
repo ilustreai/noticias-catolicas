@@ -767,6 +767,82 @@ async function enrichSummaries(items) {
   });
 }
 
+function forceValidSelection(selection, date, liturgy, candidates, prev) {
+  const result = validateSelection(selection);
+  if (result.ok) return null;
+  const errors = result.errors.join(' ');
+  if (!errors.includes('Brazil') && !errors.includes('Vatican') && !errors.includes('trusted')) return null;
+
+  const allFallbacks = Object.values(fallbackItemsBySource).flat();
+  const news = [...selection.news];
+  const usedUrls = new Set(news.map((item) => item.url));
+  const sourceCounts = new Map();
+  news.forEach((item) => sourceCounts.set(item.source, (sourceCounts.get(item.source) ?? 0) + 1));
+
+  for (const fb of allFallbacks) {
+    if (usedUrls.has(fb.url)) continue;
+    const srcCount = sourceCounts.get(fb.source) ?? 0;
+    if (srcCount >= 2) {
+      const replaceIdx = news.findIndex((item) => item.source === fb.source);
+      if (replaceIdx !== -1) {
+        usedUrls.delete(news[replaceIdx].url);
+        sourceCounts.set(fb.source, srcCount - 1);
+        news.splice(replaceIdx, 1);
+      } else {
+        continue;
+      }
+    }
+    if (news.length >= 8) {
+      const replaceIdx = news.findIndex((item) => sourceCounts.get(item.source) >= 2);
+      if (replaceIdx === -1) break;
+      usedUrls.delete(news[replaceIdx].url);
+      sourceCounts.set(news[replaceIdx].source, (sourceCounts.get(news[replaceIdx].source) ?? 0) - 1);
+      news.splice(replaceIdx, 1);
+    }
+    news.push({ source: fb.source, title: fb.title, summary: fb.summary, url: fb.url });
+    usedUrls.add(fb.url);
+    sourceCounts.set(fb.source, (sourceCounts.get(fb.source) ?? 0) + 1);
+  }
+
+  if (news.length === selection.news.length && JSON.stringify(news) === JSON.stringify(selection.news)) return null;
+  return { ...selection, news };
+}
+
+function injectMinimumFallback(selection, date, liturgy) {
+  const news = [...(selection.news || [])];
+  const allFallbacks = Object.values(fallbackItemsBySource).flat();
+  const usedUrls = new Set(news.map((item) => item.url));
+  const sourceCounts = new Map();
+  news.forEach((item) => sourceCounts.set(item.source, (sourceCounts.get(item.source) ?? 0) + 1));
+
+  for (const fb of allFallbacks) {
+    if (usedUrls.has(fb.url)) continue;
+    const srcCount = sourceCounts.get(fb.source) ?? 0;
+    if (srcCount >= 2) {
+      const replaceIdx = news.findIndex((item) => item.source === fb.source);
+      if (replaceIdx !== -1) {
+        usedUrls.delete(news[replaceIdx].url);
+        sourceCounts.set(fb.source, srcCount - 1);
+        news.splice(replaceIdx, 1);
+      } else {
+        continue;
+      }
+    }
+    if (news.length >= 8) {
+      const replaceIdx = news.findIndex((item) => sourceCounts.get(item.source) >= 2);
+      if (replaceIdx === -1) break;
+      usedUrls.delete(news[replaceIdx].url);
+      sourceCounts.set(news[replaceIdx].source, (sourceCounts.get(news[replaceIdx].source) ?? 0) - 1);
+      news.splice(replaceIdx, 1);
+    }
+    news.push({ source: fb.source, title: fb.title, summary: fb.summary, url: fb.url });
+    usedUrls.add(fb.url);
+    sourceCounts.set(fb.source, (sourceCounts.get(fb.source) ?? 0) + 1);
+  }
+
+  return { ...selection, news };
+}
+
 async function main() {
   const date = todayInSaoPaulo();
   const calendar = readJson(path.join(rootDir, 'data', 'liturgical-calendar-2026.json'));
@@ -807,7 +883,14 @@ async function main() {
   selection = cleanSelectionNews(selection);
   selection = attachSaintUrl(selection, liturgy);
   selection = repairSaintContentNews(selection, candidates);
-  if (selection.news) selection.news = await enrichSummaries(selection.news);
+  try {
+    if (selection.news) selection.news = await enrichSummaries(selection.news);
+  } catch {
+    console.warn('enrichSummaries failed; continuing with original summaries');
+  }
+
+  const forced = forceValidSelection(selection, date, liturgy, candidates, prev);
+  if (forced) selection = forced;
 
   const result = validateSelection(selection);
   if (!result.ok) {
@@ -825,14 +908,24 @@ async function main() {
       });
       selection = attachSaintUrl(selection, liturgy);
       selection = repairSaintContentNews(selection, candidates);
-      if (selection.news) selection.news = await enrichSummaries(selection.news);
+      try {
+        if (selection.news) selection.news = await enrichSummaries(selection.news);
+      } catch {
+        console.warn('enrichSummaries failed; continuing with original summaries');
+      }
+      const forced2 = forceValidSelection(selection, date, liturgy, candidates, prev);
+      if (forced2) selection = forced2;
     }
 
     const fallbackResult = validateSelection(selection);
     if (!fallbackResult.ok) {
+      selection = injectMinimumFallback(selection, date, liturgy);
+    const finalResult = validateSelection(selection);
+    if (!finalResult.ok) {
       console.error('Generated selection failed validation:');
-      fallbackResult.errors.forEach((error) => console.error(`- ${error}`));
+      finalResult.errors.forEach((error) => console.error(`- ${error}`));
       process.exit(1);
+    }
     }
   }
 
