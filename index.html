@@ -84,17 +84,23 @@
 
   .hero {
     background: var(--navy);
-    padding: 32px 24px 40px;
+    padding: 48px 24px 56px;
     position: relative;
     overflow: hidden;
+    transition: background 0.4s ease;
+  }
+  .hero.scrolled {
+    background: var(--liturgical-color);
   }
   .hero-content { max-width: 900px; margin: 0 auto; }
-  .hero-subtitle {
-    font-size: 20px;
-    font-style: italic;
-    color: rgba(255,255,255,0.72);
-    max-width: 610px;
+  .hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(38px, 7vw, 72px);
+    font-weight: 900;
+    line-height: 1.05;
+    color: white;
   }
+  .hero-title em { color: var(--gold-lt); font-style: italic; }
 
   .liturgy-strip {
     background: var(--liturgical-color);
@@ -431,7 +437,7 @@
 
 <section class="hero">
   <div class="hero-content">
-    <p class="hero-subtitle">uma pausa antes do mundo acelerar</p>
+    <h1 class="hero-title">uma <em>pausa</em> antes do mundo acelerar</h1>
   </div>
 </section>
 
