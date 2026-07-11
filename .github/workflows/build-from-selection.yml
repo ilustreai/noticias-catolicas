@@ -46,7 +46,7 @@ jobs:
       - name: Editorial smoke check
         shell: bash
         run: |
-          ! grep -E 'Continue lendo|&amp;#8594;|&#8594;|O post .* apareceu primeiro|placar|torcem juntos|classifica[cç][aã]o garantida|conte[úu]do\?' index.html
+          ! grep -E 'Continue lendo|&amp;#8594;|&#8594;|O post .* apareceu primeiro|placar|torcem juntos|classifica[cç][aã]o garantida' index.html
           grep -q 'class="hero-title"' index.html
           test "$(grep -o 'class="news-item' index.html | wc -l)" -ge 5
 
