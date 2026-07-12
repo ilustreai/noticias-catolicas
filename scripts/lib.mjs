@@ -315,7 +315,7 @@ function renderGospelLink() {
   </a>`;
 }
 
-function simplifyGospelRef(ref) {
+export function simplifyGospelRef(ref) {
   if (!ref) return '';
   const parens = ref.match(/\(([^)]+)\)/);
   if (parens) return parens[1].replace(/ ou mais breve.*$/, '').trim();

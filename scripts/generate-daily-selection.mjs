@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { validateSelection, writeFileEnsured } from './lib.mjs';
+import { validateSelection, writeFileEnsured, simplifyGospelRef } from './lib.mjs';
 
 const rootDir = process.cwd();
 const sponsor = {
@@ -268,8 +268,13 @@ function applyCuratedData(date, liturgy) {
 }
 
 function pickClosingQuote(liturgy) {
-  const q = liturgy?.closingQuote;
-  if (q?.text && q?.source && q.source !== 'Evangelho do Dia') return q;
+  const curated = liturgy?.closingQuote;
+  if (curated?.text && curated?.source) return curated;
+  const gospel = liturgy?.gospel;
+  if (gospel?.keyVerse) {
+    const source = simplifyGospelRef(gospel.ref);
+    return { text: gospel.keyVerse, source };
+  }
   return { text: 'Fazei tudo por amor.', source: 'São Francisco de Sales' };
 }
 
