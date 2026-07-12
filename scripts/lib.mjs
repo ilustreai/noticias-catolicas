@@ -302,7 +302,11 @@ function renderSaintMoreLink(saint) {
 }
 
 function cleanGospelLine(line) {
-  return line.replace(/^\d+\s*/g, '').replace(/([:;,\s])\d+\s*/g, '$1').replace(/^[-,;\s]+/, '').trim();
+  return line.replace(/^\d+\s*/g, '').replace(/([:;,\s])\d+\s*/g, '$1').replace(/^[-,;\s]+/, '').trim()
+    .replace(/&[a-zA-Z]+;/g, function (m) {
+      var e = { '&aacute;':'á','&eacute;':'é','&iacute;':'í','&oacute;':'ó','&uacute;':'ú','&atilde;':'ã','&otilde;':'õ','&ccedil;':'ç','&acirc;':'â','&ecirc;':'ê','&ocirc;':'ô','&uuml;':'ü','&Aacute;':'Á','&Eacute;':'É','&Iacute;':'Í','&Oacute;':'Ó','&Uacute;':'Ú','&Atilde;':'Ã','&Otilde;':'Õ','&Ccedil;':'Ç','&Acirc;':'Â','&Ecirc;':'Ê','&Ocirc;':'Ô','&Uuml;':'Ü','&nbsp;':' ','&amp;':'&','&quot;':'"',"&#039;":"'","&lt;":"<","&gt;":">" };
+      return e[m] || m;
+    });
 }
 
 function renderGospelLines(lines) {
