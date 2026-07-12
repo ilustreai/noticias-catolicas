@@ -311,12 +311,6 @@ function renderGospelLines(lines) {
   return result + '\n      <span class="gospel-line gospel-ellipsis">...</span>';
 }
 
-function renderFullGospel(body) {
-  if (!body) return '';
-  const withBreaks = body.replace(/\b(\d+)\s/g, '\n          <span class="verse-num">$1</span> ').trim();
-  return `<div class="gospel-full">\n${withBreaks}\n        </div>`;
-}
-
 function renderGospelLink() {
   return `<a class="btn-source gospel-link" href="https://www.cnbb.org.br/liturgia-diaria/" target="_blank" rel="noopener noreferrer">
     Ler o Evangelho na CNBB
@@ -378,7 +372,6 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{SAINT_SECTION}}': renderSaintSection(selection.saint),
     '{{GOSPEL_REF}}': simplifyGospelRef(selection.gospel.ref),
     '{{GOSPEL_LINES}}': renderGospelLines(selection.gospel.lines),
-    '{{GOSPEL_FULL}}': renderFullGospel(selection.gospel.body ?? ''),
     '{{GOSPEL_LINK}}': renderGospelLink(selection),
     '{{NEWS_ITEMS}}': renderNews(selection.news),
     '{{CLOSING_QUOTE_TEXT}}': escapeHtml(selection.closingQuote?.text ?? ''),

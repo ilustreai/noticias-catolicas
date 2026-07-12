@@ -288,15 +288,6 @@
   .btn-source svg { width: 10px; height: 10px; }
   .gospel-link-wrapper { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
   .gospel-link-wrapper .btn-source { color: var(--gold); border-bottom-color: var(--gold); }
-  .btn-gospel-toggle {
-    background: none; border: 1px solid var(--gold); color: var(--gold); cursor: pointer;
-    font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.04em;
-    padding: 6px 14px; border-radius: 4px; transition: all 0.2s;
-  }
-  .btn-gospel-toggle:hover { background: var(--gold); color: var(--bg); }
-  .gospel-full-wrapper { margin-top: 16px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.08); }
-  .gospel-full { line-height: 1.7; font-size: 14px; }
-  .verse-num { color: var(--gold); font-weight: 600; font-size: 12px; margin-right: 2px; }
   .closing-quote {
     margin: 44px 0 0;
     padding: 34px 38px;
@@ -527,33 +518,6 @@
       <span class="gospel-line">Por isso Jesus entrou numa barca e sentou-se, enquanto a multidão ficava de pé, na praia.</span>
       <span class="gospel-line gospel-ellipsis">...</span>
     </p>
-    <div class="gospel-full-wrapper" id="gospelFull" style="display:none">
-      <div class="gospel-full">
-<span class="verse-num">1</span> Naquele dia, Jesus saiu de casa e foi sentar-se às margens do mar da Galileia. 
-          <span class="verse-num">2</span> Uma grande multidão reuniu-se em volta dele. Por isso Jesus entrou numa barca e sentou-se, enquanto a multidão ficava de pé, na praia. 
-          <span class="verse-num">3</span> E disse-lhes muitas coisas em parábolas: "O semeador saiu para semear. 
-          <span class="verse-num">4</span> Enquanto semeava, algumas sementes caíram à beira do caminho, e os pássaros vieram e as comeram. 
-          <span class="verse-num">5</span> Outras sementes caíram em terreno pedregoso, onde não havia muita terra. As sementes logo brotaram, porque a terra não era profunda. 
-          <span class="verse-num">6</span> Mas, quando o sol apareceu, as plantas ficaram queimadas e secaram, porque não tinham raiz. 
-          <span class="verse-num">7</span> Outras sementes caíram no meio dos espinhos. Os espinhos cresceram e sufocaram as plantas. 
-          <span class="verse-num">8</span> Outras sementes, porém, caíram em terra boa, e produziram à base de cem, de sessenta e de trinta frutos por semente. 
-          <span class="verse-num">9</span> Quem tem ouvidos, ouça!" 
-          <span class="verse-num">10</span> Os discípulos aproximaram-se e disseram a Jesus: "Por que tu falas ao povo em parábolas?" 
-          <span class="verse-num">11</span> Jesus respondeu: "Porque a vós foi dado o conhecimento dos mistérios do Reino dos Céus, mas a eles não é dado. 
-          <span class="verse-num">12</span> Pois à pessoa que tem, será dado ainda mais, e terá em abundância; mas à pessoa que não tem, será tirado até o pouco que tem. 
-          <span class="verse-num">13</span> &Eacute; por isso que eu lhes falo em parábolas: porque olhando, eles não veem, e ouvindo, eles não escutam, nem compreendem. 
-          <span class="verse-num">14</span> Desse modo se cumpre neles a profecia de Isaías: 'Havereis de ouvir, sem nada entender. Havereis de olhar, sem nada ver. 
-          <span class="verse-num">15</span> Porque o coração deste povo se tornou insensível. Eles ouviram com má vontade e fecharam seus olhos, para não ver com os olhos, nem ouvir com os ouvidos, nem compreender com o coração, de modo que se convertam e eu os cure'. 
-          <span class="verse-num">16</span> Felizes sois vós, porque vossos olhos veem e vossos ouvidos ouvem. 
-          <span class="verse-num">17</span> Em verdade vos digo, muitos profetas e justos desejaram ver o que vedes, e não viram, desejaram ouvir o que ouvis, e não ouviram. 
-          <span class="verse-num">18</span> Ouvi, portanto, a parábola do semeador: 
-          <span class="verse-num">19</span> Todo aquele que ouve a palavra do Reino e não a compreende, vem o Maligno e rouba o que foi semeado em seu coração. Este é o que foi semeado à beira do caminho. 
-          <span class="verse-num">20</span> A semente que caiu em terreno pedregoso é aquele que ouve a palavra e logo a recebe com alegria; 
-          <span class="verse-num">21</span> mas ele não tem raiz em si mesmo, é de momento: quando chega o sofrimento ou a perseguição, por causa da palavra, ele desiste logo. 
-          <span class="verse-num">22</span> A semente que caiu no meio dos espinhos é aquele que ouve a palavra, mas as preocupações do mundo e a ilusão da riqueza sufocam a palavra, e ele não dá fruto. 
-          <span class="verse-num">23</span> A semente que caiu em boa terra é aquele que ouve a palavra e a compreende. Esse produz fruto. Um dá cem, outro sessenta e outro trinta".
-        </div>
-    </div>
     <div class="gospel-link-wrapper">
       <a class="btn-source gospel-link" href="https://www.cnbb.org.br/liturgia-diaria/" target="_blank" rel="noopener noreferrer">
     Ler o Evangelho na CNBB
@@ -561,7 +525,6 @@
       <path d="M1 9L9 1M9 1H3M9 1V7"/>
     </svg>
   </a>
-      <button class="btn-gospel-toggle" onclick="toggleGospel()" aria-expanded="false" data-expand="Ler Evangelho completo" data-collapse="Recolher">Ler Evangelho completo</button>
     </div>
   </div>
 
@@ -576,9 +539,9 @@
       <div class="news-index">01</div>
       <div class="news-body">
         <div class="news-source">Vatican News</div>
-        <h3 class="news-headline">Oportunidades e catequese para jovens, uma resposta à proliferação das seitas</h3>
-        <p class="news-summary">Irmã Graça António Cuamba Guitate, FCIM  África África igreja católica Moçambique jovens movimentos eclesiais catequese Igreja e religiões Oportunidades e catequese para jovens, uma resposta à proliferação das seitas Face ao fenómeno da proliferação das seitas em Moçambique, e não só, muitos jovens deixam a Igreja para aderir a esses movimentos, quase sempre por falta de oportunidades....</p>
-        <a class="btn-source" href="https://www.vaticannews.va/pt/africa/news/2026-07/mocambique-seitas-jovens-catequese-formacao-oportunidades.html" target="_blank" rel="noopener noreferrer">
+        <h3 class="news-headline">Milhares de fiéis dão o último adeus ao P. Manuel Machate, do Clero diocesano da Beira</h3>
+        <p class="news-summary">Missa das Exéquias pelo Padre Manuel Machate Chingarara, na Paróquia do Sagrado Coração de Jesus Macúti  (@Rogério Maduca, Radio Pax (Moçambique)) África África igreja católica Moçambique morte eucaristia bispos Milhares de fiéis dão o último adeus ao P....</p>
+        <a class="btn-source" href="https://www.vaticannews.va/pt/africa/news/2026-07/arquidiocese-beira-missa-funeral-padre-machate-simples-acolhedor.html" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -606,9 +569,9 @@
       <div class="news-index">03</div>
       <div class="news-body">
         <div class="news-source">CNBB</div>
-        <h3 class="news-headline">São Bento nos convida a santificar nosso dia e oferecê-lo a Deus</h3>
-        <p class="news-summary">O arcebispo do Rio de Janeiro, cardeal Orani Tempesta, conduz no artigo uma reflexão sobre a vida e o legado de São Bento Abade, cuja memória é celebrada pela Igreja neste dia 11 de julho. São Bento é um santo conhecido popularmente por.</p>
-        <a class="btn-source" href="https://www.cnbb.org.br/sao-bento-nos-convida-a-santificar-o-nosso-dia-e-oferece-lo-a-deus/" target="_blank" rel="noopener noreferrer">
+        <h3 class="news-headline">São Bento abade ganha destaque na Igreja</h3>
+        <p class="news-summary">Cardeal Orani João Tempesta Arcebispo do Rio de Janeiro (RJ) Celebramos no dia 11 de julho a memória litúrgica de São Bento Abade, um santo conhecido popularmente por todos e que ajuda a vencer as batalhas e tentações que aparecem ao.</p>
+        <a class="btn-source" href="https://www.cnbb.org.br/sao-bento-abade-2/" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -621,9 +584,9 @@
       <div class="news-index">04</div>
       <div class="news-body">
         <div class="news-source">ACI Digital</div>
-        <h3 class="news-headline">Leão XIV almoça com 200 pessoas pobres em Castel Gandolfo</h3>
-        <p class="news-summary">O papa Leão XIV almoçou ontem com 200 pessoas em situação de vulnerabilidade, entre elas 35 crianças, no Borgo Laudato Si’, que fica nos jardins papais de Castel Gandolfo, cidade onde o papa passa alguns dias de descanso até 27 de julho.</p>
-        <a class="btn-source" href="https://www.acidigital.com/noticia/68879/leao-xiv-almoca-com-200-pessoas-pobres-em-castel-gandolfo" target="_blank" rel="noopener noreferrer">
+        <h3 class="news-headline">A linda história de amor de Luís e Zélia Martin, pais de santa Teresinha</h3>
+        <p class="news-summary">Os santos Luís e Zélia Martin, pais de santa Teresa do Menino Jesus, têm uma bela história de amor marcada pela confiança em Deus, uma intensa vida de piedade e cruz.</p>
+        <a class="btn-source" href="https://www.acidigital.com/noticia/52613/a-linda-historia-de-amor-de-luis-e-zelia-martin-pais-de-santa-teresa-do-menino-jesus" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -636,9 +599,9 @@
       <div class="news-index">05</div>
       <div class="news-body">
         <div class="news-source">ACI Digital</div>
-        <h3 class="news-headline">Sete dores que marcaram a família de santa Teresinha do Menino Jesus</h3>
-        <p class="news-summary">“Nas famílias sempre, sempre há cruz, sempre. Porque o amor de Deus, o Filho de Deus, abriu-nos também esse caminho. Mas nas famílias também depois da Cruz há Ressurreição”, assinalou o papa Francisco durante o Encontro Mundial das.</p>
-        <a class="btn-source" href="https://www.acidigital.com/noticia/52612/nao-ha-lar-sem-cruz:-sete-dores-que-marcaram-a-familia-de-santa-teresinha-do-menino-jesus" target="_blank" rel="noopener noreferrer">
+        <h3 class="news-headline">é a festa de são Luís e santa Zélia Martin, pais de santa Teresinha</h3>
+        <p class="news-summary">A Igreja celebra hoje (12) são Luís e santa Zélia Martin, pais de santa Teresa de Lisieux. Eles foram o primeiro casal a ser canonizado em uma mesma cerimônia na história da Igreja.</p>
+        <a class="btn-source" href="https://www.acidigital.com/noticia/52610/hoje-e-a-festa-dos-santos-pais-de-santa-teresinha-de-lisieux" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -651,9 +614,9 @@
       <div class="news-index">06</div>
       <div class="news-body">
         <div class="news-source">Shalom</div>
-        <h3 class="news-headline">É hoje! Festival Celebra comemora os 25 anos da Missão Shalom em Guarulhos</h3>
-        <p class="news-summary">O evento gratuito contará com Santa Missa, Adoração ao Santíssimo, shows e a presença de Moysés Azevedo e Dom Edmilson Amador Caetano.</p>
-        <a class="btn-source" href="https://comshalom.org/festival-celebra-marcara-os-25-anos-da-missao-guarulhos/" target="_blank" rel="noopener noreferrer">
+        <h3 class="news-headline">São Luis e Santa Zélia Martin: um casal santo, que foi terra fértil para uma filha santa</h3>
+        <p class="news-summary">Neste dia 12 de julho, celebramos o Santo Casal que é exemplo de santidade para toda Igreja, inspira a uma vida de oração na família, local onde são formados os santos.</p>
+        <a class="btn-source" href="https://comshalom.org/sao-luis-santa-zelia-um-casal-santo/" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -665,10 +628,10 @@
     <article class="news-item reveal">
       <div class="news-index">07</div>
       <div class="news-body">
-        <div class="news-source">Shalom</div>
-        <h3 class="news-headline">A parábola do semeador generoso: oração e virtudes cardeais em três terrenos</h3>
-        <p class="news-summary">José Ricardo Bezerra e Felipe Bezerra Neste 15º Domingo do Tempo Comum (Ano A) entramos no capítulo 13 de Mateus, o grande discurso das parábolas de Jesus. O Evangelho de hoje na sua versão mais longa (Mt 13,1-23), traz a parábola do.</p>
-        <a class="btn-source" href="https://comshalom.org/a-parabola-do-semeador-generoso-oracao-e-virtudes-cardeais-em-tres-terrenos/" target="_blank" rel="noopener noreferrer">
+        <div class="news-source">Gaudium Press</div>
+        <h3 class="news-headline">Madri: uma igreja que abre as portas de madrugada</h3>
+        <p class="news-summary">Histórias de vícios, solidão e busca por Deus se entrelaçam todo fim de semana em uma paróquia de Madri, Espanha, que decidiu permanecer aberta justamente quando mais pessoas precisam encontrar uma porta aberta. Igreja de San Ildefonso e.</p>
+        <a class="btn-source" href="https://gaudiumpress.org/content/madri-uma-igreja-que-abre-as-portas-de-madrugada/" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
