@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Notícias Católicas - 11 de julho de 2026 · 2ª edição - @ilustre.ai</title>
+<title>Notícias Católicas - 12 de julho de 2026 · 1ª edição - @ilustre.ai</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=EB+Garamond:wght@500;600&family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -16,7 +16,7 @@
     --navy: #1C2B4A;
     --mist: #E8E2D8;
     --rule: rgba(184,148,63,0.35);
-    --liturgical-color: #FFFFFF;
+    --liturgical-color: #2E7D32;
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -103,6 +103,12 @@
   .hero.scrolled {
     background: var(--liturgical-color);
   }
+  .masthead.scrolled, .hero.scrolled, .liturgy-strip {
+    background-image: linear-gradient(rgba(255,255,255,0.08), rgba(0,0,0,0.08)), url('/assets/liturgical-linen.png');
+    background-position: center, center;
+    background-size: auto, 420px auto;
+    background-blend-mode: soft-light;
+  }
   .hero-content { max-width: 900px; margin: 0 auto; }
   .hero-title {
     font-family: 'Playfair Display', serif;
@@ -118,7 +124,7 @@
   }
 
   .liturgy-strip {
-    background: var(--liturgical-color);
+    background-color: var(--liturgical-color);
     padding: 0 24px;
     box-shadow: inset 0 1px 0 rgba(0,0,0,0.06), inset 0 -1px 0 rgba(0,0,0,0.06);
   }
@@ -444,12 +450,12 @@
 </style>
 </head>
 <body>
-<header class="masthead liturgy-light">
+<header class="masthead">
   <div class="masthead-inner">
     <a class="masthead-brand" href="#">newsletter &bull; ilustre.ai</a>
     <div style="display:flex;align-items:center;gap:14px;width:100%">
-      <span class="masthead-date">11 de julho de 2026 · 2ª edição</span>
-      <span class="masthead-edition">2°ed</span>
+      <span class="masthead-date">12 de julho de 2026 · 1ª edição</span>
+      <span class="masthead-edition">1°ed</span>
     </div>
   </div>
 </header>
@@ -460,15 +466,15 @@
   </div>
 </section>
 
-<div class="liturgy-strip liturgy-light">
+<div class="liturgy-strip">
   <div class="liturgy-inner">
     <div class="liturgy-cell">
       <div class="liturgy-label">Tempo Litúrgico</div>
-      <div class="liturgy-value gold">São Bento, abade</div>
+      <div class="liturgy-value gold">Domingo 15 do Tempo Comum</div>
     </div>
     <div class="liturgy-cell">
       <div class="liturgy-label">Evangelho do Dia</div>
-      <div class="liturgy-value">Mt 10,24-33</div>
+      <div class="liturgy-value">Mt 13,1-23 ou mais breve 13,1-9</div>
     </div>
   </div>
 </div>
@@ -480,10 +486,10 @@
   </div>
 
   <div class="saint-card">
-    <h2 class="saint-name">São Bento, vida de oração e meditação</h2>
-    <p class="saint-bio">Celebração litúrgica do dia: São Bento, abade.</p>
+    <h2 class="saint-name">São João Gualberto, herói do perdão</h2>
+    <p class="saint-bio">Celebração litúrgica do dia: Domingo XV do Tempo Comum.</p>
 
-    <a class="saint-more-link" href="https://santo.cancaonova.com/santo/sao-bento-vida-de-oracao-e-meditacao1/" target="_blank" rel="noopener noreferrer">
+    <a class="saint-more-link" href="https://santo.cancaonova.com/santo/sao-joao-gualberto-heroi-do-perdao/" target="_blank" rel="noopener noreferrer">
       Saiba mais na Canção Nova
       <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
         <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -497,11 +503,11 @@
   </div>
 
   <div class="gospel-card">
-    <div class="gospel-ref">Evangelho de Jesus Cristo segundo Mateus (Mt 10,24-33)</div>
+    <div class="gospel-ref">Evangelho de Jesus Cristo segundo Mateus (Mt 13,1-23 ou mais breve 13,1-9)</div>
     <p class="gospel-text">
-      <span class="gospel-line">Naquele tempo, disse Jesus aos seus discípulos: &quot;O discípulo não está acima do mestre, nem o servo acima do seu senhor.</span>
-      <span class="gospel-line">Pelo contrário, temei aquele que pode destruir a alma e o corpo no inferno!</span>
-      <span class="gospel-line">Aquele, porém, que me negar diante dos homens, também eu o negarei diante do meu Pai que está nos céus&quot;.</span>
+      <span class="gospel-line">Naquele dia, Jesus saiu de casa e foi sentar-se às margens do mar da Galileia.</span>
+      <span class="gospel-line">&amp;Eacute; por isso que eu lhes falo em parábolas: porque olhando, eles não veem, e ouvindo, eles não escutam, nem compreendem.</span>
+      <span class="gospel-line">Um dá cem, outro sessenta e outro trinta&quot;.</span>
     </p>
     <div class="gospel-link-wrapper">
       <a class="btn-source gospel-link" href="https://www.cnbb.org.br/liturgia-diaria/" target="_blank" rel="noopener noreferrer">
@@ -539,9 +545,9 @@
       <div class="news-index">02</div>
       <div class="news-body">
         <div class="news-source">Vatican News</div>
-        <h3 class="news-headline">Santa Sé: indicadores econômicos considerem as vulnerabilidades dos Estados</h3>
-        <p class="news-summary">Adotar uma abordagem de desenvolvimento humano verdadeiramente integral, em vez de se limitar a meras estatísticas econômicas. Essa é a orientação da Santa Sé expressa na declaração da Missão do observador permanente junto às Nações Unidas por ocasião do debate do Fórum Político de Alto Nível sobre os Pequenos Estados Insulares em Desenvolvimento, realizado em Nova York no dia 9 de julho....</p>
-        <a class="btn-source" href="https://www.vaticannews.va/pt/vaticano/news/2026-07/observador-onu-pequenos-estados-insulares-em-desenvolvimento.html" target="_blank" rel="noopener noreferrer">
+        <h3 class="news-headline">Milhares de fiéis dão o último adeus ao P. Manuel Machate, do Clero diocesano da Beira</h3>
+        <p class="news-summary">O Bispo de Caia e Administrador Apostólico da Arquidiocese da Beira, Dom António Constantino, foi quem presidiu à Missa de corpo presente, na qual concelebraram vários sacerdotes, com a presença de autoridades civis e religiosas. Homem simples, afável e acolhedor, foi desta maneira que o presidente da celebração descreveu o Padre Machate, ressaltando ainda o seu gosto pelo canto....</p>
+        <a class="btn-source" href="https://www.vaticannews.va/pt/africa/news/2026-07/arquidiocese-beira-missa-funeral-padre-machate-simples-acolhedor.html" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -554,7 +560,7 @@
       <div class="news-index">03</div>
       <div class="news-body">
         <div class="news-source">CNBB</div>
-        <h3 class="news-headline">São Bento ganha destaque na Igreja</h3>
+        <h3 class="news-headline">São Bento nos convida a santificar nosso dia e oferecê-lo a Deus</h3>
         <p class="news-summary">O arcebispo do Rio de Janeiro, cardeal Orani Tempesta, conduz no artigo uma reflexão sobre a vida e o legado de São Bento Abade, cuja memória é celebrada pela Igreja neste dia 11 de julho. São Bento é um santo conhecido popularmente por.</p>
         <a class="btn-source" href="https://www.cnbb.org.br/sao-bento-nos-convida-a-santificar-o-nosso-dia-e-oferece-lo-a-deus/" target="_blank" rel="noopener noreferrer">
           Ler na fonte
@@ -568,10 +574,10 @@
     <article class="news-item reveal">
       <div class="news-index">04</div>
       <div class="news-body">
-        <div class="news-source">Aleteia</div>
-        <h3 class="news-headline">Você sabe quem foi o primeiro santo canonizado por um papa?</h3>
-        <p class="news-summary">São Ulrico foi um príncipe-bispo de Augsburgo do século X no Sacro Império Romano-Germânico que se distingue por ser o primeiro santo canonizado por um papa. Como foi isso? Como muitos santos, Ulrico levou uma vida exemplar dedicada à.</p>
-        <a class="btn-source" href="https://pt.aleteia.org/2026/07/10/voce-sabe-quem-foi-o-primeiro-santo-canonizado-por-um-papa/" target="_blank" rel="noopener noreferrer">
+        <div class="news-source">Shalom</div>
+        <h3 class="news-headline">São Luis e Santa Zélia Martin: um casal santo, que foi terra fértil para uma filha santa</h3>
+        <p class="news-summary">Neste dia 12 de julho, celebramos o Santo Casal que é exemplo de santidade para toda Igreja, inspira a uma vida de oração na família, local onde são formados os santos.</p>
+        <a class="btn-source" href="https://comshalom.org/sao-luis-santa-zelia-um-casal-santo/" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -583,10 +589,10 @@
     <article class="news-item reveal">
       <div class="news-index">05</div>
       <div class="news-body">
-        <div class="news-source">ACI Digital</div>
-        <h3 class="news-headline">Dia do Católico em Recife terá shows, oração e adoração ao Santíssimo</h3>
-        <p class="news-summary">A 4ª edição do Dia do Católico, em Recife (PE), acontece no domingo (12), a partir das 10h, no Clube Internacional do Recife. Com entrada gratuita, o evento promovido pela Comunidade Católica Santo Angelus terá shows de artistas.</p>
-        <a class="btn-source" href="https://www.acidigital.com/noticia/68869/dia-do-catolico-em-recife-tera-shows-oracao-e-adoracao-ao-santissimo" target="_blank" rel="noopener noreferrer">
+        <div class="news-source">Shalom</div>
+        <h3 class="news-headline">15 conteúdos especiais sobre a Vocação Shalom para você</h3>
+        <p class="news-summary">Quer conhecer mais a Vocação Shalom? Então, confere estes conteúdos especiais que nós reunimos para você! Aproveite para partilhar com seus irmãos de célula ou grupo de oração! Caso você ainda não faça parte de um grupo de oração, procura o Shalom mais perto de vocês: Onde tem Shalom? 12 – Shalom assume Centro Internacional Juvenil São Lourenço (Roma) 15 – Dedicação da Igreja do Ressuscitado que passou pela Cruz</p>
+        <a class="btn-source" href="https://comshalom.org/20-conteudos-especiais-sobre-a-vocacao-shalom/" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -599,9 +605,9 @@
       <div class="news-index">06</div>
       <div class="news-body">
         <div class="news-source">ACI Digital</div>
-        <h3 class="news-headline">Dioceses brasileiras orientam fiéis a não participar de celebrações da FSSPX</h3>
-        <p class="news-summary">A arquidiocese do Rio de Janeiro (RJ) e a diocese de Campanha (MG) orientaram os fiéis a não participarem de encontros e celebrações da Fraternidade Sacerdotal São Pio X (FSSPX), depois que a Santa Sé declarou que a fraternidade entrou em.</p>
-        <a class="btn-source" href="https://www.acidigital.com/noticia/68863/dioceses-brasileiras-orientam-fieis-a-nao-participar-de-celebracoes-da-fsspx" target="_blank" rel="noopener noreferrer">
+        <h3 class="news-headline">santa Verônica, em cujo véu ficou estampado o rosto de Cristo</h3>
+        <p class="news-summary">Santa Verônica foi a mulher que teve um gesto misericordioso com Cristo durante seu caminho ao Monte Calvário ao enxugar seu rosto cheio de sangue e suor com um véu que passou à história como relíquia por levar impresso a face do Messias.</p>
+        <a class="btn-source" href="https://www.acidigital.com/noticia/52611/igreja-celebra-hoje-santa-veronica-em-cujo-veu-ficou-estampado-o-rosto-de-cristo" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -613,10 +619,10 @@
     <article class="news-item reveal">
       <div class="news-index">07</div>
       <div class="news-body">
-        <div class="news-source">CNBB</div>
-        <h3 class="news-headline">O Círio como luz de fé e unidade no Rio de Janeiro</h3>
-        <p class="news-summary">Cardeal Orani João Tempesta Arcebispo do Rio de Janeiro (RJ) Com o coração profundamente comovido e transbordando de gratidão ao Pai Celeste, saúdo a todos os fiéis, sacerdotes, religiosos e cidadãos de boa vontade de nossa querida.</p>
-        <a class="btn-source" href="https://www.cnbb.org.br/o-cirio-como-luz-de-fe-e-unidade-no-rio-de-janeiro/" target="_blank" rel="noopener noreferrer">
+        <div class="news-source">ACI Digital</div>
+        <h3 class="news-headline">é festa de são Bento, padroeiro da Europa e patriarca dos monges do Ocidente</h3>
+        <p class="news-summary">“Ora et labora” (orar e trabalhar) é o famoso lema do grande são Bento abade, padroeiro da Europa e patriarca dos monges do Ocidente. Por seu legado e influência, segue sendo um dos santos mais venerados de toda a cristandade e sua festa.</p>
+        <a class="btn-source" href="https://www.acidigital.com/noticia/52606/hoje-e-festa-de-sao-bento-padroeiro-da-europa-e-patriarca-dos-monges-do-ocidente" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -628,8 +634,8 @@
 
   <aside class="closing-quote">
     <div class="closing-quote-label">Para guardar hoje</div>
-    <p class="closing-quote-text">Escuta, filho, os preceitos do mestre e inclina o coração.</p>
-    <p class="closing-quote-source">São Bento</p>
+    <p class="closing-quote-text">Que a caridade do santo do dia nos ensine a viver a fé com mais simplicidade e entrega.</p>
+    <p class="closing-quote-source">São João Gualberto, herói do perdão</p>
     <button class="story-download" type="button" id="download-story-quote">Baixar para Stories</button>
     <p class="story-hint">Não funcionou? Toque em <span class="three-dots">&#x22EE;</span> e selecione <strong>Abrir no Chrome</strong></p>
   </aside>
@@ -646,7 +652,7 @@
   <p class="footer-sub">Arte sacra e evangelização digital</p>
   <a class="footer-link" href="https://www.instagram.com/ilustre.ai" target="_blank" rel="noopener noreferrer">
     Instagram · @ilustre.ai
-  </a>
+  </a>
 </footer>
 
 <script>
