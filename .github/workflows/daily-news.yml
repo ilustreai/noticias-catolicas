@@ -66,6 +66,8 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: publish 1a edicao $(date -u +%Y-%m-%d)"
           git push
         shell: bash
+      - name: Verify public site
+        shell: bash
         run: |
           for attempt in {1..12}; do
             html="$(curl -fsSL https://noticias.ilustreai.com.br/ || true)"
