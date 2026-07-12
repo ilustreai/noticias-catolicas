@@ -256,14 +256,9 @@ function rankCandidates(candidates, today) {
 }
 
 function pickClosingQuote(liturgy) {
-  const saintQuote = liturgy?.closingQuote;
-  if (saintQuote?.text && saintQuote?.source && saintQuote.source !== 'Evangelho do Dia') return saintQuote;
-
-  return {
-    text: 'Fazei tudo por amor.',
-    source: 'São Francisco de Sales',
-    reason: 'Fallback quote real quando o cache liturgico nao traz frase propria do santo.'
-  };
+  const q = liturgy?.closingQuote;
+  if (q?.text && q?.source && q.source !== 'Evangelho do Dia') return q;
+  return { text: 'Fazei tudo por amor.', source: 'São Francisco de Sales' };
 }
 
 function likelyArticleUrl(url) {
