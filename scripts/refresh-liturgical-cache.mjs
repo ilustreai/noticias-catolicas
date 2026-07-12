@@ -301,23 +301,7 @@ function extractKeyLines(text) {
   clean = clean.replace(/\s*Palavra da Salvação[\s\S]*$/, '').trim();
   const sentences = clean.split(/(?<=[\.!?])\s+/).filter(s => s.trim().length > 30);
   const cleaned = sentences.map(s => cleanGospelLine(s));
-  if (cleaned.length >= 3) {
-    return [
-      cleaned[0],
-      cleaned[Math.floor(cleaned.length / 2)],
-      cleaned[cleaned.length - 1],
-    ];
-  }
-  if (cleaned.length > 0) {
-    const result = cleaned.map(s => s);
-    while (result.length < 3) result.push(result[result.length - 1]);
-    return result.slice(0, 3);
-  }
-  return [
-    'A liturgia de hoje nos convida à escuta da Palavra de Deus.',
-    'Cristo nos ensina o caminho da verdadeira felicidade.',
-    'Que a mensagem do Evangelho transforme nossos corações.'
-  ];
+  return cleaned.slice(0, 7);
 }
 
 // ---- Canção Nova Saints ----
@@ -374,6 +358,8 @@ function defaultGospel(dateStr) {
       'A liturgia de hoje nos convida à escuta da Palavra de Deus.',
       'Cristo nos ensina o caminho da verdadeira felicidade.',
       'Que a mensagem do Evangelho transforme nossos corações.',
+      'A Palavra de Deus é viva e eficaz, capaz de transformar os corações.',
+      'Escutemos com atenção a mensagem que o Senhor nos dirige hoje.',
     ],
     keyVerse: '',
   };

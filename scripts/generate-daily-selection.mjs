@@ -584,6 +584,15 @@ function deterministicSelection(candidates, previousUrls, previousTitles) {
   pickByKind(pool, 'vatican', 2, selected, sourceCounts, topicCounts);
   pickByKind(pool, 'brazil', 1, selected, sourceCounts, topicCounts);
   pickByKind(pool, 'trusted', 2, selected, sourceCounts, topicCounts);
+  if (selected.filter((c) => c.kind === 'vatican').length < 2) {
+    pickByKind(candidates, 'vatican', 2, selected, sourceCounts, topicCounts);
+  }
+  if (selected.filter((c) => c.kind === 'brazil').length < 1) {
+    pickByKind(candidates, 'brazil', 1, selected, sourceCounts, topicCounts);
+  }
+  if (selected.filter((c) => c.kind === 'trusted').length < 2) {
+    pickByKind(candidates, 'trusted', 2, selected, sourceCounts, topicCounts);
+  }
   for (const item of pool) {
     if (selected.length >= 7) break;
     if (selected.includes(item)) continue;

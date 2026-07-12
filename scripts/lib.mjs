@@ -305,9 +305,10 @@ function cleanGospelLine(line) {
 }
 
 function renderGospelLines(lines) {
-  return lines
+  const result = lines.slice(0, 7)
     .map((line) => `<span class="gospel-line">${escapeHtml(cleanGospelLine(line))}</span>`)
     .join('\n      ');
+  return result + '\n      <span class="gospel-line gospel-ellipsis">...</span>';
 }
 
 function renderGospelLink() {
