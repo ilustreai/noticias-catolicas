@@ -201,6 +201,18 @@ const candidatePath = path.join(outputDir, 'index.candidate.html');
 const indexPath = path.join(outputDir, 'index.html');
 const archivePath = path.join(outputDir, `${selection.date}.html`);
 
+const assetsDir = path.join(rootDir, 'assets');
+const publicAssetsDir = path.join(outputDir, 'assets');
+if (fs.existsSync(assetsDir)) {
+  fs.mkdirSync(publicAssetsDir, { recursive: true });
+  fs.readdirSync(assetsDir).forEach((file) => {
+    const src = path.join(assetsDir, file);
+    if (fs.statSync(src).isFile()) {
+      fs.copyFileSync(src, path.join(publicAssetsDir, file));
+    }
+  });
+}
+
 writeFileEnsured(candidatePath, publicHtml);
 fs.copyFileSync(candidatePath, indexPath);
 fs.copyFileSync(candidatePath, archivePath);
