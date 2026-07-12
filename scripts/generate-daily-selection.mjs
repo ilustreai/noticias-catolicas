@@ -256,24 +256,15 @@ function rankCandidates(candidates, today) {
 }
 
 function pickClosingQuote(liturgy) {
-  const saintName = normalize(liturgy?.saint?.name);
   const saintQuote = liturgy?.closingQuote;
   if (saintQuote?.text && saintQuote?.source && saintQuote.source !== 'Evangelho do Dia') return saintQuote;
-
-  if (saintName) {
-    return {
-      text: 'Que a caridade do santo do dia nos ensine a viver a fé com mais simplicidade e entrega.',
-      source: liturgy?.saint?.name || 'Santo do dia',
-      reason: 'Fallback ligado ao santo do dia quando o cache liturgico nao traz uma frase propria.'
-    };
-  }
 
   const gospelShort = liturgy?.gospel?.ref || liturgy?.liturgical?.gospelShort || '';
   if (gospelShort) {
     return {
       text: 'Que o Evangelho de hoje nos conduza a uma vida mais fiel, mais serena e mais convertida.',
       source: gospelShort,
-      reason: 'Fallback ligado ao evangelho quando o santo do dia nao fornece frase propria.'
+      reason: 'Fallback ligado ao evangelho quando o cache liturgico nao traz frase propria.'
     };
   }
 
