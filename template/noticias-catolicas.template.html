@@ -387,6 +387,17 @@
     color: white;
     text-decoration: none;
   }
+  .back-to-top {
+    position: fixed; bottom: 28px; right: 28px; z-index: 100;
+    width: 44px; height: 44px; border-radius: 50%;
+    background: rgba(26,20,16,0.55); border: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0; visibility: hidden;
+    transition: opacity 0.35s, visibility 0.35s, background 0.25s;
+  }
+  .back-to-top.visible { opacity: 1; visibility: visible; }
+  .back-to-top:hover { background: rgba(26,20,16,0.75); }
+  .back-to-top svg { width: 20px; height: 20px; stroke: #fff; stroke-width: 2.2; fill: none; stroke-linecap: round; }
   .view-counter {
     margin-top: 18px;
     font-family: 'Inter', sans-serif;
@@ -515,6 +526,9 @@
     <strong id="edition-view-count">1</strong> Leituras hoje
   </p>
 </footer>
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+  <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
 <script>
   (function () {
     var counter = document.getElementById('edition-view-count');
@@ -556,6 +570,16 @@
       reveals.forEach(function (el) { revealObserver.observe(el); });
     } else {
       reveals.forEach(function (el) { el.classList.add('visible'); });
+    }
+
+    var btn = document.getElementById('backToTop');
+    if (btn) {
+      var scrollHandler = function () {
+        btn.classList.toggle('visible', window.scrollY > 300);
+      };
+      window.addEventListener('scroll', scrollHandler, { passive: true });
+      scrollHandler();
+      btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
     }
   })();
 </script>

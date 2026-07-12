@@ -316,8 +316,16 @@ function renderGospelLink() {
 }
 
 function simplifyGospelRef(ref) {
-  const body = ref.includes(':') ? ref.split(':').slice(1).join(':').trim() : ref.trim();
-  return body.replace(/,\s*(segunda|terça|quarta|quinta|sexta|sábado|domingo)-feira.*$/, '');
+  if (!ref) return '';
+  const parens = ref.match(/\(([^)]+)\)/);
+  if (parens) return parens[1].replace(/ ou mais breve.*$/, '').trim();
+  const clean = ref.split(' - ')[0].trim();
+  const match = clean.match(/^([A-Za-zçã]+)\s+([\d,;\s-]+)$/);
+  if (match) {
+    const abbr = { 'mateus':'Mt','marcos':'Mc','lucas':'Lc','joão':'Jo','atos':'At' };
+    return (abbr[match[1].toLowerCase()] || match[1]) + ' ' + match[2];
+  }
+  return ref.trim();
 }
 
 function isLightColor(hex) {
