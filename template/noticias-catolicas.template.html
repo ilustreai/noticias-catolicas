@@ -66,13 +66,13 @@
     padding: 14px 24px 18px;
   }
   .masthead-brand {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    color: var(--gold);
+    text-transform: uppercase;
     text-decoration: none;
-    line-height: 0;
-  }
-  .masthead-logo {
-    height: 32px;
-    width: auto;
-    display: block;
   }
   .masthead-date {
     font-family: 'Inter', sans-serif;
@@ -437,9 +437,7 @@
 <body>
 <header class="masthead{{LITURGICAL_TEXT_MODIFIER}}">
   <div class="masthead-inner">
-    <a class="masthead-brand" href="https://ilustreai.com.br" target="_blank" rel="noopener noreferrer">
-      <img src="assets/logo-ilustreai.png" alt="ilustre.ai" class="masthead-logo">
-    </a>
+    <a class="masthead-brand" href="#">newsletter &bull; ilustre.ai</a>
     <span class="masthead-date">{{EDITION_LABEL}}</span>
   </div>
 </header>
