@@ -347,6 +347,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{LITURGICAL_SEASON}}': liturgicalDisplayTitle(selection.liturgical),
     '{{GOSPEL_SHORT}}': selection.liturgical.gospelShort,
     '{{EDITION_LABEL}}': selection.editionLabel,
+    '{{EDITION_DATE_LABEL}}': selection.editionLabel.replace(/ · \d+[ª°] edição$/, ''),
     '{{EDITION_TAG}}': editionTag(selection.editionLabel),
     '{{SAINT_NAME}}': selection.saint.name,
     '{{SAINT_DESCRIPTION}}': selection.saint.description,
