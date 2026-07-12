@@ -255,6 +255,18 @@ function rankCandidates(candidates, today) {
   });
 }
 
+const rootCurated = path.join(rootDir, 'data', 'curated-saints.json');
+const curatedSaints = fs.existsSync(rootCurated)
+  ? JSON.parse(fs.readFileSync(rootCurated, 'utf8')).entries ?? {}
+  : {};
+
+function applyCuratedData(date, liturgy) {
+  const day = curatedSaints[date];
+  if (!day) return;
+  if (day.saint && liturgy.saint) Object.assign(liturgy.saint, day.saint);
+  if (day.closingQuote) liturgy.closingQuote = day.closingQuote;
+}
+
 function pickClosingQuote(liturgy) {
   const q = liturgy?.closingQuote;
   if (q?.text && q?.source && q.source !== 'Evangelho do Dia') return q;
@@ -827,6 +839,8 @@ async function main() {
   if (!liturgy || liturgy.status !== 'complete') {
     throw new Error(`No complete liturgical cache for ${date}`);
   }
+
+  applyCuratedData(date, liturgy);
 
   const sources = readJson(path.join(rootDir, 'data', 'news-sources.json'));
   const fetched = (await Promise.all(sources.map(fetchSource))).flat();

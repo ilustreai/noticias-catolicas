@@ -1,0 +1,170 @@
+{
+  "description": "Curadoria manual de santos, frases e evangelhos. Pesquisado conforme regras: fontes católicas confiáveis, frases comprovadas, sem invenções. Atualizado dois dias antes de cada mês.",
+  "sources": "Vatican News (santo do dia), CNBB (liturgia), obras originais dos santos (frases). Ver Fontes consultadas em AGENTS.md para detalhes.",
+  "entries": {
+    "2026-07-12": {
+      "saint": {
+        "name": "15º Domingo do Tempo Comum",
+        "feast": "15º Domingo do Tempo Comum - 12 de Julho",
+        "description": "Domingo XV do Tempo Comum. A liturgia nos apresenta a parábola do semeador, que nos convida a acolher a Palavra de Deus em terra boa."
+      },
+      "closingQuote": {
+        "text": "Semente é de Deus a Palavra, o Cristo é o semeador; todo aquele que o encontra, vida eterna encontrou!",
+        "source": "Evangelho do Dia"
+      }
+    },
+    "2026-07-13": {
+      "saint": {
+        "name": "S. Henrique II",
+        "feast": "S. Henrique II - 13 de Julho",
+        "description": "Imperador do Sacro Império Romano-Germânico (973-1024), dedicou sua vida a fortalecer a Igreja e o seu reino. Exemplo de retidão no governo."
+      }
+    },
+    "2026-07-14": {
+      "saint": {
+        "name": "S. Camilo de Lellis",
+        "feast": "S. Camilo de Lellis - 14 de Julho",
+        "description": "Fundador dos Ministros dos Enfermos (Camilianos), viu em cada doente o rosto de Cristo. Padroeiro dos hospitais e profissionais da saúde."
+      }
+    },
+    "2026-07-15": {
+      "saint": {
+        "name": "S. Boaventura",
+        "feast": "S. Boaventura - 15 de Julho",
+        "description": "Bispo, cardeal e doutor da Igreja, o 'Doutor Seráfico' foi um dos maiores teólogos franciscanos, contemporâneo e amigo de Santo Tomás de Aquino."
+      },
+      "closingQuote": {
+        "text": "Não basta a leitura sem a unção, não basta a especulação sem a devoção, não basta a pesquisa sem maravilhar-se",
+        "source": "S. Boaventura"
+      }
+    },
+    "2026-07-16": {
+      "saint": {
+        "name": "Nossa Senhora do Carmo",
+        "feast": "Nossa Senhora do Carmo - 16 de Julho",
+        "description": "Festa litúrgica em honra da Bem-aventurada Virgem Maria do Monte Carmelo, lembrando sua proteção maternal e a tradição do Escapulário."
+      },
+      "closingQuote": {
+        "text": "Faça-se em mim segundo a tua palavra",
+        "source": "Lc 1,38"
+      }
+    },
+    "2026-07-17": {
+      "saint": {
+        "name": "B. Inácio de Azevedo e companheiros mártires",
+        "feast": "B. Inácio de Azevedo e comp. mártires - 17 de Julho",
+        "description": "Presbítero jesuíta e 39 companheiros martirizados a caminho do Brasil em 1570. Regaram com sangue as primeiras sementes do Evangelho na Terra de Santa Cruz."
+      }
+    },
+    "2026-07-18": {
+      "saint": {
+        "name": "Sábado da 15ª Semana do Tempo Comum",
+        "feast": "15ª Semana do Tempo Comum - Sábado",
+        "description": "Sábado da décima quinta semana do Tempo Comum."
+      }
+    },
+    "2026-07-19": {
+      "saint": {
+        "name": "16º Domingo do Tempo Comum",
+        "feast": "16º Domingo do Tempo Comum - 19 de Julho",
+        "description": "Domingo XVI do Tempo Comum. A liturgia nos ensina, com a parábola do trigo e do joio, a paciência de Deus que aguarda a conversão de todos."
+      }
+    },
+    "2026-07-20": {
+      "saint": {
+        "name": "S. Apolinário",
+        "feast": "S. Apolinário - 20 de Julho",
+        "description": "Bispo de Ravena e mártir do século II, evangelizou a cidade e sofreu múltiplos martírios por sua fé, sendo venerado como padroeiro da arquidiocese."
+      }
+    },
+    "2026-07-21": {
+      "saint": {
+        "name": "S. Lourenço de Brindisi",
+        "feast": "S. Lourenço de Brindisi - 21 de Julho",
+        "description": "Frade capuchinho, pregador e doutor da Igreja (Doctor Apostolicus). Destacou-se pelo conhecimento das Escrituras e pela defesa da fé católica."
+      }
+    },
+    "2026-07-22": {
+      "saint": {
+        "name": "Santa Maria Madalena",
+        "feast": "Santa Maria Madalena - 22 de Julho",
+        "description": "Discípula fiel de Jesus, testemunha da ressurreição e primeira anunciadora do Cristo ressuscitado. Sua festa é celebrada como Festa no calendário romano."
+      },
+      "closingQuote": {
+        "text": "Eu vi o Senhor!",
+        "source": "Jo 20,18"
+      }
+    },
+    "2026-07-23": {
+      "saint": {
+        "name": "S. Brígida de Suécia",
+        "feast": "S. Brígida de Suécia - 23 de Julho",
+        "description": "Mística, esposa, mãe e fundadora da Ordem do Santíssimo Salvador. Recebeu revelações celestes e é copadroeira da Europa."
+      }
+    },
+    "2026-07-24": {
+      "saint": {
+        "name": "S. Charbel Makhlouf",
+        "feast": "S. Charbel Makhlouf - 24 de Julho",
+        "description": "Monge e eremita da Igreja Maronita, conhecido por sua vida de intensa oração e penitência. Seu túmulo é destino de peregrinações e numerosos milagres."
+      }
+    },
+    "2026-07-25": {
+      "saint": {
+        "name": "São Tiago, Apóstolo",
+        "feast": "São Tiago, Apóstolo - 25 de Julho",
+        "description": "Filho de Zebedeu e irmão de São João Evangelista, foi o primeiro apóstolo a derramar o sangue pelo testemunho de Cristo. Padroeiro da Espanha."
+      }
+    },
+    "2026-07-26": {
+      "saint": {
+        "name": "17º Domingo do Tempo Comum",
+        "feast": "17º Domingo do Tempo Comum - 26 de Julho",
+        "description": "Domingo XVII do Tempo Comum. O Evangelho nos fala do tesouro escondido e da pérola preciosa, convidando-nos a dar tudo pelo Reino dos Céus."
+      }
+    },
+    "2026-07-27": {
+      "saint": {
+        "name": "S. Pantaleão",
+        "feast": "S. Pantaleão - 27 de Julho",
+        "description": "Médico e mártir do século IV, venerado como um dos catorze santos auxiliares. Sofreu o martírio em Nicomédia durante a perseguição de Diocleciano."
+      }
+    },
+    "2026-07-28": {
+      "saint": {
+        "name": "Terça-feira da 17ª Semana do Tempo Comum",
+        "feast": "17ª Semana do Tempo Comum - Terça-feira",
+        "description": "Terça-feira da décima sétima semana do Tempo Comum."
+      }
+    },
+    "2026-07-29": {
+      "saint": {
+        "name": "Santos Marta, Maria e Lázaro",
+        "feast": "Santos Marta, Maria e Lázaro - 29 de Julho",
+        "description": "Amigos e hospedeiros de Jesus em Betânia. Marta, com sua profissão de fé, e Maria, aos pés do Mestre, são modelos de acolhida e contemplação."
+      },
+      "closingQuote": {
+        "text": "Sim, Senhor, eu creio firmemente que tu és o Messias, o Filho de Deus, que devia vir ao mundo.",
+        "source": "Jo 11,27"
+      }
+    },
+    "2026-07-30": {
+      "saint": {
+        "name": "S. Pedro Crisólogo",
+        "feast": "S. Pedro Crisólogo - 30 de Julho",
+        "description": "Bispo de Ravena e doutor da Igreja (século V), chamado 'Crisólogo' (palavra de ouro) por sua eloquente pregação. Defensor da doutrina cristã."
+      }
+    },
+    "2026-07-31": {
+      "saint": {
+        "name": "Santo Inácio de Loyola",
+        "feast": "Santo Inácio de Loyola - 31 de Julho",
+        "description": "Fundador da Companhia de Jesus (Jesuítas), autor dos Exercícios Espirituais. Grande missionário e mestre de vida espiritual."
+      },
+      "closingQuote": {
+        "text": "O amor consiste mais em obras do que em palavras.",
+        "source": "Santo Inácio de Loyola"
+      }
+    }
+  }
+}
