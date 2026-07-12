@@ -21,8 +21,6 @@ concurrency:
 
 jobs:
   build:
-    environment:
-      name: production
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
