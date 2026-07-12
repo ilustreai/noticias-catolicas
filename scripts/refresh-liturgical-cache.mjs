@@ -290,9 +290,9 @@ async function fetchCNGospelFromUrl(url) {
   const bookName = bookMap[bookAbbr] || bookAbbr;
   const fullRef = `Evangelho de Jesus Cristo segundo ${bookName} (${gospelRef})`;
 
-  const verses = extractKeyLines(gospelText);
+  const { verses, body } = extractKeyLines(gospelText);
 
-  return { ref: fullRef, short: gospelRef, lines: verses, fullText: gospelText, keyVerse: keyVerse };
+  return { ref: fullRef, short: gospelRef, lines: verses, body, keyVerse: keyVerse };
 }
 
 function extractKeyLines(text) {
@@ -301,7 +301,7 @@ function extractKeyLines(text) {
   clean = clean.replace(/\s*Palavra da Salvação[\s\S]*$/, '').trim();
   const sentences = clean.split(/(?<=[\.!?])\s+/).filter(s => s.trim().length > 30);
   const cleaned = sentences.map(s => cleanGospelLine(s));
-  return cleaned.slice(0, 7);
+  return { verses: cleaned.slice(0, 7), body: clean };
 }
 
 // ---- Canção Nova Saints ----
@@ -361,6 +361,7 @@ function defaultGospel(dateStr) {
       'A Palavra de Deus é viva e eficaz, capaz de transformar os corações.',
       'Escutemos com atenção a mensagem que o Senhor nos dirige hoje.',
     ],
+    body: '1 A liturgia de hoje nos convida à escuta da Palavra de Deus. 2 Cristo nos ensina o caminho da verdadeira felicidade. 3 Que a mensagem do Evangelho transforme nossos corações. 4 A Palavra de Deus é viva e eficaz, capaz de transformar os corações. 5 Escutemos com atenção a mensagem que o Senhor nos dirige hoje.',
     keyVerse: '',
   };
 }
@@ -447,6 +448,7 @@ async function main() {
       gospel: {
         ref: gospel.ref,
         lines: gospel.lines,
+        body: gospel.body || '',
         keyVerse: gospel.keyVerse || '',
       },
       closingQuote: quote,
@@ -469,6 +471,7 @@ async function main() {
         if (cnGospel) {
           existing.gospel.ref = gospel.ref;
           existing.gospel.lines = gospel.lines;
+          existing.gospel.body = gospel.body || '';
           existing.gospel.keyVerse = gospel.keyVerse || '';
           existing.liturgical.gospelShort = gospel.short;
         }

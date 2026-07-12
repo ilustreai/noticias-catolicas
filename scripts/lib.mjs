@@ -305,10 +305,16 @@ function cleanGospelLine(line) {
 }
 
 function renderGospelLines(lines) {
-  const result = lines.slice(0, 7)
+  const result = lines.slice(0, 3)
     .map((line) => `<span class="gospel-line">${escapeHtml(cleanGospelLine(line))}</span>`)
     .join('\n      ');
   return result + '\n      <span class="gospel-line gospel-ellipsis">...</span>';
+}
+
+function renderFullGospel(body) {
+  if (!body) return '';
+  const withBreaks = body.replace(/\b(\d+)\s/g, '\n          <span class="verse-num">$1</span> ').trim();
+  return `<div class="gospel-full">\n${withBreaks}\n        </div>`;
 }
 
 function renderGospelLink() {
@@ -372,6 +378,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{SAINT_SECTION}}': renderSaintSection(selection.saint),
     '{{GOSPEL_REF}}': simplifyGospelRef(selection.gospel.ref),
     '{{GOSPEL_LINES}}': renderGospelLines(selection.gospel.lines),
+    '{{GOSPEL_FULL}}': renderFullGospel(selection.gospel.body ?? ''),
     '{{GOSPEL_LINK}}': renderGospelLink(selection),
     '{{NEWS_ITEMS}}': renderNews(selection.news),
     '{{CLOSING_QUOTE_TEXT}}': escapeHtml(selection.closingQuote?.text ?? ''),

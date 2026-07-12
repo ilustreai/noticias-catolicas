@@ -286,9 +286,17 @@
     padding-bottom: 3px;
   }
   .btn-source svg { width: 10px; height: 10px; }
-  .gospel-link-wrapper { margin-top: 20px; }
+  .gospel-link-wrapper { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
   .gospel-link-wrapper .btn-source { color: var(--gold); border-bottom-color: var(--gold); }
-
+  .btn-gospel-toggle {
+    background: none; border: 1px solid var(--gold); color: var(--gold); cursor: pointer;
+    font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.04em;
+    padding: 6px 14px; border-radius: 4px; transition: all 0.2s;
+  }
+  .btn-gospel-toggle:hover { background: var(--gold); color: var(--bg); }
+  .gospel-full-wrapper { margin-top: 16px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.08); }
+  .gospel-full { line-height: 1.7; font-size: 14px; }
+  .verse-num { color: var(--gold); font-weight: 600; font-size: 12px; margin-right: 2px; }
   .closing-quote {
     margin: 44px 0 0;
     padding: 34px 38px;
@@ -469,8 +477,12 @@
     <p class="gospel-text">
       {{GOSPEL_LINES}}
     </p>
+    <div class="gospel-full-wrapper" id="gospelFull" style="display:none">
+      {{GOSPEL_FULL}}
+    </div>
     <div class="gospel-link-wrapper">
       {{GOSPEL_LINK}}
+      <button class="btn-gospel-toggle" onclick="toggleGospel()" aria-expanded="false" data-expand="Ler Evangelho completo" data-collapse="Recolher">Ler Evangelho completo</button>
     </div>
   </div>
 
@@ -557,6 +569,16 @@
       scrollHandler();
       btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
     }
+
+    window.toggleGospel = function () {
+      var wrapper = document.getElementById('gospelFull');
+      var btn = document.querySelector('.btn-gospel-toggle');
+      if (!wrapper || !btn) return;
+      var expanded = wrapper.style.display !== 'none';
+      wrapper.style.display = expanded ? 'none' : 'block';
+      btn.textContent = expanded ? btn.getAttribute('data-expand') : btn.getAttribute('data-collapse');
+      btn.setAttribute('aria-expanded', String(!expanded));
+    };
   })();
 </script>
 </body>
