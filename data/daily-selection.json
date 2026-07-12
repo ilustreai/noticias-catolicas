@@ -1,6 +1,6 @@
 {
   "date": "2026-07-12",
-  "editionLabel": "12 de julho de 2026 · 1ª edição",
+  "editionLabel": "12 de julho de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
@@ -33,46 +33,52 @@
   },
   "news": [
     {
-      "source": "Vatican News",
-      "title": "Oportunidades e catequese para jovens, uma resposta à proliferação das seitas",
-      "summary": "Irmã Graça António Cuamba Guitate, FCIM  África África igreja católica Moçambique jovens movimentos eclesiais catequese Igreja e religiões Oportunidades e catequese para jovens, uma resposta à proliferação das seitas Face ao fenómeno da proliferação das seitas em Moçambique, e não só, muitos jovens deixam a Igreja para aderir a esses movimentos, quase sempre por falta de oportunidades....",
-      "url": "https://www.vaticannews.va/pt/africa/news/2026-07/mocambique-seitas-jovens-catequese-formacao-oportunidades.html"
-    },
-    {
-      "source": "Vatican News",
-      "title": "Missão por terras ‘quentes’ de Moçambique",
-      "summary": "Missionários do Espírito Santo, no Seminário Filosófico S. Agostinho da Matola (Maputo, Moçambique) - foto Lusofonias  África África igreja católica missionários Espírito Santo Moçambique evangelização religiosos Missão por terras ‘quentes’ de Moçambique Os Espiritanos chegaram a Moçambique em 1996. É uma presença muito jovem, com tudo o que tal representa. Os missionários são jovens, as estruturas frágeis, mas a vontade de anunciar o Evangelho e caminhar com o povo é enorme....",
-      "url": "https://www.vaticannews.va/pt/africa/news/2026-07/igreja-mocambique-missionarios-espiritanos-evangelizar-formacao.html"
-    },
-    {
-      "source": "CNBB",
-      "title": "São Bento abade ganha destaque na Igreja",
-      "summary": "Cardeal Orani João Tempesta Arcebispo do Rio de Janeiro (RJ) Celebramos no dia 11 de julho a memória litúrgica de São Bento Abade, um santo conhecido popularmente por todos e que ajuda a vencer as batalhas e tentações que aparecem ao.",
-      "url": "https://www.cnbb.org.br/sao-bento-abade-2/"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Sete dores que marcaram a família de santa Teresinha do Menino Jesus",
-      "summary": "“Nas famílias sempre, sempre há cruz, sempre. Porque o amor de Deus, o Filho de Deus, abriu-nos também esse caminho. Mas nas famílias também depois da Cruz há Ressurreição”, assinalou o papa Francisco durante o Encontro Mundial das.",
-      "url": "https://www.acidigital.com/noticia/52612/nao-ha-lar-sem-cruz:-sete-dores-que-marcaram-a-familia-de-santa-teresinha-do-menino-jesus"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "é a festa de são Luís e santa Zélia Martin, pais de santa Teresinha",
-      "summary": "A Igreja celebra hoje (12) são Luís e santa Zélia Martin, pais de santa Teresa de Lisieux. Eles foram o primeiro casal a ser canonizado em uma mesma cerimônia na história da Igreja.",
-      "url": "https://www.acidigital.com/noticia/52610/hoje-e-a-festa-dos-santos-pais-de-santa-teresinha-de-lisieux"
+      "source": "Gaudium Press",
+      "title": "Madri: uma igreja que abre as portas de madrugada",
+      "summary": "Histórias de vícios, solidão e busca por Deus se entrelaçam todo fim de semana em uma paróquia de Madri, Espanha, que decidiu permanecer aberta justamente quando mais pessoas precisam encontrar uma porta aberta. Igreja de San Ildefonso e.",
+      "url": "https://gaudiumpress.org/content/madri-uma-igreja-que-abre-as-portas-de-madrugada/"
     },
     {
       "source": "Shalom",
-      "title": "A parábola do semeador generoso: oração e virtudes cardeais em três terrenos",
-      "summary": "José Ricardo Bezerra e Felipe Bezerra Neste 15º Domingo do Tempo Comum (Ano A) entramos no capítulo 13 de Mateus, o grande discurso das parábolas de Jesus. O Evangelho de hoje na sua versão mais longa (Mt 13,1-23), traz a parábola do.",
-      "url": "https://comshalom.org/a-parabola-do-semeador-generoso-oracao-e-virtudes-cardeais-em-tres-terrenos/"
+      "title": "São Luis e Santa Zélia Martin: um casal santo, que foi terra fértil para uma filha santa",
+      "summary": "Neste dia 12 de julho, celebramos o Santo Casal que é exemplo de santidade para toda Igreja, inspira a uma vida de oração na família, local onde são formados os santos.",
+      "url": "https://comshalom.org/sao-luis-santa-zelia-um-casal-santo/"
     },
     {
       "source": "CNBB",
-      "title": "Papa Leão XIV no Jubileu dos encarcerados: “Que ninguém se perca! Que todos sejam salvos!”",
-      "summary": "O Papa Leão XIV presidiu a Missa do Terceiro Domingo do Advento – o domingo Gaudete – na Basílica de São Pedro, quando celebrou o Jubileu dos Reclusos. A celebração teve a presença da coordenação da Pastoral Carcerária do Brasil entre os cerca de 7,5 mil peregrinos, de 90 países. Em sua homilia, o pontífice destacou a reparação, a reconciliação e o chamado à conversão que o jubileu apresenta aos que cumprem alguma pena....",
-      "url": "https://www.cnbb.org.br/papa-leao-jubileu-encarcerados-que-ninguem-se-perca/"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/"
+    },
+    {
+      "source": "Vatican News",
+      "title": "Igreja no mundo celebra o Dia de São Pedro e São Paulo com chamado à unidade",
+      "summary": "Celebrações ao redor do mundo marcaram a solenidade dos apóstolos São Pedro e São Paulo, com ênfase no diálogo ecumênico e na missão da Igreja.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-06/igreja-no-mundo-celebra-o-dia-de-sao-pedro-e-sao-paulo.html"
+    },
+    {
+      "source": "Vatican News",
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/cardeais-reunidos-em-roma-para-consistorio-extraordinario.html"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Igreja no Brasil se prepara para o mês vocacional com intensa programação",
+      "summary": "Dioceses de todo o Brasil organizam eventos e campanhas para o mês vocacional de agosto, incentivando jovens a discernirem sua vocação.",
+      "url": "https://www.acidigital.com/noticias/igreja-no-brasil-se-prepara-para-o-mes-vocacional-com-intensa-programacao"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticias/santuarios-brasileiros-registram-aumento-de-peregrinos-em-2026"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Oração e jejum: as armas espirituais recomendadas pelos santos para os tempos difíceis",
+      "summary": "Grandes santos da Igreja ensinaram que a oração e o jejum são ferramentas poderosas para enfrentar as adversidades da vida.",
+      "url": "https://pt.aleteia.org/2026/06/oracao-e-jejum-armas-espirituais-dos-santos"
     }
   ],
   "closingQuote": {

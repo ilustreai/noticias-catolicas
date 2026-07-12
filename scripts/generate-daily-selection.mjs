@@ -639,55 +639,6 @@ function repairSaintContentNews(selection, candidates) {
   return { ...selection, news };
 }
 
-async function aiSelection({ date, liturgy, candidates }) {
-  const key = process.env.OPENAI_API_KEY;
-  if (!key) return null;
-  const body = {
-    model: process.env.OPENAI_MODEL || 'gpt-4o-mini',
-    temperature: 0.2,
-    response_format: { type: 'json_object' },
-    messages: [
-      {
-        role: 'system',
-        content: 'Voce e editor catolico. Responda apenas JSON valido no schema pedido. Nao copie materias integrais. Use no maximo 2 noticias por fonte, 7 noticias, ao menos 2 Vatican News, 1 CNBB e 2 fontes catolicas confiaveis.'
-      },
-      {
-        role: 'user',
-        content: JSON.stringify({
-          date,
-          liturgy,
-          sponsor,
-          candidates: candidates.slice(0, 40),
-          requiredSchema: {
-            date: 'YYYY-MM-DD',
-            editionLabel: 'string',
-            liturgical: 'from liturgy.liturgical',
-            saint: 'from liturgy.saint',
-            gospel: 'from liturgy.gospel',
-            sponsor: 'provided sponsor',
-            news: [{ source: 'allowed source', title: '24+ chars', summary: '40+ chars', url: 'https URL' }],
-            closingQuote: 'from liturgy.closingQuote when available'
-          }
-        })
-      }
-    ]
-  };
-  const response = await fetch('https://api.openai.com/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      authorization: `Bearer ${key}`,
-      'content-type': 'application/json'
-    },
-    body: JSON.stringify(body)
-  });
-  if (!response.ok) {
-    console.error(`OpenAI failed: ${response.status} ${await response.text()}`);
-    return null;
-  }
-  const payload = await response.json();
-  return JSON.parse(payload.choices[0].message.content);
-}
-
 async function enrichSummaries(items) {
   const needsEnrich = items.filter(item => {
     const normItem = normalize(item.summary || '');
@@ -701,14 +652,6 @@ async function enrichSummaries(items) {
       signal: AbortSignal.timeout(15000)
     }).then(r => r.ok ? r.text() : '').catch(() => '')
   ));
-  const simpleClean = s => {
-    const entities = { '&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&#039;':"'",'&nbsp;':' ','&aacute;':'á','&eacute;':'é','&iacute;':'í','&oacute;':'ó','&uacute;':'ú','&atilde;':'ã','&otilde;':'õ','&ccedil;':'ç','&acirc;':'â','&ecirc;':'ê','&ocirc;':'ô','&uuml;':'ü','&Aacute;':'Á','&Eacute;':'É','&Iacute;':'Í','&Oacute;':'Ó','&Uacute;':'Ú','&Atilde;':'Ã','&Otilde;':'Õ','&Ccedil;':'Ç','&Acirc;':'Â','&Ecirc;':'Ê','&Ocirc;':'Ô','&Uuml;':'Ü','&agrave;':'à','&Agrave;':'À' };
-    return s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()
-      .replace(/&#\d+;/g, m => String.fromCharCode(m.slice(2,-1)))
-      .replace(/&amp;#\d+;/g, m => String.fromCharCode(m.slice(5,-1)))
-      .replace(/&[a-zA-Z]+;/g, m => entities[m] || m)
-      .replace(/^["""'\s]+|["""'\s]+$/g, '').trim();
-  };
   const buildSummary = html => {
     const contentZones = [
       html.match(/class="[^"]*(?:main-article-content|post-content|entry-content|theme-post-content|article-body|article-content)[^"]*"[\s\S]*?(?=<\/div>)/i)?.[0],
@@ -716,10 +659,8 @@ async function enrichSummaries(items) {
       html.match(/<main[\s\S]*?<\/main>/i)?.[0],
       html
     ].filter(Boolean);
-    const skipPattern = /^(?:Por\s|Publicado|Compartilhe|Inscreva|Siga|Leia\s|Foto|Crédito|\.{3}|document\.|Facebook|Twitter|Instagram|YouTube|Cookie|Concordo|Li e aceito|Clique\s|Acesse\s|Assista\s|Ouça\s)/i;
-    const skipContent = /\([DE]\)\s*(?:e|\))|Rogério|Crédito|^África|Cookie\sPolicy|concorda|concordo|Li e aceito|Selecione sua língua|Programação Podcast|>>\s|Clique\s|Inscreva-se|Siga\s|Assine\s|WhatsApp|Telegram|Newsletter|canal do/i;
-    const skipShort = (s) => s.length < 60 || skipPattern.test(s) || skipContent.test(s);
-    const htmlEntities = { '&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&#039;':"'",'&nbsp;':' ','&aacute;':'á','&eacute;':'é','&iacute;':'í','&oacute;':'ó','&uacute;':'ú','&atilde;':'ã','&otilde;':'õ','&ccedil;':'ç','&acirc;':'â','&ecirc;':'ê','&ocirc;':'ô','&uuml;':'ü','&Aacute;':'Á','&Eacute;':'É','&Iacute;':'Í','&Oacute;':'Ó','&Uacute;':'Ú','&Atilde;':'Ã','&Otilde;':'Õ','&Ccedil;':'Ç','&Acirc;':'Â','&Ecirc;':'Ê','&Ocirc;':'Ô','&agrave;':'à','&Agrave;':'À' };
+    const skipShort = (s) => s.length < 60 || /^(?:Por\s|Publicado|Compartilhe|Inscreva|Siga|Cookie|Concordo|Li e aceito|Clique\s|Acesse\s|Assista\s|Ouça\s)/i.test(s);
+    const htmlEntities = { '&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&#039;':"'",'&nbsp;':' ','&aacute;':'á','&eacute;':'é','&iacute;':'í','&oacute;':'ó','&uacute;':'ú','&atilde;':'ã','&otilde;':'õ','&ccedil;':'ç','&acirc;':'â','&ecirc;':'ê','&ocirc;':'ô','&Aacute;':'Á','&Eacute;':'É','&Iacute;':'Í','&Oacute;':'Ó','&Uacute;':'Ú','&Atilde;':'Ã','&Otilde;':'Õ','&Ccedil;':'Ç','&Acirc;':'Â','&Ecirc;':'Ê','&Ocirc;':'Ô' };
     const clean = s => {
       const text = s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()
         .replace(/&#\d+;/g, m => String.fromCharCode(m.slice(2,-1)))
@@ -739,14 +680,12 @@ async function enrichSummaries(items) {
       }
       if (collected.length > 0) {
         let summary = collected.join(' ');
-        summary = summary.replace(/>>[^.]*\.\s*/g, '').replace(/(?:Clique|Acesse|Assine|Siga|Inscreva)[^.]*\.\s*/gi, '').replace(/(?:WhatsApp|Telegram|YouTube|Instagram)[^.]*\.\s*/gi, '').replace(/Receba\s[^.]*\.\s*/gi, '').trim();
-        const maxChars = 500;
-        if (summary.length <= maxChars) return summary;
-        const truncated = summary.slice(0, maxChars);
-        const lastSentence = truncated.match(/.*[.!?]/);
-        const lastBreak = truncated.lastIndexOf(' ');
-        const cut = lastSentence ? lastSentence[0].length + 1 : (lastBreak > maxChars - 100 ? lastBreak : maxChars);
-        return summary.slice(0, cut).trim() + '...';
+        summary = summary.replace(/>>[^.]*\.\s*/g, '').replace(/(?:Clique|Acesse|Assine|Siga|Inscreva|WhatsApp|Telegram|YouTube|Instagram|Receba\s)[^.]*\.\s*/gi, '').trim();
+        if (summary.length <= 500) return summary;
+        const cut = summary.slice(0, 500).match(/.*[.!?]/);
+        return (cut ? cut[0].length + 1 : summary.lastIndexOf(' ', 400)) > 0
+          ? summary.slice(0, cut ? cut[0].length + 1 : 500).trim() + '...'
+          : summary.slice(0, 500).trim() + '...';
       }
     }
     return '';
@@ -761,56 +700,15 @@ async function enrichSummaries(items) {
       }
     }
     if (item.summary) {
-      item.summary = item.summary.replace(/>>[^.]*\.\s*/g, '').replace(/(?:Clique|Acesse|Assine|Siga|Inscreva)[^.]*\.\s*/gi, '').replace(/Receba\s[^.]*\.\s*/gi, '').trim();
+      item.summary = item.summary.replace(/>>[^.]*\.\s*/g, '').replace(/(?:Clique|Acesse|Assine|Siga|Inscreva)[^.]*\.\s*/gi, '').trim();
     }
     return item;
   });
 }
 
-function forceValidSelection(selection, date, liturgy, candidates, prev) {
-  const result = validateSelection(selection);
-  if (result.ok) return null;
-  const errors = result.errors.join(' ');
-  if (!errors.includes('Brazil') && !errors.includes('Vatican') && !errors.includes('trusted')) return null;
-
+function injectFallbacks(selection) {
   const allFallbacks = Object.values(fallbackItemsBySource).flat();
-  const news = [...selection.news];
-  const usedUrls = new Set(news.map((item) => item.url));
-  const sourceCounts = new Map();
-  news.forEach((item) => sourceCounts.set(item.source, (sourceCounts.get(item.source) ?? 0) + 1));
-
-  for (const fb of allFallbacks) {
-    if (usedUrls.has(fb.url)) continue;
-    const srcCount = sourceCounts.get(fb.source) ?? 0;
-    if (srcCount >= 2) {
-      const replaceIdx = news.findIndex((item) => item.source === fb.source);
-      if (replaceIdx !== -1) {
-        usedUrls.delete(news[replaceIdx].url);
-        sourceCounts.set(fb.source, srcCount - 1);
-        news.splice(replaceIdx, 1);
-      } else {
-        continue;
-      }
-    }
-    if (news.length >= 8) {
-      const replaceIdx = news.findIndex((item) => sourceCounts.get(item.source) >= 2);
-      if (replaceIdx === -1) break;
-      usedUrls.delete(news[replaceIdx].url);
-      sourceCounts.set(news[replaceIdx].source, (sourceCounts.get(news[replaceIdx].source) ?? 0) - 1);
-      news.splice(replaceIdx, 1);
-    }
-    news.push({ source: fb.source, title: fb.title, summary: fb.summary, url: fb.url });
-    usedUrls.add(fb.url);
-    sourceCounts.set(fb.source, (sourceCounts.get(fb.source) ?? 0) + 1);
-  }
-
-  if (news.length === selection.news.length && JSON.stringify(news) === JSON.stringify(selection.news)) return null;
-  return { ...selection, news };
-}
-
-function injectMinimumFallback(selection, date, liturgy) {
   const news = [...(selection.news || [])];
-  const allFallbacks = Object.values(fallbackItemsBySource).flat();
   const usedUrls = new Set(news.map((item) => item.url));
   const sourceCounts = new Map();
   news.forEach((item) => sourceCounts.set(item.source, (sourceCounts.get(item.source) ?? 0) + 1));
@@ -839,7 +737,6 @@ function injectMinimumFallback(selection, date, liturgy) {
     usedUrls.add(fb.url);
     sourceCounts.set(fb.source, (sourceCounts.get(fb.source) ?? 0) + 1);
   }
-
   return { ...selection, news };
 }
 
@@ -870,13 +767,10 @@ async function main() {
     console.warn(`Only ${candidates.length} candidates found; continuing with a shorter but valid edition`);
   }
 
-  const edition = process.env.EDITION || '1';
-  const editionSuffix = edition === '2' ? ' · 2ª edição' : ' · 1ª edição';
   const prev = loadPreviousSelection(rootDir);
-  const ai = await aiSelection({ date, liturgy, candidates });
-  let selection = ai ?? {
+  let selection = {
     date,
-    editionLabel: liturgy.editionLabel + editionSuffix,
+    editionLabel: liturgy.editionLabel,
     liturgical: liturgy.liturgical,
     saint: liturgy.saint,
     gospel: liturgy.gospel,
@@ -893,44 +787,21 @@ async function main() {
     console.warn('enrichSummaries failed; continuing with original summaries');
   }
 
-  const forced = forceValidSelection(selection, date, liturgy, candidates, prev);
-  if (forced) selection = forced;
+  const forced = injectFallbacks(selection);
+  const finalSelection = forced && forced.news.length !== selection.news.length ? forced : selection;
 
-  const result = validateSelection(selection);
+  const result = validateSelection(finalSelection);
   if (!result.ok) {
-    if (ai) {
-      console.warn('AI selection failed validation; falling back to deterministic selection.');
-      selection = cleanSelectionNews({
-        date,
-        editionLabel: liturgy.editionLabel + editionSuffix,
-        liturgical: liturgy.liturgical,
-        saint: liturgy.saint,
-        gospel: liturgy.gospel,
-        sponsor,
-        news: deterministicSelection(candidates, prev.urls, prev.titles),
-        closingQuote: pickClosingQuote(liturgy)
-      });
-      selection = attachSaintUrl(selection, liturgy);
-      selection = repairSaintContentNews(selection, candidates);
-      try {
-        if (selection.news) selection.news = await enrichSummaries(selection.news);
-      } catch {
-        console.warn('enrichSummaries failed; continuing with original summaries');
-      }
-      const forced2 = forceValidSelection(selection, date, liturgy, candidates, prev);
-      if (forced2) selection = forced2;
-    }
-
-    const fallbackResult = validateSelection(selection);
-    if (!fallbackResult.ok) {
-      selection = injectMinimumFallback(selection, date, liturgy);
+    const forced2 = injectFallbacks(finalSelection);
+    selection = forced2;
     const finalResult = validateSelection(selection);
     if (!finalResult.ok) {
       console.error('Generated selection failed validation:');
       finalResult.errors.forEach((error) => console.error(`- ${error}`));
       process.exit(1);
     }
-    }
+  } else {
+    selection = finalSelection;
   }
 
   writeFileEnsured(path.join(rootDir, 'data', 'daily-selection.json'), `${JSON.stringify(selection, null, 2)}\n`);

@@ -344,12 +344,6 @@ export function loadTemplate(templatePath = path.join(rootDir, 'template', 'noti
   return fs.readFileSync(templatePath, 'utf8');
 }
 
-function editionTag(label) {
-  if (/2ª|2°/.test(label)) return '2°ed';
-  if (/1ª|1°/.test(label)) return '1°ed';
-  return '';
-}
-
 function renderSaintSection(saint) {
   if (!saint?.name || !isRealSaint(saint.name)) return '';
   const link = renderSaintMoreLink(saint);
@@ -375,12 +369,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{LITURGICAL_SEASON}}': liturgicalDisplayTitle(selection.liturgical),
     '{{GOSPEL_SHORT}}': simplifyGospelRef(selection.liturgical.gospelShort ?? ''),
     '{{EDITION_LABEL}}': selection.editionLabel,
-    '{{EDITION_DATE_LABEL}}': selection.editionLabel.replace(/ · \d+[ª°] edição$/, ''),
-    '{{EDITION_TAG}}': editionTag(selection.editionLabel),
     '{{SAINT_SECTION}}': renderSaintSection(selection.saint),
-    '{{SAINT_NAME}}': selection.saint.name,
-    '{{SAINT_DESCRIPTION}}': selection.saint.description,
-    '{{SAINT_MORE_LINK}}': renderSaintMoreLink(selection.saint),
     '{{GOSPEL_REF}}': simplifyGospelRef(selection.gospel.ref),
     '{{GOSPEL_LINES}}': renderGospelLines(selection.gospel.lines),
     '{{GOSPEL_LINK}}': renderGospelLink(selection),
