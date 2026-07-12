@@ -10,6 +10,20 @@ const sponsor = {
   url: 'https://www.instagram.com/ilustre.ai'
 };
 
+const sourcePriority = {
+  'Vatican News': 1, 'Santa Sé': 1, 'Vaticano': 1, 'Vatican Insider': 1,
+  'CNBB': 2,
+  'ACI Digital': 3,
+  'Canção Nova': 4,
+  'Shalom': 5,
+  'Aleteia': 6,
+  'Gaudium Press': 7
+};
+
+function sortByPriority(items) {
+  return [...items].sort((a, b) => (sourcePriority[a.source] ?? 99) - (sourcePriority[b.source] ?? 99));
+}
+
 const fallbackItemsBySource = {
   CNBB: [
     {
@@ -251,7 +265,9 @@ function rankCandidates(candidates, today) {
     if (scoreDiff !== 0) return scoreDiff;
     const publishedDiff = String(b.published).localeCompare(String(a.published));
     if (publishedDiff !== 0) return publishedDiff;
-    return String(a.source).localeCompare(String(b.source));
+    const prioDiff = (sourcePriority[a.source] ?? 99) - (sourcePriority[b.source] ?? 99);
+    if (prioDiff !== 0) return prioDiff;
+    return String(a.title).localeCompare(String(b.title));
   });
 }
 
@@ -700,7 +716,7 @@ async function enrichSummaries(items) {
 }
 
 function injectFallbacks(selection) {
-  const allFallbacks = Object.values(fallbackItemsBySource).flat();
+  const allFallbacks = sortByPriority(Object.values(fallbackItemsBySource).flat());
   const news = [...(selection.news || [])];
   const usedUrls = new Set(news.map((item) => item.url));
   const sourceCounts = new Map();
@@ -782,11 +798,13 @@ async function main() {
 
   const forced = injectFallbacks(selection);
   const finalSelection = forced && forced.news.length !== selection.news.length ? forced : selection;
+  finalSelection.news = sortByPriority(finalSelection.news);
 
   const result = validateSelection(finalSelection);
   if (!result.ok) {
     const forced2 = injectFallbacks(finalSelection);
     selection = forced2;
+    selection.news = sortByPriority(selection.news);
     const finalResult = validateSelection(selection);
     if (!finalResult.ok) {
       console.error('Generated selection failed validation:');

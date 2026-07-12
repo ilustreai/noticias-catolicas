@@ -33,10 +33,16 @@
   },
   "news": [
     {
-      "source": "Shalom",
-      "title": "A parábola do semeador generoso: oração e virtudes cardeais em três terrenos",
-      "summary": "José Ricardo Bezerra e Felipe Bezerra Neste 15º Domingo do Tempo Comum (Ano A) entramos no capítulo 13 de Mateus, o grande discurso das parábolas de Jesus. O Evangelho de hoje na sua versão mais longa (Mt 13,1-23), traz a parábola do.",
-      "url": "https://comshalom.org/a-parabola-do-semeador-generoso-oracao-e-virtudes-cardeais-em-tres-terrenos/"
+      "source": "Vatican News",
+      "title": "Igreja no mundo celebra o Dia de São Pedro e São Paulo com chamado à unidade",
+      "summary": "Celebrações ao redor do mundo marcaram a solenidade dos apóstolos São Pedro e São Paulo, com ênfase no diálogo ecumênico e na missão da Igreja.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-06/igreja-no-mundo-celebra-o-dia-de-sao-pedro-e-sao-paulo.html"
+    },
+    {
+      "source": "Vatican News",
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/cardeais-reunidos-em-roma-para-consistorio-extraordinario.html"
     },
     {
       "source": "CNBB",
@@ -51,18 +57,6 @@
       "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/"
     },
     {
-      "source": "Vatican News",
-      "title": "Igreja no mundo celebra o Dia de São Pedro e São Paulo com chamado à unidade",
-      "summary": "Celebrações ao redor do mundo marcaram a solenidade dos apóstolos São Pedro e São Paulo, com ênfase no diálogo ecumênico e na missão da Igreja.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-06/igreja-no-mundo-celebra-o-dia-de-sao-pedro-e-sao-paulo.html"
-    },
-    {
-      "source": "Vatican News",
-      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
-      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/cardeais-reunidos-em-roma-para-consistorio-extraordinario.html"
-    },
-    {
       "source": "ACI Digital",
       "title": "Igreja no Brasil se prepara para o mês vocacional com intensa programação",
       "summary": "Dioceses de todo o Brasil organizam eventos e campanhas para o mês vocacional de agosto, incentivando jovens a discernirem sua vocação.",
@@ -73,6 +67,12 @@
       "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
       "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
       "url": "https://www.acidigital.com/noticias/santuarios-brasileiros-registram-aumento-de-peregrinos-em-2026"
+    },
+    {
+      "source": "Shalom",
+      "title": "É hoje! Festival Celebra comemora os 25 anos da Missão Shalom em Guarulhos",
+      "summary": "O evento gratuito contará com Santa Missa, Adoração ao Santíssimo, shows e a presença de Moysés Azevedo e Dom Edmilson Amador Caetano.",
+      "url": "https://comshalom.org/festival-celebra-marcara-os-25-anos-da-missao-guarulhos/"
     },
     {
       "source": "Aleteia",
