@@ -259,19 +259,10 @@ function pickClosingQuote(liturgy) {
   const saintQuote = liturgy?.closingQuote;
   if (saintQuote?.text && saintQuote?.source && saintQuote.source !== 'Evangelho do Dia') return saintQuote;
 
-  const gospelShort = liturgy?.gospel?.ref || liturgy?.liturgical?.gospelShort || '';
-  if (gospelShort) {
-    return {
-      text: 'Que o Evangelho de hoje nos conduza a uma vida mais fiel, mais serena e mais convertida.',
-      source: gospelShort,
-      reason: 'Fallback ligado ao evangelho quando o cache liturgico nao traz frase propria.'
-    };
-  }
-
   return {
     text: 'Fazei tudo por amor.',
     source: 'São Francisco de Sales',
-    reason: 'Fallback genérico usado apenas quando o cache liturgico nao traz santo nem evangelho suficientes para amarrar a frase.'
+    reason: 'Fallback quote real quando o cache liturgico nao traz frase propria do santo.'
   };
 }
 
