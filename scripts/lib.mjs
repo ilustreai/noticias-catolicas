@@ -40,6 +40,11 @@ const trustedCatholicSourceKeys = new Set([
 ].map((source) => sourceKey(source)));
 const liturgicalRanks = new Set(['tempo', 'memoria', 'festa', 'solenidade']);
 
+export function isRealSaint(name) {
+  if (!name) return false;
+  return !/(Domingo|Segunda|Terça|Quarta|Quinta|Sexta|Sábado|Semana|\d+º)/i.test(name);
+}
+
 export function escapeHtml(value) {
   return String(value ?? '')
     .replaceAll('&', '&amp;')
@@ -345,12 +350,6 @@ function editionTag(label) {
   return '';
 }
 
-function isRealSaint(name) {
-  if (!name) return false;
-  const generic = /(Domingo|Segunda|Terça|Quarta|Quinta|Sexta|Sábado|Semana|\d+º)/i;
-  return !generic.test(name);
-}
-
 function renderSaintSection(saint) {
   if (!saint?.name || !isRealSaint(saint.name)) return '';
   const link = renderSaintMoreLink(saint);
@@ -411,7 +410,7 @@ export function validateRenderedHtml(html, selection) {
   if (!html.includes(selection.editionLabel)) errors.push('missing edition label');
   if (!html.includes(selection.liturgical.cssColor)) errors.push('missing liturgical color');
   if (!html.includes(liturgicalDisplayTitle(selection.liturgical))) errors.push('missing liturgical display title');
-  if (!html.includes(selection.saint.name)) errors.push('missing saint name');
+  if (selection.saint?.name && isRealSaint(selection.saint.name) && !html.includes(selection.saint.name)) errors.push('missing saint name');
   if (!html.includes(simplifyGospelRef(selection.gospel.ref))) errors.push('missing gospel ref');
   if (selection.closingQuote?.text && !html.includes(selection.closingQuote.text)) errors.push('missing closing quote text');
   if (selection.closingQuote?.source && !html.includes(selection.closingQuote.source)) errors.push('missing closing quote source');
