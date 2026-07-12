@@ -325,7 +325,7 @@ export function simplifyGospelRef(ref) {
     const abbr = { 'mateus':'Mt','marcos':'Mc','lucas':'Lc','joão':'Jo','atos':'At' };
     return (abbr[match[1].toLowerCase()] || match[1]) + ' ' + match[2];
   }
-  return ref.trim();
+  return ref.replace(/ ou mais breve.*$/, '').trim();
 }
 
 function isLightColor(hex) {
@@ -353,7 +353,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{PAGE_TITLE}}': `Notícias Católicas - ${selection.editionLabel} - @ilustre.ai`,
     '{{HERO_EYEBROW}}': `Curadoria diária - ${selection.editionLabel}`,
     '{{LITURGICAL_SEASON}}': liturgicalDisplayTitle(selection.liturgical),
-    '{{GOSPEL_SHORT}}': selection.liturgical.gospelShort,
+    '{{GOSPEL_SHORT}}': simplifyGospelRef(selection.liturgical.gospelShort ?? ''),
     '{{EDITION_LABEL}}': selection.editionLabel,
     '{{EDITION_DATE_LABEL}}': selection.editionLabel.replace(/ · \d+[ª°] edição$/, ''),
     '{{EDITION_TAG}}': editionTag(selection.editionLabel),
