@@ -265,7 +265,10 @@ function applyCuratedData(date, liturgy) {
   if (!day) return;
   if (day.saint && liturgy.saint) {
     Object.assign(liturgy.saint, day.saint);
-    if (!day.saint.url) liturgy.saint.url = '';
+    if (!day.saint.url) {
+      liturgy.saint.url = '';
+      if (liturgy.sourceUrls) liturgy.sourceUrls.saint = '';
+    }
   }
   if (day.closingQuote) liturgy.closingQuote = day.closingQuote;
 }
