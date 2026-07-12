@@ -31,7 +31,7 @@ permissions:
 
 concurrency:
   group: catholic-news-publish
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   edition1:

@@ -19,9 +19,9 @@
   "gospel": {
     "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 13,1-23 ou mais breve 13,1-9)",
     "lines": [
-      "Naquele dia, Jesus saiu de casa e foi sentar-se às margens do mar da Galileia.",
-      "&Eacute; por isso que eu lhes falo em parábolas: porque olhando, eles não veem, e ouvindo, eles não escutam, nem compreendem.",
-      "Um dá cem, outro sessenta e outro trinta."
+      "1 Naquele dia, Jesus saiu de casa e foi sentar-se às margens do mar da Galileia.",
+      "13 &Eacute; por isso que eu lhes falo em parábolas: porque olhando, eles não veem, e ouvindo, eles não escutam, nem compreendem.",
+      "Um dá cem, outro sessenta e outro trinta\"."
     ],
     "keyVerse": "Semente é de Deus a Palavra, o Cristo é o semeador; todo aquele que o encontra, vida eterna encontrou!"
   },
@@ -34,45 +34,45 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Oportunidades e catequese para jovens, uma resposta à proliferação das seitas",
-      "summary": "Irmã Graça António Cuamba Guitate, FCIM  África África igreja católica Moçambique jovens movimentos eclesiais catequese Igreja e religiões Oportunidades e catequese para jovens, uma resposta à proliferação das seitas Face ao fenómeno da proliferação das seitas em Moçambique, e não só, muitos jovens deixam a Igreja para aderir a esses movimentos, quase sempre por falta de oportunidades....",
-      "url": "https://www.vaticannews.va/pt/africa/news/2026-07/mocambique-seitas-jovens-catequese-formacao-oportunidades.html"
+      "title": "Bispos preocupados com a não comunicação oficial dos contornos da morte de Dom Osório",
+      "summary": "Durante a conferência de imprensa, Dom Inácio avançou que, partilhou no encontro com o Santo Padre, a sua preocupação com o facto de nada ter recebido das entidades oficiais, sobre os contornos da morte do Bispo de Quelimane e Administrador Apostólico da Arquidiocese da Beira, Dom Osório Citora Afonso, se não, apenas o que a imprensa tem estado a divulgar. O que aumenta ainda o seu questionamento, afinal – Quem matou exactamente? – Quem foi o mandante? – Quais seriam as motivações?...",
+      "url": "https://www.vaticannews.va/pt/africa/news/2026-07/bispos-mocambique-dom-osorio-conferencia-imprensa-papa-leao-xiv.html"
     },
     {
       "source": "Vatican News",
-      "title": "Missão por terras ‘quentes’ de Moçambique",
-      "summary": "Missionários do Espírito Santo, no Seminário Filosófico S. Agostinho da Matola (Maputo, Moçambique) - foto Lusofonias  África África igreja católica missionários Espírito Santo Moçambique evangelização religiosos Missão por terras ‘quentes’ de Moçambique Os Espiritanos chegaram a Moçambique em 1996. É uma presença muito jovem, com tudo o que tal representa. Os missionários são jovens, as estruturas frágeis, mas a vontade de anunciar o Evangelho e caminhar com o povo é enorme....",
-      "url": "https://www.vaticannews.va/pt/africa/news/2026-07/igreja-mocambique-missionarios-espiritanos-evangelizar-formacao.html"
+      "title": "Milhares de fiéis dão o último adeus ao P. Manuel Machate, do Clero diocesano da Beira",
+      "summary": "O Bispo de Caia e Administrador Apostólico da Arquidiocese da Beira, Dom António Constantino, foi quem presidiu à Missa de corpo presente, na qual concelebraram vários sacerdotes, com a presença de autoridades civis e religiosas. Homem simples, afável e acolhedor, foi desta maneira que o presidente da celebração descreveu o Padre Machate, ressaltando ainda o seu gosto pelo canto....",
+      "url": "https://www.vaticannews.va/pt/africa/news/2026-07/arquidiocese-beira-missa-funeral-padre-machate-simples-acolhedor.html"
     },
     {
       "source": "CNBB",
-      "title": "São Bento abade ganha destaque na Igreja",
-      "summary": "Cardeal Orani João Tempesta Arcebispo do Rio de Janeiro (RJ) Celebramos no dia 11 de julho a memória litúrgica de São Bento Abade, um santo conhecido popularmente por todos e que ajuda a vencer as batalhas e tentações que aparecem ao.",
-      "url": "https://www.cnbb.org.br/sao-bento-abade-2/"
+      "title": "São Bento nos convida a santificar nosso dia e oferecê-lo a Deus",
+      "summary": "O arcebispo do Rio de Janeiro, cardeal Orani Tempesta, conduz no artigo uma reflexão sobre a vida e o legado de São Bento Abade, cuja memória é celebrada pela Igreja neste dia 11 de julho. São Bento é um santo conhecido popularmente por.",
+      "url": "https://www.cnbb.org.br/sao-bento-nos-convida-a-santificar-o-nosso-dia-e-oferece-lo-a-deus/"
     },
     {
-      "source": "ACI Digital",
-      "title": "Sete dores que marcaram a família de santa Teresinha do Menino Jesus",
-      "summary": "“Nas famílias sempre, sempre há cruz, sempre. Porque o amor de Deus, o Filho de Deus, abriu-nos também esse caminho. Mas nas famílias também depois da Cruz há Ressurreição”, assinalou o papa Francisco durante o Encontro Mundial das.",
-      "url": "https://www.acidigital.com/noticia/52612/nao-ha-lar-sem-cruz:-sete-dores-que-marcaram-a-familia-de-santa-teresinha-do-menino-jesus"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "é a festa de são Luís e santa Zélia Martin, pais de santa Teresinha",
-      "summary": "A Igreja celebra hoje (12) são Luís e santa Zélia Martin, pais de santa Teresa de Lisieux. Eles foram o primeiro casal a ser canonizado em uma mesma cerimônia na história da Igreja.",
-      "url": "https://www.acidigital.com/noticia/52610/hoje-e-a-festa-dos-santos-pais-de-santa-teresinha-de-lisieux"
+      "source": "Gaudium Press",
+      "title": "Madri: uma igreja que abre as portas de madrugada",
+      "summary": "Histórias de vícios, solidão e busca por Deus se entrelaçam todo fim de semana em uma paróquia de Madri, Espanha, que decidiu permanecer aberta justamente quando mais pessoas precisam encontrar uma porta aberta. Igreja de San Ildefonso e.",
+      "url": "https://gaudiumpress.org/content/madri-uma-igreja-que-abre-as-portas-de-madrugada/"
     },
     {
       "source": "Shalom",
-      "title": "A parábola do semeador generoso: oração e virtudes cardeais em três terrenos",
-      "summary": "José Ricardo Bezerra e Felipe Bezerra Neste 15º Domingo do Tempo Comum (Ano A) entramos no capítulo 13 de Mateus, o grande discurso das parábolas de Jesus. O Evangelho de hoje na sua versão mais longa (Mt 13,1-23), traz a parábola do.",
-      "url": "https://comshalom.org/a-parabola-do-semeador-generoso-oracao-e-virtudes-cardeais-em-tres-terrenos/"
+      "title": "É hoje! Festival Celebra comemora os 25 anos da Missão Shalom em Guarulhos",
+      "summary": "O evento gratuito contará com Santa Missa, Adoração ao Santíssimo, shows e a presença de Moysés Azevedo e Dom Edmilson Amador Caetano.",
+      "url": "https://comshalom.org/festival-celebra-marcara-os-25-anos-da-missao-guarulhos/"
     },
     {
-      "source": "CNBB",
-      "title": "Papa Leão XIV no Jubileu dos encarcerados: “Que ninguém se perca! Que todos sejam salvos!”",
-      "summary": "O Papa Leão XIV presidiu a Missa do Terceiro Domingo do Advento – o domingo Gaudete – na Basílica de São Pedro, quando celebrou o Jubileu dos Reclusos. A celebração teve a presença da coordenação da Pastoral Carcerária do Brasil entre os cerca de 7,5 mil peregrinos, de 90 países. Em sua homilia, o pontífice destacou a reparação, a reconciliação e o chamado à conversão que o jubileu apresenta aos que cumprem alguma pena....",
-      "url": "https://www.cnbb.org.br/papa-leao-jubileu-encarcerados-que-ninguem-se-perca/"
+      "source": "Shalom",
+      "title": "São Luis e Santa Zélia Martin: um casal santo, que foi terra fértil para uma filha santa",
+      "summary": "Neste dia 12 de julho, celebramos o Santo Casal que é exemplo de santidade para toda Igreja, inspira a uma vida de oração na família, local onde são formados os santos.",
+      "url": "https://comshalom.org/sao-luis-santa-zelia-um-casal-santo/"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "A linda história de amor de Luís e Zélia Martin, pais de santa Teresinha",
+      "summary": "Os santos Luís e Zélia Martin, pais de santa Teresa do Menino Jesus, têm uma bela história de amor marcada pela confiança em Deus, uma intensa vida de piedade e cruz.",
+      "url": "https://www.acidigital.com/noticia/52613/a-linda-historia-de-amor-de-luis-e-zelia-martin-pais-de-santa-teresa-do-menino-jesus"
     }
   ],
   "closingQuote": {
