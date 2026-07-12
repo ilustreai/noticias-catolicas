@@ -263,13 +263,6 @@ const curatedSaints = fs.existsSync(rootCurated)
 function applyCuratedData(date, liturgy) {
   const day = curatedSaints[date];
   if (!day) return;
-  if (day.saint && liturgy.saint) {
-    Object.assign(liturgy.saint, day.saint);
-    if (!day.saint.url) {
-      liturgy.saint.url = '';
-      if (liturgy.sourceUrls) liturgy.sourceUrls.saint = '';
-    }
-  }
   if (day.closingQuote) liturgy.closingQuote = day.closingQuote;
 }
 
