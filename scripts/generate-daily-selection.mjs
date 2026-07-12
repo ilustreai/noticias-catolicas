@@ -762,7 +762,7 @@ async function main() {
   const sources = readJson(path.join(rootDir, 'data', 'news-sources.json'));
   const fetched = (await Promise.all(sources.map(fetchSource))).flat();
   const candidates = rankCandidates(uniqueItems(fetched)
-    .filter((item) => !item.published || daysBetween(date, item.published) <= 3)
+    .filter((item) => item.published && daysBetween(date, item.published) <= 1)
     .filter((item) => !rejectsEditorially(item))
     , date);
 
@@ -796,14 +796,12 @@ async function main() {
     console.warn('enrichSummaries failed; continuing with original summaries');
   }
 
-  const forced = injectFallbacks(selection);
-  const finalSelection = forced && forced.news.length !== selection.news.length ? forced : selection;
-  finalSelection.news = sortByPriority(finalSelection.news);
+  selection.news = sortByPriority(selection.news);
 
-  const result = validateSelection(finalSelection);
+  const result = validateSelection(selection);
   if (!result.ok) {
-    const forced2 = injectFallbacks(finalSelection);
-    selection = forced2;
+    const forced = injectFallbacks(selection);
+    selection = forced;
     selection.news = sortByPriority(selection.news);
     const finalResult = validateSelection(selection);
     if (!finalResult.ok) {
@@ -811,8 +809,6 @@ async function main() {
       finalResult.errors.forEach((error) => console.error(`- ${error}`));
       process.exit(1);
     }
-  } else {
-    selection = finalSelection;
   }
 
   writeFileEnsured(path.join(rootDir, 'data', 'daily-selection.json'), `${JSON.stringify(selection, null, 2)}\n`);
