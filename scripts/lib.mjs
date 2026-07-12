@@ -345,6 +345,27 @@ function editionTag(label) {
   return '';
 }
 
+function isRealSaint(name) {
+  if (!name) return false;
+  const generic = /(Domingo|Segunda|Terça|Quarta|Quinta|Sexta|Sábado|Semana|\d+º)/i;
+  return !generic.test(name);
+}
+
+function renderSaintSection(saint) {
+  if (!saint?.name || !isRealSaint(saint.name)) return '';
+  const link = renderSaintMoreLink(saint);
+  return `
+  <div class="section-header">
+    <span class="section-header-title">Santo do Dia</span>
+    <div class="section-header-line"></div>
+  </div>
+  <div class="saint-card">
+    <h2 class="saint-name">${escapeHtml(saint.name)}</h2>
+    <p class="saint-bio">${escapeHtml(saint.description ?? '')}</p>
+${link}
+  </div>`;
+}
+
 export function buildPage(selection, template = loadTemplate()) {
   const replacements = {
     '{{LITURGICAL_COLOR}}': selection.liturgical.cssColor,
@@ -357,6 +378,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{EDITION_LABEL}}': selection.editionLabel,
     '{{EDITION_DATE_LABEL}}': selection.editionLabel.replace(/ · \d+[ª°] edição$/, ''),
     '{{EDITION_TAG}}': editionTag(selection.editionLabel),
+    '{{SAINT_SECTION}}': renderSaintSection(selection.saint),
     '{{SAINT_NAME}}': selection.saint.name,
     '{{SAINT_DESCRIPTION}}': selection.saint.description,
     '{{SAINT_MORE_LINK}}': renderSaintMoreLink(selection.saint),
