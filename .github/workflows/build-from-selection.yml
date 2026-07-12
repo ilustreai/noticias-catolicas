@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - 'data/daily-selection.json'
+      - 'data/curated-saints.json'
       - 'scripts/build-html.mjs'
       - 'scripts/lib.mjs'
       - 'template/noticias-catolicas.template.html'
