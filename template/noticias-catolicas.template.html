@@ -246,6 +246,9 @@
   .gospel-arrow svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
   .gospel-arrow-left { left: -24px; }
   .gospel-arrow-right { right: -24px; }
+  .gospel-dots { position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 5; }
+  .gospel-dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.3); transition: all 0.3s; }
+  .gospel-dot.active { background: var(--gold); width: 8px; height: 8px; }
   .gospel-card {
     background: var(--navy);
     padding: 40px 44px;
@@ -522,6 +525,7 @@
       {{GOSPEL_LINK}}
     </div>
   </div>{{LITURGY_HOURS}}</div>
+  <div class="gospel-dots" id="gospelDots"></div>
   <button class="gospel-arrow gospel-arrow-left" id="gospelArrowLeft" aria-label="Anterior">
     <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
   </button>
@@ -609,6 +613,12 @@
       var len = cards.length;
       if (len > 1) {
         var current = 0;
+        var dotsEl = document.getElementById('gospelDots');
+        for (var i = 0; i < len; i++) { var d = document.createElement('span'); d.className = 'gospel-dot'; dotsEl.appendChild(d); }
+        var dots = dotsEl.querySelectorAll('.gospel-dot');
+        function updateDots() {
+          for (var i = 0; i < len; i++) dots[i].classList.toggle('active', i === current);
+        }
         function updateArrows() {
           arrowLeft.classList.toggle('hidden', current <= 0);
           arrowRight.classList.toggle('hidden', current >= len - 1);
@@ -617,15 +627,15 @@
           if (index < 0 || index >= len) return;
           current = index;
           gospelScroll.scrollTo({ left: current * gospelScroll.clientWidth, behavior: 'smooth' });
-          updateArrows();
+          updateArrows(); updateDots();
         }
         arrowLeft.addEventListener('click', function () { goTo(current - 1); });
         arrowRight.addEventListener('click', function () { goTo(current + 1); });
         gospelScroll.addEventListener('scroll', function () {
           current = Math.round(gospelScroll.scrollLeft / gospelScroll.clientWidth);
-          updateArrows();
+          updateArrows(); updateDots();
         }, { passive: true });
-        updateArrows();
+        updateArrows(); updateDots();
       }
     }
   })();
