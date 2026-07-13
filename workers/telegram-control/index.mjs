@@ -15,17 +15,14 @@ const MENU_BUTTONS = [
 
 const DAILY_WORKFLOW = "daily-news.yml";
 const CONTINGENCY_WORKFLOW = "build-from-selection.yml";
+const BRT_UTC_OFFSET = 3;
 
 export default {
   async fetch(request, env) {
     return handleRequest(request, env);
   },
   async scheduled(event, env) {
-    try {
-      await dispatchWorkflow(env, fetch, DAILY_WORKFLOW);
-    } catch (err) {
-      console.error('Scheduled dispatch failed:', err.message);
-    }
+    await handleScheduled(event, env);
   },
 };
 
@@ -73,16 +70,17 @@ export async function handleTelegramUpdate(update, env, fetchImpl = fetch) {
     await answerCallback(env, fetchImpl, callbackId);
   }
 
-  const command = normalizeCommand(callback?.data ?? message?.text ?? "/menu");
-  const response = await executeCommand(command, env, fetchImpl);
+  const raw = callback?.data ?? message?.text ?? "/menu";
+  const command = normalizeCommand(raw);
+  const response = await executeCommand(command, env, fetchImpl, raw);
   await sendTelegram(env, fetchImpl, response.text, chatId, response.keyboard);
 }
 
-export async function executeCommand(command, env, fetchImpl = fetch) {
+export async function executeCommand(command, env, fetchImpl = fetch, raw = "") {
   switch (command) {
     case "menu":
       return {
-        text: "Controle Noticias Catolicas - @ilustre.ai",
+        text: "Controle Noticias Catolicas - @ilustre.ai\n\n/horario HH:MM - mudar horario da publicacao\n/agendar YYYY-MM-DD - agendar edicao extra\n/agendamentos - listar agendamentos\n/cancelar YYYY-MM-DD - cancelar agendamento",
         keyboard: MENU_BUTTONS,
       };
     case "run_daily": {
@@ -101,6 +99,14 @@ export async function executeCommand(command, env, fetchImpl = fetch) {
       return { text: await buildLastErrorReport(env, fetchImpl) };
     case "test":
       return { text: await buildTestReport(env, fetchImpl) };
+    case "horario":
+      return { text: await handleHorario(env, fetchImpl, raw) };
+    case "agendar":
+      return { text: await handleAgendar(env, fetchImpl, raw) };
+    case "agendamentos":
+      return { text: await handleAgendamentos(env, fetchImpl) };
+    case "cancelar":
+      return { text: await handleCancelar(env, fetchImpl, raw) };
     default:
       return {
         text: "Comando nao reconhecido. Use o menu abaixo.",
@@ -113,20 +119,17 @@ function normalizeCommand(text) {
   const value = String(text || "").trim().toLowerCase();
   const command = value.replace(/^\//, "").split(/\s+/)[0];
   const aliases = {
-    start: "menu",
-    menu: "menu",
-    rodar: "run_daily",
-    run: "run_daily",
-    run_daily: "run_daily",
-    contingencia: "run_contingency",
-    run_contingency: "run_contingency",
+    start: "menu", menu: "menu",
+    rodar: "run_daily", run: "run_daily", run_daily: "run_daily",
+    contingencia: "run_contingency", run_contingency: "run_contingency",
     status: "status",
-    relatorio: "report",
-    report: "report",
-    erro: "last_error",
-    last_error: "last_error",
-    teste: "test",
-    test: "test",
+    relatorio: "report", report: "report",
+    erro: "last_error", last_error: "last_error",
+    teste: "test", test: "test",
+    horario: "horario", schedule: "horario",
+    agendar: "agendar",
+    agendamentos: "agendamentos", list: "agendamentos",
+    cancelar: "cancelar", cancel: "cancelar",
   };
   return aliases[command] ?? command;
 }
@@ -147,6 +150,137 @@ async function dispatchWorkflow(env, fetchImpl, workflowFile) {
     throw new Error(`GitHub dispatch failed (${response.status}): ${await response.text()}`);
   }
 }
+
+function pad(n) { return String(n).padStart(2, "0"); }
+
+function utcHourToBrt(h) {
+  const brt = (Number(h) - BRT_UTC_OFFSET + 24) % 24;
+  return pad(brt);
+}
+
+function brtHourToUtc(h) {
+  const utc = (Number(h) + BRT_UTC_OFFSET) % 24;
+  return String(utc);
+}
+
+async function getKv(env, key, fallback) {
+  if (!env.bot_config) return fallback;
+  try {
+    const val = await env.bot_config.get(key);
+    return val ?? fallback;
+  } catch { return fallback; }
+}
+
+async function putKv(env, key, val) {
+  if (!env.bot_config) return;
+  await env.bot_config.put(key, val);
+}
+
+async function deleteKv(env, key) {
+  if (!env.bot_config) return;
+  await env.bot_config.delete(key);
+}
+
+// --- Horario ---
+
+async function handleHorario(env, fetchImpl, raw) {
+  const parts = raw.replace(/^\//, "").trim().split(/\s+/);
+  if (parts.length < 2 || !/^(\d{1,2}):(\d{2})$/.test(parts[1])) {
+    return "Uso: /horario HH:MM (horario de Brasilia, ex: /horario 06:00)";
+  }
+  const [, hStr] = parts[1].match(/^(\d{1,2}):(\d{2})$/);
+  const h = Number(hStr);
+  if (h < 0 || h > 23) return "Hora invalida. Use 00 a 23.";
+  const utc = brtHourToUtc(h);
+  await putKv(env, "schedule_hour", utc);
+  return `Horario alterado: ${pad(h)}:00 BRT (${pad(utc)}:00 UTC). A publicacao diaria sera feita neste horario.`;
+}
+
+async function handleAgendar(env, fetchImpl, raw) {
+  const parts = raw.replace(/^\//, "").trim().split(/\s+/);
+  if (parts.length < 2 || !/^\d{4}-\d{2}-\d{2}$/.test(parts[1])) {
+    return "Uso: /agendar YYYY-MM-DD (ex: /agendar 2026-07-20)";
+  }
+  const date = parts[1];
+  const now = new Date();
+  const today = now.toISOString().slice(0, 10);
+  if (date <= today) return "A data deve ser futura.";
+  const key = `scheduled:${date}`;
+  const existing = await getKv(env, key);
+  if (existing) return `Edicao para ${date} ja esta agendada.`;
+  await putKv(env, key, "pending");
+  return `Edicao extra agendada para ${date}. Uma publicacao sera disparada automaticamente neste dia.`;
+}
+
+async function handleAgendamentos(env, fetchImpl) {
+  const scheduleHour = await getKv(env, "schedule_hour", "6");
+  const brt = utcHourToBrt(scheduleHour);
+  const lines = [`Horario atual: ${brt}:00 BRT (UTC ${pad(scheduleHour)}:00)`];
+  if (!env.bot_config) {
+    lines.push("KV nao configurado — agendamentos extras indisponiveis.");
+    return lines.join("\n");
+  }
+  const list = await env.bot_config.list({ prefix: "scheduled:" });
+  const dates = Array.isArray(list.keys) ? list.keys
+    .filter((k) => k.name.startsWith("scheduled:"))
+    .map((k) => k.name.replace("scheduled:", ""))
+    .sort() : [];
+  if (dates.length === 0) {
+    lines.push("Nenhum agendamento extra pendente.");
+  } else {
+    lines.push(`Agendamentos extra (${dates.length}):`);
+    for (const d of dates) {
+      const status = await getKv(env, `scheduled:${d}`);
+      lines.push(`  ${d} - ${status}`);
+    }
+  }
+  return lines.join("\n");
+}
+
+async function handleCancelar(env, fetchImpl, raw) {
+  const parts = raw.replace(/^\//, "").trim().split(/\s+/);
+  if (parts.length < 2 || !/^\d{4}-\d{2}-\d{2}$/.test(parts[1])) {
+    return "Uso: /cancelar YYYY-MM-DD (ex: /cancelar 2026-07-20)";
+  }
+  const date = parts[1];
+  const key = `scheduled:${date}`;
+  const existing = await getKv(env, key);
+  if (!existing) return `Nenhum agendamento encontrado para ${date}.`;
+  await deleteKv(env, key);
+  return `Agendamento para ${date} cancelado.`;
+}
+
+// --- Cron handler ---
+
+async function handleScheduled(event, env) {
+  try {
+    const cronHour = parseCronHour(event.cron);
+    const scheduleHour = await getKv(env, "schedule_hour", "6");
+    if (cronHour !== null && cronHour === Number(scheduleHour)) {
+      await dispatchWorkflow(env, fetch, DAILY_WORKFLOW);
+    }
+
+    if (!env.bot_config) return;
+    const today = new Date().toISOString().slice(0, 10);
+    const pending = await getKv(env, `scheduled:${today}`);
+    if (pending === "pending") {
+      await dispatchWorkflow(env, fetch, DAILY_WORKFLOW);
+      await putKv(env, `scheduled:${today}`, "dispatched");
+    }
+  } catch (err) {
+    console.error("Scheduled handler failed:", err.message);
+  }
+}
+
+function parseCronHour(cronExpr) {
+  if (!cronExpr) return null;
+  const parts = cronExpr.trim().split(/\s+/);
+  if (parts.length < 2) return null;
+  const hour = Number(parts[1]);
+  return Number.isInteger(hour) ? hour : null;
+}
+
+// --- Reports ---
 
 async function buildStatusReport(env, fetchImpl, detailed) {
   const [runs, site] = await Promise.all([

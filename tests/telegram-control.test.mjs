@@ -16,8 +16,41 @@ const env = {
 test("menu returns Telegram inline buttons", async () => {
   const response = await executeCommand("menu", env, fakeFetch());
   assert.match(response.text, /Controle Noticias Catolicas/);
+  assert.match(response.text, /\/horario/);
+  assert.match(response.text, /\/agendar/);
   assert.equal(response.keyboard.length, 3);
   assert.equal(response.keyboard[0][0].callback_data, "run_daily");
+});
+
+test("horario returns usage without arg", async () => {
+  const response = await executeCommand("horario", env, fakeFetch(), "/horario");
+  assert.match(response.text, /Uso/);
+});
+
+test("horario confirms the new time", async () => {
+  const response = await executeCommand("horario", env, fakeFetch(), "/horario 08:00");
+  assert.match(response.text, /08:00 BRT/);
+  assert.match(response.text, /11:00 UTC/);
+});
+
+test("agendar returns usage without arg", async () => {
+  const response = await executeCommand("agendar", env, fakeFetch(), "/agendar");
+  assert.match(response.text, /Uso/);
+});
+
+test("agendar confirms scheduling", async () => {
+  const response = await executeCommand("agendar", env, fakeFetch(), "/agendar 2026-07-20");
+  assert.match(response.text, /Edicao extra agendada para 2026-07-20/);
+});
+
+test("agendamentos shows current config", async () => {
+  const response = await executeCommand("agendamentos", env, fakeFetch());
+  assert.match(response.text, /Horario atual/);
+});
+
+test("cancelar returns not found for unknown date", async () => {
+  const response = await executeCommand("cancelar", env, fakeFetch(), "/cancelar 2026-07-20");
+  assert.match(response.text, /Nenhum agendamento encontrado/);
 });
 
 test("run_daily dispatches the daily workflow", async () => {
