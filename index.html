@@ -206,6 +206,45 @@
   }
   .saint-more-link svg { width: 10px; height: 10px; }
 
+  .gospel-scroll {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+  }
+  .gospel-scroll::-webkit-scrollbar { display: none; }
+  .gospel-scroll .gospel-card {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    margin-bottom: 0;
+  }
+  .gospel-scroll-wrapper { position: relative; }
+  .gospel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(28,43,74,0.7);
+    border: 1px solid var(--gold-lt);
+    color: var(--gold-lt);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, opacity 0.2s;
+    opacity: 0.7;
+  }
+  .gospel-arrow:hover { background: var(--navy); opacity: 1; }
+  .gospel-arrow svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .gospel-arrow-left { left: -8px; }
+  .gospel-arrow-right { right: -8px; }
   .gospel-card {
     background: var(--navy);
     padding: 40px 44px;
@@ -482,7 +521,7 @@
   <div class="liturgy-inner">
     <div class="liturgy-cell">
       <div class="liturgy-label">Tempo Litúrgico</div>
-      <div class="liturgy-value gold">Santo Henrique</div>
+      <div class="liturgy-value gold">Tempo Comum</div>
     </div>
     <div class="liturgy-cell">
       <div class="liturgy-label">Evangelho do Dia</div>
@@ -499,7 +538,7 @@
   </div>
   <div class="saint-card">
     <h2 class="saint-name">São Henrique II, imperador Romano</h2>
-    <p class="saint-bio">Celebração litúrgica do dia: Santo Henrique.</p>
+    <p class="saint-bio">Henrique era filho de duque Baviera, e nasceu num castelo na Alemanha em 973. Pertencia a uma família santa, e por isso foi educado pelos cânones de Hildesheim; depois, pelo bispo Saint Wolfgang, em Regensburg.</p>
 
     <a class="saint-more-link" href="https://santo.cancaonova.com/santo/sao-henrique-ii-imperador-romano/" target="_blank" rel="noopener noreferrer">
       Saiba mais na Canção Nova
@@ -514,13 +553,12 @@
     <div class="section-header-line"></div>
   </div>
 
+  <div class="gospel-scroll-wrapper">
+  <div class="gospel-scroll" id="gospelScroll">
   <div class="gospel-card">
     <div class="gospel-ref">Mt 10,34-11,1</div>
     <p class="gospel-text">
-      <span class="gospel-line">Naquele tempo, disse Jesus aos seus discípulos: Não penseis que vim trazer paz à terra; não vim trazer a paz, mas sim a espada.</span>
-      <span class="gospel-line">De fato, vim separar o filho de seu pai, a filha de sua mãe, a nora de sua sogra.</span>
-      <span class="gospel-line">E os inimigos do homem serão os seus próprios familiares.</span>
-      <span class="gospel-line gospel-ellipsis">...</span>
+      Naquele tempo, disse Jesus aos seus discípulos: Não penseis que vim trazer paz à terra; não vim trazer a paz, mas sim a espada. De fato, vim separar o filho de seu pai, a filha de sua mãe, a nora de sua sogra. E os inimigos do homem serão os seus...
     </p>
     <div class="gospel-link-wrapper">
       <a class="btn-source gospel-link" href="https://www.cnbb.org.br/liturgia-diaria/" target="_blank" rel="noopener noreferrer">
@@ -531,6 +569,24 @@
   </a>
     </div>
   </div>
+  <div class="gospel-card">
+    <div class="gospel-ref">Liturgia das Horas</div>
+    <p class="gospel-text">Falai e procedei como pessoas que vão ser julgadas pela Lei da liberdade. Pensai bem: O juízo vai ser sem misericórdia para quem não praticou misericórdia; a misericórdia, porém, triunfa do juízo.</p>
+    <div class="gospel-link-wrapper">
+      <a class="btn-source gospel-link" href="https://www.paulus.com.br/portal/liturgia-diaria-das-horas/" target="_blank" rel="noopener noreferrer">
+        Ler a Liturgia das Horas na Paulus
+        <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M1 9L9 1M9 1H3M9 1V7"/>
+        </svg>
+      </a>
+    </div>
+  </div></div>
+  <button class="gospel-arrow gospel-arrow-left" id="gospelArrowLeft" aria-label="Anterior">
+    <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+  </button>
+  <button class="gospel-arrow gospel-arrow-right" id="gospelArrowRight" aria-label="Próximo">
+    <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
+  </button></div>
 
   <div class="section-header">
     <span class="section-header-title">Notícias Selecionadas</span>
@@ -543,9 +599,9 @@
       <div class="news-index">01</div>
       <div class="news-body">
         <div class="news-source">Vatican News</div>
-        <h3 class="news-headline">Igreja no mundo celebra o Dia de São Pedro e São Paulo com chamado à unidade</h3>
-        <p class="news-summary">Celebrações ao redor do mundo marcaram a solenidade dos apóstolos São Pedro e São Paulo, com ênfase no diálogo ecumênico e na missão da Igreja.</p>
-        <a class="btn-source" href="https://www.vaticannews.va/pt/igreja/news/2026-06/igreja-no-mundo-celebra-o-dia-de-sao-pedro-e-sao-paulo.html" target="_blank" rel="noopener noreferrer">
+        <h3 class="news-headline">Igreja da Ásia reflete sobre sinodalidade e pontes entre os povos</h3>
+        <p class="news-summary">De 20 a 26 de julho, em Jacarta, na Indonésia, a Federação das Conferências Episcopais Asiáticas reúne mais de 120 participantes para traçar as linhas da missão da Igreja no continente. Entre os momentos-chave, a abertura presidida pelo.</p>
+        <a class="btn-source" href="https://www.vaticannews.va/pt/igreja/news/2026-07/indonesia-asia-igreja-catolicos-povos-sinodalidade-bispos-fabc.html" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -558,9 +614,9 @@
       <div class="news-index">02</div>
       <div class="news-body">
         <div class="news-source">Vatican News</div>
-        <h3 class="news-headline">Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário</h3>
-        <p class="news-summary">O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.</p>
-        <a class="btn-source" href="https://www.vaticannews.va/pt/vaticano/news/2026-06/cardeais-reunidos-em-roma-para-consistorio-extraordinario.html" target="_blank" rel="noopener noreferrer">
+        <h3 class="news-headline">Salesianas na Venezuela: trabalho está longe de terminar</h3>
+        <p class="news-summary">Embora o governo tenha anunciado o resgate de mais de 6.400 pessoas, o número de desaparecidos sob os escombros continua incerto, com a ONU a estimar que as cifras reais possam ser drasticamente superiores às oficiais. A presidente.</p>
+        <a class="btn-source" href="https://www.vaticannews.va/pt/papa/news/2026-07/venezuela-terremoto-salesianas.html" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -573,9 +629,9 @@
       <div class="news-index">03</div>
       <div class="news-body">
         <div class="news-source">CNBB</div>
-        <h3 class="news-headline">Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias</h3>
-        <p class="news-summary">A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.</p>
-        <a class="btn-source" href="https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/" target="_blank" rel="noopener noreferrer">
+        <h3 class="news-headline">A importância da Palavra de Deus e a centralidade que ela deve assumir na vida dos batizados!</h3>
+        <p class="news-summary">Dom Anuar Battisti Arcebispo Emérito de Maringá (PR) A liturgia do 15º Domingo do Tempo Comum convida-nos a tomar consciência da importância da Palavra de Deus e da centralidade que ela deve assumir na vida dos batizados. A primeira.</p>
+        <a class="btn-source" href="https://www.cnbb.org.br/a-importancia-da-palavra-de-deus-e-a-centralidade-que-ela-deve-assumir-na-vida-dos-batizados/" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -586,36 +642,6 @@
 
     <article class="news-item reveal">
       <div class="news-index">04</div>
-      <div class="news-body">
-        <div class="news-source">ACI Digital</div>
-        <h3 class="news-headline">Igreja no Brasil se prepara para o mês vocacional com intensa programação</h3>
-        <p class="news-summary">Dioceses de todo o Brasil organizam eventos e campanhas para o mês vocacional de agosto, incentivando jovens a discernirem sua vocação.</p>
-        <a class="btn-source" href="https://www.acidigital.com/noticias/igreja-no-brasil-se-prepara-para-o-mes-vocacional-com-intensa-programacao" target="_blank" rel="noopener noreferrer">
-          Ler na fonte
-          <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-            <path d="M1 9L9 1M9 1H3M9 1V7"/>
-          </svg>
-        </a>
-      </div>
-    </article>
-
-    <article class="news-item reveal">
-      <div class="news-index">05</div>
-      <div class="news-body">
-        <div class="news-source">ACI Digital</div>
-        <h3 class="news-headline">Santuários brasileiros registram aumento de peregrinos em 2026</h3>
-        <p class="news-summary">Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.</p>
-        <a class="btn-source" href="https://www.acidigital.com/noticias/santuarios-brasileiros-registram-aumento-de-peregrinos-em-2026" target="_blank" rel="noopener noreferrer">
-          Ler na fonte
-          <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-            <path d="M1 9L9 1M9 1H3M9 1V7"/>
-          </svg>
-        </a>
-      </div>
-    </article>
-
-    <article class="news-item reveal">
-      <div class="news-index">06</div>
       <div class="news-body">
         <div class="news-source">Shalom</div>
         <h3 class="news-headline">Acamp s Minas: aventura, festa e uma experiência que vai marcar sua vida</h3>
@@ -630,12 +656,12 @@
     </article>
 
     <article class="news-item reveal">
-      <div class="news-index">07</div>
+      <div class="news-index">05</div>
       <div class="news-body">
-        <div class="news-source">Aleteia</div>
-        <h3 class="news-headline">Brasil: Samuel, de 12 anos, faz terços para crianças doentes</h3>
-        <p class="news-summary">Nos corredores do hospital, violão e terço em mãos, Samuel Hoffmann leva um pouco de luz para crianças doentes. Com apenas 12 anos, este jovem brasileiro de Brusque, cidade no sul do Brasil, no estado de Santa Catarina, dedica parte do.</p>
-        <a class="btn-source" href="https://pt.aleteia.org/2026/07/13/brasil-deus-me-confiou-esta-missao-samuel-de-12-anos-faz-tercos-para-criancas-doentes/" target="_blank" rel="noopener noreferrer">
+        <div class="news-source">Shalom</div>
+        <h3 class="news-headline">Quando a mãe vai para a Reciclagem: confiar os filhos a Deus</h3>
+        <p class="news-summary">A Reciclagem Shalom convida as mães a deixarem, por alguns dias, a rotina para reencontrar Deus, renovar a vocação e redescobrir a alegria de serem, antes de tudo, filhas amadas.</p>
+        <a class="btn-source" href="https://comshalom.org/quando-a-mae-vai-para-a-reciclagem-confiar-os-filhos-a-deus/" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -645,12 +671,27 @@
     </article>
 
     <article class="news-item reveal">
-      <div class="news-index">08</div>
+      <div class="news-index">06</div>
       <div class="news-body">
         <div class="news-source">Aleteia</div>
-        <h3 class="news-headline">Oração e jejum: as armas espirituais recomendadas pelos santos para os tempos difíceis</h3>
-        <p class="news-summary">Grandes santos da Igreja ensinaram que a oração e o jejum são ferramentas poderosas para enfrentar as adversidades da vida.</p>
-        <a class="btn-source" href="https://pt.aleteia.org/2026/06/oracao-e-jejum-armas-espirituais-dos-santos" target="_blank" rel="noopener noreferrer">
+        <h3 class="news-headline">Angelus: “Os ventos da guerra sopram novamente”, lamenta Leão XIV</h3>
+        <p class="news-summary">Em repouso na residência papal de verão de Castel Gandolfo, a sudeste de Roma (de 5 a 27 de julho), Leão XIV rezou a oração mariana na praça adjacente ao Palácio Apostólico, na presença de milhares de pessoas. “Os ventos da guerra,.</p>
+        <a class="btn-source" href="https://pt.aleteia.org/2026/07/13/angelus-os-ventos-da-guerra-sopram-novamente-lamenta-leao-xiv/" target="_blank" rel="noopener noreferrer">
+          Ler na fonte
+          <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M1 9L9 1M9 1H3M9 1V7"/>
+          </svg>
+        </a>
+      </div>
+    </article>
+
+    <article class="news-item reveal">
+      <div class="news-index">07</div>
+      <div class="news-body">
+        <div class="news-source">Gaudium Press</div>
+        <h3 class="news-headline">São Luís Maria Grignion de Montfort</h3>
+        <p class="news-summary">Na galeria dos Fundadores situada na Basílica de São Pedro, há uma bela imagem desse combativo Santo pisando a cabeça do demônio, que tenta rasgar o “Tratado da verdadeira devoção a Santíssima Virgem”. Foto: Gustavo Kralj Redação (.</p>
+        <a class="btn-source" href="https://gaudiumpress.org/content/sao-luis-maria-grignion-de-montfort-2/" target="_blank" rel="noopener noreferrer">
           Ler na fonte
           <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -689,9 +730,9 @@
 <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
   <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
 </button>
-
 <script>
   (function () {
+(function () {
     var button = document.getElementById('download-story-quote');
     if (button) {
       function dataUrlToBlob(dataUrl) {
@@ -788,6 +829,62 @@
         btn.classList.toggle('visible', window.scrollY > 300);
       }, { passive: true });
       btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    }
+  })();
+    var masthead = document.querySelector('.masthead');
+    var hero = document.querySelector('.hero');
+    var trigger = document.querySelector('.liturgy-strip');
+    if (masthead && hero && trigger) {
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          masthead.classList.toggle('scrolled', !entry.isIntersecting);
+          hero.classList.toggle('scrolled', !entry.isIntersecting);
+        });
+      }, { threshold: 0 });
+      observer.observe(trigger);
+    }
+
+    var reveals = document.querySelectorAll('.reveal');
+    if (reveals.length > 0 && 'IntersectionObserver' in window) {
+      var revealObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+      reveals.forEach(function (el) { revealObserver.observe(el); });
+    } else {
+      reveals.forEach(function (el) { el.classList.add('visible'); });
+    }
+
+    var btn = document.getElementById('backToTop');
+    if (btn) {
+      var scrollHandler = function () {
+        btn.classList.toggle('visible', window.scrollY > 300);
+      };
+      window.addEventListener('scroll', scrollHandler, { passive: true });
+      scrollHandler();
+      btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    }
+
+    var gospelScroll = document.getElementById('gospelScroll');
+    var arrowLeft = document.getElementById('gospelArrowLeft');
+    var arrowRight = document.getElementById('gospelArrowRight');
+    if (gospelScroll && arrowLeft && arrowRight) {
+      var cards = gospelScroll.querySelectorAll('.gospel-card');
+      var current = 0;
+      function goTo(index) {
+        if (cards.length < 2) return;
+        current = ((index % cards.length) + cards.length) % cards.length;
+        gospelScroll.scrollTo({ left: current * gospelScroll.clientWidth, behavior: 'smooth' });
+      }
+      arrowLeft.addEventListener('click', function () { goTo(current - 1); });
+      arrowRight.addEventListener('click', function () { goTo(current + 1); });
+      gospelScroll.addEventListener('scroll', function () {
+        current = Math.round(gospelScroll.scrollLeft / gospelScroll.clientWidth);
+      }, { passive: true });
     }
   })();
 </script>
