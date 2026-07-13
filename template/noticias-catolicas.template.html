@@ -380,6 +380,16 @@
     color: white;
     text-decoration: none;
   }
+  .footer-privacy {
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    color: rgba(255,255,255,0.35);
+    line-height: 1.5;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .back-to-top {
     position: fixed; bottom: 28px; right: 28px; z-index: 100;
     width: 44px; height: 44px; border-radius: 50%;
@@ -387,6 +397,7 @@
     display: flex; align-items: center; justify-content: center;
     opacity: 0; visibility: hidden;
     transition: opacity 0.35s, visibility 0.35s, background 0.25s;
+  }
   }
   .back-to-top.visible { opacity: 1; visibility: visible; }
   .back-to-top:hover { background: rgba(26,20,16,0.75); }
@@ -509,6 +520,7 @@
   <p class="view-counter" aria-live="polite">
     <strong id="edition-view-count">1</strong> Leituras hoje
   </p>
+  <p class="footer-privacy">Este site não coleta dados pessoais nem utiliza cookies de rastreamento. As visualizações são contadas anonimamente no seu navegador via localStorage.</p>
 </footer>
 <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
   <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
