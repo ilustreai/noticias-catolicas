@@ -875,38 +875,36 @@
     var arrowLeft = document.getElementById('gospelArrowLeft');
     var arrowRight = document.getElementById('gospelArrowRight');
     if (gospelScroll && arrowLeft && arrowRight) {
-      var cards = gospelScroll.querySelectorAll('.gospel-card');
-      var len = cards.length;
-      function goTo(index) {
-        if (len < 2) return;
-        index = ((index % len) + len) % len;
-        gospelScroll.scrollTo({ left: index * gospelScroll.clientWidth, behavior: 'smooth' });
+      var scroll = gospelScroll;
+      var cards = scroll.querySelectorAll('.gospel-card');
+      var realLen = cards.length;
+      if (realLen > 1) {
+        // clone last → prepend, clone first → append (carrossel infinito real)
+        scroll.insertBefore(cards[realLen - 1].cloneNode(true), cards[0]);
+        scroll.appendChild(cards[0].cloneNode(true));
+        var firstReal = 1;
+        scroll.scrollLeft = firstReal * scroll.clientWidth;
+        function goTo(index) {
+          index = ((index % realLen) + realLen) % realLen;
+          scroll.scrollTo({ left: (firstReal + index) * scroll.clientWidth, behavior: 'smooth' });
+        }
+        arrowLeft.addEventListener('click', function () {
+          var cur = Math.round(scroll.scrollLeft / scroll.clientWidth) - firstReal;
+          goTo(cur - 1);
+        });
+        arrowRight.addEventListener('click', function () {
+          var cur = Math.round(scroll.scrollLeft / scroll.clientWidth) - firstReal;
+          goTo(cur + 1);
+        });
+        scroll.addEventListener('scroll', function () {
+          var idx = Math.round(scroll.scrollLeft / scroll.clientWidth);
+          if (idx < 1) {
+            scroll.scrollLeft = (firstReal + realLen - 1) * scroll.clientWidth;
+          } else if (idx > realLen) {
+            scroll.scrollLeft = firstReal * scroll.clientWidth;
+          }
+        }, { passive: true });
       }
-      arrowLeft.addEventListener('click', function () {
-        goTo(Math.round(gospelScroll.scrollLeft / gospelScroll.clientWidth) - 1);
-      });
-      arrowRight.addEventListener('click', function () {
-        goTo(Math.round(gospelScroll.scrollLeft / gospelScroll.clientWidth) + 1);
-      });
-      gospelScroll.addEventListener('wheel', function (e) {
-        var dx = e.deltaX || e.deltaY;
-        if (Math.abs(dx) < 1) return;
-        var idx = Math.round(gospelScroll.scrollLeft / gospelScroll.clientWidth);
-        if (dx > 0 && idx >= len - 1) { e.preventDefault(); goTo(0); }
-        else if (dx < 0 && idx <= 0) { e.preventDefault(); goTo(len - 1); }
-      }, { passive: false });
-      var tsX;
-      gospelScroll.addEventListener('touchstart', function (e) {
-        tsX = e.changedTouches[0].clientX;
-      }, { passive: true });
-      gospelScroll.addEventListener('touchend', function (e) {
-        if (tsX === undefined) return;
-        var dx = e.changedTouches[0].clientX - tsX;
-        var idx = Math.round(gospelScroll.scrollLeft / gospelScroll.clientWidth);
-        if (dx < -30 && idx >= len - 1) goTo(0);
-        else if (dx > 30 && idx <= 0) goTo(len - 1);
-        tsX = undefined;
-      }, { passive: true });
     }
   })();
 </script>
