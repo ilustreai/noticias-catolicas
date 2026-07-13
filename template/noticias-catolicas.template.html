@@ -211,18 +211,40 @@
     gap: 16px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    scrollbar-width: thin;
-    scrollbar-color: var(--gold-lt) transparent;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     -webkit-overflow-scrolling: touch;
+    position: relative;
   }
-  .gospel-scroll::-webkit-scrollbar { height: 6px; }
-  .gospel-scroll::-webkit-scrollbar-thumb { background: var(--gold-lt); border-radius: 3px; }
-  .gospel-scroll::-webkit-scrollbar-track { background: transparent; }
+  .gospel-scroll::-webkit-scrollbar { display: none; }
   .gospel-scroll .gospel-card {
     flex: 0 0 100%;
     scroll-snap-align: start;
     margin-bottom: 0;
   }
+  .gospel-scroll-wrapper { position: relative; }
+  .gospel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(28,43,74,0.7);
+    border: 1px solid var(--gold-lt);
+    color: var(--gold-lt);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, opacity 0.2s;
+    opacity: 0.7;
+  }
+  .gospel-arrow:hover { background: var(--navy); opacity: 1; }
+  .gospel-arrow svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .gospel-arrow-left { left: -8px; }
+  .gospel-arrow-right { right: -8px; }
   .gospel-card {
     background: var(--navy);
     padding: 40px 44px;
@@ -484,7 +506,8 @@
     <div class="section-header-line"></div>
   </div>
 
-  <div class="gospel-scroll">
+  <div class="gospel-scroll-wrapper">
+  <div class="gospel-scroll" id="gospelScroll">
   <div class="gospel-card">
     <div class="gospel-ref">{{GOSPEL_REF}}</div>
     <p class="gospel-text">
@@ -494,6 +517,12 @@
       {{GOSPEL_LINK}}
     </div>
   </div>{{LITURGY_HOURS}}</div>
+  <button class="gospel-arrow gospel-arrow-left" id="gospelArrowLeft" aria-label="Anterior">
+    <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+  </button>
+  <button class="gospel-arrow gospel-arrow-right" id="gospelArrowRight" aria-label="Próximo">
+    <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
+  </button></div>
 
   <div class="section-header">
     <span class="section-header-title">Notícias Selecionadas</span>
@@ -565,6 +594,24 @@
       window.addEventListener('scroll', scrollHandler, { passive: true });
       scrollHandler();
       btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    }
+
+    var gospelScroll = document.getElementById('gospelScroll');
+    var arrowLeft = document.getElementById('gospelArrowLeft');
+    var arrowRight = document.getElementById('gospelArrowRight');
+    if (gospelScroll && arrowLeft && arrowRight) {
+      var cards = gospelScroll.querySelectorAll('.gospel-card');
+      var current = 0;
+      function goTo(index) {
+        if (cards.length < 2) return;
+        current = ((index % cards.length) + cards.length) % cards.length;
+        gospelScroll.scrollTo({ left: current * gospelScroll.clientWidth, behavior: 'smooth' });
+      }
+      arrowLeft.addEventListener('click', function () { goTo(current - 1); });
+      arrowRight.addEventListener('click', function () { goTo(current + 1); });
+      gospelScroll.addEventListener('scroll', function () {
+        current = Math.round(gospelScroll.scrollLeft / gospelScroll.clientWidth);
+      }, { passive: true });
     }
   })();
 </script>

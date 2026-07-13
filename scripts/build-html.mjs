@@ -160,11 +160,11 @@ function storyDownloadAssets(date) {
 
 function addStoryDownload(html, date) {
   const { css, markup, script } = storyDownloadAssets(date);
+  const storyJS = script.replace(/<script>\s*|\s*<\/script>/g, '').trim();
   return html
-    .replace(/<script>[\s\S]*?<\/script>/, '')
+    .replace(/(<script>\s*\(function\s*\(\)\s*\{)/, '$1' + '\n' + storyJS)
     .replace('</style>', `${css}</style>`)
-    .replace(/(<aside class="closing-quote">[\s\S]*?)\r?\n  <\/aside>/, `$1${markup}`)
-    .replace('</body>', `${script}\n</body>`);
+    .replace(/(<aside class="closing-quote">[\s\S]*?)\r?\n  <\/aside>/, `$1${markup}`);
 }
 
 const selectionResult = validateSelection(selection);
