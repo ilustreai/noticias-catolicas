@@ -31,6 +31,11 @@ export default {
 
 export async function handleRequest(request, env, fetchImpl = fetch) {
   if (request.method === "GET") {
+    const url = new URL(request.url);
+    if (url.pathname === "/run-daily") {
+      await dispatchWorkflow(env, fetchImpl, DAILY_WORKFLOW);
+      return json({ ok: true, message: "workflow dispatched" });
+    }
     return json({ ok: true, service: "ilustre telegram control" });
   }
 
