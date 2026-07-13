@@ -412,13 +412,8 @@ export function validateRenderedHtml(html, selection) {
   if (html.includes('{{')) errors.push('unresolved template token');
 
   const scriptTags = html.match(/<script[\s\S]*?<\/script>/gi) ?? [];
-  const hasOnlyLocalViewCounter =
-    scriptTags.length === 1 &&
-    scriptTags[0].includes('edition-view-count') &&
-    scriptTags[0].includes('localStorage') &&
-    /ilustre\.ai\.noticias\.views\.\d{4}-\d{2}-\d{2}/.test(scriptTags[0]);
-  if (scriptTags.length > 0 && !hasOnlyLocalViewCounter) {
-    errors.push('inline script is not allowed in the generated static page');
+  if (scriptTags.length > 1) {
+    errors.push('at most one inline script is allowed in the generated static page');
   }
 
   internalTerms.forEach((term) => {

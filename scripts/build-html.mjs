@@ -55,19 +55,6 @@ function storyDownloadAssets(date) {
 
   const script = `<script>
   (function () {
-    var counter = document.getElementById('edition-view-count');
-    if (counter) {
-      var key = 'ilustre.ai.noticias.views.${date}';
-      try {
-        var current = parseInt(localStorage.getItem(key) || '0', 10);
-        var next = Number.isFinite(current) ? current + 1 : 1;
-        localStorage.setItem(key, String(next));
-        counter.textContent = String(next);
-      } catch (e) {
-        counter.textContent = '1';
-      }
-    }
-
     var button = document.getElementById('download-story-quote');
     if (button) {
       function dataUrlToBlob(dataUrl) {

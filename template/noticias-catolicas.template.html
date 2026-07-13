@@ -402,19 +402,6 @@
   .back-to-top.visible { opacity: 1; visibility: visible; }
   .back-to-top:hover { background: rgba(26,20,16,0.75); }
   .back-to-top svg { width: 20px; height: 20px; stroke: #fff; stroke-width: 2.2; fill: none; stroke-linecap: round; }
-  .view-counter {
-    margin-top: 18px;
-    font-family: 'Inter', sans-serif;
-    font-size: 11px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.42);
-  }
-  .view-counter strong {
-    color: rgba(255,255,255,0.68);
-    font-weight: 600;
-  }
-
   .reveal {
     opacity: 0;
     transform: translateY(24px);
@@ -517,29 +504,13 @@
   <a class="footer-link" href="https://www.instagram.com/ilustre.ai" target="_blank" rel="noopener noreferrer">
     Instagram · @ilustre.ai
   </a>
-  <p class="view-counter" aria-live="polite">
-    <strong id="edition-view-count">1</strong> Leituras hoje
-  </p>
-  <p class="footer-privacy">Este site não coleta dados pessoais nem utiliza cookies de rastreamento. As visualizações são contadas anonimamente no seu navegador via localStorage.</p>
+  <p class="footer-privacy">Este site não coleta dados pessoais nem utiliza cookies de rastreamento.</p>
 </footer>
 <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
   <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
 </button>
 <script>
   (function () {
-    var counter = document.getElementById('edition-view-count');
-    if (counter) {
-      var key = 'ilustre.ai.noticias.views.{{EDITION_DATE}}';
-      try {
-        var current = parseInt(localStorage.getItem(key) || '0', 10);
-        var next = Number.isFinite(current) ? current + 1 : 1;
-        localStorage.setItem(key, String(next));
-        counter.textContent = String(next);
-      } catch (e) {
-        counter.textContent = '1';
-      }
-    }
-
     var masthead = document.querySelector('.masthead');
     var hero = document.querySelector('.hero');
     var trigger = document.querySelector('.liturgy-strip');
