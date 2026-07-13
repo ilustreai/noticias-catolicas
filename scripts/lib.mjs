@@ -384,9 +384,11 @@ export function loadTemplate(templatePath = path.join(rootDir, 'template', 'noti
   return fs.readFileSync(templatePath, 'utf8');
 }
 
-function renderSaintSection(saint) {
+function renderSaintSection(saint, celebrationTitle) {
   if (!saint?.name) return '';
   const link = renderSaintMoreLink(saint);
+  const subtitle = celebrationTitle ? `<p class="saint-subtitle">Celebração litúrgica do dia: ${escapeHtml(celebrationTitle)}</p>` : '';
+  const bio = saint.description ? truncateAtWord(saint.description, 230) : '';
   return `
   <div class="section-header">
     <span class="section-header-title">Santo do Dia</span>
@@ -394,7 +396,8 @@ function renderSaintSection(saint) {
   </div>
   <div class="saint-card">
     <h2 class="saint-name">${escapeHtml(saint.name)}</h2>
-    <p class="saint-bio">${escapeHtml(saint.description ?? '')}</p>
+    ${subtitle}
+    ${bio ? `<p class="saint-bio">${escapeHtml(bio)}</p>` : ''}
 ${link}
   </div>`;
 }
@@ -409,7 +412,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{LITURGICAL_SEASON}}': liturgicalDisplayTitle(selection.liturgical),
     '{{GOSPEL_SHORT}}': simplifyGospelRef(selection.liturgical.gospelShort ?? ''),
     '{{EDITION_LABEL}}': selection.editionLabel,
-    '{{SAINT_SECTION}}': renderSaintSection(selection.saint),
+    '{{SAINT_SECTION}}': renderSaintSection(selection.saint, selection.liturgical?.celebrationTitle),
     '{{GOSPEL_LINES}}': renderGospelLines(selection.gospel.lines),
     '{{GOSPEL_LINK}}': renderGospelLink(),
     '{{LITURGY_HOURS}}': renderLiturgyHours(selection.liturgyHours?.reading, selection.liturgyHours?.url),
