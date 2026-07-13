@@ -311,6 +311,8 @@
     max-width: 680px;
     margin-bottom: 18px;
   }
+  .news-link-row { display: flex; align-items: center; gap: 16px; }
+  .news-date { font-size: 12px; color: rgba(0,0,0,0.32); letter-spacing: 0.2px; }
   .btn-source {
     display: inline-flex;
     align-items: center;
@@ -328,7 +330,6 @@
   .btn-source svg { width: 10px; height: 10px; }
   .gospel-link-wrapper { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
   .gospel-link-wrapper .btn-source { color: var(--gold); border-bottom-color: var(--gold); }
-  .gospel-date { font-size: 13px; color: rgba(255,255,255,0.45); letter-spacing: 0.3px; }
   .closing-quote {
     margin: 44px 0 0;
     padding: 34px 38px;
@@ -565,8 +566,7 @@
       Naquele tempo, disse Jesus aos seus discípulos: Não penseis que vim trazer paz à terra; não vim trazer a paz, mas sim a espada. De fato, vim separar o filho de seu pai, a filha de sua mãe, a nora de sua sogra. E os inimigos do homem serão os seus...
     </p>
     <div class="gospel-link-wrapper">
-      <div class="gospel-date">13 de julho de 2026</div>
-  <a class="btn-source gospel-link" href="https://www.cnbb.org.br/liturgia-diaria/" target="_blank" rel="noopener noreferrer">
+      <a class="btn-source gospel-link" href="https://www.cnbb.org.br/liturgia-diaria/" target="_blank" rel="noopener noreferrer">
     Ler o Evangelho na CNBB
     <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
       <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -578,7 +578,6 @@
     <div class="gospel-ref">Liturgia das Horas</div>
     <p class="gospel-text">Falai e procedei como pessoas que vão ser julgadas pela Lei da liberdade. Pensai bem: O juízo vai ser sem misericórdia para quem não praticou misericórdia; a misericórdia, porém, triunfa do juízo.</p>
     <div class="gospel-link-wrapper">
-      <div class="gospel-date">13 de julho de 2026</div>
       <a class="btn-source gospel-link" href="https://www.paulus.com.br/portal/liturgia-diaria-das-horas/" target="_blank" rel="noopener noreferrer">
         Ler a Liturgia das Horas na Paulus
         <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
@@ -607,12 +606,15 @@
         <div class="news-source">Vatican News</div>
         <h3 class="news-headline">Igreja da Ásia reflete sobre sinodalidade e pontes entre os povos</h3>
         <p class="news-summary">De 20 a 26 de julho, em Jacarta, na Indonésia, a Federação das Conferências Episcopais Asiáticas reúne mais de 120 participantes para traçar as linhas da missão da Igreja no continente. Entre os momentos-chave, a abertura presidida pelo.</p>
-        <a class="btn-source" href="https://www.vaticannews.va/pt/igreja/news/2026-07/indonesia-asia-igreja-catolicos-povos-sinodalidade-bispos-fabc.html" target="_blank" rel="noopener noreferrer">
-          Ler na fonte
-          <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-            <path d="M1 9L9 1M9 1H3M9 1V7"/>
-          </svg>
-        </a>
+        <div class="news-link-row">
+          <span class="news-date"></span>
+          <a class="btn-source" href="https://www.vaticannews.va/pt/igreja/news/2026-07/indonesia-asia-igreja-catolicos-povos-sinodalidade-bispos-fabc.html" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
       </div>
     </article>
 
@@ -622,12 +624,15 @@
         <div class="news-source">Vatican News</div>
         <h3 class="news-headline">Salesianas na Venezuela: trabalho está longe de terminar</h3>
         <p class="news-summary">Embora o governo tenha anunciado o resgate de mais de 6.400 pessoas, o número de desaparecidos sob os escombros continua incerto, com a ONU a estimar que as cifras reais possam ser drasticamente superiores às oficiais. A presidente.</p>
-        <a class="btn-source" href="https://www.vaticannews.va/pt/papa/news/2026-07/venezuela-terremoto-salesianas.html" target="_blank" rel="noopener noreferrer">
-          Ler na fonte
-          <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-            <path d="M1 9L9 1M9 1H3M9 1V7"/>
-          </svg>
-        </a>
+        <div class="news-link-row">
+          <span class="news-date"></span>
+          <a class="btn-source" href="https://www.vaticannews.va/pt/papa/news/2026-07/venezuela-terremoto-salesianas.html" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
       </div>
     </article>
 
@@ -637,12 +642,15 @@
         <div class="news-source">CNBB</div>
         <h3 class="news-headline">A importância da Palavra de Deus e a centralidade que ela deve assumir na vida dos batizados!</h3>
         <p class="news-summary">Dom Anuar Battisti Arcebispo Emérito de Maringá (PR) A liturgia do 15º Domingo do Tempo Comum convida-nos a tomar consciência da importância da Palavra de Deus e da centralidade que ela deve assumir na vida dos batizados. A primeira.</p>
-        <a class="btn-source" href="https://www.cnbb.org.br/a-importancia-da-palavra-de-deus-e-a-centralidade-que-ela-deve-assumir-na-vida-dos-batizados/" target="_blank" rel="noopener noreferrer">
-          Ler na fonte
-          <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-            <path d="M1 9L9 1M9 1H3M9 1V7"/>
-          </svg>
-        </a>
+        <div class="news-link-row">
+          <span class="news-date"></span>
+          <a class="btn-source" href="https://www.cnbb.org.br/a-importancia-da-palavra-de-deus-e-a-centralidade-que-ela-deve-assumir-na-vida-dos-batizados/" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
       </div>
     </article>
 
@@ -652,12 +660,15 @@
         <div class="news-source">Shalom</div>
         <h3 class="news-headline">Acamp s Minas: aventura, festa e uma experiência que vai marcar sua vida</h3>
         <p class="news-summary">Promovido pela Comunidade Shalom, o acampamento reúne pela primeira vez todas as missões do estado de Minas Gerais em um encontro único.</p>
-        <a class="btn-source" href="https://comshalom.org/acamps-minas-2026-acampamento-jovens-shalom/" target="_blank" rel="noopener noreferrer">
-          Ler na fonte
-          <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-            <path d="M1 9L9 1M9 1H3M9 1V7"/>
-          </svg>
-        </a>
+        <div class="news-link-row">
+          <span class="news-date"></span>
+          <a class="btn-source" href="https://comshalom.org/acamps-minas-2026-acampamento-jovens-shalom/" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
       </div>
     </article>
 
@@ -667,12 +678,15 @@
         <div class="news-source">Shalom</div>
         <h3 class="news-headline">Quando a mãe vai para a Reciclagem: confiar os filhos a Deus</h3>
         <p class="news-summary">A Reciclagem Shalom convida as mães a deixarem, por alguns dias, a rotina para reencontrar Deus, renovar a vocação e redescobrir a alegria de serem, antes de tudo, filhas amadas.</p>
-        <a class="btn-source" href="https://comshalom.org/quando-a-mae-vai-para-a-reciclagem-confiar-os-filhos-a-deus/" target="_blank" rel="noopener noreferrer">
-          Ler na fonte
-          <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-            <path d="M1 9L9 1M9 1H3M9 1V7"/>
-          </svg>
-        </a>
+        <div class="news-link-row">
+          <span class="news-date"></span>
+          <a class="btn-source" href="https://comshalom.org/quando-a-mae-vai-para-a-reciclagem-confiar-os-filhos-a-deus/" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
       </div>
     </article>
 
@@ -682,12 +696,15 @@
         <div class="news-source">Aleteia</div>
         <h3 class="news-headline">Angelus: “Os ventos da guerra sopram novamente”, lamenta Leão XIV</h3>
         <p class="news-summary">Em repouso na residência papal de verão de Castel Gandolfo, a sudeste de Roma (de 5 a 27 de julho), Leão XIV rezou a oração mariana na praça adjacente ao Palácio Apostólico, na presença de milhares de pessoas. “Os ventos da guerra,.</p>
-        <a class="btn-source" href="https://pt.aleteia.org/2026/07/13/angelus-os-ventos-da-guerra-sopram-novamente-lamenta-leao-xiv/" target="_blank" rel="noopener noreferrer">
-          Ler na fonte
-          <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-            <path d="M1 9L9 1M9 1H3M9 1V7"/>
-          </svg>
-        </a>
+        <div class="news-link-row">
+          <span class="news-date"></span>
+          <a class="btn-source" href="https://pt.aleteia.org/2026/07/13/angelus-os-ventos-da-guerra-sopram-novamente-lamenta-leao-xiv/" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
       </div>
     </article>
 
@@ -697,12 +714,15 @@
         <div class="news-source">Gaudium Press</div>
         <h3 class="news-headline">São Luís Maria Grignion de Montfort</h3>
         <p class="news-summary">Na galeria dos Fundadores situada na Basílica de São Pedro, há uma bela imagem desse combativo Santo pisando a cabeça do demônio, que tenta rasgar o “Tratado da verdadeira devoção a Santíssima Virgem”. Foto: Gustavo Kralj Redação (.</p>
-        <a class="btn-source" href="https://gaudiumpress.org/content/sao-luis-maria-grignion-de-montfort-2/" target="_blank" rel="noopener noreferrer">
-          Ler na fonte
-          <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-            <path d="M1 9L9 1M9 1H3M9 1V7"/>
-          </svg>
-        </a>
+        <div class="news-link-row">
+          <span class="news-date"></span>
+          <a class="btn-source" href="https://gaudiumpress.org/content/sao-luis-maria-grignion-de-montfort-2/" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
       </div>
     </article>
   </div>

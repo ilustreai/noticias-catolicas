@@ -608,7 +608,8 @@ function deterministicSelection(candidates, previousUrls, previousTitles) {
     source: item.source,
     title: makeTitle(item),
     summary: makeSummary(item),
-    url: item.url
+    url: item.url,
+    published: item.published || ''
   }));
 }
 
@@ -617,7 +618,8 @@ function toNewsItem(item) {
     source: item.source,
     title: makeTitle(item),
     summary: makeSummary(item),
-    url: item.url
+    url: item.url,
+    published: item.published || ''
   };
 }
 

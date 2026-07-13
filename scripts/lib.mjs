@@ -264,6 +264,13 @@ export function validateSelection(selection) {
 }
 
 function renderNews(news) {
+  function fmt(d) {
+    if (!d) return '';
+    var p = d.split('-');
+    if (p.length !== 3) return d;
+    var meses = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+    return p[2] + ' ' + meses[parseInt(p[1], 10) - 1];
+  }
   return news.map((item, index) => `
     <article class="news-item reveal">
       <div class="news-index">${String(index + 1).padStart(2, '0')}</div>
@@ -271,12 +278,15 @@ function renderNews(news) {
         <div class="news-source">${escapeHtml(item.source)}</div>
         <h3 class="news-headline">${escapeHtml(item.title)}</h3>
         <p class="news-summary">${escapeHtml(item.summary)}</p>
-        <a class="btn-source" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
-          Ler na fonte
-          <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-            <path d="M1 9L9 1M9 1H3M9 1V7"/>
-          </svg>
-        </a>
+        <div class="news-link-row">
+          <span class="news-date">${fmt(item.published)}</span>
+          <a class="btn-source" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
       </div>
     </article>`).join('\n');
 }
@@ -315,10 +325,8 @@ function renderGospelLines(lines) {
   return escapeHtml(truncated);
 }
 
-function renderGospelLink(selection) {
-  const date = selection.editionLabel || selection.date || '';
-  return `<div class="gospel-date">${escapeHtml(date)}</div>
-  <a class="btn-source gospel-link" href="https://www.cnbb.org.br/liturgia-diaria/" target="_blank" rel="noopener noreferrer">
+function renderGospelLink() {
+  return `<a class="btn-source gospel-link" href="https://www.cnbb.org.br/liturgia-diaria/" target="_blank" rel="noopener noreferrer">
     Ler o Evangelho na CNBB
     <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
       <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -326,7 +334,7 @@ function renderGospelLink(selection) {
   </a>`;
 }
 
-function renderLiturgyHours(reading, url, date) {
+function renderLiturgyHours(reading, url) {
   if (!reading) return '';
   const truncated = truncateAtWord(reading, 250);
   return `
@@ -334,7 +342,6 @@ function renderLiturgyHours(reading, url, date) {
     <div class="gospel-ref">Liturgia das Horas</div>
     <p class="gospel-text">${escapeHtml(truncated)}</p>
     <div class="gospel-link-wrapper">
-      <div class="gospel-date">${escapeHtml(date || '')}</div>
       <a class="btn-source gospel-link" href="${escapeHtml(url || 'https://www.paulus.com.br/portal/liturgia-diaria-das-horas/')}" target="_blank" rel="noopener noreferrer">
         Ler a Liturgia das Horas na Paulus
         <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
@@ -404,8 +411,8 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{EDITION_LABEL}}': selection.editionLabel,
     '{{SAINT_SECTION}}': renderSaintSection(selection.saint),
     '{{GOSPEL_LINES}}': renderGospelLines(selection.gospel.lines),
-    '{{GOSPEL_LINK}}': renderGospelLink(selection),
-    '{{LITURGY_HOURS}}': renderLiturgyHours(selection.liturgyHours?.reading, selection.liturgyHours?.url, selection.editionLabel),
+    '{{GOSPEL_LINK}}': renderGospelLink(),
+    '{{LITURGY_HOURS}}': renderLiturgyHours(selection.liturgyHours?.reading, selection.liturgyHours?.url),
     '{{NEWS_ITEMS}}': renderNews(selection.news),
     '{{CLOSING_QUOTE_TEXT}}': escapeHtml(selection.closingQuote?.text ?? ''),
     '{{CLOSING_QUOTE_SOURCE}}': escapeHtml(selection.closingQuote?.source ?? ''),
