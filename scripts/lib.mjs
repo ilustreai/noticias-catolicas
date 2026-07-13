@@ -165,7 +165,12 @@ function formatWeekTitle(text) {
 }
 
 function liturgicalDisplayTitle(liturgical) {
-  return formatWeekTitle(romanToArabic(liturgical?.celebrationTitle || liturgical?.season || ''));
+  if (!liturgical) return '';
+  const { rank, season, celebrationTitle } = liturgical;
+  if (rank === 'memoria' || rank === 'festa') {
+    return formatWeekTitle(romanToArabic(season || celebrationTitle || ''));
+  }
+  return formatWeekTitle(romanToArabic(celebrationTitle || season || ''));
 }
 
 function collectText(value, bucket = []) {
@@ -331,6 +336,14 @@ export function simplifyGospelRef(ref) {
     return (abbr[match[1].toLowerCase()] || match[1]) + ' ' + match[2];
   }
   return ref.replace(/ ou mais breve.*$/, '').trim();
+}
+
+export function truncateAtWord(text, maxLen) {
+  if (!text || text.length <= maxLen) return text || '';
+  const truncated = text.slice(0, maxLen);
+  const lastSpace = truncated.lastIndexOf(' ');
+  if (lastSpace > maxLen * 0.6) return truncated.slice(0, lastSpace) + '...';
+  return truncated + '...';
 }
 
 function isLightColor(hex) {

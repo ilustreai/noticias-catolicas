@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { truncateAtWord } from './lib.mjs';
 
 const rootDir = path.resolve(import.meta.dirname, '..');
 const calendarPath = path.join(rootDir, 'data', 'liturgical-calendar-2026.json');
@@ -334,8 +335,20 @@ async function fetchCNSaints(month, year) {
       if (nameMatch) {
         let desc = '';
         if (descMatch) {
-          const text = descMatch[1].replace(/<[^>]+>/g, '').trim();
-          desc = text.split('\n').map(l => l.trim()).filter(l => l.length > 30).slice(0, 3).join(' ').slice(0, 300);
+          const cleanHtml = descMatch[1].replace(/<ul[\s\S]*?<\/ul>|<section[\s\S]*?<\/section>|<div[^>]*class="[^"]*widget[^"]*"[^>]*>[\s\S]*?<\/div>|<figure[\s\S]*?<\/figure>|<a[^>]*>[\s\S]*?<\/a>/gi, '');
+          const pMatch = cleanHtml.match(/<p>(?!\s*(?:<strong>\s*)?(?:Leia também|Minha oração|Outros santos|Fonte|Produção|Compartilhe)[\s\S]*?<\/p>)([\s\S]*?)<\/p>/i);
+          if (pMatch) {
+            const raw = pMatch[1].replace(/<[^>]+>/g, '').trim();
+            if (raw.length > 20) desc = raw;
+          }
+          if (!desc) {
+            const text = descMatch[1].replace(/<[^>]+>/g, '').trim();
+            const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 30);
+            desc = lines.slice(0, 3).join(' ').slice(0, 300);
+          }
+        }
+        if (desc) {
+          desc = truncateAtWord(desc, 230);
         }
         const key = `${year}-${String(month).padStart(2, '0')}-${String(dayNum).padStart(2, '0')}`;
         saints[key] = { name: fixStr(nameMatch[1]), desc: fixStr(desc), url: fullUrl.split('?')[0] };
