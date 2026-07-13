@@ -257,15 +257,20 @@ async function handleScheduled(event, env) {
     const now = new Date();
     const currentHour = now.getUTCHours();
     const scheduleHour = await getKv(env, "schedule_hour", "6");
+    let dispatched = false;
+
     if (currentHour === Number(scheduleHour)) {
       await dispatchWorkflow(env, fetch, DAILY_WORKFLOW);
+      dispatched = true;
     }
 
     if (!env.bot_config) return;
     const today = now.toISOString().slice(0, 10);
     const pending = await getKv(env, `scheduled:${today}`);
     if (pending === "pending") {
-      await dispatchWorkflow(env, fetch, DAILY_WORKFLOW);
+      if (!dispatched) {
+        await dispatchWorkflow(env, fetch, DAILY_WORKFLOW);
+      }
       await putKv(env, `scheduled:${today}`, "dispatched");
     }
   } catch (err) {
