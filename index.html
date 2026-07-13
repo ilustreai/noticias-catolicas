@@ -228,23 +228,23 @@
     top: 50%;
     transform: translateY(-50%);
     z-index: 5;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: rgba(28,43,74,0.7);
-    border: 1px solid var(--gold-lt);
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: none;
     color: var(--gold-lt);
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background 0.2s, opacity 0.2s;
-    opacity: 0.7;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    padding: 0;
   }
-  .gospel-arrow:hover { background: var(--navy); opacity: 1; }
-  .gospel-arrow svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-  .gospel-arrow-left { left: -8px; }
-  .gospel-arrow-right { right: -8px; }
+  .gospel-arrow:hover { opacity: 1; }
+  .gospel-arrow svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+  .gospel-arrow-left { left: -24px; }
+  .gospel-arrow-right { right: -24px; }
   .gospel-card {
     background: var(--navy);
     padding: 40px 44px;
@@ -463,6 +463,8 @@
     .liturgy-inner { grid-template-columns: 1fr; border-left: none; }
     .liturgy-cell { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.14); }
     .saint-card, .gospel-card { padding: 28px 24px; }
+    .gospel-arrow-left { left: 4px; }
+    .gospel-arrow-right { right: 4px; }
     .closing-quote { padding: 28px 0; }
     .gospel-text { font-size: 22px; }
     .news-item { grid-template-columns: 44px 1fr; }
@@ -524,7 +526,7 @@
       <div class="liturgy-value gold">Tempo Comum</div>
     </div>
     <div class="liturgy-cell">
-      <div class="liturgy-label">Evangelho do Dia</div>
+      <div class="liturgy-label">Liturgia do Dia</div>
       <div class="liturgy-value">Mt 10,34-11,1</div>
     </div>
   </div>
@@ -549,7 +551,7 @@
   </div>
 
   <div class="section-header">
-    <span class="section-header-title">Evangelho</span>
+    <span class="section-header-title">Liturgia do dia</span>
     <div class="section-header-line"></div>
   </div>
 
@@ -874,16 +876,30 @@
     var arrowRight = document.getElementById('gospelArrowRight');
     if (gospelScroll && arrowLeft && arrowRight) {
       var cards = gospelScroll.querySelectorAll('.gospel-card');
-      var current = 0;
+      var len = cards.length;
+      var scrollTimer, prevLeft = -1, lastDir = 0;
       function goTo(index) {
-        if (cards.length < 2) return;
-        current = ((index % cards.length) + cards.length) % cards.length;
-        gospelScroll.scrollTo({ left: current * gospelScroll.clientWidth, behavior: 'smooth' });
+        if (len < 2) return;
+        index = ((index % len) + len) % len;
+        gospelScroll.scrollTo({ left: index * gospelScroll.clientWidth, behavior: 'smooth' });
       }
-      arrowLeft.addEventListener('click', function () { goTo(current - 1); });
-      arrowRight.addEventListener('click', function () { goTo(current + 1); });
+      arrowLeft.addEventListener('click', function () {
+        goTo(Math.round(gospelScroll.scrollLeft / gospelScroll.clientWidth) - 1);
+      });
+      arrowRight.addEventListener('click', function () {
+        goTo(Math.round(gospelScroll.scrollLeft / gospelScroll.clientWidth) + 1);
+      });
       gospelScroll.addEventListener('scroll', function () {
-        current = Math.round(gospelScroll.scrollLeft / gospelScroll.clientWidth);
+        var left = gospelScroll.scrollLeft;
+        if (prevLeft >= 0) lastDir = left - prevLeft;
+        prevLeft = left;
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(function () {
+          var max = (len - 1) * gospelScroll.clientWidth;
+          if (lastDir < 0 && left <= 2) goTo(len - 1);
+          else if (lastDir > 0 && left >= max - 2) goTo(0);
+          prevLeft = -1; lastDir = 0;
+        }, 300);
       }, { passive: true });
     }
   })();
