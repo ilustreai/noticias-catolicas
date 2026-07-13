@@ -255,8 +255,8 @@
   .gospel-arrow svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
   .gospel-arrow-left { left: -24px; }
   .gospel-arrow-right { right: -24px; }
-  .gospel-dots { position: absolute; bottom: 3px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 5; }
-  .gospel-dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.3); transition: all 0.3s; }
+  .gospel-dots { position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 5; }
+  .gospel-dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.3); transition: all 0.3s; cursor: pointer; }
   .gospel-dot.active { background: var(--gold); width: 8px; height: 8px; }
   .gospel-card {
     background: var(--navy);
@@ -478,6 +478,7 @@
     .liturgy-inner { grid-template-columns: 1fr; border-left: none; }
     .liturgy-cell { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.14); }
     .saint-card, .gospel-card { padding: 28px 24px; }
+    .gospel-dots { bottom: 20px; }
     .gospel-arrow-left { left: 4px; }
     .gospel-arrow-right { right: 4px; }
     .closing-quote { padding: 28px 0; }
@@ -638,6 +639,7 @@
           gospelScroll.scrollTo({ left: current * gospelScroll.clientWidth, behavior: 'smooth' });
           updateArrows(); updateDots();
         }
+        for (var i = 0; i < len; i++) { (function(idx) { dots[idx].addEventListener('click', function() { goTo(idx); }); })(i); }
         arrowLeft.addEventListener('click', function () { goTo(current - 1); });
         arrowRight.addEventListener('click', function () { goTo(current + 1); });
         gospelScroll.addEventListener('scroll', function () {
