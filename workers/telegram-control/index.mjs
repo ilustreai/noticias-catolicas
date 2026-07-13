@@ -20,6 +20,13 @@ export default {
   async fetch(request, env) {
     return handleRequest(request, env);
   },
+  async scheduled(event, env) {
+    try {
+      await dispatchWorkflow(env, fetch, DAILY_WORKFLOW);
+    } catch (err) {
+      console.error('Scheduled dispatch failed:', err.message);
+    }
+  },
 };
 
 export async function handleRequest(request, env, fetchImpl = fetch) {
