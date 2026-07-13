@@ -315,8 +315,10 @@ function renderGospelLines(lines) {
   return escapeHtml(truncated);
 }
 
-function renderGospelLink() {
-  return `<a class="btn-source gospel-link" href="https://www.cnbb.org.br/liturgia-diaria/" target="_blank" rel="noopener noreferrer">
+function renderGospelLink(selection) {
+  const date = selection.editionLabel || selection.date || '';
+  return `<div class="gospel-date">${escapeHtml(date)}</div>
+  <a class="btn-source gospel-link" href="https://www.cnbb.org.br/liturgia-diaria/" target="_blank" rel="noopener noreferrer">
     Ler o Evangelho na CNBB
     <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
       <path d="M1 9L9 1M9 1H3M9 1V7"/>
@@ -324,7 +326,7 @@ function renderGospelLink() {
   </a>`;
 }
 
-function renderLiturgyHours(reading, url) {
+function renderLiturgyHours(reading, url, date) {
   if (!reading) return '';
   const truncated = truncateAtWord(reading, 250);
   return `
@@ -332,6 +334,7 @@ function renderLiturgyHours(reading, url) {
     <div class="gospel-ref">Liturgia das Horas</div>
     <p class="gospel-text">${escapeHtml(truncated)}</p>
     <div class="gospel-link-wrapper">
+      <div class="gospel-date">${escapeHtml(date || '')}</div>
       <a class="btn-source gospel-link" href="${escapeHtml(url || 'https://www.paulus.com.br/portal/liturgia-diaria-das-horas/')}" target="_blank" rel="noopener noreferrer">
         Ler a Liturgia das Horas na Paulus
         <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
@@ -402,7 +405,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{SAINT_SECTION}}': renderSaintSection(selection.saint),
     '{{GOSPEL_LINES}}': renderGospelLines(selection.gospel.lines),
     '{{GOSPEL_LINK}}': renderGospelLink(selection),
-    '{{LITURGY_HOURS}}': renderLiturgyHours(selection.liturgyHours?.reading, selection.liturgyHours?.url),
+    '{{LITURGY_HOURS}}': renderLiturgyHours(selection.liturgyHours?.reading, selection.liturgyHours?.url, selection.editionLabel),
     '{{NEWS_ITEMS}}': renderNews(selection.news),
     '{{CLOSING_QUOTE_TEXT}}': escapeHtml(selection.closingQuote?.text ?? ''),
     '{{CLOSING_QUOTE_SOURCE}}': escapeHtml(selection.closingQuote?.source ?? ''),
