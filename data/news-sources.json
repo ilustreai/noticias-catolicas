@@ -1,49 +1,50 @@
-[
-  {
-    "source": "Vatican News",
-    "kind": "vatican",
-    "pageUrls": [
-      "https://www.vaticannews.va/pt/papa.html",
-      "https://www.vaticannews.va/pt/vaticano.html",
-      "https://www.vaticannews.va/pt/igreja.html"
-    ]
-  },
-  {
-    "source": "CNBB",
-    "kind": "brazil",
-    "feedUrl": "https://www.cnbb.org.br/feed/",
-    "pageUrls": [
-      "https://www.cnbb.org.br/"
-    ]
-  },
-  {
-    "source": "ACI Digital",
-    "kind": "trusted",
-    "feedUrl": "https://www.acidigital.com/rss/rss.php"
-  },
-  {
-    "source": "Canção Nova",
-    "kind": "trusted",
-    "feedUrl": "https://noticias.cancaonova.com/feed/"
-  },
-  {
-    "source": "Shalom",
-    "kind": "trusted",
-    "feedUrl": "https://comshalom.org/feed/"
-  },
-  {
-    "source": "Aleteia",
-    "kind": "trusted",
-    "feedUrl": "https://pt.aleteia.org/feed/"
-  },
-  {
-    "source": "Gaudium Press",
-    "kind": "trusted",
-    "feedUrl": "https://gaudiumpress.org/feed/"
-  },
-  {
-    "source": "Vatican Insider",
-    "kind": "vatican",
-    "feedUrl": "https://www.lastampa.it/vatican-insider/rss"
-  }
+﻿[
+    {
+        "source":  "Vatican News",
+        "kind":  "vatican",
+        "pageUrls":  [
+                         "https://www.vaticannews.va/pt/papa.html",
+                         "https://www.vaticannews.va/pt/vaticano.html",
+                         "https://www.vaticannews.va/pt/igreja.html"
+                     ],
+        "feedUrl":  "https://www.vaticannews.va/pt.rss.xml"
+    },
+    {
+        "source":  "CNBB",
+        "kind":  "brazil",
+        "feedUrl":  "https://www.cnbb.org.br/feed/",
+        "pageUrls":  [
+                         "https://www.cnbb.org.br/"
+                     ]
+    },
+    {
+        "source":  "ACI Digital",
+        "kind":  "trusted",
+        "feedUrl":  "https://www.acidigital.com/rss/rss.php"
+    },
+    {
+        "source":  "CanÃ§Ã£o Nova",
+        "kind":  "trusted",
+        "feedUrl":  "https://noticias.cancaonova.com/feed/"
+    },
+    {
+        "source":  "Shalom",
+        "kind":  "trusted",
+        "feedUrl":  "https://comshalom.org/feed/"
+    },
+    {
+        "source":  "Aleteia",
+        "kind":  "trusted",
+        "feedUrl":  "https://pt.aleteia.org/feed/"
+    },
+    {
+        "source":  "Gaudium Press",
+        "kind":  "trusted",
+        "feedUrl":  "https://gaudiumpress.org/feed/"
+    },
+    {
+        "source":  "Vatican Insider",
+        "kind":  "vatican",
+        "feedUrl":  "https://www.lastampa.it/vatican-insider/rss"
+    }
 ]

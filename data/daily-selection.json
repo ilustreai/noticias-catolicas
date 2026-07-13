@@ -1,34 +1,34 @@
 {
-  "date": "2026-07-12",
-  "editionLabel": "12 de julho de 2026",
+  "date": "2026-07-13",
+  "editionLabel": "13 de julho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XV do Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 13,1-23 ou mais breve 13,1-9"
+    "celebrationTitle": "Santo Henrique",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Mt 10,34-11,1"
   },
   "saint": {
-    "feast": "Santo do Dia - 12 de Julho",
-    "name": "São João Gualberto, herói do perdão",
-    "description": "Celebração litúrgica do dia: Domingo XV do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-joao-gualberto-heroi-do-perdao/"
+    "feast": "Santo do Dia - 13 de Julho",
+    "name": "São Henrique II, imperador Romano",
+    "description": "Celebração litúrgica do dia: Santo Henrique.",
+    "url": "https://santo.cancaonova.com/santo/sao-henrique-ii-imperador-romano/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 13,1-23 ou mais breve 13,1-9)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 10,34-11,1)",
     "lines": [
-      "Naquele dia, Jesus saiu de casa e foi sentar-se às margens do mar da Galileia.",
-      "Uma grande multidão reuniu-se em volta dele.",
-      "Por isso Jesus entrou numa barca e sentou-se, enquanto a multidão ficava de pé, na praia.",
-      "E disse-lhes muitas coisas em parábolas: O semeador saiu para semear.",
-      "Enquanto semeava, algumas sementes caíram à beira do caminho, e os pássaros vieram e as comeram.",
-      "Outras sementes caíram em terreno pedregoso, onde não havia muita terra.",
-      "As sementes logo brotaram, porque a terra não era profunda."
+      "Naquele tempo, disse Jesus aos seus discípulos: Não penseis que vim trazer paz à terra; não vim trazer a paz, mas sim a espada.",
+      "De fato, vim separar o filho de seu pai, a filha de sua mãe, a nora de sua sogra.",
+      "E os inimigos do homem serão os seus próprios familiares.",
+      "Quem ama seu pai ou sua mãe mais do que a mim, não é digno de mim.",
+      "Quem ama seu filho ou sua filha mais do que a mim, não é digno de mim.",
+      "Quem não toma a sua cruz e não me segue, não é digno de mim.",
+      "Quem procura conservar a sua vida vai perdê-la."
     ],
-    "keyVerse": "Semente é de Deus a Palavra, o Cristo é o semeador; todo aquele que o encontra, vida eterna encontrou!",
-    "body": "1 Naquele dia, Jesus saiu de casa e foi sentar-se às margens do mar da Galileia. 2 Uma grande multidão reuniu-se em volta dele. Por isso Jesus entrou numa barca e sentou-se, enquanto a multidão ficava de pé, na praia. 3 E disse-lhes muitas coisas em parábolas: \"O semeador saiu para semear. 4 Enquanto semeava, algumas sementes caíram à beira do caminho, e os pássaros vieram e as comeram. 5 Outras sementes caíram em terreno pedregoso, onde não havia muita terra. As sementes logo brotaram, porque a terra não era profunda. 6 Mas, quando o sol apareceu, as plantas ficaram queimadas e secaram, porque não tinham raiz. 7 Outras sementes caíram no meio dos espinhos. Os espinhos cresceram e sufocaram as plantas. 8 Outras sementes, porém, caíram em terra boa, e produziram à base de cem, de sessenta e de trinta frutos por semente. 9 Quem tem ouvidos, ouça!\" 10 Os discípulos aproximaram-se e disseram a Jesus: \"Por que tu falas ao povo em parábolas?\" 11 Jesus respondeu: \"Porque a vós foi dado o conhecimento dos mistérios do Reino dos Céus, mas a eles não é dado. 12 Pois à pessoa que tem, será dado ainda mais, e terá em abundância; mas à pessoa que não tem, será tirado até o pouco que tem. 13 &Eacute; por isso que eu lhes falo em parábolas: porque olhando, eles não veem, e ouvindo, eles não escutam, nem compreendem. 14 Desse modo se cumpre neles a profecia de Isaías: 'Havereis de ouvir, sem nada entender. Havereis de olhar, sem nada ver. 15 Porque o coração deste povo se tornou insensível. Eles ouviram com má vontade e fecharam seus olhos, para não ver com os olhos, nem ouvir com os ouvidos, nem compreender com o coração, de modo que se convertam e eu os cure'. 16 Felizes sois vós, porque vossos olhos veem e vossos ouvidos ouvem. 17 Em verdade vos digo, muitos profetas e justos desejaram ver o que vedes, e não viram, desejaram ouvir o que ouvis, e não ouviram. 18 Ouvi, portanto, a parábola do semeador: 19 Todo aquele que ouve a palavra do Reino e não a compreende, vem o Maligno e rouba o que foi semeado em seu coração. Este é o que foi semeado à beira do caminho. 20 A semente que caiu em terreno pedregoso é aquele que ouve a palavra e logo a recebe com alegria; 21 mas ele não tem raiz em si mesmo, é de momento: quando chega o sofrimento ou a perseguição, por causa da palavra, ele desiste logo. 22 A semente que caiu no meio dos espinhos é aquele que ouve a palavra, mas as preocupações do mundo e a ilusão da riqueza sufocam a palavra, e ele não dá fruto. 23 A semente que caiu em boa terra é aquele que ouve a palavra e a compreende. Esse produz fruto. Um dá cem, outro sessenta e outro trinta\"."
+    "keyVerse": "Felizes os que são perseguidos por causa da justiça do Senhor, porque o reino dos céus há de ser deles!",
+    "body": "Naquele tempo, disse Jesus aos seus discípulos: 34 \"Não penseis que vim trazer paz à terra; não vim trazer a paz, mas sim a espada. 35 De fato, vim separar o filho de seu pai, a filha de sua mãe, a nora de sua sogra. 36 E os inimigos do homem serão os seus próprios familiares. 37 Quem ama seu pai ou sua mãe mais do que a mim, não é digno de mim. Quem ama seu filho ou sua filha mais do que a mim, não é digno de mim. 38 Quem não toma a sua cruz e não me segue, não é digno de mim. 39 Quem procura conservar a sua vida vai perdê-la. E quem perde a sua vida por causa de mim, vai encontrá-la. 40 Quem vos recebe, a mim recebe; e quem me recebe, recebe aquele que me enviou. 41 Quem recebe um profeta, por ser profeta, receberá a recompensa de profeta. E quem recebe um justo, por ser justo, receberá a recompensa de justo. 42 Quem der, ainda que seja apenas um copo de água fresca, a um desses pequeninos, por ser meu discípulo, em verdade vos digo: não perderá a sua recompensa\". 11,1 Quando Jesus acabou de dar essas instruções aos doze discípulos, partiu daí, a fim de ensinar e pregar nas cidades deles. —"
   },
   "sponsor": {
     "enabled": true,
@@ -39,49 +39,55 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Missão por terras ‘quentes’ de Moçambique",
-      "summary": "Missionários do Espírito Santo, no Seminário Filosófico S. Agostinho da Matola (Maputo, Moçambique) - foto Lusofonias  África África igreja católica missionários Espírito Santo Moçambique evangelização religiosos Missão por terras ‘quentes’ de Moçambique Os Espiritanos chegaram a Moçambique em 1996. É uma presença muito jovem, com tudo o que tal representa. Os missionários são jovens, as estruturas frágeis, mas a vontade de anunciar o Evangelho e caminhar com o povo é enorme....",
-      "url": "https://www.vaticannews.va/pt/africa/news/2026-07/igreja-mocambique-missionarios-espiritanos-evangelizar-formacao.html"
+      "title": "Igreja no mundo celebra o Dia de São Pedro e São Paulo com chamado à unidade",
+      "summary": "Celebrações ao redor do mundo marcaram a solenidade dos apóstolos São Pedro e São Paulo, com ênfase no diálogo ecumênico e na missão da Igreja.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-06/igreja-no-mundo-celebra-o-dia-de-sao-pedro-e-sao-paulo.html"
     },
     {
       "source": "Vatican News",
-      "title": "Oportunidades e catequese para jovens, uma resposta à proliferação das seitas",
-      "summary": "Irmã Graça António Cuamba Guitate, FCIM  África África igreja católica Moçambique jovens movimentos eclesiais catequese Igreja e religiões Oportunidades e catequese para jovens, uma resposta à proliferação das seitas Face ao fenómeno da proliferação das seitas em Moçambique, e não só, muitos jovens deixam a Igreja para aderir a esses movimentos, quase sempre por falta de oportunidades....",
-      "url": "https://www.vaticannews.va/pt/africa/news/2026-07/mocambique-seitas-jovens-catequese-formacao-oportunidades.html"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/cardeais-reunidos-em-roma-para-consistorio-extraordinario.html"
     },
     {
       "source": "CNBB",
-      "title": "São Bento nos convida a santificar nosso dia e oferecê-lo a Deus",
-      "summary": "O arcebispo do Rio de Janeiro, cardeal Orani Tempesta, conduz no artigo uma reflexão sobre a vida e o legado de São Bento Abade, cuja memória é celebrada pela Igreja neste dia 11 de julho. São Bento é um santo conhecido popularmente por.",
-      "url": "https://www.cnbb.org.br/sao-bento-nos-convida-a-santificar-o-nosso-dia-e-oferece-lo-a-deus/"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV renova apelo pela paz no Oriente Médio",
-      "summary": "“Os ventos da guerra voltaram a soprar no Médio Oriente, na Ucrânia e em muitas outras partes do mundo, semeando violência, terror e morte e atingindo, mais uma vez, tantos inocentes”, disse o papa Leão XIV, depois da oração do Ângelus no.",
-      "url": "https://www.acidigital.com/noticia/68883/leao-xiv-renova-apelo-pela-paz-no-oriente-medio"
+      "title": "Igreja no Brasil se prepara para o mês vocacional com intensa programação",
+      "summary": "Dioceses de todo o Brasil organizam eventos e campanhas para o mês vocacional de agosto, incentivando jovens a discernirem sua vocação.",
+      "url": "https://www.acidigital.com/noticias/igreja-no-brasil-se-prepara-para-o-mes-vocacional-com-intensa-programacao"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV pede que as férias sejam um tempo de silêncio e oração",
-      "summary": "“Especialmente nestes dias de férias, empenhemo-nos em dedicar tempo à escuta, à leitura e à meditação da Palavra de Deus, cultivando, a par do descanso e da diversão saudável, momentos significativos de silêncio e oração”, disse o papa.",
-      "url": "https://www.acidigital.com/noticia/68881/leao-xiv-pede-que-as-ferias-sejam-um-tempo-de-silencio-e-oracao"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticias/santuarios-brasileiros-registram-aumento-de-peregrinos-em-2026"
     },
     {
       "source": "Shalom",
-      "title": "É hoje! Festival Celebra comemora os 25 anos da Missão Shalom em Guarulhos",
-      "summary": "O evento gratuito contará com Santa Missa, Adoração ao Santíssimo, shows e a presença de Moysés Azevedo e Dom Edmilson Amador Caetano.",
-      "url": "https://comshalom.org/festival-celebra-marcara-os-25-anos-da-missao-guarulhos/"
+      "title": "Acamp s Minas: aventura, festa e uma experiência que vai marcar sua vida",
+      "summary": "Promovido pela Comunidade Shalom, o acampamento reúne pela primeira vez todas as missões do estado de Minas Gerais em um encontro único.",
+      "url": "https://comshalom.org/acamps-minas-2026-acampamento-jovens-shalom/"
     },
     {
-      "source": "Gaudium Press",
-      "title": "Madri: uma igreja que abre as portas de madrugada",
-      "summary": "Histórias de vícios, solidão e busca por Deus se entrelaçam todo fim de semana em uma paróquia de Madri, Espanha, que decidiu permanecer aberta justamente quando mais pessoas precisam encontrar uma porta aberta. Igreja de San Ildefonso e.",
-      "url": "https://gaudiumpress.org/content/madri-uma-igreja-que-abre-as-portas-de-madrugada/"
+      "source": "Aleteia",
+      "title": "Brasil: Samuel, de 12 anos, faz terços para crianças doentes",
+      "summary": "Nos corredores do hospital, violão e terço em mãos, Samuel Hoffmann leva um pouco de luz para crianças doentes. Com apenas 12 anos, este jovem brasileiro de Brusque, cidade no sul do Brasil, no estado de Santa Catarina, dedica parte do.",
+      "url": "https://pt.aleteia.org/2026/07/13/brasil-deus-me-confiou-esta-missao-samuel-de-12-anos-faz-tercos-para-criancas-doentes/"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Oração e jejum: as armas espirituais recomendadas pelos santos para os tempos difíceis",
+      "summary": "Grandes santos da Igreja ensinaram que a oração e o jejum são ferramentas poderosas para enfrentar as adversidades da vida.",
+      "url": "https://pt.aleteia.org/2026/06/oracao-e-jejum-armas-espirituais-dos-santos"
     }
   ],
   "closingQuote": {
-    "text": "O semeador saiu para semear.",
-    "source": "Mt 13,1-23"
+    "text": "De fato, vim separar o filho de seu pai, a filha de sua mãe, a nora de sua sogra.",
+    "source": "Evangelho do Dia"
   }
 }

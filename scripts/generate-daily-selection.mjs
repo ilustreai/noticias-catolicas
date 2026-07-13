@@ -745,7 +745,9 @@ function injectFallbacks(selection) {
       }
     }
     if (news.length >= 8) {
-      const replaceIdx = news.findIndex((item) => sourceCounts.get(item.source) >= 2);
+      const vaticanSources = new Set(['Vatican News', 'Santa Sé', 'Vaticano', 'Vatican Insider']);
+      let replaceIdx = news.findIndex((item) => sourceCounts.get(item.source) >= 2 && !vaticanSources.has(item.source));
+      if (replaceIdx === -1) replaceIdx = news.findIndex((item) => sourceCounts.get(item.source) >= 2);
       if (replaceIdx === -1) break;
       usedUrls.delete(news[replaceIdx].url);
       sourceCounts.set(news[replaceIdx].source, (sourceCounts.get(news[replaceIdx].source) ?? 0) - 1);
