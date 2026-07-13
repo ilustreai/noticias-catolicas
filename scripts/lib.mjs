@@ -310,10 +310,9 @@ function cleanGospelLine(line) {
 }
 
 function renderGospelLines(lines) {
-  const result = lines.slice(0, 3)
-    .map((line) => `<span class="gospel-line">${escapeHtml(cleanGospelLine(line))}</span>`)
-    .join('\n      ');
-  return result + '\n      <span class="gospel-line gospel-ellipsis">...</span>';
+  const text = lines.join(' ').replace(/\s+/g, ' ').trim();
+  const truncated = truncateAtWord(text, 250);
+  return escapeHtml(truncated);
 }
 
 function renderGospelLink() {
@@ -323,6 +322,24 @@ function renderGospelLink() {
       <path d="M1 9L9 1M9 1H3M9 1V7"/>
     </svg>
   </a>`;
+}
+
+function renderLiturgyHours(reading, url) {
+  if (!reading) return '';
+  const truncated = truncateAtWord(reading, 250);
+  return `
+  <div class="gospel-card">
+    <div class="gospel-ref">Liturgia das Horas</div>
+    <p class="gospel-text">${escapeHtml(truncated)}</p>
+    <div class="gospel-link-wrapper">
+      <a class="btn-source gospel-link" href="${escapeHtml(url || 'https://www.paulus.com.br/portal/liturgia-diaria-das-horas/')}" target="_blank" rel="noopener noreferrer">
+        Ler a Liturgia das Horas na Paulus
+        <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M1 9L9 1M9 1H3M9 1V7"/>
+        </svg>
+      </a>
+    </div>
+  </div>`;
 }
 
 export function simplifyGospelRef(ref) {
@@ -386,6 +403,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{GOSPEL_REF}}': simplifyGospelRef(selection.gospel.ref),
     '{{GOSPEL_LINES}}': renderGospelLines(selection.gospel.lines),
     '{{GOSPEL_LINK}}': renderGospelLink(selection),
+    '{{LITURGY_HOURS}}': renderLiturgyHours(selection.liturgyHours?.reading, selection.liturgyHours?.url),
     '{{NEWS_ITEMS}}': renderNews(selection.news),
     '{{CLOSING_QUOTE_TEXT}}': escapeHtml(selection.closingQuote?.text ?? ''),
     '{{CLOSING_QUOTE_SOURCE}}': escapeHtml(selection.closingQuote?.source ?? ''),

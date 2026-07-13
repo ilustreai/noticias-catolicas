@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { validateSelection, writeFileEnsured, simplifyGospelRef } from './lib.mjs';
+import { validateSelection, writeFileEnsured, simplifyGospelRef, truncateAtWord } from './lib.mjs';
 
 const rootDir = process.cwd();
 const sponsor = {
@@ -760,6 +760,21 @@ function injectFallbacks(selection) {
   return { ...selection, news };
 }
 
+const PAULUS_HOURS = 'https://www.paulus.com.br/portal/liturgia-diaria-das-horas/';
+
+async function fetchLiturgyHours() {
+  try {
+    const res = await fetch(PAULUS_HOURS, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(8000) });
+    if (!res.ok) return null;
+    const html = await res.text();
+    const match = html.match(/<div class="liturgia-customizado">5\.\s*Leitura breve[\s\S]*?<\/div>\s*<p[^>]*>([\s\S]*?)<\/p>/i);
+    if (!match) return null;
+    const raw = match[1].replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+    const text = truncateAtWord(raw, 250);
+    return { reading: text, url: PAULUS_HOURS };
+  } catch { return null; }
+}
+
 async function main() {
   const date = todayInSaoPaulo();
   const calendar = readJson(path.join(rootDir, 'data', 'liturgical-calendar-2026.json'));
@@ -788,6 +803,7 @@ async function main() {
   }
 
   const prev = loadPreviousSelection(rootDir);
+  const liturgyHours = await fetchLiturgyHours();
   let selection = {
     date,
     editionLabel: liturgy.editionLabel,
@@ -796,7 +812,8 @@ async function main() {
     gospel: liturgy.gospel,
     sponsor,
     news: deterministicSelection(candidates, prev.urls, prev.titles),
-    closingQuote: pickClosingQuote(liturgy)
+    closingQuote: pickClosingQuote(liturgy),
+    liturgyHours: liturgyHours || undefined
   };
   selection = cleanSelectionNews(selection);
   selection = attachSaintUrl(selection, liturgy);

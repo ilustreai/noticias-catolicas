@@ -206,6 +206,23 @@
   }
   .saint-more-link svg { width: 10px; height: 10px; }
 
+  .gospel-scroll {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: var(--gold-lt) transparent;
+    -webkit-overflow-scrolling: touch;
+  }
+  .gospel-scroll::-webkit-scrollbar { height: 6px; }
+  .gospel-scroll::-webkit-scrollbar-thumb { background: var(--gold-lt); border-radius: 3px; }
+  .gospel-scroll::-webkit-scrollbar-track { background: transparent; }
+  .gospel-scroll .gospel-card {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    margin-bottom: 0;
+  }
   .gospel-card {
     background: var(--navy);
     padding: 40px 44px;
@@ -467,6 +484,7 @@
     <div class="section-header-line"></div>
   </div>
 
+  <div class="gospel-scroll">
   <div class="gospel-card">
     <div class="gospel-ref">{{GOSPEL_REF}}</div>
     <p class="gospel-text">
@@ -475,7 +493,7 @@
     <div class="gospel-link-wrapper">
       {{GOSPEL_LINK}}
     </div>
-  </div>
+  </div>{{LITURGY_HOURS}}</div>
 
   <div class="section-header">
     <span class="section-header-title">Notícias Selecionadas</span>
