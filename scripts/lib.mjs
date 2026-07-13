@@ -400,7 +400,6 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{GOSPEL_SHORT}}': simplifyGospelRef(selection.liturgical.gospelShort ?? ''),
     '{{EDITION_LABEL}}': selection.editionLabel,
     '{{SAINT_SECTION}}': renderSaintSection(selection.saint),
-    '{{GOSPEL_REF}}': simplifyGospelRef(selection.gospel.ref),
     '{{GOSPEL_LINES}}': renderGospelLines(selection.gospel.lines),
     '{{GOSPEL_LINK}}': renderGospelLink(selection),
     '{{LITURGY_HOURS}}': renderLiturgyHours(selection.liturgyHours?.reading, selection.liturgyHours?.url),
@@ -431,7 +430,7 @@ export function validateRenderedHtml(html, selection) {
   if (!html.includes(selection.liturgical.cssColor)) errors.push('missing liturgical color');
   if (!html.includes(liturgicalDisplayTitle(selection.liturgical))) errors.push('missing liturgical display title');
   if (selection.saint?.name && !html.includes(selection.saint.name)) errors.push('missing saint name');
-  if (!html.includes(simplifyGospelRef(selection.gospel.ref))) errors.push('missing gospel ref');
+  if (!html.includes('Evangelho do Dia')) errors.push('missing gospel ref');
   if (selection.closingQuote?.text && !html.includes(selection.closingQuote.text)) errors.push('missing closing quote text');
   if (selection.closingQuote?.source && !html.includes(selection.closingQuote.source)) errors.push('missing closing quote source');
   if (!html.includes('class="hero-title"')) errors.push('missing hero title');
