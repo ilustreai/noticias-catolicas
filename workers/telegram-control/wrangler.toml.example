@@ -2,7 +2,13 @@ name = "telegram-ilustre-control"
 main = "index.mjs"
 compatibility_date = "2026-07-01"
 
-triggers = { crons = ["0 6 * * *"] }
+triggers = { crons = ["0 * * * *"] }
+
+# Create KV namespace:
+# wrangler kv namespace create bot-config
+[[kv_namespaces]]
+binding = "bot_config"
+id = "16bf0a3e0ed54da7970b59316a23c540"
 
 [vars]
 GITHUB_OWNER = "ilustreai"

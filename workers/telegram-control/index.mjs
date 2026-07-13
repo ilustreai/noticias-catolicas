@@ -254,14 +254,15 @@ async function handleCancelar(env, fetchImpl, raw) {
 
 async function handleScheduled(event, env) {
   try {
-    const cronHour = parseCronHour(event.cron);
+    const now = new Date();
+    const currentHour = now.getUTCHours();
     const scheduleHour = await getKv(env, "schedule_hour", "6");
-    if (cronHour !== null && cronHour === Number(scheduleHour)) {
+    if (currentHour === Number(scheduleHour)) {
       await dispatchWorkflow(env, fetch, DAILY_WORKFLOW);
     }
 
     if (!env.bot_config) return;
-    const today = new Date().toISOString().slice(0, 10);
+    const today = now.toISOString().slice(0, 10);
     const pending = await getKv(env, `scheduled:${today}`);
     if (pending === "pending") {
       await dispatchWorkflow(env, fetch, DAILY_WORKFLOW);
@@ -270,14 +271,6 @@ async function handleScheduled(event, env) {
   } catch (err) {
     console.error("Scheduled handler failed:", err.message);
   }
-}
-
-function parseCronHour(cronExpr) {
-  if (!cronExpr) return null;
-  const parts = cronExpr.trim().split(/\s+/);
-  if (parts.length < 2) return null;
-  const hour = Number(parts[1]);
-  return Number.isInteger(hour) ? hour : null;
 }
 
 // --- Reports ---
