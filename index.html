@@ -242,6 +242,7 @@
     padding: 0;
   }
   .gospel-arrow:hover { opacity: 1; }
+  .gospel-arrow.hidden { opacity: 0; pointer-events: none; }
   .gospel-arrow svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
   .gospel-arrow-left { left: -24px; }
   .gospel-arrow-right { right: -24px; }
@@ -875,35 +876,27 @@
     var arrowLeft = document.getElementById('gospelArrowLeft');
     var arrowRight = document.getElementById('gospelArrowRight');
     if (gospelScroll && arrowLeft && arrowRight) {
-      var scroll = gospelScroll;
-      var cards = scroll.querySelectorAll('.gospel-card');
-      var realLen = cards.length;
-      if (realLen > 1) {
-        // clone last → prepend, clone first → append (carrossel infinito real)
-        scroll.insertBefore(cards[realLen - 1].cloneNode(true), cards[0]);
-        scroll.appendChild(cards[0].cloneNode(true));
-        var firstReal = 1;
-        scroll.scrollLeft = firstReal * scroll.clientWidth;
-        function goTo(index) {
-          index = ((index % realLen) + realLen) % realLen;
-          scroll.scrollTo({ left: (firstReal + index) * scroll.clientWidth, behavior: 'smooth' });
+      var cards = gospelScroll.querySelectorAll('.gospel-card');
+      var len = cards.length;
+      if (len > 1) {
+        var current = 0;
+        function updateArrows() {
+          arrowLeft.classList.toggle('hidden', current <= 0);
+          arrowRight.classList.toggle('hidden', current >= len - 1);
         }
-        arrowLeft.addEventListener('click', function () {
-          var cur = Math.round(scroll.scrollLeft / scroll.clientWidth) - firstReal;
-          goTo(cur - 1);
-        });
-        arrowRight.addEventListener('click', function () {
-          var cur = Math.round(scroll.scrollLeft / scroll.clientWidth) - firstReal;
-          goTo(cur + 1);
-        });
-        scroll.addEventListener('scroll', function () {
-          var idx = Math.round(scroll.scrollLeft / scroll.clientWidth);
-          if (idx < 1) {
-            scroll.scrollLeft = (firstReal + realLen - 1) * scroll.clientWidth;
-          } else if (idx > realLen) {
-            scroll.scrollLeft = firstReal * scroll.clientWidth;
-          }
+        function goTo(index) {
+          if (index < 0 || index >= len) return;
+          current = index;
+          gospelScroll.scrollTo({ left: current * gospelScroll.clientWidth, behavior: 'smooth' });
+          updateArrows();
+        }
+        arrowLeft.addEventListener('click', function () { goTo(current - 1); });
+        arrowRight.addEventListener('click', function () { goTo(current + 1); });
+        gospelScroll.addEventListener('scroll', function () {
+          current = Math.round(gospelScroll.scrollLeft / gospelScroll.clientWidth);
+          updateArrows();
         }, { passive: true });
+        updateArrows();
       }
     }
   })();
