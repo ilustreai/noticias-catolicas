@@ -35,8 +35,8 @@
         "description": "Bispo, cardeal e doutor da Igreja, o 'Doutor Seráfico' foi um dos maiores teólogos franciscanos, contemporâneo e amigo de Santo Tomás de Aquino."
       },
       "closingQuote": {
-        "text": "Não basta a leitura sem a unção, não basta a especulação sem a devoção, não basta a pesquisa sem maravilhar-se",
-        "source": "S. Boaventura"
+        "text": "Interroga a graça, não a doutrina; o desejo, não o intelecto; o gemido da oração, não o estudo da letra.",
+        "source": "S. Boaventura — Itinerário da mente para Deus, VII, 6"
       }
     },
     "2026-07-16": {
@@ -46,7 +46,7 @@
         "description": "Festa litúrgica em honra da Bem-aventurada Virgem Maria do Monte Carmelo, lembrando sua proteção maternal e a tradição do Escapulário."
       },
       "closingQuote": {
-        "text": "Faça-se em mim segundo a tua palavra",
+        "text": "Eis aqui a serva do Senhor; faça-se em mim segundo a tua palavra.",
         "source": "Lc 1,38"
       }
     },
@@ -83,6 +83,10 @@
         "name": "S. Lourenço de Brindisi",
         "feast": "S. Lourenço de Brindisi - 21 de Julho",
         "description": "Frade capuchinho, pregador e doutor da Igreja (Doctor Apostolicus). Destacou-se pelo conhecimento das Escrituras e pela defesa da fé católica."
+      },
+      "closingQuote": {
+        "text": "A Palavra do Senhor é luz para o intelecto e fogo para a vontade.",
+        "source": "S. Lourenço de Bríndisi"
       }
     },
     "2026-07-22": {
@@ -108,6 +112,10 @@
         "name": "S. Charbel Makhlouf",
         "feast": "S. Charbel Makhlouf - 24 de Julho",
         "description": "Monge e eremita da Igreja Maronita, conhecido por sua vida de intensa oração e penitência. Seu túmulo é destino de peregrinações e numerosos milagres."
+      },
+      "closingQuote": {
+        "text": "Todo homem é uma chama, criada por nosso Senhor, para iluminar o mundo.",
+        "source": "S. Charbel Makhluf"
       }
     },
     "2026-07-25": {
@@ -115,6 +123,10 @@
         "name": "São Tiago, Apóstolo",
         "feast": "São Tiago, Apóstolo - 25 de Julho",
         "description": "Filho de Zebedeu e irmão de São João Evangelista, foi o primeiro apóstolo a derramar o sangue pelo testemunho de Cristo. Padroeiro da Espanha."
+      },
+      "closingQuote": {
+        "text": "Podemos.",
+        "source": "Resposta de São Tiago e São João — Mt 20,22"
       }
     },
     "2026-07-26": {
@@ -145,8 +157,8 @@
         "description": "Amigos e hospedeiros de Jesus em Betânia. Marta, com sua profissão de fé, e Maria, aos pés do Mestre, são modelos de acolhida e contemplação."
       },
       "closingQuote": {
-        "text": "Sim, Senhor, eu creio firmemente que tu és o Messias, o Filho de Deus, que devia vir ao mundo.",
-        "source": "Jo 11,27"
+        "text": "Sim, Senhor, eu creio que tu és o Cristo, o Filho de Deus.",
+        "source": "Santa Marta — Jo 11,27"
       }
     },
     "2026-07-30": {
@@ -154,6 +166,10 @@
         "name": "S. Pedro Crisólogo",
         "feast": "S. Pedro Crisólogo - 30 de Julho",
         "description": "Bispo de Ravena e doutor da Igreja (século V), chamado 'Crisólogo' (palavra de ouro) por sua eloquente pregação. Defensor da doutrina cristã."
+      },
+      "closingQuote": {
+        "text": "Ó homem, por que tens de ti conceito tão vil, quando és tão precioso para Deus?",
+        "source": "S. Pedro Crisólogo — Sermão 148"
       }
     },
     "2026-07-31": {
@@ -163,8 +179,8 @@
         "description": "Fundador da Companhia de Jesus (Jesuítas), autor dos Exercícios Espirituais. Grande missionário e mestre de vida espiritual."
       },
       "closingQuote": {
-        "text": "O amor consiste mais em obras do que em palavras.",
-        "source": "Santo Inácio de Loyola"
+        "text": "Dai-me somente o vosso amor e a vossa graça, que isto me basta.",
+        "source": "Santo Inácio de Loyola — Exercícios Espirituais, n. 234"
       }
     }
   }
