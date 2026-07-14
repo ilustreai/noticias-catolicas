@@ -10,7 +10,7 @@ const CN_LITURGY = 'https://liturgia.cancaonova.com/pb/liturgia/';
 const CN_SAINTS = 'https://santo.cancaonova.com/';
 
 const COLOR_MAP = {
-  '⚪': { colorName: 'branco', cssColor: '#E8DCCF' },
+  '⚪': { colorName: 'branco', cssColor: '#FFFFFF' },
   '🟢': { colorName: 'verde', cssColor: '#2E7D32' },
   '🔴': { colorName: 'vermelho', cssColor: '#C62828' },
   '🟣': { colorName: 'roxo', cssColor: '#7B2D26' },
@@ -20,15 +20,15 @@ const SEASON_COLOR_MAP = {
   'Tempo Comum': { colorName: 'verde', cssColor: '#2E7D32' },
   'Quaresma': { colorName: 'roxo', cssColor: '#7B2D26' },
   'Advento': { colorName: 'roxo', cssColor: '#7B2D26' },
-  'Tempo do Natal': { colorName: 'branco', cssColor: '#E8DCCF' },
-  'Tempo Pascal': { colorName: 'branco', cssColor: '#E8DCCF' },
+  'Tempo do Natal': { colorName: 'branco', cssColor: '#FFFFFF' },
+  'Tempo Pascal': { colorName: 'branco', cssColor: '#FFFFFF' },
 };
 
 const RANK_MAP = { S: 'solenidade', F: 'festa', M: 'memoria', m: 'memoria', 'm*': 'memoria' };
 
 // Brazilian proper celebrations missing from General-G calendar
 const BR_OVERRIDES = {
-  '10-12': { celebration: 'Nossa Senhora Aparecida, Padroeira do Brasil', rank: 'solenidade', colorName: 'branco', cssColor: '#E8DCCF', season: 'Tempo Comum' },
+  '10-12': { celebration: 'Nossa Senhora Aparecida, Padroeira do Brasil', rank: 'solenidade', colorName: 'branco', cssColor: '#FFFFFF', season: 'Tempo Comum' },
   // Add other Brazilian propers here as needed
 };
 
