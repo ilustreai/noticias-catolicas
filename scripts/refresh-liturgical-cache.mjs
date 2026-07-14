@@ -16,6 +16,14 @@ const COLOR_MAP = {
   '🟣': { colorName: 'roxo', cssColor: '#7B2D26' },
 };
 
+const SEASON_COLOR_MAP = {
+  'Tempo Comum': { colorName: 'verde', cssColor: '#2E7D32' },
+  'Quaresma': { colorName: 'roxo', cssColor: '#7B2D26' },
+  'Advento': { colorName: 'roxo', cssColor: '#7B2D26' },
+  'Tempo do Natal': { colorName: 'branco', cssColor: '#E8DCCF' },
+  'Tempo Pascal': { colorName: 'branco', cssColor: '#E8DCCF' },
+};
+
 const RANK_MAP = { S: 'solenidade', F: 'festa', M: 'memoria', m: 'memoria', 'm*': 'memoria' };
 
 // Brazilian proper celebrations missing from General-G calendar
@@ -225,6 +233,10 @@ function buildICSBackbone(events) {
     const rank = RANK_MAP[main.rankAbbr] || 'tempo';
     const season = seasonFromSummary(main.summary);
 
+    const isFacultative = main.rankAbbr === 'm' || main.rankAbbr === 'm*';
+    const seasonColor = SEASON_COLOR_MAP[season] || SEASON_COLOR_MAP['Tempo Comum'];
+    const effectiveColor = isFacultative ? seasonColor : color;
+
     const mmdd = dateStr.slice(5);
     const br = BR_OVERRIDES[mmdd];
     backbone[dateStr] = {
@@ -233,8 +245,8 @@ function buildICSBackbone(events) {
       celebration: br?.celebration || main.name,
       rank: br?.rank || rank,
       season: br?.season || season,
-      colorName: br?.colorName || color.colorName,
-      cssColor: br?.cssColor || color.cssColor,
+      colorName: br?.colorName || effectiveColor.colorName,
+      cssColor: br?.cssColor || effectiveColor.cssColor,
       source: br ? 'https://gcatholic.org/calendar/2026/General-G-pt' : 'https://gcatholic.org/calendar/2026/General-G-pt',
     };
   }
