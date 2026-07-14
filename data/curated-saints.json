@@ -37,6 +37,10 @@
       "closingQuote": {
         "text": "Interroga a graça, não a doutrina; o desejo, não o intelecto; o gemido da oração, não o estudo da letra.",
         "source": "S. Boaventura — Itinerário da mente para Deus, VII, 6"
+      },
+      "gospel": {
+        "text": "Eu te louvo, Pai, Senhor do céu e da terra, porque revelaste estas coisas aos pequeninos.",
+        "ref": "Mt 11,25-27"
       }
     },
     "2026-07-16": {
@@ -48,34 +52,54 @@
       "closingQuote": {
         "text": "Eis aqui a serva do Senhor; faça-se em mim segundo a tua palavra.",
         "source": "Lc 1,38"
+      },
+      "gospel": {
+        "text": "Vinde a mim, todos vós que estais cansados e fatigados, e eu vos darei descanso.",
+        "ref": "Mt 11,28-30"
       }
     },
     "2026-07-17": {
       "saint": {
-        "name": "B. Inácio de Azevedo e companheiros mártires",
-        "feast": "B. Inácio de Azevedo e comp. mártires - 17 de Julho",
-        "description": "Presbítero jesuíta e 39 companheiros martirizados a caminho do Brasil em 1570. Regaram com sangue as primeiras sementes do Evangelho na Terra de Santa Cruz."
+        "name": "Santa Marcelina, virgem",
+        "feast": "Santa Marcelina - 17 de Julho",
+        "description": "Irmã mais velha de Santo Ambrósio e São Sátiro, consagrou-se a Deus como virgem. Dedicou-se à oração, à educação dos irmãos e ao cuidado dos pobres."
+      },
+      "gospel": {
+        "text": "Quero a misericórdia e não o sacrifício.",
+        "ref": "Mt 12,1-8"
       }
     },
     "2026-07-18": {
       "saint": {
-        "name": "Sábado da 15ª Semana do Tempo Comum",
-        "feast": "15ª Semana do Tempo Comum - Sábado",
-        "description": "Sábado da décima quinta semana do Tempo Comum."
+        "name": "Santo Emiliano de Durostoro, mártir",
+        "feast": "Santo Emiliano - 18 de Julho",
+        "description": "Jovem escravo cristão que destruiu os ídolos pagãos de Doróstoro (atual Silistra, Bulgária) durante a perseguição de Juliano Apóstata. Lançado numa fornalha, recebeu a palma do martírio."
+      },
+      "gospel": {
+        "text": "Não quebrará o caniço rachado, nem apagará o pavio que ainda fumega.",
+        "ref": "Mt 12,14-21"
       }
     },
     "2026-07-19": {
       "saint": {
-        "name": "16º Domingo do Tempo Comum",
-        "feast": "16º Domingo do Tempo Comum - 19 de Julho",
-        "description": "Domingo XVI do Tempo Comum. A liturgia nos ensina, com a parábola do trigo e do joio, a paciência de Deus que aguarda a conversão de todos."
+        "name": "São Símaco, papa",
+        "feast": "São Símaco - 19 de Julho",
+        "description": "Papa de 498 a 514, defendeu a fé contra o cisma laurenciano. Conhecido como 'Pai dos Pobres', construiu hospitais e resgatou cativos durante as invasões bárbaras."
+      },
+      "gospel": {
+        "text": "Os justos brilharão como o sol no Reino de seu Pai.",
+        "ref": "Mt 13,24-43"
       }
     },
     "2026-07-20": {
       "saint": {
-        "name": "S. Apolinário",
-        "feast": "S. Apolinário - 20 de Julho",
+        "name": "Santo Apolinário de Ravena, bispo e mártir",
+        "feast": "Santo Apolinário - 20 de Julho",
         "description": "Bispo de Ravena e mártir do século II, evangelizou a cidade e sofreu múltiplos martírios por sua fé, sendo venerado como padroeiro da arquidiocese."
+      },
+      "gospel": {
+        "text": "Aqui está quem é maior do que Jonas.",
+        "ref": "Mt 12,38-42"
       }
     },
     "2026-07-21": {
@@ -87,6 +111,10 @@
       "closingQuote": {
         "text": "A Palavra do Senhor é luz para o intelecto e fogo para a vontade.",
         "source": "S. Lourenço de Bríndisi"
+      },
+      "gospel": {
+        "text": "Todo aquele que faz a vontade do meu Pai é meu irmão, minha irmã e minha mãe.",
+        "ref": "Mt 12,46-50"
       }
     },
     "2026-07-22": {
@@ -98,13 +126,21 @@
       "closingQuote": {
         "text": "Eu vi o Senhor!",
         "source": "Jo 20,18"
+      },
+      "gospel": {
+        "text": "Mulher, por que choras? A quem procuras?",
+        "ref": "Jo 20,1-2.11-18"
       }
     },
     "2026-07-23": {
       "saint": {
-        "name": "S. Brígida de Suécia",
-        "feast": "S. Brígida de Suécia - 23 de Julho",
+        "name": "Santa Brígida da Suécia, religiosa",
+        "feast": "Santa Brígida - 23 de Julho",
         "description": "Mística, esposa, mãe e fundadora da Ordem do Santíssimo Salvador. Recebeu revelações celestes e é copadroeira da Europa."
+      },
+      "gospel": {
+        "text": "Felizes sois vós, porque vossos olhos veem e vossos ouvidos ouvem.",
+        "ref": "Mt 13,10-17"
       }
     },
     "2026-07-24": {
@@ -116,6 +152,10 @@
       "closingQuote": {
         "text": "Todo homem é uma chama, criada por nosso Senhor, para iluminar o mundo.",
         "source": "S. Charbel Makhluf"
+      },
+      "gospel": {
+        "text": "Aquele que ouve a Palavra e a compreende produz fruto.",
+        "ref": "Mt 13,18-23"
       }
     },
     "2026-07-25": {
@@ -127,27 +167,43 @@
       "closingQuote": {
         "text": "Podemos.",
         "source": "Resposta de São Tiago e São João — Mt 20,22"
+      },
+      "gospel": {
+        "text": "O Filho do Homem não veio para ser servido, mas para servir e dar a sua vida.",
+        "ref": "Mt 20,20-28"
       }
     },
     "2026-07-26": {
       "saint": {
-        "name": "17º Domingo do Tempo Comum",
-        "feast": "17º Domingo do Tempo Comum - 26 de Julho",
-        "description": "Domingo XVII do Tempo Comum. O Evangelho nos fala do tesouro escondido e da pérola preciosa, convidando-nos a dar tudo pelo Reino dos Céus."
+        "name": "São Joaquim e Sant'Ana",
+        "feast": "São Joaquim e Sant'Ana - 26 de Julho",
+        "description": "Pais da Bem-aventurada Virgem Maria e avós de Jesus. Modelos de fé, paciência e confiança em Deus. Padroeiros dos avós e dos idosos."
+      },
+      "gospel": {
+        "text": "O Reino dos Céus é como um tesouro escondido no campo.",
+        "ref": "Mt 13,44-52"
       }
     },
     "2026-07-27": {
       "saint": {
-        "name": "S. Pantaleão",
-        "feast": "S. Pantaleão - 27 de Julho",
+        "name": "São Pantaleão, médico e mártir",
+        "feast": "São Pantaleão - 27 de Julho",
         "description": "Médico e mártir do século IV, venerado como um dos catorze santos auxiliares. Sofreu o martírio em Nicomédia durante a perseguição de Diocleciano."
+      },
+      "gospel": {
+        "text": "O Reino dos Céus é como um grão de mostarda.",
+        "ref": "Mt 13,31-35"
       }
     },
     "2026-07-28": {
       "saint": {
-        "name": "Terça-feira da 17ª Semana do Tempo Comum",
-        "feast": "17ª Semana do Tempo Comum - Terça-feira",
-        "description": "Terça-feira da décima sétima semana do Tempo Comum."
+        "name": "São Vítor I, papa",
+        "feast": "São Vítor I - 28 de Julho",
+        "description": "Décimo quarto papa da Igreja (189-199), o primeiro de origem africana. Estabeleceu o domingo como dia da celebração da Páscoa e uniformizou a liturgia latina."
+      },
+      "gospel": {
+        "text": "Os justos brilharão como o sol no Reino de seu Pai.",
+        "ref": "Mt 13,36-43"
       }
     },
     "2026-07-29": {
@@ -159,6 +215,10 @@
       "closingQuote": {
         "text": "Sim, Senhor, eu creio que tu és o Cristo, o Filho de Deus.",
         "source": "Santa Marta — Jo 11,27"
+      },
+      "gospel": {
+        "text": "Eu sou a ressurreição e a vida. Quem crê em mim, mesmo que morra, viverá.",
+        "ref": "Jo 11,19-27"
       }
     },
     "2026-07-30": {
@@ -170,6 +230,10 @@
       "closingQuote": {
         "text": "Ó homem, por que tens de ti conceito tão vil, quando és tão precioso para Deus?",
         "source": "S. Pedro Crisólogo — Sermão 148"
+      },
+      "gospel": {
+        "text": "O Reino dos Céus é como uma rede lançada ao mar.",
+        "ref": "Mt 13,47-53"
       }
     },
     "2026-07-31": {
@@ -181,6 +245,10 @@
       "closingQuote": {
         "text": "Dai-me somente o vosso amor e a vossa graça, que isto me basta.",
         "source": "Santo Inácio de Loyola — Exercícios Espirituais, n. 234"
+      },
+      "gospel": {
+        "text": "Um profeta só é desprezado em sua terra e em sua casa.",
+        "ref": "Mt 13,54-58"
       }
     }
   }
