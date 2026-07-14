@@ -477,9 +477,78 @@
     .news-headline { font-size: 22px; }
     .sponsor-bar { align-items: flex-start; flex-direction: column; gap: 4px; padding: 12px 0; }
   }
+  .experimental-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: rgba(28,43,74,0.92);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 14px 24px;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .experimental-banner.hidden {
+    transform: translateY(100%);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .experimental-banner-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .experimental-banner-icon {
+    font-size: 18px;
+    color: var(--gold-lt);
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  .experimental-banner-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.5;
+    flex: 1;
+    margin: 0;
+  }
+  .experimental-banner-content a {
+    color: var(--gold-lt);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(212,175,106,0.35);
+  }
+  .experimental-banner-close {
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.5);
+    font-size: 22px;
+    cursor: pointer;
+    padding: 0 4px;
+    line-height: 1;
+    flex-shrink: 0;
+    transition: color 0.2s;
+  }
+  .experimental-banner-close:hover { color: #fff; }
+  @media (max-width: 720px) {
+    .experimental-banner-content { flex-wrap: wrap; gap: 8px; }
+    .experimental-banner-content p { font-size: 12px; }
+  }
 </style>
 </head>
 <body>
+<div class="experimental-banner" id="experimentalBanner">
+  <div class="experimental-banner-content">
+    <span class="experimental-banner-icon">&awconint;</span>
+    <p><strong>Fase experimental</strong> — este site está em construção. Erros e instabilidade são esperados. Reporte qualquer problema no <a href="https://www.instagram.com/ilustre.ai" target="_blank" rel="noopener noreferrer">@ilustre.ai</a>.</p>
+    <button class="experimental-banner-close" id="expBannerClose" aria-label="Fechar aviso">&times;</button>
+  </div>
+</div>
 <header class="masthead{{LITURGICAL_TEXT_MODIFIER}}">
   <div class="masthead-inner">
     <a class="masthead-brand" href="#">newsletter &bull; ilustre.ai</a>
@@ -637,6 +706,18 @@
           updateArrows(); updateDots();
         }, { passive: true });
         updateArrows(); updateDots();
+      }
+    }
+    var expBanner = document.getElementById('experimentalBanner');
+    var expBtn = document.getElementById('expBannerClose');
+    if (expBanner && expBtn) {
+      if (localStorage.getItem('exp_banner_closed')) {
+        expBanner.classList.add('hidden');
+      } else {
+        expBtn.addEventListener('click', function () {
+          expBanner.classList.add('hidden');
+          try { localStorage.setItem('exp_banner_closed', '1'); } catch (e) {}
+        });
       }
     }
   })();
