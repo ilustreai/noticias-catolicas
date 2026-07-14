@@ -107,7 +107,7 @@ function storyDownloadAssets(date) {
         ctx.fillStyle = '#4a4040'; ctx.font = '500 36px Inter, Arial, sans-serif';
         ctx.fillText(source, 540, startY + lines.length * 92 + 70);
         ctx.fillStyle = '#6B1A2A'; ctx.font = '700 28px Inter, Arial, sans-serif';
-        ctx.fillText('by ilustre.ai', 540, 1765);
+        ctx.fillText('@ilustre.ai', 540, 1765);
         return canvas;
       }
       button.addEventListener('click', function () {
