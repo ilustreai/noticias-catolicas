@@ -387,8 +387,6 @@ export function loadTemplate(templatePath = path.join(rootDir, 'template', 'noti
 function renderSaintSection(saint) {
   if (!saint?.name) return '';
   const link = renderSaintMoreLink(saint);
-  const isFallback = saint.description && /^Celebração litúrgica/i.test(saint.description);
-  const bio = !isFallback && saint.description ? truncateAtWord(saint.description, 230) : '';
   return `
   <div class="section-header">
     <span class="section-header-title">Santo do Dia</span>
@@ -396,7 +394,6 @@ function renderSaintSection(saint) {
   </div>
   <div class="saint-card">
     <h2 class="saint-name">${escapeHtml(saint.name)}</h2>
-    ${bio ? `<p class="saint-bio">${escapeHtml(bio)}</p>` : ''}
 ${link}
   </div>`;
 }
