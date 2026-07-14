@@ -711,14 +711,9 @@
     var expBanner = document.getElementById('experimentalBanner');
     var expBtn = document.getElementById('expBannerClose');
     if (expBanner && expBtn) {
-      if (localStorage.getItem('exp_banner_closed')) {
+      expBtn.addEventListener('click', function () {
         expBanner.classList.add('hidden');
-      } else {
-        expBtn.addEventListener('click', function () {
-          expBanner.classList.add('hidden');
-          try { localStorage.setItem('exp_banner_closed', '1'); } catch (e) {}
-        });
-      }
+      });
     }
   })();
 </script>
