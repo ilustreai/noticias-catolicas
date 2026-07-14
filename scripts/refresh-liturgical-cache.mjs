@@ -99,6 +99,7 @@ const SAINT_QUOTES = [
   { match: 'João Paulo II', text: 'Não tenhais medo! Abri as portas a Cristo!', source: 'São João Paulo II' },
   { match: 'Pio', text: 'Rezai, esperai, não vos preocupeis.', source: 'São Pio de Pietrelcina' },
   { match: 'Bento', text: 'Escuta, filho, os preceitos do mestre e inclina o coração.', source: 'São Bento' },
+  { match: 'Camilo', text: 'Os doentes nos revelam o rosto de Deus.', source: 'São Camilo de Léllis' },
 ];
 
 const MONTHS_BR = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
