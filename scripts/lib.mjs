@@ -384,10 +384,11 @@ export function loadTemplate(templatePath = path.join(rootDir, 'template', 'noti
   return fs.readFileSync(templatePath, 'utf8');
 }
 
-function renderSaintSection(saint, celebrationTitle) {
+function renderSaintSection(saint) {
   if (!saint?.name) return '';
   const link = renderSaintMoreLink(saint);
-  const bio = saint.description ? truncateAtWord(saint.description, 230) : '';
+  const isFallback = saint.description && /^Celebração litúrgica/i.test(saint.description);
+  const bio = !isFallback && saint.description ? truncateAtWord(saint.description, 230) : '';
   return `
   <div class="section-header">
     <span class="section-header-title">Santo do Dia</span>
