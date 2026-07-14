@@ -122,36 +122,6 @@ function storyDownloadAssets(date) {
           .catch(function () { button.textContent = 'Tente novamente'; });
       });
     }
-
-    var masthead = document.querySelector('.masthead');
-    var trigger = document.querySelector('.liturgy-strip');
-    if (masthead && trigger && 'IntersectionObserver' in window) {
-      new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          masthead.classList.toggle('scrolled', !entry.isIntersecting);
-        });
-      }, { threshold: 0 }).observe(trigger);
-    }
-
-    var reveals = document.querySelectorAll('.reveal');
-    if (reveals.length > 0 && 'IntersectionObserver' in window) {
-      var ro = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) { entry.target.classList.add('visible'); ro.unobserve(entry.target); }
-        });
-      }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
-      reveals.forEach(function (el) { ro.observe(el); });
-    } else {
-      reveals.forEach(function (el) { el.classList.add('visible'); });
-    }
-
-    var btn = document.getElementById('backToTop');
-    if (btn) {
-      window.addEventListener('scroll', function () {
-        btn.classList.toggle('visible', window.scrollY > 300);
-      }, { passive: true });
-      btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
-    }
   })();
 </script>`;
 
