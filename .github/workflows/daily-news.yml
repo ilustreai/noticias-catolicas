@@ -42,6 +42,8 @@ jobs:
           node scripts/build-html.mjs
           cp -f public/index.html index.html
           cp -rf public/assets/ assets/ 2>/dev/null; true
+        env:
+          CLOUDFLARE_ANALYTICS_TOKEN: ${{ secrets.CLOUDFLARE_ANALYTICS_TOKEN }}
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"

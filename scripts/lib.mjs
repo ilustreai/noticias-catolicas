@@ -415,7 +415,10 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{NEWS_ITEMS}}': renderNews(selection.news),
     '{{CLOSING_QUOTE_TEXT}}': escapeHtml(selection.closingQuote?.text ?? ''),
     '{{CLOSING_QUOTE_SOURCE}}': escapeHtml(selection.closingQuote?.source ?? ''),
-    '{{SPONSOR_BAR}}': renderSponsor(selection.sponsor)
+    '{{SPONSOR_BAR}}': renderSponsor(selection.sponsor),
+    '{{CLOUDFLARE_ANALYTICS}}': process.env.CLOUDFLARE_ANALYTICS_TOKEN
+      ? `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "${process.env.CLOUDFLARE_ANALYTICS_TOKEN}"}'></script>`
+      : ''
   };
 
   const html = Object.entries(replacements).reduce(
@@ -451,7 +454,8 @@ export function validateRenderedHtml(html, selection) {
   if (html.includes('{{')) errors.push('unresolved template token');
 
   const scriptTags = html.match(/<script[\s\S]*?<\/script>/gi) ?? [];
-  if (scriptTags.length > 1) {
+  const inlineScripts = scriptTags.filter(s => !s.includes(' src=')).length;
+  if (inlineScripts > 1) {
     errors.push('at most one inline script is allowed in the generated static page');
   }
 
