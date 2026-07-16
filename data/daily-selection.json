@@ -1,30 +1,32 @@
 {
-  "date": "2026-07-15",
-  "editionLabel": "15 de julho de 2026",
+  "date": "2026-07-16",
+  "editionLabel": "16 de julho de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Boaventura, bispo e doutor da Igreja",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Mt 11,25-27"
+    "celebrationTitle": "Nossa Senhora do Carmo",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Mt 12,46-50"
   },
   "saint": {
-    "feast": "Santo do Dia - 15 de Julho",
-    "name": "São Boaventura, doutor da Igreja",
-    "description": "Celebração litúrgica do dia: São Boaventura, bispo e doutor da Igreja.",
-    "url": "https://santo.cancaonova.com/santo/sao-boaventura-doutor-da-igreja/"
+    "feast": "Santo do Dia - 16 de Julho",
+    "name": "Nossa Senhora do Carmo, Virgem do Escapulário",
+    "description": "Celebração litúrgica do dia: Nossa Senhora do Carmo.",
+    "url": "https://santo.cancaonova.com/santo/nossa-senhora-do-carmo-virgem-do-escapulario/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 11,25-27)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 12,46-50)",
     "lines": [
-      "Naquele tempo, Jesus pôs-se a dizer: Eu te louvo, ó Pai, Senhor do céu e da terra, porque escondeste estas coisas aos sábios e entendidos e as revelaste aos pequeninos.",
-      "Sim, Pai, porque assim foi do teu agrado.",
-      "Tudo me foi entregue por meu Pai, e ninguém conhece o Filho, senão o Pai, e ninguém conhece o Pai, senão o Filho e aquele a quem o Filho o quiser revelar."
+      "Naquele tempo, enquanto Jesus estava falando às multidões, sua mãe e seus irmãos ficaram do lado de fora, procurando falar com ele.",
+      "Alguém disse a Jesus: Olha!",
+      "Tua mãe e teus irmãos estão aí fora, e querem falar contigo.",
+      "Jesus perguntou àquele que tinha falado: Quem é minha mãe, e quem são meus irmãos? E, estendendo a mão para os discípulos, Jesus disse: Eis minha mãe e meus irmãos.",
+      "Pois todo aquele que faz a vontade do meu Pai, que está nos céus, esse é meu irmão, minha irmã e minha mãe."
     ],
-    "keyVerse": "Graças te dou, ó Pai, Senhor do céu e da terra, pois, revelaste os mistérios do teu Reino aos pequeninos, escondendo-os aos doutores!",
-    "body": "25 Naquele tempo, Jesus pôs-se a dizer: \"Eu te louvo, ó Pai, Senhor do céu e da terra, porque escondeste estas coisas aos sábios e entendidos e as revelaste aos pequeninos. 26 Sim, Pai, porque assim foi do teu agrado. 27 Tudo me foi entregue por meu Pai, e ninguém conhece o Filho, senão o Pai, e ninguém conhece o Pai, senão o Filho e aquele a quem o Filho o quiser revelar\". —"
+    "keyVerse": "Feliz quem ouve e observa a palavra de Deus!",
+    "body": "Naquele tempo, 46 enquanto Jesus estava falando às multidões, sua mãe e seus irmãos ficaram do lado de fora, procurando falar com ele. 47 Alguém disse a Jesus: \"Olha! Tua mãe e teus irmãos estão aí fora, e querem falar contigo\". 48 Jesus perguntou àquele que tinha falado: \"Quem é minha mãe, e quem são meus irmãos?\" 49 E, estendendo a mão para os discípulos, Jesus disse: \"Eis minha mãe e meus irmãos. 50 Pois todo aquele que faz a vontade do meu Pai, que está nos céus, esse é meu irmão, minha irmã e minha mãe\". —"
   },
   "sponsor": {
     "enabled": true,
@@ -35,60 +37,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Cardeal Zuppi em missão na Ucrânia: “que a guerra termine logo\"",
-      "summary": "O presidente dos bispos italianos visita pela segunda vez o país do Leste Europeu: quatro dias com parada também em Kiev. Antes de seguir para a capital, o cardeal, acompanhado pelo núncio Kulbokas, visitou o Centro de Detenção Zakhid-1,.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/cardeal-zuppi-missao-ucrania-kiev-santa-se-nuncio-kulbokas-26.html",
-      "published": "2026-07-14"
+      "title": "A oração em ucraniano de Zuppi em Kiev: “que Deus conceda uma paz justa”",
+      "summary": "Terceiro dia de missão do presidente dos bispos italianos ao país em guerra. Em Lviv, cardeal Zuppi se reuniu com deslocados atendidos pela Comunidade de Santo Egídio. Na capital estão sendo realizadas as celebrações do Dia da Soberania.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/missao-cardeal-zuppi-ucrania-deus-conceda-paz-justa-julho-26.html",
+      "published": "2026-07-15"
     },
     {
       "source": "Vatican News",
-      "title": "Santuário de Lourdes acolhe o Acamps, festival internacional da juventude",
-      "summary": "De 15 a 19 de julho, o Santuário de Nossa Senhora de Lourdes recebe pela primeira vez o Acamps Summer Festival, promovido pela Comunidade Católica Shalom. O evento reúne jovens, famílias e peregrinos de diversos países para uma.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/santuario-de-lourdes-acolhe-acamps-summer-festival-shalom.html",
-      "published": "2026-07-14"
+      "title": "Elia Dalla Costa e a atualidade do apelo para não cair na heresia das obras",
+      "summary": "No perfil biográfico do cardeal arcebispo de Florença, elaborado por padre Pino Esposito e entregue aos bispos italianos e aos cardeais durante o consistório, destaca-se o apelo para não minimizar ou descartar como supérflua a ação da.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/elia-dalla-costa-livro-tornielli-parolin.html",
+      "published": "2026-07-15"
     },
     {
       "source": "CNBB",
-      "title": "Verdade e beleza ganha destaque na Igreja",
-      "summary": "Dom Geraldo dos Reis Maia Bispo de Araçuaí (MG) Existe um nexo entre verdade e beleza? A Filosofia Grega já relacionava a tríade: beleza, verdade e bondade. Essa concepção levou pensadores a buscar a harmonia estética, o conhecimento.",
-      "url": "https://www.cnbb.org.br/verdade-e-beleza/",
-      "published": "2026-07-14"
+      "title": "Padre Tiago Síbula destaca comunhão, escuta e conversão das relações durante encontro de secret",
+      "summary": "Durante o Encontro com Bispos Secretários e Secretários-Executivos dos regionais da CNBB, o padre Tiago Síbula, assessor da Comissão Episcopal para a Comunicação da CNBB, conduziu uma reflexão sobre a sinodalidade, a comunhão e os.",
+      "url": "https://www.cnbb.org.br/padre-tiago-sibula-destaca-comunhao-escuta-e-conversao-das-relacoes-durante-encontro-de-secretarios-executivos-da-cnbb/",
+      "published": "2026-07-15"
     },
     {
       "source": "CNBB",
-      "title": "Membros da Comissão para a Liturgia da CNBB participam de encontro da Universa Laus, em São",
-      "summary": "A Universa Laus é uma associação de liturgistas e músicos, fundada na Suíça, em 1966, pelo padre Joseph Gelineau, para implementar na música as reformas que o Concílio Vaticano II propôs para a liturgia. Trata-se da primeira vez que o.",
-      "url": "https://www.cnbb.org.br/membros-da-comissao-para-a-liturgia-da-cnbb-participam-de-encontro-da-universa-laus-em-sao-paulo-sp/",
-      "published": "2026-07-14"
-    },
-    {
-      "source": "Shalom",
-      "title": "Partiu Roma! 5 dicas práticas para organizar seu grupo para a Convenção Shalom",
-      "summary": "A promoção de aniversário da Vocação chegou ao fim, mas a preparação para viver a Convenção Shalom 2026 em Roma continua! Vem organizar e fechar sua viagem em grupo!.",
-      "url": "https://comshalom.org/partiu-roma-5-dicas-praticas-para-organizar-seu-grupo-para-a-convencao-shalom/",
+      "title": "Setor Espaço Litúrgico promove live sobre arquitetura e dimensão espiritual do Santuário da",
+      "summary": "O Setor Espaço Litúrgico promove, na quinta-feira, 23 de julho, às 16h, uma live sobre a concepção, a arquitetura e a dimensão espiritual do Santuário da Misericórdia, localizado na Fazenda da Esperança, em Manaus (AM). A transmissão será.",
+      "url": "https://www.cnbb.org.br/setor-espaco-liturgico-promove-live-sobre-arquitetura-e-dimensao-espiritual-do-santuario-da-misericordia/",
       "published": "2026-07-15"
     },
     {
       "source": "Shalom",
-      "title": "Falta uma semana para o Festival Halleluya",
-      "summary": "Na próxima quarta-feira, dia 22 de julho, começa o Festival Halleluya no Condomínio Espiritual Uirapuru. Confira nossas atrações.",
-      "url": "https://comshalom.org/falta-uma-semana-para-o-festival-halleluya/",
+      "title": "Congresso de Liderança Shalom 2026 propõe uma liderança a serviço de Deus, do Carisma e dos hom",
+      "summary": "Evento quer formar líderes capazes de unir maturidade espiritual, fidelidade ao Carisma e cuidado concreto com as pessoas diante dos desafios da missão na Igreja e no mundo.",
+      "url": "https://comshalom.org/congresso-de-lideranca-shalom-2026-propoe-uma-lideranca-a-servico-de-deus-do-carisma-e-dos-homens/",
+      "published": "2026-07-16"
+    },
+    {
+      "source": "Shalom",
+      "title": "Mais shows, ampliação de espaço e bolsão de estacionamento: confira as novidades do Halleluya 2",
+      "summary": "Festival Halleluya 2026 anuncia ampliação da Cidade da Paz, melhorias na infraestrutura e plano operacional para receber milhares de pessoas em Fortaleza.",
+      "url": "https://comshalom.org/festival-halleluya-2026-ampliacao-cidade-da-paz-fortaleza/",
       "published": "2026-07-15"
     },
     {
       "source": "Aleteia",
-      "title": "Esses devem ser os trabalhos católicos mais legais do mundo!",
-      "summary": "Uma postagem recente de steffani_hisgirlsunday no Instagram destacou alguns dos trabalhos mais incomuns da Igreja Católica. Ao ver a lista, não pudemos deixar de sorrir e refletir sobre as profissões católicas. Então, encantados, pegamos.",
-      "url": "https://pt.aleteia.org/2026/07/14/esses-devem-ser-os-trabalhos-catolicos-mais-legais-do-mundo/",
-      "published": "2026-07-14"
+      "title": "“Em meio ao horror, há luz”: Na Venezuela, o padre Nelson relata a tragédia",
+      "summary": "Venezuela, atingida por dois fortes terremotos na noite de 24 de junho, está lutando para se recuperar. Com magnitudes de 7,2 e 7,5 na escala Richter, os dois tremores abalaram o país com apenas alguns segundos de diferença. Em várias.",
+      "url": "https://pt.aleteia.org/2026/07/15/em-meio-ao-horror-ha-luz-na-venezuela-o-padre-nelson-relata-a-tragedia/",
+      "published": "2026-07-15"
     }
   ],
   "closingQuote": {
-    "text": "Interroga a graça, não a doutrina; o desejo, não o intelecto; o gemido da oração, não o estudo da letra.",
-    "source": "S. Boaventura — Itinerário da mente para Deus, VII, 6"
+    "text": "Eis aqui a serva do Senhor; faça-se em mim segundo a tua palavra.",
+    "source": "Lc 1,38"
   },
   "liturgyHours": {
-    "reading": "Aprendi a Sabedoria sem maldade e reparto-a sem inveja; não escondo a sua riqueza. É um tesouro inesgotável para os homens; os que a adquirem atraem a amizade de Deus, porque recomendados pelos dons da instrução.",
+    "reading": "Exulto de alegria no Senhor e minh’alma regozija-se em meu Deus; ele me vestiu com as vestes da salvação, envolveu-me com o manto da justiça e adornou-me qual noiva com suas joias.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
