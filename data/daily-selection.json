@@ -1,32 +1,34 @@
 {
-  "date": "2026-07-16",
-  "editionLabel": "16 de julho de 2026",
+  "date": "2026-07-17",
+  "editionLabel": "17 de julho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Nossa Senhora do Carmo",
+    "celebrationTitle": "Sexta-Feira da Semana XV do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 12,46-50"
+    "gospelShort": "Mt 12,1-8"
   },
   "saint": {
-    "feast": "Santo do Dia - 16 de Julho",
-    "name": "Nossa Senhora do Carmo, Virgem do Escapulário",
-    "description": "Celebração litúrgica do dia: Nossa Senhora do Carmo.",
-    "url": "https://santo.cancaonova.com/santo/nossa-senhora-do-carmo-virgem-do-escapulario/"
+    "feast": "Santo do Dia - 17 de Julho",
+    "name": "Beato Inácio de Azevedo e companheiros mártires",
+    "description": "Celebração litúrgica do dia: Sexta-Feira da Semana XV do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/beato-inacio-de-azevedo-e-companheiros-martires/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 12,46-50)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 12,1-8)",
     "lines": [
-      "Naquele tempo, enquanto Jesus estava falando às multidões, sua mãe e seus irmãos ficaram do lado de fora, procurando falar com ele.",
-      "Alguém disse a Jesus: Olha!",
-      "Tua mãe e teus irmãos estão aí fora, e querem falar contigo.",
-      "Jesus perguntou àquele que tinha falado: Quem é minha mãe, e quem são meus irmãos? E, estendendo a mão para os discípulos, Jesus disse: Eis minha mãe e meus irmãos.",
-      "Pois todo aquele que faz a vontade do meu Pai, que está nos céus, esse é meu irmão, minha irmã e minha mãe."
+      "Naquele tempo, Jesus passou no meio de uma plantação num dia de sábado.",
+      "Seus discípulos tinham fome e começaram a apanhar espigas para comer.",
+      "Vendo isso, os fariseus disseram-lhe: Olha, os teus discípulos estão fazendo, o que não é permitido fazer em dia de sábado! Jesus respondeu-lhes: Nunca lestes o que fez Davi, quando ele e seus companheiros sentiram fome?",
+      "Como entrou na casa de Deus e todos comeram os pães da oferenda que nem a ele nem aos seus companheiros era permitido comer, mas unicamente aos sacerdotes?",
+      "Ou nunca lestes na Lei, que em dia de sábado, no Templo, os sacerdotes violam o sábado sem contrair culpa alguma?",
+      "Ora, eu vos digo: aqui está quem é maior do que o Templo.",
+      "Se tivésseis compreendido o que significa: Quero a misericórdia e não o sacrifício, não teríeis condenado os inocentes."
     ],
-    "keyVerse": "Feliz quem ouve e observa a palavra de Deus!",
-    "body": "Naquele tempo, 46 enquanto Jesus estava falando às multidões, sua mãe e seus irmãos ficaram do lado de fora, procurando falar com ele. 47 Alguém disse a Jesus: \"Olha! Tua mãe e teus irmãos estão aí fora, e querem falar contigo\". 48 Jesus perguntou àquele que tinha falado: \"Quem é minha mãe, e quem são meus irmãos?\" 49 E, estendendo a mão para os discípulos, Jesus disse: \"Eis minha mãe e meus irmãos. 50 Pois todo aquele que faz a vontade do meu Pai, que está nos céus, esse é meu irmão, minha irmã e minha mãe\". —"
+    "keyVerse": "Minhas ovelhas escutam minha voz, eu as conheço e elas me seguem.",
+    "body": "1 Naquele tempo, Jesus passou no meio de uma plantação num dia de sábado. Seus discípulos tinham fome e começaram a apanhar espigas para comer. 2 Vendo isso, os fariseus disseram-lhe: \"Olha, os teus discípulos estão fazendo, o que não é permitido fazer em dia de sábado!\" 3 Jesus respondeu-lhes: \"Nunca lestes o que fez Davi, quando ele e seus companheiros sentiram fome? 4 Como entrou na casa de Deus e todos comeram os pães da oferenda que nem a ele nem aos seus companheiros era permitido comer, mas unicamente aos sacerdotes? 5 Ou nunca lestes na Lei, que em dia de sábado, no Templo, os sacerdotes violam o sábado sem contrair culpa alguma? 6 Ora, eu vos digo: aqui está quem é maior do que o Templo. 7 Se tivésseis compreendido o que significa: 'Quero a misericórdia e não o sacrifício', não teríeis condenado os inocentes. 8 De fato, o Filho do Homem é senhor do sábado\". —"
   },
   "sponsor": {
     "enabled": true,
@@ -37,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "IOR: Giovanni Boscia é o novo diretor-geral",
-      "summary": "Assumirá o cargo no próximo dia 1º de outubro, sucedendo Gian Franco Mammì, que conclui o seu mandato por ter atingido o limite de idade. François Pauly, presidente do Conselho de Superintendência: “Temos a certeza de que saberá conduzir.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/ior-giovanni-boscia-novo-diretor-geral.html",
-      "published": "2026-07-15"
+      "title": "Castel Gandolfo: Diocese de Albano oferece ao Papa um concerto em sua homenagem",
+      "summary": "Na noite de sábado, 18 de julho, no pátio do Palácio Apostólico, será realizado o evento oferecido pelo bispo Vincenzo Viva para manifestar a Leão XIV “proximidade e afeto, por meio de um momento de autêntica beleza”. Na presença do.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/castel-gandolfo-diocese-de-albano-oferece-ao-papa-um-concerto.html",
+      "published": "2026-07-16"
     },
     {
       "source": "Vatican News",
-      "title": "Jovens ucranianos chegam à Itália como \"mensageiros da paz\"",
-      "summary": "Em programa até 23 de julho o acampamento de verão para cerca de 20 jovens ucranianos vindos da região de Zaporizhzhia, que primeiro foram à Lombardia, depois ao Trentino e por fim a Assis. O arcebispo de Milão, dom Mario Delpini, disse:.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/ucrania-italia-jovens-mensageiros-paz-exarcado-donetsk.html",
-      "published": "2026-07-15"
+      "title": "No Paraguai, na Jornada do Clero, o cardeal You: voltar à essência da vocação",
+      "summary": "Sacerdotes provenientes das dioceses de todo o país participaram de um retiro centrado na formação, na oração e na comunhão fraterna, organizado pelo Escritório Pastoral Sacerdotal Nacional, encerrado esta quinta-feira. A mensagem do.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/paraguai-jornada-nacional-do-clero-cardeal-lazarus-you-heung-sik.html",
+      "published": "2026-07-16"
     },
     {
       "source": "CNBB",
-      "title": "A paciência e a misericórdia de Deus",
-      "summary": "Dom Antonio Carlos Rossi Keller Bispo de Frederico Westphalen (RS) 16º Domingo do Tempo Comum Ciclo A No 16º Domingo do Tempo Comum do Ano A, a liturgia da Igreja nos convida a contemplar um Deus paciente, misericordioso e cheio de.",
-      "url": "https://www.cnbb.org.br/a-paciencia-e-a-misericordia-de-deus/",
-      "published": "2026-07-15"
+      "title": "Secretário-geral da CNBB participa, em Brasília, da celebração dos 177 anos de fundação dos",
+      "summary": "O bispo auxiliar de Brasília e secretário-geral da Conferência Nacional dos Bispos do Brasil (CNBB), dom Ricardo Hoepers, conduziu, na quarta-feira, 15, uma formação na programação do Encontro Nacional de Estudantes Claretianos do Brasil.",
+      "url": "https://www.cnbb.org.br/secretario-geral-da-cnbb-celebra-missa-pelos-177-anos-de-fundacao-dos-claretianos/",
+      "published": "2026-07-16"
     },
     {
-      "source": "CNBB",
-      "title": "Padre Tiago Síbula destaca comunhão, escuta e conversão das relações durante encontro de secret",
-      "summary": "Durante o Encontro com Bispos Secretários e Secretários-Executivos dos regionais da CNBB, o padre Tiago Síbula, assessor da Comissão Episcopal para a Comunicação da CNBB, conduziu uma reflexão sobre a sinodalidade, a comunhão e os.",
-      "url": "https://www.cnbb.org.br/padre-tiago-sibula-destaca-comunhao-escuta-e-conversao-das-relacoes-durante-encontro-de-secretarios-executivos-da-cnbb/",
-      "published": "2026-07-15"
+      "source": "ACI Digital",
+      "title": "Especialistas assinam declaração de Roma sobre limites para IA e armas nucleares",
+      "summary": "Inspirados pela encíclica Magnifica humanitas, do papa Leão XIV, cerca de 200 acadêmicos, inovadores e laureados com o prêmio Nobel assinaram hoje (16) uma declaração em Roma, Itália, pedindo o desenvolvimento responsável da inteligência artificial (IA) e a eliminação completa das armas nucleares. “Precisamos desarmar a próxima corrida armamentista, tanto em inteligência artificial quanto nuclear, antes que elas definam também o próximo século”, disse a declaração....",
+      "url": "https://www.acidigital.com/noticia/68959/especialistas-assinam-declaracao-de-roma-sobre-limites-para-ia-e-armas-nucleares",
+      "published": "2026-07-16"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "a Igreja recorda 16 carmelitas mártires decapitadas na Revolução Francesa",
+      "summary": "No dia seguinte à festa de Nossa Senhora do Carmo, recorda-se hoje as 16 carmelitas de Compiègne, França, que foram decapitadas por ódio à fé durante a Revolução Francesa, como foi profetizado 100 anos antes de sua morte.",
+      "url": "https://www.acidigital.com/noticia/52653/hoje-a-igreja-recorda-16-carmelitas-martires-decapitadas-na-revolucao-francesa",
+      "published": "2026-07-17"
     },
     {
       "source": "Shalom",
-      "title": "Começa a 6ª edição do Acamps Summer Festival em Lourdes, na França",
-      "summary": "Evento reúne mais de 350 participantes de 10 países em uma experiência que une espiritualidade, formação, convivência e peregrinação no Santuário de Nossa Senhora de Lourdes.",
-      "url": "https://comshalom.org/comeca-a-6a-edicao-do-acamps-summer-festival-em-lourdes-na-franca/",
-      "published": "2026-07-15"
+      "title": "Lumen Gentium: redescobrir a identidade da Igreja para viver sua missão no mundo",
+      "summary": "Ao retomar os ensinamentos do Concílio Vaticano II, o Santo Padre reforça que a Igreja encontra sua identidade no Senhor e é chamada a ser sinal de comunhão e esperança para o mundo.",
+      "url": "https://comshalom.org/lumen-gentium-redescobrir-a-identidade-da-igreja-para-viver-sua-missao-no-mundo/",
+      "published": "2026-07-16"
     },
     {
       "source": "Shalom",
-      "title": "Partiu Roma! 5 dicas práticas para organizar seu grupo para a Convenção Shalom",
-      "summary": "A promoção de aniversário da Vocação chegou ao fim, mas a preparação para viver a Convenção Shalom 2026 em Roma continua! Vem organizar e fechar sua viagem em grupo!.",
-      "url": "https://comshalom.org/partiu-roma-5-dicas-praticas-para-organizar-seu-grupo-para-a-convencao-shalom/",
-      "published": "2026-07-15"
-    },
-    {
-      "source": "Aleteia",
-      "title": "“Em meio ao horror, há luz”: Na Venezuela, o padre Nelson relata a tragédia",
-      "summary": "Venezuela, atingida por dois fortes terremotos na noite de 24 de junho, está lutando para se recuperar. Com magnitudes de 7,2 e 7,5 na escala Richter, os dois tremores abalaram o país com apenas alguns segundos de diferença. Em várias.",
-      "url": "https://pt.aleteia.org/2026/07/15/em-meio-ao-horror-ha-luz-na-venezuela-o-padre-nelson-relata-a-tragedia/",
-      "published": "2026-07-15"
+      "title": "Por que formar líderes? Congresso de Liderança Shalom 2026 responde a um desafio da missão",
+      "summary": "Com pregações de Moysés Azevedo, Kleber Marinho, padre João Chagas e Enne Karol, encontro apresenta a liderança cristã como um chamado ao serviço e à formação de discípulos.",
+      "url": "https://comshalom.org/por-que-formar-lideres-congresso-de-lideranca-shalom-2026-responde-a-um-desafio-da-missao/",
+      "published": "2026-07-17"
     }
   ],
   "closingQuote": {
-    "text": "Eis aqui a serva do Senhor; faça-se em mim segundo a tua palavra.",
-    "source": "Lc 1,38"
+    "text": "Seus discípulos tinham fome e começaram a apanhar espigas para comer.",
+    "source": "Evangelho do Dia"
   },
   "liturgyHours": {
-    "reading": "Exulto de alegria no Senhor e minh’alma regozija-se em meu Deus; ele me vestiu com as vestes da salvação, envolveu-me com o manto da justiça e adornou-me qual noiva com suas joias.",
+    "reading": "Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e Deus de toda consolação. Ele nos consola em todas as nossas aflições, para que, com a consolação que nós mesmos recebemos de Deus, possamos consolar os que se acham em...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
