@@ -80,7 +80,7 @@ export async function executeCommand(command, env, fetchImpl = fetch, raw = "") 
   switch (command) {
     case "menu":
       return {
-        text: "Controle Noticias Catolicas - @ilustre.ai\n\n/horario HH:MM - mudar horario da publicacao\n/agendar YYYY-MM-DD - agendar edicao extra\n/agendamentos - listar agendamentos\n/cancelar YYYY-MM-DD - cancelar agendamento",
+        text: "Controle Noticias Catolicas - @ilustre.ai\n\n/horario HH:MM,HH:MM - definir horarios (ex: /horario 06:00,12:00,18:00)\n/agendar YYYY-MM-DD - agendar edicao extra\n/agendamentos - listar agendamentos\n/cancelar YYYY-MM-DD - cancelar agendamento\n/acessos [mes|ano] - acessos do site (Cloudflare Web Analytics)",
         keyboard: MENU_BUTTONS,
       };
     case "run_daily": {
@@ -107,6 +107,8 @@ export async function executeCommand(command, env, fetchImpl = fetch, raw = "") 
       return { text: await handleAgendamentos(env, fetchImpl) };
     case "cancelar":
       return { text: await handleCancelar(env, fetchImpl, raw) };
+    case "acessos":
+      return { text: await handleAcessos(env, fetchImpl, raw) };
     default:
       return {
         text: "Comando nao reconhecido. Use o menu abaixo.",
@@ -130,6 +132,7 @@ function normalizeCommand(text) {
     agendar: "agendar",
     agendamentos: "agendamentos", list: "agendamentos",
     cancelar: "cancelar", cancel: "cancelar",
+    acessos: "acessos", analytics: "acessos", visits: "acessos",
   };
   return aliases[command] ?? command;
 }
@@ -185,15 +188,25 @@ async function deleteKv(env, key) {
 
 async function handleHorario(env, fetchImpl, raw) {
   const parts = raw.replace(/^\//, "").trim().split(/\s+/);
-  if (parts.length < 2 || !/^(\d{1,2}):(\d{2})$/.test(parts[1])) {
-    return "Uso: /horario HH:MM (horario de Brasilia, ex: /horario 06:00)";
+  if (parts.length < 2 || !/^(\d{1,2}):\d{2}(,\d{1,2}:\d{2})*$/.test(parts[1])) {
+    return "Uso: /horario HH:MM ou HH:MM,HH:MM (ex: /horario 06:00 ou /horario 06:00,12:00,18:00)";
   }
-  const [, hStr] = parts[1].match(/^(\d{1,2}):(\d{2})$/);
-  const h = Number(hStr);
-  if (h < 0 || h > 23) return "Hora invalida. Use 00 a 23.";
-  const utc = brtHourToUtc(h);
-  await putKv(env, "schedule_hour", utc);
-  return `Horario alterado: ${pad(h)}:00 BRT (${pad(utc)}:00 UTC). A publicacao diaria sera feita neste horario.`;
+  const times = parts[1].split(",");
+  const utcHours = [];
+  const brtHours = [];
+  for (const t of times) {
+    const [, hStr] = t.match(/^(\d{1,2}):(\d{2})$/);
+    const h = Number(hStr);
+    if (h < 0 || h > 23) return "Hora invalida: " + t + ". Use 00 a 23.";
+    const utc = Number(brtHourToUtc(h));
+    if (utcHours.includes(utc)) continue;
+    utcHours.push(utc);
+    brtHours.push(pad(h));
+  }
+  await putKv(env, "schedule_hours", utcHours.join(","));
+  const brtStr = brtHours.map(h => `${h}:00`).join(", ");
+  const utcStr = utcHours.map(h => pad(h) + ":00").join(", ");
+  return `Horarios alterados: ${brtStr} BRT (${utcStr} UTC). Publicacoes serao feitas nestes horarios.`;
 }
 
 async function handleAgendar(env, fetchImpl, raw) {
@@ -212,10 +225,21 @@ async function handleAgendar(env, fetchImpl, raw) {
   return `Edicao extra agendada para ${date}. Uma publicacao sera disparada automaticamente neste dia.`;
 }
 
+async function getScheduleHours(env) {
+  let raw = await getKv(env, "schedule_hours");
+  if (!raw) {
+    const legacy = await getKv(env, "schedule_hour", "6");
+    raw = legacy;
+    await putKv(env, "schedule_hours", legacy);
+  }
+  return raw.split(",").map(s => Number(s.trim())).filter(n => !isNaN(n));
+}
+
 async function handleAgendamentos(env, fetchImpl) {
-  const scheduleHour = await getKv(env, "schedule_hour", "6");
-  const brt = utcHourToBrt(scheduleHour);
-  const lines = [`Horario atual: ${brt}:00 BRT (UTC ${pad(scheduleHour)}:00)`];
+  const hours = await getScheduleHours(env);
+  const brtList = hours.map(h => utcHourToBrt(h) + ":00");
+  const utcList = hours.map(h => pad(h) + ":00");
+  const lines = [`Horarios: ${brtList.join(", ")} BRT (${utcList.join(", ")} UTC)`];
   if (!env.bot_config) {
     lines.push("KV nao configurado — agendamentos extras indisponiveis.");
     return lines.join("\n");
@@ -256,10 +280,10 @@ async function handleScheduled(event, env) {
   try {
     const now = new Date();
     const currentHour = now.getUTCHours();
-    const scheduleHour = await getKv(env, "schedule_hour", "6");
+    const hours = await getScheduleHours(env);
     let dispatched = false;
 
-    if (currentHour === Number(scheduleHour)) {
+    if (hours.includes(currentHour)) {
       await dispatchWorkflow(env, fetch, DAILY_WORKFLOW);
       dispatched = true;
     }
@@ -276,6 +300,101 @@ async function handleScheduled(event, env) {
   } catch (err) {
     console.error("Scheduled handler failed:", err.message);
   }
+}
+
+// --- Analytics ---
+
+async function handleAcessos(env, fetchImpl, raw) {
+  const cfToken = env.CLOUDFLARE_API_TOKEN;
+  const accountId = env.CLOUDFLARE_ACCOUNT_ID;
+  if (!cfToken || !accountId) {
+    return "Cloudflare Analytics nao configurado. Configure CLOUDFLARE_API_TOKEN e CLOUDFLARE_ACCOUNT_ID.";
+  }
+
+  const parts = raw.replace(/^\//, "").trim().split(/\s+/);
+  const period = parts[1] || "dia";
+  const now = new Date();
+  const today = now.toISOString().slice(0, 10);
+
+  let dateFrom, dateTo;
+  if (/^\d{4}-\d{2}$/.test(period)) {
+    dateFrom = `${period}-01T00:00:00Z`;
+    const [y, m] = period.split("-").map(Number);
+    const next = new Date(y, m, 1);
+    dateTo = next.toISOString().slice(0, 10) + "T00:00:00Z";
+  } else if (/^\d{4}$/.test(period)) {
+    dateFrom = `${period}-01-01T00:00:00Z`;
+    dateTo = `${Number(period) + 1}-01-01T00:00:00Z`;
+  } else {
+    dateFrom = `${today}T00:00:00Z`;
+    const tomorrow = new Date(now);
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    dateTo = tomorrow.toISOString().slice(0, 10) + "T00:00:00Z";
+  }
+
+  const results = await queryCloudflareAnalytics(env, fetchImpl, accountId, cfToken, dateFrom, dateTo);
+
+  if (!results) {
+    return "Erro ao consultar Cloudflare Analytics.";
+  }
+
+  if (results.length === 0) {
+    return `Nenhum acesso encontrado no periodo selecionado (${parts[1] || "hoje"}).`;
+  }
+
+  let totalVisits = 0;
+  let totalPageLoads = 0;
+  const lines = [`Acessos - ${period}`];
+  for (const r of results) {
+    const date = r.dimensions?.date || "?";
+    const visits = r.sum?.visits ?? 0;
+    const loads = r.count ?? 0;
+    totalVisits += visits;
+    totalPageLoads += loads;
+    lines.push(`  ${date}: ${visits} visitas, ${loads} carregamentos`);
+  }
+  lines.push(`Total: ${totalVisits} visitas, ${totalPageLoads} carregamentos`);
+  return lines.join("\n");
+}
+
+async function queryCloudflareAnalytics(env, fetchImpl, accountId, token, dateFrom, dateTo) {
+  const filterEnd = dateTo ? `, datetime_lt: "${dateTo}"` : "";
+  const query = `{
+    viewer {
+      accounts(filter: {accountTag: "${accountId}"}) {
+        rumPageloadEventsAdaptiveGroups(
+          limit: 400
+          filter: {datetime_gt: "${dateFrom}"${filterEnd}}
+        ) {
+          dimensions { date }
+          count
+          sum { visits }
+        }
+      }
+    }
+  }`;
+
+  const response = await fetchImpl("https://api.cloudflare.com/client/v4/graphql", {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${token}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ query }),
+  });
+
+  if (!response.ok) {
+    console.error("Cloudflare API error:", response.status, await response.text());
+    return null;
+  }
+
+  const data = await response.json();
+  if (data.errors?.length) {
+    console.error("Cloudflare GraphQL errors:", JSON.stringify(data.errors));
+    return null;
+  }
+
+  return data?.data?.viewer?.accounts?.[0]?.rumPageloadEventsAdaptiveGroups ?? [];
 }
 
 // --- Reports ---

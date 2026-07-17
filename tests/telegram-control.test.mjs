@@ -11,6 +11,8 @@ const env = {
   GITHUB_REPO: "noticias-catolicas",
   GITHUB_REF: "main",
   PUBLIC_SITE_URL: "https://noticias.ilustreai.com.br/",
+  CLOUDFLARE_ACCOUNT_ID: "account-id",
+  CLOUDFLARE_API_TOKEN: "cf-token",
 };
 
 test("menu returns Telegram inline buttons", async () => {
@@ -18,6 +20,7 @@ test("menu returns Telegram inline buttons", async () => {
   assert.match(response.text, /Controle Noticias Catolicas/);
   assert.match(response.text, /\/horario/);
   assert.match(response.text, /\/agendar/);
+  assert.match(response.text, /\/acessos/);
   assert.equal(response.keyboard.length, 3);
   assert.equal(response.keyboard[0][0].callback_data, "run_daily");
 });
@@ -29,8 +32,15 @@ test("horario returns usage without arg", async () => {
 
 test("horario confirms the new time", async () => {
   const response = await executeCommand("horario", env, fakeFetch(), "/horario 08:00");
-  assert.match(response.text, /08:00 BRT/);
-  assert.match(response.text, /11:00 UTC/);
+  assert.match(response.text, /08:00/);
+  assert.match(response.text, /11:00/);
+});
+
+test("horario accepts multiple times", async () => {
+  const response = await executeCommand("horario", env, fakeFetch(), "/horario 06:00,12:00,18:00");
+  assert.match(response.text, /06:00/);
+  assert.match(response.text, /12:00/);
+  assert.match(response.text, /18:00/);
 });
 
 test("agendar returns usage without arg", async () => {
@@ -45,7 +55,7 @@ test("agendar confirms scheduling", async () => {
 
 test("agendamentos shows current config", async () => {
   const response = await executeCommand("agendamentos", env, fakeFetch());
-  assert.match(response.text, /Horario atual/);
+  assert.match(response.text, /Horarios/);
 });
 
 test("cancelar returns not found for unknown date", async () => {
@@ -81,6 +91,19 @@ test("test command checks public site and remote JSON without dispatching", asyn
   assert.match(response.text, /Teste rapido Noticias Catolicas/);
   assert.match(response.text, /JSON remoto: OK/);
   assert.equal(calls.some((call) => call.url.includes("/dispatches")), false);
+});
+
+test("acessos shows analytics data", async () => {
+  const response = await executeCommand("acessos", env, fakeFetch());
+  assert.match(response.text, /Acessos/);
+  assert.match(response.text, /6 visitas/);
+  assert.match(response.text, /carregamentos/);
+});
+
+test("acessos sem config retorna erro", async () => {
+  const envNoCf = { ...env, CLOUDFLARE_API_TOKEN: undefined };
+  const response = await executeCommand("acessos", envNoCf, fakeFetch());
+  assert.match(response.text, /nao configurado/);
 });
 
 test("unauthorized chat receives no GitHub command", async () => {
@@ -126,6 +149,20 @@ function fakeFetch(calls = []) {
 
     if (String(url).includes("noticias.ilustreai.com.br")) {
       return new Response('<h1 class="hero-title">A Igreja viva</h1><article class="news-item"></article>'.repeat(7), { status: 200 });
+    }
+
+    if (String(url).includes("api.cloudflare.com/client/v4/graphql")) {
+      return response({
+        data: {
+          viewer: {
+            accounts: [{
+              rumPageloadEventsAdaptiveGroups: [
+                { dimensions: { date: "2026-07-15" }, count: 6, sum: { visits: 6 } },
+              ],
+            }],
+          },
+        },
+      });
     }
 
     if (String(url).includes("api.telegram.org")) {
