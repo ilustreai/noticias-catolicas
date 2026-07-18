@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { truncateAtWord } from './lib.mjs';
+import { truncateAtWord, fetchCNBBLiturgy, extractCNBBQuoteFromHtml, extractCNBBSourceFromHtml } from './lib.mjs';
 
 const rootDir = path.resolve(import.meta.dirname, '..');
 const calendarPath = path.join(rootDir, 'data', 'liturgical-calendar-2026.json');
@@ -395,7 +395,7 @@ function defaultGospel(dateStr) {
 // ---- Main ----
 
 async function main() {
-  console.log('[1/4] Fetching gcatholic.org ICS...');
+  console.log('[1/5] Fetching gcatholic.org ICS...');
   const ics = await fetchICS();
   const events = parseICS(ics);
   const backbone = buildICSBackbone(events);
@@ -406,7 +406,7 @@ async function main() {
   const currentYear = now.getFullYear();
   const currentMonthStr = `${currentYear}-${String(currentMonth).padStart(2, '0')}`;
 
-  console.log(`[2/4] Fetching Canção Nova gospel for ${fmtBRMonth(currentMonth)}/${currentYear}...`);
+  console.log(`[2/5] Fetching Canção Nova gospel for ${fmtBRMonth(currentMonth)}/${currentYear}...`);
   const cnMonthLinks = await fetchCNMonthLinks(currentMonth, currentYear);
   const cnGospels = {};
   if (cnMonthLinks) {
@@ -433,16 +433,36 @@ async function main() {
     console.log('  Could not fetch CN month links.');
   }
 
-  console.log(`[3/4] Fetching Canção Nova saints for ${fmtBRMonth(currentMonth)}/${currentYear}...`);
+  console.log(`[3/5] Fetching CNBB liturgy for ${fmtBRMonth(currentMonth)}/${currentYear}...`);
+  const cnbbQuotes = {};
+  let cnbbFetched = 0;
+  for (const [dateStr] of Object.entries(backbone)) {
+    if (!dateStr.startsWith(currentMonthStr)) continue;
+    try {
+      const data = await fetchCNBBLiturgy(dateStr);
+      const body = data.content.body;
+      const quoteText = extractCNBBQuoteFromHtml(body);
+      const quoteSource = extractCNBBSourceFromHtml(body);
+      if (quoteText && quoteSource) {
+        cnbbQuotes[dateStr] = { text: quoteText, source: quoteSource };
+        cnbbFetched++;
+      }
+    } catch {}
+  }
+  console.log(`  ${cnbbFetched} dates with CNBB quotes.`);
+
+  console.log(`[4/5] Fetching Canção Nova saints for ${fmtBRMonth(currentMonth)}/${currentYear}...`);
   const cnSaints = await fetchCNSaints(currentMonth, currentYear);
   console.log(`  ${cnSaints ? Object.keys(cnSaints).length : 0} saint descriptions fetched.`);
 
-  console.log('[4/4] Merging into calendar cache...');
+  console.log('[5/5] Merging into calendar cache...');
   const calendar = JSON.parse(fs.readFileSync(calendarPath, 'utf8'));
   let created = 0;
   let updated = 0;
 
   for (const [dateStr, bc] of Object.entries(backbone)) {
+    if (!dateStr.startsWith(currentMonthStr)) continue;
+
     const d = new Date(dateStr + 'T12:00:00');
     const existing = calendar.entries[dateStr];
 
@@ -451,7 +471,16 @@ async function main() {
     const gospel = cnGospel || defaultGospel(dateStr);
     const saintName = cnSaint?.name || bc.celebration || '';
     const keyVerse = cnGospel?.keyVerse || '';
-    const quote = pickQuote(dateStr, bc.season, saintName, keyVerse, gospel.lines);
+
+    const saintQ = saintName ? SAINT_QUOTES.find(q => saintName.includes(q.match)) : null;
+    let quote;
+    if (saintQ) {
+      quote = { text: saintQ.text, source: saintQ.source };
+    } else if (cnbbQuotes[dateStr]) {
+      quote = { text: cnbbQuotes[dateStr].text, source: cnbbQuotes[dateStr].source };
+    } else {
+      quote = pickQuote(dateStr, bc.season, saintName, keyVerse, gospel.lines);
+    }
 
     const entry = {
       status: 'complete',

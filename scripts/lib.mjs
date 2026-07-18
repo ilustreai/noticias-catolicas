@@ -480,3 +480,51 @@ export function writeFileEnsured(filePath, content) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, content, 'utf8');
 }
+
+export function extractCNBBQuoteFromHtml(body) {
+  const idx = body.indexOf('EVANGELHO');
+  if (idx === -1) return null;
+  const after = body.substring(idx);
+  const pRegex = /<p[^>]*>([\s\S]*?)<\/p>/g;
+  let match;
+  while ((match = pRegex.exec(after)) !== null) {
+    const text = match[1].replace(/<[^>]+>/g, '').replace(/\s*<br>\s*/g, '').replace(/\s+/g, ' ').trim();
+    if (text.length > 0) return text;
+  }
+  const beforeProcl = after.split(/(?:Proclamação|Leitura do Evangelho)/)[0] || after;
+  const eRegex = /<(\w+)[^>]*>([\s\S]*?)<\/\1>/g;
+  while ((match = eRegex.exec(beforeProcl)) !== null) {
+    const text = match[2].replace(/<[^>]+>/g, '').replace(/\s*<br>\s*/g, '').replace(/\s+/g, ' ').trim();
+    if (text.length > 5) return text;
+  }
+  return null;
+}
+
+export function extractCNBBSourceFromHtml(body) {
+  const decoded = body.replace(/&nbsp;/g, ' ').replace(/<span>\s*&nbsp;\s*<\/span>/g, ' ');
+  const plain = decoded.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  const m = plain.match(/(?:Proclamação|Leitura) do Evangelho de Jesus Cristo segundo (\S+?)\s+([\d,\-\.]+)/);
+  return m ? m[1] + ' ' + m[2] : null;
+}
+
+export async function fetchCNBBLiturgy(date) {
+  const https = await import('node:https');
+  const url = 'https://api-liturgia.edicoescnbb.com.br/contents/in/date/' + date;
+  return new Promise((resolve, reject) => {
+    https.get(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; NoticiasCatolicasBot/1.0)',
+        'Referer': 'https://liturgiadiaria.edicoescnbb.com.br/',
+        'Origin': 'https://liturgiadiaria.edicoescnbb.com.br',
+        'Accept': 'application/json, text/plain, */*',
+      }
+    }, (r) => {
+      let d = '';
+      r.on('data', c => d += c);
+      r.on('end', () => {
+        try { resolve(JSON.parse(d)); }
+        catch (e) { reject(new Error('Failed to parse CNBB API response: ' + e.message)); }
+      });
+    }).on('error', reject);
+  });
+}
