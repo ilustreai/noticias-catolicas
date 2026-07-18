@@ -1,34 +1,34 @@
 {
-  "date": "2026-07-17",
-  "editionLabel": "17 de julho de 2026",
+  "date": "2026-07-18",
+  "editionLabel": "18 de julho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Sexta-Feira da Semana XV do Tempo Comum",
+    "celebrationTitle": "Santa Maria no Sábado",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 12,1-8"
+    "gospelShort": "Mt 12,14-21"
   },
   "saint": {
-    "feast": "Santo do Dia - 17 de Julho",
-    "name": "Beato Inácio de Azevedo e companheiros mártires",
-    "description": "Celebração litúrgica do dia: Sexta-Feira da Semana XV do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/beato-inacio-de-azevedo-e-companheiros-martires/"
+    "feast": "Santo do Dia - 18 de Julho",
+    "name": "São Francisco Solano, Padroeiro dos Missionários da América Latina",
+    "description": "Celebração litúrgica do dia: Santa Maria no Sábado.",
+    "url": "https://santo.cancaonova.com/santo/padroeiro-dos-missionarios-da-america-latina/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 12,1-8)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 12,14-21)",
     "lines": [
-      "Naquele tempo, Jesus passou no meio de uma plantação num dia de sábado.",
-      "Seus discípulos tinham fome e começaram a apanhar espigas para comer.",
-      "Vendo isso, os fariseus disseram-lhe: Olha, os teus discípulos estão fazendo, o que não é permitido fazer em dia de sábado! Jesus respondeu-lhes: Nunca lestes o que fez Davi, quando ele e seus companheiros sentiram fome?",
-      "Como entrou na casa de Deus e todos comeram os pães da oferenda que nem a ele nem aos seus companheiros era permitido comer, mas unicamente aos sacerdotes?",
-      "Ou nunca lestes na Lei, que em dia de sábado, no Templo, os sacerdotes violam o sábado sem contrair culpa alguma?",
-      "Ora, eu vos digo: aqui está quem é maior do que o Templo.",
-      "Se tivésseis compreendido o que significa: Quero a misericórdia e não o sacrifício, não teríeis condenado os inocentes."
+      "Naquele tempo, os fariseus saíram e fizeram um plano para matar Jesus.",
+      "Ao saber disso, Jesus retirou-se dali.",
+      "Grandes multidões o seguiram, e ele curou a todos.",
+      "E ordenou-lhes que não dissessem quem ele era, para se cumprir o que foi dito pelo profeta Isaías: Eis o meu servo, que escolhi; o meu amado, no qual coloco a minha afeição; porei sobre ele o meu Espírito, e ele anunciará às nações o direito.",
+      "Ele não discutirá, nem gritará, e ninguém ouvirá a sua voz nas praças.",
+      "Não quebrará o caniço rachado, nem apagará o pavio que ainda fumega, até que faça triunfar o direito.",
+      "Em seu nome as nações depositarão a sua esperança."
     ],
-    "keyVerse": "Minhas ovelhas escutam minha voz, eu as conheço e elas me seguem.",
-    "body": "1 Naquele tempo, Jesus passou no meio de uma plantação num dia de sábado. Seus discípulos tinham fome e começaram a apanhar espigas para comer. 2 Vendo isso, os fariseus disseram-lhe: \"Olha, os teus discípulos estão fazendo, o que não é permitido fazer em dia de sábado!\" 3 Jesus respondeu-lhes: \"Nunca lestes o que fez Davi, quando ele e seus companheiros sentiram fome? 4 Como entrou na casa de Deus e todos comeram os pães da oferenda que nem a ele nem aos seus companheiros era permitido comer, mas unicamente aos sacerdotes? 5 Ou nunca lestes na Lei, que em dia de sábado, no Templo, os sacerdotes violam o sábado sem contrair culpa alguma? 6 Ora, eu vos digo: aqui está quem é maior do que o Templo. 7 Se tivésseis compreendido o que significa: 'Quero a misericórdia e não o sacrifício', não teríeis condenado os inocentes. 8 De fato, o Filho do Homem é senhor do sábado\". —"
+    "keyVerse": "Em Cristo, Deus reconciliou consigo mesmo a humanidade; e a nós ele entregou esta reconciliação.",
+    "body": "Naquele tempo, 14 os fariseus saíram e fizeram um plano para matar Jesus. 15 Ao saber disso, Jesus retirou-se dali. Grandes multidões o seguiram, e ele curou a todos. 16 E ordenou-lhes que não dissessem quem ele era, 17 para se cumprir o que foi dito pelo profeta Isaías: 18 \"Eis o meu servo, que escolhi; o meu amado, no qual coloco a minha afeição; porei sobre ele o meu Espírito, e ele anunciará às nações o direito. 19 Ele não discutirá, nem gritará, e ninguém ouvirá a sua voz nas praças. 20 Não quebrará o caniço rachado, nem apagará o pavio que ainda fumega, até que faça triunfar o direito. 21 Em seu nome as nações depositarão a sua esperança\". —"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Arcebispo Gallagher em missão na Ucrânia: “condições justas para uma paz justa”",
-      "summary": "O secretário para as Relações com os Estados está no país do Leste Europeu desde quinta (16/07) até 21 de julho, na qualidade de legado pontifício, por ocasião do aniversário de 35 anos da reabertura das estruturas da Igreja Católica de.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/missao-gallagher-ucrania-condicoes-justas-paz-julho-2026.html",
+      "title": "Cardeal Zuppi deixa a Ucrânia: “todo esforço pela paz será feito, como vontade do Papa”",
+      "summary": "O cardeal retornou nesta quinta-feira (16/07) a Roma após 4 dias no país em guerra. Após as celebrações pelo Dia da Soberania da Ucrânia, o presidente dos bispos italianos se reuniu com o ministro das Relações Exteriores e outras.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/missao-cardeal-zuppi-ucrania-despedida-4-dias-mensagem-papa-leao.html",
       "published": "2026-07-17"
     },
     {
       "source": "Vatican News",
-      "title": "Pe. Romanelli há um ano do ataque à paróquia de Gaza: rezemos pelos mortos e a paz",
-      "summary": "O pároco da Sagrada Família relembra o ataque que matou três pessoas em 17 de julho de 2025 e anuncia uma celebração especial no domingo, 19 de julho. Enquanto isso, na Faixa de Gaza, a emergência humanitária ainda não terminou; os.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/padre-romanelli-um-ano-do-ataque-paroquia-gaza-julho-2026.html",
+      "title": "Maristas promovem aula on-line e gratuita sobre \"Magnifica humanitas\"",
+      "summary": "A primeira encíclica do Papa Leão XIV é tema de encontro especial com especialistas em Teologia, Filosofia e Educação que virou uma masterclass on-line, gratuita e aberta ao público. Promovida pela Organização Religiosa da Província.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/masterclass-gratuita-magnifica-humanitas-leao-xiv-marista-brasil.html",
       "published": "2026-07-17"
     },
     {
       "source": "CNBB",
-      "title": "Civilização do amor na era da inteligência artificial",
-      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) A proposta da civilização do amor ocupa o centro do capítulo conclusivo da Encíclica Magnifica Humanitas. Para o Papa Leão XIV, ela não é uma utopia ingênua, mas o caminho mais realista para.",
-      "url": "https://www.cnbb.org.br/civilizacao-do-amor-na-era-da-inteligencia-artificial/",
+      "title": "Comissão Episcopal para a Liturgia e Edições CNBB lançam a revisão do Cerimonial dos Bispos",
+      "summary": "A Comissão Episcopal para a Liturgia da Conferência Nacional dos Bispos do Brasil (CNBB), em parceria com as Edições CNBB, apresenta a “revisão emendada” do Cerimonial dos Bispos, publicada pelo Dicastério para o Culto Divino e a.",
+      "url": "https://www.cnbb.org.br/comissao-episcopal-para-a-liturgia-e-edicoes-cnbb-lancam-a-revisao-do-cerimonial-dos-bispos/",
       "published": "2026-07-17"
     },
     {
-      "source": "CNBB",
-      "title": "Comissão para os Ministérios Ordenados e a Vida Consagrada fortalece sintonia e comunhão entre",
-      "summary": "A Casa Dom Luciano Mendes de Almeida, em Brasília (DF), sediou, entre os dias 13 e 16 de julho, a Reunião Ampliada da Comissão para os Ministérios Ordenados e a Vida Consagrada da CNBB. O encontro reuniu bispos, assessores, presidentes e.",
-      "url": "https://www.cnbb.org.br/comissao-para-os-ministerios-ordenados-e-a-vida-consagrada-fortalece-sintonia-e-comunhao-entre-organismos-e-instituicoes/",
-      "published": "2026-07-17"
+      "source": "ACI Digital",
+      "title": "é celebrado santo Arnulfo de Metz, padroeiro da cerveja",
+      "summary": "Hoje (18), a Igreja Católica celebra santo Arnulfo (ou Arnaldo) de Metz, o padroeiro da cerveja. “Não é o patrono da embriaguez ou dos bêbados porque isso nada tem a ver com a santidade”, ressaltou em um vídeo de 2021 o vice-diretor de.",
+      "url": "https://www.acidigital.com/noticia/55644/hoje-e-celebrado-santo-arnulfo-de-metz-padroeiro-da-cerveja",
+      "published": "2026-07-18"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "é celebrado santo Arsênio, monge que renunciou a uma grande herança",
+      "summary": "Hoje (18), a Igreja recorda santo Arsênio, monge eremita que viveu entre os séculos IV e V, famoso por sua sabedoria e virtude. Muitas pessoas iam ao seu encontro em busca de conselhos espirituais. Alguns viajavam semanas ou até meses.",
+      "url": "https://www.acidigital.com/noticia/55646/hoje-e-celebrado-santo-arsenio-monge-que-renunciou-a-uma-grande-heranca",
+      "published": "2026-07-18"
     },
     {
       "source": "Shalom",
-      "title": "44 anos da Vocação Shalom: saiba mais sobre a celebração deste dia na missão de Mossoró",
-      "summary": "Neste julho da paz, tivemos a graça de realizar na cidade de Mossoró o “Arraiá da Paz”, que reuniu mais de 100 pessoas para uma noite muito especial. Contamos com barracas de comidas típicas, brincadeiras, quadrilha, e o show ao vivo de.",
-      "url": "https://comshalom.org/44-anos-vocacao-shalom-missao-de-mossoro/",
-      "published": "2026-07-16"
+      "title": "Fazendo Barulho entra no clima do Festival Halleluya 2026 com edição especial neste sábado",
+      "summary": "Neste sábado, o Fazendo Barulho dedica uma edição especial ao Festival Halleluya 2026. O programa contará bastidores do evento e música ao vivo com o cantor Naldo José.",
+      "url": "https://comshalom.org/fazendo-barulho-festival-halleluya-2026/",
+      "published": "2026-07-18"
     },
     {
       "source": "Shalom",
-      "title": "Congresso de Liderança Shalom 2026 propõe uma liderança a serviço de Deus, do Carisma e dos hom",
-      "summary": "Evento quer formar líderes capazes de unir maturidade espiritual, fidelidade ao Carisma e cuidado concreto com as pessoas diante dos desafios da missão na Igreja e no mundo.",
-      "url": "https://comshalom.org/congresso-de-lideranca-shalom-2026-propoe-uma-lideranca-a-servico-de-deus-do-carisma-e-dos-homens/",
-      "published": "2026-07-16"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "Cardeal Burke sugere acabar com a sinodalidade e criar um dicastério para liturgia tradicional",
-      "summary": "Temas como sinodalidade, aplicação de Traditionis Custodes e relação entre renovação pastoral e continuidade doutrinal continuarão figurando entre os principais desafios do atual pontificado. Foto: Facebook Redação ( 16/07/2026 20:16 ,.",
-      "url": "https://gaudiumpress.org/content/cardeal-burke-sugere-acabar-com-a-sinodalidade-e-criar-um-dicasterio-para-liturgia-tradicional/",
-      "published": "2026-07-17"
+      "title": "Festival Halleluya: 3 dicas para ter a melhor experiência da sua vida",
+      "summary": "De 22 a 26 de julho, o Festival Halleluya ocorrerá no Condomínio Espiritual Uirapuru, em Fortaleza, no Ceará. A próxima semana trará muitas novidades ao público que já espera ansiosamente pelo evento anual promovido pela Comunidade Católica Shalom, em vista da evangelização por meio de expressões artísticas diversas....",
+      "url": "https://comshalom.org/festival-halleluya-3-dicas-para-ter-a-melhor-experiencia-da-sua-vida/",
+      "published": "2026-07-18"
     }
   ],
   "closingQuote": {
-    "text": "Seus discípulos tinham fome e começaram a apanhar espigas para comer.",
+    "text": "Ao saber disso, Jesus retirou-se dali.",
     "source": "Evangelho do Dia"
   },
   "liturgyHours": {
-    "reading": "Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e Deus de toda consolação. Ele nos consola em todas as nossas aflições, para que, com a consolação que nós mesmos recebemos de Deus, possamos consolar os que se acham em...",
+    "reading": "Fazei tudo sem reclamar ou murmurar, para que sejais livres de repreensão e ambiguidade, filhos de Deus sem defeito, no meio desta geração depravada e pervertida, na qual brilhais como os astros no universo.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
