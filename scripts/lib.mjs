@@ -488,13 +488,21 @@ export function extractCNBBQuoteFromHtml(body) {
   const pRegex = /<p[^>]*>([\s\S]*?)<\/p>/g;
   let match;
   while ((match = pRegex.exec(after)) !== null) {
-    const text = match[1].replace(/<[^>]+>/g, '').replace(/\s*<br>\s*/g, '').replace(/\s+/g, ' ').trim();
+    const text = match[1]
+      .replace(/\s*<br\s*\/?>\s*/gi, ' ')
+      .replace(/<[^>]+>/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
     if (text.length > 0) return text;
   }
   const beforeProcl = after.split(/(?:Proclamação|Leitura do Evangelho)/)[0] || after;
   const eRegex = /<(\w+)[^>]*>([\s\S]*?)<\/\1>/g;
   while ((match = eRegex.exec(beforeProcl)) !== null) {
-    const text = match[2].replace(/<[^>]+>/g, '').replace(/\s*<br>\s*/g, '').replace(/\s+/g, ' ').trim();
+    const text = match[2]
+      .replace(/\s*<br\s*\/?>\s*/gi, ' ')
+      .replace(/<[^>]+>/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
     if (text.length > 5) return text;
   }
   return null;
