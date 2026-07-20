@@ -49,8 +49,8 @@ test("agendar returns usage without arg", async () => {
 });
 
 test("agendar confirms scheduling", async () => {
-  const response = await executeCommand("agendar", env, fakeFetch(), "/agendar 2026-07-20");
-  assert.match(response.text, /Edicao extra agendada para 2026-07-20/);
+  const response = await executeCommand("agendar", env, fakeFetch(), "/agendar 2026-12-25");
+  assert.match(response.text, /Edicao extra agendada para 2026-12-25/);
 });
 
 test("agendamentos shows current config", async () => {
