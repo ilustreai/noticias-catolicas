@@ -832,7 +832,10 @@ async function main() {
   if (!result.ok) {
     const forced = injectFallbacks(selection);
     selection = forced;
-    selection.news = sortByPriority(selection.news);
+  // Default missing published dates to the edition date
+  selection.news = selection.news.map(item => ({ ...item, published: item.published || date }));
+
+  selection.news = sortByPriority(selection.news);
     const finalResult = validateSelection(selection);
     if (!finalResult.ok) {
       console.error('Generated selection failed validation:');
