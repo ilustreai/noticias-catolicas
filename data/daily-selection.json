@@ -1,33 +1,32 @@
 {
-  "date": "2026-07-20",
-  "editionLabel": "20 de julho de 2026",
+  "date": "2026-07-21",
+  "editionLabel": "21 de julho de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santo Apolinário, bispo e mártir",
+    "celebrationTitle": "São Lourenço de Brindes, presbítero e doutor da Igreja",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 12,38-42"
+    "gospelShort": "Mt 12,46-50"
   },
   "saint": {
-    "feast": "Santo do Dia - 20 de Julho",
-    "name": "Santo Apolinário, Bispo de Ravena",
-    "description": "Celebração litúrgica do dia: Santo Apolinário, bispo e mártir.",
-    "url": "https://santo.cancaonova.com/santo/santo-apolinario-bispo-de-ravena/"
+    "feast": "Santo do Dia - 21 de Julho",
+    "name": "São Lourenço de Brindes, homem de Deus e pacificador",
+    "description": "Celebração litúrgica do dia: São Lourenço de Brindes, presbítero e doutor da Igreja.",
+    "url": "https://santo.cancaonova.com/santo/sao-lourenco-de-brindes-homem-de-deus-e-pacificador/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 12,38-42)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 12,46-50)",
     "lines": [
-      "Naquele tempo, alguns mestres da Lei e fariseus disseram a Jesus: Mestre, queremos ver um sinal realizado por ti.",
-      "Jesus respondeu-lhes: Uma geração má e adúltera busca um sinal, mas nenhum sinal lhe será dado, a não ser o sinal do profeta Jonas.",
-      "Com efeito, assim como Jonas esteve três dias e três noites no ventre da baleia, assim também o Filho do Homem estará três dias e três noites no seio da terra.",
-      "No dia do juízo, os habitantes de Nínive se levantarão contra essa geração e a condenarão, porque se converteram diante da pregação de Jonas.",
-      "E aqui está quem é maior do que Jonas.",
-      "No dia do juízo, a rainha do Sul se levantará contra essa geração, e a condenará, porque veio dos confins da terra para ouvir a sabedoria de Salomão, e aqui está quem é maior do que Salomão."
+      "Naquele tempo, enquanto Jesus estava falando às multidões, sua mãe e seus irmãos ficaram do lado de fora, procurando falar com ele.",
+      "Alguém disse a Jesus: Olha!",
+      "Tua mãe e teus irmãos estão aí fora, e querem falar contigo.",
+      "Jesus perguntou àquele que tinha falado: Quem é minha mãe, e quem são meus irmãos? E, estendendo a mão para os discípulos, Jesus disse: Eis minha mãe e meus irmãos.",
+      "Pois todo aquele que faz a vontade do meu Pai, que está nos céus, esse é meu irmão, minha irmã e minha mãe."
     ],
-    "keyVerse": "Oxalá ouvísseis hoje a sua voz: Não fecheis os corações como em Meriba!",
-    "body": "Naquele tempo, 38 alguns mestres da Lei e fariseus disseram a Jesus: \"Mestre, queremos ver um sinal realizado por ti\". 39 Jesus respondeu-lhes: \"Uma geração má e adúltera busca um sinal, mas nenhum sinal lhe será dado, a não ser o sinal do profeta Jonas. 40 Com efeito, assim como Jonas esteve três dias e três noites no ventre da baleia, assim também o Filho do Homem estará três dias e três noites no seio da terra. 41 No dia do juízo, os habitantes de Nínive se levantarão contra essa geração e a condenarão, porque se converteram diante da pregação de Jonas. E aqui está quem é maior do que Jonas. 42 No dia do juízo, a rainha do Sul se levantará contra essa geração, e a condenará, porque veio dos confins da terra para ouvir a sabedoria de Salomão, e aqui está quem é maior do que Salomão\". —"
+    "keyVerse": "Quem me ama, realmente, guardará minha palavra e meu Pai o amará, e a ele nós viremos.",
+    "body": "Naquele tempo, 46 enquanto Jesus estava falando às multidões, sua mãe e seus irmãos ficaram do lado de fora, procurando falar com ele. 47 Alguém disse a Jesus: \"Olha! Tua mãe e teus irmãos estão aí fora, e querem falar contigo\". 48 Jesus perguntou àquele que tinha falado: \"Quem é minha mãe, e quem são meus irmãos?\" 49 E, estendendo a mão para os discípulos, Jesus disse: \"Eis minha mãe e meus irmãos. 50 Pois todo aquele que faz a vontade do meu Pai, que está nos céus, esse é meu irmão, minha irmã e minha mãe\". —"
   },
   "sponsor": {
     "enabled": true,
@@ -38,60 +37,56 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Montecassino: Papa confia à intercessão de São Bento a paz em regiões de conflito",
-      "summary": "De Castel Gandolfo até a Abadia de Montecassino para rezar pela paz mundial e encontrar a comunidade beneditina. Na manhã desta segunda-feira, 20 de julho, Leão XIV viajou pouco mais de 1h30 para a visita privada ao mosteiro. Após o.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-leao-xiv-abadia-montecassino-sao-bento-paz-regioes-guerra.html",
+      "title": "Papa Leão, Angola, três meses depois ... (I)",
+      "summary": "O Papa Leão XIV visitou Angola há 3 meses. O tempo vai passando e decantando o essencial dos seus gestos e palavras. Desafiei algumas pessoas angolanas a escolher a frase do Papa que mais deixou marcas na sua vida e que tem potencial para.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/papa-leao-xiv-angola-alegria-esperanca-paz-justica-partilha.html",
       "published": "2026-07-20"
     },
     {
       "source": "Vatican News",
-      "title": "Gallagher em Berdychiv: oração pela paz a Nossa Senhora do Monte Carmelo",
-      "summary": "Na Ucrânia, o secretário para as Relações com os Estados, enviado de Leão XIV para as comemorações do 35º aniversário da restauração das instalações da Igreja Católica de rito latino, celebrou Missa no domingo, 19 de julho, no Santuário.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/gallagher-ucrania-missao-missa-santuario-berdychiv-maria-paz.html",
-      "published": "2026-07-19"
-    },
-    {
-      "source": "CNBB",
-      "title": "O joio e o trigo: o discernimento e a tolerância que vem de Deus!",
-      "summary": "Dom Antônio Carlos Altieri Arcebispo Emérito de Passo Fundo (RS) Se no domingo passado a Parábola do Semeador nos levou a refletir sobre a receptividade dos nossos corações aos cuidados de Deus, hoje, ao avançarmos para o XVI Domingo do.",
-      "url": "https://www.cnbb.org.br/o-joio-e-o-trigo-o-discernimento-e-a-tolerancia-que-vem-de-deus/",
+      "title": "O Dia Mundial da Inteligência Artificial comemorado no Rio de Janeiro",
+      "summary": "Lideranças, especialistas e instituições alinhadas ao ecossistema da IA se reuniram no dia 16 de julho, na Casa da Inovação, no campus da PUC-Rio para debater perspectivas sobre a inteligência artificial, à luz da Encíclica Magnifica.",
+      "url": "https://www.vaticannews.va/pt/mundo/news/2026-07/dia-mundial-inteligencia-artificial-comemorado-rio-janeiro.html",
       "published": "2026-07-20"
     },
     {
       "source": "CNBB",
-      "title": "Sociedade Brasileira de Canonistas realiza XXXIX Simpósio de Canonistas em São Luís (MA), de 13",
-      "summary": "O encontro reuniu cerca de 200 canonistas de diversas regiões do Brasil, entre sacerdotes, diáconos, religiosos e leigos que atuam nos tribunais eclesiásticos e em outros serviços jurídicos da Igreja. Um dos momentos centrais da.",
-      "url": "https://www.cnbb.org.br/sociedade-brasileira-de-canonistas-realiza-xxxix-simposio-de-canonistas/",
+      "title": "Assembleia Geral da CNISB fortalece a comunhão, aprofunda a sinodalidade e reelege sua presiden",
+      "summary": "A Assembleia Geral da CNISB reunu representantes dos Institutos Seculares de diversas regiões do país para um tempo de formação, discernimento, partilha e fortalecimento da missão. Durante a Assembleia, os participantes conheceram os.",
+      "url": "https://www.cnbb.org.br/assembleia-geral-da-cnisb-fortalece-a-comunhao-aprofunda-a-sinodalidade-e-reelege-sua-presidente-para-o-quadrienio-2026-2030/",
       "published": "2026-07-20"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV envia videomensagem em português aos jovens do Festival Halleluya 2026 em Fortaleza",
-      "summary": "O papa Leão XIV gravou uma videomensagem em português para os jovens que participarão do Festival Halleluya 2026, que será realizado de 22 a 26 de julho, no Condomínio Espiritual Uirapuru (CEU), conhecido como Cidade da Paz, em Fortaleza.",
-      "url": "https://www.acidigital.com/noticia/68995/leao-xiv-envia-videomensagem-em-portugues-aos-jovens-do-festival-halleluya-2026-em-fortaleza",
-      "published": "2026-07-20"
+      "title": "é celebrado são Lourenço de Brindisi, enérgico pregador capuchinho",
+      "summary": "São Lourenço nasceu em Brindisi (Itália) em 1559. Desde pequeno se destacou nos estudos e por ter uma boa memória. Quando era adolescente, pediu para ingressar no convento dos capuchinhos, onde teve um diálogo interessante com o superior.",
+      "url": "https://www.acidigital.com/noticia/52667/hoje-e-celebrado-sao-lourenco-de-brindisi-energico-pregador-capuchinho",
+      "published": "2026-07-21"
     },
     {
       "source": "Shalom",
-      "title": "Acamps Summer Festival conclui edição de 2026 com Missa na Gruta de Nossa Senhora de Lourdes",
-      "summary": "Mais de 350 participantes de 14 países viveram cinco dias de lazer, peregrinação, formação e encontro com Deus durante o festival realizado no Village des Jeunes, em Lourdes.",
-      "url": "https://comshalom.org/acamps-summer-festival-conclui-edicao-de-2026-com-missa-na-gruta-de-nossa-senhora-de-lourdes/",
+      "title": "Mais shows, ampliação de espaço e bolsão de estacionamento: confira as novidades do Halleluya 2",
+      "summary": "Festival Halleluya 2026 anuncia ampliação da Cidade da Paz, melhorias na infraestrutura e plano operacional para receber milhares de pessoas em Fortaleza.",
+      "url": "https://comshalom.org/festival-halleluya-2026-ampliacao-cidade-da-paz-fortaleza/",
+      "published": "2026-07-21"
+    },
+    {
+      "source": "Shalom",
+      "title": "Dia do amigo: Tendo como fonte Deus, toda amizade será feliz",
+      "summary": "Dia do Amigo é uma data proposta para celebrar a amizade entre as pessoas, motivamos a rezar pelos seus amigos neste dia, para que as amizades feitas possam perpetuar no céu, como a de muitos Santos amigos.",
+      "url": "https://comshalom.org/dia-do-amigo-tendo-como-fonte-deus-toda-amizade-sera-feliz/",
       "published": "2026-07-20"
     },
     {
-      "source": "Aleteia",
-      "title": "Deus “não é uma figura poderosa que se impõe pela força”, afirma Leão XIV",
-      "summary": "Do pórtico do Palácio Apostólico em Castel Gandolfo, onde se encontra desde 5 de julho para um período de descanso, lamentou que a imagem de um “Deus forte e poderoso” molde “a nossa maneira de ser cristão”. Após esta oração, apelou à paz.",
-      "url": "https://pt.aleteia.org/2026/07/20/deus-nao-e-uma-figura-poderosa-que-se-impoe-pela-forca-afirma-leao-xiv/",
+      "source": "Gaudium Press",
+      "title": "Preparação para os 2.000 anos do Batismo de Jesus",
+      "summary": "O ano de 2030 promete ser um marco para o cristianismo, com peregrinações em massa à Terra Santa. Betânia além do Jordão (à esquerda) e Qasr el Yahud (à direita) Foto: Wikipedia Redação ( 20/07/2026 16:51 , Gaudium Press ) O local do.",
+      "url": "https://gaudiumpress.org/content/preparacao-para-os-2-000-anos-do-batismo-de-jesus/",
       "published": "2026-07-20"
     }
   ],
   "closingQuote": {
-    "text": "No dia do juízo, a rainha do Sul se levantará contra essa geração.",
-    "source": "Mateus 12,38-42"
-  },
-  "liturgyHours": {
-    "reading": "Demos graças ao Senhor nosso Deus, que nos submete a provações, como fez com nossos pais. Lembrai-vos de tudo o que Deus fez a Abraão, e como provou Isaac, e tudo o que aconteceu a Jacó. Assim como os provou pelo fogo, para lhes experimentar o...",
-    "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
+    "text": "A Palavra do Senhor é luz para o intelecto e fogo para a vontade.",
+    "source": "S. Lourenço de Bríndisi"
   }
 }
