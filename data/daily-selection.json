@@ -1,34 +1,33 @@
 {
-  "date": "2026-07-23",
-  "editionLabel": "23 de julho de 2026",
+  "date": "2026-07-24",
+  "editionLabel": "24 de julho de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santa Brígida, religiosa",
+    "celebrationTitle": "São Sarbélio Makhluf, eremita",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 13,10-17"
+    "gospelShort": "Mt 13,18-23"
   },
   "saint": {
-    "feast": "Santo do Dia - 23 de Julho",
-    "name": "Santa Brígida, mãe e monja",
-    "description": "Celebração litúrgica do dia: Santa Brígida, religiosa.",
-    "url": "https://santo.cancaonova.com/santo/santa-brigida-mae-e-monja/"
+    "feast": "Santo do Dia - 24 de Julho",
+    "name": "São Charbel Makhluf, Presbítero e Monge",
+    "description": "Celebração litúrgica do dia: São Sarbélio Makhluf, eremita.",
+    "url": "https://santo.cancaonova.com/santo/sao-charbel-makhluf-presbitero-e-monge/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 13,10-17)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 13,18-23)",
     "lines": [
-      "Naquele tempo, os discípulos aproximaram-se e disseram a Jesus: Por que tu falas ao povo em parábolas? Jesus respondeu: Porque a vós foi dado o conhecimento dos mistérios do Reino dos Céus, mas a eles não é dado.",
-      "Pois à pessoa que tem, será dado ainda mais, e terá em abundância; mas à pessoa que não tem, será tirado até o pouco que tem.",
-      "&Eacute; por isso que eu lhes falo em parábolas: porque olhando, eles não veem, e ouvindo, eles não escutam, nem compreendem.",
-      "Deste modo se cumpre neles a profecia de Isaías: Havereis de ouvir, sem nada entender.",
-      "Havereis de olhar, sem nada ver.",
-      "Porque o coração deste povo se tornou insensível.",
-      "Eles ouviram com má vontade e fecharam seus olhos, para não ver com os olhos, nem ouvir com os ouvidos, nem compreender com o coração, de modo que se convertam e eu os cure."
+      "Naquele tempo, disse Jesus aos seus discípulos: Ouvi a parábola do semeador: Todo aquele que ouve a palavra do Reino e não a compreende, vem o Maligno e rouba o que foi semeado em seu coração.",
+      "Este é o que foi semeado à beira do caminho.",
+      "A semente que caiu em terreno pedregoso é aquele que ouve a palavra e logo a recebe com alegria; mas ele não tem raiz em si mesmo, é de momento: quando chega o sofrimento ou a perseguição, por causa da palavra, ele desiste logo.",
+      "A semente que caiu no meio dos espinhos é aquele que ouve a palavra, mas as preocupações do mundo e a ilusão da riqueza sufocam a palavra, e ele não dá fruto.",
+      "A semente que caiu em boa terra é aquele que ouve a palavra e a compreende.",
+      "Um dá cem, outro sessenta e outro trinta."
     ],
-    "keyVerse": "Graças te dou, ó Pai, Senhor do céu e da terra, pois, revelaste os mistérios do teu Reino aos pequeninos, escondendo-os aos doutores!",
-    "body": "Naquele tempo, 10 os discípulos aproximaram-se e disseram a Jesus: \"Por que tu falas ao povo em parábolas?\" 11 Jesus respondeu: \"Porque a vós foi dado o conhecimento dos mistérios do Reino dos Céus, mas a eles não é dado. 12 Pois à pessoa que tem, será dado ainda mais, e terá em abundância; mas à pessoa que não tem, será tirado até o pouco que tem. 13 &Eacute; por isso que eu lhes falo em parábolas: porque olhando, eles não veem, e ouvindo, eles não escutam, nem compreendem. 14 Deste modo se cumpre neles a profecia de Isaías: 'Havereis de ouvir, sem nada entender. Havereis de olhar, sem nada ver. 15 Porque o coração deste povo se tornou insensível. Eles ouviram com má vontade e fecharam seus olhos, para não ver com os olhos, nem ouvir com os ouvidos, nem compreender com o coração, de modo que se convertam e eu os cure'. 16 Felizes sois vós, porque vossos olhos veem e vossos ouvidos ouvem. 17 Em verdade vos digo, muitos profetas e justos desejaram ver o que vedes, e não viram, desejaram ouvir o que ouvis, e não ouviram\". —"
+    "keyVerse": "Felizes os que observam a palavra do Senhor, de reto coração e que produzem muitos frutos, até o fim perseverantes!",
+    "body": "Naquele tempo, disse Jesus aos seus discípulos: 18 \"Ouvi a parábola do semeador: 19 Todo aquele que ouve a palavra do Reino e não a compreende, vem o Maligno e rouba o que foi semeado em seu coração. Este é o que foi semeado à beira do caminho. 20 A semente que caiu em terreno pedregoso é aquele que ouve a palavra e logo a recebe com alegria; 21 mas ele não tem raiz em si mesmo, é de momento: quando chega o sofrimento ou a perseguição, por causa da palavra, ele desiste logo. 22 A semente que caiu no meio dos espinhos é aquele que ouve a palavra, mas as preocupações do mundo e a ilusão da riqueza sufocam a palavra, e ele não dá fruto. 23 A semente que caiu em boa terra é aquele que ouve a palavra e a compreende. Esse produz fruto. Um dá cem, outro sessenta e outro trinta\". —"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +38,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "O Papa ao presidente Mattarella: obrigado pela atenção à vida eclesial da Itália",
-      "summary": "Leão XIV enviou um telegrama ao presidente da República Italiana por ocasião de seu 85º aniversário, garantindo suas orações pela “alta missão” desempenhada a serviço do povo e confiando-o à intercessão dos santos padroeiros do país,.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-presidente-mattarella-obrigado-atencao-vida-eclesial-italia.html",
+      "title": "Cardeal Parolin: é necessária uma “Páscoa de Paz” para eliminar a guerra",
+      "summary": "Ao discursar na apresentação do livro “Páscoa de Paz. De João XXIII a Leão XIV rumo ao Jubileu de 2033”, do jornalista Antonio Preziosi, o secretário de Estado Parolin traça o “revezamento” que atravessa os pontificados pós-conciliares,.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/cardeal-parolin-livro-papas-jornalista-antonio-preziosi-julho-26.html",
       "published": "2026-07-23"
     },
     {
       "source": "Vatican News",
-      "title": "Ucrânia, Gallagher: não esqueço quem perdeu tudo. Trabalhamos juntos pela paz",
-      "summary": "Em entrevista concedida ao final de sua missão na Ucrânia, o arcebispo Paul Richard Gallagher afirma: \"Encontrei pessoas corajosas, perseverantes e resilientes, dispostas a sofrer pela liberdade e pela paz. Também nós, com os instrumentos.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/ucrania-entrecista-dom-gallagher-nao-esqueco-quem-perdeu-tudo.html",
-      "published": "2026-07-23"
+      "title": "Papa: que os ventos da guerra não apaguem a chama da esperança e da paz",
+      "summary": "Em seus apelos, ao término da oração mariana deste domingo, 12 de julho, na Praça da Liberdade, em Castel Gandolfo, o Papa Leão XIV voltou a manifestar sua preocupação com os conflitos que continuam a provocar sofrimento em diversas regiões do mundo e renovou seu apelo em favor da paz: “Infelizmente, voltam a soprar os ventos da guerra no Oriente Médio, na Ucrânia e em muitas outras partes do mundo, semeando violência, terror e morte e atingindo, mais uma vez, tantos inocentes....",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-castel-gandolfo-angelus-apelo-guerra-ucrania-oriente-medio.html",
+      "published": "2026-12-07"
     },
     {
       "source": "CNBB",
-      "title": "Tesouro ganha destaque na Igreja",
-      "summary": "Dom Rodolfo Luís Weber Arcebispo de Passo Fundo (RS) Tesouros sempre despertam interesse, curiosidade e alimentam a fantasia. Sejam os tesouros dos jogos de passatempo, os tesouros escondidos de civilizações passadas, os tesouros de.",
-      "url": "https://www.cnbb.org.br/tesouro/",
+      "title": "Dom Heitor de Araújo Sales: a grandeza da bondade",
+      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) Neste dia 29 de julho de 2026, a Arquidiocese de Natal celebra o centenário de nascimento de Dom Heitor de Araújo Sales, ocasião privilegiada para render graças a Deus pela vida de um pastor.",
+      "url": "https://www.cnbb.org.br/dom-heitor-de-araujo-sales-a-grandeza-da-bondade/",
       "published": "2026-07-23"
     },
     {
       "source": "ACI Digital",
-      "title": "Regional Sul 1 da CNBB lança reflexões para as eleições 2026 com base na Doutrina Social da",
-      "summary": "A presidência do Regional Sul 1 da Conferência Nacional dos Bispos do Brasil (CNBB) lançou ontem (21) “Reflexões para as Eleições 2026”. O documento tem 20 perguntas e respostas fundamentadas na Sagrada Escritura, no Compêndio da Doutrina.",
-      "url": "https://www.acidigital.com/noticia/69035/regional-sul-1-da-cnbb-lanca-reflexoes-para-as-eleicoes-2026-com-base-na-doutrina-social-da-igreja",
-      "published": "2026-07-22"
+      "title": "é celebrado são Charbel Makhlouf, exemplo de vida consagrada e mística",
+      "summary": "São Charbel Makhlouf foi um asceta e religioso do Líbano pertencente ao rito maronita e o primeiro santo oriental canonizado desde o século XIII.",
+      "url": "https://www.acidigital.com/noticia/52671/hoje-e-celebrado-sao-charbel-makhlouf-exemplo-de-vida-consagrada-e-mistica",
+      "published": "2026-07-24"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Oito dados sobre a vida de são Charbel, o santo que une cristãos e muçulmanos",
+      "summary": "Hoje (24) é celebrada a festa de são Charbel Makhlouf, sacerdote católico, monge e eremita pertencente ao rito maronita, conhecido por ter realizado milhares de milagres em vida, inclusive a muçulmanos e pessoas de outras religiões. A.",
+      "url": "https://www.acidigital.com/noticia/52672/oito-dados-sobre-a-vida-de-sao-charbel-o-santo-que-une-cristaos-e-muculmanos",
+      "published": "2026-07-24"
     },
     {
       "source": "Shalom",
-      "title": "Confira a programação completa do Festival Halleluya 2026",
-      "summary": "O Halleluya 2026 está no ar! Entre os dias 22 e 26 de julho, a Cidade da Paz, no Condomínio Espiritual Uirapuru (CEU), em Fortaleza, receberá artistas que marcaram gerações da música católica e novos nomes da evangelização, em uma.",
-      "url": "https://comshalom.org/confira-a-programacao-completa-do-festival-halleluya-2026/",
-      "published": "2026-07-22"
+      "title": "Halleluya 2026: Confira os melhores momentos do segundo dia de festival",
+      "summary": "Na quinta-feira de Festival Halleluya, o Senhor se mostrou cada vez mais perto de nós e cada vez mais nos alcança com a sua misericórdia. O segundo dia de evento também começou com a celebração da Santa Missa, presidida por Dom Jânison de.",
+      "url": "https://comshalom.org/halleluya-2026-confira-os-melhores-momentos-do-segundo-dia-de-festival/",
+      "published": "2026-07-24"
     },
     {
       "source": "Shalom",
-      "title": "Missão Shalom Teresina celebra 10 anos de Adoração Perpétua",
-      "summary": "Uma década de oração ininterrupta diante de Jesus Eucarístico foi celebrada com uma Santa Missa em ação de graças no Shalom Jóquei.",
-      "url": "https://comshalom.org/missao-shalom-teresina-celebra-10-anos-de-adoracao-perpetua/",
-      "published": "2026-07-23"
-    },
-    {
-      "source": "Aleteia",
-      "title": "confirma excomunhão de sacerdote da Arquidiocese de Brasília",
-      "summary": "A Arquidiocese de Brasília publicou, em 10 de julho, uma nota pastoral confirmando a excomunhão do padre Françoá Rodrigues Figueiredo Costa. Segundo o comunicado, a decisão foi tomada pela Santa Sé e produz efeitos canônicos imediatos.",
-      "url": "https://pt.aleteia.org/2026/07/23/vaticano-confirma-excomunhao-de-sacerdote-da-arquidiocese-de-brasilia/",
+      "title": "Inesquecível: Comunidade Colo de Deus encerra primeira noite do Halleluya 2026",
+      "summary": "Pela primeira vez, a Colo de Deus integra a programação do Festival Halleluya. A Comunidade foi a responsável por encerrar a primeira noite de shows do evento em Fortaleza, no Ceará, na quarta-feira (22), subindo ao Palco Alive após as.",
+      "url": "https://comshalom.org/inesquecivel-comunidade-colo-de-deus-encerra-primeira-noite-do-halleluya-2026/",
       "published": "2026-07-23"
     }
   ],
   "closingQuote": {
-    "text": "A vós foi dado o conhecimento dos mistérios do Reino dos Céus.",
-    "source": "Mateus 13,10-17"
+    "text": "Todo homem é uma chama, criada por nosso Senhor, para iluminar o mundo.",
+    "source": "S. Charbel Makhluf"
   },
   "liturgyHours": {
-    "reading": "Eu entendo que os sofrimentos do tempo presente nem merecem ser comparados com a glória que deve ser revelada em nós. De fato, toda a criação está esperando ansiosamente o momento de se revelarem os filhos de Deus. Pois a criação ficou sujeita à...",
+    "reading": "Com Cristo, eu fui pregado na cruz. Eu vivo, mas não eu, é Cristo que vive em mim. Esta minha vida presente, na carne, eu a vivo na fé, crendo no Filho de Deus, que me amou e por mim se entregou.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
