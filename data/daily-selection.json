@@ -1,33 +1,34 @@
 {
-  "date": "2026-07-24",
-  "editionLabel": "24 de julho de 2026",
+  "date": "2026-07-25",
+  "editionLabel": "25 de julho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "festa",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Sarbélio Makhluf, eremita",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 13,18-23"
+    "celebrationTitle": "São Tiago, apóstolo",
+    "colorName": "vermelho",
+    "cssColor": "#C62828",
+    "gospelShort": "Mt 20,20-28"
   },
   "saint": {
-    "feast": "Santo do Dia - 24 de Julho",
-    "name": "São Charbel Makhluf, Presbítero e Monge",
-    "description": "Celebração litúrgica do dia: São Sarbélio Makhluf, eremita.",
-    "url": "https://santo.cancaonova.com/santo/sao-charbel-makhluf-presbitero-e-monge/"
+    "feast": "Santo do Dia - 25 de Julho",
+    "name": "São Tiago Maior, primeiro apóstolo mártir",
+    "description": "Celebração litúrgica do dia: São Tiago, apóstolo.",
+    "url": "https://santo.cancaonova.com/santo/sao-tiago-maior-primeiro-apostolo-martir/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 13,18-23)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 20,20-28)",
     "lines": [
-      "Naquele tempo, disse Jesus aos seus discípulos: Ouvi a parábola do semeador: Todo aquele que ouve a palavra do Reino e não a compreende, vem o Maligno e rouba o que foi semeado em seu coração.",
-      "Este é o que foi semeado à beira do caminho.",
-      "A semente que caiu em terreno pedregoso é aquele que ouve a palavra e logo a recebe com alegria; mas ele não tem raiz em si mesmo, é de momento: quando chega o sofrimento ou a perseguição, por causa da palavra, ele desiste logo.",
-      "A semente que caiu no meio dos espinhos é aquele que ouve a palavra, mas as preocupações do mundo e a ilusão da riqueza sufocam a palavra, e ele não dá fruto.",
-      "A semente que caiu em boa terra é aquele que ouve a palavra e a compreende.",
-      "Um dá cem, outro sessenta e outro trinta."
+      "Naquele tempo, a mãe dos filhos de Zebedeu aproximou-se de Jesus com seus filhos e ajoelhou-se com a intenção de fazer um pedido.",
+      "Jesus perguntou: O que tu queres? Ela respondeu: Manda que estes meus dois filhos se sentem, no teu Reino, um à tua direita e outro à tua esquerda.",
+      "Jesus, então, respondeu-lhes: Não sabeis o que estais pedindo.",
+      "Por acaso podeis beber o cálice que eu vou beber? Eles responderam: Podemos.",
+      "Então Jesus lhes disse: De fato, vós bebereis do meu cálice, mas não depende de mim conceder o lugar à minha direita ou à minha esquerda.",
+      "Meu Pai é quem dará esses lugares àqueles para os quais ele os preparou.",
+      "Quando os outros dez discípulos ouviram isso, ficaram irritados contra os dois irmãos."
     ],
-    "keyVerse": "Felizes os que observam a palavra do Senhor, de reto coração e que produzem muitos frutos, até o fim perseverantes!",
-    "body": "Naquele tempo, disse Jesus aos seus discípulos: 18 \"Ouvi a parábola do semeador: 19 Todo aquele que ouve a palavra do Reino e não a compreende, vem o Maligno e rouba o que foi semeado em seu coração. Este é o que foi semeado à beira do caminho. 20 A semente que caiu em terreno pedregoso é aquele que ouve a palavra e logo a recebe com alegria; 21 mas ele não tem raiz em si mesmo, é de momento: quando chega o sofrimento ou a perseguição, por causa da palavra, ele desiste logo. 22 A semente que caiu no meio dos espinhos é aquele que ouve a palavra, mas as preocupações do mundo e a ilusão da riqueza sufocam a palavra, e ele não dá fruto. 23 A semente que caiu em boa terra é aquele que ouve a palavra e a compreende. Esse produz fruto. Um dá cem, outro sessenta e outro trinta\". —"
+    "keyVerse": "Eu vos designei para que vades e deis frutos, e o vosso fruto permaneça, assim disse o Senhor.",
+    "body": "Naquele tempo, 20 a mãe dos filhos de Zebedeu aproximou-se de Jesus com seus filhos e ajoelhou-se com a intenção de fazer um pedido. 21 Jesus perguntou: \"O que tu queres?\" Ela respondeu: \"Manda que estes meus dois filhos se sentem, no teu Reino, um à tua direita e outro à tua esquerda\". 22 Jesus, então, respondeu-lhes: \"Não sabeis o que estais pedindo. Por acaso podeis beber o cálice que eu vou beber?\" Eles responderam: \"Podemos\". 23 Então Jesus lhes disse: \"De fato, vós bebereis do meu cálice, mas não depende de mim conceder o lugar à minha direita ou à minha esquerda. Meu Pai é quem dará esses lugares àqueles para os quais ele os preparou\". 24 Quando os outros dez discípulos ouviram isso, ficaram irritados contra os dois irmãos. 25 Jesus, porém, chamou-os, e disse: \"Vós sabeis que os chefes das nações têm poder sobre elas e os grandes as oprimem. 26 Entre vós não deverá ser assim. Quem quiser tornar-se grande, torne-se vosso servidor; 27 quem quiser ser o primeiro, seja vosso servo. 28 Pois, o Filho do Homem não veio para ser servido, mas para servir e dar a sua vida como resgate em favor de muitos\". —"
   },
   "sponsor": {
     "enabled": true,
@@ -38,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Cardeal Parolin: é necessária uma “Páscoa de Paz” para eliminar a guerra",
-      "summary": "Ao discursar na apresentação do livro “Páscoa de Paz. De João XXIII a Leão XIV rumo ao Jubileu de 2033”, do jornalista Antonio Preziosi, o secretário de Estado Parolin traça o “revezamento” que atravessa os pontificados pós-conciliares,.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/cardeal-parolin-livro-papas-jornalista-antonio-preziosi-julho-26.html",
-      "published": "2026-07-23"
+      "title": "O abade de Subiaco: encontro familiar com o Papa, que nos fez sentir filhos e irmãos",
+      "summary": "A última quarta-feira, 22 de julho, ficará entre as mais belas lembranças para os monges de São Bento e Santa Escolástica. Leão XIV visitou os locais que testemunham a experiência eremítica e comunitária do santo de Norcia. Às mídias do.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/abade-subiaco-visita-papa-leao-xiv-sao-bento-santa-escolastica.html",
+      "published": "2026-07-24"
     },
     {
       "source": "Vatican News",
-      "title": "O Papa a Mattarella: obrigado pela atenção à vida eclesial da Itália",
-      "summary": "Leão XIV enviou um telegrama ao presidente da República Italiana por ocasião de seu 85º aniversário, garantindo suas orações pela “alta missão” desempenhada a serviço do povo e confiando-o à intercessão dos santos padroeiros do país,.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-presidente-mattarella-obrigado-atencao-vida-eclesial-italia.html",
-      "published": "2026-07-23"
-    },
-    {
-      "source": "CNBB",
-      "title": "O martírio da paciência, fonte de esperança, civilidade, empatia e tolerância",
-      "summary": "Dom Roberto Francisco Ferrería Paz Bispo de Campos (RJ) No livro biográfico “O martírio da paciência”, o Cardeal Agostinho Casaroli secretário de Estado de São João Paulo II testemunhou o seu trabalho incansável de artesão da Paz, que.",
-      "url": "https://www.cnbb.org.br/o-martirio-da-paciencia-fonte-de-esperanca-civilidade-empatia-e-tolerancia/",
+      "title": "Venezuela, um mês após o terremoto. Os bispos: ser “samaritanos”",
+      "summary": "O episcopado, trinta dias após o duplo terremoto que atingiu o país, divulgou uma mensagem para exortar a não esquecer os que sofrem, que se sentiram abandonados pelas instituições públicas. O texto também expressa gratidão ao Papa Leão.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/venezuela-mes-apos-terremoto-bispos-ser-samaritanos.html",
       "published": "2026-07-24"
     },
     {
       "source": "CNBB",
-      "title": "O verdadeiro que buscamos é Jesus Ressuscitado!",
-      "summary": "Dom Diamantino Prata de Carvalho Bispo Emérito de Campanha (MG) Nestes domingos em que meditamos o capítulo 13 do Evangelho segundo São Mateus, percebemos que Jesus ensina com autoridade; autoridade que emerge da vida em comunidade da.",
-      "url": "https://www.cnbb.org.br/o-verdadeiro-que-buscamos-e-jesus-ressuscitado/",
+      "title": "Dia dos Avós ganha destaque na Igreja",
+      "summary": "Dom Carmo João Rhoden Bispo Emérito de Taubaté (SP) Dia dos Avós 26/07/26 (Mt 13, 44-52) Texto referencial: “Compreendestes tudo isso? Eles responderam “sim” então Jesus acrescentou: ‘Assim, pois, todo o mestre da Lei, que se torna.",
+      "url": "https://www.cnbb.org.br/dia-dos-avos-6/",
       "published": "2026-07-24"
     },
     {
       "source": "ACI Digital",
-      "title": "Sepultamentos dignos, auxílio e reconstrução: Avaliação da Igreja em Caracas depois de terremot",
-      "summary": "A arquidiocese de Caracas, Venezuela, divulgou na última quarta-feira (22) um relatório sobre sua resposta ao duplo terremoto que atingiu a Venezuela em 24 de junho, há um mês. Em entrevista coletiva, o arcebispo de Caracas, Raúl Biord,.",
-      "url": "https://www.acidigital.com/noticia/69055/sepultamentos-dignos-auxilio-e-reconstrucao-avaliacao-da-igreja-em-caracas-depois-de-terremotos",
-      "published": "2026-07-24"
+      "title": "é a festa de são Cristóvão, padroeiro dos motoristas",
+      "summary": "São Cristóvão de Licia é um mártir importante na história do cristianismo do Oriente e do Ocidente, que viveu durante o governo de Décio, terceiro imperador romano, por volta do ano 250 d.C.",
+      "url": "https://www.acidigital.com/noticia/52674/hoje-e-a-festa-de-sao-cristovao-padroeiro-dos-motoristas",
+      "published": "2026-07-25"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "é dia de santa Valentina, defensora da mulher cristã",
+      "summary": "Ao falar dos mártires da Palestina, Eusébio de Cesareia narra que no início do cristianismo o governador Firmiliano ordenou a tortura de um grande grupo de cristãos egípcios que haviam sido deportados para a Palestina.",
+      "url": "https://www.acidigital.com/noticia/55708/hoje-e-dia-de-santa-valentina-defensora-da-mulher-crista",
+      "published": "2026-07-25"
     },
     {
       "source": "Shalom",
-      "title": "Inesquecível: Comunidade Colo de Deus encerra primeira noite do Halleluya 2026",
-      "summary": "Pela primeira vez, a Colo de Deus integra a programação do Festival Halleluya. A Comunidade foi a responsável por encerrar a primeira noite de shows do evento em Fortaleza, no Ceará, na quarta-feira (22), subindo ao Palco Alive após as.",
-      "url": "https://comshalom.org/inesquecivel-comunidade-colo-de-deus-encerra-primeira-noite-do-halleluya-2026/",
-      "published": "2026-07-23"
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "Há mais de duas décadas, Adriana Arydes faz parte da história do Festival Halleluya. Ao longo dos anos, a cantora acompanhou o crescimento do evento e viu milhares de pessoas encontrarem no Festival um espaço de encontro com Deus. Nesta edição de 2026, ela retorna ao palco trazendo um repertório repleto de canções que marcaram sua missão e a caminhada de fé de diferentes gerações....",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-07-25"
     },
     {
       "source": "Shalom",
-      "title": "E o Eterno se apresentou a mim!",
-      "summary": "No dia 28 de julho, faz exatamente 22 anos daquela noite que transformou a minha vida para sempre. Eu era apenas um adolescente no Parque do Cocó. Fui convidado por uma amiga, a Fernanda, para ir ao Festival Halleluya. Apesar de ser muito.",
-      "url": "https://comshalom.org/e-o-eterno-se-apresentou-a-mim/",
-      "published": "2026-07-24"
+      "title": "Halleluya Podcast recebe Dom José Negri em novo episódio especial do Festival Halleluya 2026",
+      "summary": "Bispo da Diocese de Santo Amaro (SP) partilha reflexões sobre juventude, missão e o papel dos grandes eventos de evangelização na Igreja.",
+      "url": "https://comshalom.org/halleluya-podcast-recebe-dom-jose-negri-em-novo-episodio-especial-do-festival-halleluya-2026/",
+      "published": "2026-07-25"
     }
   ],
   "closingQuote": {
-    "text": "Todo homem é uma chama, criada por nosso Senhor, para iluminar o mundo.",
-    "source": "S. Charbel Makhluf"
+    "text": "Podemos.",
+    "source": "Resposta de São Tiago e São João — Mt 20,22"
   },
   "liturgyHours": {
-    "reading": "Com Cristo, eu fui pregado na cruz. Eu vivo, mas não eu, é Cristo que vive em mim. Esta minha vida presente, na carne, eu a vivo na fé, crendo no Filho de Deus, que me amou e por mim se entregou.",
+    "reading": "Já não sois estrangeiros nem migrantes, mas concidadãos dos santos. Sois da família de Deus. Vós fostes integrados no edifício que tem como fundamento os apóstolos e os profetas, e o próprio Jesus Cristo como pedra principal. É nele que toda a...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
