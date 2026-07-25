@@ -1,34 +1,33 @@
 {
-  "date": "2026-07-25",
-  "editionLabel": "25 de julho de 2026",
+  "date": "2026-07-20",
+  "editionLabel": "20 de julho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "festa",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Tiago, apóstolo",
-    "colorName": "vermelho",
-    "cssColor": "#C62828",
-    "gospelShort": "Mt 20,20-28"
+    "celebrationTitle": "Santo Apolinário, bispo e mártir",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Mt 12,38-42"
   },
   "saint": {
-    "feast": "Santo do Dia - 25 de Julho",
-    "name": "São Tiago Maior, primeiro apóstolo mártir",
-    "description": "Celebração litúrgica do dia: São Tiago, apóstolo.",
-    "url": "https://santo.cancaonova.com/santo/sao-tiago-maior-primeiro-apostolo-martir/"
+    "feast": "Santo do Dia - 20 de Julho",
+    "name": "Santo Apolinário, Bispo de Ravena",
+    "description": "Celebração litúrgica do dia: Santo Apolinário, bispo e mártir.",
+    "url": "https://santo.cancaonova.com/santo/santo-apolinario-bispo-de-ravena/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 20,20-28)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 12,38-42)",
     "lines": [
-      "Naquele tempo, a mãe dos filhos de Zebedeu aproximou-se de Jesus com seus filhos e ajoelhou-se com a intenção de fazer um pedido.",
-      "Jesus perguntou: O que tu queres? Ela respondeu: Manda que estes meus dois filhos se sentem, no teu Reino, um à tua direita e outro à tua esquerda.",
-      "Jesus, então, respondeu-lhes: Não sabeis o que estais pedindo.",
-      "Por acaso podeis beber o cálice que eu vou beber? Eles responderam: Podemos.",
-      "Então Jesus lhes disse: De fato, vós bebereis do meu cálice, mas não depende de mim conceder o lugar à minha direita ou à minha esquerda.",
-      "Meu Pai é quem dará esses lugares àqueles para os quais ele os preparou.",
-      "Quando os outros dez discípulos ouviram isso, ficaram irritados contra os dois irmãos."
+      "Naquele tempo, alguns mestres da Lei e fariseus disseram a Jesus: Mestre, queremos ver um sinal realizado por ti.",
+      "Jesus respondeu-lhes: Uma geração má e adúltera busca um sinal, mas nenhum sinal lhe será dado, a não ser o sinal do profeta Jonas.",
+      "Com efeito, assim como Jonas esteve três dias e três noites no ventre da baleia, assim também o Filho do Homem estará três dias e três noites no seio da terra.",
+      "No dia do juízo, os habitantes de Nínive se levantarão contra essa geração e a condenarão, porque se converteram diante da pregação de Jonas.",
+      "E aqui está quem é maior do que Jonas.",
+      "No dia do juízo, a rainha do Sul se levantará contra essa geração, e a condenará, porque veio dos confins da terra para ouvir a sabedoria de Salomão, e aqui está quem é maior do que Salomão."
     ],
-    "keyVerse": "Eu vos designei para que vades e deis frutos, e o vosso fruto permaneça, assim disse o Senhor.",
-    "body": "Naquele tempo, 20 a mãe dos filhos de Zebedeu aproximou-se de Jesus com seus filhos e ajoelhou-se com a intenção de fazer um pedido. 21 Jesus perguntou: \"O que tu queres?\" Ela respondeu: \"Manda que estes meus dois filhos se sentem, no teu Reino, um à tua direita e outro à tua esquerda\". 22 Jesus, então, respondeu-lhes: \"Não sabeis o que estais pedindo. Por acaso podeis beber o cálice que eu vou beber?\" Eles responderam: \"Podemos\". 23 Então Jesus lhes disse: \"De fato, vós bebereis do meu cálice, mas não depende de mim conceder o lugar à minha direita ou à minha esquerda. Meu Pai é quem dará esses lugares àqueles para os quais ele os preparou\". 24 Quando os outros dez discípulos ouviram isso, ficaram irritados contra os dois irmãos. 25 Jesus, porém, chamou-os, e disse: \"Vós sabeis que os chefes das nações têm poder sobre elas e os grandes as oprimem. 26 Entre vós não deverá ser assim. Quem quiser tornar-se grande, torne-se vosso servidor; 27 quem quiser ser o primeiro, seja vosso servo. 28 Pois, o Filho do Homem não veio para ser servido, mas para servir e dar a sua vida como resgate em favor de muitos\". —"
+    "keyVerse": "Oxalá ouvísseis hoje a sua voz: Não fecheis os corações como em Meriba!",
+    "body": "Naquele tempo, 38 alguns mestres da Lei e fariseus disseram a Jesus: \"Mestre, queremos ver um sinal realizado por ti\". 39 Jesus respondeu-lhes: \"Uma geração má e adúltera busca um sinal, mas nenhum sinal lhe será dado, a não ser o sinal do profeta Jonas. 40 Com efeito, assim como Jonas esteve três dias e três noites no ventre da baleia, assim também o Filho do Homem estará três dias e três noites no seio da terra. 41 No dia do juízo, os habitantes de Nínive se levantarão contra essa geração e a condenarão, porque se converteram diante da pregação de Jonas. E aqui está quem é maior do que Jonas. 42 No dia do juízo, a rainha do Sul se levantará contra essa geração, e a condenará, porque veio dos confins da terra para ouvir a sabedoria de Salomão, e aqui está quem é maior do que Salomão\". —"
   },
   "sponsor": {
     "enabled": true,
@@ -39,17 +38,17 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa: que os ventos da guerra não apaguem a chama da esperança e da paz",
-      "summary": "Em seus apelos, ao término da oração mariana deste domingo, 12 de julho, na Praça da Liberdade, em Castel Gandolfo, o Papa Leão XIV voltou a manifestar sua preocupação com os conflitos que continuam a provocar sofrimento em diversas regiões do mundo e renovou seu apelo em favor da paz: “Infelizmente, voltam a soprar os ventos da guerra no Oriente Médio, na Ucrânia e em muitas outras partes do mundo, semeando violência, terror e morte e atingindo, mais uma vez, tantos inocentes....",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-castel-gandolfo-angelus-apelo-guerra-ucrania-oriente-medio.html",
-      "published": "2026-12-07"
+      "title": "O abade de Subiaco: encontro familiar com o Papa, que nos fez sentir filhos e irmãos",
+      "summary": "A última quarta-feira, 22 de julho, ficará entre as mais belas lembranças para os monges de São Bento e Santa Escolástica. Leão XIV visitou os locais que testemunham a experiência eremítica e comunitária do santo de Norcia. Às mídias do.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/abade-subiaco-visita-papa-leao-xiv-sao-bento-santa-escolastica.html",
+      "published": "2026-07-24"
     },
     {
       "source": "Vatican News",
-      "title": "Papa almoça com os pobres: temos fome de justiça e de uma Igreja que acolha todos",
-      "summary": "Vim sem discurso, mas com fome.\" Com essas palavras espontâneas, o Papa Leão XIV saudou os cerca de 200 participantes do almoço promovido neste sábado, 11 de julho, no Borgo Laudato Si', em Castel Gandolfo. A iniciativa reuniu pessoas em situação de vulnerabilidade acompanhadas pela Diocese de Roma e por diversas associações de caridade e assistência social....",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-almoco-pobres-temos-fome-de-justica-e-de-acolhimento.html",
-      "published": "2026-11-07"
+      "title": "Cardeal Parolin: é necessária uma “Páscoa de Paz” para eliminar a guerra",
+      "summary": "Ao discursar na apresentação do livro “Páscoa de Paz. De João XXIII a Leão XIV rumo ao Jubileu de 2033”, do jornalista Antonio Preziosi, o secretário de Estado Parolin traça o “revezamento” que atravessa os pontificados pós-conciliares,.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/cardeal-parolin-livro-papas-jornalista-antonio-preziosi-julho-26.html",
+      "published": "2026-07-23"
     },
     {
       "source": "CNBB",
@@ -60,17 +59,10 @@
     },
     {
       "source": "ACI Digital",
-      "title": "Sepultamentos dignos, auxílio e reconstrução: Avaliação da Igreja em Caracas depois de terremot",
-      "summary": "A arquidiocese de Caracas, Venezuela, divulgou na última quarta-feira (22) um relatório sobre sua resposta ao duplo terremoto que atingiu a Venezuela em 24 de junho, há um mês. Em entrevista coletiva, o arcebispo de Caracas, Raúl Biord,.",
-      "url": "https://www.acidigital.com/noticia/69055/sepultamentos-dignos-auxilio-e-reconstrucao-avaliacao-da-igreja-em-caracas-depois-de-terremotos",
-      "published": "2026-07-24"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "é festa de são Tiago Maior, apóstolo e padroeiro da Espanha",
-      "summary": "Hoje (25) a Igreja celebra a festa de são Tiago Maior, um dos doze apóstolos escolhidos pelo Senhor e que é representado vestido como um peregrino ou como um soldado montado em um cavalo branco em atitude de luta. São Crisóstomo disse que.",
-      "url": "https://www.acidigital.com/noticia/52673/hoje-e-festa-de-sao-tiago-maior-apostolo-e-padroeiro-da-espanha",
-      "published": "2026-07-25"
+      "title": "Regional Sul 1 da CNBB lança reflexões para as eleições 2026 com base na Doutrina Social da",
+      "summary": "A presidência do Regional Sul 1 da Conferência Nacional dos Bispos do Brasil (CNBB) lançou ontem (21) “Reflexões para as Eleições 2026”. O documento tem 20 perguntas e respostas fundamentadas na Sagrada Escritura, no Compêndio da Doutrina.",
+      "url": "https://www.acidigital.com/noticia/69035/regional-sul-1-da-cnbb-lanca-reflexoes-para-as-eleicoes-2026-com-base-na-doutrina-social-da-igreja",
+      "published": "2026-07-22"
     },
     {
       "source": "Shalom",
@@ -81,15 +73,22 @@
     },
     {
       "source": "Shalom",
-      "title": "Espaço Kids: O louvor dos pequenos tem lugar garantido na Cidade da",
-      "summary": "Com estrutura inspirada no Caminho da Paz e programação adaptada, o Halleluya Kids promove fé, fofura e acolhimento para toda a família.",
-      "url": "https://comshalom.org/espaco-kids-o-louvor-dos-pequenos-tem-lugar-garantido-na-cidade-da-paz/",
-      "published": "2026-07-25"
+      "title": "Halleluya Podcast 2026 estreia com a presença de Dom Janison de Sá Santos",
+      "summary": "O primeiro episódio do Halleluya Podcast 2026 nos ajudou a conhecer melhor a trajetória e caminho vocacional e ordenado de Dom Jânison de Sá Santos, bispo auxiliar da Arquidiocese de Fortaleza, no estado do Ceará. Em um diálogo marcado.",
+      "url": "https://comshalom.org/halleluya-podcast-2026-estreia-com-a-presenca-de-dom-janison-de-sa-santos/",
+      "published": "2026-07-24"
+    },
+    {
+      "source": "Aleteia",
+      "title": "confirma excomunhão de sacerdote da Arquidiocese de Brasília",
+      "summary": "A Arquidiocese de Brasília publicou, em 10 de julho, uma nota pastoral confirmando a excomunhão do padre Françoá Rodrigues Figueiredo Costa. Segundo o comunicado, a decisão foi tomada pela Santa Sé e produz efeitos canônicos imediatos.",
+      "url": "https://pt.aleteia.org/2026/07/23/vaticano-confirma-excomunhao-de-sacerdote-da-arquidiocese-de-brasilia/",
+      "published": "2026-07-23"
     }
   ],
   "closingQuote": {
-    "text": "Podemos.",
-    "source": "Resposta de São Tiago e São João — Mt 20,22"
+    "text": "Uma geração má e adúltera busca um sinal, mas nenhum sinal lhe será dado, a não ser o sinal do profeta Jonas.",
+    "source": "Mateus 12,39"
   },
   "liturgyHours": {
     "reading": "Já não sois estrangeiros nem migrantes, mas concidadãos dos santos. Sois da família de Deus. Vós fostes integrados no edifício que tem como fundamento os apóstolos e os profetas, e o próprio Jesus Cristo como pedra principal. É nele que toda a...",
