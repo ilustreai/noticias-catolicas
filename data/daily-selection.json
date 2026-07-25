@@ -1,33 +1,34 @@
 {
-  "date": "2026-07-20",
-  "editionLabel": "20 de julho de 2026",
+  "date": "2026-07-25",
+  "editionLabel": "25 de julho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "festa",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santo Apolinário, bispo e mártir",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 12,38-42"
+    "celebrationTitle": "São Tiago, apóstolo",
+    "colorName": "vermelho",
+    "cssColor": "#C62828",
+    "gospelShort": "Mt 20,20-28"
   },
   "saint": {
-    "feast": "Santo do Dia - 20 de Julho",
-    "name": "Santo Apolinário, Bispo de Ravena",
-    "description": "Celebração litúrgica do dia: Santo Apolinário, bispo e mártir.",
-    "url": "https://santo.cancaonova.com/santo/santo-apolinario-bispo-de-ravena/"
+    "feast": "Santo do Dia - 25 de Julho",
+    "name": "São Tiago Maior, primeiro apóstolo mártir",
+    "description": "Celebração litúrgica do dia: São Tiago, apóstolo.",
+    "url": "https://santo.cancaonova.com/santo/sao-tiago-maior-primeiro-apostolo-martir/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 12,38-42)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 20,20-28)",
     "lines": [
-      "Naquele tempo, alguns mestres da Lei e fariseus disseram a Jesus: Mestre, queremos ver um sinal realizado por ti.",
-      "Jesus respondeu-lhes: Uma geração má e adúltera busca um sinal, mas nenhum sinal lhe será dado, a não ser o sinal do profeta Jonas.",
-      "Com efeito, assim como Jonas esteve três dias e três noites no ventre da baleia, assim também o Filho do Homem estará três dias e três noites no seio da terra.",
-      "No dia do juízo, os habitantes de Nínive se levantarão contra essa geração e a condenarão, porque se converteram diante da pregação de Jonas.",
-      "E aqui está quem é maior do que Jonas.",
-      "No dia do juízo, a rainha do Sul se levantará contra essa geração, e a condenará, porque veio dos confins da terra para ouvir a sabedoria de Salomão, e aqui está quem é maior do que Salomão."
+      "Naquele tempo, a mãe dos filhos de Zebedeu aproximou-se de Jesus com seus filhos e ajoelhou-se com a intenção de fazer um pedido.",
+      "Jesus perguntou: O que tu queres? Ela respondeu: Manda que estes meus dois filhos se sentem, no teu Reino, um à tua direita e outro à tua esquerda.",
+      "Jesus, então, respondeu-lhes: Não sabeis o que estais pedindo.",
+      "Por acaso podeis beber o cálice que eu vou beber? Eles responderam: Podemos.",
+      "Então Jesus lhes disse: De fato, vós bebereis do meu cálice, mas não depende de mim conceder o lugar à minha direita ou à minha esquerda.",
+      "Meu Pai é quem dará esses lugares àqueles para os quais ele os preparou.",
+      "Quando os outros dez discípulos ouviram isso, ficaram irritados contra os dois irmãos."
     ],
-    "keyVerse": "Oxalá ouvísseis hoje a sua voz: Não fecheis os corações como em Meriba!",
-    "body": "Naquele tempo, 38 alguns mestres da Lei e fariseus disseram a Jesus: \"Mestre, queremos ver um sinal realizado por ti\". 39 Jesus respondeu-lhes: \"Uma geração má e adúltera busca um sinal, mas nenhum sinal lhe será dado, a não ser o sinal do profeta Jonas. 40 Com efeito, assim como Jonas esteve três dias e três noites no ventre da baleia, assim também o Filho do Homem estará três dias e três noites no seio da terra. 41 No dia do juízo, os habitantes de Nínive se levantarão contra essa geração e a condenarão, porque se converteram diante da pregação de Jonas. E aqui está quem é maior do que Jonas. 42 No dia do juízo, a rainha do Sul se levantará contra essa geração, e a condenará, porque veio dos confins da terra para ouvir a sabedoria de Salomão, e aqui está quem é maior do que Salomão\". —"
+    "keyVerse": "Eu vos designei para que vades e deis frutos, e o vosso fruto permaneça, assim disse o Senhor.",
+    "body": "Naquele tempo, 20 a mãe dos filhos de Zebedeu aproximou-se de Jesus com seus filhos e ajoelhou-se com a intenção de fazer um pedido. 21 Jesus perguntou: \"O que tu queres?\" Ela respondeu: \"Manda que estes meus dois filhos se sentem, no teu Reino, um à tua direita e outro à tua esquerda\". 22 Jesus, então, respondeu-lhes: \"Não sabeis o que estais pedindo. Por acaso podeis beber o cálice que eu vou beber?\" Eles responderam: \"Podemos\". 23 Então Jesus lhes disse: \"De fato, vós bebereis do meu cálice, mas não depende de mim conceder o lugar à minha direita ou à minha esquerda. Meu Pai é quem dará esses lugares àqueles para os quais ele os preparou\". 24 Quando os outros dez discípulos ouviram isso, ficaram irritados contra os dois irmãos. 25 Jesus, porém, chamou-os, e disse: \"Vós sabeis que os chefes das nações têm poder sobre elas e os grandes as oprimem. 26 Entre vós não deverá ser assim. Quem quiser tornar-se grande, torne-se vosso servidor; 27 quem quiser ser o primeiro, seja vosso servo. 28 Pois, o Filho do Homem não veio para ser servido, mas para servir e dar a sua vida como resgate em favor de muitos\". —"
   },
   "sponsor": {
     "enabled": true,
@@ -38,57 +39,57 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "O abade de Subiaco: encontro familiar com o Papa, que nos fez sentir filhos e irmãos",
-      "summary": "A última quarta-feira, 22 de julho, ficará entre as mais belas lembranças para os monges de São Bento e Santa Escolástica. Leão XIV visitou os locais que testemunham a experiência eremítica e comunitária do santo de Norcia. Às mídias do.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/abade-subiaco-visita-papa-leao-xiv-sao-bento-santa-escolastica.html",
-      "published": "2026-07-24"
+      "title": "O Papa: Igreja na Ásia, fortalecer a unidade para construir pontes no continente",
+      "summary": "Leão XIV enviou uma mensagem de vídeo aos participantes da assembleia plenária da Federação das Conferências Episcopais da Ásia (FABC) que se realiza, em Jacarta, na Indonésia, de 21 a 26 de julho, para discutir e desenvolver novas linhas.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/mensagem-video-papa-plenaria-conferencias-episcopais-jacarta.html",
+      "published": "2026-07-25"
     },
     {
       "source": "Vatican News",
-      "title": "Cardeal Parolin: é necessária uma “Páscoa de Paz” para eliminar a guerra",
-      "summary": "Ao discursar na apresentação do livro “Páscoa de Paz. De João XXIII a Leão XIV rumo ao Jubileu de 2033”, do jornalista Antonio Preziosi, o secretário de Estado Parolin traça o “revezamento” que atravessa os pontificados pós-conciliares,.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/cardeal-parolin-livro-papas-jornalista-antonio-preziosi-julho-26.html",
-      "published": "2026-07-23"
+      "title": "Venezuela, um mês após o terremoto. Os bispos: ser “samaritanos”",
+      "summary": "O episcopado, trinta dias após o duplo terremoto que atingiu o país, divulgou uma mensagem para exortar a não esquecer os que sofrem, que se sentiram abandonados pelas instituições públicas. O texto também expressa gratidão ao Papa Leão.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/venezuela-mes-apos-terremoto-bispos-ser-samaritanos.html",
+      "published": "2026-07-24"
     },
     {
       "source": "CNBB",
-      "title": "O martírio da paciência, fonte de esperança, civilidade, empatia e tolerância",
-      "summary": "Dom Roberto Francisco Ferrería Paz Bispo de Campos (RJ) No livro biográfico “O martírio da paciência”, o Cardeal Agostinho Casaroli secretário de Estado de São João Paulo II testemunhou o seu trabalho incansável de artesão da Paz, que.",
-      "url": "https://www.cnbb.org.br/o-martirio-da-paciencia-fonte-de-esperanca-civilidade-empatia-e-tolerancia/",
+      "title": "Dia dos Avós ganha destaque na Igreja",
+      "summary": "Dom Carmo João Rhoden Bispo Emérito de Taubaté (SP) Dia dos Avós 26/07/26 (Mt 13, 44-52) Texto referencial: “Compreendestes tudo isso? Eles responderam “sim” então Jesus acrescentou: ‘Assim, pois, todo o mestre da Lei, que se torna.",
+      "url": "https://www.cnbb.org.br/dia-dos-avos-6/",
       "published": "2026-07-24"
     },
     {
       "source": "ACI Digital",
-      "title": "Regional Sul 1 da CNBB lança reflexões para as eleições 2026 com base na Doutrina Social da",
-      "summary": "A presidência do Regional Sul 1 da Conferência Nacional dos Bispos do Brasil (CNBB) lançou ontem (21) “Reflexões para as Eleições 2026”. O documento tem 20 perguntas e respostas fundamentadas na Sagrada Escritura, no Compêndio da Doutrina.",
-      "url": "https://www.acidigital.com/noticia/69035/regional-sul-1-da-cnbb-lanca-reflexoes-para-as-eleicoes-2026-com-base-na-doutrina-social-da-igreja",
-      "published": "2026-07-22"
-    },
-    {
-      "source": "Shalom",
-      "title": "Halleluya 2026: Confira os melhores momentos do segundo dia de festival",
-      "summary": "Na quinta-feira de Festival Halleluya, o Senhor se mostrou cada vez mais perto de nós e cada vez mais nos alcança com a sua misericórdia. O segundo dia de evento também começou com a celebração da Santa Missa, presidida por Dom Jânison de.",
-      "url": "https://comshalom.org/halleluya-2026-confira-os-melhores-momentos-do-segundo-dia-de-festival/",
+      "title": "Sepultamentos dignos, auxílio e reconstrução: Avaliação da Igreja em Caracas depois de terremot",
+      "summary": "A arquidiocese de Caracas, Venezuela, divulgou na última quarta-feira (22) um relatório sobre sua resposta ao duplo terremoto que atingiu a Venezuela em 24 de junho, há um mês. Em entrevista coletiva, o arcebispo de Caracas, Raúl Biord,.",
+      "url": "https://www.acidigital.com/noticia/69055/sepultamentos-dignos-auxilio-e-reconstrucao-avaliacao-da-igreja-em-caracas-depois-de-terremotos",
       "published": "2026-07-24"
     },
     {
-      "source": "Shalom",
-      "title": "Halleluya Podcast 2026 estreia com a presença de Dom Janison de Sá Santos",
-      "summary": "O primeiro episódio do Halleluya Podcast 2026 nos ajudou a conhecer melhor a trajetória e caminho vocacional e ordenado de Dom Jânison de Sá Santos, bispo auxiliar da Arquidiocese de Fortaleza, no estado do Ceará. Em um diálogo marcado.",
-      "url": "https://comshalom.org/halleluya-podcast-2026-estreia-com-a-presenca-de-dom-janison-de-sa-santos/",
-      "published": "2026-07-24"
+      "source": "ACI Digital",
+      "title": "é a festa de são Cristóvão, padroeiro dos motoristas",
+      "summary": "São Cristóvão de Licia é um mártir importante na história do cristianismo do Oriente e do Ocidente, que viveu durante o governo de Décio, terceiro imperador romano, por volta do ano 250 d.C.",
+      "url": "https://www.acidigital.com/noticia/52674/hoje-e-a-festa-de-sao-cristovao-padroeiro-dos-motoristas",
+      "published": "2026-07-25"
     },
     {
-      "source": "Aleteia",
-      "title": "confirma excomunhão de sacerdote da Arquidiocese de Brasília",
-      "summary": "A Arquidiocese de Brasília publicou, em 10 de julho, uma nota pastoral confirmando a excomunhão do padre Françoá Rodrigues Figueiredo Costa. Segundo o comunicado, a decisão foi tomada pela Santa Sé e produz efeitos canônicos imediatos.",
-      "url": "https://pt.aleteia.org/2026/07/23/vaticano-confirma-excomunhao-de-sacerdote-da-arquidiocese-de-brasilia/",
-      "published": "2026-07-23"
+      "source": "Shalom",
+      "title": "Espaço Kids: O louvor dos pequenos tem lugar garantido na Cidade da",
+      "summary": "Com estrutura inspirada no Caminho da Paz e programação adaptada, o Halleluya Kids promove fé, fofura e acolhimento para toda a família.",
+      "url": "https://comshalom.org/espaco-kids-o-louvor-dos-pequenos-tem-lugar-garantido-na-cidade-da-paz/",
+      "published": "2026-07-25"
+    },
+    {
+      "source": "Shalom",
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "Há mais de duas décadas, Adriana Arydes faz parte da história do Festival Halleluya. Ao longo dos anos, a cantora acompanhou o crescimento do evento e viu milhares de pessoas encontrarem no Festival um espaço de encontro com Deus. Nesta edição de 2026, ela retorna ao palco trazendo um repertório repleto de canções que marcaram sua missão e a caminhada de fé de diferentes gerações....",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-07-25"
     }
   ],
   "closingQuote": {
-    "text": "Uma geração má e adúltera busca um sinal, mas nenhum sinal lhe será dado, a não ser o sinal do profeta Jonas.",
-    "source": "Mateus 12,39"
+    "text": "Podemos.",
+    "source": "Resposta de São Tiago e São João — Mt 20,22"
   },
   "liturgyHours": {
     "reading": "Já não sois estrangeiros nem migrantes, mas concidadãos dos santos. Sois da família de Deus. Vós fostes integrados no edifício que tem como fundamento os apóstolos e os profetas, e o próprio Jesus Cristo como pedra principal. É nele que toda a...",
