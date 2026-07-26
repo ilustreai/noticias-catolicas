@@ -5,7 +5,7 @@
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "26 de julho de 2026 - Tempo Comum",
+    "celebrationTitle": "Domingo XVII do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
     "gospelShort": "Mt 13,44-52"
@@ -13,7 +13,7 @@
   "saint": {
     "feast": "Santo do Dia - 26 de Julho",
     "name": "São Joaquim e Sant'Ana, avós de Jesus",
-    "description": "Celebração litúrgica do dia: 26 de julho de 2026 - Tempo Comum.",
+    "description": "Celebração litúrgica do dia: Domingo XVII do Tempo Comum.",
     "url": "https://santo.cancaonova.com/santo/sao-joaquim-e-santana-avos-de-jesus/"
   },
   "gospel": {
@@ -39,59 +39,52 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Igreja no mundo celebra o Dia de São Pedro e São Paulo com chamado à unidade",
-      "summary": "Celebrações ao redor do mundo marcaram a solenidade dos apóstolos São Pedro e São Paulo, com ênfase no diálogo ecumênico e na missão da Igreja.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-06/igreja-no-mundo-celebra-o-dia-de-sao-pedro-e-sao-paulo.html",
+      "title": "Apelo de Leão para a Terra Santa: se volte a negociar uma solução política justa",
+      "summary": "Angelus: foco na Cisjordânia e Gaza. Respeito pela \"igualdade de dignidade\" e \"igualdade de direitos\" para cada pessoa, rejeitando \"novas ações militares e decisões unilaterais\". Sobre o Oriente Médio, o Papa fez um apelo a \"todas as.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
       "published": "2026-07-26"
     },
     {
       "source": "Vatican News",
-      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
-      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/cardeais-reunidos-em-roma-para-consistorio-extraordinario.html",
+      "title": "O Papa: a indústria do consumo envenena o coração. Deus nos abre à alegria",
+      "summary": "No Angelus rezado na Praça da Liberdade, em Castel Gandolfo, Leão XIV alertou para os riscos de um mercado que \"altera o paladar\" e não sacia, exortou a deixar-se surpreender com o encontro com Jesus, \"o tesouro escondido, a pérola.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-leao-xiv-angelus-industria-consumo-envenena-jesus-deus-vida.html",
       "published": "2026-07-26"
     },
     {
       "source": "CNBB",
-      "title": "Quatro arcebispos brasileiros recebem o pálio arquiepiscopal",
-      "summary": "A CNBB destacou a celebração com quatro arcebispos brasileiros que receberam o pálio em sinal de comunhão e serviço na Igreja no Brasil.",
-      "url": "https://www.cnbb.org.br/quatro-arcebispos-brasileiros-palio-arquiepiscopal/",
-      "published": "2026-07-26"
+      "title": "O martírio da paciência, fonte de esperança, civilidade, empatia e tolerância",
+      "summary": "Dom Roberto Francisco Ferrería Paz Bispo de Campos (RJ) No livro biográfico “O martírio da paciência”, o Cardeal Agostinho Casaroli secretário de Estado de São João Paulo II testemunhou o seu trabalho incansável de artesão da Paz, que.",
+      "url": "https://www.cnbb.org.br/o-martirio-da-paciencia-fonte-de-esperanca-civilidade-empatia-e-tolerancia/",
+      "published": "2026-07-24"
     },
     {
-      "source": "CNBB",
-      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
-      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
-      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "source": "ACI Digital",
+      "title": "Lições de santa Ana e são Joaquim para casais que enfrentam a infertilidade",
+      "summary": "Muitos casais enfrentam hoje a falta de filhos e a infertilidade, mas estão longe de ser os primeiros a passar por isso. Os santos Ana e Joaquim, cuja festa é celebrada hoje (26), são conhecidos como os avós de Jesus e os pais de Nossa.",
+      "url": "https://www.acidigital.com/noticia/58573/licoes-de-santa-ana-e-sao-joaquim-para-casais-que-enfrentam-a-infertilidade",
       "published": "2026-07-26"
     },
     {
       "source": "ACI Digital",
-      "title": "Igreja no Brasil se prepara para o mês vocacional com intensa programação",
-      "summary": "Dioceses de todo o Brasil organizam eventos e campanhas para o mês vocacional de agosto, incentivando jovens a discernirem sua vocação.",
-      "url": "https://www.acidigital.com/noticias/igreja-no-brasil-se-prepara-para-o-mes-vocacional-com-intensa-programacao",
-      "published": "2026-07-26"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
-      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
-      "url": "https://www.acidigital.com/noticias/santuarios-brasileiros-registram-aumento-de-peregrinos-em-2026",
+      "title": "a Igreja celebra são Joaquim e sant’Ana, padroeiros dos avós",
+      "summary": "Hoje (26) é celebrada na Igreja Católica a festa dos pais da santíssima Virgem Maria e avós de Jesus, são Joaquim e sant’Ana.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-sant’ana-padroeiros-dos-avos",
       "published": "2026-07-26"
     },
     {
       "source": "Shalom",
-      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
-      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
-      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "title": "Missionário Shalom sobe ao palco em nova formação no Festival Halleluya 2026",
+      "summary": "A despedida de Gustavo Osterno do Missionário Shalom emocionou o público, quando ele revelou o desejo de voltar ao palco como Sacerdote.",
+      "url": "https://comshalom.org/missionario-shalom-sobe-ao-palco-em-nova-formacao-no-festival-halleluya-2026/",
       "published": "2026-07-26"
     },
     {
-      "source": "Aleteia",
-      "title": "Oração e jejum: as armas espirituais recomendadas pelos santos para os tempos difíceis",
-      "summary": "Grandes santos da Igreja ensinaram que a oração e o jejum são ferramentas poderosas para enfrentar as adversidades da vida.",
-      "url": "https://pt.aleteia.org/2026/06/oracao-e-jejum-armas-espirituais-dos-santos",
-      "published": "2026-07-26"
+      "source": "Shalom",
+      "title": "Espaço Kids: O louvor dos pequenos tem lugar garantido na Cidade da",
+      "summary": "Com estrutura inspirada no Caminho da Paz e programação adaptada, o Halleluya Kids promove fé, fofura e acolhimento para toda a família.",
+      "url": "https://comshalom.org/espaco-kids-o-louvor-dos-pequenos-tem-lugar-garantido-na-cidade-da-paz/",
+      "published": "2026-07-25"
     }
   ],
   "closingQuote": {
