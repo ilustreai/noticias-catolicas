@@ -441,10 +441,10 @@ export function validateRenderedHtml(html, selection) {
   if (!html.includes(selection.editionLabel)) errors.push('missing edition label');
   if (!html.includes(selection.liturgical.cssColor)) errors.push('missing liturgical color');
   if (!html.includes(liturgicalDisplayTitle(selection.liturgical))) errors.push('missing liturgical display title');
-  if (selection.saint?.name && !html.includes(selection.saint.name)) errors.push('missing saint name');
+  if (selection.saint?.name && !html.includes(selection.saint.name) && !html.includes(escapeHtml(selection.saint.name))) errors.push('missing saint name');
   if (!html.includes('Evangelho do Dia')) errors.push('missing gospel ref');
-  if (selection.closingQuote?.text && !html.includes(selection.closingQuote.text)) errors.push('missing closing quote text');
-  if (selection.closingQuote?.source && !html.includes(selection.closingQuote.source)) errors.push('missing closing quote source');
+  if (selection.closingQuote?.text && !html.includes(selection.closingQuote.text) && !html.includes(escapeHtml(selection.closingQuote.text))) errors.push('missing closing quote text');
+  if (selection.closingQuote?.source && !html.includes(selection.closingQuote.source) && !html.includes(escapeHtml(selection.closingQuote.source))) errors.push('missing closing quote source');
   if (!html.includes('class="hero-title"')) errors.push('missing hero title');
   const renderedNewsCount = (html.match(/class="news-item/g) ?? []).length;
   if (renderedNewsCount < 5) errors.push('missing news items');
