@@ -5,7 +5,7 @@
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XVII do Tempo Comum",
+    "celebrationTitle": "26 de julho de 2026 - Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
     "gospelShort": "Mt 13,44-52"
@@ -13,7 +13,7 @@
   "saint": {
     "feast": "Santo do Dia - 26 de Julho",
     "name": "São Joaquim e Sant'Ana, avós de Jesus",
-    "description": "Celebração litúrgica do dia: Domingo XVII do Tempo Comum.",
+    "description": "Celebração litúrgica do dia: 26 de julho de 2026 - Tempo Comum.",
     "url": "https://santo.cancaonova.com/santo/sao-joaquim-e-santana-avos-de-jesus/"
   },
   "gospel": {
@@ -53,6 +53,13 @@
     },
     {
       "source": "CNBB",
+      "title": "Quatro arcebispos brasileiros recebem o pálio arquiepiscopal",
+      "summary": "A CNBB destacou a celebração com quatro arcebispos brasileiros que receberam o pálio em sinal de comunhão e serviço na Igreja no Brasil.",
+      "url": "https://www.cnbb.org.br/quatro-arcebispos-brasileiros-palio-arquiepiscopal/",
+      "published": "2026-07-26"
+    },
+    {
+      "source": "CNBB",
       "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
       "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
       "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
@@ -74,23 +81,16 @@
     },
     {
       "source": "Shalom",
-      "title": "Espaço Kids: O louvor dos pequenos tem lugar garantido na Cidade da",
-      "summary": "Com estrutura inspirada no Caminho da Paz e programação adaptada, o Halleluya Kids promove fé, fofura e acolhimento para toda a família.",
-      "url": "https://comshalom.org/espaco-kids-o-louvor-dos-pequenos-tem-lugar-garantido-na-cidade-da-paz/",
-      "published": "2026-07-25"
+      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
+      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
+      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "published": "2026-07-26"
     },
     {
       "source": "Aleteia",
       "title": "Oração e jejum: as armas espirituais recomendadas pelos santos para os tempos difíceis",
       "summary": "Grandes santos da Igreja ensinaram que a oração e o jejum são ferramentas poderosas para enfrentar as adversidades da vida.",
       "url": "https://pt.aleteia.org/2026/06/oracao-e-jejum-armas-espirituais-dos-santos",
-      "published": "2026-07-26"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "São Joaquim e Sant’Ana: pais de Nossa Senhora, avós de Deus!",
-      "summary": "Dia 26 de julho, a Igreja celebra São Joaquim e Sant’Ana, os pais de Nossa Senhora. Eles eram já idosos quando Maria foi concebida de forma inteiramente miraculosa. Redação ( 26/07/2026 07:55 , Gaudium Press ) Ao norte da Terra Prometida.",
-      "url": "https://gaudiumpress.org/content/sao-joaquim-e-santana-pais-de-nossa-senhora-avos-de-deus/",
       "published": "2026-07-26"
     }
   ],
