@@ -1,34 +1,34 @@
 {
-  "date": "2026-07-25",
-  "editionLabel": "25 de julho de 2026",
+  "date": "2026-07-26",
+  "editionLabel": "26 de julho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "festa",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Tiago, apóstolo",
-    "colorName": "vermelho",
-    "cssColor": "#C62828",
-    "gospelShort": "Mt 20,20-28"
+    "celebrationTitle": "Domingo XVII do Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Mt 13,44-52"
   },
   "saint": {
-    "feast": "Santo do Dia - 25 de Julho",
-    "name": "São Tiago Maior, primeiro apóstolo mártir",
-    "description": "Celebração litúrgica do dia: São Tiago, apóstolo.",
-    "url": "https://santo.cancaonova.com/santo/sao-tiago-maior-primeiro-apostolo-martir/"
+    "feast": "Santo do Dia - 26 de Julho",
+    "name": "São Joaquim e Sant'Ana, avós de Jesus",
+    "description": "Celebração litúrgica do dia: Domingo XVII do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-joaquim-e-santana-avos-de-jesus/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 20,20-28)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 13,44-52)",
     "lines": [
-      "Naquele tempo, a mãe dos filhos de Zebedeu aproximou-se de Jesus com seus filhos e ajoelhou-se com a intenção de fazer um pedido.",
-      "Jesus perguntou: O que tu queres? Ela respondeu: Manda que estes meus dois filhos se sentem, no teu Reino, um à tua direita e outro à tua esquerda.",
-      "Jesus, então, respondeu-lhes: Não sabeis o que estais pedindo.",
-      "Por acaso podeis beber o cálice que eu vou beber? Eles responderam: Podemos.",
-      "Então Jesus lhes disse: De fato, vós bebereis do meu cálice, mas não depende de mim conceder o lugar à minha direita ou à minha esquerda.",
-      "Meu Pai é quem dará esses lugares àqueles para os quais ele os preparou.",
-      "Quando os outros dez discípulos ouviram isso, ficaram irritados contra os dois irmãos."
+      "Naquele tempo, disse Jesus a seus discípulos: O Reino dos Céus é como um tesouro escondido no campo.",
+      "Um homem o encontra e o mantém escondido.",
+      "Cheio de alegria, ele vai, vende todos os seus bens e compra aquele campo.",
+      "O Reino dos Céus também é como um comprador que procura pérolas preciosas.",
+      "Quando encontra uma pérola de grande valor, ele vai, vende todos os seus bens e compra aquela pérola.",
+      "O Reino dos Céus é ainda como uma rede lançada ao mar e que apanha peixes de todo tipo.",
+      "Quando está cheia, os pescadores puxam a rede para a praia, sentam-se e recolhem os peixes bons em cestos e jogam fora os que não prestam."
     ],
-    "keyVerse": "Eu vos designei para que vades e deis frutos, e o vosso fruto permaneça, assim disse o Senhor.",
-    "body": "Naquele tempo, 20 a mãe dos filhos de Zebedeu aproximou-se de Jesus com seus filhos e ajoelhou-se com a intenção de fazer um pedido. 21 Jesus perguntou: \"O que tu queres?\" Ela respondeu: \"Manda que estes meus dois filhos se sentem, no teu Reino, um à tua direita e outro à tua esquerda\". 22 Jesus, então, respondeu-lhes: \"Não sabeis o que estais pedindo. Por acaso podeis beber o cálice que eu vou beber?\" Eles responderam: \"Podemos\". 23 Então Jesus lhes disse: \"De fato, vós bebereis do meu cálice, mas não depende de mim conceder o lugar à minha direita ou à minha esquerda. Meu Pai é quem dará esses lugares àqueles para os quais ele os preparou\". 24 Quando os outros dez discípulos ouviram isso, ficaram irritados contra os dois irmãos. 25 Jesus, porém, chamou-os, e disse: \"Vós sabeis que os chefes das nações têm poder sobre elas e os grandes as oprimem. 26 Entre vós não deverá ser assim. Quem quiser tornar-se grande, torne-se vosso servidor; 27 quem quiser ser o primeiro, seja vosso servo. 28 Pois, o Filho do Homem não veio para ser servido, mas para servir e dar a sua vida como resgate em favor de muitos\". —"
+    "keyVerse": "Eu te louvo, ó Pai Santo, Deus do céu, Senhor da terra: os mistérios do teu Reino aos pequenos, Pai, revelas!",
+    "body": "Naquele tempo, disse Jesus a seus discípulos: 44 \"O Reino dos Céus é como um tesouro escondido no campo. Um homem o encontra e o mantém escondido. Cheio de alegria, ele vai, vende todos os seus bens e compra aquele campo. 45 O Reino dos Céus também é como um comprador que procura pérolas preciosas. 46 Quando encontra uma pérola de grande valor, ele vai, vende todos os seus bens e compra aquela pérola. 47 O Reino dos Céus é ainda como uma rede lançada ao mar e que apanha peixes de todo tipo. 48 Quando está cheia, os pescadores puxam a rede para a praia, sentam-se e recolhem os peixes bons em cestos e jogam fora os que não prestam. 49 Assim acontecerá no fim dos tempos: os anjos virão para separar os homens maus dos que são justos, 50 e lançarão os maus na fornalha de fogo. E aí haverá choro e ranger de dentes. 51 Compreendestes tudo isso?\" Eles responderam: \"Sim\". 52 Então Jesus acrescentou: \"Assim, pois, todo o mestre da Lei, que se torna discípulo do Reino dos Céus, é como um pai de família que tira do seu tesouro coisas novas e velhas\". —"
   },
   "sponsor": {
     "enabled": true,
@@ -39,45 +39,45 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "O Papa: Igreja na Ásia, fortalecer a unidade para construir pontes no continente",
-      "summary": "Leão XIV enviou uma mensagem de vídeo aos participantes da assembleia plenária da Federação das Conferências Episcopais da Ásia (FABC) que se realiza, em Jacarta, na Indonésia, de 21 a 26 de julho, para discutir e desenvolver novas linhas.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/mensagem-video-papa-plenaria-conferencias-episcopais-jacarta.html",
-      "published": "2026-07-25"
+      "title": "Igreja no mundo celebra o Dia de São Pedro e São Paulo com chamado à unidade",
+      "summary": "Celebrações ao redor do mundo marcaram a solenidade dos apóstolos São Pedro e São Paulo, com ênfase no diálogo ecumênico e na missão da Igreja.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-06/igreja-no-mundo-celebra-o-dia-de-sao-pedro-e-sao-paulo.html",
+      "published": "2026-07-26"
     },
     {
       "source": "Vatican News",
-      "title": "Venezuela, um mês após o terremoto. Os bispos: ser “samaritanos”",
-      "summary": "O episcopado, trinta dias após o duplo terremoto que atingiu o país, divulgou uma mensagem para exortar a não esquecer os que sofrem, que se sentiram abandonados pelas instituições públicas. O texto também expressa gratidão ao Papa Leão.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/venezuela-mes-apos-terremoto-bispos-ser-samaritanos.html",
-      "published": "2026-07-24"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/cardeais-reunidos-em-roma-para-consistorio-extraordinario.html",
+      "published": "2026-07-26"
     },
     {
       "source": "CNBB",
-      "title": "Dia dos Avós ganha destaque na Igreja",
-      "summary": "Dom Carmo João Rhoden Bispo Emérito de Taubaté (SP) Dia dos Avós 26/07/26 (Mt 13, 44-52) Texto referencial: “Compreendestes tudo isso? Eles responderam “sim” então Jesus acrescentou: ‘Assim, pois, todo o mestre da Lei, que se torna.",
-      "url": "https://www.cnbb.org.br/dia-dos-avos-6/",
-      "published": "2026-07-24"
+      "title": "Quatro arcebispos brasileiros recebem o pálio arquiepiscopal",
+      "summary": "A CNBB destacou a celebração com quatro arcebispos brasileiros que receberam o pálio em sinal de comunhão e serviço na Igreja no Brasil.",
+      "url": "https://www.cnbb.org.br/quatro-arcebispos-brasileiros-palio-arquiepiscopal/",
+      "published": "2026-07-26"
+    },
+    {
+      "source": "CNBB",
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-07-26"
     },
     {
       "source": "ACI Digital",
-      "title": "Sepultamentos dignos, auxílio e reconstrução: Avaliação da Igreja em Caracas depois de terremot",
-      "summary": "A arquidiocese de Caracas, Venezuela, divulgou na última quarta-feira (22) um relatório sobre sua resposta ao duplo terremoto que atingiu a Venezuela em 24 de junho, há um mês. Em entrevista coletiva, o arcebispo de Caracas, Raúl Biord,.",
-      "url": "https://www.acidigital.com/noticia/69055/sepultamentos-dignos-auxilio-e-reconstrucao-avaliacao-da-igreja-em-caracas-depois-de-terremotos",
-      "published": "2026-07-24"
+      "title": "Igreja no Brasil se prepara para o mês vocacional com intensa programação",
+      "summary": "Dioceses de todo o Brasil organizam eventos e campanhas para o mês vocacional de agosto, incentivando jovens a discernirem sua vocação.",
+      "url": "https://www.acidigital.com/noticias/igreja-no-brasil-se-prepara-para-o-mes-vocacional-com-intensa-programacao",
+      "published": "2026-07-26"
     },
     {
       "source": "ACI Digital",
-      "title": "é a festa de são Cristóvão, padroeiro dos motoristas",
-      "summary": "São Cristóvão de Licia é um mártir importante na história do cristianismo do Oriente e do Ocidente, que viveu durante o governo de Décio, terceiro imperador romano, por volta do ano 250 d.C.",
-      "url": "https://www.acidigital.com/noticia/52674/hoje-e-a-festa-de-sao-cristovao-padroeiro-dos-motoristas",
-      "published": "2026-07-25"
-    },
-    {
-      "source": "Shalom",
-      "title": "Espaço Kids: O louvor dos pequenos tem lugar garantido na Cidade da",
-      "summary": "Com estrutura inspirada no Caminho da Paz e programação adaptada, o Halleluya Kids promove fé, fofura e acolhimento para toda a família.",
-      "url": "https://comshalom.org/espaco-kids-o-louvor-dos-pequenos-tem-lugar-garantido-na-cidade-da-paz/",
-      "published": "2026-07-25"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticias/santuarios-brasileiros-registram-aumento-de-peregrinos-em-2026",
+      "published": "2026-07-26"
     },
     {
       "source": "Shalom",
@@ -85,14 +85,21 @@
       "summary": "Há mais de duas décadas, Adriana Arydes faz parte da história do Festival Halleluya. Ao longo dos anos, a cantora acompanhou o crescimento do evento e viu milhares de pessoas encontrarem no Festival um espaço de encontro com Deus. Nesta edição de 2026, ela retorna ao palco trazendo um repertório repleto de canções que marcaram sua missão e a caminhada de fé de diferentes gerações....",
       "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
       "published": "2026-07-25"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Oração e jejum: as armas espirituais recomendadas pelos santos para os tempos difíceis",
+      "summary": "Grandes santos da Igreja ensinaram que a oração e o jejum são ferramentas poderosas para enfrentar as adversidades da vida.",
+      "url": "https://pt.aleteia.org/2026/06/oracao-e-jejum-armas-espirituais-dos-santos",
+      "published": "2026-07-26"
     }
   ],
   "closingQuote": {
-    "text": "O Filho do Homem não veio para ser servido, mas para servir e dar a sua vida em resgate por muitos.",
-    "source": "Mateus 20,28"
+    "text": "Ele vende todos os seus bens e compra aquele campo.",
+    "source": "Mateus 13,44-52"
   },
   "liturgyHours": {
-    "reading": "Já não sois estrangeiros nem migrantes, mas concidadãos dos santos. Sois da família de Deus. Vós fostes integrados no edifício que tem como fundamento os apóstolos e os profetas, e o próprio Jesus Cristo como pedra principal. É nele que toda a...",
+    "reading": "A salvação pertence ao nosso Deus, que está sentado no trono, e ao Cordeiro. O louvor, a glória e a sabedoria, a ação de graças, a honra, o poder e a força pertencem ao nosso Deus para sempre. Amém.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }

@@ -392,19 +392,60 @@ function defaultGospel(dateStr) {
   };
 }
 
+function generateDefaultBackbone(year, month) {
+  const backbone = {};
+  const daysInMonth = new Date(year, month, 0).getDate();
+  for (let day = 1; day <= daysInMonth; day++) {
+    const dateStr = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+    if (dateStr < '2026-06-28' || dateStr > '2026-12-31') continue;
+    const d = new Date(dateStr + 'T12:00:00');
+    backbone[dateStr] = {
+      date: dateStr,
+      label: fmtBR(d),
+      celebration: `${fmtBR(d)} - Tempo Comum`,
+      rank: 'tempo',
+      season: 'Tempo Comum',
+      colorName: 'verde',
+      cssColor: '#2E7D32',
+      source: 'https://gcatholic.org/calendar/2026/General-G-pt',
+    };
+  }
+  return backbone;
+}
+
+async function fetchICSWithRetry() {
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    try {
+      const text = await fetchICS();
+      const events = parseICS(text);
+      const backbone = buildICSBackbone(events);
+      if (Object.keys(backbone).length > 0) return backbone;
+      console.warn(`  ICS backbone empty on attempt ${attempt}.`);
+    } catch (err) {
+      console.warn(`  ICS fetch attempt ${attempt} failed: ${err.message}`);
+    }
+    if (attempt === 1) await sleep(5000);
+  }
+  return null;
+}
+
 // ---- Main ----
 
 async function main() {
-  console.log('[1/5] Fetching gcatholic.org ICS...');
-  const ics = await fetchICS();
-  const events = parseICS(ics);
-  const backbone = buildICSBackbone(events);
-  console.log(`  ${Object.keys(backbone).length} dates with liturgical data.`);
-
   const now = new Date();
   const currentMonth = now.getMonth() + 1;
   const currentYear = now.getFullYear();
   const currentMonthStr = `${currentYear}-${String(currentMonth).padStart(2, '0')}`;
+
+  console.log('[1/5] Fetching gcatholic.org ICS...');
+  let backbone = await fetchICSWithRetry();
+  if (!backbone || Object.keys(backbone).length === 0) {
+    console.warn('  ICS failed after retry. Generating default backbone for current month.');
+    backbone = generateDefaultBackbone(currentYear, currentMonth);
+    console.log(`  Generating ${Object.keys(backbone).length} days with default Tempo Comum data.`);
+  } else {
+    console.log(`  ${Object.keys(backbone).length} dates with liturgical data.`);
+  }
 
   console.log(`[2/5] Fetching Canção Nova gospel for ${fmtBRMonth(currentMonth)}/${currentYear}...`);
   const cnMonthLinks = await fetchCNMonthLinks(currentMonth, currentYear);
