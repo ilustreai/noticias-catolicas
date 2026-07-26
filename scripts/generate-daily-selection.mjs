@@ -95,6 +95,22 @@ const fallbackItemsBySource = {
       summary: 'Grandes santos da Igreja ensinaram que a oração e o jejum são ferramentas poderosas para enfrentar as adversidades da vida.',
       url: 'https://pt.aleteia.org/2026/06/oracao-e-jejum-armas-espirituais-dos-santos'
     }
+  ],
+  Shalom: [
+    {
+      source: 'Shalom',
+      kind: 'trusted',
+      title: 'Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya',
+      summary: 'Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.',
+      url: 'https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/'
+    },
+    {
+      source: 'Shalom',
+      kind: 'trusted',
+      title: 'Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão',
+      summary: 'A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.',
+      url: 'https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/'
+    }
   ]
 };
 
@@ -735,6 +751,7 @@ function injectFallbacks(selection) {
 
   for (const fb of allFallbacks) {
     if (usedUrls.has(fb.url)) continue;
+    if (rejectsEditorially(fb)) continue;
     const srcCount = sourceCounts.get(fb.source) ?? 0;
     if (srcCount >= 2) {
       const replaceIdx = news.findIndex((item) => item.source === fb.source);
@@ -797,7 +814,7 @@ async function main() {
   const sources = readJson(path.join(rootDir, 'data', 'news-sources.json'));
   const fetched = (await Promise.all(sources.map(fetchSource))).flat();
   const candidates = rankCandidates(uniqueItems(fetched)
-    .filter((item) => item.published && daysBetween(date, item.published) <= 1)
+    .filter((item) => item.published && daysBetween(date, item.published) <= 2)
     .filter((item) => !rejectsEditorially(item))
     , date);
 
@@ -839,10 +856,6 @@ async function main() {
   if (!result.ok) {
     const forced = injectFallbacks(selection);
     selection = forced;
-  // Default missing published dates to the edition date
-  selection.news = selection.news.map(item => ({ ...item, published: item.published || date }));
-
-  selection.news = sortByPriority(selection.news);
     const finalResult = validateSelection(selection);
     if (!finalResult.ok) {
       console.error('Generated selection failed validation:');
@@ -850,6 +863,10 @@ async function main() {
       process.exit(1);
     }
   }
+
+  // Default missing published dates to the edition date (always, not just on validation failure)
+  selection.news = selection.news.map(item => ({ ...item, published: item.published || date }));
+  selection.news = sortByPriority(selection.news);
 
   writeFileEnsured(path.join(rootDir, 'data', 'daily-selection.json'), `${JSON.stringify(selection, null, 2)}\n`);
   console.log(`Generated daily selection for ${date} with ${selection.news.length} news items.`);
