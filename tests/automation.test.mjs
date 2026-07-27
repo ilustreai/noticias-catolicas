@@ -1,5 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
 import {
   buildPage,
   escapeHtml,
@@ -70,6 +72,36 @@ const validSelection = {
     }
   ]
 };
+
+test('all fallback URLs are reachable (no 404)', { timeout: 30000 }, async () => {
+  const source = fs.readFileSync(
+    path.resolve('scripts/generate-daily-selection.mjs'), 'utf8'
+  );
+  const urls = [...source.matchAll(/url:\s*'([^']+)'/g)].map(m => m[1]);
+  assert.ok(urls.length >= 8, `expected at least 8 fallback URLs, found ${urls.length}`);
+
+  const results = await Promise.all(urls.map(async (url) => {
+    try {
+      const res = await fetch(url, { method: 'HEAD', redirect: 'follow' });
+      return { url, ok: res.ok, status: res.status };
+    } catch {
+      try {
+        const res = await fetch(url, { method: 'GET', redirect: 'follow' });
+        return { url, ok: res.ok, status: res.status };
+      } catch (err) {
+        return { url, ok: false, status: 0, error: err.message };
+      }
+    }
+  }));
+
+  const failures = results.filter(r => !r.ok);
+  if (failures.length > 0) {
+    const msg = failures.map(f =>
+      `  ${f.status}${f.error ? ` (${f.error})` : ''} ${f.url}`
+    ).join('\n');
+    assert.fail(`Broken fallback URLs:\n${msg}`);
+  }
+});
 
 test('escapeHtml neutralizes HTML injection', () => {
   assert.equal(
