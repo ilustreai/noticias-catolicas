@@ -1,34 +1,33 @@
 {
-  "date": "2026-07-26",
-  "editionLabel": "26 de julho de 2026",
+  "date": "2026-07-27",
+  "editionLabel": "27 de julho de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XVII do Tempo Comum",
+    "celebrationTitle": "Segunda-Feira da Semana XVII do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 13,44-52"
+    "gospelShort": "Mt 13,31-35"
   },
   "saint": {
-    "feast": "Santo do Dia - 26 de Julho",
-    "name": "São Joaquim e Sant'Ana, avós de Jesus",
-    "description": "Celebração litúrgica do dia: Domingo XVII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-joaquim-e-santana-avos-de-jesus/"
+    "feast": "Santo do Dia - 27 de Julho",
+    "name": "São Pantaleão, médico e mártir",
+    "description": "Celebração litúrgica do dia: Segunda-Feira da Semana XVII do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-pantaleao-medico-e-martir/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 13,44-52)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 13,31-35)",
     "lines": [
-      "Naquele tempo, disse Jesus a seus discípulos: O Reino dos Céus é como um tesouro escondido no campo.",
-      "Um homem o encontra e o mantém escondido.",
-      "Cheio de alegria, ele vai, vende todos os seus bens e compra aquele campo.",
-      "O Reino dos Céus também é como um comprador que procura pérolas preciosas.",
-      "Quando encontra uma pérola de grande valor, ele vai, vende todos os seus bens e compra aquela pérola.",
-      "O Reino dos Céus é ainda como uma rede lançada ao mar e que apanha peixes de todo tipo.",
-      "Quando está cheia, os pescadores puxam a rede para a praia, sentam-se e recolhem os peixes bons em cestos e jogam fora os que não prestam."
+      "Naquele tempo, Jesus contou-lhes outra parábola: O Reino dos Céus é como uma semente de mostarda que um homem pega e semeia no seu campo.",
+      "Embora ela seja a menor de todas as sementes, quando cresce, fica maior do que as outras plantas.",
+      "E torna-se uma árvore, de modo que os pássaros vêm e fazem ninhos em seus ramos.",
+      "Jesus contou-lhes ainda uma outra parábola: O Reino dos Céus é como o fermento que uma mulher pega e mistura com três porções de farinha, até que tudo fique fermentado.",
+      "Tudo isso Jesus falava em parábolas às multidões.",
+      "Nada lhes falava sem usar parábolas, para se cumprir o que foi dito pelo profeta: Abrirei a boca para falar em parábolas; vou proclamar coisas escondidas desde a criação do mundo."
     ],
-    "keyVerse": "Eu te louvo, ó Pai Santo, Deus do céu, Senhor da terra: os mistérios do teu Reino aos pequenos, Pai, revelas!",
-    "body": "Naquele tempo, disse Jesus a seus discípulos: 44 \"O Reino dos Céus é como um tesouro escondido no campo. Um homem o encontra e o mantém escondido. Cheio de alegria, ele vai, vende todos os seus bens e compra aquele campo. 45 O Reino dos Céus também é como um comprador que procura pérolas preciosas. 46 Quando encontra uma pérola de grande valor, ele vai, vende todos os seus bens e compra aquela pérola. 47 O Reino dos Céus é ainda como uma rede lançada ao mar e que apanha peixes de todo tipo. 48 Quando está cheia, os pescadores puxam a rede para a praia, sentam-se e recolhem os peixes bons em cestos e jogam fora os que não prestam. 49 Assim acontecerá no fim dos tempos: os anjos virão para separar os homens maus dos que são justos, 50 e lançarão os maus na fornalha de fogo. E aí haverá choro e ranger de dentes. 51 Compreendestes tudo isso?\" Eles responderam: \"Sim\". 52 Então Jesus acrescentou: \"Assim, pois, todo o mestre da Lei, que se torna discípulo do Reino dos Céus, é como um pai de família que tira do seu tesouro coisas novas e velhas\". —"
+    "keyVerse": "Deus nos gerou pela palavra da verdade como as primícias de suas criaturas!",
+    "body": "Naquele tempo, 31 Jesus contou-lhes outra parábola: \"O Reino dos Céus é como uma semente de mostarda que um homem pega e semeia no seu campo. 32 Embora ela seja a menor de todas as sementes, quando cresce, fica maior do que as outras plantas. E torna-se uma árvore, de modo que os pássaros vêm e fazem ninhos em seus ramos\". 33 Jesus contou-lhes ainda uma outra parábola: \"O Reino dos Céus é como o fermento que uma mulher pega e mistura com três porções de farinha, até que tudo fique fermentado\". 34 Tudo isso Jesus falava em parábolas às multidões. Nada lhes falava sem usar parábolas, 35 para se cumprir o que foi dito pelo profeta: \"Abrirei a boca para falar em parábolas; vou proclamar coisas escondidas desde a criação do mundo\". —"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +38,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "O Papa aos jovens: usem as redes sociais e a inteligência artificial com moderação e disciplina",
-      "summary": "Leão XIV se comunicou, através de vídeo, com os jovens que participam do Festival Halleluya 2026 que se conclui neste domingo, 26 de julho, em Fortaleza. O Pontífice os alertou para os riscos que os instrumentos digitais podem criar,.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-leao-mensagem-video-festival-halleluya-fortaleza-brasil.html",
-      "published": "2026-07-26"
+      "title": "Papa Leão XIV propõe paz, sinodalidade e ardor missionário na abertura do Consistório",
+      "summary": "O Pontífice abriu o consistório extraordinário com um discurso centrado na paz mundial, na sinodalidade e no chamado a uma Igreja missionária.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-propoe-paz-sinodalidade-e-ardor-missionario.html",
+      "published": "2026-07-27"
     },
     {
       "source": "Vatican News",
-      "title": "Leão XIV aos jovens peruanos: com a sua santa rebeldia sirvam os esquecidos",
-      "summary": "“Transformar as realidades de dor em espaços de esperança”, foi o pedido do Papa Leão XIV aos jovens peruanos reunidos em Cutervo para a II Jornada Diocesana da Juventude. Leia tudo.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-peru-chota-cutervo-jovens-missionarios-esperanca.html",
-      "published": "2026-07-25"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-06/cardeais-reunidos-em-roma-para-consistorio-extraordinario.html",
+      "published": "2026-07-27"
     },
     {
       "source": "CNBB",
-      "title": "O verdadeiro que buscamos é Jesus Ressuscitado!",
-      "summary": "Dom Diamantino Prata de Carvalho Bispo Emérito de Campanha (MG) Nestes domingos em que meditamos o capítulo 13 do Evangelho segundo São Mateus, percebemos que Jesus ensina com autoridade; autoridade que emerge da vida em comunidade da.",
-      "url": "https://www.cnbb.org.br/o-verdadeiro-que-buscamos-e-jesus-ressuscitado/",
-      "published": "2026-07-24"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-07-27"
     },
     {
       "source": "ACI Digital",
-      "title": "Seis dados que talvez não saiba sobre a vida de são Joaquim e sant’Ana",
-      "summary": "Hoje (26), a Igreja celebra a festa de são Joaquim e sant’Ana, os avós de Jesus; por isso oferecemos alguns dados que talvez você não conheça sobre suas vidas e para que se anime a pedir a sua intercessão.",
-      "url": "https://www.acidigital.com/noticia/52756/seis-dados-que-talvez-nao-saiba-sobre-a-vida-de-sao-joaquim-e-sant’ana",
-      "published": "2026-07-26"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "começa a novena a são João Maria Vianney",
-      "summary": "“Tudo sob os olhos de Deus, tudo com Deus, tudo para agradar a Deus”, dizia são João Maria Vianney, conhecido também como o Cura D’Ars devido ao nome do povoado da França onde serviu por muitos anos.",
-      "url": "https://www.acidigital.com/noticia/52757/hoje-comeca-a-novena-a-sao-joao-maria-vianney",
-      "published": "2026-07-26"
-    },
-    {
-      "source": "Shalom",
-      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
-      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
-      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
-      "published": "2026-07-26"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticias/santuarios-brasileiros-registram-aumento-de-peregrinos-em-2026",
+      "published": "2026-07-27"
     },
     {
       "source": "Shalom",
       "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
-      "summary": "Há mais de duas décadas, Adriana Arydes faz parte da história do Festival Halleluya. Ao longo dos anos, a cantora acompanhou o crescimento do evento e viu milhares de pessoas encontrarem no Festival um espaço de encontro com Deus. Nesta edição de 2026, ela retorna ao palco trazendo um repertório repleto de canções que marcaram sua missão e a caminhada de fé de diferentes gerações....",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
       "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
-      "published": "2026-07-25"
+      "published": "2026-07-27"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "Antigamente, o ritmo da vida humana era ditado pelo nascer e pelo pôr do sol. O mundo analógico, com seus tempos de espera e silêncios salutares, ficou para trás. Hoje, vivemos mergulhados em uma avalanche digital que mudou radicalmente o.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar/",
+      "published": "2026-07-27"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Oração e jejum: as armas espirituais recomendadas pelos santos para os tempos difíceis",
+      "summary": "Grandes santos da Igreja ensinaram que a oração e o jejum são ferramentas poderosas para enfrentar as adversidades da vida.",
+      "url": "https://pt.aleteia.org/2026/06/oracao-e-jejum-armas-espirituais-dos-santos",
+      "published": "2026-07-27"
+    },
+    {
+      "source": "Gaudium Press",
+      "title": "Embaixador dos EUA esclarece declarações sobre o Papa e busca encerrar polêmica com The New Yor",
+      "summary": "O diplomata explicou que a Santa Sé exerce uma missão diplomática própria nas relações internacionais, mas que essa atuação jamais pode ser dissociada da missão espiritual do Sucessor de Pedro. Foto: Screenshot/ EWTNNEWS Redação (.",
+      "url": "https://gaudiumpress.org/content/embaixador-dos-eua-esclarece-declaracoes-sobre-o-papa-e-busca-encerrar-polemica-com-the-new-york-times/",
+      "published": "2026-07-26"
     }
   ],
   "closingQuote": {
-    "text": "Ele vende todos os seus bens e compra aquele campo.",
-    "source": "Mateus 13,44-52"
+    "text": "O grão de mostarda torna-se uma árvore, de modo que os pássaros vêm e fazem ninhos em seus ramos.",
+    "source": "Mateus 13,31-35"
   },
   "liturgyHours": {
-    "reading": "A salvação pertence ao nosso Deus, que está sentado no trono, e ao Cordeiro. O louvor, a glória e a sabedoria, a ação de graças, a honra, o poder e a força pertencem ao nosso Deus para sempre. Amém.",
+    "reading": "Quem não quer trabalhar, também não deve comer. Ora, ouvimos dizer que entre vós há alguns que vivem à toa, muito ocupados em não fazer nada. Em nome do Senhor Jesus Cristo, ordenamos e exortamos a essas pessoas que, trabalhando, comam na...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
