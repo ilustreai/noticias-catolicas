@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { randomBytes } from 'node:crypto';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..');
@@ -473,12 +474,71 @@ export function validateRenderedHtml(html, selection) {
 }
 
 export function readJson(filePath) {
-  return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  const raw = fs.readFileSync(filePath, 'utf8');
+  return JSON.parse(raw.replace(/^\uFEFF/, ''));
 }
 
 export function writeFileEnsured(filePath, content) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, content, 'utf8');
+}
+
+export function writeJsonAtomic(filePath, data) {
+  const tmp = filePath + '.tmp.' + randomBytes(4).toString('hex');
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2) + '\n', 'utf8');
+  fs.renameSync(tmp, filePath);
+}
+
+export function loadFallbackItems(fallbackPath) {
+  const fbFile = fallbackPath || path.join(rootDir, 'data', 'fallback-news.json');
+  if (!fs.existsSync(fbFile)) return [];
+  const data = readJson(fbFile);
+  const today = new Date();
+  return (data.items || []).filter(item => {
+    if (!item.expiresAt) return true;
+    const exp = new Date(item.expiresAt + 'T23:59:59-03:00');
+    return exp >= today;
+  });
+}
+
+export function retryFetch(url, options = {}, retries = 2) {
+  const baseDelay = 1000;
+  const fetchImpl = options.fetch || globalThis.fetch;
+  const fetchOpts = { headers: { 'user-agent': 'ilustre.ai noticias catolicas (+https://noticias.ilustreai.com.br)' }, ...options };
+  delete fetchOpts.fetch;
+  return (function attempt(n) {
+    return fetchImpl(url, fetchOpts).catch(err => {
+      if (n <= 0) throw err;
+      const delay = baseDelay * Math.pow(2, retries - n);
+      return new Promise(resolve => setTimeout(resolve, delay)).then(() => attempt(n - 1));
+    });
+  })(retries);
+}
+
+const MOJIBAKE_PAIRS = [
+  ['CanÃ§Ã£o Nova', 'Canção Nova'],
+  ['CanÃ§Ã£o', 'Canção'],
+  ['Ã§Ã£o', 'ção'],
+  ['Ã©', 'é'],
+  ['Ã£', 'ã'],
+  ['Ã¡', 'á'],
+  ['Ã³', 'ó'],
+  ['Ãº', 'ú'],
+  ['Ãª', 'ê'],
+  ['Ã´', 'ô'],
+  ['Ã¼', 'ü'],
+  ['Â ', ''],
+  ['Â', ''],
+];
+
+export function fixMojibake(text) {
+  if (!text) return text;
+  let fixed = String(text);
+  for (const [bad, good] of MOJIBAKE_PAIRS) {
+    fixed = fixed.replaceAll(bad, good);
+  }
+  return fixed;
 }
 
 export function extractCNBBQuoteFromHtml(body) {

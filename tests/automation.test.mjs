@@ -6,7 +6,12 @@ import {
   buildPage,
   escapeHtml,
   validateSelection,
-  validateRenderedHtml
+  validateRenderedHtml,
+  readJson,
+  writeJsonAtomic,
+  loadFallbackItems,
+  retryFetch,
+  fixMojibake
 } from '../scripts/lib.mjs';
 import { generateScript, calculateDuration } from '../scripts/generate-reels-script.mjs';
 
@@ -300,6 +305,54 @@ test('generateReelsScript produces a script under 60 seconds for Reels', () => {
   assert.ok(script.includes(validSelection.closingQuote.text));
   assert.ok(script.includes(validSelection.liturgical.season));
   assert.ok(script.length > 50, 'script too short');
+});
+
+test('readJson handles files with or without BOM', () => {
+  const p = path.resolve('data', 'news-sources.json');
+  const data = readJson(p);
+  assert.ok(Array.isArray(data));
+
+  const tmpPath = path.resolve('data', '_test_bom.json');
+  try {
+    fs.writeFileSync(tmpPath, '\uFEFF{"test":true}\n', 'utf8');
+    const result = readJson(tmpPath);
+    assert.equal(result.test, true);
+  } finally {
+    try { fs.unlinkSync(tmpPath); } catch {}
+  }
+});
+
+test('loadFallbackItems returns non-expired items', () => {
+  const items = loadFallbackItems();
+  assert.ok(items.length >= 8);
+  const expired = items.filter(f => f.expiresAt && new Date(f.expiresAt + 'T23:59:59-03:00') < new Date());
+  assert.equal(expired.length, 0, 'should filter out expired items');
+});
+
+test('fixMojibake corrects known encoding issues', () => {
+  assert.equal(fixMojibake('CanÃ§Ã£o Nova'), 'Canção Nova');
+  assert.equal(fixMojibake('JoÃ£o Paulo II'), 'João Paulo II');
+  assert.equal(fixMojibake('ediÃ§Ã£o'), 'edição');
+});
+
+test('writeJsonAtomic creates valid JSON atomically', () => {
+  const tmpPath = path.resolve('data', '_test_atomic.json');
+  try {
+    const testData = { test: true, value: 42, array: [1, 2, 3] };
+    writeJsonAtomic(tmpPath, testData);
+    const result = readJson(tmpPath);
+    assert.deepEqual(result, testData);
+  } finally {
+    try { fs.unlinkSync(tmpPath); } catch {}
+  }
+});
+
+test('retryFetch works with a valid URL', async () => {
+  const fallbacks = loadFallbackItems();
+  assert.ok(fallbacks.length > 0);
+  const firstUrl = fallbacks[0].url;
+  const resp = await retryFetch(firstUrl, { method: 'HEAD' }, 1);
+  assert.ok(resp.ok || resp.status === 429 || resp.status === 403);
 });
 
 test('generateReelsScript includes a known catchphrase', () => {

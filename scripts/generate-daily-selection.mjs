@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { validateSelection, writeFileEnsured, simplifyGospelRef, truncateAtWord } from './lib.mjs';
+import { validateSelection, writeFileEnsured, writeJsonAtomic, simplifyGospelRef, truncateAtWord, readJson, retryFetch, loadFallbackItems, fixMojibake } from './lib.mjs';
 
 const rootDir = process.cwd();
 const sponsor = {
@@ -114,10 +114,6 @@ const fallbackItemsBySource = {
   ]
 };
 
-function readJson(filePath) {
-  return JSON.parse(fs.readFileSync(filePath, 'utf8').replace(/^\uFEFF/, ''));
-}
-
 function todayInSaoPaulo() {
   if (process.env.SELECTION_DATE) return process.env.SELECTION_DATE;
   const parts = new Intl.DateTimeFormat('en-CA', {
@@ -161,14 +157,14 @@ function isoDateFromFeed(value) {
   return new Date(time).toISOString().slice(0, 10);
 }
 
-async function fetchFeed(source) {
+async function fetchFeed(source, errors) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 20000);
   try {
-    const response = await fetch(source.feedUrl, {
-      headers: { 'user-agent': 'ilustre.ai noticias catolicas (+https://noticias.ilustreai.com.br)' },
-      signal: controller.signal
-    });
+    const response = await retryFetch(source.feedUrl, {
+      signal: controller.signal,
+      headers: { 'user-agent': 'ilustre.ai noticias catolicas (+https://noticias.ilustreai.com.br)' }
+    }, 2);
     if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
     const xml = await response.text();
     const blocks = [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map((match) => match[0]);
@@ -190,6 +186,7 @@ async function fetchFeed(source) {
       };
     }).filter((item) => item.title && item.url?.startsWith('https://'));
   } catch (error) {
+    errors.push({ source: source.source, type: 'feed', url: source.feedUrl, error: error.message });
     console.error(`Feed failed: ${source.source} - ${error.message}`);
     return [];
   } finally {
@@ -357,14 +354,14 @@ function likelyNewsTitle(title) {
   return !blocked.some((term) => text.includes(term));
 }
 
-async function fetchPage(source, pageUrl) {
+async function fetchPage(source, pageUrl, errors) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 20000);
   try {
-    const response = await fetch(pageUrl, {
-      headers: { 'user-agent': 'ilustre.ai noticias catolicas (+https://noticias.ilustreai.com.br)' },
-      signal: controller.signal
-    });
+    const response = await retryFetch(pageUrl, {
+      signal: controller.signal,
+      headers: { 'user-agent': 'ilustre.ai noticias catolicas (+https://noticias.ilustreai.com.br)' }
+    }, 2);
     if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
     const html = await response.text();
     const anchors = [...html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)];
@@ -391,6 +388,7 @@ async function fetchPage(source, pageUrl) {
       };
     }).filter((item) => likelyArticleUrl(item.url) && likelyNewsTitle(item.title));
   } catch (error) {
+    errors.push({ source: source.source, type: 'page', url: pageUrl, error: error.message });
     console.error(`Page failed: ${source.source} ${pageUrl} - ${error.message}`);
     return [];
   } finally {
@@ -398,12 +396,35 @@ async function fetchPage(source, pageUrl) {
   }
 }
 
-async function fetchSource(source) {
-  const feedItems = source.feedUrl ? await fetchFeed(source) : [];
-  const pageItems = (await Promise.all((source.pageUrls ?? []).map((url) => fetchPage(source, url)))).flat();
+const circuitBreaker = new Map();
+
+async function fetchSource(source, errors) {
+  const CB_MAX_FAILURES = 5;
+  const cb = circuitBreaker.get(source.source);
+  if (cb && cb.failures >= CB_MAX_FAILURES) {
+    const elapsed = Date.now() - cb.since;
+    if (elapsed < 3600000) {
+      errors.push({ source: source.source, type: 'circuit-breaker', error: `Skipped after ${cb.failures} failures; cooldown ${Math.round((3600000 - elapsed) / 60000)}min remaining` });
+      return loadFallbackItems().filter(item => item.source === source.source || !item.source);
+    }
+    circuitBreaker.delete(source.source);
+  }
+  const feedItems = source.feedUrl ? await fetchFeed(source, errors) : [];
+  const pageItems = (await Promise.all((source.pageUrls ?? []).map((url) => fetchPage(source, url, errors)))).flat();
   const items = [...feedItems, ...pageItems];
-  if (items.length > 0) return items;
-  return fallbackItemsBySource[source.source] ?? [];
+  if (items.length === 0) {
+    const entry = circuitBreaker.get(source.source) || { failures: 0, since: Date.now() };
+    entry.failures++;
+    if (entry.failures === 1) entry.since = Date.now();
+    circuitBreaker.set(source.source, entry);
+    const fallbacks = loadFallbackItems().filter(item => item.source === source.source || !item.source);
+    if (fallbacks.length > 0) {
+      errors.push({ source: source.source, type: 'fallback', error: `${feedItems.length + pageItems.length} items from feed; using ${fallbacks.length} fallbacks` });
+    }
+    return fallbacks;
+  }
+  circuitBreaker.delete(source.source);
+  return items;
 }
 
 function daysBetween(a, b) {
@@ -743,7 +764,7 @@ async function enrichSummaries(items) {
 }
 
 function injectFallbacks(selection) {
-  const allFallbacks = sortByPriority(Object.values(fallbackItemsBySource).flat());
+  const allFallbacks = sortByPriority(loadFallbackItems());
   const news = [...(selection.news || [])];
   const usedUrls = new Set(news.map((item) => item.url));
   const sourceCounts = new Map();
@@ -795,40 +816,70 @@ async function fetchLiturgyHours() {
 }
 
 async function main() {
+  const errors = [];
   const date = todayInSaoPaulo();
-  const calendar = readJson(path.join(rootDir, 'data', 'liturgical-calendar-2026.json'));
+  let calendar;
+  try {
+    calendar = readJson(path.join(rootDir, 'data', 'liturgical-calendar-2026.json'));
+  } catch (e) {
+    errors.push({ type: 'liturgical-cache', error: `Failed to read calendar: ${e.message}` });
+    console.error('Failed to read liturgical calendar, using generic fallback:', e.message);
+    calendar = { entries: {} };
+  }
+
   let liturgy = calendar.entries?.[date];
   if (!liturgy || liturgy.status !== 'complete') {
+    errors.push({ type: 'liturgy', error: `No liturgical cache for ${date}; using generic fallback` });
     console.warn(`No liturgical cache for ${date}. Using fallback liturgy.`);
     liturgy = {
       status: 'complete',
-      editionLabel: new Date(date + 'T12:00:00').toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }),
+      editionLabel: (() => {
+        try { return new Date(date + 'T12:00:00').toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }); }
+        catch { return date; }
+      })(),
       liturgical: { country: 'BR', rank: 'tempo', season: 'Tempo Comum', celebrationTitle: '', colorName: 'verde', cssColor: '#2E7D32', gospelShort: 'Liturgia do Dia' },
       saint: { feast: date, name: 'Tempo Comum', description: 'Liturgia do Tempo Comum.', url: '' },
       gospel: { ref: 'Liturgia do Dia', lines: ['Que a Palavra de Deus ilumine nosso dia.'], body: '', keyVerse: '' },
     };
   }
 
-  applyCuratedData(date, liturgy);
+  try { applyCuratedData(date, liturgy); } catch (e) {
+    errors.push({ type: 'curated-data', error: e.message });
+    console.warn('applyCuratedData failed:', e.message);
+  }
 
-  const sources = readJson(path.join(rootDir, 'data', 'news-sources.json'));
-  const fetched = (await Promise.all(sources.map(fetchSource))).flat();
+  let sources;
+  try {
+    sources = readJson(path.join(rootDir, 'data', 'news-sources.json'));
+    sources = sources.map(s => ({ ...s, source: fixMojibake(s.source) }));
+  } catch (e) {
+    errors.push({ type: 'news-sources', error: `Failed to read news-sources.json: ${e.message}` });
+    console.error('Failed to read news sources:', e.message);
+    sources = [];
+  }
+
+  const fetched = (await Promise.all(sources.map(s => fetchSource(s, errors)))).flat();
   const candidates = rankCandidates(uniqueItems(fetched)
     .filter((item) => item.published && daysBetween(date, item.published) <= 2)
     .filter((item) => !rejectsEditorially(item))
     , date);
 
   if (candidates.length < 5) {
-    const injected = Object.values(fallbackItemsBySource).flat().filter((item) => !rejectsEditorially(item));
+    const injected = loadFallbackItems().filter((item) => !rejectsEditorially(item));
+    const before = candidates.length;
     candidates.push(...injected);
-    console.warn(`Only ${candidates.length - injected.length} candidates from feeds; injected ${injected.length} fallback items, total ${candidates.length}`);
+    errors.push({ type: 'low-candidates', error: `Only ${before} candidates from feeds; injected ${injected.length} fallback items, total ${candidates.length}` });
+    console.warn(`Only ${before} candidates from feeds; total ${candidates.length} after fallbacks`);
   }
 
   if (candidates.length < 7) {
+    errors.push({ type: 'low-candidates', warning: `Only ${candidates.length} candidates; continuing with shorter but valid edition` });
     console.warn(`Only ${candidates.length} candidates found; continuing with a shorter but valid edition`);
   }
 
-  const prev = loadPreviousSelection(rootDir);
+  let prev;
+  try { prev = loadPreviousSelection(rootDir); } catch { prev = { urls: new Set(), titles: new Set() }; }
+
   const liturgyHours = await fetchLiturgyHours();
   let selection = {
     date,
@@ -846,7 +897,8 @@ async function main() {
   selection = repairSaintContentNews(selection, candidates);
   try {
     if (selection.news) selection.news = await enrichSummaries(selection.news);
-  } catch {
+  } catch (e) {
+    errors.push({ type: 'enrich-summaries', error: e.message });
     console.warn('enrichSummaries failed; continuing with original summaries');
   }
 
@@ -854,22 +906,38 @@ async function main() {
 
   const result = validateSelection(selection);
   if (!result.ok) {
+    errors.push({ type: 'validation', error: 'Initial validation failed; attempting fallback injection' });
     const forced = injectFallbacks(selection);
     selection = forced;
     const finalResult = validateSelection(selection);
     if (!finalResult.ok) {
+      errors.push({ type: 'validation', error: 'Final validation failed', details: finalResult.errors });
       console.error('Generated selection failed validation:');
       finalResult.errors.forEach((error) => console.error(`- ${error}`));
+      saveErrorReport(date, errors);
       process.exit(1);
     }
   }
 
-  // Default missing published dates to the edition date (always, not just on validation failure)
   selection.news = selection.news.map(item => ({ ...item, published: item.published || date }));
   selection.news = sortByPriority(selection.news);
 
-  writeFileEnsured(path.join(rootDir, 'data', 'daily-selection.json'), `${JSON.stringify(selection, null, 2)}\n`);
+  writeJsonAtomic(path.join(rootDir, 'data', 'daily-selection.json'), selection);
+  if (errors.length > 0) saveErrorReport(date, errors);
   console.log(`Generated daily selection for ${date} with ${selection.news.length} news items.`);
+  if (errors.length > 0) {
+    console.log(`${errors.length} non-fatal issues logged to data/error-report-${date}.json`);
+  }
+}
+
+function saveErrorReport(date, errors) {
+  if (errors.length === 0) return;
+  try {
+    const report = { date, generatedAt: new Date().toISOString(), total: errors.length, errors };
+    writeFileEnsured(path.join(rootDir, 'data', `error-report-${date}.json`), JSON.stringify(report, null, 2) + '\n');
+  } catch (e) {
+    console.error('Failed to save error report:', e.message);
+  }
 }
 
 main().catch((error) => {
