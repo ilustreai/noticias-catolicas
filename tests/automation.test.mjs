@@ -13,7 +13,7 @@ import {
   retryFetch,
   fixMojibake
 } from '../scripts/lib.mjs';
-import { generateScript, calculateDuration } from '../scripts/generate-reels-script.mjs';
+import { buildRuleScript, calculateDuration } from '../scripts/generate-reels-script.mjs';
 
 const validSelection = {
   date: '2026-06-26',
@@ -299,7 +299,7 @@ test('validateRenderedHtml enforces the public page contract without brittle tit
 });
 
 test('generateReelsScript produces a script under 60 seconds for Reels', () => {
-  const script = generateScript(validSelection);
+  const script = buildRuleScript(validSelection);
   const duration = calculateDuration(script);
   assert.ok(duration <= 60, `script too long: ~${duration}s`);
   assert.ok(script.includes(validSelection.closingQuote.text));
@@ -356,7 +356,7 @@ test('retryFetch works with a valid URL', async () => {
 });
 
 test('generateReelsScript includes a known catchphrase', () => {
-  const script = generateScript(validSelection);
+  const script = buildRuleScript(validSelection);
   const knownPatterns = [/bora/i, /simbora/i, /partiu/i, /vamo/i, /vai na f[eé]/i];
   const hasKnown = knownPatterns.some(p => p.test(script));
   assert.ok(hasKnown, 'script should contain a known catchphrase keyword');
