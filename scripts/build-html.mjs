@@ -128,6 +128,83 @@ function storyDownloadAssets(date) {
   return { css, markup, script };
 }
 
+function addAudioPlayer(html, date) {
+  const audioDir = path.join(rootDir, 'public', 'audio');
+  const audioFile = path.join(audioDir, `reels-${date}.mp3`);
+  if (!fs.existsSync(audioFile)) return html;
+
+  const playerHtml = `
+<div class="audio-player-wrap{{LITURGICAL_TEXT_MODIFIER}}">
+  <button class="audio-btn" id="audioPlayBtn" aria-label="Ouvir resumo em áudio">
+    <svg viewBox="0 0 24 24" id="audioPlayIcon"><polygon points="8 5 19 12 8 19 8 5"/></svg>
+    <svg viewBox="0 0 24 24" id="audioPauseIcon" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+  </button>
+  <div class="audio-info">
+    <div class="audio-label">Ouvir resumo em áudio</div>
+    <div class="audio-desc">Leitura das notícias de hoje</div>
+  </div>
+  <div class="audio-progress" id="audioProgress">
+    <div class="audio-progress-fill" id="audioProgressFill"></div>
+  </div>
+  <span class="audio-time" id="audioTime">0:00</span>
+  <audio id="audioPlayer" preload="none" style="display:none">
+    <source src="audio/reels-${date}.mp3" type="audio/mpeg">
+  </audio>
+</div>`;
+
+  const playerScript = `
+    (function() {
+      var btn = document.getElementById('audioPlayBtn');
+      var player = document.getElementById('audioPlayer');
+      var icon = document.getElementById('audioPlayIcon');
+      var pauseIcon = document.getElementById('audioPauseIcon');
+      var progress = document.getElementById('audioProgressFill');
+      var timeEl = document.getElementById('audioTime');
+      if (!btn || !player) return;
+      var progWrap = document.getElementById('audioProgress');
+      function fmt(t) { var m = Math.floor(t / 60); var s = Math.floor(t % 60); return m + ':' + (s < 10 ? '0' : '') + s; }
+      player.addEventListener('timeupdate', function() {
+        if (player.duration) {
+          progress.style.width = (player.currentTime / player.duration * 100) + '%';
+          timeEl.textContent = fmt(player.currentTime);
+        }
+      });
+      player.addEventListener('loadedmetadata', function() { timeEl.textContent = fmt(player.duration); });
+      player.addEventListener('ended', function() {
+        btn.classList.remove('playing');
+        icon.style.display = '';
+        pauseIcon.style.display = 'none';
+        progress.style.width = '0%';
+        timeEl.textContent = fmt(player.duration || 0);
+      });
+      btn.addEventListener('click', function() {
+        if (player.paused) {
+          player.play().catch(function() {});
+          btn.classList.add('playing');
+          icon.style.display = 'none';
+          pauseIcon.style.display = '';
+        } else {
+          player.pause();
+          btn.classList.remove('playing');
+          icon.style.display = '';
+          pauseIcon.style.display = 'none';
+        }
+      });
+      if (progWrap) {
+        progWrap.addEventListener('click', function(e) {
+          if (!player.duration) return;
+          var rect = progWrap.getBoundingClientRect();
+          var pct = (e.clientX - rect.left) / rect.width;
+          player.currentTime = pct * player.duration;
+        });
+      }
+    })();`;
+
+  return html
+    .replace('{{AUDIO_PLAYER}}', playerHtml)
+    .replace(/(<script>\s*\(function\s*\(\)\s*\{)/, '$1' + '\n' + playerScript);
+}
+
 function addStoryDownload(html, date) {
   const { css, markup, script } = storyDownloadAssets(date);
   const storyJS = script.replace(/<script>\s*|\s*<\/script>/g, '').trim();
@@ -152,7 +229,8 @@ if (!htmlResult.ok) {
   process.exit(1);
 }
 
-const publicHtml = addStoryDownload(html, selection.date);
+const htmlWithAudio = addAudioPlayer(html, selection.date);
+const publicHtml = addStoryDownload(htmlWithAudio, selection.date);
 
 const candidatePath = path.join(outputDir, 'index.candidate.html');
 const indexPath = path.join(outputDir, 'index.html');

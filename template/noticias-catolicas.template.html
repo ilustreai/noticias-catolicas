@@ -333,6 +333,77 @@
   .btn-source svg { width: 10px; height: 10px; }
   .gospel-link-wrapper { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
   .gospel-link-wrapper .btn-source { color: var(--gold); border-bottom-color: var(--gold); }
+  .audio-player-wrap {
+    background: var(--navy);
+    margin: 0 -24px 32px;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .audio-player-wrap.liturgy-light {
+    background: var(--liturgical-color);
+    --audio-text: var(--liturgy-text, rgba(0,0,0,0.85));
+    --audio-muted: var(--liturgy-muted, rgba(0,0,0,0.55));
+    --audio-accent: var(--gold);
+  }
+  .audio-btn {
+    flex-shrink: 0;
+    width: 40px; height: 40px;
+    border: 2px solid var(--gold);
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gold);
+    transition: background 0.2s, color 0.2s;
+    padding: 0;
+  }
+  .audio-btn:hover { background: var(--gold); color: var(--navy); }
+  .audio-btn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+  .audio-btn.playing svg { stroke-width: 2; }
+  .audio-info { flex: 1; min-width: 0; }
+  .audio-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--audio-accent, var(--gold-lt));
+  }
+  .audio-desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    color: var(--audio-muted, rgba(255,255,255,0.58));
+    margin-top: 2px;
+  }
+  .audio-progress {
+    flex: 0 0 120px;
+    height: 4px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+  }
+  .audio-progress-fill {
+    height: 100%;
+    background: var(--gold);
+    border-radius: 2px;
+    width: 0%;
+    transition: width 0.1s linear;
+  }
+  .audio-time {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    color: var(--audio-muted, rgba(255,255,255,0.58));
+    min-width: 32px;
+    text-align: right;
+  }
+  @media (max-width: 720px) {
+    .audio-player-wrap { flex-wrap: wrap; gap: 10px; margin: 0 0 24px; padding: 14px 18px; }
+    .audio-progress { flex: 1 1 100%; order: 1; }
+  }
   .closing-quote {
     margin: 44px 0 0;
     padding: 34px 38px;
@@ -577,7 +648,7 @@
 </div>
 
 <main class="container">
-{{SAINT_SECTION}}
+{{AUDIO_PLAYER}}{{SAINT_SECTION}}
 
   <div class="section-header">
     <span class="section-header-title">Liturgia do dia</span>

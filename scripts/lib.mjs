@@ -417,6 +417,7 @@ export function buildPage(selection, template = loadTemplate()) {
     '{{CLOSING_QUOTE_TEXT}}': escapeHtml(selection.closingQuote?.text ?? ''),
     '{{CLOSING_QUOTE_SOURCE}}': escapeHtml(selection.closingQuote?.source ?? ''),
     '{{SPONSOR_BAR}}': renderSponsor(selection.sponsor),
+    '{{AUDIO_PLAYER}}': '',
     '{{CLOUDFLARE_ANALYTICS}}': process.env.CLOUDFLARE_ANALYTICS_TOKEN
       ? `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "${process.env.CLOUDFLARE_ANALYTICS_TOKEN}"}'></script>`
       : ''
