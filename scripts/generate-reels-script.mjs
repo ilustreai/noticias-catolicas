@@ -27,71 +27,117 @@ const CATCHPHRASES = [
   'Bora espalhar o bem sem olhar a quem!',
 ];
 
+function buildNewsParagraph(item, index, total) {
+  const { source, title, summary } = item;
+  const cleanTitle = title.replace(/^["']|["']$/g, '').trim();
+
+  const isFirst = index === 0;
+
+  let leadIn;
+  if (isFirst) {
+    leadIn = pickRandom([
+      `${source} destaca que`,
+      `${source} informa:`,
+      `Direto de ${source}:`,
+    ]);
+  } else {
+    leadIn = pickRandom([
+      `Já o ${source} registra que`,
+      `Também o ${source} noticia:`,
+      `Pelo ${source} ficamos sabendo que`,
+    ]);
+  }
+
+  let context = summary
+    .replace(/\s+/g, ' ')
+    .replace(/\.\.\..*$|….*$/, '')
+    .replace(/^["']|["']$/g, '')
+    .trim();
+
+  let detail = '';
+  if (context && context.length > 10) {
+    const m = context.match(/^(.{30,200}[.!?:;])\s/);
+    if (m) {
+      detail = m[1] + ' ';
+      if (detail.match(/^[a-záéíóúâêôãõç]/)) detail = detail.charAt(0).toLowerCase() + detail.slice(1);
+    } else {
+      detail = context.slice(0, 140).replace(/\s\S+$/, '') + '... ';
+    }
+  }
+
+  const titlePart = cleanTitle.charAt(0).toUpperCase() + cleanTitle.slice(1);
+  const titleEnd = titlePart.replace(/[.!?:;]$/, '') + '.';
+
+  if (detail) {
+    return `${leadIn} ${titleEnd} ${detail}`;
+  }
+  return `${leadIn} ${titleEnd}`;
+}
+
 function generateScript(selection) {
-  const { date, liturgical, news, gospel, closingQuote, saint } = selection;
+  const { liturgical, news, gospel, closingQuote, saint } = selection;
 
   const hasSerious = news.some(n => n.title.toLowerCase().includes('gaza') || n.title.toLowerCase().includes('guerra'));
-  const hasInspiring = news.some(n => n.title.toLowerCase().includes('papa') || n.title.toLowerCase().includes('bento'));
+  const hasPapa = news.some(n => n.title.toLowerCase().includes('papa') || n.title.toLowerCase().includes('leão'));
 
   const topNews = news.slice(0, 2);
 
   let greeting;
   if (hasSerious) {
     greeting = pickRandom([
-      'Bom dia! O dia de hoje pede um coração atento.',
-      'Bom dia! Começando com fé, porque o mundo precisa de luz.',
+      'Bom dia! O dia de hoje pede um coração atento e uma alma em oração.',
+      'Bom dia! Vamos começar o dia com fé, porque o mundo precisa de luz.',
+      'Bom dia! Que a paz de Cristo habite nos nossos corações neste dia.',
     ]);
-  } else if (hasInspiring) {
+  } else if (hasPapa) {
     greeting = pickRandom([
-      'Bom dia! O dia amanheceu com notícia que aquece o coração.',
-      'Bom dia! Hoje o céu parece mais perto.',
+      'Bom dia! O dia amanheceu com notícias que aquecem o coração.',
+      'Bom dia! Hoje o céu parece mais perto da gente.',
+      'Bom dia! A Igreja está viva e nós vamos provar com estas notícias.',
     ]);
   } else {
     greeting = pickRandom([
-      'Bom dia, galera! Informação de qualidade pra começar o dia.',
-      'E aí, pessoal! Bom dia! Vamos de resumo católico hoje?',
-      'Fala, pessoal! Bom dia! Resumo das notícias pra você.',
+      'Bom dia! Informação de qualidade para começar o dia com o pé direito.',
+      'Bom dia! Vamos de resumo católico com notícias que edificam.',
+      'Bom dia! Preparado para se manter bem informado? Vamos nessa.',
     ]);
   }
 
+  const seasonLow = liturgical.season.toLowerCase();
+  const celebrationLow = liturgical.celebrationTitle.toLowerCase().replace(new RegExp(`,? do ${seasonLow}$`, 'i'), '');
   const liturgicalLine = pickRandom([
-    `Semana ${liturgical.celebrationTitle?.match(/Semana\s+(\w+)/)?.[1] || 'comum'} do ${liturgical.season}. Cor litúrgica: ${liturgical.colorName}.`,
-    `A Igreja vive o ${liturgical.season}. Hoje: ${liturgical.celebrationTitle}.`,
+    `A Igreja celebra ${celebrationLow}, do ${seasonLow}, cor litúrgica ${liturgical.colorName}.`,
+    `Estamos no ${seasonLow}, e hoje é ${celebrationLow}, com a cor litúrgica ${liturgical.colorName}.`,
   ]);
 
   const saintLine = saint?.name
-    ? `Dia de ${saint.name}.`
+    ? `Neste dia lembramos ${saint.name.replace(/^Beatos?\s+|^Santo\s+|^Santa\s+|^São\s+|^Beatas?\s+/i, '')}.`
     : '';
 
-  const newsLines = topNews.map((n, i) => {
-    const title = n.title.replace(/^["']|["']$/g, '');
-    const prefix = i === 0 ? 'Destaque' : 'Também';
-    return `${prefix}: ${title}.`;
-  });
-
-  const verse = gospel.keyVerse || gospel.lines?.[0] || 'Jesus nos chama à conversão do coração.';
-  const gospelReflection = pickRandom([
-    `${gospel.ref}: ${verse}`,
-    `No Evangelho de hoje: ${verse}`,
-    `Na Palavra de hoje: ${verse}`,
+  const verse = gospel.lines?.find(l => l.length < 120) || gospel.keyVerse || gospel.lines?.[0] || 'Jesus nos chama à conversão do coração.';
+  const gospelLine = pickRandom([
+    `No Evangelho de hoje, ${gospel.ref}. ${verse}`,
+    `A Palavra de hoje está em ${gospel.ref}. ${verse}`,
   ]);
 
+  const newsParagraphs = topNews.map((n, i) =>
+    buildNewsParagraph(n, i, topNews.length)
+  );
+
   const quoteLine = closingQuote?.text
-    ? `"${closingQuote.text}" — ${closingQuote.source || ''}`
+    ? `Para refletir: "${closingQuote.text}" — ${closingQuote.source || ''}`
     : '';
 
   const catchphrase = pickRandom(CATCHPHRASES);
-
-  const closing = `${catchphrase}`;
 
   const parts = [
     greeting,
     liturgicalLine,
     saintLine,
-    ...newsLines,
-    gospelReflection,
+    gospelLine,
+    ...newsParagraphs,
     quoteLine,
-    closing,
+    catchphrase,
   ];
 
   return parts.filter(Boolean).join('\n\n');
@@ -99,14 +145,15 @@ function generateScript(selection) {
 
 function calculateDuration(text) {
   const words = text.split(/\s+/).length;
-  return Math.ceil(words / 2.5);
+  return Math.ceil(words / 2.9);
 }
 
-async function generateAudio(text, outputPath, voice = 'pt-BR-FranciscaNeural') {
+async function generateAudio(text, outputPath, voice = 'pt-BR-AntonioNeural') {
   const { spawn } = await import('child_process');
   return new Promise((resolve, reject) => {
     const proc = spawn('edge-tts', [
       '--voice', voice,
+      '--rate', '+15%',
       '--text', text,
       '--write-media', outputPath,
     ]);
