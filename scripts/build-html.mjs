@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {
   buildPage,
+  isLightColor,
   readJson,
   validateRenderedHtml,
   validateSelection,
@@ -128,13 +129,15 @@ function storyDownloadAssets(date) {
   return { css, markup, script };
 }
 
-function addAudioPlayer(html, date) {
+function addAudioPlayer(html, selection) {
+  const date = selection.date;
   const audioDir = path.join(rootDir, 'public', 'audio');
   const audioFile = path.join(audioDir, `reels-${date}.mp3`);
   if (!fs.existsSync(audioFile)) return html;
 
+  const lightMod = isLightColor(selection.liturgical.cssColor) ? ' liturgy-light' : '';
   const playerHtml = `
-<div class="audio-player-wrap{{LITURGICAL_TEXT_MODIFIER}}">
+<div class="audio-player-wrap${lightMod}">
   <button class="audio-btn" id="audioPlayBtn" aria-label="Ouvir resumo em áudio">
     <svg viewBox="0 0 24 24" id="audioPlayIcon"><polygon points="8 5 19 12 8 19 8 5"/></svg>
     <svg viewBox="0 0 24 24" id="audioPauseIcon" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
@@ -201,7 +204,7 @@ function addAudioPlayer(html, date) {
     })();`;
 
   return html
-    .replace('{{AUDIO_PLAYER}}', playerHtml)
+    .replace('<main class="container">', '<main class="container">' + '\n' + playerHtml)
     .replace(/(<script>\s*\(function\s*\(\)\s*\{)/, '$1' + '\n' + playerScript);
 }
 
@@ -222,14 +225,14 @@ if (!selectionResult.ok) {
 }
 
 const html = buildPage(selection);
-const htmlResult = validateRenderedHtml(html, selection);
+const htmlWithAudio = addAudioPlayer(html, selection);
+const htmlResult = validateRenderedHtml(htmlWithAudio, selection);
 if (!htmlResult.ok) {
   console.error('Build stopped before publication:');
   htmlResult.errors.forEach((error) => console.error(`- ${error}`));
   process.exit(1);
 }
 
-const htmlWithAudio = addAudioPlayer(html, selection.date);
 const publicHtml = addStoryDownload(htmlWithAudio, selection.date);
 
 const candidatePath = path.join(outputDir, 'index.candidate.html');
