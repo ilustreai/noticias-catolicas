@@ -32,6 +32,8 @@ jobs:
           cp data/audio/reels-*.mp3 public/audio/
           cp data/reels-script-*.txt public/audio/
         shell: bash
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       - run: node scripts/build-html.mjs
         env:
           CLOUDFLARE_ANALYTICS_TOKEN: ${{ secrets.CLOUDFLARE_ANALYTICS_TOKEN }}
