@@ -1,33 +1,34 @@
 {
-  "date": "2026-07-27",
-  "editionLabel": "27 de julho de 2026",
+  "date": "2026-07-28",
+  "editionLabel": "28 de julho de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Segunda-Feira da Semana XVII do Tempo Comum",
+    "celebrationTitle": "Terça-Feira da Semana XVII do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 13,31-35"
+    "gospelShort": "Mt 13,36-43"
   },
   "saint": {
-    "feast": "Santo do Dia - 27 de Julho",
-    "name": "São Pantaleão, médico e mártir",
-    "description": "Celebração litúrgica do dia: Segunda-Feira da Semana XVII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-pantaleao-medico-e-martir/"
+    "feast": "Santo do Dia - 28 de Julho",
+    "name": "Beatos José Caselles Moncho e José Castell Camps, mártires Salesianos",
+    "description": "Celebração litúrgica do dia: Terça-Feira da Semana XVII do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/beatos-jose-caselles-moncho-e-jose-castell-camps-martires-salesianos/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 13,31-35)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 13,36-43)",
     "lines": [
-      "Naquele tempo, Jesus contou-lhes outra parábola: O Reino dos Céus é como uma semente de mostarda que um homem pega e semeia no seu campo.",
-      "Embora ela seja a menor de todas as sementes, quando cresce, fica maior do que as outras plantas.",
-      "E torna-se uma árvore, de modo que os pássaros vêm e fazem ninhos em seus ramos.",
-      "Jesus contou-lhes ainda uma outra parábola: O Reino dos Céus é como o fermento que uma mulher pega e mistura com três porções de farinha, até que tudo fique fermentado.",
-      "Tudo isso Jesus falava em parábolas às multidões.",
-      "Nada lhes falava sem usar parábolas, para se cumprir o que foi dito pelo profeta: Abrirei a boca para falar em parábolas; vou proclamar coisas escondidas desde a criação do mundo."
+      "Naquele tempo, Jesus deixou as multidões e foi para casa.",
+      "Seus discípulos aproximaram-se dele e disseram: Explica-nos a parábola do joio! Jesus respondeu: Aquele que semeia a boa semente é o Filho do Homem.",
+      "A boa semente são os que pertencem ao Reino.",
+      "O joio são os que pertencem ao Maligno.",
+      "O inimigo que semeou o joio é o diabo.",
+      "Como o joio é recolhido e queimado ao fogo, assim também acontecerá no fim dos tempos: o Filho do Homem enviará os seus anjos e eles retirarão do seu Reino todos os que fazem outros pecar e os que praticam o mal; e depois os lançarão na fornalha de fogo.",
+      "Ali haverá choro e ranger de dentes."
     ],
-    "keyVerse": "Deus nos gerou pela palavra da verdade como as primícias de suas criaturas!",
-    "body": "Naquele tempo, 31 Jesus contou-lhes outra parábola: \"O Reino dos Céus é como uma semente de mostarda que um homem pega e semeia no seu campo. 32 Embora ela seja a menor de todas as sementes, quando cresce, fica maior do que as outras plantas. E torna-se uma árvore, de modo que os pássaros vêm e fazem ninhos em seus ramos\". 33 Jesus contou-lhes ainda uma outra parábola: \"O Reino dos Céus é como o fermento que uma mulher pega e mistura com três porções de farinha, até que tudo fique fermentado\". 34 Tudo isso Jesus falava em parábolas às multidões. Nada lhes falava sem usar parábolas, 35 para se cumprir o que foi dito pelo profeta: \"Abrirei a boca para falar em parábolas; vou proclamar coisas escondidas desde a criação do mundo\". —"
+    "keyVerse": "A semente é de Deus a palavra, o Cristo é o semeador; todo aquele que o encontra, vida eterna encontrou.",
+    "body": "Naquele tempo, 36 Jesus deixou as multidões e foi para casa. Seus discípulos aproximaram-se dele e disseram: \"Explica-nos a parábola do joio!\" 37 Jesus respondeu: \"Aquele que semeia a boa semente é o Filho do Homem. 38 O campo é o mundo. A boa semente são os que pertencem ao Reino. O joio são os que pertencem ao Maligno. 39 O inimigo que semeou o joio é o diabo. A colheita é o fim dos tempos. Os ceifadores são os anjos. 40 Como o joio é recolhido e queimado ao fogo, assim também acontecerá no fim dos tempos: 41 o Filho do Homem enviará os seus anjos e eles retirarão do seu Reino todos os que fazem outros pecar e os que praticam o mal; 42 e depois os lançarão na fornalha de fogo. Ali haverá choro e ranger de dentes. 43 Então os justos brilharão como o sol no Reino de seu Pai. Quem tem ouvidos, ouça\". —"
   },
   "sponsor": {
     "enabled": true,
@@ -38,67 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
-      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "title": "Gaza: padre Romanelli agradece ao Papa pela proximidade e orações",
+      "summary": "Em um vídeo, o pároco da Sagrada Família tornou pública uma breve mensagem que o Papa Leão XIV enviou ontem à sua comunidade, que continua sofrendo com uma guerra que parece não ter fim. “Os dias passam, assim como as semanas, disse-nos o.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/gaza-padre-romanelli-agradece-ao-papa-pela-proximidade-e-oracoes.html",
       "published": "2026-07-27"
     },
     {
       "source": "Vatican News",
-      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
-      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "title": "Leão XIV e tenor Andrea Bocelli se unem em oração por um “Cântico de Paz”",
+      "summary": "O Borgo Laudato si' irá sediar a iniciativa nesta quarta-feira, 29 de julho. O encontro de comunhão e oração pela paz entre os povos, promovido pelo Centro de Alta Formação Laudato si' e pela Fundação Andrea Bocelli, será conduzido pelo.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/cantico-de-paz-papa-leao-xiv-tenor-andrea-bocelli-29-julho-26.html",
       "published": "2026-07-27"
     },
     {
       "source": "CNBB",
-      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
-      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
-      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "title": "promove levantamento nacional sobre adultos que solicitam ingresso no catecumenato",
+      "summary": "A CNBB está mobilizando as dioceses de todo o país para colaborar com um levantamento solicitado pelo Dicastério para a Evangelização, da Santa Sé, sobre os adultos que pedem ingresso no catecumenato. A iniciativa busca reunir informações.",
+      "url": "https://www.cnbb.org.br/cnbb-promove-levantamento-nacional-sobre-adultos-que-solicitam-ingresso-no-catecumenato/",
       "published": "2026-07-27"
     },
     {
       "source": "ACI Digital",
-      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
-      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
-      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "title": "Brasileiro ordena ilicitamente bispo para monges sedevacantistas escoceses",
+      "summary": "Um grupo de monges sedevacantistas na Escócia ordenou ilicitamente um bispo na última sexta-feira (25), apesar dos repetidos avisos de que isso seria um ato cismático e uma ruptura com a Igreja. Os Redentoristas Transalpinos, ou Filhos do Santíssimo Redentor, transmitiram ao vivo a cerimônia de seu mosteiro em Papa Stronsay, ilha que do arquipélago de Orkney, Escócia....",
+      "url": "https://www.acidigital.com/noticia/69087/brasileiro-ordena-ilicitamente-bispo-para-monges-sedevacantistas-escoceses",
+      "published": "2026-07-27"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Leão XIV nomeia arcebispo nascido no Líbano observador permanente na ONU",
+      "summary": "O papa Leão XIV nomeou o arcebispo Christophe-Zakhia El-Kassis, nascido no Líbano, para ser observador permanente da Santa Sé junto à Organização das Nações Unidas (ONU), em Nova York, EUA, anunciou a Santa Sé na última sexta-feira (25). A Santa Sé não é membro pleno da ONU, mas tem o status de observador permanente. A organização internacional diz que observadores permanentes “têm livre acesso à maioria das reuniões e à documentação relevante”....",
+      "url": "https://www.acidigital.com/noticia/69073/leao-xiv-nomeia-arcebispo-nascido-no-libano-observador-permanente-na-onu",
       "published": "2026-07-27"
     },
     {
       "source": "Shalom",
-      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
-      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
-      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
-      "published": "2026-07-27"
+      "title": "Ações de evangelização, formação e promoção humana no mês de agosto na missão Shalom Teresina",
+      "summary": "O mês de agosto será marcado por uma intensa ação evangelizadora na missão Shalom Teresina. Com uma programação voltada para diferentes públicos, a Comunidade promoverá três Seminários de Vida no Espírito Santo, um encontro de formação.",
+      "url": "https://comshalom.org/acoes-de-evangelizacao-formacao-e-promocao-humana-no-mes-de-agosto-na-missao-shalom-teresina/",
+      "published": "2026-07-28"
     },
     {
       "source": "Aleteia",
-      "title": "Papa Leão XIV reza pelas vítimas dos incêndios na França e na Espanha",
-      "summary": "Ao final da oração do Angelus, recitada em Castel Gandolfo em 26 de julho de 2026, o Papa Leão XIV ofereceu seu apoio a todos os que sofrem com o crescente número de incêndios. O calor intenso, os ventos fortes e a seca prolongada.",
-      "url": "https://pt.aleteia.org/2026/07/27/papa-leao-xiv-reza-pelas-vitimas-dos-incendios-na-franca-e-na-espanha/",
-      "published": "2026-07-27"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
-      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
-      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
-      "published": "2026-07-27"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "Embaixador dos EUA esclarece declarações sobre o Papa e busca encerrar polêmica com The New Yor",
-      "summary": "O diplomata explicou que a Santa Sé exerce uma missão diplomática própria nas relações internacionais, mas que essa atuação jamais pode ser dissociada da missão espiritual do Sucessor de Pedro. Foto: Screenshot/ EWTNNEWS Redação (.",
-      "url": "https://gaudiumpress.org/content/embaixador-dos-eua-esclarece-declaracoes-sobre-o-papa-e-busca-encerrar-polemica-com-the-new-york-times/",
-      "published": "2026-07-26"
+      "title": "Os Jardins do Vaticano oferecem um refúgio de espiritualidade mariana",
+      "summary": "Os Jardins do Vaticano, que abrangem aproximadamente 23 hectares (um pouco mais da metade da área do menor Estado do mundo), são um vasto espaço de meditação muito apreciado pelos papas. Abriga também um notável legado de devoção mariana,.",
+      "url": "https://pt.aleteia.org/2026/07/28/os-jardins-do-vaticano-oferecem-um-refugio-de-espiritualidade-mariana/",
+      "published": "2026-07-28"
     }
   ],
   "closingQuote": {
-    "text": "O grão de mostarda torna-se uma árvore, de modo que os pássaros vêm e fazem ninhos em seus ramos.",
-    "source": "Mateus 13,31-35"
+    "text": "Como o joio é recolhido e queimado ao fogo, assim também acontecerá no fim dos tempos.",
+    "source": "Mateus 13,36-43"
   },
   "liturgyHours": {
-    "reading": "Quem não quer trabalhar, também não deve comer. Ora, ouvimos dizer que entre vós há alguns que vivem à toa, muito ocupados em não fazer nada. Em nome do Senhor Jesus Cristo, ordenamos e exortamos a essas pessoas que, trabalhando, comam na...",
+    "reading": "Já é hora de despertar. Com efeito, agora a salvação está mais perto de nós do que quando abraçamos a fé. A noite já vai adiantada, o dia vem chegando: despojemo-nos das ações das trevas e vistamos as armas da luz. Procedamos honestamente, como em...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }

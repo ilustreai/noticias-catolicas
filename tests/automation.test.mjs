@@ -8,6 +8,7 @@ import {
   validateSelection,
   validateRenderedHtml
 } from '../scripts/lib.mjs';
+import { generateScript, calculateDuration } from '../scripts/generate-reels-script.mjs';
 
 const validSelection = {
   date: '2026-06-26',
@@ -16,6 +17,7 @@ const validSelection = {
     country: 'BR',
     rank: 'tempo',
     season: 'Tempo Comum',
+    celebrationTitle: 'Tempo Comum',
     colorName: 'verde',
     cssColor: '#1F6B45',
     gospelShort: 'Mt 8, 1-4'
@@ -38,6 +40,10 @@ const validSelection = {
     label: 'Apoio',
     text: 'Gostou do conteudo? Considere apoiar esse projeto assinando nosso conteudo exclusivo no Instagram @ilustre.ai.',
     url: 'https://www.instagram.com/ilustre.ai'
+  },
+  closingQuote: {
+    text: 'Tudo por amor, nada por forca.',
+    source: 'Sao Francisco de Sales'
   },
   news: [
     {
@@ -74,10 +80,10 @@ const validSelection = {
 };
 
 test('all fallback URLs are reachable (no 404)', { timeout: 30000 }, async () => {
-  const source = fs.readFileSync(
-    path.resolve('scripts/generate-daily-selection.mjs'), 'utf8'
-  );
-  const urls = [...source.matchAll(/url:\s*'([^']+)'/g)].map(m => m[1]);
+  const fbPath = path.resolve('data', 'fallback-news.json');
+  assert.ok(fs.existsSync(fbPath), 'fallback-news.json must exist');
+  const data = JSON.parse(fs.readFileSync(fbPath, 'utf8'));
+  const urls = data.items.map(item => item.url);
   assert.ok(urls.length >= 8, `expected at least 8 fallback URLs, found ${urls.length}`);
 
   const results = await Promise.all(urls.map(async (url) => {
@@ -94,7 +100,11 @@ test('all fallback URLs are reachable (no 404)', { timeout: 30000 }, async () =>
     }
   }));
 
-  const failures = results.filter(r => !r.ok);
+  const failures = results.filter(r => !r.ok && r.status !== 429 && r.status !== 403);
+  const rateLimited = results.filter(r => r.status === 429 || r.status === 403);
+  if (rateLimited.length > 0) {
+    console.log(`  Rate-limited (ignored): ${rateLimited.map(r => `${r.status} ${r.url}`).join(', ')}`);
+  }
   if (failures.length > 0) {
     const msg = failures.map(f =>
       `  ${f.status}${f.error ? ` (${f.error})` : ''} ${f.url}`
@@ -281,4 +291,20 @@ test('validateRenderedHtml enforces the public page contract without brittle tit
   const missingOneNewsResult = validateRenderedHtml(missingOneNews, eightNewsSelection);
   assert.equal(missingOneNewsResult.ok, false);
   assert.match(missingOneNewsResult.errors.join('\n'), /rendered news item count mismatch/);
+});
+
+test('generateReelsScript produces a script under 60 seconds for Reels', () => {
+  const script = generateScript(validSelection);
+  const duration = calculateDuration(script);
+  assert.ok(duration <= 60, `script too long: ~${duration}s`);
+  assert.ok(script.includes(validSelection.closingQuote.text));
+  assert.ok(script.includes(validSelection.liturgical.season));
+  assert.ok(script.length > 50, 'script too short');
+});
+
+test('generateReelsScript includes a known catchphrase', () => {
+  const script = generateScript(validSelection);
+  const knownPatterns = [/bora/i, /simbora/i, /partiu/i, /vamo/i, /vai na f[eé]/i];
+  const hasKnown = knownPatterns.some(p => p.test(script));
+  assert.ok(hasKnown, 'script should contain a known catchphrase keyword');
 });

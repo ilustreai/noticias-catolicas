@@ -107,6 +107,11 @@ test("acessos sem config retorna erro", async () => {
   assert.match(response.text, /nao configurado/);
 });
 
+test("reels sends audio from public site", async () => {
+  const response = await executeCommand("reels", env, fakeFetch());
+  assert.match(response.text, /enviado/);
+});
+
 test("unauthorized chat receives no GitHub command", async () => {
   const calls = [];
   await handleTelegramUpdate(

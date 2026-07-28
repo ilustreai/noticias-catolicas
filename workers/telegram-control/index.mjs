@@ -9,7 +9,7 @@ const MENU_BUTTONS = [
   ],
   [
     { text: "Ultimo erro", callback_data: "last_error" },
-    { text: "Teste", callback_data: "test" },
+    { text: "Reels", callback_data: "reels" },
   ],
 ];
 
@@ -109,6 +109,8 @@ export async function executeCommand(command, env, fetchImpl = fetch, raw = "") 
       return { text: await handleCancelar(env, fetchImpl, raw) };
     case "acessos":
       return { text: await handleAcessos(env, fetchImpl, raw) };
+    case "reels":
+      return await handleReels(env, fetchImpl);
     default:
       return {
         text: "Comando nao reconhecido. Use o menu abaixo.",
@@ -133,6 +135,7 @@ function normalizeCommand(text) {
     agendamentos: "agendamentos", list: "agendamentos",
     cancelar: "cancelar", cancel: "cancelar",
     acessos: "acessos", analytics: "acessos", visits: "acessos",
+    reels: "reels", audio: "reels",
   };
   return aliases[command] ?? command;
 }
@@ -496,6 +499,59 @@ async function checkPublicSite(env, fetchImpl) {
     };
   } catch {
     return { ok: false, status: 0, hasHero: false, hasCurrentYear: false, newsItems: 0 };
+  }
+}
+
+// --- Reels ---
+
+async function handleReels(env, fetchImpl) {
+  const siteUrl = env.PUBLIC_SITE_URL || "https://noticias.ilustreai.com.br/";
+  const now = new Date();
+  const dates = [];
+  for (let i = 0; i < 3; i++) {
+    const d = new Date(now);
+    d.setDate(d.getDate() - i);
+    dates.push(d.toISOString().slice(0, 10));
+  }
+
+  let audioUrl = null;
+  for (const date of dates) {
+    const candidate = `${siteUrl}audio/reels-${date}.mp3`;
+    try {
+      const resp = await fetchImpl(candidate, { method: "HEAD" });
+      if (resp.ok) { audioUrl = candidate; break; }
+    } catch { continue; }
+  }
+
+  if (!audioUrl) {
+    return { text: "Nenhum audio de Reels encontrado nos ultimos 3 dias. Execute /run_daily primeiro.", keyboard: MENU_BUTTONS };
+  }
+
+  const dateMatch = audioUrl.match(/reels-(\d{4}-\d{2}-\d{2})/);
+  const dateStr = dateMatch ? dateMatch[1] : "hoje";
+  const chatId = env.TELEGRAM_CHAT_ID;
+  try {
+    await sendTelegramAudio(env, fetchImpl, audioUrl, `Reels - ${dateStr}`, "Audio do Reels para voce usar como quiser.", chatId);
+    return { text: `Audio do Reels de ${dateStr} enviado!`, keyboard: MENU_BUTTONS };
+  } catch {
+    return { text: `Erro ao enviar audio. URL: ${audioUrl}`, keyboard: MENU_BUTTONS };
+  }
+}
+
+async function sendTelegramAudio(env, fetchImpl, audioUrl, title, caption, chatId) {
+  const body = {
+    chat_id: chatId,
+    audio: audioUrl,
+    title,
+    caption,
+  };
+  const response = await fetchImpl(telegramApiUrl(env, "sendAudio"), {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  if (!response.ok) {
+    throw new Error(`Telegram sendAudio failed (${response.status}): ${await response.text()}`);
   }
 }
 
