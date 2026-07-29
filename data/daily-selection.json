@@ -1,34 +1,34 @@
 {
-  "date": "2026-07-28",
-  "editionLabel": "28 de julho de 2026",
+  "date": "2026-07-29",
+  "editionLabel": "29 de julho de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Terça-Feira da Semana XVII do Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 13,36-43"
+    "celebrationTitle": "Santos Marta, Maria e Lázaro",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Jo 11,19-27 ou Lc 10,38-42"
   },
   "saint": {
-    "feast": "Santo do Dia - 28 de Julho",
-    "name": "Beatos José Caselles Moncho e José Castell Camps, mártires Salesianos",
-    "description": "Celebração litúrgica do dia: Terça-Feira da Semana XVII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/beatos-jose-caselles-moncho-e-jose-castell-camps-martires-salesianos/"
+    "feast": "Santo do Dia - 29 de Julho",
+    "name": "Santos Marta, Maria e Lázaro, amigos de Jesus",
+    "description": "Celebração litúrgica do dia: Santos Marta, Maria e Lázaro.",
+    "url": "https://santo.cancaonova.com/santo/santos-marta-maria-e-lazaro-amigos-de-jesus/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 13,36-43)",
+    "ref": "Evangelho de Jesus Cristo segundo João (Jo 11,19-27 ou Lc 10,38-42)",
     "lines": [
-      "Naquele tempo, Jesus deixou as multidões e foi para casa.",
-      "Seus discípulos aproximaram-se dele e disseram: Explica-nos a parábola do joio! Jesus respondeu: Aquele que semeia a boa semente é o Filho do Homem.",
-      "A boa semente são os que pertencem ao Reino.",
-      "O joio são os que pertencem ao Maligno.",
-      "O inimigo que semeou o joio é o diabo.",
-      "Como o joio é recolhido e queimado ao fogo, assim também acontecerá no fim dos tempos: o Filho do Homem enviará os seus anjos e eles retirarão do seu Reino todos os que fazem outros pecar e os que praticam o mal; e depois os lançarão na fornalha de fogo.",
-      "Ali haverá choro e ranger de dentes."
+      "Naquele tempo, muitos judeus tinham vindo à casa de Marta e Maria para as consolar por causa do irmão.",
+      "Quando Marta soube que Jesus tinha chegado, foi ao encontro dele.",
+      "Então Marta disse a Jesus: Senhor, se tivesses estado aqui, meu irmão não teria morrido.",
+      "Mas mesmo assim, eu sei que o que pedires a Deus, ele to concederá.",
+      "Respondeu-lhe Jesus: Teu irmão ressuscitará.",
+      "Disse Marta: Eu sei que ele ressuscitará na ressurreição, no último dia.",
+      "Então Jesus disse: Eu sou a ressurreição e a vida."
     ],
-    "keyVerse": "A semente é de Deus a palavra, o Cristo é o semeador; todo aquele que o encontra, vida eterna encontrou.",
-    "body": "Naquele tempo, 36 Jesus deixou as multidões e foi para casa. Seus discípulos aproximaram-se dele e disseram: \"Explica-nos a parábola do joio!\" 37 Jesus respondeu: \"Aquele que semeia a boa semente é o Filho do Homem. 38 O campo é o mundo. A boa semente são os que pertencem ao Reino. O joio são os que pertencem ao Maligno. 39 O inimigo que semeou o joio é o diabo. A colheita é o fim dos tempos. Os ceifadores são os anjos. 40 Como o joio é recolhido e queimado ao fogo, assim também acontecerá no fim dos tempos: 41 o Filho do Homem enviará os seus anjos e eles retirarão do seu Reino todos os que fazem outros pecar e os que praticam o mal; 42 e depois os lançarão na fornalha de fogo. Ali haverá choro e ranger de dentes. 43 Então os justos brilharão como o sol no Reino de seu Pai. Quem tem ouvidos, ouça\". —"
+    "keyVerse": "Eu sou a luz do mundo; aquele que me segue, não caminha entre as trevas, mas terá a luz da vida.",
+    "body": "Naquele tempo, 19 muitos judeus tinham vindo à casa de Marta e Maria para as consolar por causa do irmão. 20 Quando Marta soube que Jesus tinha chegado, foi ao encontro dele. Maria ficou sentada em casa. 21 Então Marta disse a Jesus: \"Senhor, se tivesses estado aqui, meu irmão não teria morrido. 22 Mas mesmo assim, eu sei que o que pedires a Deus, ele to concederá\". 23 Respondeu-lhe Jesus: \"Teu irmão ressuscitará\". 24 Disse Marta: \"Eu sei que ele ressuscitará na ressurreição, no último dia\". 25 Então Jesus disse: \"Eu sou a ressurreição e a vida. Quem crê em mim, mesmo que morra, viverá. 26 E todo aquele que vive e crê em mim, não morrerá jamais. Crês isto?\" 27 Respondeu ela: \"Sim, Senhor, eu creio firmemente que tu és o Messias, o Filho de Deus, que devia vir ao mundo\". Palavra da Salvação. ou Evangelho ( Lc 10,38-42) - Aleluia, Aleluia, Aleluia. - Eu sou a luz do mundo; aquele que me segue, não caminha entre as trevas, mas terá a luz da vida. Proclamação do Evangelho de Jesus Cristo segundo Lucas. -Glória a vós, Senhor. Naquele tempo, 38 Jesus entrou num povoado, e certa mulher, de nome Marta, recebeu-o em sua casa. 39 Sua irmã, chamada Maria, sentou-se aos pés do Senhor, e escutava a sua palavra. 40 Marta, porém, estava ocupada com muitos afazeres. Ela aproximou-se e disse: \"Senhor, não te importas que minha irmã me deixe sozinha, com todo o serviço? Manda que ela me venha ajudar!\" 41 O Senhor, porém, lhe respondeu: \"Marta, Marta! Tu te preocupas e andas agitada por muitas coisas. 42 Porém, uma só coisa é necessária. Maria escolheu a melhor parte e esta não lhe será tirada\". —"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV conclui período de descanso em Castel Gandolfo",
-      "summary": "O Papa deixou, na noite desta segunda-feira, 27 de julho, o Palácio Apostólico de Castel Gandolfo, nos Castelos Romanos, para retornar ao Vaticano. Às 20h34 (hora local), ao deixar a residência em um automóvel, abençoou algumas crianças.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/leao-xiv-conclui-periodo-de-descanso-em-castel-gandolfo.html",
-      "published": "2026-07-27"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-07-29"
     },
     {
       "source": "Vatican News",
-      "title": "IOR: relatório de sustentabilidade 2025, lucro de 51 milhões de euros",
-      "summary": "O instituto confirma seu compromisso com uma finança transparente, responsável e coerente com os princípios da Doutrina Social da Igreja. No ano passado, gerou 67,6 milhões de euros, um aumento em relação aos 50 milhões do ano anterior.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-07/ior-relatorio-sustentabilidade-2025-lucro.html",
-      "published": "2026-07-28"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-07-29"
     },
     {
       "source": "CNBB",
-      "title": "promove levantamento nacional sobre adultos que solicitam ingresso no catecumenato",
-      "summary": "A CNBB está mobilizando as dioceses de todo o país para colaborar com um levantamento solicitado pelo Dicastério para a Evangelização, da Santa Sé, sobre os adultos que pedem ingresso no catecumenato. A iniciativa busca reunir informações.",
-      "url": "https://www.cnbb.org.br/cnbb-promove-levantamento-nacional-sobre-adultos-que-solicitam-ingresso-no-catecumenato/",
-      "published": "2026-07-27"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-07-29"
     },
     {
       "source": "ACI Digital",
-      "title": "Brasileiro ordena ilicitamente bispo para monges sedevacantistas escoceses",
-      "summary": "Um grupo de monges sedevacantistas na Escócia ordenou ilicitamente um bispo na última sexta-feira (25), apesar dos repetidos avisos de que isso seria um ato cismático e uma ruptura com a Igreja. Os Redentoristas Transalpinos, ou Filhos do Santíssimo Redentor, transmitiram ao vivo a cerimônia de seu mosteiro em Papa Stronsay, ilha que do arquipélago de Orkney, Escócia....",
-      "url": "https://www.acidigital.com/noticia/69087/brasileiro-ordena-ilicitamente-bispo-para-monges-sedevacantistas-escoceses",
-      "published": "2026-07-27"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Causa de beatificação do servo de Deus padre Léo entra na fase romana",
-      "summary": "O processo de beatificação do servo de Deus padre Léo Tarcísio Gonçalves Pereira entrou na fase romana. O decreto da causa dos santos sobre a validade jurídica da causa foi recebido na semana passada, segundo o presidente do Instituto.",
-      "url": "https://www.acidigital.com/noticia/69085/causa-de-beatificacao-do-servo-de-deus-padre-leo-entra-na-fase-romana",
-      "published": "2026-07-27"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-07-29"
     },
     {
       "source": "Shalom",
-      "title": "Acamps Rio 2026: Padre Rômulo recorda vida de Evelyn Ramos e inspira juventude à santidade",
-      "summary": "Durante o Acamp's, os jovens foram sendo envolvidos pela alegria de descobrir o valor de uma verdadeira amizade com Deus. Na vida da irmã que fez sua páscoa em 2026, enxegaram um grande sinal de entrega total a Deus.",
-      "url": "https://comshalom.org/acamps-rio-2026-padre-romulo-recorda-vida-de-evelyn-ramos-e-inspira-juventude-a-santidade/",
-      "published": "2026-07-27"
+      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
+      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
+      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "published": "2026-07-29"
+    },
+    {
+      "source": "Shalom",
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-07-29"
     },
     {
       "source": "Aleteia",
-      "title": "Seu filho deixou de acreditar em Deus? Existe um estudo que pode lhe interessar",
-      "summary": "studos sobre jovens e redes sociais mostram como a fé na verdade objetiva e em figuras de autoridade está diminuindo. O que isso significa para a fé em Deus e o que os pais podem fazer? Quando os pais se preocupam com a fé de seus filhos.",
-      "url": "https://pt.aleteia.org/2026/07/28/seu-filho-deixou-de-acreditar-em-deus-existe-um-estudo-que-pode-lhe-interessar/",
+      "title": "Os Jardins do Vaticano oferecem um refúgio de espiritualidade mariana",
+      "summary": "Os Jardins do Vaticano, que abrangem aproximadamente 23 hectares (um pouco mais da metade da área do menor Estado do mundo), são um vasto espaço de meditação muito apreciado pelos papas. Abriga também um notável legado de devoção mariana,.",
+      "url": "https://pt.aleteia.org/2026/07/28/os-jardins-do-vaticano-oferecem-um-refugio-de-espiritualidade-mariana/",
       "published": "2026-07-28"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-07-29"
     }
   ],
   "closingQuote": {
-    "text": "Como o joio é recolhido e queimado ao fogo, assim também acontecerá no fim dos tempos.",
-    "source": "Mateus 13,36-43"
+    "text": "Sim, Senhor, eu creio que tu és o Cristo, o Filho de Deus.",
+    "source": "Santa Marta — Jo 11,27"
   },
   "liturgyHours": {
-    "reading": "Já é hora de despertar. Com efeito, agora a salvação está mais perto de nós do que quando abraçamos a fé. A noite já vai adiantada, o dia vem chegando: despojemo-nos das ações das trevas e vistamos as armas da luz. Procedamos honestamente, como em...",
+    "reading": "Pela misericórdia de Deus, eu vos exorto, irmãos, a vos oferecerdes em sacrifício vivo, santo e agradável a Deus: Este é o vosso culto espiritual. Não vos conformeis com o mundo, mas transformai-vos, renovando vossa maneira de pensar e de julgar,...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
