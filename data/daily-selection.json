@@ -1,34 +1,34 @@
 {
-  "date": "2026-07-29",
-  "editionLabel": "29 de julho de 2026",
+  "date": "2026-07-30",
+  "editionLabel": "30 de julho de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santos Marta, Maria e Lázaro",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Jo 11,19-27 ou Lc 10,38-42"
+    "celebrationTitle": "São Pedro Crisólogo, bispo e doutor da Igreja",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Mt 13,47-53"
   },
   "saint": {
-    "feast": "Santo do Dia - 29 de Julho",
-    "name": "Santos Marta, Maria e Lázaro, amigos de Jesus",
-    "description": "Celebração litúrgica do dia: Santos Marta, Maria e Lázaro.",
-    "url": "https://santo.cancaonova.com/santo/santos-marta-maria-e-lazaro-amigos-de-jesus/"
+    "feast": "Santo do Dia - 30 de Julho",
+    "name": "São Pedro Crisólogo, famoso pregador do Evangelho",
+    "description": "Celebração litúrgica do dia: São Pedro Crisólogo, bispo e doutor da Igreja.",
+    "url": "https://santo.cancaonova.com/santo/sao-pedro-crisologo-famoso-pregador-do-evangelho/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo João (Jo 11,19-27 ou Lc 10,38-42)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 13,47-53)",
     "lines": [
-      "Naquele tempo, muitos judeus tinham vindo à casa de Marta e Maria para as consolar por causa do irmão.",
-      "Quando Marta soube que Jesus tinha chegado, foi ao encontro dele.",
-      "Então Marta disse a Jesus: Senhor, se tivesses estado aqui, meu irmão não teria morrido.",
-      "Mas mesmo assim, eu sei que o que pedires a Deus, ele to concederá.",
-      "Respondeu-lhe Jesus: Teu irmão ressuscitará.",
-      "Disse Marta: Eu sei que ele ressuscitará na ressurreição, no último dia.",
-      "Então Jesus disse: Eu sou a ressurreição e a vida."
+      "Naquele tempo, disse Jesus à multidão: O Reino dos Céus é ainda como uma rede lançada ao mar e que apanha peixes de todo tipo.",
+      "Quando está cheia, os pescadores puxam a rede para a praia, sentam-se e recolhem os peixes bons em cestos e jogam fora os que não prestam.",
+      "Assim acontecerá no fim dos tempos: os anjos virão para separar os homens maus dos que são justos, e lançarão os maus na fornalha de fogo.",
+      "E ai, haverá choro e ranger de dentes.",
+      "Compreendestes tudo isso? Eles responderam: Sim.",
+      "Então Jesus acrescentou: Assim, pois, todo mestre da Lei, que se torna discípulo do Reino dos Céus, é como um pai de família que tira do seu tesouro coisas novas e velhas.",
+      "Quando Jesus terminou de contar essas parábolas, partiu dali."
     ],
-    "keyVerse": "Eu sou a luz do mundo; aquele que me segue, não caminha entre as trevas, mas terá a luz da vida.",
-    "body": "Naquele tempo, 19 muitos judeus tinham vindo à casa de Marta e Maria para as consolar por causa do irmão. 20 Quando Marta soube que Jesus tinha chegado, foi ao encontro dele. Maria ficou sentada em casa. 21 Então Marta disse a Jesus: \"Senhor, se tivesses estado aqui, meu irmão não teria morrido. 22 Mas mesmo assim, eu sei que o que pedires a Deus, ele to concederá\". 23 Respondeu-lhe Jesus: \"Teu irmão ressuscitará\". 24 Disse Marta: \"Eu sei que ele ressuscitará na ressurreição, no último dia\". 25 Então Jesus disse: \"Eu sou a ressurreição e a vida. Quem crê em mim, mesmo que morra, viverá. 26 E todo aquele que vive e crê em mim, não morrerá jamais. Crês isto?\" 27 Respondeu ela: \"Sim, Senhor, eu creio firmemente que tu és o Messias, o Filho de Deus, que devia vir ao mundo\". Palavra da Salvação. ou Evangelho ( Lc 10,38-42) - Aleluia, Aleluia, Aleluia. - Eu sou a luz do mundo; aquele que me segue, não caminha entre as trevas, mas terá a luz da vida. Proclamação do Evangelho de Jesus Cristo segundo Lucas. -Glória a vós, Senhor. Naquele tempo, 38 Jesus entrou num povoado, e certa mulher, de nome Marta, recebeu-o em sua casa. 39 Sua irmã, chamada Maria, sentou-se aos pés do Senhor, e escutava a sua palavra. 40 Marta, porém, estava ocupada com muitos afazeres. Ela aproximou-se e disse: \"Senhor, não te importas que minha irmã me deixe sozinha, com todo o serviço? Manda que ela me venha ajudar!\" 41 O Senhor, porém, lhe respondeu: \"Marta, Marta! Tu te preocupas e andas agitada por muitas coisas. 42 Porém, uma só coisa é necessária. Maria escolheu a melhor parte e esta não lhe será tirada\". —"
+    "keyVerse": "Abre-nos, ó Senhor, o coração, para ouvirmos a palavra de Jesus!",
+    "body": "Naquele tempo, disse Jesus à multidão: 47 \"O Reino dos Céus é ainda como uma rede lançada ao mar e que apanha peixes de todo tipo. 48 Quando está cheia, os pescadores puxam a rede para a praia, sentam-se e recolhem os peixes bons em cestos e jogam fora os que não prestam. 49 Assim acontecerá no fim dos tempos: os anjos virão para separar os homens maus dos que são justos, 50 e lançarão os maus na fornalha de fogo. E ai, haverá choro e ranger de dentes. 51 Compreendestes tudo isso?\" Eles responderam: \"Sim\". 52 Então Jesus acrescentou: \"Assim, pois, todo mestre da Lei, que se torna discípulo do Reino dos Céus, é como um pai de família que tira do seu tesouro coisas novas e velhas\". 53 Quando Jesus terminou de contar essas parábolas, partiu dali. —"
   },
   "sponsor": {
     "enabled": true,
@@ -39,67 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
-      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "title": "Papa: a beleza da música conduz ao encontro com Deus, \"Aquele que é a própria Beleza\"",
+      "summary": "Ao retornar a Castel Gandolfo na noite desta quarta-feira, 29 de julho, para um concerto promovido pela Andrea Bocelli Foundation, Leão XIV encontrou crianças e jovens de Uganda, da Terra Santa e da Itália e destacou que a música é capaz.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/leao-xiv-concerto-castel-gandolfo-andrea-bocelli-foundation.html",
       "published": "2026-07-29"
     },
     {
       "source": "Vatican News",
-      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
-      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "title": "Jesuítas iniciam Semana Inaciana com diálogo sobre “Magnifica humanitas”",
+      "summary": "Encontro promovido pelo Centro Cultural de Brasília reuniu especialistas para discutir a primeira encíclica do Papa Leão XIV e os desafios da inteligência artificial à luz da dignidade da pessoa humana. Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/jesuitas-iniciam-semana-inaciana-dialogo-magnifica-humanitas.html",
       "published": "2026-07-29"
     },
     {
       "source": "CNBB",
-      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
-      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
-      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "title": "100 anos de dom Heitor de Araújo Sales: pastor zeloso que plantou as primeiras sementes da Camp",
+      "summary": "Além de sua contribuição para o crescimento pastoral da diocese de Caicó e da arquidiocese de Natal, dom Heitor está marcado na história da Igreja no Brasil por ter lançado a semente da Campanha da Fraternidade, junto com seu irmão, dom.",
+      "url": "https://www.cnbb.org.br/100-anos-dom-heitor-de-araujo-sales-primeiras-sementes-campanha-da-fraternidade/",
       "published": "2026-07-29"
     },
     {
       "source": "ACI Digital",
-      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
-      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
-      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "title": "é festa de são Pedro Crisólogo, o homem de palavras de ouro",
+      "summary": "“Esforcemo-nos por levar sempre em nós a imagem fiel do nosso Criador, não na majestade que só a Ele pertence, mas na inocência, simplicidade, mansidão, paciência, humildade, misericórdia, paz e concórdia, com que Ele Se dignou tornar-Se.",
+      "url": "https://www.acidigital.com/noticia/52761/hoje-e-festa-de-sao-pedro-crisologo-o-homem-de-palavras-de-ouro",
+      "published": "2026-07-30"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Arcebispo defende mesquita nos EUA e critica ‘sentimento anti-muçulmano’",
+      "summary": "O arcebispo de Santa Fé, Novo México, EUA, John Charles Wester alegou o documento do Concílio Vaticano II sobre a liberdade religiosa e as proteções constitucionais à liberdade religiosa no país.",
+      "url": "https://www.acidigital.com/noticia/69125/arcebispo-defende-mesquita-nos-eua-e-critica-sentimento-anti-muculmano",
       "published": "2026-07-29"
     },
     {
       "source": "Shalom",
-      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
-      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
-      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
-      "published": "2026-07-29"
+      "title": "Pe. Almeida: O maior milagre é ser instrumento da misericórdia de Deus",
+      "summary": "Presente na história do Festival Halleluya desde 1999, quando integrava o Ministério Missionário Shalom, o Padre Almeida acompanhou de perto o crescimento daquele que hoje é considerado um dos maiores festivais de música católica da.",
+      "url": "https://comshalom.org/pe-almeida-o-maior-milagre-e-ser-instrumento-da-misericordia-de-deus/",
+      "published": "2026-07-30"
     },
     {
       "source": "Shalom",
-      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
-      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
-      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
-      "published": "2026-07-29"
-    },
-    {
-      "source": "Aleteia",
-      "title": "[VÍDEO] Profanaram Medjugorje. A resposta foi um apelo à oração e ao perdão",
-      "summary": "O altar exterior da igreja paroquial de São Tiago foi incendiado, uma imagem de Nossa Senhora foi profanada com tinta e várias inscrições ofensivas foram deixadas no recinto, provocando consternação entre os peregrinos e a comunidade.",
-      "url": "https://pt.aleteia.org/2026/07/29/video-vandalismo-em-medjugorje-santuario-apela-a-oracao-ao-perdao-e-ao-jejum-apos-profanacao/",
-      "published": "2026-07-29"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
-      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
-      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "title": "Dom Heitor Sales celebra 100 anos com um legado que marca a história da Igreja em Natal",
+      "summary": "Sua trajetória episcopal foi marcada pela defesa da dignidade humana, pelo incentivo às vocações, pelo fortalecimento da comunhão e pelo compromisso com uma Igreja missionária, próxima dos mais necessitados e fiel ao Evangelho.",
+      "url": "https://comshalom.org/dom-heitor-de-araujo-sales-celebra-100-anos-com-um-legado-de-fe-que-marcou-a-historia-da-igreja-e-da-missao-shalom-em-natal/",
       "published": "2026-07-29"
     }
   ],
   "closingQuote": {
-    "text": "Sim, Senhor, eu creio que tu és o Cristo, o Filho de Deus.",
-    "source": "Santa Marta — Jo 11,27"
+    "text": "Ó homem, por que tens de ti conceito tão vil, quando és tão precioso para Deus?",
+    "source": "S. Pedro Crisólogo — Sermão 148"
   },
   "liturgyHours": {
-    "reading": "Pela misericórdia de Deus, eu vos exorto, irmãos, a vos oferecerdes em sacrifício vivo, santo e agradável a Deus: Este é o vosso culto espiritual. Não vos conformeis com o mundo, mas transformai-vos, renovando vossa maneira de pensar e de julgar,...",
+    "reading": "Isto diz o Senhor: O céu é o meu trono e a terra é o apoio de meus pés. Que casa é esta que edificareis para mim, e que lugar é este para meu descanso? Tudo isso foi minha mão que fez, tudo isso é meu, diz o Senhor. Mas eu olho para este, para o...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
