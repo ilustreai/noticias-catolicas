@@ -3,17 +3,17 @@
   "editionLabel": "1 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santo Afonso de Ligório, bispo e doutor da Igreja",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
+    "celebrationTitle": "1 de agosto de 2026 - Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
     "gospelShort": "Mt 14,1-12"
   },
   "saint": {
     "feast": "Santo Afonso de Ligório\\, bispo e doutor da Igreja",
     "name": "Afonso Maria de Ligório, fundador da Congregação do Santíssimo Redentor",
-    "description": "Celebração litúrgica do dia: Santo Afonso de Ligório, bispo e doutor da Igreja.",
+    "description": "Celebração litúrgica do dia: 1 de agosto de 2026 - Tempo Comum.",
     "url": "https://santo.cancaonova.com/santo/afonso-maria-de-ligorio-fundador-da-congregacao-do-santissimo-redentor/"
   },
   "gospel": {
@@ -39,52 +39,52 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV aos jovens do Peru: reacendam a esperança em tantos corações que sofrem",
-      "summary": "Mensagem em vídeo do Papa aos jovens que participam do Dia Nacional da Juventude, que está ocorrendo em Chulucanas de 30 de julho a 2 de agosto: “abram bem seus corações para acolher os dons do Senhor. Não guardem só para vocês o que.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/leao-xiv-jovens-peru-reacendam-esperanca-tantos-coracoes.html",
-      "published": "2026-08-01"
+      "title": "Papa assina a nova “Constituição” do Estado da Cidade do Vaticano",
+      "summary": "Leão XIV promulgou nesta sexta-feira, 31 de julho, uma nova Lei Fundamental, que substitui a de 2023 para responder à necessidade de “levar em consideração novas exigências de governo e algumas importantes alterações normativas ocorridas.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-assina-a-nova-constituicao-do-estado-da-cidade-do-vaticano.html",
+      "published": "2026-07-31"
     },
     {
       "source": "Vatican News",
-      "title": "Leão XIV se encontra com Patti Smith",
-      "summary": "Na manhã desta sexta-feira, 31 de julho, o Pontífice recebeu no Vaticano a cantora, compositora, poetisa e artista originária, assim como ele, de Chicago. Em maio passado, ela inaugurou o Pavilhão da Santa Sé na Bienal de Veneza, enquanto.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/leao-xiv-encontra-com-patti-smith.html",
+      "title": "O Papa ao cardeal Simoni: nenhuma prisão pode separar o homem do amor de Deus",
+      "summary": "Leão XIV enviou uma mensagem ao cardeal de 97 anos que nesta sexta-feira, 31 de julho, presidiu a Eucaristia no campo de prisioneiros de Spaç, na Albânia, em memória daqueles que ali sofreram ou perderam a vida. Durante o regime.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-cardeal-simoni-nenhuma-prisao-pode-separar-homem-deus.html",
+      "published": "2026-08-01"
+    },
+    {
+      "source": "CNBB",
+      "title": "30 de julho prebíteros: homens de Deus para servir o seu povo",
+      "summary": "Dom Leomar Brustolin Arcebispo de Santa Maria (RS) A celebração do Dia do Presbítero, tradicionalmente associada à memória de São João Maria Vianney, convida-nos a contemplar a beleza e a grandeza do ministério sacerdotal. Mais do que uma.",
+      "url": "https://www.cnbb.org.br/30-de-julho-prebiteros-homens-de-deus-para-servir-o-seu-povo/",
       "published": "2026-07-31"
     },
     {
       "source": "CNBB",
-      "title": "Live abre o Mês Vocacional 2026 com reflexão sobre as novas Diretrizes Gerais da Ação Evangeliz",
-      "summary": "A Igreja no Brasil inicia, neste mês de agosto, a celebração do Mês Vocacional 2026, um tempo dedicado à oração, à reflexão e à promoção das diversas vocações presentes na vida da Igreja. A abertura da programação será marcada por uma.",
-      "url": "https://www.cnbb.org.br/live-abre-o-mes-vocacional-2026/",
-      "published": "2026-07-31"
-    },
-    {
-      "source": "CNBB",
-      "title": "No próximo domingo, fiéis poderão celebrar o Perdão de Assis e lucrar a Indulgência da Porciúnc",
-      "summary": "De acordo com frei Luís Felipe Marques, assessor da Comissão para a Liturgia da CNBB, essa celebração é um convite para recomeçar, \"deixando-nos alcançar pela misericórdia de Deus e redescobrindo a alegria de um coração reconciliado\". Na.",
-      "url": "https://www.cnbb.org.br/2-agosto-perdao-de-assis-e-indulgencia-da-porciuncula/",
+      "title": "“Ninguém se sinta invisível”: na intenção de oração do mês de agosto, Papa Leão XIV reza “Pela ",
+      "summary": "O Pontífice reconhece que as cidades, chamadas a ser lugares de liberdade e oportunidades, podem também se transformar em “espaços de anonimato e isolamento”, e pede um novo olhar, capaz de descobrir na vida urbana o “terreno fecundo para.",
+      "url": "https://www.cnbb.org.br/intencao-oracao-mes-agosto-papa-leao-xiv-evangelizacao-na-cidade/",
       "published": "2026-07-31"
     },
     {
       "source": "ACI Digital",
-      "title": "Prefeito do dicastério da liturgia diz que Leão XIV não vai mudar as restrições à missa tradici",
-      "summary": "O cardeal Arthur Roche prefeito do Dicastério para o Culto Divino e a Disciplina dos Sacramentos do Vaticano disse que o papa Leão XIV não vai alterar o estatuto da missa tradicional em latim.",
-      "url": "https://www.acidigital.com/noticia/69155/prefeito-do-dicasterio-da-liturgia-diz-que-leao-xiv-nao-vai-mudar-as-restricoes-a-missa-tradicional-do-papa-francisco",
+      "title": "Ataque israelense danifica hospital administrado por cristãos em Gaza, diz organização católica",
+      "summary": "Ataques aéreos israelenses contra um prédio de apartamentos adjacente ao hospital Árabe Al-Ahli, na Cidade de Gaza, danificaram o hospital na noite da última quarta-feira (29), estourando janelas e portas e assustando pacientes e.",
+      "url": "https://www.acidigital.com/noticia/69149/ataque-israelense-danifica-hospital-administrado-por-cristaos-em-gaza-diz-organizacao-catolica",
       "published": "2026-07-31"
     },
     {
       "source": "Shalom",
-      "title": "Vale a vida : conheça a história de uma família transformada pelo Carisma Shalom",
-      "summary": "Casados há 30 anos, Cida e Rai testemunham como o encontro com o Carisma Shalom transformou sua família, fortaleceu sua vocação e sustentou uma caminhada de mais de 25 anos na missão de Guarulhos.",
-      "url": "https://comshalom.org/historia-familia-transformada-carisma-shalom/",
-      "published": "2026-07-31"
+      "title": "Acamp s Shalom: por que milhares de jovens vivem essa experiência todos os anos?",
+      "summary": "Muito mais que um acampamento de férias, o Acamp's Shalom evangeliza milhares de jovens há mais de 35 anos por meio da amizade, da alegria e do encontro pessoal com Jesus Cristo.",
+      "url": "https://comshalom.org/acamps-shalom-acampamento-catolico-para-jovens/",
+      "published": "2026-08-01"
     },
     {
-      "source": "Shalom",
-      "title": "Halleluya 2026: jovens revelam o que acharam do vídeo do Papa Leão XIV ao Halleluya 2026",
-      "summary": "Em diferentes histórias, participantes relatam encontros marcantes com Deus, destacam a experiência vivida durante o Festival Halleluya 2026 e reforçam o impacto da mensagem do Papa Leão XIV, exibida na Arena no último sábado, 25.",
-      "url": "https://comshalom.org/halleluya-2026-jovens-revelam-o-que-acharam-do-video-do-papa-leao-xiv-ao-halleluya-2026/",
-      "published": "2026-07-31"
+      "source": "Gaudium Press",
+      "title": "nova Lei Fundamental encerra lacunas e reforça a segurança jurídica do Vaticano",
+      "summary": "Leão XIV coloca ordem na casa. Canonista de formação, Leão XIV parece compreender que reformas institucionais só produzem frutos duradouros quando repousam sobre bases jurídicas sólidas. Redação ( 01/08/2026 06:26 , Gaudium Press ) Poucos.",
+      "url": "https://gaudiumpress.org/content/vaticano-nova-lei-fundamental-encerra-lacunas-e-reforca-a-seguranca-juridica-do-vaticano/",
+      "published": "2026-08-01"
     }
   ],
   "closingQuote": {
