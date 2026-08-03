@@ -5,7 +5,7 @@
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Segunda-Feira da Semana XVIII do Tempo Comum",
+    "celebrationTitle": "3 de agosto de 2026 - Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
     "gospelShort": "Mt 14,22-36"
@@ -13,7 +13,7 @@
   "saint": {
     "feast": "\udfe2 Segunda-Feira da Semana XVIII do Tempo Comum",
     "name": "Santa Lídia, uma das primeiras a ser venerada pela Igreja",
-    "description": "Celebração litúrgica do dia: Segunda-Feira da Semana XVIII do Tempo Comum.",
+    "description": "Celebração litúrgica do dia: 3 de agosto de 2026 - Tempo Comum.",
     "url": "https://santo.cancaonova.com/santo/santa-lidia-uma-das-primeiras-a-ser-venerada-pela-igreja/"
   },
   "gospel": {
@@ -81,16 +81,16 @@
     },
     {
       "source": "Aleteia",
-      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
-      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
-      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "title": "Novo site! Vocês amaram o novo azul vibrante tanto quanto nós?",
+      "summary": "Muitos de vocês enviaram doações para ajudar com o gigantesco projeto de atualização e reformulação do nosso site. Todos vocês já puderam conferir, pois fechamos julho com o lançamento — depois de alguns contratempos no início do mês. E.",
+      "url": "https://pt.aleteia.org/2026/08/03/novo-site-voces-amaram-o-novo-azul-vibrante-tanto-quanto-nos/",
       "published": "2026-08-03"
     },
     {
-      "source": "Gaudium Press",
-      "title": "Roma celebra Nossa Senhora das Neves com Missa Solene e tradicional Nevada",
-      "summary": "Celebração da dedicação da primeira Basílica mariana do Ocidente inclui Tríduo preparatório, Santa Missa solene e o canto das Vésperas.",
-      "url": "https://gaudiumpress.org/content/roma-celebra-nossa-senhora-das-neves-com-missa-solene-e-tradicional-nevada/",
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
       "published": "2026-08-03"
     }
   ],
