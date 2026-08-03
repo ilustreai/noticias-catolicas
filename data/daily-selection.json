@@ -5,7 +5,7 @@
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "3 de agosto de 2026 - Tempo Comum",
+    "celebrationTitle": "Segunda-Feira da Semana XVIII do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
     "gospelShort": "Mt 14,22-36"
@@ -13,7 +13,7 @@
   "saint": {
     "feast": "\udfe2 Segunda-Feira da Semana XVIII do Tempo Comum",
     "name": "Santa Lídia, uma das primeiras a ser venerada pela Igreja",
-    "description": "Celebração litúrgica do dia: 3 de agosto de 2026 - Tempo Comum.",
+    "description": "Celebração litúrgica do dia: Segunda-Feira da Semana XVIII do Tempo Comum.",
     "url": "https://santo.cancaonova.com/santo/santa-lidia-uma-das-primeiras-a-ser-venerada-pela-igreja/"
   },
   "gospel": {
@@ -39,58 +39,51 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
-      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
-      "published": "2026-08-03"
+      "title": "Papa, preocupado com Ceuta: que se encontrem soluções justas",
+      "summary": "Ainda oração pela “paz no mundo”. O Papa Leão XIV pediu aos fiéis neste domingo na conclusão do Angelus, na Praça São Pedro Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-preocupado-ceuta-encontrem-solucoes-justas.html",
+      "published": "2026-08-02"
     },
     {
       "source": "Vatican News",
-      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
-      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "title": "Assis aguarda Leão: o Papa encoraja os jovens a sonharem com \"coisas grandes\"",
+      "summary": "Frei Luca de Pasquale, um dos organizadores do evento \"GO! Encontro da Juventude Franciscana\", que se realiza na cidade da Úmbria a partir desta segunda-feira, 3 de agosto, até o dia 6, explicou à mídia vaticana a programação e os.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/leao-xiv-assis-visita-pastoral-francisco-jovens.html",
       "published": "2026-08-03"
     },
     {
       "source": "CNBB",
-      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
-      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
-      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "title": "O Pai-Nosso na visão de Tertuliano",
+      "summary": "Dom Vital Corbellini Bispo de Marabá (PA) A oração do Pai-Nosso é a melhor das orações. Ela foi ensinada por Jesus Cristo aos seus discípulos e hoje para todos nós, seus discípulos, suas discípulas, missionários, missionárias. Ela sempre.",
+      "url": "https://www.cnbb.org.br/o-pai-nosso-na-visao-de-tertuliano/",
       "published": "2026-08-03"
     },
     {
       "source": "ACI Digital",
-      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
-      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
-      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "title": "Em agosto, é possível ver cair do céu as “lágrimas de são Lourenço”",
+      "summary": "Olhar as estrelas poderia não ser a primeira coisa que vem à mente de um católico quando pensa em são Lourenço, que foi martirizado pelos romanos em uma grelha. Mas, no mês de agosto, com frequência, os católicos têm a oportunidade de ver.",
+      "url": "https://www.acidigital.com/noticia/52772/em-agosto-e-possivel-ver-cair-do-ceu-as-“lagrimas-de-sao-lourenco”",
       "published": "2026-08-03"
     },
     {
       "source": "Shalom",
-      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
-      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
-      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "title": "Paz a Vós desta semana destaca a Semana do Ministério Ordenado",
+      "summary": "A edição desta semana do Paz a Vós será dedicada à Semana do Ministério Ordenado , celebrada pela Igreja como um tempo de ação de graças, reflexão e oração pelos bispos, presbíteros e diáconos. O programa abordará a beleza e a missão do sacramento da Ordem, destacando o papel dos ministros ordenados na vida da Igreja, especialmente no anúncio da Palavra, na celebração dos sacramentos e no cuidado pastoral do povo de Deus....",
+      "url": "https://comshalom.org/paz-a-vos-desta-semana-destaca-a-semana-do-ministerio-ordenado/",
       "published": "2026-08-03"
     },
     {
       "source": "Shalom",
-      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
-      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
-      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "title": "Halleluya Quero Mais: Crescer na graça é o caminho para perseverar na fé",
+      "summary": "A última pregação do Halleluya Quero Mais apresentou caminhos concretos perseverar na fé por meio da oração, dos sacramentos e da vida comunitária.",
+      "url": "https://comshalom.org/halleluya-quero-mais-crescer-na-graca-perseveranca-fe/",
       "published": "2026-08-03"
     },
     {
-      "source": "Aleteia",
-      "title": "Novo site! Vocês amaram o novo azul vibrante tanto quanto nós?",
-      "summary": "Muitos de vocês enviaram doações para ajudar com o gigantesco projeto de atualização e reformulação do nosso site. Todos vocês já puderam conferir, pois fechamos julho com o lançamento — depois de alguns contratempos no início do mês. E.",
-      "url": "https://pt.aleteia.org/2026/08/03/novo-site-voces-amaram-o-novo-azul-vibrante-tanto-quanto-nos/",
-      "published": "2026-08-03"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
-      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
-      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "source": "Gaudium Press",
+      "title": "Gaza: uma esperança frágil para uma comunidade cristã ameaçada de desaparecer",
+      "summary": "A paróquia da Sagrada Família sobreviveu como refúgio durante a guerra. O desafio agora é permitir que volte a ser plenamente aquilo que sempre deveria ter sido: uma casa de oração, educação e caridade no coração de Gaza. Gaza – Igreja da.",
+      "url": "https://gaudiumpress.org/content/gaza-uma-esperanca-fragil-para-uma-comunidade-crista-ameacada-de-desaparecer/",
       "published": "2026-08-03"
     }
   ],
