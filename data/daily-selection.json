@@ -1,34 +1,34 @@
 {
-  "date": "2026-08-02",
-  "editionLabel": "2 de agosto de 2026",
+  "date": "2026-08-03",
+  "editionLabel": "3 de agosto de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XVIII do Tempo Comum",
+    "celebrationTitle": "Segunda-Feira da Semana XVIII do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 14,13-21"
+    "gospelShort": "Mt 14,22-36"
   },
   "saint": {
-    "feast": "\udfe2 Domingo XVIII do Tempo Comum",
-    "name": "Santo Eusébio de Vercelli, exemplo de defesa do cristianismo",
-    "description": "Celebração litúrgica do dia: Domingo XVIII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santo-eusebio-de-vercelli-exemplo-de-defesa-do-cristianismo/"
+    "feast": "\udfe2 Segunda-Feira da Semana XVIII do Tempo Comum",
+    "name": "Santa Lídia, uma das primeiras a ser venerada pela Igreja",
+    "description": "Celebração litúrgica do dia: Segunda-Feira da Semana XVIII do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/santa-lidia-uma-das-primeiras-a-ser-venerada-pela-igreja/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 14,13-21)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 14,22-36)",
     "lines": [
-      "Naquele tempo, Quando soube da morte de João Batista, Jesus partiu e foi de barco para um lugar deserto e afastado.",
-      "Mas, quando as multidões souberam disso, saíram das cidades e o seguiram a pé.",
-      "Ao sair do barco, Jesus viu uma grande multidão.",
-      "Encheu-se de compaixão por eles e curou os que estavam doentes.",
-      "Ao entardecer, os discípulos aproximaram-se de Jesus e disseram: Este lugar é deserto e a hora já está adiantada.",
-      "Despede as multidões, para que possam ir aos povoados comprar comida! Jesus porém lhes disse: Eles não precisam ir embora.",
-      "Dai-lhes vós mesmos de comer! Os discípulos responderam: Só temos aqui cinco pães e dois peixes."
+      "Depois que a multidão comera até saciar-se, Jesus mandou que os discípulos entrassem na barca e seguissem, à sua frente, para o outro lado do mar, enquanto ele despediria as multidões.",
+      "Depois de despedi-las, Jesus subiu ao monte, para orar a sós.",
+      "A noite chegou, e Jesus continuava ali, sozinho.",
+      "A barca, porém, já longe da terra, era agitada pelas ondas, pois o vento era contrário.",
+      "Pelas três horas da manhã, Jesus veio até os discípulos, andando sobre o mar.",
+      "Quando os discípulos o avistaram, andando sobre o mar, ficaram apavorados, e disseram: &Eacute; um fantasma.",
+      "Jesus, porém, logo lhes disse: Coragem!"
     ],
-    "body": "Naquele tempo, 13 Quando soube da morte de João Batista, Jesus partiu e foi de barco para um lugar deserto e afastado. Mas, quando as multidões souberam disso, saíram das cidades e o seguiram a pé. 14 Ao sair do barco, Jesus viu uma grande multidão. Encheu-se de compaixão por eles e curou os que estavam doentes. 15 Ao entardecer, os discípulos aproximaram-se de Jesus e disseram: \"Este lugar é deserto e a hora já está adiantada. Despede as multidões, para que possam ir aos povoados comprar comida!\" 16 Jesus porém lhes disse: \"Eles não precisam ir embora. Dai-lhes vós mesmos de comer!\" 17 Os discípulos responderam: \"Só temos aqui cinco pães e dois peixes\". 18 Jesus disse: \"Trazei-os aqui\". 19 Jesus mandou que as multidões se sentassem na grama. Então pegou os cinco pães e os dois peixes, ergueu os olhos para o céu e pronunciou a bênção. Em seguida partiu os pães, e os deu aos discípulos. Os discípulos os distribuíram às multidões. 20 Todos comeram e ficaram satisfeitos, e dos pedaços que sobraram, recolheram ainda doze cestos cheios. 21 E os que haviam comido eram mais ou menos cinco mil homens, sem contar mulheres e crianças. —",
-    "keyVerse": "O homem não vive somente de pão, mas vive de toda palavra que sai da boca de Deus, e não só de pão. Amém. Aleluia, Aleluia!"
+    "body": "Depois que a multidão comera até saciar-se, 22 Jesus mandou que os discípulos entrassem na barca e seguissem, à sua frente, para o outro lado do mar, enquanto ele despediria as multidões. 23 Depois de despedi-las, Jesus subiu ao monte, para orar a sós. A noite chegou, e Jesus continuava ali, sozinho. 24 A barca, porém, já longe da terra, era agitada pelas ondas, pois o vento era contrário. 25 Pelas três horas da manhã, Jesus veio até os discípulos, andando sobre o mar. 26 Quando os discípulos o avistaram, andando sobre o mar, ficaram apavorados, e disseram: \"&Eacute; um fantasma\". E gritaram de medo. 27 Jesus, porém, logo lhes disse: \"Coragem! Sou eu. Não tenhais medo!\" 28 Então Pedro lhe disse: \"Senhor, se és tu, manda-me ir ao teu encontro, caminhando sobre a água\". 29 E Jesus respondeu: \"Vem!\" Pedro desceu da barca e começou a andar sobre a água, em direção a Jesus. 30 Mas, quando sentiu o vento, ficou com medo e começando a afundar, gritou: \"Senhor, salva-me!\" 31 Jesus logo estendeu a mão, segurou Pedro, e lhe disse: \"Homem fraco na fé, por que duvidaste?\" 32 Assim que subiram na barca, o vento se acalmou. 33 Os que estavam na barca, prostraram-se diante dele, dizendo: \"Verdadeiramente, tu és o Filho de Deus!\" 34 Após a travessia desembarcaram em Genesaré. 35 Os habitantes daquele lugar, reconheceram Jesus e espalharam a notícia por toda a região. Então levaram a ele todos os doentes; 36 e pediam que pudessem, ao menos, tocar a barra de sua veste. E todos os que a tocaram, ficaram curados. —",
+    "keyVerse": "O homem não vive somente de pão, mas de toda palavra da boca de Deus."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa aos jovens equatorianos: sejam promotores do perdão e da paz",
-      "summary": "Videomensagem de Leão XIV aos participantes da VIII Jornada Nacional da Juventude do Equador, que se realiza em Ibarra de 31 de julho a 2 de agosto. O Pontífice convida a se deixarem transformar pelo amor de Cristo e a ouvirem seu.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-jovens-equatorianos-promotores-perdao-paz.html",
-      "published": "2026-08-02"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-08-03"
     },
     {
       "source": "Vatican News",
-      "title": "Medjugorje, o Papa aos jovens: redescubram a beleza do encontro com o Senhor",
-      "summary": "Em uma mensagem assinada pelo cardeal secretário de Estado, Pietro Parolin, por ocasião da abertura do Festival da Juventude, Mladifest, que realiza no santuário da Bósnia e Herzegovina, Leão XIV exorta os jovens a não se deixarem seduzir.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/medjugorje-papa-jovens-redescubram-beleza-encontro.html",
-      "published": "2026-08-01"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-08-03"
     },
     {
       "source": "CNBB",
-      "title": "Live abre o Mês Vocacional 2026 com reflexão sobre as novas Diretrizes Gerais da Ação Evangeliz",
-      "summary": "A Igreja no Brasil inicia, neste mês de agosto, a celebração do Mês Vocacional 2026, um tempo dedicado à oração, à reflexão e à promoção das diversas vocações presentes na vida da Igreja. A abertura da programação será marcada por uma.",
-      "url": "https://www.cnbb.org.br/live-abre-o-mes-vocacional-2026/",
-      "published": "2026-07-31"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-08-03"
     },
     {
       "source": "ACI Digital",
-      "title": "Estes santos do mês de agosto têm muitas coisas em comum",
-      "summary": "O calendário litúrgico de agosto celebra santos que compartilham características marcantes. Santo Afonso Maria de Ligório e são João Maria Vianney destacaram-se pelo ministério da confissão; santa Edith Stein e são Maximiliano Kolbe.",
-      "url": "https://www.acidigital.com/noticia/52773/estes-santos-do-mes-de-agosto-tem-muitas-coisas-em-comum",
-      "published": "2026-08-01"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "é dia de santo Afonso Maria de Ligório, fundador dos redentoristas",
-      "summary": "A Igreja celebra hoje (1º) a memória litúrgica de santo Afonso Maria de Ligório, Doutor da Igreja por seus escritos sobre moral e fundador da Congregação do Santíssimo Redentor, conhecidos como redentoristas.",
-      "url": "https://www.acidigital.com/noticia/52764/hoje-e-dia-de-santo-afonso-maria-de-ligorio-fundador-dos-redentoristas",
-      "published": "2026-08-01"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-08-03"
     },
     {
       "source": "Shalom",
-      "title": "Halleluya Quero Mais: O Espírito Santo quer encher você por inteiro",
-      "summary": "A primeira pregação do domingo no Halleluya Quero Mais destacou a Promessa do Pai e preparou os participantes para a Efusão do Espírito Santo, momento central do Seminário de Vida no Espírito Santo.",
-      "url": "https://comshalom.org/efusao-do-espirito-santo-halleluya-quero-mais/",
-      "published": "2026-08-02"
+      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
+      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
+      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "published": "2026-08-03"
     },
     {
       "source": "Shalom",
-      "title": "Halleluya Quero Mais: pregação sobre pecado e salvação convida a acolher a vida nova em Cristo",
-      "summary": "Dando continuidade ao Seminário de Vida no Espírito Santo, Rodrigo Santos refletiu sobre o pecado e a salvação, mostrando que o encontro com Cristo transforma a vida e conduz à verdadeira felicidade para a qual Deus criou cada pessoa.",
-      "url": "https://comshalom.org/halleluya-quero-mais-pecado-e-salvacao/",
-      "published": "2026-08-01"
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-08-03"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-08-03"
+    },
+    {
+      "source": "Gaudium Press",
+      "title": "Roma celebra Nossa Senhora das Neves com Missa Solene e tradicional Nevada",
+      "summary": "Celebração da dedicação da primeira Basílica mariana do Ocidente inclui Tríduo preparatório, Santa Missa solene e o canto das Vésperas.",
+      "url": "https://gaudiumpress.org/content/roma-celebra-nossa-senhora-das-neves-com-missa-solene-e-tradicional-nevada/",
+      "published": "2026-08-03"
     }
   ],
   "closingQuote": {
-    "text": "Todos comeram e ficaram satisfeitos.",
-    "source": "Mateus 14,13-21"
+    "text": "Senhor, manda-me ir ao teu encontro, caminhando sobre a água.",
+    "source": "Mateus 14,22-36"
   },
   "liturgyHours": {
-    "reading": "Derramarei sobre vós uma água pura, e sereis purificados. Eu vos purificarei de todas as impurezas e de todos os ídolos. Eu vos darei um coração novo e porei um espírito novo dentro de vós. Arrancarei do vosso corpo o coração de pedra e vos darei um...",
+    "reading": "Quando encontrei tuas palavras, alimentei-me; elas se tornaram para mim uma delícia, e a alegria do coração, o modo como invocar teu nome sobre mim, Senhor Deus dos exércitos.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
