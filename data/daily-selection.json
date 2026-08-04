@@ -1,34 +1,32 @@
 {
-  "date": "2026-08-03",
-  "editionLabel": "3 de agosto de 2026",
+  "date": "2026-08-04",
+  "editionLabel": "4 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Segunda-Feira da Semana XVIII do Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 14,22-36"
+    "celebrationTitle": "São João Maria Vianney, presbítero",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Mt 15,1-2.10-14"
   },
   "saint": {
-    "feast": "\udfe2 Segunda-Feira da Semana XVIII do Tempo Comum",
-    "name": "Santa Lídia, uma das primeiras a ser venerada pela Igreja",
-    "description": "Celebração litúrgica do dia: Segunda-Feira da Semana XVIII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santa-lidia-uma-das-primeiras-a-ser-venerada-pela-igreja/"
+    "feast": "São João Maria Vianney\\, presbítero",
+    "name": "São João Maria Vianney, padroeiro dos sacerdotes",
+    "description": "Celebração litúrgica do dia: São João Maria Vianney, presbítero.",
+    "url": "https://santo.cancaonova.com/santo/sao-joao-maria-vianney-padroeiro-dos-sacerdotes-2/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 14,22-36)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 15,1-2.10-14)",
     "lines": [
-      "Depois que a multidão comera até saciar-se, Jesus mandou que os discípulos entrassem na barca e seguissem, à sua frente, para o outro lado do mar, enquanto ele despediria as multidões.",
-      "Depois de despedi-las, Jesus subiu ao monte, para orar a sós.",
-      "A noite chegou, e Jesus continuava ali, sozinho.",
-      "A barca, porém, já longe da terra, era agitada pelas ondas, pois o vento era contrário.",
-      "Pelas três horas da manhã, Jesus veio até os discípulos, andando sobre o mar.",
-      "Quando os discípulos o avistaram, andando sobre o mar, ficaram apavorados, e disseram: &Eacute; um fantasma.",
-      "Jesus, porém, logo lhes disse: Coragem!"
+      "Naquele tempo, alguns fariseus e mestres da Lei, vindos de Jerusalém, aproximaram-se de Jesus, e perguntaram: Por que os teus discípulos não observam a tradição dos antigos?",
+      "Pois não lavam as mãos quando comem o pão! Jesus chamou a multidão para perto de si e disse: Escutai e compreendei.",
+      "Não é o que entra pela boca que torna o homem impuro, mas o que sai da boca, isso é que torna o homem impuro.",
+      "Então os discípulos se aproximaram e disseram a Jesus: Sabes que os fariseus ficaram escandalizados ao ouvir as tuas palavras? Jesus respondeu: Toda planta que não foi plantada pelo meu Pai celeste será arrancada.",
+      "Ora, se um cego guia outro cego, os dois cairão no buraco."
     ],
-    "body": "Depois que a multidão comera até saciar-se, 22 Jesus mandou que os discípulos entrassem na barca e seguissem, à sua frente, para o outro lado do mar, enquanto ele despediria as multidões. 23 Depois de despedi-las, Jesus subiu ao monte, para orar a sós. A noite chegou, e Jesus continuava ali, sozinho. 24 A barca, porém, já longe da terra, era agitada pelas ondas, pois o vento era contrário. 25 Pelas três horas da manhã, Jesus veio até os discípulos, andando sobre o mar. 26 Quando os discípulos o avistaram, andando sobre o mar, ficaram apavorados, e disseram: \"&Eacute; um fantasma\". E gritaram de medo. 27 Jesus, porém, logo lhes disse: \"Coragem! Sou eu. Não tenhais medo!\" 28 Então Pedro lhe disse: \"Senhor, se és tu, manda-me ir ao teu encontro, caminhando sobre a água\". 29 E Jesus respondeu: \"Vem!\" Pedro desceu da barca e começou a andar sobre a água, em direção a Jesus. 30 Mas, quando sentiu o vento, ficou com medo e começando a afundar, gritou: \"Senhor, salva-me!\" 31 Jesus logo estendeu a mão, segurou Pedro, e lhe disse: \"Homem fraco na fé, por que duvidaste?\" 32 Assim que subiram na barca, o vento se acalmou. 33 Os que estavam na barca, prostraram-se diante dele, dizendo: \"Verdadeiramente, tu és o Filho de Deus!\" 34 Após a travessia desembarcaram em Genesaré. 35 Os habitantes daquele lugar, reconheceram Jesus e espalharam a notícia por toda a região. Então levaram a ele todos os doentes; 36 e pediam que pudessem, ao menos, tocar a barra de sua veste. E todos os que a tocaram, ficaram curados. —",
-    "keyVerse": "O homem não vive somente de pão, mas de toda palavra da boca de Deus."
+    "body": "1 Naquele tempo, alguns fariseus e mestres da Lei, vindos de Jerusalém, aproximaram-se de Jesus, e perguntaram: 2 \"Por que os teus discípulos não observam a tradição dos antigos? Pois não lavam as mãos quando comem o pão!\" 10 Jesus chamou a multidão para perto de si e disse: \"Escutai e compreendei. 11 Não é o que entra pela boca que torna o homem impuro, mas o que sai da boca, isso é que torna o homem impuro\". 12 Então os discípulos se aproximaram e disseram a Jesus: \"Sabes que os fariseus ficaram escandalizados ao ouvir as tuas palavras?\" 13 Jesus respondeu: \"Toda planta que não foi plantada pelo meu Pai celeste será arrancada. 14 Deixai-os! São cegos guiando cegos. Ora, se um cego guia outro cego, os dois cairão no buraco\". —",
+    "keyVerse": "Mestre, tu és o Filho de Deus, és rei de Israel!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +37,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa aos jovens equatorianos: sejam promotores do perdão e da paz",
-      "summary": "Videomensagem de Leão XIV aos participantes da VIII Jornada Nacional da Juventude do Equador, que se realiza em Ibarra de 31 de julho a 2 de agosto. O Pontífice convida a se deixarem transformar pelo amor de Cristo e a ouvirem seu.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-jovens-equatorianos-promotores-perdao-paz.html",
-      "published": "2026-08-02"
+      "title": "Assis aguarda Leão: o Papa encoraja os jovens a sonharem com \"coisas grandes\"",
+      "summary": "Frei Luca de Pasquale, um dos organizadores do evento \"GO! Encontro da Juventude Franciscana\", que se realiza na cidade da Úmbria a partir desta segunda-feira, 3 de agosto, até o dia 6, explicou à mídia vaticana a programação e os.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/leao-xiv-assis-visita-pastoral-francisco-jovens.html",
+      "published": "2026-08-03"
     },
     {
       "source": "Vatican News",
-      "title": "Lançado o hino oficial da JMJ Seul 2027, a um ano do encontro com o Papa",
-      "summary": "Exatamente um ano antes da abertura da Jornada Mundial da Juventude de Seul, foi lançado nesta segunda-feira (3/08) o hino oficial do encontro internacional dos jovens com o Papa. Intitulada Confidite, Ego Vici Mundum (\"Tende coragem: eu.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-08/lancado-o-hino-oficial-da-jmj-seul-2027.html",
+      "title": "Escolher a civilização do amor",
+      "summary": "Artigo do jornalista Luís Henrique Marques sobre o V Capítulo \"A cultura do poder e a civilização do amor\" da Encíclica Magnifica Humanitas do Papa Leão XIV. Além de jornalista ele é editor-chefe da revista Cidade Nova. É doutor em.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/luis-henrique-marques-magnifica-humanitas-civilizacao-amor.html",
       "published": "2026-08-03"
     },
     {
       "source": "CNBB",
-      "title": "Dom Leomar Antônio Brustolin é nomeado membro do Conselho Internacional para a Catequese para u",
-      "summary": "Na Conferência Nacional dos Bispos do Braisl (CNBB), ainda como sacerdote participou, no período de 2013 e 2014, da Comissão do Tema Central da 51ª Assembleia Geral da CNBB – “Comunidade de Comunidades, uma nova paróquia”. Em 2023, foi.",
-      "url": "https://www.cnbb.org.br/dom-leomar-antonio-brustolin-e-nomeado-membro-do-conselho-internacional-para-a-catequese/",
+      "title": "Comissão para a Vida e a Família da CNBB motiva celebração da Semana Nacional da Família, a par",
+      "summary": "As atividades celebrativas serão realizadas entre os dias 9 e 15 de agosto, com a reflexão do tema “Família, torna-te aquilo que és” e o lema: “O amor jamais acabará” (1Co 13,8). A temática escolhida está em sintonia com os 10 anos da.",
+      "url": "https://www.cnbb.org.br/semana-nacional-da-familia-2026/",
       "published": "2026-08-03"
     },
     {
       "source": "CNBB",
-      "title": "Fundação Pontifícia ACN promove a 12ª edição do Dia de Oração pelos Cristãos Perseguidos",
-      "summary": "A Fundação Pontifícia ACN - Ajuda à Igreja que Sofre, com o apoio da CNBB, realiza a 12ª edição do Dia de Oração pelos Cristãos Perseguidos. O evento conta com a participação das paróquias e comunidades cristãs do país. Na próxima.",
-      "url": "https://www.cnbb.org.br/fundacao-pontificia-acn-promove-a-12a-edicao-do-dia-de-oracao-pelos-cristaos-perseguidos/",
+      "title": "Nesta terça, às 20h, acompanhe a primeira live da série Diretrizes e sínodo: três conversões",
+      "summary": "Promovida pela Equipe Nacional de Animação do Sínodo 2021-2024, a transmissão on-line será oportunidade de refletir sobre a \"Conversão das relações\", proposta contida no Documento Final da Assembleia Sinodal sobre a Sinodalidade e no.",
+      "url": "https://www.cnbb.org.br/acompanhe-1a-live-da-serie-diretrizes-e-sinodo-tres-conversoes/",
       "published": "2026-08-03"
     },
     {
       "source": "ACI Digital",
-      "title": "A maior romaria com acampamento do mundo, de Nossa Senhora d’Abadia do Muquém, começa na quarta",
-      "summary": "A Romaria de Nossa Senhora d’Abadia do Muquém, em Niquelândia (GO), começa na quarta-feira (5) e segue até o dia 15 de agosto, com expectativa de reunir cerca de 600 mil fiéis. Segundo o reitor do santuário de Nossa Senhora d’Abadia,.",
-      "url": "https://www.acidigital.com/noticia/69177/a-maior-romaria-com-acampamento-do-mundo-de-nossa-senhora-dabadia-do-muquem-comeca-na-quarta",
-      "published": "2026-08-03"
+      "title": "Dez curiosidades sobre são João Maria Vianney, o Cura d’Ars",
+      "summary": "“Se fosse sacerdote, gostaria de conquistar muitas almas”, disse certa vez à sua mãe são João Maria Vianney, também conhecido como o santo Cura d’Ars, cuja festa é celebrada hoje (4).",
+      "url": "https://www.acidigital.com/noticia/52776/dez-curiosidades-sobre-sao-joao-maria-vianney-o-cura-d’ars",
+      "published": "2026-08-04"
     },
     {
       "source": "Shalom",
-      "title": "Já imaginou encontrar Deus em um shopping? Missionário Shalom lota shopping no Rio com show e e",
-      "summary": "Onde a vida acontece, o Shalom Rio anuncia que Deus continua indo ao encontro das pessoas, transformando um shopping em lugar de evangelização e encontro com Cristo.",
-      "url": "https://comshalom.org/ja-imaginou-encontrar-deus-em-um-shopping-missionario-shalom-lota-shopping-no-rio-com-show-e-evangelizacao/",
-      "published": "2026-08-03"
+      "title": "Quero Mais prolonga a experiência vivida no Festival Halleluya em mais de 30 locais de Fortalez",
+      "summary": "Evento aconteceu em diversas partes de Fortaleza e também pela internet, oferecendo um caminho de aprofundamento espiritual para quem viveu a experiência do Festival Halleluya.",
+      "url": "https://comshalom.org/halleluya-quero-mais-2026-prolonga-experiencia-festival-halleluya/",
+      "published": "2026-08-04"
     },
     {
-      "source": "Gaudium Press",
-      "title": "Polônia: maior imagem de Nossa Senhora da Europa será inaugurada em 15 de agosto",
-      "summary": "A imponente imagem da Santíssima Virgem integra um complexo religioso situado a poucos quilômetros do santuário da Virgem Dolorosa de Konotopie, tradicional destino de peregrinações. Foto: matkaboska-konotopie Redação ( 02/08/2026 12:15 ,.",
-      "url": "https://gaudiumpress.org/content/polonia-maior-imagem-de-nossa-senhora-da-europa-sera-inaugurada-em-15-de-agosto/",
+      "source": "Shalom",
+      "title": "Paz a Vós desta semana destaca a Semana do Ministério Ordenado",
+      "summary": "A edição desta semana do Paz a Vós será dedicada à Semana do Ministério Ordenado , celebrada pela Igreja como um tempo de ação de graças, reflexão e oração pelos bispos, presbíteros e diáconos. O programa abordará a beleza e a missão do sacramento da Ordem, destacando o papel dos ministros ordenados na vida da Igreja, especialmente no anúncio da Palavra, na celebração dos sacramentos e no cuidado pastoral do povo de Deus....",
+      "url": "https://comshalom.org/paz-a-vos-desta-semana-destaca-a-semana-do-ministerio-ordenado/",
       "published": "2026-08-03"
     }
   ],
   "closingQuote": {
-    "text": "Senhor, manda-me ir ao teu encontro, caminhando sobre a água.",
-    "source": "Mateus 14,22-36"
+    "text": "O sacerdote é o amor do Coração de Jesus. Quando virdes o padre, pensai em Nosso Senhor Jesus Cristo.",
+    "source": "São João Maria Vianney"
   },
   "liturgyHours": {
-    "reading": "Quando encontrei tuas palavras, alimentei-me; elas se tornaram para mim uma delícia, e a alegria do coração, o modo como invocar teu nome sobre mim, Senhor Deus dos exércitos.",
+    "reading": "Lembrai-vos de vossos dirigentes, que vos pregaram a palavra de Deus, e, considerando o fim de sua vida, imitai-lhes a fé. Jesus Cristo é o mesmo, ontem e hoje e por toda a eternidade. Não vos deixeis enganar por qualquer espécie de doutrina...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
