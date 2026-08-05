@@ -1,32 +1,34 @@
 {
-  "date": "2026-08-04",
-  "editionLabel": "4 de agosto de 2026",
+  "date": "2026-08-05",
+  "editionLabel": "5 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "4 de agosto de 2026 - Tempo Comum",
+    "celebrationTitle": "Dedicação da Basílica de Santa Maria Maior",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 15,1-2.10-14"
+    "gospelShort": "Mt 15,21-28"
   },
   "saint": {
-    "feast": "São João Maria Vianney\\, presbítero",
-    "name": "São João Maria Vianney, padroeiro dos sacerdotes",
-    "description": "Celebração litúrgica do dia: 4 de agosto de 2026 - Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-joao-maria-vianney-padroeiro-dos-sacerdotes-2/"
+    "feast": "Dedicação da Basílica de Santa Maria Maior",
+    "name": "Dedicação da Basílica de Santa Maria Maior",
+    "description": "Celebração litúrgica do dia: Dedicação da Basílica de Santa Maria Maior.",
+    "url": "https://santo.cancaonova.com/santo/dedicacao-da-basilica-de-santa-maria-maior/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 15,1-2.10-14)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 15,21-28)",
     "lines": [
-      "Naquele tempo, alguns fariseus e mestres da Lei, vindos de Jerusalém, aproximaram-se de Jesus, e perguntaram: Por que os teus discípulos não observam a tradição dos antigos?",
-      "Pois não lavam as mãos quando comem o pão! Jesus chamou a multidão para perto de si e disse: Escutai e compreendei.",
-      "Não é o que entra pela boca que torna o homem impuro, mas o que sai da boca, isso é que torna o homem impuro.",
-      "Então os discípulos se aproximaram e disseram a Jesus: Sabes que os fariseus ficaram escandalizados ao ouvir as tuas palavras? Jesus respondeu: Toda planta que não foi plantada pelo meu Pai celeste será arrancada.",
-      "Ora, se um cego guia outro cego, os dois cairão no buraco."
+      "Naquele tempo, Jesus retirou-se para a região de Tiro e Sidônia.",
+      "Eis que uma mulher cananeia, vindo daquela região, pôs-se a gritar: Senhor, filho de Davi, tem piedade de mim: minha filha está cruelmente atormentada por um demônio! Mas, Jesus não lhe respondeu palavra alguma.",
+      "Então seus discípulos aproximaram-se e lhe pediram: Manda embora essa mulher, pois ela vem gritando atrás de nós.",
+      "Jesus respondeu: Eu fui enviado somente às ovelhas perdidas da casa de Israel.",
+      "Mas, a mulher, aproximando-se, prostrou-se diante de Jesus, e começou a implorar: Senhor, socorre-me! Jesus lhe disse: Não fica bem tirar o pão dos filhos para jogá-lo aos cachorrinhos.",
+      "A mulher insistiu: &Eacute; verdade, Senhor; mas os cachorrinhos também comem as migalhas que caem da mesa de seus donos! Diante disso, Jesus lhe disse: Mulher, grande é a tua fé!",
+      "Seja feito como tu queres! E desde aquele momento sua filha ficou curada."
     ],
-    "body": "1 Naquele tempo, alguns fariseus e mestres da Lei, vindos de Jerusalém, aproximaram-se de Jesus, e perguntaram: 2 \"Por que os teus discípulos não observam a tradição dos antigos? Pois não lavam as mãos quando comem o pão!\" 10 Jesus chamou a multidão para perto de si e disse: \"Escutai e compreendei. 11 Não é o que entra pela boca que torna o homem impuro, mas o que sai da boca, isso é que torna o homem impuro\". 12 Então os discípulos se aproximaram e disseram a Jesus: \"Sabes que os fariseus ficaram escandalizados ao ouvir as tuas palavras?\" 13 Jesus respondeu: \"Toda planta que não foi plantada pelo meu Pai celeste será arrancada. 14 Deixai-os! São cegos guiando cegos. Ora, se um cego guia outro cego, os dois cairão no buraco\". —",
-    "keyVerse": "Mestre, tu és o Filho de Deus, és rei de Israel!"
+    "body": "Naquele tempo, 21 Jesus retirou-se para a região de Tiro e Sidônia. 22 Eis que uma mulher cananeia, vindo daquela região, pôs-se a gritar: \"Senhor, filho de Davi, tem piedade de mim: minha filha está cruelmente atormentada por um demônio!\" 23 Mas, Jesus não lhe respondeu palavra alguma. Então seus discípulos aproximaram-se e lhe pediram: \"Manda embora essa mulher, pois ela vem gritando atrás de nós\". 24 Jesus respondeu: \"Eu fui enviado somente às ovelhas perdidas da casa de Israel\". 25 Mas, a mulher, aproximando-se, prostrou-se diante de Jesus, e começou a implorar: \"Senhor, socorre-me!\" 26 Jesus lhe disse: \"Não fica bem tirar o pão dos filhos para jogá-lo aos cachorrinhos\". 27 A mulher insistiu: \"&Eacute; verdade, Senhor; mas os cachorrinhos também comem as migalhas que caem da mesa de seus donos!\" 28 Diante disso, Jesus lhe disse: \"Mulher, grande é a tua fé! Seja feito como tu queres!\" E desde aquele momento sua filha ficou curada. —",
+    "keyVerse": "Um grande profeta surgiu entre nós e Deus visitou o seu povo, aleluia."
   },
   "sponsor": {
     "enabled": true,
@@ -37,60 +39,56 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Bispo de Assis ao Papa: \"Obrigado por nos ensinar a acolher os jovens e a falar a sua língua\"",
-      "summary": "A Santa Missa com os jovens na Basílica Santa Maria dos Anjos será o ponto alto da breve visita do Papa leão XIV a Assis, na manhã de quinta-feira, 6 de agosto. Leia tudo.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/leao-xiv-assis-dom-felice-accrocca-dioceses-assis-nocera-umbra.html",
+      "title": "O Papa: promover a comunicação inspirada na verdade e no respeito pela dignidade humana",
+      "summary": "Mensagem de Leão XIV, assinada pelo cardeal Parolin, aos participantes do Congresso Mundial da SIGNIS, que se realiza em Kigali, Ruanda, pela primeira vez. O Pontífice exorta os profissionais da mídia a contribuírem \"para uma cultura que.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-mensagem-signis-africa-pronunciamento-ruffini.html",
       "published": "2026-08-04"
     },
     {
       "source": "Vatican News",
-      "title": "Em marcha rumo a Assis em nome de São Francisco e à espera de Leão",
-      "summary": "Milhares de jovens já chegaram em Santa Maria degli Angeli após percorrer a Marcha Franciscana. Entre eles, o grupo italiano da Pastoral Juvenil Franciscana da Toscana. Partindo do Santuário da Verna, os jovens atravessaram diversas.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/papa-leao-xiv-visita-assis-pastoral-jovens-toscana-agosto-2026.html",
+      "title": "Papa: em tempos de divisão, ser profeta de harmonia e com obras de caridade",
+      "summary": "\"Em uma época marcada pela divisão, há grande necessidade de profetas de harmonia que busquem construir pontes e reconciliar posições opostas\", disse Leão XIV ao refletir sobre a virtude da unidade em mensagem de vídeo à 144ª Convenção.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-mensagem-video-cavaleiros-colombo-denver-eua-26.html",
       "published": "2026-08-04"
     },
     {
       "source": "CNBB",
-      "title": "Santíssimo Salvador, transfigurar e esperançar a vida, a comunidade e a história.",
-      "summary": "Dom Roberto Francisco Ferreria Paz Bispo de Campos (RJ) A Festa da Transfiguração do Senhor, revela no esplendor do monte Tabor a luz do Ressuscitado que torna-se a grandiosa esperança que muda vidas, transforma comunidades e dá um.",
-      "url": "https://www.cnbb.org.br/santissimo-salvador-transfigurar-e-esperancar-a-vida-a-comunidade-e-a-historia/",
+      "title": "Fórum da Comissão Sociotransformadora da CNBB reunirá pastorais sociais, organismos e redes em",
+      "summary": "De acordo com o bispo diocesano de Brejo (MA) e presidente da Comissão, dom José Valdeci dos Santos Mendes, o Fórum é uma oportunidade para partilhar a caminhada, desafios e esperança e também fortalecer o propósito de continuar sendo.",
+      "url": "https://www.cnbb.org.br/forum-da-comissao-sociotransformadora-da-cnbb-reunira-pastorais-sociais-organismos-e-redes-em-brasilia-df/",
       "published": "2026-08-04"
     },
     {
       "source": "CNBB",
-      "title": "Dirigentes e Coordenadores de Movimentos, Associações Laicais e Serviços Eclesiais se encontram",
-      "summary": "O encontro reuniu cristãos leigos e leigas, dirigentes e coordenadores de Movimentos, Associações laicais e Serviços eclesiais, organizados nacionalmente, além de representante da presidência do Conselho Nacional do Laicato do Brasil.",
-      "url": "https://www.cnbb.org.br/dirigentes-e-coordenadores-de-movimentos-associacoes-laicais-e-servicos-eclesiais/",
-      "published": "2026-08-03"
+      "title": "Campanha SOS Venezuela recebe R$ 1 milhão para ampliar atendimento às famílias afetadas pelos t",
+      "summary": "Em um ato realizado na Cúria Arquidiocesana de Aparecida, o arcebispo de Aparecida e presidente da Cáritas Brasileira, dom Mario Antonio da Silva, participou da destinação de R$ 1 milhão à Cáritas Venezuelana. O recurso será integralmente.",
+      "url": "https://www.cnbb.org.br/campanha-sos-venezuela-recebe-r-1-milhao-para-ampliar-atendimento-as-familias-afetadas-pelos-terremotos/",
+      "published": "2026-08-04"
     },
     {
       "source": "ACI Digital",
-      "title": "ACN e CNBB realizam Dia de Oração pelos Cristãos Perseguidos no Brasil na quinta-feira",
-      "summary": "A Fundação Pontifícia Ajuda à Igreja que Sofre (ACN), com o apoio da Conferência Nacional dos Bispos do Brasil (CNBB), realiza na quinta-feira (6) a 12ª edição do Dia de Oração pelos Cristãos Perseguidos. A iniciativa convida todas as.",
-      "url": "https://www.acidigital.com/noticia/69195/acn-e-cnbb-realizam-dia-de-oracao-pelos-cristaos-perseguidos-no-brasil-na-quinta-feira",
+      "title": "é a festa de Nossa Senhora das Neves e do milagre concedido a um casal",
+      "summary": "Segundo a tradição, por volta do século IV, um casal piedoso que morava em Roma tinha sido abençoado por sua formação cristã e muitos bens materiais. No entanto, não tinham filhos com quem compartilhar esses dons.",
+      "url": "https://www.acidigital.com/noticia/52778/hoje-e-a-festa-de-nossa-senhora-das-neves-e-do-milagre-concedido-a-um-casal",
+      "published": "2026-08-05"
+    },
+    {
+      "source": "Shalom",
+      "title": "Julho da Paz 2026: um mês de celebração e oferta de vida",
+      "summary": "Ao longo de todo o mês, centenas de pessoas participaram de encontros que alcançaram crianças, jovens, adultos e famílias inteiras.",
+      "url": "https://comshalom.org/julho-da-paz-2026-um-mes-de-celebracao-oferta/",
       "published": "2026-08-04"
     },
     {
       "source": "Shalom",
-      "title": "na JMJ: Cristo Redentor marca contagem regressiva de um ano para Seul 2027",
-      "summary": "A Comunidade Católica Shalom participou da celebração no Santuário Arquidiocesano Cristo Redentor, no Rio de Janeiro, que marca o início da preparação para a Jornada Mundial da Juventude de 2027.",
-      "url": "https://comshalom.org/shalom-na-jmj-cristo-redentor-marca-contagem-regressiva-de-um-ano-para-seul-2027/",
-      "published": "2026-08-04"
-    },
-    {
-      "source": "Shalom",
-      "title": "Santo Amaro se prepara para Encontro de Cura em setembro",
-      "summary": "O Espírito Santo move a Igreja e age na história da humanidade, sobretudo através dos Seus dons e carismas. Dentre eles, está o dom de Curas e Milagres. Mas ainda hoje podemos testemunhar curas físicas, psicológicas, espirituais mesmo em meio ao agitado ritmo das grandes cidades? Inspirados por esta inquietação, o Shalom Santo Amaro realizará o Encontro de Cura com o tema ‘Se Queres, podes curar-me’ nos dias 26 e 27 de setembro ....",
-      "url": "https://comshalom.org/shalom-santo-amaro-se-prepara-para-encontro-de-cura-em-setembro/",
-      "published": "2026-08-04"
+      "title": "Convenção Shalom: Como encontrar passagens antes da alta dos preços",
+      "summary": "Comprar a passagem aérea com antecedência pode fazer toda a diferença no orçamento da viagem. Confira dicas para pesquisar melhor e aproveitar oportunidades antes que as tarifas aumentem.",
+      "url": "https://comshalom.org/como-encontrar-passagens-aereas-baratas-convencao-shalom/",
+      "published": "2026-08-05"
     }
   ],
   "closingQuote": {
-    "text": "O sacerdote é o amor do Coração de Jesus. Quando virdes o padre, pensai em Nosso Senhor Jesus Cristo.",
-    "source": "São João Maria Vianney"
-  },
-  "liturgyHours": {
-    "reading": "Lembrai-vos de vossos dirigentes, que vos pregaram a palavra de Deus, e, considerando o fim de sua vida, imitai-lhes a fé. Jesus Cristo é o mesmo, ontem e hoje e por toda a eternidade. Não vos deixeis enganar por qualquer espécie de doutrina...",
-    "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
+    "text": "Mulher, grande é a tua fé!",
+    "source": "Mateus 15,21-28"
   }
 }
