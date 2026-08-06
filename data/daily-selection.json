@@ -1,34 +1,34 @@
 {
-  "date": "2026-08-05",
-  "editionLabel": "5 de agosto de 2026",
+  "date": "2026-08-06",
+  "editionLabel": "6 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Dedicação da Basílica de Santa Maria Maior",
+    "celebrationTitle": "6 de agosto de 2026 - Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 15,21-28"
+    "gospelShort": "Mt 17,1-9"
   },
   "saint": {
-    "feast": "Dedicação da Basílica de Santa Maria Maior",
-    "name": "Dedicação da Basílica de Santa Maria Maior",
-    "description": "Celebração litúrgica do dia: Dedicação da Basílica de Santa Maria Maior.",
-    "url": "https://santo.cancaonova.com/santo/dedicacao-da-basilica-de-santa-maria-maior/"
+    "feast": "Transfiguração do Senhor",
+    "name": "Festa da Transfiguração do Senhor",
+    "description": "Celebração litúrgica do dia: 6 de agosto de 2026 - Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/festa-da-transfiguracao-do-senhor/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 15,21-28)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 17,1-9)",
     "lines": [
-      "Naquele tempo, Jesus retirou-se para a região de Tiro e Sidônia.",
-      "Eis que uma mulher cananeia, vindo daquela região, pôs-se a gritar: Senhor, filho de Davi, tem piedade de mim: minha filha está cruelmente atormentada por um demônio! Mas, Jesus não lhe respondeu palavra alguma.",
-      "Então seus discípulos aproximaram-se e lhe pediram: Manda embora essa mulher, pois ela vem gritando atrás de nós.",
-      "Jesus respondeu: Eu fui enviado somente às ovelhas perdidas da casa de Israel.",
-      "Mas, a mulher, aproximando-se, prostrou-se diante de Jesus, e começou a implorar: Senhor, socorre-me! Jesus lhe disse: Não fica bem tirar o pão dos filhos para jogá-lo aos cachorrinhos.",
-      "A mulher insistiu: &Eacute; verdade, Senhor; mas os cachorrinhos também comem as migalhas que caem da mesa de seus donos! Diante disso, Jesus lhe disse: Mulher, grande é a tua fé!",
-      "Seja feito como tu queres! E desde aquele momento sua filha ficou curada."
+      "Naquele tempo, Jesus tomou consigo Pedro, Tiago e João, seu irmão, e os levou a um lugar à parte, sobre uma alta montanha.",
+      "E foi transfigurado diante deles; o seu rosto brilhou como o sol e as suas roupas ficaram brancas como a luz.",
+      "Nisto apareceram-lhes Moisés e Elias, conversando com Jesus.",
+      "Então Pedro tomou a palavra e disse: Senhor, é bom ficarmos aqui.",
+      "Se queres, vou fazer aqui três tendas: uma para ti, outra para Moisés, e outra para Elias.",
+      "Pedro ainda estava falando, quando uma nuvem luminosa os cobriu com sua sombra.",
+      "E da nuvem uma voz dizia: Este é o meu Filho amado, no qual eu pus todo meu agrado."
     ],
-    "body": "Naquele tempo, 21 Jesus retirou-se para a região de Tiro e Sidônia. 22 Eis que uma mulher cananeia, vindo daquela região, pôs-se a gritar: \"Senhor, filho de Davi, tem piedade de mim: minha filha está cruelmente atormentada por um demônio!\" 23 Mas, Jesus não lhe respondeu palavra alguma. Então seus discípulos aproximaram-se e lhe pediram: \"Manda embora essa mulher, pois ela vem gritando atrás de nós\". 24 Jesus respondeu: \"Eu fui enviado somente às ovelhas perdidas da casa de Israel\". 25 Mas, a mulher, aproximando-se, prostrou-se diante de Jesus, e começou a implorar: \"Senhor, socorre-me!\" 26 Jesus lhe disse: \"Não fica bem tirar o pão dos filhos para jogá-lo aos cachorrinhos\". 27 A mulher insistiu: \"&Eacute; verdade, Senhor; mas os cachorrinhos também comem as migalhas que caem da mesa de seus donos!\" 28 Diante disso, Jesus lhe disse: \"Mulher, grande é a tua fé! Seja feito como tu queres!\" E desde aquele momento sua filha ficou curada. —",
-    "keyVerse": "Um grande profeta surgiu entre nós e Deus visitou o seu povo, aleluia."
+    "body": "Naquele tempo, 1 Jesus tomou consigo Pedro, Tiago e João, seu irmão, e os levou a um lugar à parte, sobre uma alta montanha. 2 E foi transfigurado diante deles; o seu rosto brilhou como o sol e as suas roupas ficaram brancas como a luz. 3 Nisto apareceram-lhes Moisés e Elias, conversando com Jesus. 4 Então Pedro tomou a palavra e disse: \"Senhor, é bom ficarmos aqui. Se queres, vou fazer aqui três tendas: uma para ti, outra para Moisés, e outra para Elias\". 5 Pedro ainda estava falando, quando uma nuvem luminosa os cobriu com sua sombra. E da nuvem uma voz dizia: \"Este é o meu Filho amado, no qual eu pus todo meu agrado. Escutai-o!\" 6 Quando ouviram isto, os discípulos ficaram muito assustados e caíram com o rosto em terra. 7 Jesus se aproximou, tocou neles e disse: \"Levantai-vos, e não tenhais medo\". 8 Os discípulos ergueram os olhos e não viram mais ninguém, a não ser somente Jesus. 9 Quando desciam da montanha, Jesus ordenou-lhes: \"Não conteis a ninguém esta visão até que o Filho do Homem tenha ressuscitado dos mortos\". —",
+    "keyVerse": "Eis meu Filho muito amado, nele está meu bem-querer, escutai-o, todos vós!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,56 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "A visita do Papa ao Peru: um sopro de esperança para um povo que busca a paz",
-      "summary": "Diante da visita do Papa ao Peru, de 11 a 17 de novembro, o cardeal Carlos Castillo, arcebispo de Lima, destaca a alegria com que a Igreja e o povo peruano aguardam o Pontífice. Em entrevista ao Vatican News, o purpurado explicou sobre os.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/papa-leao-xiv-visita-peru-novembro-entrevista-arcebispo-lima-26.html",
+      "title": "O Papa: redescobrir a oração como dimensão fundamental da nossa humanidade",
+      "summary": "A oração \"merece ser redescoberta na sua verdade\", disse Leão XIV na Audiência Geral, dando continuidade à reflexão sobre a Constituição conciliar Sacrosanctum Concilium. \"A Liturgia das Horas pede para ser cada vez mais acolhida e vivida.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-catequese-audiencia-sacrosanctum-concilium-oracao.html",
       "published": "2026-08-05"
     },
     {
       "source": "Vatican News",
-      "title": "Colombo: Papa vai levar à Argentina uma mensagem de paz e dignidade humana",
-      "summary": "A visita de Leão XIV à Argentina, anunciada oficialmente nesta quarta-feira (05/08) pela Sala de Imprensa da Santa Sé, despertou grande expectativa entre a Igreja e os fiéis do país. O presidente da Conferência Episcopal, dom Colombo: “é.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/papa-leao-xiv-viagem-apostolica-argentina-colombo-bispos-2026.html",
+      "title": "Pesar de Leão XIV pela morte de dom Júlio Langa, pastor da paz e da reconciliação",
+      "summary": "O telegrama foi enviado ao arcebispo emérito de Maputo, dom Francisco Chimoio. Na mensagem de condolências dirigida também aos familiares do cardeal falecido, dom Júlio Duarte Langa, o Papa recordou o serviço de 28 anos à frente da.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-telegrama-morte-cardeal-julio-duarte-langa-2026.html",
       "published": "2026-08-05"
     },
     {
       "source": "CNBB",
-      "title": "Comissão para a Juventude celebra marco de um ano para a JMJ de Seul com jovens no Santuário",
-      "summary": "A celebração eucarística foi presidida pelo bispo de Imperatriz (MA) e presidente da Comissão Episcopal Pastoral para a Juventude da Conferência Nacional dos Bispos do Brasil (CNBB), dom Vilsom Basso, e concelebrada pelo bispo referencial.",
-      "url": "https://www.cnbb.org.br/comissao-para-a-juventude-celebra-marco-de-um-ano-jmj-de-seul-cristo-redentor/",
+      "title": "Igreja Sinodal em ação: III Seminário Nacional reúne missionários em Brasília e convida o Brasi",
+      "summary": "Entre os dias 30 de outubro e 1º de novembro, a Paróquia Nossa Senhora da Conceição Aparecida, em Brasília (DF), será a sede do III Seminário Nacional das Missões Populares. Promovido pela Comissão para a Ação Missionária da CNBB, o.",
+      "url": "https://www.cnbb.org.br/igreja-sinodal-em-acao-iii-seminario-nacional-reune-missionarios-em-brasilia-e-convida-o-brasil-a-renovar-o-ardor-evangelizador/",
       "published": "2026-08-05"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV pede que Cavaleiros de Colombo sejam profetas da harmonia",
-      "summary": "O papa Leão XIV exortou os Cavaleiros de Colombo, maior organização leiga católica dos EUA, a serem “profetas de harmonia”, promovendo as virtudes da unidade e da caridade. “Expresso profunda gratidão pela generosidade constante da Ordem de vocês para com os menos afortunados, e confio que seus esforços continuarão a dar frutos por muitos anos ainda”, disse o papa numa mensagem de vídeo....",
-      "url": "https://www.acidigital.com/noticia/69207/leao-xiv-pede-que-cavaleiros-de-colombo-sejam-profetas-da-harmonia",
-      "published": "2026-08-05"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "é a festa de Nossa Senhora das Neves e do milagre concedido a um casal",
-      "summary": "Segundo a tradição, por volta do século IV, um casal piedoso que morava em Roma tinha sido abençoado por sua formação cristã e muitos bens materiais. No entanto, não tinham filhos com quem compartilhar esses dons.",
-      "url": "https://www.acidigital.com/noticia/52778/hoje-e-a-festa-de-nossa-senhora-das-neves-e-do-milagre-concedido-a-um-casal",
-      "published": "2026-08-05"
+      "title": "O Milagre de Hiroshima: Jesuítas sobreviveram à bomba atômica graças ao Rosário",
+      "summary": "Há 81 anos aconteceu a explosão da bomba atômica em Hiroshima, um dos episódios mais dramáticos na história da humanidade. No dia 6 de agosto de 1945, festa da Transfiguração, muito perto de onde caiu a bomba “Little Boy”, quatro.",
+      "url": "https://www.acidigital.com/noticia/52781/o-milagre-de-hiroshima:-jesuitas-sobreviveram-a-bomba-atomica-gracas-ao-rosario",
+      "published": "2026-08-06"
     },
     {
       "source": "Shalom",
-      "title": "Missão de Natal inaugura nova Capela de Adoração Perpétua",
-      "summary": "A adoração perpétua, que antes acontecia na Casa da Paz, hoje é transferida para Centro de Evangelização São João Paulo II, que será a sede da missão durante a construção da nova Casa da Paz.",
-      "url": "https://comshalom.org/missao-de-natal-inaugura-nova-capela-de-adoracao-perpetua/",
-      "published": "2026-08-05"
+      "title": "Igreja Católica promove Dia de Oração pelos Cristãos Perseguidos nesta quarta-feira (6)",
+      "summary": "Data relembra a fuga de mais de 100 mil cristãos do norte do Iraque durante perseguição feita pelo grupo Estado Islâmico no ano de 2014.",
+      "url": "https://comshalom.org/dia-de-oracao-pelos-cristaos-perseguidos-2026/",
+      "published": "2026-08-06"
     },
     {
       "source": "Shalom",
-      "title": "Curso Identidade reúne jovens para um fim de semana de formação humana e espiritual",
-      "summary": "Durante a programação, os jovens refletiram sobre assuntos como afetividade, sexualidade, amizade e namoro, compreendendo essas dimensões à luz do Evangelho e do ensinamento da Igreja.",
-      "url": "https://comshalom.org/curso-identidade-reune-jovens-para-um-fim-de-semana-de-formacao-humana-e-espiritual/",
+      "title": "Por que algumas feridas continuam doendo mesmo depois que você perdoou?",
+      "summary": "Ela guardava uma xícara lachada no armário da cozinha. Não era bonita. Nem combinava com as outras. Havia sido quebrada muitos anos antes, numa manhã qualquer. Ela poderia ter jogado fora. Mas não jogou. Às vezes, era justamente aquela.",
+      "url": "https://comshalom.org/por-que-algumas-feridas-continuam-doendo-mesmo-depois-que-voce-perdoou/",
+      "published": "2026-08-05"
+    },
+    {
+      "source": "Gaudium Press",
+      "title": "Diante da queda nas vocações masculinas, Maristas criam ‘Diário Vocacional’ para jovens",
+      "summary": "Publicação propõe um itinerário de 70 dias de oração, meditação e escrita para ajudar jovens acompanhados pela instituição a discernirem o chamado à vida consagrada.",
+      "url": "https://gaudiumpress.org/content/diante-da-queda-nas-vocacoes-masculinas-maristas-criam-diario-vocacional-para-jovens/",
       "published": "2026-08-05"
     }
   ],
   "closingQuote": {
-    "text": "Mulher, grande é a tua fé!",
-    "source": "Mateus 15,21-28"
+    "text": "O seu rosto brilhou como o sol.",
+    "source": "Mateus 17,1-9"
+  },
+  "liturgyHours": {
+    "reading": "O anjo levou-me em espírito a uma montanha grande e alta. Mostrou-me a cidade santa, Jerusalém, descendo do céu, de junto de Deus. A cidade não precisa de sol, nem de lua que a iluminem, pois a glória de Deus é a sua luz e a sua lâmpada é o Cordeiro.",
+    "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
