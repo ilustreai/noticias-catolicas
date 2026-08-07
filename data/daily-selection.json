@@ -1,34 +1,33 @@
 {
-  "date": "2026-08-06",
-  "editionLabel": "6 de agosto de 2026",
+  "date": "2026-08-07",
+  "editionLabel": "7 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "festa",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Transfiguração do Senhor",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Mt 17,1-9"
+    "celebrationTitle": "Santos Sisto II, papa, e Compañeros, mártires",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Mt 16,24-28"
   },
   "saint": {
-    "feast": "Transfiguração do Senhor",
-    "name": "Festa da Transfiguração do Senhor",
-    "description": "Celebração litúrgica do dia: Transfiguração do Senhor.",
-    "url": "https://santo.cancaonova.com/santo/festa-da-transfiguracao-do-senhor/"
+    "feast": "\udd34 [m] Santos Sisto II\\, papa\\, e Compañeros\\, mártires",
+    "name": "São Sisto II, Papa e seus companheiros diáconos",
+    "description": "Celebração litúrgica do dia: Santos Sisto II, papa, e Compañeros, mártires.",
+    "url": "https://santo.cancaonova.com/santo/sao-sisto-ii-papa-e-seus-companheiros-diaconos/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 17,1-9)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 16,24-28)",
     "lines": [
-      "Naquele tempo, Jesus tomou consigo Pedro, Tiago e João, seu irmão, e os levou a um lugar à parte, sobre uma alta montanha.",
-      "E foi transfigurado diante deles; o seu rosto brilhou como o sol e as suas roupas ficaram brancas como a luz.",
-      "Nisto apareceram-lhes Moisés e Elias, conversando com Jesus.",
-      "Então Pedro tomou a palavra e disse: Senhor, é bom ficarmos aqui.",
-      "Se queres, vou fazer aqui três tendas: uma para ti, outra para Moisés, e outra para Elias.",
-      "Pedro ainda estava falando, quando uma nuvem luminosa os cobriu com sua sombra.",
-      "E da nuvem uma voz dizia: Este é o meu Filho amado, no qual eu pus todo meu agrado."
+      "Naquele tempo, Jesus disse aos discípulos: Se alguém quer me seguir, renuncie a si mesmo, tome a sua cruz e me siga.",
+      "Pois quem quiser salvar a sua vida vai perdê-la; e quem perder a sua vida por causa de mim, vai encontrá-la.",
+      "De fato, que adianta ao homem ganhar o mundo inteiro mas perder a sua vida?",
+      "O que poderá alguém dar em troca de sua vida?",
+      "Porque o Filho do Homem virá na glória do seu Pai, com os seus anjos, e então retribuirá a cada um de acordo com a sua conduta.",
+      "Em verdade vos digo: Alguns daqueles que estão aqui não morrerão antes de verem o Filho do Homem vindo com o seu Rein —"
     ],
-    "body": "Naquele tempo, 1 Jesus tomou consigo Pedro, Tiago e João, seu irmão, e os levou a um lugar à parte, sobre uma alta montanha. 2 E foi transfigurado diante deles; o seu rosto brilhou como o sol e as suas roupas ficaram brancas como a luz. 3 Nisto apareceram-lhes Moisés e Elias, conversando com Jesus. 4 Então Pedro tomou a palavra e disse: \"Senhor, é bom ficarmos aqui. Se queres, vou fazer aqui três tendas: uma para ti, outra para Moisés, e outra para Elias\". 5 Pedro ainda estava falando, quando uma nuvem luminosa os cobriu com sua sombra. E da nuvem uma voz dizia: \"Este é o meu Filho amado, no qual eu pus todo meu agrado. Escutai-o!\" 6 Quando ouviram isto, os discípulos ficaram muito assustados e caíram com o rosto em terra. 7 Jesus se aproximou, tocou neles e disse: \"Levantai-vos, e não tenhais medo\". 8 Os discípulos ergueram os olhos e não viram mais ninguém, a não ser somente Jesus. 9 Quando desciam da montanha, Jesus ordenou-lhes: \"Não conteis a ninguém esta visão até que o Filho do Homem tenha ressuscitado dos mortos\". —",
-    "keyVerse": "Eis meu Filho muito amado, nele está meu bem-querer, escutai-o, todos vós!"
+    "body": "Naquele tempo, 24 Jesus disse aos discípulos: \"Se alguém quer me seguir, renuncie a si mesmo, tome a sua cruz e me siga. 25 Pois quem quiser salvar a sua vida vai perdê-la; e quem perder a sua vida por causa de mim, vai encontrá-la. 26 De fato, que adianta ao homem ganhar o mundo inteiro mas perder a sua vida? O que poderá alguém dar em troca de sua vida? 27 Porque o Filho do Homem virá na glória do seu Pai, com os seus anjos, e então retribuirá a cada um de acordo com a sua conduta. 28 Em verdade vos digo: Alguns daqueles que estão aqui não morrerão antes de verem o Filho do Homem vindo com o seu Rein —",
+    "keyVerse": "Felizes os que são perseguidos, por causa da justiça do Senhor, porque o Reino dos Céus há de ser deles!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +38,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Presidente da CRB nomeada consultora de Dicastério vaticano",
-      "summary": "O Papa Leão XIV nomeou a presidente da Conferência dos Religiosos do Brasil (CRB Nacional), Ir. Maria do Disterro Rocha Santos, FCIM, como consultora do Dicastério para os Institutos de Vida Consagrada e as Sociedades de Vida Apostólica.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/presidente-crb-nomeada-consultora-dicasterio-vaticano.html",
+      "title": "O Papa em Assis: construir a civilização do amor, e não das contraposições",
+      "summary": "O Papa Leão XIV deixou o Vaticano na manhã desta quinta-feira, por volta das 8h locais, com destino à cidade Assis onde milhares de jovens o aguardavam desde as primeiras horas do dia. Um momento tão esperado da visita pastoral do Papa.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-assis-construir-civilizacao-amor.html",
       "published": "2026-08-06"
     },
     {
       "source": "Vatican News",
-      "title": "Fr. Marco Vianelli: na escola de São Francisco para aprender o Evangelho da paz",
-      "summary": "O ministro provincial dos Frades Menores da Úmbria e da Sardenha deu as boas-vindas ao Papa na Praça Santa Maria dos Anjos. Assis é uma “terra abençoada” onde os jovens compartilham “fé, esperança e fraternidade”, buscando maneiras de se.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-visita-pastoral-assis-italia-frei-marco-vianelli.html",
+      "title": "A visita do Papa ao Peru será um tempo de graça, reconciliação e esperança",
+      "summary": "\"A Igreja peruana recebe esta notícia com grande alegria e júbilo.\" Estas são as palavras do presidente da Conferência Episcopal Peruana, dom Carlos García Camader, expressando os sentimentos da Igreja após a confirmação oficial da Visita.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/garcia-camader-visita-papa-peru-tempo-graca-reconciliacao.html",
       "published": "2026-08-06"
     },
     {
       "source": "CNBB",
-      "title": "Igreja Sinodal em ação: III Seminário Nacional reúne missionários em Brasília e convida o Brasi",
-      "summary": "Entre os dias 30 de outubro e 1º de novembro, a Paróquia Nossa Senhora da Conceição Aparecida, em Brasília (DF), será a sede do III Seminário Nacional das Missões Populares. Promovido pela Comissão para a Ação Missionária da CNBB, o.",
-      "url": "https://www.cnbb.org.br/igreja-sinodal-em-acao-iii-seminario-nacional-reune-missionarios-em-brasilia-e-convida-o-brasil-a-renovar-o-ardor-evangelizador/",
-      "published": "2026-08-05"
+      "title": "Irmã Maria do Disterro Rocha Santos, presidente da CRB, é nomeada consultora do Dicastério para",
+      "summary": "Mestre em Teologia Espiritual, foi Superiora Geral de sua congregação por três mandatos. Em 2025, foi eleita presidente da CRB para o triênio 2025-2028. Como consultora, Ir. Maria do Disterro passará a colaborar com o Dicastério em.",
+      "url": "https://www.cnbb.org.br/irma-maria-do-disterro-rocha-santos-presidente-crb-nomeada-consultora-dicasterio-vida-consagrada/",
+      "published": "2026-08-06"
     },
     {
       "source": "ACI Digital",
-      "title": "O Milagre de Hiroshima: Jesuítas sobreviveram à bomba atômica graças ao Rosário",
-      "summary": "Há 81 anos aconteceu a explosão da bomba atômica em Hiroshima, um dos episódios mais dramáticos na história da humanidade. No dia 6 de agosto de 1945, festa da Transfiguração, muito perto de onde caiu a bomba “Little Boy”, quatro.",
-      "url": "https://www.acidigital.com/noticia/52781/o-milagre-de-hiroshima:-jesuitas-sobreviveram-a-bomba-atomica-gracas-ao-rosario",
-      "published": "2026-08-06"
+      "title": "a Igreja celebra são Caetano, padroeiro do pão e do trabalho",
+      "summary": "“No oratório, rendemos a Deus a homenagem da adoração, nos hospital o encontramos pessoalmente”, costumava dizer são Caetano, padroeiro do pão e do trabalho, cuja festa é celebrada hoje (7).",
+      "url": "https://www.acidigital.com/noticia/52786/hoje-a-igreja-celebra-sao-caetano-padroeiro-do-pao-e-do-trabalho",
+      "published": "2026-08-07"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Oito fatos sobre são Caetano, padroeiro do pão e do trabalho",
+      "summary": "A Igreja celebra hoje (7) são Caetano de Thiene, sacerdote italiano que fundou a Ordem dos Clérigos Regulares, conhecidos como teatinos. Padroeiro do pão e do trabalho, ele se destacou pela devoção à Eucaristia, pela confiança na.",
+      "url": "https://www.acidigital.com/noticia/52787/oito-fatos-sobre-sao-caetano-padroeiro-do-pao-e-do-trabalho",
+      "published": "2026-08-07"
     },
     {
       "source": "Shalom",
-      "title": "Igreja Católica promove Dia de Oração pelos Cristãos Perseguidos nesta quarta-feira (6)",
-      "summary": "Data relembra a fuga de mais de 100 mil cristãos do norte do Iraque durante perseguição feita pelo grupo Estado Islâmico no ano de 2014.",
-      "url": "https://comshalom.org/dia-de-oracao-pelos-cristaos-perseguidos-2026/",
-      "published": "2026-08-06"
+      "title": "Liderança segundo o Coração de Deus: Congresso de Liderança Shalom 2026 propõe formação enraiza",
+      "summary": "O Congresso oferece uma formação fundamentada na oração, no discernimento e no serviço. Encontro apresenta uma visão de liderança enraizada no Evangelho e nos 45 anos de experiência missionária da Comunidade Católica Shalom.",
+      "url": "https://comshalom.org/congresso-lideranca-shalom-2026-lideranca-coracao-de-deus/",
+      "published": "2026-08-07"
     },
     {
       "source": "Shalom",
-      "title": "Curso Identidade reúne jovens para um fim de semana de formação humana e espiritual",
-      "summary": "Durante a programação, os jovens refletiram sobre assuntos como afetividade, sexualidade, amizade e namoro, compreendendo essas dimensões à luz do Evangelho e do ensinamento da Igreja.",
-      "url": "https://comshalom.org/curso-identidade-reune-jovens-para-um-fim-de-semana-de-formacao-humana-e-espiritual/",
-      "published": "2026-08-05"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "O fogo passou duas vezes, mas o crucifixo permaneceu de pé",
-      "summary": "A imagem que emocionou o mundo em meio aos incêndios na França. Foto: IG @patrick13free Redação ( 06/08/2026 09:00 , Gaudium Press ) Enquanto as chamas continuam a devastar florestas em várias regiões da Europa e no oeste dos Estados.",
-      "url": "https://gaudiumpress.org/content/o-fogo-passou-duas-vezes-mas-o-crucifixo-permaneceu-de-pe/",
+      "title": "Santo Amaro se prepara para Encontro de Cura em setembro",
+      "summary": "O Espírito Santo move a Igreja e age na história da humanidade, sobretudo através dos Seus dons e carismas. Dentre eles, está o dom de Curas e Milagres. Mas ainda hoje podemos testemunhar curas físicas, psicológicas, espirituais mesmo em meio ao agitado ritmo das grandes cidades? Inspirados por esta inquietação, o Shalom Santo Amaro realizará o Encontro de Cura com o tema ‘Se Queres, podes curar-me’ nos dias 26 e 27 de setembro ....",
+      "url": "https://comshalom.org/shalom-santo-amaro-se-prepara-para-encontro-de-cura-em-setembro/",
       "published": "2026-08-06"
     }
   ],
   "closingQuote": {
-    "text": "O seu rosto brilhou como o sol.",
-    "source": "Mateus 17,1-9"
+    "text": "O que poderá alguém dar em troca de sua vida?",
+    "source": "Mateus 16,24-28"
   },
   "liturgyHours": {
-    "reading": "O anjo levou-me em espírito a uma montanha grande e alta. Mostrou-me a cidade santa, Jerusalém, descendo do céu, de junto de Deus. A cidade não precisa de sol, nem de lua que a iluminem, pois a glória de Deus é a sua luz e a sua lâmpada é o Cordeiro.",
+    "reading": "Agora, em Jesus Cristo, vós que outrora estáveis longe, vos tornastes próximos, pelo sangue de Cristo. Ele, de fato, é a nossa paz: do que era dividido, ele fez uma unidade. Em sua carne ele destruiu o muro de separação: a inimizade. Ele aboliu a...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
