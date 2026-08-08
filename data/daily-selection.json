@@ -1,33 +1,34 @@
 {
-  "date": "2026-08-07",
-  "editionLabel": "7 de agosto de 2026",
+  "date": "2026-08-08",
+  "editionLabel": "8 de agosto de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santos Sisto II, papa, e Compañeros, mártires",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 16,24-28"
+    "celebrationTitle": "São Domingos, presbítero",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Mt 17,14-20"
   },
   "saint": {
-    "feast": "\udd34 [m] Santos Sisto II\\, papa\\, e Compañeros\\, mártires",
-    "name": "São Sisto II, Papa e seus companheiros diáconos",
-    "description": "Celebração litúrgica do dia: Santos Sisto II, papa, e Compañeros, mártires.",
-    "url": "https://santo.cancaonova.com/santo/sao-sisto-ii-papa-e-seus-companheiros-diaconos/"
+    "feast": "São Domingos\\, presbítero",
+    "name": "São Domingos de Gusmão, fundador da Ordem dos Pregadores",
+    "description": "Celebração litúrgica do dia: São Domingos, presbítero.",
+    "url": "https://santo.cancaonova.com/santo/sao-domingos-de-gusmao-fundador-da-ordem-dos-pregadores/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 16,24-28)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 17,14-20)",
     "lines": [
-      "Naquele tempo, Jesus disse aos discípulos: Se alguém quer me seguir, renuncie a si mesmo, tome a sua cruz e me siga.",
-      "Pois quem quiser salvar a sua vida vai perdê-la; e quem perder a sua vida por causa de mim, vai encontrá-la.",
-      "De fato, que adianta ao homem ganhar o mundo inteiro mas perder a sua vida?",
-      "O que poderá alguém dar em troca de sua vida?",
-      "Porque o Filho do Homem virá na glória do seu Pai, com os seus anjos, e então retribuirá a cada um de acordo com a sua conduta.",
-      "Em verdade vos digo: Alguns daqueles que estão aqui não morrerão antes de verem o Filho do Homem vindo com o seu Reino."
+      "Naquele tempo, chegando Jesus e seus discípulos junto da multidão, um homem aproximou-se de Jesus, ajoelhou-se e disse: Senhor, tem piedade do meu filho.",
+      "Ele é epilético, e sofre ataques tão fortes que muitas vezes cai no fogo ou na água.",
+      "Levei-o aos teus discípulos, mas eles não conseguiram curá-lo! Jesus respondeu: &Oacute; gente sem fé e perversa!",
+      "Até quando deverei ficar convosco?",
+      "Então Jesus o ameaçou e o demônio saiu dele.",
+      "Na mesma hora o menino ficou curado.",
+      "Então, os discípulos aproximaram-se de Jesus e lhe perguntaram em particular: Por que nós não conseguimos expulsar o demônio? Jesus respondeu: Porque a vossa fé é demasiado pequena."
     ],
-    "body": "Naquele tempo, 24 Jesus disse aos discípulos: \"Se alguém quer me seguir, renuncie a si mesmo, tome a sua cruz e me siga. 25 Pois quem quiser salvar a sua vida vai perdê-la; e quem perder a sua vida por causa de mim, vai encontrá-la. 26 De fato, que adianta ao homem ganhar o mundo inteiro mas perder a sua vida? O que poderá alguém dar em troca de sua vida? 27 Porque o Filho do Homem virá na glória do seu Pai, com os seus anjos, e então retribuirá a cada um de acordo com a sua conduta. 28 Em verdade vos digo: Alguns daqueles que estão aqui não morrerão antes de verem o Filho do Homem vindo com o seu Reino. —",
-    "keyVerse": "Felizes os que são perseguidos, por causa da justiça do Senhor, porque o Reino dos Céus há de ser deles!"
+    "body": "14 Naquele tempo, chegando Jesus e seus discípulos junto da multidão, um homem aproximou-se de Jesus, ajoelhou-se e disse: 15 \"Senhor, tem piedade do meu filho. Ele é epilético, e sofre ataques tão fortes que muitas vezes cai no fogo ou na água. 16 Levei-o aos teus discípulos, mas eles não conseguiram curá-lo!\" 17 Jesus respondeu: \"&Oacute; gente sem fé e perversa! Até quando deverei ficar convosco? Até quando vos suportarei? Trazei aqui o menino\". 18 Então Jesus o ameaçou e o demônio saiu dele. Na mesma hora o menino ficou curado. 19 Então, os discípulos aproximaram-se de Jesus e lhe perguntaram em particular: \"Por que nós não conseguimos expulsar o demônio?\" 20 Jesus respondeu: \"Porque a vossa fé é demasiado pequena. Em verdade vos digo, se vós tiverdes fé do tamanho de uma semente de mostarda, direis a esta montanha: 'Vai daqui para lá' e ela irá. E nada vos será impossível\". —",
+    "keyVerse": "Jesus Cristo salvador destruiu o mal e a morte; fez brilhar pelo Evangelho a luz e a vida imperecíveis."
   },
   "sponsor": {
     "enabled": true,
@@ -38,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "O Papa em Assis: construir a civilização do amor, e não das contraposições",
-      "summary": "O Papa Leão XIV deixou o Vaticano na manhã desta quinta-feira, por volta das 8h locais, com destino à cidade Assis onde milhares de jovens o aguardavam desde as primeiras horas do dia. Um momento tão esperado da visita pastoral do Papa.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-assis-construir-civilizacao-amor.html",
-      "published": "2026-08-06"
+      "title": "Castel Gandolfo: missas e procissão fluvial em agosto com participação do Papa",
+      "summary": "A comunidade local já está acostumada com a presença de Leão XIV na região, já que o Papa transcorreu as férias de julho em Castel Gandolfo. Em agosto, tem presença confirmada em dois outros momentos: missa de 15 de agosto na Igreja.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/papa-leao-xiv-missas-castel-gandolfo-preparacao-fieis-igrejas-26.html",
+      "published": "2026-08-07"
     },
     {
       "source": "Vatican News",
-      "title": "Fr. Marco Vianelli: na escola de São Francisco para aprender o Evangelho da paz",
-      "summary": "O ministro provincial dos Frades Menores da Úmbria e da Sardenha deu as boas-vindas ao Papa na Praça Santa Maria dos Anjos. Assis é uma “terra abençoada” onde os jovens compartilham “fé, esperança e fraternidade”, buscando maneiras de se.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-visita-pastoral-assis-italia-frei-marco-vianelli.html",
-      "published": "2026-08-06"
-    },
-    {
-      "source": "CNBB",
-      "title": "Curso sobre arte sacra e linguagem simbólica reúne profissionais de todo o país e reforça forma",
-      "summary": "O encontro reuniu arquitetos, artistas, designers, presbíteros, religiosos e leigos de diversas regiões do país, entre eles integrantes da Equipe de Reflexão do Setor Espaço Litúrgico da CNBB. Além das aulas teóricas, a programação.",
-      "url": "https://www.cnbb.org.br/curso-sobre-arte-sacra-e-linguagem-simbolica-reune-profissionais-de-todo-o-pais-e-reforca-formacao-para-espacos-liturgicos/",
+      "title": "O Papa Leão na França: programa, logotipo e lema da viagem",
+      "summary": "Publicado nesta sexta-feira, 7 de agosto, o programa oficial da quinta viagem apostólica de Leão XIV que o levará à França de 25 a 28 de setembro. O Pontífice visitará a capital, Paris, Lourdes, onde se encontra o santuário mariano, e.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-programa-logotipo-lema-viagem-franca.html",
       "published": "2026-08-07"
     },
     {
       "source": "CNBB",
-      "title": "Irmã Maria do Disterro Rocha Santos, presidente da CRB, é nomeada consultora do Dicastério para",
-      "summary": "Mestre em Teologia Espiritual, foi Superiora Geral de sua congregação por três mandatos. Em 2025, foi eleita presidente da CRB para o triênio 2025-2028. Como consultora, Ir. Maria do Disterro passará a colaborar com o Dicastério em.",
-      "url": "https://www.cnbb.org.br/irma-maria-do-disterro-rocha-santos-presidente-crb-nomeada-consultora-dicasterio-vida-consagrada/",
-      "published": "2026-08-06"
+      "title": "Sete pontos da vocação familiar nas exortações Familiaris Consortio e Amoris Laetitia",
+      "summary": "Na segunda semana do Mês Vocacional, o olhar é voltado para a vocação para a vida familiar. Neste ano em que a Comissão Episcopal para a Vida e a Família da CNBB dedica à celebração de 45 anos da exortação apostólica Familiaris Consortio.",
+      "url": "https://www.cnbb.org.br/sete-pontos-vocacao-familiar-exortacoes-familiaris-consortio-amoris-laetitia/",
+      "published": "2026-08-07"
     },
     {
       "source": "ACI Digital",
-      "title": "Arquidiocese da Paraíba reza pelos pais que já morreram com missa em cemitério no Dia dos Pais",
-      "summary": "No domingo (9), Dia dos Pais, a arquidiocese da Paraíba reza em sufrágio pelos pais que já morreram, com missa no Cemitério Senhor da Boa Sentença. A celebração já é tradicional e reúne, todos os anos, centenas de fiéis.",
-      "url": "https://www.acidigital.com/noticia/69259/arquidiocese-da-paraiba-reza-pelos-pais-que-ja-morreram-com-missa-em-cemiterio-no-dia-dos-pais",
+      "title": "Começa processo de beatificação de Juan Tomis, sacerdote que marcou a vida de Leão XIV",
+      "summary": "O bispo de Chiclayo, Peru, Edinson Farfán Córdova, disse que a diocese dará início ao processo de beatificação e canonização de Juan Tomis Stack nos próximos meses.",
+      "url": "https://www.acidigital.com/noticia/69269/comeca-processo-de-beatificacao-de-juan-tomis-sacerdote-que-marcou-a-vida-de-leao-xiv",
+      "published": "2026-08-07"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Santa Sé divulga programação da viagem de Leão XIV à França em setembro",
+      "summary": "O papa vai se reunir com autoridades, clérigos, religiosos e jovens, vai celebrar três missas públicas e encontrará vítimas de abuso sexual clerical.",
+      "url": "https://www.acidigital.com/noticia/69263/santa-se-divulga-programacao-da-viagem-de-leao-xiv-a-franca-em-setembro",
       "published": "2026-08-07"
     },
     {
       "source": "Shalom",
-      "title": "Música que evangeliza: Yuri Costa e Davidson Silva são considerados ao Grammy Latino 2026",
-      "summary": "Há momentos em que uma conquista ultrapassa o nome de um artista. A consideração de Yuri Costa e Davidson Silva para o Grammy Latino 2026 é um desses momentos. Ainda não se trata de uma indicação oficial à premiação. A consideração é uma.",
-      "url": "https://comshalom.org/yuri-costa-e-davidson-grammy-latino-2026/",
+      "title": "Boletim Shalom Fortaleza",
+      "summary": "PROGRAMAÇÃO DAS CÉLULAS COMUNITÁRIAS 07.08 (sexta-feira): Oração Comunitária 10.08 (segunda-feira): Setorial 14.08 (sexta-feira): Tríduo da Nossa Senhora da Assunção Às 19h, na Catedral Metropolitana de Fortaleza 15.08 (sábado): Caminhada.",
+      "url": "https://comshalom.org/boletimshalomfortaleza/",
       "published": "2026-08-07"
     },
     {
-      "source": "Shalom",
-      "title": "Congresso de Liderança Shalom 2026: descobrindo o segredo da liderança cristã",
-      "summary": "O Congresso oferece uma formação fundamentada na oração, no discernimento e no serviço. Encontro apresenta uma visão de liderança enraizada no Evangelho e nos 45 anos de experiência missionária da Comunidade Católica Shalom.",
-      "url": "https://comshalom.org/congresso-lideranca-shalom-2026-lideranca-coracao-de-deus/",
+      "source": "Gaudium Press",
+      "title": "Santa Sé divulga lema e logotipo da viagem apostólica de Leão XIV à França",
+      "summary": "Com inspiração nas catedrais góticas e no estilo Art Déco, a identidade visual e a mensagem oficial reforçam a busca por paz e reconciliação.",
+      "url": "https://gaudiumpress.org/content/santa-se-divulga-lema-e-logotipo-da-viagem-apostolica-de-leao-xiv-a-franca/",
       "published": "2026-08-07"
     }
   ],
   "closingQuote": {
-    "text": "O que poderá alguém dar em troca de sua vida?",
-    "source": "Mateus 16,24-28"
+    "text": "Armai-vos com a arma de Deus, isto é, com a oração.",
+    "source": "São Domingos"
   },
   "liturgyHours": {
-    "reading": "Agora, em Jesus Cristo, vós que outrora estáveis longe, vos tornastes próximos, pelo sangue de Cristo. Ele, de fato, é a nossa paz: do que era dividido, ele fez uma unidade. Em sua carne ele destruiu o muro de separação: a inimizade. Ele aboliu a...",
+    "reading": "Pela misericórdia de Deus, eu vos exorto, irmãos, a vos oferecerdes em sacrifício vivo, santo e agradável a Deus: Este é o vosso culto espiritual. Não vos conformeis com o mundo, mas transformai-vos, renovando vossa maneira de pensar e de julgar,...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
