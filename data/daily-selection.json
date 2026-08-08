@@ -39,37 +39,23 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Moçambique. Último adeus ao Cardeal Dom Júlio Duarte Langa",
-      "summary": "De Maputo a Xai-Xai, a Igreja Católica em Moçambique despede-se do Cardeal Dom Júlio Duarte Langa. Na Catedral de Maputo, uma Missa de corpo presente reuniu fiéis, bispos, sacerdotes e autoridades, numa celebração marcada pela memória,.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/igreja-mocambique-cardeal-julio-langa-legado-nuncio-apostolico.html",
+      "title": "O Papa: em Santa Águeda, contemplamos a vitória do amor sobre a morte",
+      "summary": "Carta de Leão XIV ao cardeal secretário de Estado Parolin, nomeado legado pontifício para as celebrações de 16 e 17 de agosto, por ocasião dos 900 anos do retorno das relíquias da mártir a Catânia Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-parolin-legado-pontificio-celebracoes-santa-agueda.html",
       "published": "2026-08-08"
     },
     {
       "source": "Vatican News",
-      "title": "Leão XIV, em 7 de setembro, no Santuário da Mãe do Bom Conselho, em Genazzano",
-      "summary": "No local de culto agostiniano, para onde ele se deslocou em visita privada dois dias após sua eleição à Cátedra de Pedro para confiar seu ministério à Virgem, o Pontífice presidirá uma Missa na véspera da festa da Natividade da.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-missa-7-setembro-santuario-genazzano.html",
-      "published": "2026-08-08"
-    },
-    {
-      "source": "CNBB",
-      "title": "Sete pontos da vocação familiar nas exortações Familiaris Consortio e Amoris Laetitia",
-      "summary": "Na segunda semana do Mês Vocacional, o olhar é voltado para a vocação para a vida familiar. Neste ano em que a Comissão Episcopal para a Vida e a Família da CNBB dedica à celebração de 45 anos da exortação apostólica Familiaris Consortio.",
-      "url": "https://www.cnbb.org.br/sete-pontos-vocacao-familiar-exortacoes-familiaris-consortio-amoris-laetitia/",
+      "title": "Castel Gandolfo: missas e procissão fluvial em agosto com participação do Papa",
+      "summary": "A comunidade local já está acostumada com a presença de Leão XIV na região, já que o Papa transcorreu as férias de julho em Castel Gandolfo. Em agosto, tem presença confirmada em dois outros momentos: missa de 15 de agosto na Igreja.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/papa-leao-xiv-missas-castel-gandolfo-preparacao-fieis-igrejas-26.html",
       "published": "2026-08-07"
     },
     {
       "source": "CNBB",
-      "title": "Realismo político ganha destaque na Igreja",
-      "summary": "Dom Walmor Oliveira de Azevedo Arcebispo de Belo Horizonte (MG) O Papa Leão XIV reflete na sua Carta Encíclica, Magnifica Humanitas, sobre importante temática com aspectos muito relevantes quando se considera a cultura do poder decorrente.",
-      "url": "https://www.cnbb.org.br/realismo-politico/",
-      "published": "2026-08-07"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Começa processo de beatificação de Juan Tomis, sacerdote que marcou a vida de Leão XIV",
-      "summary": "O bispo de Chiclayo, Peru, Edinson Farfán Córdova, disse que a diocese dará início ao processo de beatificação e canonização de Juan Tomis Stack nos próximos meses.",
-      "url": "https://www.acidigital.com/noticia/69269/comeca-processo-de-beatificacao-de-juan-tomis-sacerdote-que-marcou-a-vida-de-leao-xiv",
+      "title": "Pastores generosos, modelos para o rebanho",
+      "summary": "Dom Itacir Brassiani Bispo de Santa Cruz do Sul (RS) As comunidades católicas do Brasil dedicam a primeira semana de agosto à vocação ao ministério ordenado (diáconos, padres e bispos). Neste ano, a diocese de Santa Cruz marcou este tempo.",
+      "url": "https://www.cnbb.org.br/pastores-generosos-modelos-para-o-rebanho/",
       "published": "2026-08-07"
     },
     {
@@ -81,9 +67,23 @@
     },
     {
       "source": "Shalom",
-      "title": "A oração, a tempestade e o encontro: Jesus revela-se, socorre e exercita a fé.",
-      "summary": "José Ricardo Bezerra e Felipe Bezerra Chegamos ao 19º Domingo do Tempo Comum, e o Evangelho deste domingo, narrado por São Mateus (Mt 14,22-33), é a continuação da multiplicação dos pães que meditamos no domingo passado. Depois de.",
-      "url": "https://comshalom.org/a-oracao-a-tempestade-e-o-encontro-jesus-revela-se-socorre-e-exercita-a-fe/",
+      "title": "Boletim Shalom Fortaleza",
+      "summary": "PROGRAMAÇÃO DAS CÉLULAS COMUNITÁRIAS 07.08 (sexta-feira): Oração Comunitária 10.08 (segunda-feira): Setorial 14.08 (sexta-feira): Tríduo da Nossa Senhora da Assunção Às 19h, na Catedral Metropolitana de Fortaleza 15.08 (sábado): Caminhada.",
+      "url": "https://comshalom.org/boletimshalomfortaleza/",
+      "published": "2026-08-07"
+    },
+    {
+      "source": "Shalom",
+      "title": "Música que evangeliza: Yuri Costa e Davidson Silva são considerados ao Grammy Latino 2026",
+      "summary": "Há momentos em que uma conquista ultrapassa o nome de um artista. A consideração de Yuri Costa e Davidson Silva para o Grammy Latino 2026 é um desses momentos. Ainda não se trata de uma indicação oficial à premiação. A consideração é uma.",
+      "url": "https://comshalom.org/yuri-costa-e-davidson-grammy-latino-2026/",
+      "published": "2026-08-07"
+    },
+    {
+      "source": "Gaudium Press",
+      "title": "Papa Leão XIV retornará ao Santuário de Nossa Senhora do Bom Conselho de Genazzano na véspera d",
+      "summary": "Nesta ocasião, será inaugurada uma pintura que retrata o Papa Leão XIV em oração diante da imagem da Virgem, no mesmo estilo das de seus antecessores. Foto: Vatican News/ Vatican Media Redação ( 08/08/2026 08:35 , Gaudium Press ) O Papa.",
+      "url": "https://gaudiumpress.org/content/papa-leao-xiv-retornara-ao-santuario-de-nossa-senhora-do-bom-conselho-de-genazzano-na-vespera-da-natividade-de-maria/",
       "published": "2026-08-08"
     }
   ],
