@@ -3,17 +3,17 @@
   "editionLabel": "8 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Domingos, presbítero",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
+    "celebrationTitle": "8 de agosto de 2026 - Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
     "gospelShort": "Mt 17,14-20"
   },
   "saint": {
     "feast": "São Domingos\\, presbítero",
     "name": "São Domingos de Gusmão, fundador da Ordem dos Pregadores",
-    "description": "Celebração litúrgica do dia: São Domingos, presbítero.",
+    "description": "Celebração litúrgica do dia: 8 de agosto de 2026 - Tempo Comum.",
     "url": "https://santo.cancaonova.com/santo/sao-domingos-de-gusmao-fundador-da-ordem-dos-pregadores/"
   },
   "gospel": {
@@ -39,30 +39,23 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Castel Gandolfo: missas e procissão fluvial em agosto com participação do Papa",
-      "summary": "A comunidade local já está acostumada com a presença de Leão XIV na região, já que o Papa transcorreu as férias de julho em Castel Gandolfo. Em agosto, tem presença confirmada em dois outros momentos: missa de 15 de agosto na Igreja.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/papa-leao-xiv-missas-castel-gandolfo-preparacao-fieis-igrejas-26.html",
+      "title": "A empatia é um recurso que as Universidades Católicas trazem em si",
+      "summary": "Se existisse uma palavra capaz de representar as Universidades Católicas e a sua visão integral sobre o significado da educação, essa palavra seria empatia. A empatia está presente na origem deste projeto universitário; define.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-08/empatia-recurso-universidades-catolicas-tolentino.html",
       "published": "2026-08-07"
     },
     {
       "source": "Vatican News",
-      "title": "O Papa Leão na França: programa, logotipo e lema da viagem",
-      "summary": "Publicado nesta sexta-feira, 7 de agosto, o programa oficial da quinta viagem apostólica de Leão XIV que o levará à França de 25 a 28 de setembro. O Pontífice visitará a capital, Paris, Lourdes, onde se encontra o santuário mariano, e.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-programa-logotipo-lema-viagem-franca.html",
-      "published": "2026-08-07"
+      "title": "O Papa em Assis: construir a civilização do amor, e não das contraposições",
+      "summary": "O Papa Leão XIV deixou o Vaticano na manhã desta quinta-feira, por volta das 8h locais, com destino à cidade Assis onde milhares de jovens o aguardavam desde as primeiras horas do dia. Um momento tão esperado da visita pastoral do Papa.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-assis-construir-civilizacao-amor.html",
+      "published": "2026-08-06"
     },
     {
       "source": "CNBB",
-      "title": "Sete pontos da vocação familiar nas exortações Familiaris Consortio e Amoris Laetitia",
-      "summary": "Na segunda semana do Mês Vocacional, o olhar é voltado para a vocação para a vida familiar. Neste ano em que a Comissão Episcopal para a Vida e a Família da CNBB dedica à celebração de 45 anos da exortação apostólica Familiaris Consortio.",
-      "url": "https://www.cnbb.org.br/sete-pontos-vocacao-familiar-exortacoes-familiaris-consortio-amoris-laetitia/",
-      "published": "2026-08-07"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Começa processo de beatificação de Juan Tomis, sacerdote que marcou a vida de Leão XIV",
-      "summary": "O bispo de Chiclayo, Peru, Edinson Farfán Córdova, disse que a diocese dará início ao processo de beatificação e canonização de Juan Tomis Stack nos próximos meses.",
-      "url": "https://www.acidigital.com/noticia/69269/comeca-processo-de-beatificacao-de-juan-tomis-sacerdote-que-marcou-a-vida-de-leao-xiv",
+      "title": "Realismo político ganha destaque na Igreja",
+      "summary": "Dom Walmor Oliveira de Azevedo Arcebispo de Belo Horizonte (MG) O Papa Leão XIV reflete na sua Carta Encíclica, Magnifica Humanitas, sobre importante temática com aspectos muito relevantes quando se considera a cultura do poder decorrente.",
+      "url": "https://www.cnbb.org.br/realismo-politico/",
       "published": "2026-08-07"
     },
     {
@@ -73,17 +66,24 @@
       "published": "2026-08-07"
     },
     {
+      "source": "ACI Digital",
+      "title": "Polônia convida o papa e se prepara para possível visita de Leão XIV",
+      "summary": "Enquanto as atividades do papa Leão XIV na América Latina em novembro continuam sendo confirmadas e a programação para a França no mês que vem já foi divulgada, os trabalhos para uma possível viagem apostólica à Polônia começaram há dois.",
+      "url": "https://www.acidigital.com/noticia/69271/polonia-convida-o-papa-e-se-prepara-para-possivel-visita-de-leao-xiv",
+      "published": "2026-08-07"
+    },
+    {
+      "source": "Shalom",
+      "title": "Música que evangeliza: Yuri Costa e Davidson Silva são considerados ao Grammy Latino 2026",
+      "summary": "Há momentos em que uma conquista ultrapassa o nome de um artista. A consideração de Yuri Costa e Davidson Silva para o Grammy Latino 2026 é um desses momentos. Ainda não se trata de uma indicação oficial à premiação. A consideração é uma.",
+      "url": "https://comshalom.org/yuri-costa-e-davidson-grammy-latino-2026/",
+      "published": "2026-08-07"
+    },
+    {
       "source": "Shalom",
       "title": "Boletim Shalom Fortaleza",
       "summary": "PROGRAMAÇÃO DAS CÉLULAS COMUNITÁRIAS 07.08 (sexta-feira): Oração Comunitária 10.08 (segunda-feira): Setorial 14.08 (sexta-feira): Tríduo da Nossa Senhora da Assunção Às 19h, na Catedral Metropolitana de Fortaleza 15.08 (sábado): Caminhada.",
       "url": "https://comshalom.org/boletimshalomfortaleza/",
-      "published": "2026-08-07"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "Santa Sé divulga lema e logotipo da viagem apostólica de Leão XIV à França",
-      "summary": "Com inspiração nas catedrais góticas e no estilo Art Déco, a identidade visual e a mensagem oficial reforçam a busca por paz e reconciliação.",
-      "url": "https://gaudiumpress.org/content/santa-se-divulga-lema-e-logotipo-da-viagem-apostolica-de-leao-xiv-a-franca/",
       "published": "2026-08-07"
     }
   ],
