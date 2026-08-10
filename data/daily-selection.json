@@ -1,34 +1,31 @@
 {
-  "date": "2026-08-09",
-  "editionLabel": "9 de agosto de 2026",
+  "date": "2026-08-10",
+  "editionLabel": "10 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "festa",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XIX do Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 14,22-33"
+    "celebrationTitle": "São Lourenço, diácono e mártir",
+    "colorName": "vermelho",
+    "cssColor": "#C62828",
+    "gospelShort": "Jo 12,24-26"
   },
   "saint": {
-    "feast": "\udfe2 Domingo XIX do Tempo Comum",
-    "name": "Santa Teresa Benedita da Cruz (Edith Stein), mártir",
-    "description": "Celebração litúrgica do dia: Domingo XIX do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santa-teresa-benedita-da-cruz-edith-stein-martir/"
+    "feast": "\udd34 [F] São Lourenço\\, diácono e mártir",
+    "name": "São Lourenço, diácono amigo do Papa Sisto II",
+    "description": "Celebração litúrgica do dia: São Lourenço, diácono e mártir.",
+    "url": "https://santo.cancaonova.com/santo/sao-lourenco-diacono-amigo-do-papa-sisto-ii/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 14,22-33)",
+    "ref": "Evangelho de Jesus Cristo segundo João (Jo 12,24-26)",
     "lines": [
-      "Depois da multiplicação dos pães, Jesus mandou que os discípulos entrassem na barca e seguissem, à sua frente, para o outro lado do mar, enquanto ele despediria as multidões.",
-      "Depois de despedi-las, Jesus subiu ao monte, para orar a sós.",
-      "A noite chegou, e Jesus continuava ali, sozinho.",
-      "A barca, porém, já longe da terra, era agitada pelas ondas, pois o vento era contrário.",
-      "Pelas três horas da manhã, Jesus veio até os discípulos, andando sobre o mar.",
-      "Quando os discípulos o avistaram, andando sobre o mar, ficaram apavorados, e disseram: &Eacute; um fantasma.",
-      "Jesus, porém, logo lhes disse: Coragem!"
+      "Naquele tempo, disse Jesus a seus discípulos: Em verdade, em verdade vos digo: Se o grão de trigo que cai na terra não morre, ele continua só um grão de trigo; mas se morre, então produz muito fruto.",
+      "Quem se apega à sua vida, perde-a; mas quem faz pouca conta de sua vida neste mundo conservá-la-á para a vida eterna.",
+      "Se alguém me quer servir, siga-me, e onde eu estou estará também o meu servo.",
+      "Se alguém me serve, meu Pai o honrará."
     ],
-    "body": "Depois da multiplicação dos pães, 22 Jesus mandou que os discípulos entrassem na barca e seguissem, à sua frente, para o outro lado do mar, enquanto ele despediria as multidões. 23 Depois de despedi-las, Jesus subiu ao monte, para orar a sós. A noite chegou, e Jesus continuava ali, sozinho. 24 A barca, porém, já longe da terra, era agitada pelas ondas, pois o vento era contrário. 25 Pelas três horas da manhã, Jesus veio até os discípulos, andando sobre o mar. 26 Quando os discípulos o avistaram, andando sobre o mar, ficaram apavorados, e disseram: \"&Eacute; um fantasma\". E gritaram de medo. 27 Jesus, porém, logo lhes disse: \"Coragem! Sou eu. Não tenhais medo!\" 28 Então Pedro lhe disse: \"Senhor, se és tu, manda-me ir ao teu encontro, caminhando sobre a água\". 29 E Jesus respondeu: \"Vem!\" Pedro desceu da barca e começou a andar sobre a água, em direção a Jesus. 30 Mas, quando sentiu o vento, ficou com medo e, começando a afundar, gritou: \"Senhor, salva-me!\" 31 Jesus logo estendeu a mão, segurou Pedro, e lhe disse: \"Homem fraco na fé, por que duvidaste?\" 32 Assim que subiram no barco, o vento se acalmou. 33 Os que estavam no barco, prostraram-se diante dele, dizendo: \"Verdadeiramente, tu és o Filho de Deus!\" —",
-    "keyVerse": "Eu confio em nosso Senhor, com fé, esperança e amor; eu espero em sua palavra, hosana, ó Senhor, vem, me salva!"
+    "body": "Naquele tempo, disse Jesus a seus discípulos: 24 \"Em verdade, em verdade vos digo: Se o grão de trigo que cai na terra não morre, ele continua só um grão de trigo; mas se morre, então produz muito fruto. 25 Quem se apega à sua vida, perde-a; mas quem faz pouca conta de sua vida neste mundo conservá-la-á para a vida eterna. 26 Se alguém me quer servir, siga-me, e onde eu estou estará também o meu servo. Se alguém me serve, meu Pai o honrará\". —",
+    "keyVerse": "Aquele que me segue não caminha entre as trevas, mas terá a luz da vida."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +36,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Moçambique. Último adeus ao Cardeal Dom Júlio Duarte Langa",
-      "summary": "De Maputo a Xai-Xai, a Igreja Católica em Moçambique despede-se do Cardeal Dom Júlio Duarte Langa. Na Catedral de Maputo, uma Missa de corpo presente reuniu fiéis, bispos, sacerdotes e autoridades, numa celebração marcada pela memória,.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/igreja-mocambique-cardeal-julio-langa-legado-nuncio-apostolico.html",
-      "published": "2026-08-08"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-08-10"
     },
     {
       "source": "Vatican News",
-      "title": "Leão XIV, em 7 de setembro, no Santuário da Mãe do Bom Conselho, em Genazzano",
-      "summary": "No local de culto agostiniano, para onde ele se deslocou em visita privada dois dias após sua eleição à Cátedra de Pedro para confiar seu ministério à Virgem, o Pontífice presidirá uma Missa na véspera da festa da Natividade da.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-missa-7-setembro-santuario-genazzano.html",
-      "published": "2026-08-08"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-08-10"
     },
     {
       "source": "CNBB",
-      "title": "Pastores generosos, modelos para o rebanho",
-      "summary": "Dom Itacir Brassiani Bispo de Santa Cruz do Sul (RS) As comunidades católicas do Brasil dedicam a primeira semana de agosto à vocação ao ministério ordenado (diáconos, padres e bispos). Neste ano, a diocese de Santa Cruz marcou este tempo.",
-      "url": "https://www.cnbb.org.br/pastores-generosos-modelos-para-o-rebanho/",
-      "published": "2026-08-07"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-08-10"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV convida fiéis a acolher Jesus com humildade através da oração, dos Sacramentos e da es",
-      "summary": "Durante a oração do Ângelus deste domingo (9), o papa Leão XIV incentivou os fiéis a acolher Jesus \"humildemente\" em suas vidas \"através da oração, dos Sacramentos e da escuta da Palavra\".",
-      "url": "https://www.acidigital.com/noticia/69273/leao-xiv-convida-fieis-a-acolher-jesus-com-humildade-atraves-da-oracao-dos-sacramentos-e-da-escuta-da-palavra",
-      "published": "2026-08-09"
+      "title": "Igreja no Brasil se prepara para o mês vocacional com intensa programação",
+      "summary": "Dioceses de todo o Brasil organizam eventos e campanhas para o mês vocacional de agosto, incentivando jovens a discernirem sua vocação.",
+      "url": "https://www.acidigital.com/noticia/58573/licoes-de-santa-ana-e-sao-joaquim-para-casais-que-enfrentam-a-infertilidade",
+      "published": "2026-08-10"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV denuncia cerco no Sudão que deixa 500 mil pessoas sem suprimentos",
-      "summary": "O papa Leão XIV denunciou hoje (9) a grave situação humanitária na cidade sudanesa de El Obeid, capital do estado de Cordofão do Norte e ponto estratégico no centro do país, onde um longo cerco militar mantém mais de 500 mil pessoas sem.",
-      "url": "https://www.acidigital.com/noticia/69275/leao-xiv-denuncia-cerco-no-sudao-que-deixa-500-mil-pessoas-sem-suprimentos",
-      "published": "2026-08-09"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-08-10"
     },
     {
       "source": "Shalom",
-      "title": "5 pais de família santos",
-      "summary": "A Igreja recorda essa semana o chamado à santidade através da vocação matrimonial. Conheça esses cinco homens que se tornaram santos como pais de família.",
-      "url": "https://comshalom.org/5-pais-de-familia-santos/",
-      "published": "2026-08-09"
+      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
+      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
+      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "published": "2026-08-10"
     },
     {
       "source": "Shalom",
-      "title": "A oração, a tempestade e o encontro: Jesus revela-se, socorre e exercita a fé.",
-      "summary": "José Ricardo Bezerra e Felipe Bezerra Chegamos ao 19º Domingo do Tempo Comum, e o Evangelho deste domingo, narrado por São Mateus (Mt 14,22-33), é a continuação da multiplicação dos pães que meditamos no domingo passado. Depois de.",
-      "url": "https://comshalom.org/a-oracao-a-tempestade-e-o-encontro-jesus-revela-se-socorre-e-exercita-a-fe/",
-      "published": "2026-08-08"
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-08-10"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-08-10"
     }
   ],
   "closingQuote": {
-    "text": "Manda-me ir ao teu encontro, caminhando sobre a água.",
-    "source": "Mateus 14,22-33"
+    "text": "Se o grão de trigo que cai na terra não morre, permanece só; mas se morre, produz muito fruto.",
+    "source": "Jo 12,24-26"
   },
   "liturgyHours": {
-    "reading": "Assim fala o Senhor Deus: Ó meu povo, vou abrir as vossas sepulturas e conduzir-vos para a terra de Israel; e quando eu abrir as vossas sepulturas e vos fizer sair delas, sabereis que eu sou o Senhor. Porei em vós o meu espírito para que vivais e...",
+    "reading": "Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e Deus de toda consolação. Ele nos consola em todas as nossas aflições, para que, com a consolação que nós mesmos recebemos de Deus, possamos consolar os que se acham em...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
