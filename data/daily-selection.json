@@ -1,31 +1,34 @@
 {
-  "date": "2026-08-10",
-  "editionLabel": "10 de agosto de 2026",
+  "date": "2026-08-11",
+  "editionLabel": "11 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "festa",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Lourenço, diácono e mártir",
-    "colorName": "vermelho",
-    "cssColor": "#C62828",
-    "gospelShort": "Jo 12,24-26"
+    "celebrationTitle": "Santa Clara, virgem",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Mt 18,1-5.10.12-14"
   },
   "saint": {
-    "feast": "\udd34 [F] São Lourenço\\, diácono e mártir",
-    "name": "São Lourenço, diácono amigo do Papa Sisto II",
-    "description": "Celebração litúrgica do dia: São Lourenço, diácono e mártir.",
-    "url": "https://santo.cancaonova.com/santo/sao-lourenco-diacono-amigo-do-papa-sisto-ii/"
+    "feast": "Santa Clara\\, virgem",
+    "name": "Santa Clara, patrona da televisão",
+    "description": "Celebração litúrgica do dia: Santa Clara, virgem.",
+    "url": "https://santo.cancaonova.com/santo/santa-clara-patrona-da-televisao-2/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo João (Jo 12,24-26)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 18,1-5.10.12-14)",
     "lines": [
-      "Naquele tempo, disse Jesus a seus discípulos: Em verdade, em verdade vos digo: Se o grão de trigo que cai na terra não morre, ele continua só um grão de trigo; mas se morre, então produz muito fruto.",
-      "Quem se apega à sua vida, perde-a; mas quem faz pouca conta de sua vida neste mundo conservá-la-á para a vida eterna.",
-      "Se alguém me quer servir, siga-me, e onde eu estou estará também o meu servo.",
-      "Se alguém me serve, meu Pai o honrará."
+      "Naquele tempo, os discípulos aproximaram-se de Jesus e perguntaram: Quem é o maior no Reino dos Céus? Jesus chamou uma criança, colocou-a no meio deles e disse: Em verdade vos digo, se não vos converterdes, e não vos tornardes como crianças, não entrareis no Reino dos Céus.",
+      "Quem se faz pequeno como esta criança, esse é o maior no Reino dos Céus.",
+      "E quem recebe em meu nome uma criança como esta, é a mim que recebe.",
+      "Não desprezeis nenhum desses pequeninos, pois eu vos digo que os seus anjos nos céus veem sem cessar a face do meu Pai que está nos céus.",
+      "Se um homem tem cem ovelhas, e uma delas se perde, não deixa ele as noventa e nove nas montanhas, para procurar aquela que se perdeu?",
+      "Em verdade vos digo, se ele a encontrar, ficará mais feliz com ela, do que com as noventa e nove que não se perderam.",
+      "Do mesmo modo, o Pai que está nos céus não deseja que se perca nenhum desses pequeninos."
     ],
-    "body": "Naquele tempo, disse Jesus a seus discípulos: 24 \"Em verdade, em verdade vos digo: Se o grão de trigo que cai na terra não morre, ele continua só um grão de trigo; mas se morre, então produz muito fruto. 25 Quem se apega à sua vida, perde-a; mas quem faz pouca conta de sua vida neste mundo conservá-la-á para a vida eterna. 26 Se alguém me quer servir, siga-me, e onde eu estou estará também o meu servo. Se alguém me serve, meu Pai o honrará\". —",
-    "keyVerse": "Aquele que me segue não caminha entre as trevas, mas terá a luz da vida."
+    "body": "Naquele tempo, 1 os discípulos aproximaram-se de Jesus e perguntaram: \"Quem é o maior no Reino dos Céus?\" 2 Jesus chamou uma criança, colocou-a no meio deles 3 e disse: \"Em verdade vos digo, se não vos converterdes, e não vos tornardes como crianças, não entrareis no Reino dos Céus. 4 Quem se faz pequeno como esta criança, esse é o maior no Reino dos Céus. 5 E quem recebe em meu nome uma criança como esta, é a mim que recebe. 10 Não desprezeis nenhum desses pequeninos, pois eu vos digo que os seus anjos nos céus veem sem cessar a face do meu Pai que está nos céus. 12 Que vos parece? Se um homem tem cem ovelhas, e uma delas se perde, não deixa ele as noventa e nove nas montanhas, para procurar aquela que se perdeu? 13 Em verdade vos digo, se ele a encontrar, ficará mais feliz com ela, do que com as noventa e nove que não se perderam. 14 Do mesmo modo, o Pai que está nos céus não deseja que se perca nenhum desses pequeninos\". —",
+    "keyVerse": "Tomai meu jugo sobre vós e aprendei de mim, que sou de coração humilde e manso!"
   },
   "sponsor": {
     "enabled": true,
@@ -36,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV no Angelus: em qualquer circunstância, Jesus não nos abandona",
-      "summary": "O Evangelho de hoje ensina-nos algo importante: a não perdermos a esperança, nem mesmo nos momentos de escuridão, quando nos sentimos impotentes perante os problemas que, apesar dos nossos esforços, nos fazem pensar que estamos a recuar.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-angelus-9-agosto-2026-jesus-nao-nos-abandona.html",
-      "published": "2026-08-09"
+      "title": "Cardeal Vicente Bokalic e a viagem do Papa à Argentina",
+      "summary": "O cardeal primaz da Argentina acolhe com alegria a visita de Leão XIV em novembro: \"O nosso humilde povo ama o Papa\", declara à imprensa do Vaticano. \"Ele sempre foi assim, com todos. A sua mensagem é pastoral: tal como Francisco, Leão.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-viagem-apostolica-argentina-cardeal-bokalic.html",
+      "published": "2026-08-10"
     },
     {
       "source": "Vatican News",
-      "title": "Papa envia representante às celebrações em honra a Nossa Senhora da Gruta, na Calábria",
-      "summary": "É a primeira vez na história da diocese local que um legado pontifício é enviado ao território, como afirmam os bispos da Calábria. O Santuário de Nossa Senhora da Gruta, em \"Praia a Mare\", sul da Itália, está celebrando neste ano o VII.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-enviado-700-anos-descoberta-imagem-ns-gruta-ita-26.html",
+      "title": "O Papa: o Senhor converta os corações daqueles que semeiam a violência",
+      "summary": "No Angelus deste domingo, 9 de agosto, mais um veemente apelo do Santo Padre em favor da paz, com um olhar para a trágica situação no Sudão, expressando sua proximidade espiritual com todo o povo daquele país, e o pedido de uma cessação.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-pos-angelus-apelo-paz-sudao-russia-ucrania-guerra.html",
+      "published": "2026-08-09"
+    },
+    {
+      "source": "CNBB",
+      "title": "Faleceu Antonio Geraldo de Aguiar, ex-assessor da CNBB e referência no processo de formação do",
+      "summary": "Na Conferência Episcopal, foi assessor do Setor Leigos da Comissão Episcopal para o Laicato, entre 2007 e 2015. Participou da fundação do Centro Nacional de Fé e Política “Dom Helder Câmara”, esteve na elaboração do Documento \"Cristãos.",
+      "url": "https://www.cnbb.org.br/falecimento-antonio-geraldo-de-aguiar-assessor-laicato/",
       "published": "2026-08-10"
     },
     {
       "source": "CNBB",
-      "title": "Nesta terça, às 20h, acompanhe a segunda live da série “Diretrizes e sínodo: três conversões”",
-      "summary": "Como rever estruturas e formas de decisão à luz da sinodalidade? Essa é a pergunta que irá iluminar as reflexões da segunda live da série “Diretrizes e Sínodo: três conversões”, que ocorrerá nesta terça-feira, 11 de agosto, às 20h, no.",
-      "url": "https://www.cnbb.org.br/nesta-terca-as-20h-acompanhe-a-segunda-live-da-serie-diretrizes-e-sinodo-tres-conversoes/",
+      "title": "Família: onde o amor se faz presença",
+      "summary": "Dom Leomar Antônio Brustolin Arcebispo de Santa Maria (RS) Todos os anos, a Semana Nacional da Família e a celebração do Dia dos Pais convidam-nos a voltar o olhar para aquela que continua sendo a primeira escola de humanidade, de fé e de.",
+      "url": "https://www.cnbb.org.br/familia-onde-o-amor-se-faz-presenca/",
       "published": "2026-08-10"
     },
     {
       "source": "ACI Digital",
-      "title": "Bispo convoca vigília por paz, justiça e estabilidade em Ceuta",
-      "summary": "O bispo-auxiliar de Sevilha, Espanha, Ramón Valdivia, administrador apostólico de Cádiz e Ceuta, convocou uma vigília por paz, justiça e estabilidade na cidade espanhola no norte da África.",
-      "url": "https://www.acidigital.com/noticia/69287/bispo-convoca-vigilia-por-paz-justica-e-estabilidade-em-ceuta",
+      "title": "é celebrada santa Clara de Assis, padroeira da televisão",
+      "summary": "A Igreja hoje (11) a memória litúrgica de santa Clara de Assis, a jovem da nobreza italiana que deixou tudo por Cristo e, junto a são Francisco, decidiu atender ao chamado de Deus.",
+      "url": "https://www.acidigital.com/noticia/52809/hoje-e-celebrada-santa-clara-de-assis-padroeira-da-televisao",
+      "published": "2026-08-11"
+    },
+    {
+      "source": "Shalom",
+      "title": "Boletim Shalom Fortaleza",
+      "summary": "PROGRAMAÇÃO DAS CÉLULAS COMUNITÁRIAS 10.08 (segunda-feira): Setorial 14.08 (sexta-feira): Tríduo da Nossa Senhora da Assunção Às 19h, na Catedral Metropolitana de Fortaleza 15.08 (sábado): Caminhada com Maria Ponto de encontro: 14h, no.",
+      "url": "https://comshalom.org/boletimshalomfortaleza/",
       "published": "2026-08-10"
     },
     {
       "source": "Shalom",
-      "title": "Oração de São João Paulo II pela missão da família cristã",
-      "summary": "A oração, a seguir, foi proferida pelo então Papa João Paulo II durante o Angelus do dia 27 de dezembro de 1981. As palavras do Santo Padre, hoje São João Paulo II, expressam o grande desejo de santidade para cada família....",
-      "url": "https://comshalom.org/oracao-de-sao-joao-paulo-ii-pela-missao-da-familia-crista/",
-      "published": "2026-08-10"
-    },
-    {
-      "source": "Shalom",
-      "title": "“Deus ama quem dá com alegria”: Dom José Antônio destaca a doação de vida no Retiro da Diaconia",
-      "summary": "Arcebispo emérito de Fortaleza abriu, nesta segunda-feira (10), o primeiro retiro a reunir todos os missionários que vivem e trabalham na Diaconia Geral da Comunidade Shalom.",
-      "url": "https://comshalom.org/dom-jose-antonio-abre-retiro-diaconia-geral-shalom/",
-      "published": "2026-08-10"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "Abelardo de la Espriella assumiu a presidência da Colômbia em Cali com forte simbolismo religio",
-      "summary": "À esquerda do palco, uma imagem de Nossa Senhora de Fátima reforçava a identidade católica da nova administração. Foto: Abelardo de la Espriella/ Facebook Redação ( 09/08/2026 11:43 , Gaudium Press ) Em uma cerimônia carregada de.",
-      "url": "https://gaudiumpress.org/content/abelardo-de-la-espriella-assumiu-a-presidencia-da-colombia-em-cali-com-forte-simbolismo-religioso/",
-      "published": "2026-08-10"
+      "title": "Convenção Shalom 45 anos terá programação especial na Basílica de Santa Clara, em Assis",
+      "summary": "Pela primeira vez, a Convenção contará com dois dias de atividades na cidade de São Francisco e Santa Clara; peregrinação será marcada por oração, celebração e renovação da missão.",
+      "url": "https://comshalom.org/convencao-shalom-45-anos-tera-programacao-especial-na-basilica-de-santa-clara-em-assis/",
+      "published": "2026-08-11"
     }
   ],
   "closingQuote": {
-    "text": "Se o grão de trigo que cai na terra não morre, permanece só; mas se morre, produz muito fruto.",
-    "source": "Jo 12,24-26"
+    "text": "Ama a Deus, serve a Deus. Tudo está nisso.",
+    "source": "Santa Clara de Assis"
   },
   "liturgyHours": {
-    "reading": "Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e Deus de toda consolação. Ele nos consola em todas as nossas aflições, para que, com a consolação que nós mesmos recebemos de Deus, possamos consolar os que se acham em...",
+    "reading": "Águas torrenciais jamais apagarão o amor, nem rios poderão afogá-lo. Se alguém oferecesse todas as riquezas de sua casa para comprar o amor, seria tratado com desprezo.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
