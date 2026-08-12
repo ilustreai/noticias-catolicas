@@ -1,34 +1,34 @@
 {
-  "date": "2026-08-11",
-  "editionLabel": "11 de agosto de 2026",
+  "date": "2026-08-12",
+  "editionLabel": "12 de agosto de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santa Clara, virgem",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Mt 18,1-5.10.12-14"
+    "celebrationTitle": "Santa Joana Francisca de Chantal, religiosa",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Mt 18,15-20"
   },
   "saint": {
-    "feast": "Santa Clara\\, virgem",
-    "name": "Santa Clara, patrona da televisão",
-    "description": "Celebração litúrgica do dia: Santa Clara, virgem.",
-    "url": "https://santo.cancaonova.com/santo/santa-clara-patrona-da-televisao-2/"
+    "feast": "Santa Joana Francisca de Chantal\\, religiosa",
+    "name": "Santa Joana Francisca de Chantal, amiga de São Francisco de Sales",
+    "description": "Celebração litúrgica do dia: Santa Joana Francisca de Chantal, religiosa.",
+    "url": "https://santo.cancaonova.com/santo/santa-joana-francisca-de-chantal-amiga-de-sao-francisco-de-sales/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 18,1-5.10.12-14)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 18,15-20)",
     "lines": [
-      "Naquele tempo, os discípulos aproximaram-se de Jesus e perguntaram: Quem é o maior no Reino dos Céus? Jesus chamou uma criança, colocou-a no meio deles e disse: Em verdade vos digo, se não vos converterdes, e não vos tornardes como crianças, não entrareis no Reino dos Céus.",
-      "Quem se faz pequeno como esta criança, esse é o maior no Reino dos Céus.",
-      "E quem recebe em meu nome uma criança como esta, é a mim que recebe.",
-      "Não desprezeis nenhum desses pequeninos, pois eu vos digo que os seus anjos nos céus veem sem cessar a face do meu Pai que está nos céus.",
-      "Se um homem tem cem ovelhas, e uma delas se perde, não deixa ele as noventa e nove nas montanhas, para procurar aquela que se perdeu?",
-      "Em verdade vos digo, se ele a encontrar, ficará mais feliz com ela, do que com as noventa e nove que não se perderam.",
-      "Do mesmo modo, o Pai que está nos céus não deseja que se perca nenhum desses pequeninos."
+      "Naquele tempo, disse Jesus aos seus discípulos: Se o teu irmão pecar contra ti, vai corrigi-lo, mas em particular, a sós contigo!",
+      "Se ele te ouvir, tu ganhaste o teu irmão.",
+      "Se ele não te ouvir, toma contigo mais uma ou duas pessoas, para que toda a questão seja decidida sob a palavra de duas ou três testemunhas.",
+      "Se ele não vos der ouvido, dize-o à Igreja.",
+      "Se nem mesmo à Igreja ele ouvir, seja tratado como se fosse um pagão ou um pecador público.",
+      "Em verdade vos digo, tudo o que ligardes na terra será ligado no céu, e tudo o que desligardes na terra será desligado no céu.",
+      "De novo, eu vos digo: se dois de vós estiverem de acordo na terra sobre qualquer coisa que quiserem pedir, isto vos será concedido por meu Pai que está nos céus."
     ],
-    "body": "Naquele tempo, 1 os discípulos aproximaram-se de Jesus e perguntaram: \"Quem é o maior no Reino dos Céus?\" 2 Jesus chamou uma criança, colocou-a no meio deles 3 e disse: \"Em verdade vos digo, se não vos converterdes, e não vos tornardes como crianças, não entrareis no Reino dos Céus. 4 Quem se faz pequeno como esta criança, esse é o maior no Reino dos Céus. 5 E quem recebe em meu nome uma criança como esta, é a mim que recebe. 10 Não desprezeis nenhum desses pequeninos, pois eu vos digo que os seus anjos nos céus veem sem cessar a face do meu Pai que está nos céus. 12 Que vos parece? Se um homem tem cem ovelhas, e uma delas se perde, não deixa ele as noventa e nove nas montanhas, para procurar aquela que se perdeu? 13 Em verdade vos digo, se ele a encontrar, ficará mais feliz com ela, do que com as noventa e nove que não se perderam. 14 Do mesmo modo, o Pai que está nos céus não deseja que se perca nenhum desses pequeninos\". —",
-    "keyVerse": "Tomai meu jugo sobre vós e aprendei de mim, que sou de coração humilde e manso!"
+    "body": "Naquele tempo, disse Jesus aos seus discípulos: 15 \"Se o teu irmão pecar contra ti, vai corrigi-lo, mas em particular, a sós contigo! Se ele te ouvir, tu ganhaste o teu irmão. 16 Se ele não te ouvir, toma contigo mais uma ou duas pessoas, para que toda a questão seja decidida sob a palavra de duas ou três testemunhas. 17 Se ele não vos der ouvido, dize-o à Igreja. Se nem mesmo à Igreja ele ouvir, seja tratado como se fosse um pagão ou um pecador público. 18 Em verdade vos digo, tudo o que ligardes na terra será ligado no céu, e tudo o que desligardes na terra será desligado no céu. 19 De novo, eu vos digo: se dois de vós estiverem de acordo na terra sobre qualquer coisa que quiserem pedir, isto vos será concedido por meu Pai que está nos céus. 20 Pois onde dois ou três estiverem reunidos em meu nome eu estou ali, no meio deles\". —",
+    "keyVerse": "Em Cristo, Deus reconciliou consigo mesmo a humanidade; e a nós ele entregou esta reconciliação."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Cardeal Parolin em Catânia pelos 900 anos do retorno das relíquias de Santa Águeda",
-      "summary": "A Arquidiocese de Catânia, na Sicília, já está se preparando para receber o cardeal Pietro Parolin, secretário de Estado do Vaticano e nomeado pelo Papa legado pontifício para o IX Centenário do retorno das relíquias da mártir de Catânia.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-08/cardeal-parolin-catania-100-anos-retorno-reliquias-santa-agueda.html",
+      "title": "Dom Odilo Scherer confirmado membro do Conselho para a Economia",
+      "summary": "O Conselho para a Economia da Cúria Romana foi criado pelo Papa Francisco em 2014. Ele vigia as estruturas, as finanças e as atividades administrativas da Santa Sé e do Estado da Cidade do Vaticano, garantindo uma gestão ética,.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/leao-xiv-nomeacoes-confirmacoes-conselho-economia-odilo-scherer.html",
       "published": "2026-08-11"
     },
     {
       "source": "Vatican News",
-      "title": "O Papa: para construir a paz, desarmar a tecnologia e a Inteligência Artificial",
-      "summary": "«Desarmar a tecnologia, servir a paz. A política como responsabilidade preventiva» é o tema da mensagem para o 60° Dia Mundial da Paz que será celebrado em 1° de janeiro de 2027. Com esse tema, o Papa Leão XIV \"deseja evidenciar a.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/tema-mensagem-dia-mundial-paz-desarmar-tecnologia-servir-papa.html",
+      "title": "Igreja em Ceuta organiza vigília de oração pela paz",
+      "summary": "O administrador apostólico convida todas as paróquias a celebrarem uma vigília de oração na véspera da Assunção, de acordo com a proposta do Papa Leão XIV. Dom Valdivia agradece a resposta da comunidade cristã e pede para transformar a.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/ceuta-igreja-vigilia-oracao-paz-crise-humanitaria-unidade.html",
       "published": "2026-08-11"
     },
     {
       "source": "CNBB",
-      "title": "Nesta terça, às 20h, acompanhe a segunda live da série “Diretrizes e sínodo: três conversões”",
-      "summary": "Como rever estruturas e formas de decisão à luz da sinodalidade? Essa é a pergunta que irá iluminar as reflexões da segunda live da série “Diretrizes e Sínodo: três conversões”, que ocorrerá nesta terça-feira, 11 de agosto, às 20h, no.",
-      "url": "https://www.cnbb.org.br/nesta-terca-as-20h-acompanhe-a-segunda-live-da-serie-diretrizes-e-sinodo-tres-conversoes/",
-      "published": "2026-08-10"
+      "title": "Cimi lança na próxima quinta-feira, 13, relatório sobre violência contra povos indígenas em 202",
+      "summary": "O Conselho Indigenista Missionário (Cimi) lança, na próxima quinta-feira (13), às 14h30, o Relatório Violência Contra os Povos Indígenas no Brasil – dados de 2025. O evento de lançamento da publicação anual do Cimi ocorrerá na sede da.",
+      "url": "https://www.cnbb.org.br/cimi-lanca-na-quinta-feira-13-relatorio-sobre-violencia-contra-povos-indigenas-em-2025/",
+      "published": "2026-08-11"
     },
     {
-      "source": "ACI Digital",
-      "title": "Bispo da Nicarágua pede rebelião espiritual contra o ‘ditador que se acha eterno’",
-      "summary": "O bispo-auxiliar de Manágua, Nicarágua, Silvio Báez encorajou as pessoas a manterem a “rebelião espiritual” contra o “ditador que se considera eterno”, em sua homilia na missa que celebrou no último domingo (9), na paróquia de Santa Ágata.",
-      "url": "https://www.acidigital.com/noticia/69309/bispo-da-nicaragua-pede-rebeliao-espiritual-contra-o-ditador-que-se-acha-eterno",
+      "source": "CNBB",
+      "title": "envia Mensagem de solidariedade à Igreja e ao povo da Colômbia",
+      "summary": "A Conferência Nacional dos Bispos do Brasil (CNBB) enviou, nesta terça-feira, 11 de agosto, a \"Mensagem de Solidariedade da CNBB à Igreja e ao Povo da Colômbia\". A carta foi endereçada ao arcebispo de Cartagena e presidente da Conferência.",
+      "url": "https://www.cnbb.org.br/ccnbb-envia-mensagem-de-solidariedade-a-igreja-e-ao-povo-da-colombia/",
       "published": "2026-08-11"
     },
     {
       "source": "ACI Digital",
-      "title": "Libertada do vício em crack torna-se postulante em mosteiro de Clarissas",
-      "summary": "Fransueli Marques da Cruz, de 34 anos, sentiu aos 15 o desejo de entrar para a vida religiosa. Depois de passar 15 anos afastada da fé, enfrentar o vício em crack e viver na rua, ela reencontrou Deus durante sua recuperação na Fazenda da.",
-      "url": "https://www.acidigital.com/noticia/69305/libertada-do-vicio-em-crack-torna-se-postulante-em-mosteiro-de-clarissas",
+      "title": "Dia Mundial da Paz: desarmar a tecnologia e incentivar a responsabilidade política",
+      "summary": "O Dicastério para o Serviço do Desenvolvimento Humano Integral da Santa Sé anunciou hoje (11) o tema do Dia Mundial da Paz 2027, celebrado todos os anos em 1º de janeiro: Desarmar a tecnologia, servir a paz. A política como.",
+      "url": "https://www.acidigital.com/noticia/69313/dia-mundial-da-paz-desarmar-a-tecnologia-e-incentivar-a-responsabilidade-politica",
       "published": "2026-08-11"
     },
     {
       "source": "Shalom",
-      "title": "Convenção Shalom 45 anos terá programação especial na Basílica de Santa Clara, em Assis",
-      "summary": "Pela primeira vez, a Convenção contará com dois dias de atividades na cidade de São Francisco e Santa Clara; peregrinação será marcada por oração, celebração e renovação da missão.",
-      "url": "https://comshalom.org/convencao-shalom-45-anos-tera-programacao-especial-na-basilica-de-santa-clara-em-assis/",
-      "published": "2026-08-11"
+      "title": "Dia Internacional da Juventude: conheça 5 jovens que evangelizaram o mundo",
+      "summary": "Celebrando o Dia Internacional da Juventude, vamos conhecer cinco jovens que incendiaram o mundo com a força do Evangelho.",
+      "url": "https://comshalom.org/5-jovens-que-evangelizaram-o-mundo/",
+      "published": "2026-08-12"
     },
     {
       "source": "Shalom",
-      "title": "Por que a ordem no lar é uma missão da esposa católica?",
-      "summary": "Vivemos em um tempo em que a desordem parece ser celebrada: casas agitadas, rotinas caóticas, e até lares onde os papéis se confundem ou se perdem. Em contraste com essa realidade, a Palavra de Deus nos convida a olhar para a ordem como virtude: “Tudo, porém, seja feito com decência e ordem ” (1Cor 14,40)....",
-      "url": "https://comshalom.org/ordem-no-lar-missao-esposa-catolica/",
-      "published": "2026-08-11"
+      "title": "A família humana é sagrada e divina",
+      "summary": "Em versos, Alessandro Silva partilha sobre o valor da família.",
+      "url": "https://comshalom.org/a-familia-humana-e-sagrada-e-divina/",
+      "published": "2026-08-12"
     }
   ],
   "closingQuote": {
-    "text": "Ama a Deus, serve a Deus. Tudo está nisso.",
-    "source": "Santa Clara de Assis"
+    "text": "Tudo por amor, nada por força.",
+    "source": "São Francisco de Sales"
   },
   "liturgyHours": {
-    "reading": "Águas torrenciais jamais apagarão o amor, nem rios poderão afogá-lo. Se alguém oferecesse todas as riquezas de sua casa para comprar o amor, seria tratado com desprezo.",
+    "reading": "Nu eu saí do ventre de minha mãe e nu voltarei para lá. O Senhor deu, o Senhor tirou; como foi do agrado do Senhor, assim foi feito. Bendito seja o nome do Senhor! Se recebemos de Deus os bens, não deveríamos receber também os males?",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
