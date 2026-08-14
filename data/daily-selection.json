@@ -3,17 +3,17 @@
   "editionLabel": "14 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "14 de agosto de 2026 - Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
+    "celebrationTitle": "São Maximiliano Maria Kolbe, presbitero e mártir",
+    "colorName": "vermelho",
+    "cssColor": "#C62828",
     "gospelShort": "Mt 19,3-12"
   },
   "saint": {
     "feast": "\udd34 [M] São Maximiliano Maria Kolbe\\, presbitero e mártir",
     "name": "São Maximiliano Maria Kolbe, mensageiro da paz no Holocausto",
-    "description": "Celebração litúrgica do dia: 14 de agosto de 2026 - Tempo Comum.",
+    "description": "Celebração litúrgica do dia: São Maximiliano Maria Kolbe, presbitero e mártir.",
     "url": "https://santo.cancaonova.com/santo/sao-maximiliano-maria-kolbe-mensageiro-da-paz-no-holocausto/"
   },
   "gospel": {
@@ -39,52 +39,52 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV no Angelus: em qualquer circunstância, Jesus não nos abandona",
-      "summary": "Quando o Mestre entra no barco, a tempestade acalma, e então brota espontaneamente do coração dos discípulos a profissão de fé: &laquo;Tu és, realmente, o Filho de Deus!&raquo; Foi o que ressaltou o Santo Padre aos fiéis e peregrinos reunidos na Praça São Pedro ao explicar o Evangelho deste XIX Domingo do Tempo Comum, no habitual encontro dominical do Angelus....",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-angelus-9-agosto-2026-jesus-nao-nos-abandona.html",
-      "published": "2026-09-08"
+      "title": "A esperança de uma Amazônia ferida: \"Leão XIV sabe onde dói em nós\"",
+      "summary": "Nas comunidades da selva peruana cresce a expectativa pelo retorno de Robert Prevost ao país que marcou seu caminho missionário. Os bispos de Iquitos e Puerto Maldonado esperam que a sua visita a Pucallpa seja muito mais do que uma.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/peru-pucallpa-amazonia-papa-leao-xiv-viagem-apostolica-bispos.html",
+      "published": "2026-08-14"
     },
     {
       "source": "Vatican News",
-      "title": "Arcebispo de Cali: \"há muita dor, mas também muita esperança\"",
-      "summary": "O arcebispo de Cali, dom Luis Fernando Rodríguez Velásquez, lamenta a situação na região do Valle del Cauca após o terremoto, mas mantém a esperança. Ele expressa sua gratidão pelo gesto do Papa Leão XIV: \"Ele nos deu o exemplo da.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/colombia-terremoto-arcebispo-cali-dor-esperanca.html",
+      "title": "Como ser uma família santa? O Papa responde a um casal de brasileiros em lua de mel",
+      "summary": "Yago e Danielly são mineiros de Divinópolis e participaram da bênção dos recém-casados na Audiência Geral desta quarta-feira (12/08) com Leão XIV. Eles foram surpreendidos com a atenção do Pontífice ao responder à pergunta sobre o sonho.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-conselho-familia-santa-recem-casados-12-agosto-26.html",
       "published": "2026-08-13"
     },
     {
       "source": "CNBB",
-      "title": "Presidente da CNBB e dom Reginaldo Andrietta são agraciados com a Ordem do Mérito do Trabalho",
-      "summary": "O arcebispo de Porto Alegre (RS) e presidente da Conferência Nacional dos Bispos do Brasil (CNBB), cardeal Jaime Spengler, e o bispo de Jales (SP) e membro da Comissão Sociotransformadora da CNBB, dom José Reginaldo Andrieta, foram.",
-      "url": "https://www.cnbb.org.br/presidente-da-cnbb-recebe-ordem-do-merito-do-trabalho/",
+      "title": "Na fonte do ministério presbiteral",
+      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) Recentemente, participei do retiro da segunda turma do clero da Arquidiocese de Natal. Foram dias preciosos de interiorização, oração e convivência fraterna. Em meio às diversas exigências.",
+      "url": "https://www.cnbb.org.br/na-fonte-do-ministerio-presbiteral/",
+      "published": "2026-08-14"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Igreja no México apresenta nomes de vítimas da violência a Leão XIV",
+      "summary": "A Igreja no México prepara um documento com os nomes e fotografias das vítimas da violência no país para ser entregue ao papa Leão XIV por causa do Dia Internacional das Vítimas de Desaparecimentos Forçados, 30 de agosto.",
+      "url": "https://www.acidigital.com/noticia/69353/igreja-no-mexico-apresenta-nomes-de-vitimas-da-violencia-a-leao-xiv",
       "published": "2026-08-13"
     },
     {
       "source": "ACI Digital",
-      "title": "Cinco dados curiosos sobre a vida de são Maximiliano Kolbe, mártir do século XX",
-      "summary": "Hoje (14) é celebrado são Maximiliano Maria Kolbe, sacerdote membro da ordem dos frades menores conventuais, que morreu mártir nos campos de concentração nazistas, ao oferecer a sua vida em troca pela de um pai de família condenado à morte.",
-      "url": "https://www.acidigital.com/noticia/52822/cinco-dados-curiosos-sobre-a-vida-de-sao-maximiliano-kolbe-martir-do-seculo-xx",
+      "title": "Com mediação da Igreja, chavismo e oposição concordam em reformar sistema judiciário na Venezue",
+      "summary": "Na noite da última quarta-feira (12), representantes da Assembleia Nacional de 2015 e do governo interino de Delcy Rodríguez anunciaram os primeiros acordos da mesa de negociações iniciada há alguns dias.",
+      "url": "https://www.acidigital.com/noticia/69355/com-mediacao-da-igreja-chavismo-e-oposicao-concordam-em-reformar-sistema-judiciario-na-venezuela",
       "published": "2026-08-14"
     },
     {
       "source": "Shalom",
-      "title": "Retiro da Diaconia Geral reúne quase 200 missionários em oração, escuta e discernimento",
-      "summary": "Encontro contou com a presença de Dom José Antônio e terminou com o Santo Terço rezado em várias línguas, expressando a universalidade do carisma Shalom.",
-      "url": "https://comshalom.org/retiro-diaconia-geral-missionarios-oracao-discernimento/",
+      "title": "Cinco lições de São Maximiliano Kolbe para os consagrados",
+      "summary": "No dia em que é celebrada a sua memória, destacamos cinco aspectos de sua trajetória que são verdadeiras lições para consagrados, religiosos e sacerdotes que, como ele, responderam ao chamado de dedicarem-se mais intensamente ao serviço.",
+      "url": "https://comshalom.org/cinco-licoes-de-sao-maximiliano-kolbe-para-os-consagrados/",
       "published": "2026-08-14"
     },
     {
-      "source": "Shalom",
-      "title": "Como rezar em família? ganha destaque na Igreja",
-      "summary": "A vida espiritual em família é fundamental para a mesma e para a sociedade. O catecismo afirma que “a família cristã é o primeiro lugar de oração. Fundada sobre o sacramento do matrimônio, ela é ‘a Igreja Doméstica’, onde os filhos de Deus aprendem a orar ‘como Igreja’ e a perseverar na oração.” (CIC 2685). Mas, afinal, como rezar em família?...",
-      "url": "https://comshalom.org/como-rezar-em-familia/",
+      "source": "Gaudium Press",
+      "title": "São Maximiliano Maria Kolbe: o discípulo de Maria",
+      "summary": "Comemorado pela Igreja em 14 de agosto, São Maximiliano nos ensina a viver como heróis! Grande devoto de Nossa Senhora, fundou a Milícia de Maria Imaculada. Natural da Polônia, foi preso pelos nazistas e levado para o campo de.",
+      "url": "https://gaudiumpress.org/content/sao-maximiliano-maria-kolbe-o-discipulo-de-maria/",
       "published": "2026-08-14"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Leão XIV faz um apelo pela paz no Sudão e na Ucrânia.",
-      "summary": "Recentemente, Papa Leão XIV voltou sua atenção para dois dos conflitos mais graves do mundo, apelando à comunidade internacional para que não deixe o Sudão e a Ucrânia caírem no esquecimento durante o verão. Falando em inglês, o Papa.",
-      "url": "https://pt.aleteia.org/2026/08/13/leao-xiv-faz-um-apelo-pela-paz-no-sudao-e-na-ucrania/",
-      "published": "2026-08-13"
     }
   ],
   "closingQuote": {
