@@ -1,34 +1,31 @@
 {
-  "date": "2026-08-14",
-  "editionLabel": "14 de agosto de 2026",
+  "date": "2026-08-15",
+  "editionLabel": "15 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "solenidade",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Maximiliano Maria Kolbe, presbitero e mártir",
-    "colorName": "vermelho",
-    "cssColor": "#C62828",
-    "gospelShort": "Mt 19,3-12"
+    "celebrationTitle": "Assunção da Virgem Santa Maria",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Mt 19,13-15"
   },
   "saint": {
-    "feast": "\udd34 [M] São Maximiliano Maria Kolbe\\, presbitero e mártir",
-    "name": "São Maximiliano Maria Kolbe, mensageiro da paz no Holocausto",
-    "description": "Celebração litúrgica do dia: São Maximiliano Maria Kolbe, presbitero e mártir.",
-    "url": "https://santo.cancaonova.com/santo/sao-maximiliano-maria-kolbe-mensageiro-da-paz-no-holocausto/"
+    "feast": "Assunção da Virgem Santa Maria",
+    "name": "Assunção de Nossa Senhora, dogma de fé",
+    "description": "Celebração litúrgica do dia: Assunção da Virgem Santa Maria.",
+    "url": "https://santo.cancaonova.com/santo/assuncao-de-nossa-senhora/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 19,3-12)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 19,13-15)",
     "lines": [
-      "Naquele tempo, alguns fariseus aproximaram-se de Jesus, e perguntaram, para o tentar: &Eacute; permitido ao homem despedir sua esposa por qualquer motivo? Jesus respondeu: Nunca lestes que o Criador, desde o início os fez homem e mulher?",
-      "E disse: Por isso, o homem deixará pai e mãe, e se unirá à sua mulher, e os dois serão uma só carne?",
-      "De modo que eles já não são dois, mas uma só carne.",
-      "Portanto, o que Deus uniu, o homem não separe.",
-      "Os fariseus perguntaram: Então, como é que Moisés mandou dar certidão de divórcio e despedir a mulher? Jesus respondeu: Moisés permitiu despedir a mulher, por causa da dureza do vosso coração.",
-      "Mas não foi assim desde o início.",
-      "Por isso, eu vos digo: quem despedir a sua mulher - a não ser em caso de união ilegítima - e se casar com outra, comete adultério."
+      "Naquele tempo, levaram crianças a Jesus, para que impusesse as mãos sobre elas e fizesse uma oração.",
+      "Os discípulos, porém, as repreendiam.",
+      "Então Jesus disse: Deixai as crianças, e não as proibais de virem a mim, porque delas é o Reino dos Céus.",
+      "E depois de impor as mãos sobre elas, Jesus partiu dali."
     ],
-    "body": "Naquele tempo, 3 alguns fariseus aproximaram-se de Jesus, e perguntaram, para o tentar: \"&Eacute; permitido ao homem despedir sua esposa por qualquer motivo?' 4 Jesus respondeu: \"Nunca lestes que o Criador, desde o início os fez homem e mulher? 5 E disse: 'Por isso, o homem deixará pai e mãe, e se unirá à sua mulher, e os dois serão uma só carne'? 6 De modo que eles já não são dois, mas uma só carne. Portanto, o que Deus uniu, o homem não separe\". 7 Os fariseus perguntaram: \"Então, como é que Moisés mandou dar certidão de divórcio e despedir a mulher?\" 8 Jesus respondeu: \"Moisés permitiu despedir a mulher, por causa da dureza do vosso coração. Mas não foi assim desde o início. 9 Por isso, eu vos digo: quem despedir a sua mulher - a não ser em caso de união ilegítima - e se casar com outra, comete adultério\". 10 Os discípulos disseram a Jesus: \"Se a situação do homem com a mulher é assim, não vale a pena casar-se\". 11 Jesus respondeu: 'Nem todos são capazes de entender isso, a não ser aqueles a quem é concedido. 12 Com efeito, existem homens incapazes para o casamento, porque nasceram assim; outros, porque os homens assim os fizeram; outros, ainda, se fizeram incapazes disso por causa do Reino dos Céus. Quem puder entender, entenda\". —",
-    "keyVerse": "Acolhei a palavra de Deus, não como palavra humana, mas como mensagem de Deus o que ela é, em verdade!"
+    "body": "Naquele tempo, 13 levaram crianças a Jesus, para que impusesse as mãos sobre elas e fizesse uma oração. Os discípulos, porém, as repreendiam. 14 Então Jesus disse: \"Deixai as crianças, e não as proibais de virem a mim, porque delas é o Reino dos Céus\". 15 E depois de impor as mãos sobre elas, Jesus partiu dali. —",
+    "keyVerse": "Graças te dou, ó Pai, Senhor do céu e da terra, pois revelaste os mistérios do teu Reino aos pequeninos, escondendo-os aos doutores!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,67 +36,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
-      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "title": "A esperança de uma Amazônia ferida: \"Leão XIV sabe onde dói em nós\"",
+      "summary": "Nas comunidades da selva peruana cresce a expectativa pelo retorno de Robert Prevost ao país que marcou seu caminho missionário. Os bispos de Iquitos e Puerto Maldonado esperam que a sua visita a Pucallpa seja muito mais do que uma.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/peru-pucallpa-amazonia-papa-leao-xiv-viagem-apostolica-bispos.html",
       "published": "2026-08-14"
     },
     {
       "source": "Vatican News",
-      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
-      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "title": "Papa: o ano litúrgico acompanha os fiéis na história da salvação",
+      "summary": "Pela segunda semana consecutiva, a Audiência Geral com o Papa Leão XIV foi realizada na Basílica de São Pedro, nesta quarta-feira, 12 de agosto, enquanto Roma continua enfrentando as altas temperaturas do verão no hemisfério norte. Em sua catequese, o Santo Padre deu continuidade ao ciclo de reflexões sobre os documentos do Concílio Vaticano II, detendo-se desta vez no capítulo V da Constituição Sacrosanctum Concilium, dedicado ao ano litúrgico....",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/catequese-papa-leao-xiv-audiencia-geral-12-de-agosto-2026.html",
+      "published": "2026-12-08"
+    },
+    {
+      "source": "CNBB",
+      "title": "Igreja em jornada ganha destaque na Igreja",
+      "summary": "Dom Walmor Oliveira de Azevedo Arcebispo de Belo Horizonte (MG) O Papa Leão XIV, na Carta Encíclica Magnifica Humanitas, retoma e alinha pontos importantes quanto à participação e corresponsabilidade da Igreja Católica na construção de.",
+      "url": "https://www.cnbb.org.br/igreja-em-jornada/",
       "published": "2026-08-14"
     },
     {
       "source": "CNBB",
-      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
-      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
-      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "title": "O Reino de Deus é paz e alegria no Espírito Santo",
+      "summary": "Dom Itacir Brassiani Bispo de Santa Cruz do Sul (RS) A Visita Pastoral é o encontro do pastor com seu rebanho, uma ação apostólica devida pelo Bispo e expressão palpável do cuidado pastoral e da visibilidade da unidade na Igreja.",
+      "url": "https://www.cnbb.org.br/o-reino-de-deus-e-paz-e-alegria-no-espirito-santo/",
       "published": "2026-08-14"
     },
     {
       "source": "ACI Digital",
-      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
-      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
-      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "title": "começa a Quaresma de São Miguel Arcanjo",
+      "summary": "Hoje (15), quando a Igreja celebra a solenidade da Assunção de Maria, começa também a Quaresma de São Miguel, a qual surgiu por inspiração de são Francisco de Assis e se conclui no dia 29 de setembro, com a festa dos santos arcanjos.",
+      "url": "https://www.acidigital.com/noticia/52836/hoje-comeca-a-quaresma-de-sao-miguel-arcanjo",
+      "published": "2026-08-15"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Crianças migrantes são ignoradas com muita facilidade pela sociedade, diz Leão XIV",
+      "summary": "O papa Leão XIV apelou a todas as pessoas para que reconheçam o sofrimento de crianças migrantes, dizendo que elas são frequentemente as mais vulneráveis em migrações em massa. Em mensagem publicada hoje (14) pela Santa Sé, o papa falou sobre o tema do 112º Dia Mundial do Migrante e do Refugiado, Mesmo uma só destas crianças , extraído de Mateus 18,5. A iniciativa é organizada pelo Dicastério para o Serviço do Desenvolvimento Humano Integral....",
+      "url": "https://www.acidigital.com/noticia/69379/criancas-migrantes-sao-ignoradas-com-muita-facilidade-pela-sociedade-diz-leao-xiv",
       "published": "2026-08-14"
     },
     {
       "source": "Shalom",
-      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
-      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
-      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
-      "published": "2026-08-14"
-    },
-    {
-      "source": "Shalom",
-      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
-      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
-      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
-      "published": "2026-08-14"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
-      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
-      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
-      "published": "2026-08-14"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "Suprema Corte do Arizona reforça proteção ampla ao sigilo de confissão",
-      "summary": "A interpretação de questões de fé e doutrina católicas, especialmente no que se refere ao direito sacramental e ao sigilo sagrado da confissão, não é de competência dos tribunais civis . Redação ( 14/08/2026 06:38 , Gaudium Press ) Em.",
-      "url": "https://gaudiumpress.org/content/suprema-corte-do-arizona-reforca-protecao-ampla-ao-sigilo-de-confissao/",
-      "published": "2026-08-14"
+      "title": "J.Simões celebra 40 anos com Missa e Adoração na Igreja do Ressuscitado",
+      "summary": "Celebração reuniu colaboradores, ex-funcionários, familiares e parceiros em uma tarde de ação de graças pela história construída ao longo de quatro décadas. Simões celebra 40 anos com Missa e Adoração na Igreja do Ressuscitado proviene da.",
+      "url": "https://comshalom.org/j-simoes-celebra-40-anos-com-missa-e-adoracao-na-igreja-do-ressuscitado/",
+      "published": "2026-08-15"
     }
   ],
   "closingQuote": {
-    "text": "Só o amor cria.",
-    "source": "São Maximiliano Maria Kolbe"
+    "text": "Deixai as crianças, e não as proibais de virem a mim, porque delas é o Reino dos Céus.",
+    "source": "Mateus 19,13-15"
   },
   "liturgyHours": {
-    "reading": "Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e Deus de toda consolação. Ele nos consola em todas as nossas aflições, para que, com a consolação que nós mesmos recebemos de Deus, possamos consolar os que se acham em...",
+    "reading": "Fazei tudo sem reclamar ou murmurar, para que sejais livres de repreensão e ambiguidade, filhos de Deus sem defeito, no meio desta geração depravada e pervertida, na qual brilhais como os astros no universo.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
