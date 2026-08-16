@@ -1,31 +1,34 @@
 {
-  "date": "2026-08-15",
-  "editionLabel": "15 de agosto de 2026",
+  "date": "2026-08-16",
+  "editionLabel": "16 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "solenidade",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Assunção da Virgem Santa Maria",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Mt 19,13-15"
+    "celebrationTitle": "Domingo XX do Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 1,39-56 (Cântico de Maria)"
   },
   "saint": {
-    "feast": "Assunção da Virgem Santa Maria",
-    "name": "Assunção de Nossa Senhora, dogma de fé",
-    "description": "Celebração litúrgica do dia: Assunção da Virgem Santa Maria.",
-    "url": "https://santo.cancaonova.com/santo/assuncao-de-nossa-senhora/"
+    "feast": "\udfe2 Domingo XX do Tempo Comum",
+    "name": "Santo Estêvão da Hungria: rei, diplomata e caridoso",
+    "description": "Celebração litúrgica do dia: Domingo XX do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/santo-estevao-da-hungria-rei-diplomata-e-caridoso/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 19,13-15)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 1,39-56 (Cântico de Maria))",
     "lines": [
-      "Naquele tempo, levaram crianças a Jesus, para que impusesse as mãos sobre elas e fizesse uma oração.",
-      "Os discípulos, porém, as repreendiam.",
-      "Então Jesus disse: Deixai as crianças, e não as proibais de virem a mim, porque delas é o Reino dos Céus.",
-      "E depois de impor as mãos sobre elas, Jesus partiu dali."
+      "Naqueles dias, Maria partiu para a região montanhosa, dirigindo-se, apressadamente, a uma cidade da Judeia.",
+      "Entrou na casa de Zacarias e cumprimentou Isabel.",
+      "Quando Isabel ouviu a saudação de Maria, a criança pulou no seu ventre e Isabel ficou cheia do Espírito Santo.",
+      "Com um grande grito, exclamou: Bendita és tu entre as mulheres e bendito é o fruto do teu ventre! Como posso merecer que a mãe do meu Senhor me venha visitar?",
+      "Logo que a tua saudação chegou aos meus ouvidos, a criança pulou de alegria no meu ventre.",
+      "Bem-aventurada aquela que acreditou, porque será cumprido, o que o Senhor lhe prometeu.",
+      "Então Maria disse: A minha alma engrandece o Senhor, e o meu espírito se alegra em Deus, meu Salvador, porque olhou para a humildade de sua serva."
     ],
-    "body": "Naquele tempo, 13 levaram crianças a Jesus, para que impusesse as mãos sobre elas e fizesse uma oração. Os discípulos, porém, as repreendiam. 14 Então Jesus disse: \"Deixai as crianças, e não as proibais de virem a mim, porque delas é o Reino dos Céus\". 15 E depois de impor as mãos sobre elas, Jesus partiu dali. —",
-    "keyVerse": "Graças te dou, ó Pai, Senhor do céu e da terra, pois revelaste os mistérios do teu Reino aos pequeninos, escondendo-os aos doutores!"
+    "body": "Naqueles dias, 39 Maria partiu para a região montanhosa, dirigindo-se, apressadamente, a uma cidade da Judeia. 40 Entrou na casa de Zacarias e cumprimentou Isabel. 41 Quando Isabel ouviu a saudação de Maria, a criança pulou no seu ventre e Isabel ficou cheia do Espírito Santo. 42 Com um grande grito, exclamou: \"Bendita és tu entre as mulheres e bendito é o fruto do teu ventre!\" 43 Como posso merecer que a mãe do meu Senhor me venha visitar? 44 Logo que a tua saudação chegou aos meus ouvidos, a criança pulou de alegria no meu ventre. 45 Bem-aventurada aquela que acreditou, porque será cumprido, o que o Senhor lhe prometeu\". 46 Então Maria disse: \"A minha alma engrandece o Senhor, 47 e o meu espírito se alegra em Deus, meu Salvador, 48 porque olhou para a humildade de sua serva. Doravante todas as gerações me chamarão bem-aventurada, 49 porque o Todo-poderoso fez grandes coisas em meu favor. O seu nome é santo, 50 e sua misericórdia se estende, de geração em geração, a todos os que o respeitam. 51 Ele mostrou a força de seu braço: dispersou os soberbos de coração. 52 Derrubou do trono os poderosos e elevou os humildes. 53 Encheu de bens os famintos, e despediu os ricos de mãos vazias. 54 Socorreu Israel, seu servo, lembrando-se de sua misericórdia, 55 conforme prometera aos nossos pais, em favor de Abraão e de sua descendência, para sempre\". 56 Maria ficou três meses com Isabel; depois voltou para casa. —",
+    "keyVerse": "Felizes aqueles que ouvem a palavra de Deus e a guardam!"
   },
   "sponsor": {
     "enabled": true,
@@ -36,31 +39,31 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa aos jovens mexicanos: somente unidos a Cristo podemos fazer com que o mundo creia Nele",
-      "summary": "\"E vós também dareis testemunho, pois estivestes comigo\" é o título da III Jornada Nacional da Juventude (JNJ) do México, em andamento em Monterrey nos dias 15 e 16 de agosto. Leia tudo.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-mensagem-jovens-mexicanos-jornada-nacional.html",
-      "published": "2026-08-15"
+      "title": "Papa: o ano litúrgico acompanha os fiéis na história da salvação",
+      "summary": "Pela segunda semana consecutiva, a Audiência Geral com o Papa Leão XIV foi realizada na Basílica de São Pedro, nesta quarta-feira, 12 de agosto, enquanto Roma continua enfrentando as altas temperaturas do verão no hemisfério norte. Em sua catequese, o Santo Padre deu continuidade ao ciclo de reflexões sobre os documentos do Concílio Vaticano II, detendo-se desta vez no capítulo V da Constituição Sacrosanctum Concilium, dedicado ao ano litúrgico....",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/catequese-papa-leao-xiv-audiencia-geral-12-de-agosto-2026.html",
+      "published": "2026-12-08"
     },
     {
       "source": "Vatican News",
-      "title": "A esperança de uma Amazônia ferida: \"Leão XIV sabe onde dói em nós\"",
-      "summary": "Nas comunidades da selva peruana cresce a expectativa pelo retorno de Robert Prevost ao país que marcou seu caminho missionário. Os bispos de Iquitos e Puerto Maldonado esperam que a sua visita a Pucallpa seja muito mais do que uma.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/peru-pucallpa-amazonia-papa-leao-xiv-viagem-apostolica-bispos.html",
-      "published": "2026-08-14"
+      "title": "Angelus: Papa confia a Maria todos os povos necessitados de consolação",
+      "summary": "Na Praça da Liberdade, em Castel Gandolfo, Leão XIV rezou a oração mariana do Angelus, explicando aos fiéis as duas iconografias que nos fazem contemplar o mistério da da Assunção da Bem-Aventurada Virgem Maria. Na sequência, confiou a.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-angelus-castel-gandolfo-15-agosto.html",
+      "published": "2026-08-15"
     },
     {
       "source": "CNBB",
-      "title": "Na fonte do ministério presbiteral",
-      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) Recentemente, participei do retiro da segunda turma do clero da Arquidiocese de Natal. Foram dias preciosos de interiorização, oração e convivência fraterna. Em meio às diversas exigências.",
-      "url": "https://www.cnbb.org.br/na-fonte-do-ministerio-presbiteral-2/",
+      "title": "O Reino de Deus é paz e alegria no Espírito Santo",
+      "summary": "Dom Itacir Brassiani Bispo de Santa Cruz do Sul (RS) A Visita Pastoral é o encontro do pastor com seu rebanho, uma ação apostólica devida pelo Bispo e expressão palpável do cuidado pastoral e da visibilidade da unidade na Igreja.",
+      "url": "https://www.cnbb.org.br/o-reino-de-deus-e-paz-e-alegria-no-espirito-santo/",
       "published": "2026-08-14"
     },
     {
       "source": "ACI Digital",
-      "title": "Com mediação da Igreja, chavismo e oposição concordam em reformar sistema judiciário na Venezue",
-      "summary": "Na noite da última quarta-feira (12), representantes da Assembleia Nacional de 2015 e do governo interino de Delcy Rodríguez anunciaram os primeiros acordos da mesa de negociações iniciada há alguns dias.",
-      "url": "https://www.acidigital.com/noticia/69355/com-mediacao-da-igreja-chavismo-e-oposicao-concordam-em-reformar-sistema-judiciario-na-venezuela",
-      "published": "2026-08-14"
+      "title": "é recordado o nascimento de Dom Bosco",
+      "summary": "\"A familiaridade gera o afeto e o afeto produz confiança. Isto é que abre os corações dos jovens... Tornam-se sinceros na confissão e fora da confissão e se prestam docilmente a tudo o que porventura lhes mandar aquele de quem têm certeza.",
+      "url": "https://www.acidigital.com/noticia/52844/hoje-e-recordado-o-nascimento-de-dom-bosco",
+      "published": "2026-08-16"
     },
     {
       "source": "ACI Digital",
@@ -71,25 +74,25 @@
     },
     {
       "source": "Shalom",
-      "title": "A cura da filha da cananeia: uma lição de perseverança, humildade e fé",
-      "summary": "José Ricardo Bezerra e Felipe Bezerra Chegamos ao 20º Domingo do Tempo Comum, e o Evangelho deste domingo nos leva para fora das fronteiras de Israel, à região pagã de Tiro e Sidônia, onde uma mulher cananeia vem ao encontro de Jesus (Mt.",
-      "url": "https://comshalom.org/a-cura-da-filha-da-cananeia-uma-licao-de-perseveranca-humildade-e-fe/",
-      "published": "2026-08-15"
+      "title": "“Quem nos separará do amor de Cristo?”: Diácono Marcos Luann testemunha sua vocação ao sacerdóc",
+      "summary": "Natural de Fortaleza (CE), Diácono Marcos Luann recorda uma história marcada por dificuldades familiares, pela redescoberta da fé e pelo encontro com sua vocação sacerdotal na Comunidade Católica Shalom.",
+      "url": "https://comshalom.org/diacono-marcos-luann-vocacao-sacerdocio/",
+      "published": "2026-08-16"
     },
     {
-      "source": "Gaudium Press",
-      "title": "Tantos amigos, nenhum verdadeiro",
-      "summary": "Conversamos com pessoas que estão a milhares de quilômetros de distância, às vezes do outro lado do globo, mas não sabemos o nome do nosso vizinho. Foto: magnific.com Redação ( 15/08/2026 09:00 , Gaudium Press ) Sabemos de tudo e, ao.",
-      "url": "https://gaudiumpress.org/content/tantos-amigos-nenhum-verdadeiro/",
-      "published": "2026-08-15"
+      "source": "Shalom",
+      "title": "“Tu guardaste o melhor vinho até agora”: Diácono Rogério testemunha a descoberta do chamado ao",
+      "summary": "Missionário da Comunidade Católica Shalom, Diácono Rogério recorda como Deus o chamou ao sacerdócio quando seus planos estavam voltados para a carreira profissional.",
+      "url": "https://comshalom.org/diacono-rogerio-ferreira-lima-gomes-alves-vocacao/",
+      "published": "2026-08-16"
     }
   ],
   "closingQuote": {
-    "text": "Deixai as crianças, e não as proibais de virem a mim, porque delas é o Reino dos Céus.",
-    "source": "Mateus 19,13-15"
+    "text": "Feliz o ventre que te trouxe.",
+    "source": "Lucas 11,27-28"
   },
   "liturgyHours": {
-    "reading": "Fazei tudo sem reclamar ou murmurar, para que sejais livres de repreensão e ambiguidade, filhos de Deus sem defeito, no meio desta geração depravada e pervertida, na qual brilhais como os astros no universo.",
+    "reading": "Exulto de alegria no Senhor e minh’alma regozija-se em meu Deus; ele me vestiu com as vestes da salvação, envolveu-me com o manto da justiça e adornou-me qual noiva com suas joias.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
