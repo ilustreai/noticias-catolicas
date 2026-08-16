@@ -5,7 +5,7 @@
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XX do Tempo Comum",
+    "celebrationTitle": "16 de agosto de 2026 - Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
     "gospelShort": "Lc 1,39-56 (Cântico de Maria)"
@@ -13,7 +13,7 @@
   "saint": {
     "feast": "\udfe2 Domingo XX do Tempo Comum",
     "name": "Santo Estêvão da Hungria: rei, diplomata e caridoso",
-    "description": "Celebração litúrgica do dia: Domingo XX do Tempo Comum.",
+    "description": "Celebração litúrgica do dia: 16 de agosto de 2026 - Tempo Comum.",
     "url": "https://santo.cancaonova.com/santo/santo-estevao-da-hungria-rei-diplomata-e-caridoso/"
   },
   "gospel": {
@@ -39,24 +39,31 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa: o amor é o mais belo ornamento do ser humano",
-      "summary": "Na Solenidade da Assunção de Nossa Senhora, Leão XIV convida os fiéis a redescobrirem a verdadeira beleza, que não está na aparência exterior, mas nos sinais de um amor capaz de transformar e elevar. Na homilia da Missa celebrada em.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-assuncao-da-virgem-maria-homilia-missa-castel-gandolfo.html",
-      "published": "2026-08-15"
+      "title": "Leão XIV pede fim da violência contra palestinos e avanço da solução de dois Estados",
+      "summary": "A violência dos colonos israelenses contra palestinos na Cisjordânia ocupada atingiu níveis recordes, registrando um aumento alarmante de episódios marcados por invasões, destruição de propriedades e agressões físicas com o objetivo de.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-angelus-violencia-contra-palestinos-cisjordania.html",
+      "published": "2026-08-16"
     },
     {
       "source": "Vatican News",
-      "title": "Papa aos jovens mexicanos: somente unidos a Cristo podemos fazer com que o mundo creia Nele",
-      "summary": "\"E vós também dareis testemunho, pois estivestes comigo\" é o título da III Jornada Nacional da Juventude (JNJ) do México, em andamento em Monterrey nos dias 15 e 16 de agosto. Leia tudo.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-mensagem-jovens-mexicanos-jornada-nacional.html",
-      "published": "2026-08-15"
+      "title": "Papa: a mesa de Deus é para todos, a ninguém estão reservadas só as migalhas",
+      "summary": "Aos fiéis reunidos na Praça da Liberdade em Castel Gandolfo, Leão XIV comentou a liturgia deste XX Domingo do Tempo Comum, que apresenta o episódio da mulher cananeia. \"À luz desta fé, as desigualdades, as discriminações e as barreiras.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-angelus-16-agosto-2026-castel-gandolfo.html",
+      "published": "2026-08-16"
     },
     {
       "source": "CNBB",
-      "title": "Na fonte do ministério presbiteral",
-      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) Recentemente, participei do retiro da segunda turma do clero da Arquidiocese de Natal. Foram dias preciosos de interiorização, oração e convivência fraterna. Em meio às diversas exigências.",
-      "url": "https://www.cnbb.org.br/na-fonte-do-ministerio-presbiteral-2/",
+      "title": "Igreja em jornada ganha destaque na Igreja",
+      "summary": "Dom Walmor Oliveira de Azevedo Arcebispo de Belo Horizonte (MG) O Papa Leão XIV, na Carta Encíclica Magnifica Humanitas, retoma e alinha pontos importantes quanto à participação e corresponsabilidade da Igreja Católica na construção de.",
+      "url": "https://www.cnbb.org.br/igreja-em-jornada/",
       "published": "2026-08-14"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "A violência contra os palestinos na Cisjordânia deve cessar, diz Leão XIV",
+      "summary": "Em sua mensagem do Ângelus de hoje (16), o papa Leão XIV renovou seu apelo pela paz no conflito entre Israel e Palestina, defendendo uma solução de dois Estados e o fim da violência contra os palestinos na Cisjordânia.",
+      "url": "https://www.acidigital.com/noticia/69387/a-violencia-contra-os-palestinos-na-cisjordania-deve-cessar-diz-leao-xiv",
+      "published": "2026-08-16"
     },
     {
       "source": "ACI Digital",
@@ -66,24 +73,17 @@
       "published": "2026-08-15"
     },
     {
-      "source": "ACI Digital",
-      "title": "é recordado o nascimento de Dom Bosco",
-      "summary": "\"A familiaridade gera o afeto e o afeto produz confiança. Isto é que abre os corações dos jovens... Tornam-se sinceros na confissão e fora da confissão e se prestam docilmente a tudo o que porventura lhes mandar aquele de quem têm certeza.",
-      "url": "https://www.acidigital.com/noticia/52844/hoje-e-recordado-o-nascimento-de-dom-bosco",
+      "source": "Shalom",
+      "title": "“Quem nos separará do amor de Cristo?”: Diácono Marcos Luann testemunha sua vocação ao sacerdóc",
+      "summary": "Natural de Fortaleza (CE), Diácono Marcos Luann recorda uma história marcada por dificuldades familiares, pela redescoberta da fé e pelo encontro com sua vocação sacerdotal na Comunidade Católica Shalom.",
+      "url": "https://comshalom.org/diacono-marcos-luann-vocacao-sacerdocio/",
       "published": "2026-08-16"
     },
     {
       "source": "Shalom",
-      "title": "Igreja do Ressuscitado acolhe primeira Ordenação Presbiteral neste domingo (16); descubra como",
-      "summary": "Quatro missionários da Comunidade Católica Shalom serão ordenados sacerdotes em Missa presidida por Dom Gregório Paixão, OSB, Arcebispo de Fortaleza.",
-      "url": "https://comshalom.org/ordenacao-presbiteral-igreja-do-ressuscitado/",
-      "published": "2026-08-16"
-    },
-    {
-      "source": "Shalom",
-      "title": "A fé que atravessa Fortaleza: Caminhada com Maria celebra 300 anos da cidade",
-      "summary": "No ano em que Fortaleza celebra três séculos de história, a 24ª Caminhada com Maria une tradição mariana, fé e memória pelas ruas da capital cearense.",
-      "url": "https://comshalom.org/caminhada-com-maria-2026-300-anos-fortaleza/",
+      "title": "“Tu guardaste o melhor vinho até agora”: Diácono Rogério testemunha a descoberta do chamado ao",
+      "summary": "Missionário da Comunidade Católica Shalom, Diácono Rogério recorda como Deus o chamou ao sacerdócio quando seus planos estavam voltados para a carreira profissional.",
+      "url": "https://comshalom.org/diacono-rogerio-ferreira-lima-gomes-alves-vocacao/",
       "published": "2026-08-16"
     }
   ],
