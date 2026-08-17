@@ -5,7 +5,7 @@
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "17 de agosto de 2026 - Tempo Comum",
+    "celebrationTitle": "Segunda-Feira da Semana XX do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
     "gospelShort": "Mt 19,16-22"
@@ -13,7 +13,7 @@
   "saint": {
     "feast": "\udfe2 Segunda-Feira da Semana XX do Tempo Comum",
     "name": "São Jacinto, sobrinho do Bispo de Cracóvia",
-    "description": "Celebração litúrgica do dia: 17 de agosto de 2026 - Tempo Comum.",
+    "description": "Celebração litúrgica do dia: Segunda-Feira da Semana XX do Tempo Comum.",
     "url": "https://santo.cancaonova.com/santo/sao-jacinto-sobrinho-bispo-de-cracovia/"
   },
   "gospel": {
@@ -38,58 +38,51 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
-      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
-      "published": "2026-08-17"
+      "title": "Leão XIV saúda as mulheres de Piekary, na Polônia. Uma tradição que une gerações",
+      "summary": "Após a oração do Angelus em Castel Gandolfo, o Papa saudou as milhares de mulheres reunidas em peregrinação ao Santuário de Nossa Senhora de Piekary Śląskie, na Polônia. Avós, mães, filhas e netas — há gerações, mulheres da Alta Silésia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-saudacao-polonia-mulheres-piekary.html",
+      "published": "2026-08-16"
     },
     {
       "source": "Vatican News",
-      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
-      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "title": "Leão XIV pede fim da violência contra palestinos e avanço da solução de dois Estados",
+      "summary": "A violência dos colonos israelenses contra palestinos na Cisjordânia ocupada atingiu níveis recordes, registrando um aumento alarmante de episódios marcados por invasões, destruição de propriedades e agressões físicas com o objetivo de.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-angelus-violencia-contra-palestinos-cisjordania.html",
+      "published": "2026-08-16"
+    },
+    {
+      "source": "CNBB",
+      "title": "A nossa vocação é o céu! Nossa Senhora da Assunção nos ajude a almejar a vida divina!",
+      "summary": "Dom Anuar Battisti Arcebispo Emérito de Maringá (PR) Ao celebrarmos a Solenidade da Assunção da Bem-Aventurada Virgem Maria, a Igreja nos convida a contemplar um Mistério que, apesar de tocar o Céu unindo realidades terrenas e divinas,.",
+      "url": "https://www.cnbb.org.br/a-nossa-vocacao-e-o-ceu-nossa-senhora-da-assuncao-nos-ajude-a-almejar-a-vida-divina/",
       "published": "2026-08-17"
     },
     {
       "source": "CNBB",
-      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
-      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
-      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "title": "Solenidade-Assunção da Bem-aventurada Virgem Maria ao Céus",
+      "summary": "Dom Carmo João Rhoden Bispo Emérito de Taubaté (SP) Solenidade-Assunção da Bem-aventurada Virgem Maria ao Céus. 16/08/26 (Lc 11,27-28). Texto Referencial: Jesus respondeu: “Muito mais felizes são aqueles que ouvem a palavra de Deus e a.",
+      "url": "https://www.cnbb.org.br/solenidade-assuncao-da-bem-aventurada-virgem-maria-ao-ceus/",
       "published": "2026-08-17"
     },
     {
       "source": "ACI Digital",
-      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
-      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
-      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "title": "A violência contra os palestinos na Cisjordânia deve cessar, diz Leão XIV",
+      "summary": "Em sua mensagem do Ângelus de hoje (16), o papa Leão XIV renovou seu apelo pela paz no conflito entre Israel e Palestina, defendendo uma solução de dois Estados e o fim da violência contra os palestinos na Cisjordânia.",
+      "url": "https://www.acidigital.com/noticia/69387/a-violencia-contra-os-palestinos-na-cisjordania-deve-cessar-diz-leao-xiv",
+      "published": "2026-08-16"
+    },
+    {
+      "source": "Shalom",
+      "title": "Congresso de Liderança Shalom reúne professores com ampla experiência na formação de líderes; s",
+      "summary": "O Congresso reunirá, nos dias 22 e 23 de agosto, professores com ampla experiência em formação, liderança, gestão, evangelização e missão.",
+      "url": "https://comshalom.org/congresso-de-lideranca-shalom-professores/",
       "published": "2026-08-17"
     },
     {
       "source": "Shalom",
-      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
-      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
-      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
-      "published": "2026-08-17"
-    },
-    {
-      "source": "Shalom",
-      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
-      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
-      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
-      "published": "2026-08-17"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
-      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
-      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
-      "published": "2026-08-17"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "A sombra de Trump sobre a viagem de Leão XIV",
-      "summary": "Leão XIV não viajará como líder da oposição a Trump, mas como pastor da Igreja universal. Foto: Vatican News/ Vatican Media Redação ( 16/08/2026 11:49 , Gaudium Press ) Em seu artigo Figure of Trump likely to loom over pope’s trip to.",
-      "url": "https://gaudiumpress.org/content/a-sombra-de-trump-sobre-a-viagem-de-leao-xiv/",
+      "title": "“Tu guardaste o melhor vinho até agora”: Pe. Rogério testemunha a descoberta do chamado ao sace",
+      "summary": "Missionário da Comunidade Católica Shalom, Pe. Rogério recorda como Deus o chamou ao sacerdócio quando seus planos estavam voltados para a carreira profissional. Rogério testemunha a descoberta do chamado ao sacerdócio proviene da.",
+      "url": "https://comshalom.org/diacono-rogerio-ferreira-lima-gomes-alves-vocacao/",
       "published": "2026-08-16"
     }
   ],
