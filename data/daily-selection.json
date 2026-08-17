@@ -1,34 +1,33 @@
 {
-  "date": "2026-08-16",
-  "editionLabel": "16 de agosto de 2026",
+  "date": "2026-08-17",
+  "editionLabel": "17 de agosto de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XX do Tempo Comum",
+    "celebrationTitle": "Segunda-Feira da Semana XX do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 1,39-56 (Cântico de Maria)"
+    "gospelShort": "Mt 19,16-22"
   },
   "saint": {
-    "feast": "\udfe2 Domingo XX do Tempo Comum",
-    "name": "Santo Estêvão da Hungria: rei, diplomata e caridoso",
-    "description": "Celebração litúrgica do dia: Domingo XX do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santo-estevao-da-hungria-rei-diplomata-e-caridoso/"
+    "feast": "\udfe2 Segunda-Feira da Semana XX do Tempo Comum",
+    "name": "São Jacinto, sobrinho do Bispo de Cracóvia",
+    "description": "Celebração litúrgica do dia: Segunda-Feira da Semana XX do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-jacinto-sobrinho-bispo-de-cracovia/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 1,39-56 (Cântico de Maria))",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 19,16-22)",
     "lines": [
-      "Naqueles dias, Maria partiu para a região montanhosa, dirigindo-se, apressadamente, a uma cidade da Judeia.",
-      "Entrou na casa de Zacarias e cumprimentou Isabel.",
-      "Quando Isabel ouviu a saudação de Maria, a criança pulou no seu ventre e Isabel ficou cheia do Espírito Santo.",
-      "Com um grande grito, exclamou: Bendita és tu entre as mulheres e bendito é o fruto do teu ventre! Como posso merecer que a mãe do meu Senhor me venha visitar?",
-      "Logo que a tua saudação chegou aos meus ouvidos, a criança pulou de alegria no meu ventre.",
-      "Bem-aventurada aquela que acreditou, porque será cumprido, o que o Senhor lhe prometeu.",
-      "Então Maria disse: A minha alma engrandece o Senhor, e o meu espírito se alegra em Deus, meu Salvador, porque olhou para a humildade de sua serva."
+      "Naquele tempo, alguém aproximou-se de Jesus e disse: Mestre, o que devo fazer de bom para possuir a vida eterna? Jesus respondeu: Por que tu me perguntas sobre o que é bom?",
+      "Se tu queres entrar na vida, observa os mandamentos.",
+      "O homem perguntou: Quais mandamentos? Jesus respondeu: Não matarás, não cometerás adultério, não roubarás, não levantarás falso testemunho, honra teu pai e tua mãe, e ama teu próximo como a ti mesmo.",
+      "O jovem disse a Jesus: Tenho observado todas essas coisas.",
+      "O que ainda me falta? Jesus respondeu: Se tu queres ser perfeito, vai, vende tudo o que tens, dá o dinheiro aos pobres e terás um tesouro no céu.",
+      "Quando ouviu isso, o jovem foi embora cheio de tristeza, porque era muito rico."
     ],
-    "body": "Naqueles dias, 39 Maria partiu para a região montanhosa, dirigindo-se, apressadamente, a uma cidade da Judeia. 40 Entrou na casa de Zacarias e cumprimentou Isabel. 41 Quando Isabel ouviu a saudação de Maria, a criança pulou no seu ventre e Isabel ficou cheia do Espírito Santo. 42 Com um grande grito, exclamou: \"Bendita és tu entre as mulheres e bendito é o fruto do teu ventre!\" 43 Como posso merecer que a mãe do meu Senhor me venha visitar? 44 Logo que a tua saudação chegou aos meus ouvidos, a criança pulou de alegria no meu ventre. 45 Bem-aventurada aquela que acreditou, porque será cumprido, o que o Senhor lhe prometeu\". 46 Então Maria disse: \"A minha alma engrandece o Senhor, 47 e o meu espírito se alegra em Deus, meu Salvador, 48 porque olhou para a humildade de sua serva. Doravante todas as gerações me chamarão bem-aventurada, 49 porque o Todo-poderoso fez grandes coisas em meu favor. O seu nome é santo, 50 e sua misericórdia se estende, de geração em geração, a todos os que o respeitam. 51 Ele mostrou a força de seu braço: dispersou os soberbos de coração. 52 Derrubou do trono os poderosos e elevou os humildes. 53 Encheu de bens os famintos, e despediu os ricos de mãos vazias. 54 Socorreu Israel, seu servo, lembrando-se de sua misericórdia, 55 conforme prometera aos nossos pais, em favor de Abraão e de sua descendência, para sempre\". 56 Maria ficou três meses com Isabel; depois voltou para casa. —",
-    "keyVerse": "Felizes aqueles que ouvem a palavra de Deus e a guardam!"
+    "body": "Naquele tempo, 16 alguém aproximou-se de Jesus e disse: \"Mestre, o que devo fazer de bom para possuir a vida eterna?\" 17 Jesus respondeu: \"Por que tu me perguntas sobre o que é bom? Um só é o Bom. Se tu queres entrar na vida, observa os mandamentos\". 18 O homem perguntou: \"Quais mandamentos?\" Jesus respondeu: \"Não matarás, não cometerás adultério, não roubarás, não levantarás falso testemunho, 19 honra teu pai e tua mãe, e ama teu próximo como a ti mesmo\". 20 O jovem disse a Jesus: \"Tenho observado todas essas coisas. O que ainda me falta?\" 21 Jesus respondeu: \"Se tu queres ser perfeito, vai, vende tudo o que tens, dá o dinheiro aos pobres e terás um tesouro no céu. Depois, vem e segue-me\". 22 Quando ouviu isso, o jovem foi embora cheio de tristeza, porque era muito rico. —",
+    "keyVerse": "Felizes os humildes de espírito, porque deles é o Reino dos Céus."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +38,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV saúda as mulheres de Piekary, na Polônia. Uma tradição que une gerações",
-      "summary": "Após a oração do Angelus em Castel Gandolfo, o Papa saudou as milhares de mulheres reunidas em peregrinação ao Santuário de Nossa Senhora de Piekary Śląskie, na Polônia. Avós, mães, filhas e netas — há gerações, mulheres da Alta Silésia.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-saudacao-polonia-mulheres-piekary.html",
-      "published": "2026-08-16"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-08-17"
     },
     {
       "source": "Vatican News",
-      "title": "Papa: o ano litúrgico acompanha os fiéis na história da salvação",
-      "summary": "Pela segunda semana consecutiva, a Audiência Geral com o Papa Leão XIV foi realizada na Basílica de São Pedro, nesta quarta-feira, 12 de agosto, enquanto Roma continua enfrentando as altas temperaturas do verão no hemisfério norte. Em sua catequese, o Santo Padre deu continuidade ao ciclo de reflexões sobre os documentos do Concílio Vaticano II, detendo-se desta vez no capítulo V da Constituição Sacrosanctum Concilium, dedicado ao ano litúrgico....",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/catequese-papa-leao-xiv-audiencia-geral-12-de-agosto-2026.html",
-      "published": "2026-12-08"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-08-17"
     },
     {
       "source": "CNBB",
-      "title": "O Reino de Deus é paz e alegria no Espírito Santo",
-      "summary": "Dom Itacir Brassiani Bispo de Santa Cruz do Sul (RS) A Visita Pastoral é o encontro do pastor com seu rebanho, uma ação apostólica devida pelo Bispo e expressão palpável do cuidado pastoral e da visibilidade da unidade na Igreja.",
-      "url": "https://www.cnbb.org.br/o-reino-de-deus-e-paz-e-alegria-no-espirito-santo/",
-      "published": "2026-08-14"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-08-17"
     },
     {
       "source": "ACI Digital",
-      "title": "é recordado o nascimento de Dom Bosco",
-      "summary": "\"A familiaridade gera o afeto e o afeto produz confiança. Isto é que abre os corações dos jovens... Tornam-se sinceros na confissão e fora da confissão e se prestam docilmente a tudo o que porventura lhes mandar aquele de quem têm certeza.",
-      "url": "https://www.acidigital.com/noticia/52844/hoje-e-recordado-o-nascimento-de-dom-bosco",
-      "published": "2026-08-16"
+      "title": "Igreja no Brasil se prepara para o mês vocacional com intensa programação",
+      "summary": "Dioceses de todo o Brasil organizam eventos e campanhas para o mês vocacional de agosto, incentivando jovens a discernirem sua vocação.",
+      "url": "https://www.acidigital.com/noticia/58573/licoes-de-santa-ana-e-sao-joaquim-para-casais-que-enfrentam-a-infertilidade",
+      "published": "2026-08-17"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-08-17"
     },
     {
       "source": "Shalom",
-      "title": "Igreja do Ressuscitado acolhe Ordenação Presbiteral neste domingo (16); descubra como acompanha",
-      "summary": "Quatro missionários da Comunidade Católica Shalom serão ordenados sacerdotes em Missa presidida por Dom Gregório Paixão, OSB, Arcebispo de Fortaleza.",
-      "url": "https://comshalom.org/ordenacao-presbiteral-igreja-do-ressuscitado/",
-      "published": "2026-08-16"
+      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
+      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
+      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "published": "2026-08-17"
     },
     {
       "source": "Shalom",
-      "title": "A fé que atravessa Fortaleza: Caminhada com Maria celebra 300 anos da cidade",
-      "summary": "No ano em que Fortaleza celebra três séculos de história, a 24ª Caminhada com Maria une tradição mariana, fé e memória pelas ruas da capital cearense.",
-      "url": "https://comshalom.org/caminhada-com-maria-2026-300-anos-fortaleza/",
-      "published": "2026-08-16"
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-08-17"
     },
     {
-      "source": "Gaudium Press",
-      "title": "A sombra de Trump sobre a viagem de Leão XIV",
-      "summary": "Leão XIV não viajará como líder da oposição a Trump, mas como pastor da Igreja universal. Foto: Vatican News/ Vatican Media Redação ( 16/08/2026 11:49 , Gaudium Press ) Em seu artigo Figure of Trump likely to loom over pope’s trip to.",
-      "url": "https://gaudiumpress.org/content/a-sombra-de-trump-sobre-a-viagem-de-leao-xiv/",
-      "published": "2026-08-16"
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-08-17"
     }
   ],
   "closingQuote": {
-    "text": "Feliz o ventre que te trouxe.",
-    "source": "Lucas 11,27-28"
+    "text": "Se tu queres ser perfeito, vai, vende tudo o que tens, e terás um tesouro no céu.",
+    "source": "Mateus 19,16-22"
   },
   "liturgyHours": {
-    "reading": "Exulto de alegria no Senhor e minh’alma regozija-se em meu Deus; ele me vestiu com as vestes da salvação, envolveu-me com o manto da justiça e adornou-me qual noiva com suas joias.",
+    "reading": "Demos graças ao Senhor nosso Deus, que nos submete a provações, como fez com nossos pais. Lembrai-vos de tudo o que Deus fez a Abraão, e como provou Isaac, e tudo o que aconteceu a Jacó. Assim como os provou pelo fogo, para lhes experimentar o...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
