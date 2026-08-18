@@ -1,33 +1,34 @@
 {
-  "date": "2026-08-17",
-  "editionLabel": "17 de agosto de 2026",
+  "date": "2026-08-18",
+  "editionLabel": "18 de agosto de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Segunda-Feira da Semana XX do Tempo Comum",
+    "celebrationTitle": "Terça-Feira da Semana XX do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 19,16-22"
+    "gospelShort": "Mt 19,23-30"
   },
   "saint": {
-    "feast": "\udfe2 Segunda-Feira da Semana XX do Tempo Comum",
-    "name": "São Jacinto, sobrinho do Bispo de Cracóvia",
-    "description": "Celebração litúrgica do dia: Segunda-Feira da Semana XX do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-jacinto-sobrinho-bispo-de-cracovia/"
+    "feast": "\udfe2 Terça-Feira da Semana XX do Tempo Comum",
+    "name": "Santa Helena, mãe do imperador Constantino",
+    "description": "Celebração litúrgica do dia: Terça-Feira da Semana XX do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/santa-helena-mae-imperador-constantino/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 19,16-22)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 19,23-30)",
     "lines": [
-      "Naquele tempo, alguém aproximou-se de Jesus e disse: Mestre, o que devo fazer de bom para possuir a vida eterna? Jesus respondeu: Por que tu me perguntas sobre o que é bom?",
-      "Se tu queres entrar na vida, observa os mandamentos.",
-      "O homem perguntou: Quais mandamentos? Jesus respondeu: Não matarás, não cometerás adultério, não roubarás, não levantarás falso testemunho, honra teu pai e tua mãe, e ama teu próximo como a ti mesmo.",
-      "O jovem disse a Jesus: Tenho observado todas essas coisas.",
-      "O que ainda me falta? Jesus respondeu: Se tu queres ser perfeito, vai, vende tudo o que tens, dá o dinheiro aos pobres e terás um tesouro no céu.",
-      "Quando ouviu isso, o jovem foi embora cheio de tristeza, porque era muito rico."
+      "Naquele tempo, Jesus disse aos discípulos: Em verdade vos digo, dificilmente um rico entrará no Reino dos Céus.",
+      "E digo ainda: é mais fácil um camelo entrar pelo buraco de uma agulha, do que um rico entrar no Reino de Deus.",
+      "Ouvindo isso, os discípulos ficaram muito espantados, e perguntaram: Então, quem pode ser salvo? Jesus olhou para eles e disse: Para os homens isso é impossível, mas para Deus tudo é possível.",
+      "Pedro tomou a palavra e disse a Jesus: Vê!",
+      "Nós deixamos tudo e te seguimos.",
+      "O que haveremos de receber? Jesus respondeu: Em verdade vos digo, quando o mundo for renovado e o Filho do Homem se sentar no trono de sua glória, também vós, que me seguistes, havereis de sentar-vos em doze tronos, para julgar as doze tribos de Israel.",
+      "E todo aquele que tiver deixado casas, irmãos, irmãs, pai, mãe, filhos, campos, por causa do meu nome, receberá cem vezes mais e terá como herança a vida eterna."
     ],
-    "body": "Naquele tempo, 16 alguém aproximou-se de Jesus e disse: \"Mestre, o que devo fazer de bom para possuir a vida eterna?\" 17 Jesus respondeu: \"Por que tu me perguntas sobre o que é bom? Um só é o Bom. Se tu queres entrar na vida, observa os mandamentos\". 18 O homem perguntou: \"Quais mandamentos?\" Jesus respondeu: \"Não matarás, não cometerás adultério, não roubarás, não levantarás falso testemunho, 19 honra teu pai e tua mãe, e ama teu próximo como a ti mesmo\". 20 O jovem disse a Jesus: \"Tenho observado todas essas coisas. O que ainda me falta?\" 21 Jesus respondeu: \"Se tu queres ser perfeito, vai, vende tudo o que tens, dá o dinheiro aos pobres e terás um tesouro no céu. Depois, vem e segue-me\". 22 Quando ouviu isso, o jovem foi embora cheio de tristeza, porque era muito rico. —",
-    "keyVerse": "Felizes os humildes de espírito, porque deles é o Reino dos Céus."
+    "body": "Naquele tempo, 23 Jesus disse aos discípulos: \"Em verdade vos digo, dificilmente um rico entrará no Reino dos Céus. 24 E digo ainda: é mais fácil um camelo entrar pelo buraco de uma agulha, do que um rico entrar no Reino de Deus\". 25 Ouvindo isso, os discípulos ficaram muito espantados, e perguntaram: \"Então, quem pode ser salvo?\" 26 Jesus olhou para eles e disse: \"Para os homens isso é impossível, mas para Deus tudo é possível\". 27 Pedro tomou a palavra e disse a Jesus: \"Vê! Nós deixamos tudo e te seguimos. O que haveremos de receber?\" 28 Jesus respondeu: \"Em verdade vos digo, quando o mundo for renovado e o Filho do Homem se sentar no trono de sua glória, também vós, que me seguistes, havereis de sentar-vos em doze tronos, para julgar as doze tribos de Israel. 29 E todo aquele que tiver deixado casas, irmãos, irmãs, pai, mãe, filhos, campos, por causa do meu nome, receberá cem vezes mais e terá como herança a vida eterna. 30 Muitos que agora são os primeiros, serão os últimos. E muitos que agora são os últimos, serão os primeiros\". —",
+    "keyVerse": "Jesus Cristo, Senhor nosso, embora sendo rico, para nós se tornou pobre, a fim de enriquecer-nos, mediante sua pobreza."
   },
   "sponsor": {
     "enabled": true,
@@ -38,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Dois povos e dois Estados: a linha inalterada dos Papas e da Santa Sé",
-      "summary": "O apelo do Papa Leão XIV sobre o Oriente Médio, feito no Angelus de 16 de agosto em Castel Gandolfo, é o mais recente de uma longa série de pronunciamentos apresentados ao longo dos últimos oitenta anos pelos Pontífices e pela Santa Sé.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/solucao-dois-estados-israel-palestina-papas-santa-se-diplomacia.html",
+      "title": "Papa manifesta proximidade às vítimas do terremoto na Indonésia",
+      "summary": "Em telegrama assinado pelo cardeal secretário de Estado, Pietro Parolin, Leão XIV expressa sua solidariedade às populações atingidas pelo forte terremoto que atingiu a província de Nusa Tenggara Oriental. Segundo o balanço mais recente.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-manifesta-proximidade-as-vitimas-do-terremoto-na-indonesia.html",
       "published": "2026-08-17"
     },
     {
       "source": "Vatican News",
-      "title": "Papa: a mesa de Deus é para todos, a ninguém estão reservadas só as migalhas",
-      "summary": "Aos fiéis reunidos na Praça da Liberdade em Castel Gandolfo, Leão XIV comentou a liturgia deste XX Domingo do Tempo Comum, que apresenta o episódio da mulher cananeia. \"À luz desta fé, as desigualdades, as discriminações e as barreiras.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-angelus-16-agosto-2026-castel-gandolfo.html",
+      "title": "Leão XIV saúda as mulheres de Piekary, na Polônia. Uma tradição que une gerações",
+      "summary": "Após a oração do Angelus em Castel Gandolfo, o Papa saudou as milhares de mulheres reunidas em peregrinação ao Santuário de Nossa Senhora de Piekary Śląskie, na Polônia. Avós, mães, filhas e netas — há gerações, mulheres da Alta Silésia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-saudacao-polonia-mulheres-piekary.html",
       "published": "2026-08-16"
     },
     {
       "source": "CNBB",
-      "title": "Nesta terça, às 20h, acompanhe a terceira live da série Diretrizes e Sínodo: três conversões",
-      "summary": "Como fortalecer a comunhão entre pessoas, comunidades e Igrejas? Essa é a pergunta que irá iluminar as reflexões da terceira live da série “Diretrizes e Sínodo: três conversões”, que ocorrerá nesta terça-feira, 18 de agosto, às 20h, no.",
-      "url": "https://www.cnbb.org.br/nesta-terca-as-20h-acompanhe-a-terceira-live-da-serie-diretrizes-e-sinodo-tres-conversoes/",
+      "title": "Comissão para a Cultura e a Educação da CNBB abre levantamento de informações sobre patrimônio",
+      "summary": "De acordo com a Comissão, o levantamento é uma das atividades previstas no Plano de Trabalho do acordo com o Iphan, e prevê “a elaboração de uma lista de classificação de prioridades para subsidiar estratégias de conservação e orientar a.",
+      "url": "https://www.cnbb.org.br/levantamento-sobre-patrimonio-cultural-religioso-catolico/",
       "published": "2026-08-17"
     },
     {
       "source": "ACI Digital",
-      "title": "A 45 anos de sua primeira transmissão, a EWTN é a maior rede de mídia católica do mundo",
-      "summary": "Com 200 dólares e 12 freiras sem nenhuma experiência em televisão, madre Angélica transformou a garagem de um convento num estúdio de televisão, lançando o que se tornaria a maior rede de mídia católica.",
-      "url": "https://www.acidigital.com/noticia/69393/a-45-anos-de-sua-primeira-transmissao-a-ewtn-e-a-maior-rede-de-midia-catolica-do-mundo",
+      "title": "a Igreja celebra santo Alberto Hurtado, fundador do “Lar de Cristo”",
+      "summary": "Santo Alberto Hurtado quis imitar Jesus nas coisas simples de cada dia, como Cristo se dedicou aos pobres e órfãos e se preocupou em dar-lhes uma vida digna. Caracterizou-se pela sua fortaleza, generosidade e entrega incondicional a Deus.",
+      "url": "https://www.acidigital.com/noticia/53003/hoje-a-igreja-celebra-santo-alberto-hurtado-fundador-do-“lar-de-cristo”",
+      "published": "2026-08-18"
+    },
+    {
+      "source": "Shalom",
+      "title": "Congresso de Liderança Shalom reúne professores com ampla experiência na formação de líderes; s",
+      "summary": "O Congresso reunirá, nos dias 22 e 23 de agosto, professores com ampla experiência em formação, liderança, gestão, evangelização e missão.",
+      "url": "https://comshalom.org/congresso-de-lideranca-shalom-professores/",
       "published": "2026-08-17"
     },
     {
       "source": "Shalom",
-      "title": "SHALOM PETROLINA 10 ANOS",
-      "summary": "“Quem se fartará de contemplar a Sua glória? (Eclo 43, 25b)” Nos últimos dias, vivemos momentos que ficarão para sempre na memória da nossa missão. Celebrar 10 anos de fundação da Missão Shalom Petrolina é olhar para trás com gratidão e.",
-      "url": "https://comshalom.org/shalom-petrolina-10-anos/",
-      "published": "2026-08-17"
-    },
-    {
-      "source": "Shalom",
-      "title": "Igreja do Ressuscitado acolhe Ordenação Presbiteral neste domingo (16)",
-      "summary": "Quatro missionários da Comunidade Católica Shalom serão ordenados sacerdotes em Missa presidida por Dom Gregório Paixão, OSB, Arcebispo de Fortaleza.",
-      "url": "https://comshalom.org/ordenacao-presbiteral-igreja-do-ressuscitado/",
-      "published": "2026-08-16"
+      "title": "Conheça Santa Helena, a imperatriz da Cruz de Cristo",
+      "summary": "Fazemos hoje memória desta nobre santa, que teve uma vida caracterizada pela riqueza espiritual, bem mais do que a material, ligada ao prestígio, bem antes da sua conversão, que ocorreu em idade adulta.",
+      "url": "https://comshalom.org/conheca-santa-helena-a-imperatriz-da-cruz-de-cristo/",
+      "published": "2026-08-18"
     },
     {
       "source": "Gaudium Press",
-      "title": "Colômbia: sacerdote recolhe hóstias consagradas sob escombros de igreja atingida pelo terremoto",
-      "summary": "Acompanhado pela Irmã Marcela, da Comunidade do Santíssimo Sacramento, o sacerdote entrou no templo danificado pouco depois do abalo. Foto: Screenshot/ Facebook Redação ( 17/08/2026 10:37 , Gaudium Press ) No dia 10 de agosto, um forte.",
-      "url": "https://gaudiumpress.org/content/colombia-sacerdote-recolhe-hostias-consagradas-sob-escombros-de-igreja-atingida-pelo-terremoto/",
+      "title": "Dom Mutsaerts: uma paróquia com pároco santo tem mais futuro do que diocese com 20 grupos sinod",
+      "summary": "A carta aberta do Bispo Mutsaerts coloca no centro uma questão antiga e sempre atual: a missão da Igreja é, antes de tudo, conduzir as almas a Cristo. Para o bispo holandês, a clareza na proclamação do Evangelho e a busca da santidade.",
+      "url": "https://gaudiumpress.org/content/dom-mutsaerts-uma-paroquia-com-paroco-santo-tem-mais-futuro-do-que-diocese-com-20-grupos-sinodais/",
       "published": "2026-08-17"
     }
   ],
   "closingQuote": {
-    "text": "Se tu queres ser perfeito, vai, vende tudo o que tens, e terás um tesouro no céu.",
-    "source": "Mateus 19,16-22"
+    "text": "É mais fácil um camelo entrar pelo buraco de uma agulha, do que um rico entrar no Reino de Deus.",
+    "source": "Mateus 19,23-30"
   },
   "liturgyHours": {
-    "reading": "Demos graças ao Senhor nosso Deus, que nos submete a provações, como fez com nossos pais. Lembrai-vos de tudo o que Deus fez a Abraão, e como provou Isaac, e tudo o que aconteceu a Jacó. Assim como os provou pelo fogo, para lhes experimentar o...",
+    "reading": "Ó vós todos que estais com sede, vinde às águas; vós que não tendes dinheiro, apressai-vos, vinde e comei, vinde comprar sem dinheiro, tomar vinho e leite sem nenhuma paga.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
