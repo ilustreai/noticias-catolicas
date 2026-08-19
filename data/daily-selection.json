@@ -1,34 +1,28 @@
 {
-  "date": "2026-08-18",
-  "editionLabel": "18 de agosto de 2026",
+  "date": "2026-08-19",
+  "editionLabel": "19 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Terça-Feira da Semana XX do Tempo Comum",
+    "celebrationTitle": "São João Eudes, presbítero",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 19,23-30"
+    "gospelShort": "Mt 5, 1-12"
   },
   "saint": {
-    "feast": "\udfe2 Terça-Feira da Semana XX do Tempo Comum",
-    "name": "Santa Helena, mãe do imperador Constantino",
-    "description": "Celebração litúrgica do dia: Terça-Feira da Semana XX do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santa-helena-mae-imperador-constantino/"
+    "feast": "São João Eudes\\, presbítero",
+    "name": "São João Eudes, fundador da Congregação de Jesus e Maria",
+    "description": "Celebração litúrgica do dia: São João Eudes, presbítero.",
+    "url": "https://santo.cancaonova.com/santo/sao-joao-eudes-fundador-da-congregacao-de-jesus-e-maria/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 19,23-30)",
+    "ref": "Liturgia do Quarta-Feira - 19 de agosto de 2026",
     "lines": [
-      "Naquele tempo, Jesus disse aos discípulos: Em verdade vos digo, dificilmente um rico entrará no Reino dos Céus.",
-      "E digo ainda: é mais fácil um camelo entrar pelo buraco de uma agulha, do que um rico entrar no Reino de Deus.",
-      "Ouvindo isso, os discípulos ficaram muito espantados, e perguntaram: Então, quem pode ser salvo? Jesus olhou para eles e disse: Para os homens isso é impossível, mas para Deus tudo é possível.",
-      "Pedro tomou a palavra e disse a Jesus: Vê!",
-      "Nós deixamos tudo e te seguimos.",
-      "O que haveremos de receber? Jesus respondeu: Em verdade vos digo, quando o mundo for renovado e o Filho do Homem se sentar no trono de sua glória, também vós, que me seguistes, havereis de sentar-vos em doze tronos, para julgar as doze tribos de Israel.",
-      "E todo aquele que tiver deixado casas, irmãos, irmãs, pai, mãe, filhos, campos, por causa do meu nome, receberá cem vezes mais e terá como herança a vida eterna."
-    ],
-    "body": "Naquele tempo, 23 Jesus disse aos discípulos: \"Em verdade vos digo, dificilmente um rico entrará no Reino dos Céus. 24 E digo ainda: é mais fácil um camelo entrar pelo buraco de uma agulha, do que um rico entrar no Reino de Deus\". 25 Ouvindo isso, os discípulos ficaram muito espantados, e perguntaram: \"Então, quem pode ser salvo?\" 26 Jesus olhou para eles e disse: \"Para os homens isso é impossível, mas para Deus tudo é possível\". 27 Pedro tomou a palavra e disse a Jesus: \"Vê! Nós deixamos tudo e te seguimos. O que haveremos de receber?\" 28 Jesus respondeu: \"Em verdade vos digo, quando o mundo for renovado e o Filho do Homem se sentar no trono de sua glória, também vós, que me seguistes, havereis de sentar-vos em doze tronos, para julgar as doze tribos de Israel. 29 E todo aquele que tiver deixado casas, irmãos, irmãs, pai, mãe, filhos, campos, por causa do meu nome, receberá cem vezes mais e terá como herança a vida eterna. 30 Muitos que agora são os primeiros, serão os últimos. E muitos que agora são os últimos, serão os primeiros\". —",
-    "keyVerse": "Jesus Cristo, Senhor nosso, embora sendo rico, para nós se tornou pobre, a fim de enriquecer-nos, mediante sua pobreza."
+      "A liturgia de hoje nos convida à escuta da Palavra de Deus.",
+      "Cristo nos ensina o caminho da verdadeira felicidade.",
+      "Que a mensagem do Evangelho transforme nossos corações."
+    ]
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +33,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Dois povos e dois Estados: a linha inalterada dos Papas e da Santa Sé",
-      "summary": "O apelo do Papa Leão XIV sobre o Oriente Médio, feito no Angelus de 16 de agosto em Castel Gandolfo, é o mais recente de uma longa série de pronunciamentos apresentados ao longo dos últimos oitenta anos pelos Pontífices e pela Santa Sé.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/solucao-dois-estados-israel-palestina-papas-santa-se-diplomacia.html",
-      "published": "2026-08-17"
+      "title": "Pesar do Papa pelas vítimas de naufrágio no Zimbábue",
+      "summary": "Em telegrama assinado pelo secretário de Estado do Vaticano, cardeal Pietro Parolin, Leão XIV expressa condolências às famílias das vítimas do naufrágio ocorrido no lago Kariba. Segundo as autoridades locais, ao menos 92 pessoas morreram.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/telegrama-pesar-do-papa-pelas-vitimas-de-naufragio-no-zimbabue.html",
+      "published": "2026-08-18"
     },
     {
       "source": "Vatican News",
-      "title": "A horta do Papa nos Jardins Vaticanos está se tornando 100% orgânica",
-      "summary": "O cultivo, encomendado na Idade Média pelo Papa Nicolau III Orsini, é agora administrado de acordo com os princípios de proteção da criação, estabelecidos na Encíclica Laudato si' do Papa Francisco. Um jardineiro profissional, auxiliado.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-08/jardins-vaticanos-horta-cultivo-mater-ecclesiae.html",
+      "title": "Bispos peruanos anunciam a oração oficial pela visita do Papa",
+      "summary": "A visita de Leão XIV ao Peru possui um significado profundamente pessoal e espiritual. Nascido nos Estados Unidos como Robert Prevost, o Pontífice adotou a cidadania peruana em 2015. Ele atuou por mais de vinte anos como missionário no.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/peru-bispos-oracao-viagem-apostolica-leao-xiv.html",
       "published": "2026-08-18"
     },
     {
       "source": "CNBB",
-      "title": "“Um em Cristo”: Pontifícias Obras Missionárias lançam hino da Campanha Missionária 2026",
-      "summary": "A música tem como título “Um em Cristo” e está disponível em todas as plataformas de áudio. De acordo com as POM, o hino \"contempla a unidade, a cooperação missionária e os jubileus que marcam esse ano\": os 100 anos do Dia Mundial das.",
-      "url": "https://www.cnbb.org.br/pom-lancam-hino-da-campanha-missionaria-2026/",
+      "title": "A regra de fé nos primeiros séculos do cristianismo",
+      "summary": "Dom Vital Corbellini Bispo de Marabá (PA) A Regra de Fé expressava num certo sentido, nos primeiros séculos do cristianismo, a profissão de fé, sendo uma fórmula breve de confissão de fé das pessoas, ligada ao símbolo de fé, o credo.",
+      "url": "https://www.cnbb.org.br/a-regra-de-fe-nos-primeiros-seculos-do-cristianismo/",
       "published": "2026-08-18"
-    },
-    {
-      "source": "CNBB",
-      "title": "Nesta terça, às 20h, acompanhe a terceira live da série Diretrizes e Sínodo: três conversões",
-      "summary": "Como fortalecer a comunhão entre pessoas, comunidades e Igrejas? Essa é a pergunta que irá iluminar as reflexões da terceira live da série “Diretrizes e Sínodo: três conversões”, que ocorrerá nesta terça-feira, 18 de agosto, às 20h, no.",
-      "url": "https://www.cnbb.org.br/nesta-terca-as-20h-acompanhe-a-terceira-live-da-serie-diretrizes-e-sinodo-tres-conversoes/",
-      "published": "2026-08-17"
     },
     {
       "source": "ACI Digital",
-      "title": "‘Multidão está dizendo: queremos espiritualidade’, diz bispo sobre procissão que reuniu 50 mil",
-      "summary": "Cerca de 50 mil de fiéis participaram da procissão de encerramento do novenário de Nossa Senhora da Glória, no sábado (15), em Cruzeiro do Sul (AC). Para o bispo local, dom Flávio Giovenale, a grande adesão é reflexo da fé das pessoas,.",
-      "url": "https://www.acidigital.com/noticia/69413/multidao-esta-dizendo-queremos-espiritualidade-diz-bispo-sobre-procissao-que-reuniu-50-mil-pessoas-no-acre",
+      "title": "é celebrado são João Eudes, promotor da devoção ao Sagrado Coração de Jesus",
+      "summary": "“Autor, pai, doutor, apóstolo, promotor e propagandista da devoção litúrgica aos sagrados Corações de Jesus e Maria”. Foi assim que são Pio X definiu são João Eudes, cuja memória litúrgica a Igreja celebra hoje (19).",
+      "url": "https://www.acidigital.com/noticia/53006/hoje-e-celebrado-sao-joao-eudes-promotor-da-devocao-ao-sagrado-coracao-de-jesus",
+      "published": "2026-08-19"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Arquidiocese de México pede locais para sepultar bebês abortados ou abandonados",
+      "summary": "A arquidiocese da Cidade do México pediu às autoridades mecanismos legais para garantir um \"sepultamento digno\" para bebês abortados, abandonados ou não reclamados, e que criem espaços adequados para o sepultamento deles.",
+      "url": "https://www.acidigital.com/noticia/69415/arquidiocese-de-mexico-pede-locais-para-sepultar-bebes-abortados-ou-abandonados",
       "published": "2026-08-18"
     },
     {
       "source": "Shalom",
-      "title": "Congresso de Liderança Shalom reúne professores com ampla experiência na formação de líderes; s",
-      "summary": "O Congresso reunirá, nos dias 22 e 23 de agosto, professores com ampla experiência em formação, liderança, gestão, evangelização e missão.",
-      "url": "https://comshalom.org/congresso-de-lideranca-shalom-professores/",
-      "published": "2026-08-17"
+      "title": "Quando o fogo parecia se apagar, Santo Alberto Hurtado me ajudou a reencontrar minha vocação",
+      "summary": "No dia de Santo Alberto Hurtado, padre Vitor Aragão, responsável pela missão de Fortaleza, compartilha como a história de São Alberto Hurtado o fez viver uma nova etapa na caminhada vocacional.",
+      "url": "https://comshalom.org/quando-o-fogo-parecia-se-apagar-santo-alberto-hurtado-me-ajudou-a-reencontrar-minha-vocacao/",
+      "published": "2026-08-18"
     },
     {
       "source": "Shalom",
-      "title": "Missão Shalom Petrolina celebra 10 anos de história e gratidão a Deus",
-      "summary": "A Missão Shalom Petrolina celebrou 10 anos de fundação com uma programação marcada por gratidão, memória e renovação do compromisso evangelizador.",
-      "url": "https://comshalom.org/shalom-petrolina-10-anos/",
-      "published": "2026-08-17"
+      "title": "12 dicas para vencer o combate espiritual",
+      "summary": "Na Revista Escuta de 2020, Moysés Azevedo dá alguns conselhos sobre como se tornar reparador de brechas e assumir “a linha de frente na batalha espiritual”.",
+      "url": "https://comshalom.org/12-dicas-para-vencer-o-combate-espiritual/",
+      "published": "2026-08-19"
     }
   ],
   "closingQuote": {
-    "text": "É mais fácil um camelo entrar pelo buraco de uma agulha, do que um rico entrar no Reino de Deus.",
-    "source": "Mateus 19,23-30"
+    "text": "Jesus, Maria, eu vos amo. Salvai almas.",
+    "source": "São João Eudes"
   },
   "liturgyHours": {
-    "reading": "Ó vós todos que estais com sede, vinde às águas; vós que não tendes dinheiro, apressai-vos, vinde e comei, vinde comprar sem dinheiro, tomar vinho e leite sem nenhuma paga.",
+    "reading": "Reconhece, hoje, e grava-o em teu coração, que o Senhor é o Deus lá em cima no céu e cá embaixo na terra, e que não há outro além dele. Guarda suas leis e seus mandamentos que hoje te prescrevo.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
