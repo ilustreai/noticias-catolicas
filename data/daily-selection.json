@@ -1,28 +1,34 @@
 {
-  "date": "2026-08-19",
-  "editionLabel": "19 de agosto de 2026",
+  "date": "2026-08-20",
+  "editionLabel": "20 de agosto de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "São João Eudes, presbítero",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 5, 1-12"
+    "celebrationTitle": "São Bernardo, abade e doutor da Igreja",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Mt 22,1-14"
   },
   "saint": {
-    "feast": "São João Eudes\\, presbítero",
-    "name": "São João Eudes, fundador da Congregação de Jesus e Maria",
-    "description": "Celebração litúrgica do dia: São João Eudes, presbítero.",
-    "url": "https://santo.cancaonova.com/santo/sao-joao-eudes-fundador-da-congregacao-de-jesus-e-maria/"
+    "feast": "São Bernardo\\, abade e doutor da Igreja",
+    "name": "São Bernardo de Claraval, o Doutor Melífluo",
+    "description": "Celebração litúrgica do dia: São Bernardo, abade e doutor da Igreja.",
+    "url": "https://santo.cancaonova.com/santo/sao-bernardo-de-claraval-o-doutor-melifluo/"
   },
   "gospel": {
-    "ref": "Liturgia do Quarta-Feira - 19 de agosto de 2026",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 22,1-14)",
     "lines": [
-      "A liturgia de hoje nos convida à escuta da Palavra de Deus.",
-      "Cristo nos ensina o caminho da verdadeira felicidade.",
-      "Que a mensagem do Evangelho transforme nossos corações."
-    ]
+      "Naquele tempo, Jesus voltou a falar em parábolas aos sumos sacerdotes e aos anciãos do povo, dizendo: O Reino dos Céus é como a história do rei que preparou a festa de casamento do seu filho.",
+      "E mandou os seus empregados para chamar os convidados para a festa, mas estes não quiseram vir.",
+      "O rei mandou outros empregados, dizendo: Dizei aos convidados: já preparei o banquete, os bois e os animais cevados já foram abatidos e tudo está pronto.",
+      "Vinde para a festa! Mas os convidados não deram a menor atenção: um foi para o seu campo, outro para os seus negócios, outros agarraram os empregados, bateram neles e os mataram.",
+      "O rei ficou indignado e mandou suas tropas, para matar aqueles assassinos e incendiar a cidade deles.",
+      "Em seguida, o rei disse aos empregados: A festa de casamento está pronta, mas os convidados não foram dignos dela.",
+      "Portanto, ide até às encruzilhadas dos caminhos e convidai para a festa todos os que encontrardes."
+    ],
+    "body": "Naquele tempo, 1 Jesus voltou a falar em parábolas aos sumos sacerdotes e aos anciãos do povo, 2 dizendo: \"O Reino dos Céus é como a história do rei que preparou a festa de casamento do seu filho. 3 E mandou os seus empregados para chamar os convidados para a festa, mas estes não quiseram vir. 4 O rei mandou outros empregados, dizendo: 'Dizei aos convidados: já preparei o banquete, os bois e os animais cevados já foram abatidos e tudo está pronto. Vinde para a festa!' 5 Mas os convidados não deram a menor atenção: um foi para o seu campo, outro para os seus negócios, 6 outros agarraram os empregados, bateram neles e os mataram. 7 O rei ficou indignado e mandou suas tropas, para matar aqueles assassinos e incendiar a cidade deles. 8 Em seguida, o rei disse aos empregados: 'A festa de casamento está pronta, mas os convidados não foram dignos dela. 9 Portanto, ide até às encruzilhadas dos caminhos e convidai para a festa todos os que encontrardes'. 10 Então os empregados saíram pelos caminhos e reuniram todos os que encontraram, maus e bons. E a sala da festa ficou cheia de convidados. 11 Quando o rei entrou para ver os convidados, observou ali um homem que não estava usando traje de festa 12 e perguntou-lhe: 'Amigo, como entraste aqui sem o traje de festa?' Mas o homem nada respondeu. 13 Então o rei disse aos que serviam: 'Amarrai os pés e as mãos desse homem e jogai-o fora, na escuridão! Ali haverá choro e ranger de dentes'. 14 Por que muitos são chamados, e poucos são escolhidos.' —",
+    "keyVerse": "Oxalá ouvísseis hoje a sua voz: Não fecheis os corações como em Meriba!"
   },
   "sponsor": {
     "enabled": true,
@@ -33,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Sacrosanctum Concilium: \"A liturgia é, antes de tudo, a ação de Cristo\"",
-      "summary": "Após as encíclicas Dei Verbum e Lumen Gentium (Luz das Nações), o Papa Leão XIV tem oferecido aos fiéis um ciclo de catequeses sobre a Constituição Dogmática Sacrosanctum Concilium, durante as Audiências Gerais de quarta-feira,desde 20 de.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/sacrosanctum-concilium-liturgia-cristo-papas-concilio-igreja.html",
+      "title": "Leão XIV: desenvolver sempre em si mesmo uma autêntica consciência de paz",
+      "summary": "Ao final da Audiência Geral, Papa exorta a um “compromisso firme e constante” com a convivência pacífica entre os povos, “seguindo com honestidade e verdade os caminhos que a constroem e a consolidam na sociedade”. Aos fiéis de língua.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-audiencia-geral-desenvolver-consciencia-de-paz-26.html",
       "published": "2026-08-19"
     },
     {
       "source": "Vatican News",
-      "title": "Na Audiência Geral, 30 jovens libaneses \"artesãos de paz\"",
-      "summary": "Padre Michel Marie Barakat, vice-pároco da Igreja de Notre Dame de Sin-El-Fil, em Beirute, acompanhou vários jovens do País dos Cedros que, após a visita apostólica do Papa, fundaram na paróquia o grupo \"Pacificadores\". O sacerdote.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-audiencia-geral-jovens-libaneses-paz-passionistas.html",
+      "title": "Leão XIV recorda o mártir Ladislau Findysz e as vítimas dos totalitarismos",
+      "summary": "Em 19 de junho de 2005, o Papa Bento XVI beatificou o padre Władysław (Ladislau) Findysz, um sacerdote polonês que se tornou o primeiro mártir do regime comunista na Polônia a ser reconhecido pela Igreja Católica. \"Que o seu testemunho -.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-audiencia-geral-martir-beato-pe-ladislau-findysz.html",
       "published": "2026-08-19"
     },
     {
       "source": "CNBB",
-      "title": "16º Encontro dos Bispos das Grandes Cidades é realizado em Goiânia com organização da CNBB",
-      "summary": "O encontro reuniu 22 bispos de 14 regiões do país para refletir sobre os desafios da vivência da fé nos grandes centros urbanos, tendo como tema “Viver a Fé nas Grandes Cidades: Iniciação à Vida Cristã e Pequenas Comunidades\", em sintonia.",
-      "url": "https://www.cnbb.org.br/16o-encontro-dos-bispos-das-grandes-cidades-e-realizado-em-goiania-com-organizacao-da-cnbb/",
+      "title": "Cristãos leigos e leigas, alargando a Tenda de Campanha e trabalhando no Canteiro de obras do m",
+      "summary": "Dom Roberto Francisco Ferreria Paz Bispo de Campos (RJ) No mês de agosto queremos viver o chamado a ser comunidades eclesiais vocacionais, destacando nesta semana a vocação dos cristãos leigos e leigas, que formam a imensa maioria no Povo.",
+      "url": "https://www.cnbb.org.br/cristaos-leigos-e-leigas-alargando-a-tenda-de-campanha-e-trabalhando-no-canteiro-de-obras-no-do-mundo/",
+      "published": "2026-08-19"
+    },
+    {
+      "source": "CNBB",
+      "title": "CEFEP abre inscrições para a 11ª Turma do Curso Nacional de Formação Política para Cristãs e",
+      "summary": "O edital também prevê a concessão de bolsas de estudo de 50%, 75% e 100%, mediante solicitação e análise da Comissão de Seleção. As inscrições permanecem abertas até 10 de setembro de 2026. O resultado será divulgado em 21 de setembro e o.",
+      "url": "https://www.cnbb.org.br/cefep-abre-inscricoes-para-a-11a-turma-do-curso-nacional-de-formacao-politica-para-cristas-e-cristaos/",
       "published": "2026-08-19"
     },
     {
       "source": "ACI Digital",
-      "title": "Contra eutanásia, pastoral argentina pede acompanhamento da fragilidade humana",
-      "summary": "Em resposta à apresentação de projetos de lei para legalizar a eutanásia na Argentina, a Comissão Episcopal para o Cuidado Pastoral da Saúde fez um apelo à comunidade para que refletisse sobre a vida humana como um dom e sobre a.",
-      "url": "https://www.acidigital.com/noticia/69429/contra-eutanasia-pastoral-argentina-pede-acompanhamento-da-fragilidade-humana",
+      "title": "Música litúrgica deve estar acima de modas e sensibilidades particulares, diz Leão XIV",
+      "summary": "Falando sobre a doutrina da Igreja sobre a música litúrgica em sua audiência geral hoje (19), o papa Leão XIV disse que ela deve estar \"além das modas ou das sensibilidades particulares dos autores\".",
+      "url": "https://www.acidigital.com/noticia/69423/musica-liturgica-deve-estar-acima-de-modas-e-sensibilidades-particulares-diz-leao-xiv",
       "published": "2026-08-19"
     },
     {
       "source": "Shalom",
-      "title": "Em Petrópolis, Enchei-vos reúne difusões do interior do Rio em tempo de graça",
-      "summary": "Petrópolis, conhecida como a Cidade Imperial e marcada pelo clima ameno da serra, recebeu neo último fim de semana um encontro que tem aquecido os corações da Obra Shalom. É o Enchei-vos, promovido pelo Setor de Difusão, que reúne as difusões de Petrópolis, Teresópolis, Magé, Três Rios, Nova Iguaçu e outras realidades do interior do Rio de Janeiro. Apesar do frio que envolve a cidade serrana, o clima vivido pelos participantes é de alegria e expectativa....",
-      "url": "https://comshalom.org/em-petropolis-enchei-vos-reune-difusoes-do-interior-do-rio-em-tempo-de-graca/",
-      "published": "2026-08-19"
+      "title": "Emmir Nogueira celebra aniversário com Missa na Igreja do Ressuscitado",
+      "summary": "A Santa Eucaristia contou com a presença do Fundador Moysés Azevedo, missionários da Diaconia e foi presidida por Padre Saulo Dantas, Assistente Geral da Comunidade Shalom.",
+      "url": "https://comshalom.org/emmir-nogueira-celebra-aniversario-missa-acao-de-gracas/",
+      "published": "2026-08-20"
     },
     {
-      "source": "Shalom",
-      "title": "São Luís realiza Congresso de Oração e Cura em celebração ao seus 30 anos",
-      "summary": "“Coragem! Ele te chama. Levanta-te” (Mc 10, 49). São Luís, recebeu neste fim de semana o Congresso de Oração e Cura, conduzido pelo missionário João Patriolino, com momentos de oração e pregação.",
-      "url": "https://comshalom.org/shalom-sao-luis-realiza-congresso-de-oracao-e-cura-em-celebracao-ao-seus-30-anos/",
-      "published": "2026-08-19"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "França: florescimento de vocações na Abadia de Boulaur",
-      "summary": "Uma comunidade cisterciense que, há pouco mais de 40 anos, estava à beira de fechar, hoje reúne mais de 30 religiosas e recebe novas vocações a cada ano. Sua fórmula é oração, trabalho, tradição e uma comunidade aberta ao mundo. Foto:.",
-      "url": "https://gaudiumpress.org/content/franca-florescimento-de-vocacoes-na-abadia-de-boulaur/",
-      "published": "2026-08-19"
+      "source": "Aleteia",
+      "title": "O terremoto da Indonésia atingiu a ilha conhecida como Pequeno Vaticano",
+      "summary": "“Leão XIV ficou profundamente triste ao saber da devastação causada pelo terremoto na região de East Nusa Tenggara”, escreveu o Cardeal Pietro Parolin, Secretário de Estado do Papa, em uma mensagem divulgada em 17 de agosto. O cardeal.",
+      "url": "https://pt.aleteia.org/2026/08/18/o-terremoto-da-indonesia-atingiu-a-ilha-conhecida-como-pequeno-vaticano/",
+      "published": "2026-08-18"
     }
   ],
   "closingQuote": {
-    "text": "Jesus, Maria, eu vos amo. Salvai almas.",
-    "source": "São João Eudes"
+    "text": "A medida do amor é amar sem medida.",
+    "source": "São Bernardo de Claraval"
   },
   "liturgyHours": {
-    "reading": "Reconhece, hoje, e grava-o em teu coração, que o Senhor é o Deus lá em cima no céu e cá embaixo na terra, e que não há outro além dele. Guarda suas leis e seus mandamentos que hoje te prescrevo.",
+    "reading": "Aprendi a Sabedoria sem maldade e reparto-a sem inveja; não escondo a sua riqueza. É um tesouro inesgotável para os homens; os que a adquirem atraem a amizade de Deus, porque recomendados pelos dons da instrução.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
