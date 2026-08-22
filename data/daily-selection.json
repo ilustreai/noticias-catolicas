@@ -1,31 +1,34 @@
 {
-  "date": "2026-08-21",
-  "editionLabel": "21 de agosto de 2026",
+  "date": "2026-08-22",
+  "editionLabel": "22 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Pio X, papa",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Mt 22,34-40"
+    "celebrationTitle": "22 de agosto de 2026 - Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 1,26-38"
   },
   "saint": {
-    "feast": "São Pio X\\, papa",
-    "name": "São Pio X, o Papa camponês",
-    "description": "Celebração litúrgica do dia: São Pio X, papa.",
-    "url": "https://santo.cancaonova.com/santo/sao-pio-x-o-papa-campones/"
+    "feast": "Virgem Santa Maria\\, Rainha",
+    "name": "Nossa Senhora Rainha, mediadora da paz",
+    "description": "Celebração litúrgica do dia: 22 de agosto de 2026 - Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/nossa-senhora-rainha-mediadora-da-paz/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 22,34-40)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 1,26-38)",
     "lines": [
-      "Naquele tempo, os fariseus ouviram dizer que Jesus tinha feito calar os saduceus.",
-      "Então eles se reuniram em grupo, e um deles perguntou a Jesus, para experimentá-lo: Mestre, qual é o maior mandamento da Lei? Jesus respondeu:  Amarás o Senhor teu Deus de todo o teu coração, de toda a tua alma, e de todo o teu entendimento! Esse é o maior e o primeiro mandamento.",
-      "O segundo é semelhante a esse: Amarás ao teu próximo como a ti mesmo.",
-      "Toda a Lei e os profetas dependem desses dois mandamentos."
+      "Naquele tempo, o anjo Gabriel foi enviado por Deus a uma cidade da Galileia, chamada Nazaré, a uma virgem, prometida em casamento a um homem chamado José.",
+      "Ele era descendente de Davi e o nome da virgem era Maria.",
+      "O anjo entrou onde ela estava e disse: Alegra-te, cheia de graça, o Senhor está contigo! Maria ficou perturbada com estas palavras e começou a pensar qual seria o significado da saudação.",
+      "O anjo, então, disse-lhe: Não tenhas medo, Maria, porque encontraste graça diante de Deus.",
+      "Eis que conceberás e darás à luz um filho, a quem porás o nome de Jesus.",
+      "Ele será grande, será chamado Filho do Altíssimo, e o Senhor Deus lhe dará o trono de seu pai Davi.",
+      "Ele reinará para sempre sobre os descendentes de Jacó, e o seu reino não terá fim."
     ],
-    "body": "Naquele tempo, 34 os fariseus ouviram dizer que Jesus tinha feito calar os saduceus. Então eles se reuniram em grupo, 35 e um deles perguntou a Jesus, para experimentá-lo: 36 \"Mestre, qual é o maior mandamento da Lei?\" 37 Jesus respondeu: \" 'Amarás o Senhor teu Deus de todo o teu coração, de toda a tua alma, e de todo o teu entendimento!' 38 Esse é o maior e o primeiro mandamento. 39 O segundo é semelhante a esse: 'Amarás ao teu próximo como a ti mesmo'. 40 Toda a Lei e os profetas dependem desses dois mandamentos\". —",
-    "keyVerse": "Fazei-me conhecer vossa estrada, vossa verdade me oriente e me conduza!"
+    "body": "Naquele tempo, 26 o anjo Gabriel foi enviado por Deus a uma cidade da Galileia, chamada Nazaré, 27 a uma virgem, prometida em casamento a um homem chamado José. Ele era descendente de Davi e o nome da virgem era Maria. 28 O anjo entrou onde ela estava e disse: \"Alegra-te, cheia de graça, o Senhor está contigo!\" 29 Maria ficou perturbada com estas palavras e começou a pensar qual seria o significado da saudação. 30 O anjo, então, disse-lhe: \"Não tenhas medo, Maria, porque encontraste graça diante de Deus. 31 Eis que conceberás e darás à luz um filho, a quem porás o nome de Jesus. 32 Ele será grande, será chamado Filho do Altíssimo, e o Senhor Deus lhe dará o trono de seu pai Davi. 33 Ele reinará para sempre sobre os descendentes de Jacó, e o seu reino não terá fim\". 34 Maria perguntou ao anjo: \"Como acontecerá isso, se eu não conheço homem algum?\" 35 O anjo respondeu: \"O Espírito virá sobre ti, e o poder do Altíssimo te cobrirá com sua sombra. Por isso, o menino que vai nascer será chamado Santo, Filho de Deus. 36 Também Isabel, tua parenta, concebeu um filho na velhice. Este já é o sexto mês daquela que era considerada estéril, 37 porque para Deus nada é impossível\". 38 Maria, então, disse: \"Eis aqui a serva do Senhor; faça-se em mim segundo a tua palavra!\" E o anjo retirou-se. —",
+    "keyVerse": "Maria, alegra-te, ó cheia de graça, o Senhor é contigo; és bendita entre todas as mulheres da terra!"
   },
   "sponsor": {
     "enabled": true,
@@ -36,56 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "San Marino, Estado acolhedor e comprometido com a paz, diz bispo",
-      "summary": "Dom Domenico Beneventi, à frente da Diocese de San Marino – Montefeltro, descreve o espírito com que a pequena República aguarda a visita pastoral do Papa Leão XIV, agendada para este sábado, de agosto, e recorda as antigas raízes.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/republica-san-marino-visita-pastoral-leao-xiv-bispo-entrevista.html",
+      "title": "Papa Leão: o mundo não precisa de uma inteligência artificial que diminua a humanidade",
+      "summary": "Ao receber os participantes do encontro anual da Rede Internacional de Legisladores Católicos, Leão XIV alertou para o risco de a inovação se tornar um instrumento de \"colonialismo ideológico ou econômico\"; uma \"forma sutil de domínio\".",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-legisladores-catolicos-inteligencia-artificial-familia.html",
       "published": "2026-08-21"
     },
     {
       "source": "Vatican News",
-      "title": "A visita do Papa ao mosteiro das agostinianas em Pennabilli, na Itália",
-      "summary": "Neste sábado (22/08), ao término da visita pastoral à República de San Marino e antes de seguir à Rimini, de forma estritamente privada, Leão XIV fará uma parada na pequena vila de Valmarecchia, onde há uma comunidade monástica que segue.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/papa-leao-xiv-visita-pastoral-agostinianas-rupe-de-pennabilli-26.html",
+      "title": "Da deficiência à maternidade: a riqueza de Gianna que encontrará Leão XIV",
+      "summary": "Na catedral de Rimini, o Pontífice encontrará uma humanidade fragilizada: pessoas com deficiência, idosos, sem-teto, pessoas em recuperação de dependências e detentos. Entre elas estará também Gianna, afetada pela poliomielite, que, no.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-rimini-gianna-deficiencia-maternidade.html",
       "published": "2026-08-21"
     },
     {
       "source": "CNBB",
-      "title": "“Fraternidade e Moradia”: campanha da CNBB estimula projetos, parcerias e ações em prol do aces",
-      "summary": "A Campanha da Fraternidade 2026, que tem como tema “Fraternidade e Moradia”, já se traduz em iniciativas concretas em diferentes regiões do país. Proposta pela Conferência Nacional dos Bispos do Brasil (CNBB), a Campanha convida a Igreja.",
-      "url": "https://www.cnbb.org.br/fraternidade-e-moradia-campanha-da-cnbb-estimula-projetos-parcerias-e-acoes-em-prol-do-acesso-a-moradia-digna/",
+      "title": "Projeto contemplado pela CF 2026 promove dignidade a famílias em vulnerabilidade no Setor Santa",
+      "summary": "Recursos arrecadados por meio da Coleta Nacional da Solidariedade da Campanha da Fraternidade (CF) vão contribuir para a realização de obras no Setor Santa Luzia, na Estrutural (DF). A iniciativa receberá R$ 50 mil do Fundo Nacional de.",
+      "url": "https://www.cnbb.org.br/projeto-contemplado-pela-cf-2026-promove-dignidade-a-familias-em-vulnerabilidade-no-setor-santa-luzia-no-df/",
       "published": "2026-08-21"
     },
     {
       "source": "CNBB",
-      "title": "III Encontro da Pastoral do Artista Sacro promove reflexão sobre arte, fé e liturgia; inscriçõe",
-      "summary": "O Setor Espaço Litúrgico da Comissão Episcopal para a Liturgia da Conferência Nacional dos Bispos do Brasil (CNBB) realizará, entre os dias 24 e 26 de setembro, o III Encontro da Pastoral do Artista Sacro. Realizado de forma remota, o.",
-      "url": "https://www.cnbb.org.br/iii-encontro-da-pastoral-do-artista-sacro-promove-reflexao-sobre-arte-fe-e-liturgia/",
+      "title": "Mulheres vivas e soberania, eis nosso grito!",
+      "summary": "Dom Itacir Brassiani Bispo de Santa Cruz do Sul (RS) No dia 18 de agosto aconteceu, em Porto Alegre, o lançamento da 32ª edição do Grito dos Excluídos e do Manifesto por um Rio Grande Decente. O evento esteve sob a responsabilidade da.",
+      "url": "https://www.cnbb.org.br/mulheres-vivas-e-soberania-eis-nosso-grito/",
       "published": "2026-08-21"
     },
     {
       "source": "ACI Digital",
-      "title": "é celebrado são Bernardo de Claraval, o “caçador de almas e vocações”",
-      "summary": "Seu nome significa “batalhador e valente”. Tinha uma incrível capacidade de persuasão com a qual levou centenas de homens aos pés de Cristo, incluindo toda a sua família. Foi conselheiro de reis e Papas, escreveu vários livros e uma das.",
-      "url": "https://www.acidigital.com/noticia/53008/hoje-e-celebrado-sao-bernardo-de-claraval-o-“cacador-de-almas-e-vocacoes”",
-      "published": "2026-08-20"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Leão XIV parece estar protelando a reforma financeira",
-      "summary": "Na sequência de vários escândalos financeiros que assolaram a Santa Sé sob o reinado de seus antecessores, o papa Leão XIV fez algumas mudanças no Conselho para a Economia — mas será o suficiente para promover uma reforma financeira? Entre as nomeações para o Conselho para a Economia, destacam-se duas jovens na casa dos 30 anos com currículos impressionantes: Gisela Bergmann, princesa de Liechtenstein, e Elena Principato-Wettstein....",
-      "url": "https://www.acidigital.com/noticia/69449/leao-xiv-parece-estar-protelando-a-reforma-financeira",
-      "published": "2026-08-20"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Ataque de ansiedade: coisas simples para fazer [versão para católicos]",
-      "summary": "Um ataque de ansiedade é imprevisível. Ele nos acorda no meio da noite, nos ataca antes de uma conversa importante, às vezes no meio de uma tarde comum que não tinha nada de especial. O coração acelera e os pensamentos começam a girar em.",
-      "url": "https://pt.aleteia.org/2026/08/21/ataque-de-ansiedade-coisas-simples-para-fazer-versao-para-catolicos/",
+      "title": "IA deve ser servidora do bem comum e não rival da humanidade, diz o papa",
+      "summary": "O papa Leão XIV disse hoje (21) que a inteligência artificial (IA) deve deixar de ser “uma rival da humanidade para se tornar uma servidora do bem comum”, em audiência hoje (21) com participantes do encontro da Rede Internacional de.",
+      "url": "https://www.acidigital.com/noticia/69469/ia-deve-ser-servidora-do-bem-comum-e-nao-rival-da-humanidade-diz-o-papa",
       "published": "2026-08-21"
+    },
+    {
+      "source": "Shalom",
+      "title": "Começa hoje: garanta sua participação no Congresso de Liderança Shalom 2026",
+      "summary": "Com o tema “Liderança a serviço de Deus, do Carisma e dos Homens\", o evento on-line contará com workshops ministrados por missionários da Comunidade.",
+      "url": "https://comshalom.org/e-amanha-garanta-sua-participacao-no-congresso-de-lideranca-shalom-2026/",
+      "published": "2026-08-22"
+    },
+    {
+      "source": "Shalom",
+      "title": "JMJ Seul 2027: lote promocional para participar da JMJ com o Shalom termina neste domingo (23)",
+      "summary": "Comunidade Católica Shalom prepara uma das maiores delegações de brasileiros para a Jornada Mundial da Juventude na Coreia do Sul.",
+      "url": "https://comshalom.org/jmj-seul-2027-lote-promocional-shalom-acaba-dia-23/",
+      "published": "2026-08-22"
     }
   ],
   "closingQuote": {
-    "text": "A santa pureza é a virtude que mais aproxima as almas de Deus.",
-    "source": "São Pio X"
+    "text": "Eis que conceberás e darás à luz um filho.",
+    "source": "Lucas 1,26-38"
+  },
+  "liturgyHours": {
+    "reading": "Exulto de alegria no Senhor e minh&#8217;alma regozija-se em meu Deus; ele me vestiu com as vestes da salvação, envolveu-me com o manto da justiça e adornou-me qual noiva com suas jóias.",
+    "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
