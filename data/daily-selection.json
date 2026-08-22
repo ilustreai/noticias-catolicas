@@ -3,17 +3,17 @@
   "editionLabel": "22 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "22 de agosto de 2026 - Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
+    "celebrationTitle": "Virgem Santa Maria, Rainha",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
     "gospelShort": "Lc 1,26-38"
   },
   "saint": {
     "feast": "Virgem Santa Maria\\, Rainha",
     "name": "Nossa Senhora Rainha, mediadora da paz",
-    "description": "Celebração litúrgica do dia: 22 de agosto de 2026 - Tempo Comum.",
+    "description": "Celebração litúrgica do dia: Virgem Santa Maria, Rainha.",
     "url": "https://santo.cancaonova.com/santo/nossa-senhora-rainha-mediadora-da-paz/"
   },
   "gospel": {
@@ -39,30 +39,30 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa Leão: o mundo não precisa de uma inteligência artificial que diminua a humanidade",
-      "summary": "Ao receber os participantes do encontro anual da Rede Internacional de Legisladores Católicos, Leão XIV alertou para o risco de a inovação se tornar um instrumento de \"colonialismo ideológico ou econômico\"; uma \"forma sutil de domínio\".",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-legisladores-catolicos-inteligencia-artificial-familia.html",
+      "title": "San Marino, Estado acolhedor e comprometido com a paz, diz bispo",
+      "summary": "Dom Domenico Beneventi, à frente da Diocese de San Marino – Montefeltro, descreve o espírito com que a pequena República aguarda a visita pastoral do Papa Leão XIV, agendada para este sábado, de agosto, e recorda as antigas raízes.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/republica-san-marino-visita-pastoral-leao-xiv-bispo-entrevista.html",
       "published": "2026-08-21"
     },
     {
       "source": "Vatican News",
-      "title": "Da deficiência à maternidade: a riqueza de Gianna que encontrará Leão XIV",
-      "summary": "Na catedral de Rimini, o Pontífice encontrará uma humanidade fragilizada: pessoas com deficiência, idosos, sem-teto, pessoas em recuperação de dependências e detentos. Entre elas estará também Gianna, afetada pela poliomielite, que, no.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-rimini-gianna-deficiencia-maternidade.html",
+      "title": "Papa Leão XIV já está em San Marino para visita pastoral deste sábado",
+      "summary": "Após menos de uma hora de voo, o Papa pousou às 8h45 no Aeroporto de Torraccia da República de San Marino para iniciar a agenda da manhã deste sábado, 22 de agosto, prevista no micro-Estado de pouco mais de 30 mil habitantes, um enclave.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-visita-pastoral-republica-san-marino-chegada-2026.html",
+      "published": "2026-08-22"
+    },
+    {
+      "source": "CNBB",
+      "title": "“Fraternidade e Moradia”: campanha da CNBB estimula projetos, parcerias e ações em prol do aces",
+      "summary": "A Campanha da Fraternidade 2026, que tem como tema “Fraternidade e Moradia”, já se traduz em iniciativas concretas em diferentes regiões do país. Proposta pela Conferência Nacional dos Bispos do Brasil (CNBB), a Campanha convida a Igreja.",
+      "url": "https://www.cnbb.org.br/fraternidade-e-moradia-campanha-da-cnbb-estimula-projetos-parcerias-e-acoes-em-prol-do-acesso-a-moradia-digna/",
       "published": "2026-08-21"
     },
     {
       "source": "CNBB",
-      "title": "Projeto contemplado pela CF 2026 promove dignidade a famílias em vulnerabilidade no Setor Santa",
-      "summary": "Recursos arrecadados por meio da Coleta Nacional da Solidariedade da Campanha da Fraternidade (CF) vão contribuir para a realização de obras no Setor Santa Luzia, na Estrutural (DF). A iniciativa receberá R$ 50 mil do Fundo Nacional de.",
-      "url": "https://www.cnbb.org.br/projeto-contemplado-pela-cf-2026-promove-dignidade-a-familias-em-vulnerabilidade-no-setor-santa-luzia-no-df/",
-      "published": "2026-08-21"
-    },
-    {
-      "source": "CNBB",
-      "title": "Mulheres vivas e soberania, eis nosso grito!",
-      "summary": "Dom Itacir Brassiani Bispo de Santa Cruz do Sul (RS) No dia 18 de agosto aconteceu, em Porto Alegre, o lançamento da 32ª edição do Grito dos Excluídos e do Manifesto por um Rio Grande Decente. O evento esteve sob a responsabilidade da.",
-      "url": "https://www.cnbb.org.br/mulheres-vivas-e-soberania-eis-nosso-grito/",
+      "title": "III Encontro da Pastoral do Artista Sacro promove reflexão sobre arte, fé e liturgia; inscriçõe",
+      "summary": "O Setor Espaço Litúrgico da Comissão Episcopal para a Liturgia da Conferência Nacional dos Bispos do Brasil (CNBB) realizará, entre os dias 24 e 26 de setembro, o III Encontro da Pastoral do Artista Sacro. Realizado de forma remota, o.",
+      "url": "https://www.cnbb.org.br/iii-encontro-da-pastoral-do-artista-sacro-promove-reflexao-sobre-arte-fe-e-liturgia/",
       "published": "2026-08-21"
     },
     {
@@ -74,17 +74,17 @@
     },
     {
       "source": "Shalom",
-      "title": "Começa hoje: garanta sua participação no Congresso de Liderança Shalom 2026",
-      "summary": "Com o tema “Liderança a serviço de Deus, do Carisma e dos Homens\", o evento on-line contará com workshops ministrados por missionários da Comunidade.",
-      "url": "https://comshalom.org/e-amanha-garanta-sua-participacao-no-congresso-de-lideranca-shalom-2026/",
-      "published": "2026-08-22"
+      "title": "Boletim Shalom Fortaleza",
+      "summary": "PROGRAMAÇÃO DAS CÉLULAS COMUNITÁRIAS 21.08 (sexta-feira): Oração Comunitária (Definitivos) / Partilha de Vida com oração uns pelos os outros (P1 ao T9) 22.08 (sábado): Missa em Ação de Graças pelo Aniversário da nossa mãe Emmir Nogueira e.",
+      "url": "https://comshalom.org/boletimshalomfortaleza/",
+      "published": "2026-08-21"
     },
     {
       "source": "Shalom",
-      "title": "JMJ Seul 2027: lote promocional para participar da JMJ com o Shalom termina neste domingo (23)",
-      "summary": "Comunidade Católica Shalom prepara uma das maiores delegações de brasileiros para a Jornada Mundial da Juventude na Coreia do Sul.",
-      "url": "https://comshalom.org/jmj-seul-2027-lote-promocional-shalom-acaba-dia-23/",
-      "published": "2026-08-22"
+      "title": "Catequese Jubilar aborda a relação de São Francisco com a finitude da vida",
+      "summary": "A Comunidade Shalom se reunirá em Aquiraz, neste sábado (22), a partir das 9h30, para mais uma Catequese do Ano Jubilar de São Francisco. O encontro será encerrado com a Santa Missa, ao meio-dia, e terá como responsável pela formação o Padre Diego Soares. A programação faz parte do itinerário formativo preparado para o Ano Jubilar na Igreja do Ressuscitado....",
+      "url": "https://comshalom.org/catequese-jubilar-aborda-a-relacao-de-sao-francisco-com-a-finitude-da-vida/",
+      "published": "2026-08-21"
     }
   ],
   "closingQuote": {
