@@ -1,34 +1,33 @@
 {
-  "date": "2026-08-22",
-  "editionLabel": "22 de agosto de 2026",
+  "date": "2026-08-23",
+  "editionLabel": "23 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Virgem Santa Maria, Rainha",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Lc 1,26-38"
+    "celebrationTitle": "Domingo XXI do Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Mt 16,13-20"
   },
   "saint": {
-    "feast": "Virgem Santa Maria\\, Rainha",
-    "name": "Nossa Senhora Rainha, mediadora da paz",
-    "description": "Celebração litúrgica do dia: Virgem Santa Maria, Rainha.",
-    "url": "https://santo.cancaonova.com/santo/nossa-senhora-rainha-mediadora-da-paz/"
+    "feast": "\udfe2 Domingo XXI do Tempo Comum",
+    "name": "Santa Rosa de Lima, Terciária Dominicana",
+    "description": "Celebração litúrgica do dia: Domingo XXI do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/santa-rosa-de-lima-terciaria-dominicana/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 1,26-38)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 16,13-20)",
     "lines": [
-      "Naquele tempo, o anjo Gabriel foi enviado por Deus a uma cidade da Galileia, chamada Nazaré, a uma virgem, prometida em casamento a um homem chamado José.",
-      "Ele era descendente de Davi e o nome da virgem era Maria.",
-      "O anjo entrou onde ela estava e disse: Alegra-te, cheia de graça, o Senhor está contigo! Maria ficou perturbada com estas palavras e começou a pensar qual seria o significado da saudação.",
-      "O anjo, então, disse-lhe: Não tenhas medo, Maria, porque encontraste graça diante de Deus.",
-      "Eis que conceberás e darás à luz um filho, a quem porás o nome de Jesus.",
-      "Ele será grande, será chamado Filho do Altíssimo, e o Senhor Deus lhe dará o trono de seu pai Davi.",
-      "Ele reinará para sempre sobre os descendentes de Jacó, e o seu reino não terá fim."
+      "Naquele tempo, Jesus foi à região de Cesareia de Filipe e aí perguntou a seus discípulos: Quem dizem os homens ser o Filho do Homem? Eles responderam: Alguns dizem que é João Batista; outros, que é Elias; outros ainda, que é Jeremias ou algum dos profetas.",
+      "Então Jesus lhes perguntou: E vós, quem dizeis que eu sou? Simão Pedro respondeu: Tu és o Messias, o Filho do Deus vivo.",
+      "Respondendo, Jesus lhe disse: Feliz és tu, Simão, filho de Jonas, porque não foi um ser humano que te revelou isso, mas o meu Pai que está no céu.",
+      "Por isso, eu te digo que tu és Pedro, e sobre esta pedra construirei a minha Igreja, e o poder do inferno nunca poderá vencê-la.",
+      "Eu te darei as chaves do Reino dos Céus: tudo o que tu ligares na terra será ligado nos céus; tudo o que tu desligares na terra será desligado nos céus.",
+      "Jesus, então, ordenou aos discípulos que não dissessem a ninguém que ele era o Messias."
     ],
-    "body": "Naquele tempo, 26 o anjo Gabriel foi enviado por Deus a uma cidade da Galileia, chamada Nazaré, 27 a uma virgem, prometida em casamento a um homem chamado José. Ele era descendente de Davi e o nome da virgem era Maria. 28 O anjo entrou onde ela estava e disse: \"Alegra-te, cheia de graça, o Senhor está contigo!\" 29 Maria ficou perturbada com estas palavras e começou a pensar qual seria o significado da saudação. 30 O anjo, então, disse-lhe: \"Não tenhas medo, Maria, porque encontraste graça diante de Deus. 31 Eis que conceberás e darás à luz um filho, a quem porás o nome de Jesus. 32 Ele será grande, será chamado Filho do Altíssimo, e o Senhor Deus lhe dará o trono de seu pai Davi. 33 Ele reinará para sempre sobre os descendentes de Jacó, e o seu reino não terá fim\". 34 Maria perguntou ao anjo: \"Como acontecerá isso, se eu não conheço homem algum?\" 35 O anjo respondeu: \"O Espírito virá sobre ti, e o poder do Altíssimo te cobrirá com sua sombra. Por isso, o menino que vai nascer será chamado Santo, Filho de Deus. 36 Também Isabel, tua parenta, concebeu um filho na velhice. Este já é o sexto mês daquela que era considerada estéril, 37 porque para Deus nada é impossível\". 38 Maria, então, disse: \"Eis aqui a serva do Senhor; faça-se em mim segundo a tua palavra!\" E o anjo retirou-se. —",
-    "keyVerse": "Maria, alegra-te, ó cheia de graça, o Senhor é contigo; és bendita entre todas as mulheres da terra!"
+    "body": "Naquele tempo, 13 Jesus foi à região de Cesareia de Filipe e aí perguntou a seus discípulos: \"Quem dizem os homens ser o Filho do Homem?\" 14 Eles responderam: \"Alguns dizem que é João Batista; outros, que é Elias; outros ainda, que é Jeremias ou algum dos profetas\". 15 Então Jesus lhes perguntou: \"E vós, quem dizeis que eu sou?\" 16 Simão Pedro respondeu: \"Tu és o Messias, o Filho do Deus vivo\". 17 Respondendo, Jesus lhe disse: \"Feliz és tu, Simão, filho de Jonas, porque não foi um ser humano que te revelou isso, mas o meu Pai que está no céu. 18 Por isso, eu te digo que tu és Pedro, e sobre esta pedra construirei a minha Igreja, e o poder do inferno nunca poderá vencê-la. 19 Eu te darei as chaves do Reino dos Céus: tudo o que tu ligares na terra será ligado nos céus; tudo o que tu desligares na terra será desligado nos céus\". 20 Jesus, então, ordenou aos discípulos que não dissessem a ninguém que ele era o Messias. —",
+    "keyVerse": "Tu és Pedro, e sobre esta pedra edificarei minha Igreja; e os poderes do reino das trevas jamais poderão contra ela!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +38,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Hebdomada Papae: o noticiário em latim deste 22 de agosto",
-      "summary": "As notícias do Vaticano em latim com tradução para o italiano. No resumo deste sábado, 22 de agosto: o novo apelo de Leão XIV durante o Angelus para que cessem as violências contra os palestinos, a Audiência Geral com uma reflexão sobre o.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/hebdomada-papae-noticiario-em-latim-22-agosto-2026.html",
+      "title": "Leão XIV: em um mundo ferido por conflitos, vamos responder com solidariedade",
+      "summary": "Ao encontrar na manhã deste sábado, 22 de agosto, sacerdotes, consagrados e comunidades eclesiais na Basílica de San Marino, o Papa recomenda o cuidado com os mais fracos e de escolher o perdão como antídoto contra a violência, o.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-14-san-marino-vida-consagrada-basilica-san-marino-2208.html",
       "published": "2026-08-22"
     },
     {
       "source": "Vatican News",
-      "title": "Papa: o mundo oferece lazer que dispersa; descansar é \"voltar a si mesmo\"",
-      "summary": "Na homilia da missa celebrada no Porto de Rimini, ao final da visita pastoral à República de San Marino e ao “Encontro pela Amizade entre os Povos” neste sábado (22/08), Leão XIV elogia a franqueza e o caráter jovial, trabalhador e.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-visita-pastoral-homilia-rimini-22-agosto-2026.html",
+      "title": "Papa ao povo de San Marino: vivam em autêntica liberdade",
+      "summary": "Um momento particularmente emocionante foi quando o Papa Leão encontrou a comunidade de San Marino da sacada do Palácio Público, na manhã deste sábado (22/08). Na saudação espontânea, o Pontífice agradeceu pelo acolhimento e convidou.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-visita-pastoral-san-marino-saudacao-palacio-2026.html",
       "published": "2026-08-22"
     },
     {
       "source": "CNBB",
-      "title": "“Fraternidade e Moradia”: campanha da CNBB estimula projetos, parcerias e ações em prol do aces",
-      "summary": "A Campanha da Fraternidade 2026, que tem como tema “Fraternidade e Moradia”, já se traduz em iniciativas concretas em diferentes regiões do país. Proposta pela Conferência Nacional dos Bispos do Brasil (CNBB), a Campanha convida a Igreja.",
-      "url": "https://www.cnbb.org.br/fraternidade-e-moradia-campanha-da-cnbb-estimula-projetos-parcerias-e-acoes-em-prol-do-acesso-a-moradia-digna/",
-      "published": "2026-08-21"
-    },
-    {
-      "source": "CNBB",
-      "title": "III Encontro da Pastoral do Artista Sacro promove reflexão sobre arte, fé e liturgia; inscriçõe",
-      "summary": "O Setor Espaço Litúrgico da Comissão Episcopal para a Liturgia da Conferência Nacional dos Bispos do Brasil (CNBB) realizará, entre os dias 24 e 26 de setembro, o III Encontro da Pastoral do Artista Sacro. Realizado de forma remota, o.",
-      "url": "https://www.cnbb.org.br/iii-encontro-da-pastoral-do-artista-sacro-promove-reflexao-sobre-arte-fe-e-liturgia/",
+      "title": "Projeto contemplado pela CF 2026 promove dignidade a famílias em vulnerabilidade no Setor Santa",
+      "summary": "Recursos arrecadados por meio da Coleta Nacional da Solidariedade da Campanha da Fraternidade (CF) vão contribuir para a realização de obras no Setor Santa Luzia, na Estrutural (DF). A iniciativa receberá R$ 50 mil do Fundo Nacional de.",
+      "url": "https://www.cnbb.org.br/projeto-contemplado-pela-cf-2026-promove-dignidade-a-familias-em-vulnerabilidade-no-setor-santa-luzia-no-df/",
       "published": "2026-08-21"
     },
     {
       "source": "ACI Digital",
-      "title": "IA deve ser servidora do bem comum e não rival da humanidade, diz o papa",
-      "summary": "O papa Leão XIV disse hoje (21) que a inteligência artificial (IA) deve deixar de ser “uma rival da humanidade para se tornar uma servidora do bem comum”, em audiência hoje (21) com participantes do encontro da Rede Internacional de.",
-      "url": "https://www.acidigital.com/noticia/69469/ia-deve-ser-servidora-do-bem-comum-e-nao-rival-da-humanidade-diz-o-papa",
-      "published": "2026-08-21"
+      "title": "começa a novena à beata Isabel Cristina, Virgem e Mártir",
+      "summary": "Hoje (23) começa a novena à beata Isabel Cristina, Virgem e Mártir, cuja festa é celebrada no dia 1º de setembro, dia de seu martírio.",
+      "url": "https://www.acidigital.com/noticia/58919/hoje-comeca-a-novena-a-beata-isabel-cristina-virgem-e-martir",
+      "published": "2026-08-23"
     },
     {
       "source": "Shalom",
-      "title": "Boletim Shalom Fortaleza",
-      "summary": "PROGRAMAÇÃO DAS CÉLULAS COMUNITÁRIAS 21.08 (sexta-feira): Oração Comunitária (Definitivos) / Partilha de Vida com oração uns pelos os outros (P1 ao T9) 22.08 (sábado): Missa em Ação de Graças pelo Aniversário da nossa mãe Emmir Nogueira e.",
-      "url": "https://comshalom.org/boletimshalomfortaleza/",
-      "published": "2026-08-21"
+      "title": "Segundo dia do Congresso de Liderança Shalom acontece neste domingo; inscrições seguem abertas",
+      "summary": "O Congresso de Liderança Shalom continua neste domingo (23) com uma programação voltada à missão, ao discernimento e aos desafios da liderança cristã para os próximos anos. Após um primeiro dia marcado pela reflexão de Moysés Azevedo sobre a liderança como serviço , o encontro segue reunindo participantes da Comunidade Católica Shalom, de outros movimentos e de paróquias....",
+      "url": "https://comshalom.org/congresso-de-lideranca-shalom-segundo-dia-inscricoes-abertas/",
+      "published": "2026-08-23"
     },
     {
       "source": "Shalom",
-      "title": "Du bist der Christus: zwischen den Bildern, die wir uns machen, und dem Herrn, der sich offenba",
-      "summary": "José Ricardo Bezerra und Felipe Bezerra An diesem 21. Sonntag im Jahreskreis stellt uns das Evangelium vor die entscheidendste Frage des christlichen Lebens. In Cäsarea Philippi fragt Jesus die Jünger: „Für wen halten die Menschen den.",
-      "url": "https://comshalom.org/du-bist-der-christus-zwischen-den-bildern-die-wir-uns-machen-und-dem-herrn-der-sich-offenbart/",
+      "title": "Te vagy a Krisztus: a magunk alkotta képek és a magát kinyilatkoztató Úr között",
+      "summary": "José Ricardo Bezerra és Felipe Bezerra Az évközi 21. vasárnapon az Evangélium a keresztény élet legdöntőbb kérdése elé állít minket. Fülöp Cezáreájában Jézus megkérdezi a tanítványokat: „Kinek tartják az emberek az Emberfiát?” (Mt 16,13).",
+      "url": "https://comshalom.org/te-vagy-a-krisztus-a-magunk-alkotta-kepek-es-a-magat-kinyilatkoztato-ur-kozott/",
+      "published": "2026-08-22"
+    },
+    {
+      "source": "Gaudium Press",
+      "title": "Reino Unido impede entrada de parlamentar finlandesa condenada por sua fé cristã?",
+      "summary": "Räsänen tinha a intenção de participar presencialmente da Conferência Missionária Mundial de Bangor, realizada na Irlanda do Norte, mas o Reino Unido havia rejeitado anteriormente sua autorização de viagem (ETA Electronic Travel.",
+      "url": "https://gaudiumpress.org/content/reino-unido-impede-entrada-de-parlamentar-finlandesa-condenada-por-sua-fe-crista/",
       "published": "2026-08-22"
     }
   ],
   "closingQuote": {
-    "text": "Eis que conceberás e darás à luz um filho.",
-    "source": "Lucas 1,26-38"
+    "text": "Tu és Pedro, e eu te darei as chaves do Reino dos céus.",
+    "source": "Mateus 16,13-20"
   },
   "liturgyHours": {
-    "reading": "Exulto de alegria no Senhor e minh&#8217;alma regozija-se em meu Deus; ele me vestiu com as vestes da salvação, envolveu-me com o manto da justiça e adornou-me qual noiva com suas jóias.",
+    "reading": "A salvação pertence ao nosso Deus, que está sentado no trono, e ao Cordeiro. O louvor, a glória e a sabedoria, a ação de graças, a honra, o poder e a força pertencem ao nosso Deus para sempre. Amém.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
