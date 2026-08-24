@@ -1,33 +1,33 @@
 {
-  "date": "2026-08-23",
-  "editionLabel": "23 de agosto de 2026",
+  "date": "2026-08-24",
+  "editionLabel": "24 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "festa",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XXI do Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 16,13-20"
+    "celebrationTitle": "São Bartolomeu, apóstolo",
+    "colorName": "vermelho",
+    "cssColor": "#C62828",
+    "gospelShort": "Jo 1,45-51"
   },
   "saint": {
-    "feast": "\udfe2 Domingo XXI do Tempo Comum",
-    "name": "Santa Rosa de Lima, Terciária Dominicana",
-    "description": "Celebração litúrgica do dia: Domingo XXI do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santa-rosa-de-lima-terciaria-dominicana/"
+    "feast": "\udd34 [F] São Bartolomeu\\, apóstolo",
+    "name": "São Bartolomeu, o verdadeiro israelita",
+    "description": "Celebração litúrgica do dia: São Bartolomeu, apóstolo.",
+    "url": "https://santo.cancaonova.com/santo/sao-bartolomeu-o-verdadeiro-israelita/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 16,13-20)",
+    "ref": "Evangelho de Jesus Cristo segundo João (Jo 1,45-51)",
     "lines": [
-      "Naquele tempo, Jesus foi à região de Cesareia de Filipe e aí perguntou a seus discípulos: Quem dizem os homens ser o Filho do Homem? Eles responderam: Alguns dizem que é João Batista; outros, que é Elias; outros ainda, que é Jeremias ou algum dos profetas.",
-      "Então Jesus lhes perguntou: E vós, quem dizeis que eu sou? Simão Pedro respondeu: Tu és o Messias, o Filho do Deus vivo.",
-      "Respondendo, Jesus lhe disse: Feliz és tu, Simão, filho de Jonas, porque não foi um ser humano que te revelou isso, mas o meu Pai que está no céu.",
-      "Por isso, eu te digo que tu és Pedro, e sobre esta pedra construirei a minha Igreja, e o poder do inferno nunca poderá vencê-la.",
-      "Eu te darei as chaves do Reino dos Céus: tudo o que tu ligares na terra será ligado nos céus; tudo o que tu desligares na terra será desligado nos céus.",
-      "Jesus, então, ordenou aos discípulos que não dissessem a ninguém que ele era o Messias."
+      "Filipe encontrou-se com Natanael e lhe disse: Encontramos aquele de quem Moisés escreveu na Lei, e também os profetas: Jesus de Nazaré, o filho de José.",
+      "Natanael disse: De Nazaré pode sair coisa boa? Filipe respondeu: Vem ver! Jesus viu Natanael que vinha para ele e comentou: Aí vem um israelita de verdade, um homem sem falsidade.",
+      "Natanael perguntou: De onde me conheces? Jesus respondeu: Antes que Filipe te chamasse, enquanto estavas debaixo da figueira, eu te vi.",
+      "Natanael respondeu: Rabi, tu és o Filho de Deus, tu és o Rei de Israel.",
+      "Jesus disse: Tu crês porque te disse: Eu te vi debaixo da figueira?",
+      "Coisas maiores que esta verás! E Jesus continuou: Em verdade, em verdade, eu vos digo: Vereis o céu aberto e os anjos de Deus subindo e descendo sobre o Filho do Homem."
     ],
-    "body": "Naquele tempo, 13 Jesus foi à região de Cesareia de Filipe e aí perguntou a seus discípulos: \"Quem dizem os homens ser o Filho do Homem?\" 14 Eles responderam: \"Alguns dizem que é João Batista; outros, que é Elias; outros ainda, que é Jeremias ou algum dos profetas\". 15 Então Jesus lhes perguntou: \"E vós, quem dizeis que eu sou?\" 16 Simão Pedro respondeu: \"Tu és o Messias, o Filho do Deus vivo\". 17 Respondendo, Jesus lhe disse: \"Feliz és tu, Simão, filho de Jonas, porque não foi um ser humano que te revelou isso, mas o meu Pai que está no céu. 18 Por isso, eu te digo que tu és Pedro, e sobre esta pedra construirei a minha Igreja, e o poder do inferno nunca poderá vencê-la. 19 Eu te darei as chaves do Reino dos Céus: tudo o que tu ligares na terra será ligado nos céus; tudo o que tu desligares na terra será desligado nos céus\". 20 Jesus, então, ordenou aos discípulos que não dissessem a ninguém que ele era o Messias. —",
-    "keyVerse": "Tu és Pedro, e sobre esta pedra edificarei minha Igreja; e os poderes do reino das trevas jamais poderão contra ela!"
+    "body": "45 Filipe encontrou-se com Natanael e lhe disse: \"Encontramos aquele de quem Moisés escreveu na Lei, e também os profetas: Jesus de Nazaré, o filho de José\". 46 Natanael disse: \"De Nazaré pode sair coisa boa?\" Filipe respondeu: \"Vem ver!\" 47 Jesus viu Natanael que vinha para ele e comentou: \"Aí vem um israelita de verdade, um homem sem falsidade\". 48 Natanael perguntou: \"De onde me conheces?\" Jesus respondeu: \"Antes que Filipe te chamasse, enquanto estavas debaixo da figueira, eu te vi\". 49 Natanael respondeu: \"Rabi, tu és o Filho de Deus, tu és o Rei de Israel\". 50 Jesus disse: \"Tu crês porque te disse: Eu te vi debaixo da figueira? Coisas maiores que esta verás!\" 51 E Jesus continuou: \"Em verdade, em verdade, eu vos digo: Vereis o céu aberto e os anjos de Deus subindo e descendo sobre o Filho do Homem\". —",
+    "keyVerse": "Mestre, tu és o filho de Deus, és rei de Israel!"
   },
   "sponsor": {
     "enabled": true,
@@ -38,60 +38,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Hebdomada Papae: o noticiário em latim deste 22 de agosto",
-      "summary": "As notícias do Vaticano em latim com tradução para o italiano. No resumo deste sábado, 22 de agosto: o novo apelo de Leão XIV durante o Angelus para que cessem as violências contra os palestinos, a Audiência Geral com uma reflexão sobre o.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/hebdomada-papae-noticiario-em-latim-22-agosto-2026.html",
-      "published": "2026-08-22"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-08-24"
     },
     {
       "source": "Vatican News",
-      "title": "O apelo de Leão XIV: trabalhar na prevenção do Ebola para salvar vidas na RDC",
-      "summary": "O vírus atual já causou mais de 2500 mortes em três meses. Um dos desafios é que não há vacinas ou tratamentos para a doença, além do sistema de saúde fragilizado e a situação agravada por conflitos armados. A epidemia na RDC é a mais.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-apelo-epidemia-ebola-rdc-23-agosto-2026.html",
-      "published": "2026-08-23"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-08-24"
     },
     {
       "source": "CNBB",
-      "title": "Comissão da CNBB participa do 1º Encontro de Mestres de Celebrações Episcopais promovido pela",
-      "summary": "A partir da experiência vivida em Roma, promovida pelo Pontifício Ateneo Sant’Anselmo e avaliada positivamente pelo Papa Francisco, percebeu-se a importância de promover, no Brasil, um espaço específico de formação, partilha e.",
-      "url": "https://www.cnbb.org.br/1o-encontro-mestres-de-celebracoes-episcopais-asli/",
-      "published": "2026-08-21"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-08-24"
     },
     {
       "source": "ACI Digital",
-      "title": "é dia de santa Rosa de Lima, a primeira santa da América",
-      "summary": "A Igreja celebra hoje (23), santa Rosa de Lima, primeira santa das Américas, virgem e padroeira do Peru, do continente americano e das Filipinas, que viveu dedicada à oração, à mortificação e à ajuda aos mais necessitados. Em seu país.",
-      "url": "https://www.acidigital.com/noticia/53049/hoje-e-dia-de-santa-rosa-de-lima-a-primeira-santa-da-america",
-      "published": "2026-08-23"
+      "title": "Igreja no Brasil se prepara para o mês vocacional com intensa programação",
+      "summary": "Dioceses de todo o Brasil organizam eventos e campanhas para o mês vocacional de agosto, incentivando jovens a discernirem sua vocação.",
+      "url": "https://www.acidigital.com/noticia/58573/licoes-de-santa-ana-e-sao-joaquim-para-casais-que-enfrentam-a-infertilidade",
+      "published": "2026-08-24"
     },
     {
       "source": "ACI Digital",
-      "title": "O que é a “Tempestade Santa Rosa” e por que é chamada assim?",
-      "summary": "Santa Rosa de Lima é uma das santas mais queridas da Igreja e sua influência na América Latina atinge até o clima, com a chamada “Tempestade de Santa Rosa”.",
-      "url": "https://www.acidigital.com/noticia/55976/o-que-e-a-tempestade-santa-rosa-e-por-que-e-chamada-assim",
-      "published": "2026-08-23"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-08-24"
     },
     {
       "source": "Shalom",
-      "title": "Congresso de Liderança Shalom reúne formação espiritual e prática; conteúdo segue disponível no",
-      "summary": "Evento apresentou reflexões sobre liderança cristã e oferece acesso às gravações na íntegra e a seis workshops exclusivos sobre comunicação, gestão, feedback e formação de novas lideranças.",
-      "url": "https://comshalom.org/congresso-lideranca-shalom-workshops-gravacoes/",
-      "published": "2026-08-23"
+      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
+      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
+      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "published": "2026-08-24"
     },
     {
       "source": "Shalom",
-      "title": "Congresso de Liderança Shalom: Moysés Azevedo destaca que liderar é servir",
-      "summary": "No primeiro dia do Congresso, fundador do Shalom refletiu sobre a liderança a serviço de Deus, das pessoas e do Carisma; programação continua neste domingo (23).",
-      "url": "https://comshalom.org/congresso-de-lideranca-shalom-moyses-azevedo-liderar-servir/",
-      "published": "2026-08-23"
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-08-24"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-08-24"
     }
   ],
   "closingQuote": {
-    "text": "Tu és Pedro, e eu te darei as chaves do Reino dos céus.",
-    "source": "Mateus 16,13-20"
+    "text": "Rabi, tu és o Filho de Deus, tu és o Rei de Israel.",
+    "source": "Natanael (São Bartolomeu) — Jo 1,49"
   },
   "liturgyHours": {
-    "reading": "A salvação pertence ao nosso Deus, que está sentado no trono, e ao Cordeiro. O louvor, a glória e a sabedoria, a ação de graças, a honra, o poder e a força pertencem ao nosso Deus para sempre. Amém.",
+    "reading": "Já não sois estrangeiros nem migrantes, mas concidadãos dos santos. Sois da família de Deus. Vós fostes integrados no edifício que tem como fundamento os apóstolos e os profetas, e o próprio Jesus Cristo como pedra principal. É nele que toda a...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
