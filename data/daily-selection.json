@@ -1,33 +1,34 @@
 {
-  "date": "2026-08-24",
-  "editionLabel": "24 de agosto de 2026",
+  "date": "2026-08-25",
+  "editionLabel": "25 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "festa",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Bartolomeu, apóstolo",
-    "colorName": "vermelho",
-    "cssColor": "#C62828",
-    "gospelShort": "Jo 1,45-51"
+    "celebrationTitle": "São José de Calasanz, presbítero",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Mt 23,23-26"
   },
   "saint": {
-    "feast": "\udd34 [F] São Bartolomeu\\, apóstolo",
-    "name": "São Bartolomeu, o verdadeiro israelita",
-    "description": "Celebração litúrgica do dia: São Bartolomeu, apóstolo.",
-    "url": "https://santo.cancaonova.com/santo/sao-bartolomeu-o-verdadeiro-israelita/"
+    "feast": "São José de Calasanz\\, presbítero",
+    "name": "São Luís IX, penitente e humilde",
+    "description": "Celebração litúrgica do dia: São José de Calasanz, presbítero.",
+    "url": "https://santo.cancaonova.com/santo/sao-luis-ix-penitente-e-humilde/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo João (Jo 1,45-51)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 23,23-26)",
     "lines": [
-      "Filipe encontrou-se com Natanael e lhe disse: Encontramos aquele de quem Moisés escreveu na Lei, e também os profetas: Jesus de Nazaré, o filho de José.",
-      "Natanael disse: De Nazaré pode sair coisa boa? Filipe respondeu: Vem ver! Jesus viu Natanael que vinha para ele e comentou: Aí vem um israelita de verdade, um homem sem falsidade.",
-      "Natanael perguntou: De onde me conheces? Jesus respondeu: Antes que Filipe te chamasse, enquanto estavas debaixo da figueira, eu te vi.",
-      "Natanael respondeu: Rabi, tu és o Filho de Deus, tu és o Rei de Israel.",
-      "Jesus disse: Tu crês porque te disse: Eu te vi debaixo da figueira?",
-      "Coisas maiores que esta verás! E Jesus continuou: Em verdade, em verdade, eu vos digo: Vereis o céu aberto e os anjos de Deus subindo e descendo sobre o Filho do Homem."
+      "Naquele tempo, disse Jesus: Ai de vós, mestres da Lei e fariseus hipócritas!",
+      "Vós pagais o dízimo da hortelã, da erva-doce e do cominho, e deixais de lado os ensinamentos mais importantes da Lei, como a justiça, a misericórdia e a fidelidade.",
+      "Vós deveríeis praticar isto, sem contudo deixar aquilo.",
+      "Vós filtrais o mosquito, mas engolis o camelo.",
+      "Aí de vós, mestres da Lei e fariseus hipócritas!",
+      "Vós limpais o copo e o prato por fora, mas, por dentro, estais cheios de roubo e cobiça.",
+      "Limpa primeiro o copo por dentro, para que também por fora fique limpo."
     ],
-    "body": "45 Filipe encontrou-se com Natanael e lhe disse: \"Encontramos aquele de quem Moisés escreveu na Lei, e também os profetas: Jesus de Nazaré, o filho de José\". 46 Natanael disse: \"De Nazaré pode sair coisa boa?\" Filipe respondeu: \"Vem ver!\" 47 Jesus viu Natanael que vinha para ele e comentou: \"Aí vem um israelita de verdade, um homem sem falsidade\". 48 Natanael perguntou: \"De onde me conheces?\" Jesus respondeu: \"Antes que Filipe te chamasse, enquanto estavas debaixo da figueira, eu te vi\". 49 Natanael respondeu: \"Rabi, tu és o Filho de Deus, tu és o Rei de Israel\". 50 Jesus disse: \"Tu crês porque te disse: Eu te vi debaixo da figueira? Coisas maiores que esta verás!\" 51 E Jesus continuou: \"Em verdade, em verdade, eu vos digo: Vereis o céu aberto e os anjos de Deus subindo e descendo sobre o Filho do Homem\". —",
-    "keyVerse": "Mestre, tu és o filho de Deus, és rei de Israel!"
+    "body": "Naquele tempo, disse Jesus: 23 \"Ai de vós, mestres da Lei e fariseus hipócritas! Vós pagais o dízimo da hortelã, da erva-doce e do cominho, e deixais de lado os ensinamentos mais importantes da Lei, como a justiça, a misericórdia e a fidelidade. Vós deveríeis praticar isto, sem contudo deixar aquilo. 24 Guias cegos! Vós filtrais o mosquito, mas engolis o camelo. 25 Aí de vós, mestres da Lei e fariseus hipócritas! Vós limpais o copo e o prato por fora, mas, por dentro, estais cheios de roubo e cobiça. 26 Fariseu cego! Limpa primeiro o copo por dentro, para que também por fora fique limpo\". —",
+    "keyVerse": "A palavra do Senhor é viva e eficaz: ela julga os pensamentos e as intenções do coração."
   },
   "sponsor": {
     "enabled": true,
@@ -38,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV: reconhecer Cristo nos mais vulneráveis nos faz crescer como sociedade",
-      "summary": "O Papa recebeu nesta segunda-feira (24/08) os membros da Federação Marsodeto, de Toledo, que celebra 45 anos de atuação junto a pessoas com deficiência intelectual e paralisia cerebral. O Pontífice destacou valores como solidariedade,.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-discurso-audiencia-federacion-marsodeto-toledo.html",
+      "title": "Papa a militares: zelar pela segurança dos concidadãos, protegendo-os das injustiças",
+      "summary": "Na manhã desta segunda-feira, 24 de agosto, o Papa recebeu em audiência, em Roma, os membros do Ordinariato Militar de Portugal e alguns representantes das forças armadas e de segurança do país, por ocasião do sexagésimo aniversário da.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-ordinariato-castrense-portugal-militares-seguranca.html",
       "published": "2026-08-24"
     },
     {
       "source": "Vatican News",
-      "title": "Leão XIV ao Sínodo Valdense: testemunhar juntos a liberdade dos filhos de Deus",
-      "summary": "Em mensagem assinada pelo secretário de Estado, cardeal Pietro Parolin, por ocasião da abertura da assembleia no sábado (22/08), o Papa reflete sobre a Inteligência Artificial “que parece sugerir a superação do humano”, mas exorta a não.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-sinodo-valdense-mensagem-cardeal-parolin-220826.html",
+      "title": "Jogos do Mediterrâneo, o mural que fala de paz e amizade",
+      "summary": "Na entrada da Aldeia do evento que se realiza em Taranto, e que também conta com a Athletica Vaticana, há espaços onde os atletas escrevem pensamentos inspirados na unidade e reconciliação, especialmente de países que vivem tensões. Leia.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-08/jogos-mediterraneo-mural-paz-amizade-taranto-athletica-vaticana.html",
       "published": "2026-08-24"
     },
     {
       "source": "CNBB",
-      "title": "Baixe o formulário da Missa pelo Cuidado da Criação disponibilizado pela Comissão Episcopal par",
-      "summary": "A nova Missa constitui uma oportunidade para que as comunidades cristãs celebrem o mistério da criação à luz da fé em Cristo e renovem sua responsabilidade diante do dom que Deus confiou à humanidade. A liturgia convida a uma atitude de.",
-      "url": "https://www.cnbb.org.br/formulario-missa-pelo-cuidado-da-criacao/",
-      "published": "2026-08-24"
-    },
-    {
-      "source": "CNBB",
-      "title": "13º Seminário de Comunicação Social reúne comunicadores no Rio e termina com concerto de Monsen",
-      "summary": "Com cerca de 120 participantes, encontro realizado no Centro de Estudos do Sumaré discutiu os desafios da comunicação humana em meio à inteligência artificial, à desinformação e às novas tecnologias.",
-      "url": "https://www.cnbb.org.br/13o-seminario-comunicacao-social-rio-de-janeiro/",
+      "title": "Mensagem do Papa Leão XIV para o Dia da Criação impulsiona apelo pela construção da paz e pelo",
+      "summary": "O Papa Leão XIV publicou sua mensagem para o XI Dia Mundial de Oração pela Criação, que será celebrado no próximo dia 1º de setembro. No texto, o Pontífice relaciona os conflitos armados à crise ambiental e faz um apelo a uma conversão.",
+      "url": "https://www.cnbb.org.br/mensagem-do-papa-leao-xiv-para-o-dia-da-criacao-impulsiona-apelo-pela-construcao-da-paz-e-pelo-cuidado-com-a-criacao/",
       "published": "2026-08-24"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV recorda vítimas de Ebola e de desastre em mina na África Central",
-      "summary": "Depois de rezar o Ângelus de hoje (23), na praça de São Pedro no Vaticano, o papa Leão XIV recordou as vítimas de um surto de Ebola na República Democrática do Congo e de um deslizamento de terra fatal em uma mina na República Centro-Africana. Na minha oração, recordo com frequência a República Democrática do Congo, devido – em particular – à propagação da epidemia de Ébola, que está infelizmente a causar muitas vítimas....",
-      "url": "https://www.acidigital.com/noticia/69479/leao-xiv-recorda-vitimas-de-ebola-e-de-desastre-em-mina-na-africa-central",
-      "published": "2026-08-23"
+      "title": "Os conselhos do rei são Luis IX para o seu filho amado",
+      "summary": "A Igreja Católica celebra hoje (25) a festa do rei são Luís IX, que imitou Cristo com humildade e enfrentou os muçulmanos para tentar recuperar o Santo Sepulcro. Como bom pai, ele estava ciente do bem-estar de sua família e deixou um.",
+      "url": "https://www.acidigital.com/noticia/55991/os-conselhos-do-rei-sao-luis-ix-para-o-seu-filho-amado",
+      "published": "2026-08-25"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "é dia de são Luís IX, rei da França sábio e piedoso",
+      "summary": "A Igreja celebra hoje (25) são Luís IX, que se distinguiu por seu espírito de penitência e oração e seu amor pelos pobres. Foi um governante justo e sábio.",
+      "url": "https://www.acidigital.com/noticia/53052/hoje-e-dia-de-sao-luis-ix-rei-da-franca-sabio-e-piedoso",
+      "published": "2026-08-25"
     },
     {
       "source": "Shalom",
-      "title": "“Deus nos quer todos lá”: família celebrará Bodas de Prata na Convenção Shalom, em Roma",
-      "summary": "Carol e Eric Martini vão celebrar 25 anos de matrimônio em Roma com os cinco filhos durante a Convenção Shalom 2026. A viagem também marcará o cumprimento de uma promessa feita a Nossa Senhora.",
-      "url": "https://comshalom.org/familia-martini-25-anos-casamento-convencao-shalom-roma/",
+      "title": "Há 16 anos, Moysés Azevedo fazia suas Promessas Definitivas e Votos Perpétuos no Celibato",
+      "summary": "Durante Missa no Shalom da Paz, Moysés deu seu sim definitivo a Deus. Conheça essa história e entenda o significado desse marco para a Comunidade Shalom.",
+      "url": "https://comshalom.org/moyses-azevedo-16-anos-promessas-definitivas/",
       "published": "2026-08-24"
     },
     {
       "source": "Shalom",
-      "title": "Bodas de Prata, seis filhos e uma viagem à Convenção Shalom em família: conheça a Família Marti",
-      "summary": "Meu nome é Carol Martini, sou casada com Eric Martini e, este ano, completamos 25 anos de casados em mais um “Tríduo da Família Martini” começando dia 7 de julho, nosso aniversário de casamento dia 8 de julho, aniversário da nossa caçula e da Vocação no dia 09 de julho . Temos 6 filhos: 1 no céu, Léo, e mais cinco aqui nesta terra: João Paulo (20 anos), Matheus (17 anos), Pedro (13 anos), Chiara (9 anos) e Maria Cecília (6 anos)....",
-      "url": "https://comshalom.org/bodas-de-prata-seis-filhos-e-uma-viagem-a-convencao-shalom-em-familia-conheca-a-familia-martini/",
+      "title": "Paz a Vós apresenta caminho para vencer as batalhas espirituais do cotidiano",
+      "summary": "O cristão é chamado a viver uma vida de esperança, confiança e certeza do poder de Deus, que age em seu favor. Mesmo com tudo isso, existem batalhas que são travadas contra o pecado, o medo, as tentações, a carne, o desânimo. Por isso, acima de tudo precisamos nos lembrar quem caminha ao nosso lado: o Ressuscitado que passou pela Cruz!...",
+      "url": "https://comshalom.org/paz-a-vos-apresenta-caminho-para-vencer-as-batalhas-espirituais-do-cotidiano/",
       "published": "2026-08-24"
     }
   ],
   "closingQuote": {
-    "text": "Rabi, tu és o Filho de Deus, tu és o Rei de Israel.",
-    "source": "Natanael (São Bartolomeu) — Jo 1,49"
+    "text": "Vós deveríeis praticar isto, sem contudo deixar aquilo.",
+    "source": "Mateus 23,23-26"
   },
   "liturgyHours": {
-    "reading": "Já não sois estrangeiros nem migrantes, mas concidadãos dos santos. Sois da família de Deus. Vós fostes integrados no edifício que tem como fundamento os apóstolos e os profetas, e o próprio Jesus Cristo como pedra principal. É nele que toda a...",
+    "reading": "Já é hora de despertar. Com efeito, agora a salvação está mais perto de nós do que quando abraçamos a fé. A noite já vai adiantada, o dia vem chegando: despojemo-nos das ações das trevas e vistamos as armas da luz. Procedamos honestamente, como em...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
