@@ -1,34 +1,34 @@
 {
-  "date": "2026-08-25",
-  "editionLabel": "25 de agosto de 2026",
+  "date": "2026-08-26",
+  "editionLabel": "26 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "São José de Calasanz, presbítero",
+    "celebrationTitle": "Quarta-Feira da Semana XXI do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 23,23-26"
+    "gospelShort": "Mt 23,27-32"
   },
   "saint": {
-    "feast": "São José de Calasanz\\, presbítero",
-    "name": "São Luís IX, penitente e humilde",
-    "description": "Celebração litúrgica do dia: São José de Calasanz, presbítero.",
-    "url": "https://santo.cancaonova.com/santo/sao-luis-ix-penitente-e-humilde/"
+    "feast": "\udfe2 Quarta-Feira da Semana XXI do Tempo Comum",
+    "name": "São Zeferino, o Papa que lutou contra as heresias",
+    "description": "Celebração litúrgica do dia: Quarta-Feira da Semana XXI do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-zeferino-o-papa-que-lutou-contra-heresias/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 23,23-26)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 23,27-32)",
     "lines": [
       "Naquele tempo, disse Jesus: Ai de vós, mestres da Lei e fariseus hipócritas!",
-      "Vós pagais o dízimo da hortelã, da erva-doce e do cominho, e deixais de lado os ensinamentos mais importantes da Lei, como a justiça, a misericórdia e a fidelidade.",
-      "Vós deveríeis praticar isto, sem contudo deixar aquilo.",
-      "Vós filtrais o mosquito, mas engolis o camelo.",
+      "Vós sois como sepulcros caiados: por fora parecem belos, mas por dentro estão cheios de ossos de mortos e de toda podridão!",
+      "Assim também vós: por fora, pareceis justos diante dos outros, mas por dentro estais cheios de hipocrisia e injustiça.",
       "Aí de vós, mestres da Lei e fariseus hipócritas!",
-      "Vós limpais o copo e o prato por fora, mas, por dentro, estais cheios de roubo e cobiça.",
-      "Limpa primeiro o copo por dentro, para que também por fora fique limpo."
+      "Vós construís sepulcros para os profetas e enfeitais os túmulos dos justos, e dizeis: Se tivéssemos vivido no tempo de nossos pais, não teríamos sido cúmplices da morte dos profetas.",
+      "Com isso, confessais que sois filhos daqueles que mataram os profetas.",
+      "Completai, pois, a medida de vossos pais! —"
     ],
-    "body": "Naquele tempo, disse Jesus: 23 \"Ai de vós, mestres da Lei e fariseus hipócritas! Vós pagais o dízimo da hortelã, da erva-doce e do cominho, e deixais de lado os ensinamentos mais importantes da Lei, como a justiça, a misericórdia e a fidelidade. Vós deveríeis praticar isto, sem contudo deixar aquilo. 24 Guias cegos! Vós filtrais o mosquito, mas engolis o camelo. 25 Aí de vós, mestres da Lei e fariseus hipócritas! Vós limpais o copo e o prato por fora, mas, por dentro, estais cheios de roubo e cobiça. 26 Fariseu cego! Limpa primeiro o copo por dentro, para que também por fora fique limpo\". —",
-    "keyVerse": "A palavra do Senhor é viva e eficaz: ela julga os pensamentos e as intenções do coração."
+    "body": "Naquele tempo, disse Jesus: 27 \"Ai de vós, mestres da Lei e fariseus hipócritas! Vós sois como sepulcros caiados: por fora parecem belos, mas por dentro estão cheios de ossos de mortos e de toda podridão! 28 Assim também vós: por fora, pareceis justos diante dos outros, mas por dentro estais cheios de hipocrisia e injustiça. 29 Aí de vós, mestres da Lei e fariseus hipócritas! Vós construís sepulcros para os profetas e enfeitais os túmulos dos justos, 30 e dizeis: 'Se tivéssemos vivido no tempo de nossos pais, não teríamos sido cúmplices da morte dos profetas'. 31 Com isso, confessais que sois filhos daqueles que mataram os profetas. 32 Completai, pois, a medida de vossos pais!\" —",
+    "keyVerse": "O amor de Deus se realiza em todo aquele que guarda sua palavra fielmente."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Cardeal Zuppi: onde prevalece a “Babel do eu”, optemos pela fraternidade",
-      "summary": "O cardeal, presidente da Conferência Episcopal Italiana e arcebispo de Bolonha, presidiu a missa no Encontro da Amizade entre os Povos, na cidade italiana de Rimini, e retoma a exortação do Papa Leão XIV para amar a Igreja em uma época em.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-08/cardeal-zuppi-meeting-missa-exortacao-papa-leao-xiv-2026.html",
+      "title": "Paul Oga Adikwu, novo Embaixador da Nigéria junto da Santa Sé",
+      "summary": "O Papa Leão XIV recebeu em audiência, na segunda-feira, 24 de agosto de 2026, o novo Embaixador da República Federal da Nigéria, Sr. Paul Oga Adikwu, que lhe apresentou as Cartas Credenciais. Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/africa/news/2026-08/paul-oga-adikwu-novo-embaixador-da-nigeria-junto-da-santa-se.html",
       "published": "2026-08-25"
     },
     {
       "source": "Vatican News",
-      "title": "Leão XIV: que a liturgia alimente a fé, gerando caridade fraterna e paz",
-      "summary": "Em uma mensagem assinada pelo secretário de Estado, cardeal Parolin, o Papa saúda os participantes da 76ª Semana Litúrgica Nacional, que ocorre em Catânia – sul da Itália - de 24 a 27 de agosto, e destaca a “importância especial” que o.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/catania-liturgia-comunhao-iniciacao-crista-papa-leao-xiv-parolin.html",
+      "title": "Com rede de voluntários, Peru se prepara para receber Leão XIV",
+      "summary": "A 130ª Assembleia Plenária Ordinária dos Bispos do Peru encerrou-se com o lançamento dos “Amigos de Leão”, o grupo oficial de voluntários que reunirá jovens e leigos de todo o país para servir e acompanhar os peregrinos durante a visita.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-08/peru-rede-voluntarios-viagem-papa-leao-xiv.html",
       "published": "2026-08-25"
     },
     {
       "source": "CNBB",
-      "title": "Baixe o formulário da Missa pelo Cuidado da Criação disponibilizado pela Comissão Episcopal par",
-      "summary": "A nova Missa constitui uma oportunidade para que as comunidades cristãs celebrem o mistério da criação à luz da fé em Cristo e renovem sua responsabilidade diante do dom que Deus confiou à humanidade. A liturgia convida a uma atitude de.",
-      "url": "https://www.cnbb.org.br/formulario-missa-pelo-cuidado-da-criacao/",
-      "published": "2026-08-24"
-    },
-    {
-      "source": "CNBB",
-      "title": "Uma resposta perigosa ganha destaque na Igreja",
-      "summary": "Dom Lindomar Rocha Mota Bispo de São Luís de Montes Belos (GO) Uma pergunta bem-feita é perigosa, porque uma resposta verdadeira muda a vida. Em Cesareia de Filipe, Jesus fez uma algo desse tipo. Depois de ouvir dos discípulos aquilo que.",
-      "url": "https://www.cnbb.org.br/uma-resposta-perigosa/",
+      "title": "lança novo hotsite do Sínodo sobre a Sinodalidade para acompanhar fase de implementação",
+      "summary": "O novo ambiente reúne, em um único espaço, documentos, notícias, vídeos, conteúdos de formação e reflexão, experiências sinodais e materiais para download. O hotsite também recupera o percurso iniciado em 2021 e apresenta os próximos.",
+      "url": "https://www.cnbb.org.br/cnbb-lanca-novo-hotsite-do-sinodo-sobre-a-sinodalidade/",
       "published": "2026-08-25"
     },
     {
       "source": "ACI Digital",
-      "title": "Aplicativo mostra aumento em conversões ao catolicismo em universidades dos EUA",
-      "summary": "A Universidade Texas A&M registrou o maior aumento, com um crescimento de cerca de 69%, passando de 121 para 204 adultos que ingressaram na Igreja nos últimos dois anos acadêmicos.",
-      "url": "https://www.acidigital.com/noticia/69505/aplicativo-mostra-aumento-em-conversoes-ao-catolicismo-em-universidades-dos-eua",
+      "title": "Uma “flecha divina” marcou o coração de santa Teresa D’Ávila e sua autópsia confirmou",
+      "summary": "Hoje (26), os carmelitas celebram a festa da transverberação do coração de santa Teresa de Jesus, isto é, quando teve o coração transpassado. A santa relatou em seus escritos essa experiência mística que marcou profundamente seu coração e.",
+      "url": "https://www.acidigital.com/noticia/53075/uma-“flecha-divina”-marcou-o-coracao-de-santa-teresa-d’avila-e-sua-autopsia-confirmou",
+      "published": "2026-08-26"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Bispos criticam ‘conservadorismo autoritário’ e pedem voto em candidatos comprometidos com ‘cau",
+      "summary": "Um grupo autointitulado Bispos do Diálogo pelo Reino divulgou na sexta-feira (21) uma carta em que critica o “conservadorismo autoritário” e incentiva “cada cidadão a fazer uma escolha consciente e lúcida de candidatas e candidatos.",
+      "url": "https://www.acidigital.com/noticia/69503/bispos-criticam-conservadorismo-autoritario-e-pedem-voto-em-candidatos-comprometidos-com-causas-populares",
       "published": "2026-08-25"
     },
     {
       "source": "Shalom",
-      "title": "“Deus nos quer todos lá”: família celebrará Bodas de Prata na Convenção Shalom, em Roma",
-      "summary": "Carol e Eric Martini vão celebrar 25 anos de matrimônio em Roma com os cinco filhos durante a Convenção Shalom 2026. A viagem também marcará o cumprimento de uma promessa feita a Nossa Senhora.",
-      "url": "https://comshalom.org/familia-martini-25-anos-casamento-convencao-shalom-roma/",
-      "published": "2026-08-24"
+      "title": "Aparecida do Norte recebe 5° Congresso Vocacional do Brasil",
+      "summary": "O evento acontecerá entre os dias 4 e 6 de setembro e é realizado pela Comissão Episcopal para os Ministérios Ordenados e a Vida Consagrada da Conferência Nacional dos Bispos do Brasil (CNBB).",
+      "url": "https://comshalom.org/aparecida-do-norte-recebe-5-congresso-vocacional-do-brasil/",
+      "published": "2026-08-25"
     },
     {
       "source": "Shalom",
-      "title": "Bodas de Prata, seis filhos e uma viagem à Convenção Shalom em família: conheça a Família Marti",
-      "summary": "Meu nome é Carol Martini, sou casada com Eric Martini e, este ano, completamos 25 anos de casados em mais um “Tríduo da Família Martini” começando dia 7 de julho, nosso aniversário de casamento dia 8 de julho, aniversário da nossa caçula e da Vocação no dia 09 de julho . Temos 6 filhos: 1 no céu, Léo, e mais cinco aqui nesta terra: João Paulo (20 anos), Matheus (17 anos), Pedro (13 anos), Chiara (9 anos) e Maria Cecília (6 anos)....",
-      "url": "https://comshalom.org/bodas-de-prata-seis-filhos-e-uma-viagem-a-convencao-shalom-em-familia-conheca-a-familia-martini/",
-      "published": "2026-08-24"
+      "title": "Catequista: uma vocação que ensina, forma e edifica",
+      "summary": "Na ultima semana do mês das vocações, recordamos e rezamos pelos catequistas, que formam à luz do Evangelho com zelo e carinho novos cristãos.",
+      "url": "https://comshalom.org/dia-do-catequista/",
+      "published": "2026-08-26"
     }
   ],
   "closingQuote": {
-    "text": "Vós deveríeis praticar isto, sem contudo deixar aquilo.",
-    "source": "Mateus 23,23-26"
+    "text": "Sois filhos daqueles que mataram os profetas.",
+    "source": "Mateus 23,27-32"
   },
   "liturgyHours": {
-    "reading": "Já é hora de despertar. Com efeito, agora a salvação está mais perto de nós do que quando abraçamos a fé. A noite já vai adiantada, o dia vem chegando: despojemo-nos das ações das trevas e vistamos as armas da luz. Procedamos honestamente, como em...",
+    "reading": "Meu filho, sê vigilante em todas as tuas obras e mostra-te prudente em tua conversação. Não faças a ninguém o que para ti não desejas. Dá de teu pão a quem tem fome, e de tuas vestes aos que estão despidos. Dá de esmola todo o teu supérfluo. Bendize...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
