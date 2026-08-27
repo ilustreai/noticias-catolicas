@@ -1,34 +1,34 @@
 {
-  "date": "2026-08-26",
-  "editionLabel": "26 de agosto de 2026",
+  "date": "2026-08-27",
+  "editionLabel": "27 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Quarta-Feira da Semana XXI do Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 23,27-32"
+    "celebrationTitle": "Santa Mónica",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Mt 24,42-51"
   },
   "saint": {
-    "feast": "\udfe2 Quarta-Feira da Semana XXI do Tempo Comum",
-    "name": "São Zeferino, o Papa que lutou contra as heresias",
-    "description": "Celebração litúrgica do dia: Quarta-Feira da Semana XXI do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-zeferino-o-papa-que-lutou-contra-heresias/"
+    "feast": "Santa Mónica",
+    "name": "Santa Mônica, mãe de Santo Agostinho",
+    "description": "Celebração litúrgica do dia: Santa Mónica.",
+    "url": "https://santo.cancaonova.com/santo/santa-monica-mae-de-santo-agostinho1/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 23,27-32)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 24,42-51)",
     "lines": [
-      "Naquele tempo, disse Jesus: Ai de vós, mestres da Lei e fariseus hipócritas!",
-      "Vós sois como sepulcros caiados: por fora parecem belos, mas por dentro estão cheios de ossos de mortos e de toda podridão!",
-      "Assim também vós: por fora, pareceis justos diante dos outros, mas por dentro estais cheios de hipocrisia e injustiça.",
-      "Aí de vós, mestres da Lei e fariseus hipócritas!",
-      "Vós construís sepulcros para os profetas e enfeitais os túmulos dos justos, e dizeis: Se tivéssemos vivido no tempo de nossos pais, não teríamos sido cúmplices da morte dos profetas.",
-      "Com isso, confessais que sois filhos daqueles que mataram os profetas.",
-      "Completai, pois, a medida de vossos pais! —"
+      "Naquele tempo disse Jesus aos seus discípulos: Ficai atentos!",
+      "porque não sabeis em que dia virá o Senhor.",
+      "Compreendei bem isso: se o dono da casa soubesse a que horas viria o ladrão, certamente vigiaria e não deixaria que a sua casa fosse arrombada.",
+      "Por isso, também vós ficai preparados!",
+      "Porque na hora em que menos pensais, o Filho do Homem virá.",
+      "Qual é o empregado fiel e prudente, que o senhor colocou como responsável pelos demais empregados, para lhes dar alimento na hora certa?",
+      "Feliz o empregado, cujo senhor o encontrar agindo assim, quando voltar."
     ],
-    "body": "Naquele tempo, disse Jesus: 27 \"Ai de vós, mestres da Lei e fariseus hipócritas! Vós sois como sepulcros caiados: por fora parecem belos, mas por dentro estão cheios de ossos de mortos e de toda podridão! 28 Assim também vós: por fora, pareceis justos diante dos outros, mas por dentro estais cheios de hipocrisia e injustiça. 29 Aí de vós, mestres da Lei e fariseus hipócritas! Vós construís sepulcros para os profetas e enfeitais os túmulos dos justos, 30 e dizeis: 'Se tivéssemos vivido no tempo de nossos pais, não teríamos sido cúmplices da morte dos profetas'. 31 Com isso, confessais que sois filhos daqueles que mataram os profetas. 32 Completai, pois, a medida de vossos pais!\" —",
-    "keyVerse": "O amor de Deus se realiza em todo aquele que guarda sua palavra fielmente."
+    "body": "Naquele tempo disse Jesus aos seus discípulos: 42 \"Ficai atentos! porque não sabeis em que dia virá o Senhor. 43 Compreendei bem isso: se o dono da casa soubesse a que horas viria o ladrão, certamente vigiaria e não deixaria que a sua casa fosse arrombada. 44 Por isso, também vós ficai preparados! Porque na hora em que menos pensais, o Filho do Homem virá. 45 Qual é o empregado fiel e prudente, que o senhor colocou como responsável pelos demais empregados, para lhes dar alimento na hora certa? 46 Feliz o empregado, cujo senhor o encontrar agindo assim, quando voltar. 47 Em verdade vos digo, ele lhe confiará a administração de todos os seus bens. 48 Mas, se o empregado mau pensar: 'Meu senhor está demorando', 49 e começar a bater nos companheiros, a comer e a beber com os bêbados; 50 então o senhor desse empregado virá no dia em que ele não espera, e na hora que ele não sabe. 51 Ele o partirá ao meio e lhe imporá a sorte dos hipócritas. Ali haverá choro e ranger de dentes\". —",
+    "keyVerse": "Vigiai, diz Jesus, vigiai, pois, no dia em que não esperais, o vosso Senhor há de vir."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Gallagher em Moscou: a guerra deve terminar",
-      "summary": "Ao término de uma longa conversa com o ministro das Relações Exteriores da Federação Russa, Sergey Lavrov, o secretário para as Relações com os Estados divulgou uma declaração durante a coletiva de imprensa conjunta, na qual reiterou o.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-08/santa-se-russia-ucrania-moscou-patriarcado-ortodoxos-gallagher.html",
+      "title": "Papa sobre a reforma litúrgica: a participação dos fiéis não pode ser passiva",
+      "summary": "Leão XIV dedicou a catequese da Audiência Geral desta quarta-feira (26/08) às razões que levaram o Concílio Vaticano II a promover a reforma litúrgica. O Pontífice destacou que a liturgia é uma realidade viva, inserida na tradição da.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/catequese-audiencia-geral-papa-leao-xiv-reforma-liturgica-26-08.html",
       "published": "2026-08-26"
     },
     {
       "source": "Vatican News",
-      "title": "Papa aos poloneses: que os Votos de Jasna Góra inspirem justiça e fraternidade",
-      "summary": "Leão XIV, na Audiência Geral, saúda os peregrinos reunidos em Jasna Góra, no Santuário de Nossa Senhora de Częstochowa, na Polônia, onde nesta quarta-feira, 26 de agosto, 70 anos após o evento histórico de 1956, foram renovados os Votos.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-audiencia-geral-saudacao-poloneses-jasna-gora-2026.html",
+      "title": "Leão XIV recebe bispos luteranos pelo desejo comum de reconciliação",
+      "summary": "Antes da Audiência Geral desta quarta-feira (26/08), o Papa encontrou uma delegação da Igreja Luterana da Noruega e agradeceu pela visita, num \"esforço conjunto para buscar caminhos concretos de reconciliação e fraternidade\". Leão XIV.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-audiencia-bispos-igreja-luterana-noruega-260826.html",
       "published": "2026-08-26"
     },
     {
       "source": "CNBB",
-      "title": "A serenidade a lucidez necessárias para um discernimento cidadão e cristão nas eleições",
-      "summary": "Dom Roberto Francisco Ferreria Paz Bispo de Campos (RJ) As eleições políticas na atual conjuntura que vive a humanidade envolvem muito mais que a escolha de candidatos. Questões graves e sérias como democracia, soberania, vida e dignidade.",
-      "url": "https://www.cnbb.org.br/a-serenidade-a-lucidez-necessarias-para-um-discernimento-cidadao-e-cristao-nas-eleicoes/",
+      "title": "Grupo de Trabalho sobre Inteligência Artificial inicia atividades com bispos, assessores da CNB",
+      "summary": "\"Composto por acadêmicos, professores e especialistas em setores impactados por essas tecnologias, o grupo tem a missão de oferecer à CNBB — tanto às suas comissões quanto à presidência — subsídios e reflexões fundamentadas\", explicou o.",
+      "url": "https://www.cnbb.org.br/grupo-de-trabalho-sobre-inteligencia-artificial/",
       "published": "2026-08-26"
     },
     {
       "source": "CNBB",
-      "title": "A fidelidade que não cochila: lições de Santa Mônica para quem espera",
-      "summary": "Dom Anuar Battisti Arcebispo Emérito de Maringá (PR) Vigilância, perseverança e a certeza de que nenhuma lágrima é derramada em vão Há uma forma de espera que desgasta, e outra que fortalece. Quem já esperou muito tempo por algo.",
-      "url": "https://www.cnbb.org.br/a-fidelidade-que-nao-cochila-licoes-de-santa-monica-para-quem-espera/",
+      "title": "Conselho Episcopal Pastoral (Consep) avalia recepção das Diretrizes e acompanha processos e açõ",
+      "summary": "O Conselho Episcopal Pastoral (Consep) da CNBB reuniu-se nesta terça-feira, 26 de agosto, de forma online, para acompanhar os principais processos pastorais da Igreja no Brasil. Entre os temas debatidos estiveram a recepção das Diretrizes.",
+      "url": "https://www.cnbb.org.br/conselho-episcopal-pastoral-consep-avalia-recepcao-das-diretrizes-e-acompanha-processos-e-acoes-da-cnbb/",
       "published": "2026-08-26"
     },
     {
       "source": "ACI Digital",
-      "title": "CNBB lança hotsite para acompanhar a implementação do Sínodo sobre a Sinodalidade",
-      "summary": "A Conferência Nacional dos Bispos do Brasil (CNBB) lançou ontem (25) um hotsite sobre o Sínodo sobre a Sinodalidade para acompanhar a fase de recepção e implementação do documento final da sinodalidade nas igrejas locais. Segundo a CNBB,.",
-      "url": "https://www.acidigital.com/noticia/69531/cnbb-lanca-hotsite-para-acompanhar-a-implementacao-do-sinodo-sobre-a-sinodalidade",
+      "title": "Concílio Vaticano II reformou a liturgia para promover participação ativa, diz Leão XIV",
+      "summary": "CIDADE DO VATICANO — O papa Leão XIV descreveu hoje (26) as reformas litúrgicas que se seguiram ao Concílio Vaticano II como necessárias para incentivar a participação ativa dos fiéis. “Uma vez que os gestos e as palavras da sagrada liturgia são decisivos para concretizar essa experiência, a participação dos fiéis não pode ser passiva”, disse Leão XIV. “A reforma litúrgica promovida pelo Concílio Vaticano II se insere, portanto, na tradição viva da Igreja”....",
+      "url": "https://www.acidigital.com/noticia/69521/concilio-vaticano-ii-reformou-a-liturgia-para-promover-participacao-ativa-diz-leao-xiv",
       "published": "2026-08-26"
     },
     {
       "source": "Shalom",
-      "title": "Supera-te reúne mais de 5.500 espectadores na primeira aula e continua hoje",
-      "summary": "Uma jornada para quem deseja uma vida curada e livre segue nesta quarta-feira, com uma nova aula online sobre aceitação, liberdade e felicidade 500 espectadores na primeira aula e continua hoje proviene da Comunidade Católica Shalom .",
-      "url": "https://comshalom.org/supera-te-reune-mais-de-5-500-espectadores-na-primeira-aula-e-continua-hoje/",
+      "title": "Pedro: um homem tocado pela graça",
+      "summary": "Pedro era pescador. Quando Jesus o chama, não o convida apenas a segui-Lo, mas também a uma mudança de mentalidade (cf. Lc 5). Simão Pedro era um homem com família, trabalho, projetos e uma vida comum. Quando Jesus o chamou, não deixou de ser humano; Jesus o conhecia. Não se tornou perfeito, nem deixou de ter defeitos. Pelo contrário, o Evangelho nos apresenta constantemente a humanidade de Pedro. Com frequência pensamos nele como a rocha, o primeiro Papa, o grande apóstolo....",
+      "url": "https://comshalom.org/pedro-um-homem-tocado-pela-graca/",
       "published": "2026-08-26"
     },
     {
       "source": "Gaudium Press",
-      "title": "continua analisando estatutos da Conferência Sinodal alemã",
-      "summary": "O presidente da Conferência Episcopal Alemã confirma que os estatutos da Conferência Sinodal continuam em análise em Roma e que a reunião prevista para novembro provavelmente não será realizada. Redação ( 26/08/2026 09:37 , Gaudium Press.",
-      "url": "https://gaudiumpress.org/content/vaticano-continua-analisando-estatutos-da-conferencia-sinodal-alema/",
+      "title": "China: Igreja clandestina teria ordenado pelo menos 10 bispos em segredo",
+      "summary": "O renomado historiador e especialista em Igreja na Ásia, Dr. Anthony E. Clark, descreveu o cenário dramático e complexo que a comunidade católica enfrenta na República Popular da China. Dr. Clark – Foto: Wikipedia Redação ( 26/08/2026.",
+      "url": "https://gaudiumpress.org/content/china-igreja-clandestina-teria-ordenado-pelo-menos-10-bispos-em-segredo/",
       "published": "2026-08-26"
     }
   ],
   "closingQuote": {
-    "text": "Sois filhos daqueles que mataram os profetas.",
-    "source": "Mateus 23,27-32"
+    "text": "Nada está longe de Deus.",
+    "source": "Santa Mónica"
   },
   "liturgyHours": {
-    "reading": "Meu filho, sê vigilante em todas as tuas obras e mostra-te prudente em tua conversação. Não faças a ninguém o que para ti não desejas. Dá de teu pão a quem tem fome, e de tuas vestes aos que estão despidos. Dá de esmola todo o teu supérfluo. Bendize...",
+    "reading": "Pela misericórdia de Deus, eu vos exorto, irmãos, a vos oferecerdes em sacrifício vivo, santo e agradável a Deus: Este é o vosso culto espiritual. Não vos conformeis com o mundo, mas transformai-vos, renovando vossa maneira de pensar e de julgar,...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
