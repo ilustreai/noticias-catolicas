@@ -3,17 +3,17 @@
   "editionLabel": "27 de agosto de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "27 de agosto de 2026 - Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
+    "celebrationTitle": "Santa Mónica",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
     "gospelShort": "Mt 24,42-51"
   },
   "saint": {
     "feast": "Santa Mónica",
     "name": "Santa Mônica, mãe de Santo Agostinho",
-    "description": "Celebração litúrgica do dia: 27 de agosto de 2026 - Tempo Comum.",
+    "description": "Celebração litúrgica do dia: Santa Mónica.",
     "url": "https://santo.cancaonova.com/santo/santa-monica-mae-de-santo-agostinho1/"
   },
   "gospel": {
@@ -39,51 +39,51 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa sobre a reforma litúrgica: a participação dos fiéis não pode ser passiva",
-      "summary": "Leão XIV dedicou a catequese da Audiência Geral desta quarta-feira (26/08) às razões que levaram o Concílio Vaticano II a promover a reforma litúrgica. O Pontífice destacou que a liturgia é uma realidade viva, inserida na tradição da.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/catequese-audiencia-geral-papa-leao-xiv-reforma-liturgica-26-08.html",
-      "published": "2026-08-26"
+      "title": "Papa sobre o combate aos vícios: a Igreja deve ser a família de todas as pessoas",
+      "summary": "\"Nossa contribuição\", afirma Leão XIV a participantes de encontro internacional sobre enfrentamento à problemática dos vícios, \"deve ser direcionada ao cuidado, à presença e à reconstrução do tecido comunitário\", sem ficar indiferentes.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-pontificia-comissao-america-latina-27-agosto-2026.html",
+      "published": "2026-08-27"
     },
     {
       "source": "Vatican News",
-      "title": "Leão XIV recebe bispos luteranos pelo desejo comum de reconciliação",
-      "summary": "Antes da Audiência Geral desta quarta-feira (26/08), o Papa encontrou uma delegação da Igreja Luterana da Noruega e agradeceu pela visita, num \"esforço conjunto para buscar caminhos concretos de reconciliação e fraternidade\". Leão XIV.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-audiencia-bispos-igreja-luterana-noruega-260826.html",
+      "title": "Gallagher em Moscou: a guerra deve terminar",
+      "summary": "Ao término de uma longa conversa com o ministro das Relações Exteriores da Federação Russa, Sergey Lavrov, o secretário para as Relações com os Estados divulgou uma declaração durante a coletiva de imprensa conjunta, na qual reiterou o.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-08/santa-se-russia-ucrania-moscou-patriarcado-ortodoxos-gallagher.html",
       "published": "2026-08-26"
     },
     {
       "source": "CNBB",
-      "title": "Grupo de assessores se reúne com ampla pauta de temas da ação pastoral da Igreja no Brasil",
-      "summary": "O encontro tem na pauta temas como a formação de presbíteros, o ensino religioso e as Diretrizes Gerais da Ação Evangelizadora da Igreja no Brasil. Padre Tiago Camargo, subsecretário adjunto de Pastoral, explica que as reuniões do Grupo.",
-      "url": "https://www.cnbb.org.br/grupo-de-assessores-ampla-pauta-acao-pastoral-agosto-2026/",
+      "title": "Educar para a vida começa nas pequenas coisas",
+      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) Os pais, geralmente, vivem cercados por grandes projetos para o futuro dos filhos. Desde cedo, pensam na escola, nos cursos, no aprendizado de idiomas, na universidade e na profissão. Tudo.",
+      "url": "https://www.cnbb.org.br/educar-para-a-vida-comeca-nas-pequenas-coisas/",
       "published": "2026-08-27"
     },
     {
       "source": "CNBB",
-      "title": "Segundo episódio do podcast “Discernimento Católico” aborda participação e cidadania nas eleiçõ",
-      "summary": "A participação dos cristãos na vida política e a responsabilidade cidadã para além do voto são os temas centrais do segundo episódio do podcast “Discernimento Católico - Eleições 2026”, produzido pela CNBB. A edição conta com as reflexões.",
-      "url": "https://www.cnbb.org.br/podcast-discernimento-catolico-aborda-participacao-e-cidadania-nas-eleicoes-de-2026/",
+      "title": "58ª Assembleia Regional de Pastoral define caminhos para a ação evangelizadora em Santa Catarin",
+      "summary": "Entre os dias 19 e 21 de agosto de 2026, o regional Sul 4 da Conferência Nacional dos Bispos do Brasil (CNBB) realizou a 58ª Assembleia Regional de Pastoral, na Casa de Encontro Dom Anselmo, na Diocese de Tubarão (SC). O encontro reuniu.",
+      "url": "https://www.cnbb.org.br/58a-assembleia-regional-de-pastoral-define-caminhos-para-a-acao-evangelizadora-em-santa-catarina/",
       "published": "2026-08-27"
     },
     {
       "source": "ACI Digital",
-      "title": "Paróquia nos EUA homenageia vítimas de tiroteio em igreja com afresco",
-      "summary": "Por meio da arte sacra, uma paróquia vizinha presta homenagem à comunidade da paróquia da Anunciação em Minneapolis, EUA, depois de um tiroteio mortal há um ano.",
-      "url": "https://www.acidigital.com/noticia/69535/paroquia-nos-eua-homenageia-vitimas-de-tiroteio-em-igreja-com-afresco",
-      "published": "2026-08-27"
-    },
-    {
-      "source": "Shalom",
-      "title": "Terremoto na Colômbia: Shalom Bogotá se mobiliza para ajudar famílias afetadas",
-      "summary": "A Missão da Comunidade Shalom em Bogotá se une à mobilização solidária após o terremoto na Colômbia e arrecada doações que serão encaminhadas aos desalojados.",
-      "url": "https://comshalom.org/terremoto-na-colombia-shalom-bogota-se-mobiliza-para-ajudar-familias-afetadas/",
-      "published": "2026-08-27"
+      "title": "Concílio Vaticano II reformou a liturgia para promover participação ativa, diz Leão XIV",
+      "summary": "CIDADE DO VATICANO — O papa Leão XIV descreveu hoje (26) as reformas litúrgicas que se seguiram ao Concílio Vaticano II como necessárias para incentivar a participação ativa dos fiéis. “Uma vez que os gestos e as palavras da sagrada liturgia são decisivos para concretizar essa experiência, a participação dos fiéis não pode ser passiva”, disse Leão XIV. “A reforma litúrgica promovida pelo Concílio Vaticano II se insere, portanto, na tradição viva da Igreja”....",
+      "url": "https://www.acidigital.com/noticia/69521/concilio-vaticano-ii-reformou-a-liturgia-para-promover-participacao-ativa-diz-leao-xiv",
+      "published": "2026-08-26"
     },
     {
       "source": "Aleteia",
       "title": "Leão XIV explica as razões para a reforma litúrgica do Vaticano II",
       "summary": "Em sua audiência geral em 26 de agosto, o Papa Leão XIV continuou sua catequese no Sacrosanctum Concilium, o documento do Vaticano II sobre a liturgia. Ele explicou as ideias por trás da reforma, citando St. Paulo VI antes de ser eleito.",
       "url": "https://pt.aleteia.org/2026/08/27/leao-xiv-explica-as-razoes-para-a-reforma-liturgica-do-vaticano-ii/",
+      "published": "2026-08-27"
+    },
+    {
+      "source": "Gaudium Press",
+      "title": "O plano A+A de Deus ganha destaque na Igreja",
+      "summary": "À beira de um novo século, uma nova Graça, um novo ideal. Eis a conjuntura na qual alguns homens se lançaram à descoberta de um Novo Mundo. Redação ( 26/08/2026 15:46 , Gaudium Press ) Olhares ansiosos e indecisos fitaram a chegada do.",
+      "url": "https://gaudiumpress.org/content/o-plano-aa-de-deus/",
       "published": "2026-08-27"
     }
   ],
