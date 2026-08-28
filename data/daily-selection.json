@@ -1,34 +1,34 @@
 {
-  "date": "2026-08-27",
-  "editionLabel": "27 de agosto de 2026",
+  "date": "2026-08-28",
+  "editionLabel": "28 de agosto de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santa Mónica",
+    "celebrationTitle": "Santo Agostinho, bispo e doutor da Igreja",
     "colorName": "branco",
     "cssColor": "#FFFFFF",
-    "gospelShort": "Mt 24,42-51"
+    "gospelShort": "Mt 25,1-13"
   },
   "saint": {
-    "feast": "Santa Mónica",
-    "name": "Santa Mônica, mãe de Santo Agostinho",
-    "description": "Celebração litúrgica do dia: Santa Mónica.",
-    "url": "https://santo.cancaonova.com/santo/santa-monica-mae-de-santo-agostinho1/"
+    "feast": "Santo Agostinho\\, bispo e doutor da Igreja",
+    "name": "Santo Agostinho, doutor da Igreja",
+    "description": "Celebração litúrgica do dia: Santo Agostinho, bispo e doutor da Igreja.",
+    "url": "https://santo.cancaonova.com/santo/santo-agostinho-doutor-da-igreja-2/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 24,42-51)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 25,1-13)",
     "lines": [
-      "Naquele tempo disse Jesus aos seus discípulos: Ficai atentos!",
-      "porque não sabeis em que dia virá o Senhor.",
-      "Compreendei bem isso: se o dono da casa soubesse a que horas viria o ladrão, certamente vigiaria e não deixaria que a sua casa fosse arrombada.",
-      "Por isso, também vós ficai preparados!",
-      "Porque na hora em que menos pensais, o Filho do Homem virá.",
-      "Qual é o empregado fiel e prudente, que o senhor colocou como responsável pelos demais empregados, para lhes dar alimento na hora certa?",
-      "Feliz o empregado, cujo senhor o encontrar agindo assim, quando voltar."
+      "Naquele tempo, disse Jesus aos seus discípulos esta parábola: O Reino dos Céus é como a história das dez jovens que pegaram suas lâmpadas de óleo e saíram ao encontro do noivo.",
+      "Cinco delas eram imprevidentes, e as outras cinco eram previdentes.",
+      "As imprevidentes pegaram as suas lâmpadas, mas não levaram óleo consigo.",
+      "As previdentes, porém, levaram vasilhas com óleo junto com as lâmpadas.",
+      "O noivo estava demorando e todas elas acabaram cochilando e dormindo.",
+      "No meio da noite, ouviu-se um grito: O noivo está chegando.",
+      "Ide ao seu encontro! Então as dez jovens se levantaram e prepararam as lâmpadas."
     ],
-    "body": "Naquele tempo disse Jesus aos seus discípulos: 42 \"Ficai atentos! porque não sabeis em que dia virá o Senhor. 43 Compreendei bem isso: se o dono da casa soubesse a que horas viria o ladrão, certamente vigiaria e não deixaria que a sua casa fosse arrombada. 44 Por isso, também vós ficai preparados! Porque na hora em que menos pensais, o Filho do Homem virá. 45 Qual é o empregado fiel e prudente, que o senhor colocou como responsável pelos demais empregados, para lhes dar alimento na hora certa? 46 Feliz o empregado, cujo senhor o encontrar agindo assim, quando voltar. 47 Em verdade vos digo, ele lhe confiará a administração de todos os seus bens. 48 Mas, se o empregado mau pensar: 'Meu senhor está demorando', 49 e começar a bater nos companheiros, a comer e a beber com os bêbados; 50 então o senhor desse empregado virá no dia em que ele não espera, e na hora que ele não sabe. 51 Ele o partirá ao meio e lhe imporá a sorte dos hipócritas. Ali haverá choro e ranger de dentes\". —",
-    "keyVerse": "Vigiai, diz Jesus, vigiai, pois, no dia em que não esperais, o vosso Senhor há de vir."
+    "body": "Naquele tempo, disse Jesus aos seus discípulos esta parábola: 1 \"O Reino dos Céus é como a história das dez jovens que pegaram suas lâmpadas de óleo e saíram ao encontro do noivo. 2 Cinco delas eram imprevidentes, e as outras cinco eram previdentes. 3 As imprevidentes pegaram as suas lâmpadas, mas não levaram óleo consigo. 4 As previdentes, porém, levaram vasilhas com óleo junto com as lâmpadas. 5 O noivo estava demorando e todas elas acabaram cochilando e dormindo. 6 No meio da noite, ouviu-se um grito: 'O noivo está chegando. Ide ao seu encontro!' 7 Então as dez jovens se levantaram e prepararam as lâmpadas. 8 As imprevidentes disseram às previdentes: 'Dai-nos um pouco de óleo, porque nossas lâmpadas estão se apagando'. 9 As previdentes responderam: 'De modo nenhum, porque o óleo pode ser insuficiente para nós e para vós. &Eacute; melhor irdes comprar aos vendedores'. 10 Enquanto elas foram comprar óleo, o noivo chegou, e as que estavam preparadas entraram com ele para a festa de casamento. E a porta se fechou. 11 Por fim, chegaram também as outras jovens e disseram: 'Senhor! Senhor! Abre-nos a porta!' 12 Ele, porém, respondeu: 'Em verdade eu vos digo: Não vos conheço!' 13 Portanto, ficai vigiando, pois não sabeis qual será o dia nem a hora\". —",
+    "keyVerse": "Vigiai e orai para ficardes de pé, ante o Filho do Homem!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa sobre o combate aos vícios: a Igreja deve ser a família de todas as pessoas",
-      "summary": "\"Nossa contribuição\", afirma Leão XIV a participantes de encontro internacional sobre enfrentamento à problemática dos vícios, \"deve ser direcionada ao cuidado, à presença e à reconstrução do tecido comunitário\", sem ficar indiferentes.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-pontificia-comissao-america-latina-27-agosto-2026.html",
+      "title": "Reina: João Paulo I, uma vida humilde moldada pelas mãos de Deus",
+      "summary": "O vigário do Papa para a diocese de Roma, na memória litúrgica do Beato Albino Luciani, celebrou a Missa na Basílica Vaticana, recordando sua serenidade, que brotava da certeza de ser guiado pelo Senhor. Em Canale d’Agordo, na província.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-08/joao-paulo-i-reina-memoria-liturgica-humildade-docilidade.html",
       "published": "2026-08-27"
     },
     {
       "source": "Vatican News",
-      "title": "Gallagher em Moscou: a guerra deve terminar",
-      "summary": "Ao término de uma longa conversa com o ministro das Relações Exteriores da Federação Russa, Sergey Lavrov, o secretário para as Relações com os Estados divulgou uma declaração durante a coletiva de imprensa conjunta, na qual reiterou o.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-08/santa-se-russia-ucrania-moscou-patriarcado-ortodoxos-gallagher.html",
-      "published": "2026-08-26"
-    },
-    {
-      "source": "CNBB",
-      "title": "Educar para a vida começa nas pequenas coisas",
-      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) Os pais, geralmente, vivem cercados por grandes projetos para o futuro dos filhos. Desde cedo, pensam na escola, nos cursos, no aprendizado de idiomas, na universidade e na profissão. Tudo.",
-      "url": "https://www.cnbb.org.br/educar-para-a-vida-comeca-nas-pequenas-coisas/",
+      "title": "A dor do Papa pelas vítimas da inundação no Nepal",
+      "summary": "Leão XIV expressa seu pesar pelo desastre natural que atingiu o país por meio de um telegrama assinado pelo cardeal secretário de Estado, Pietro Parolin. O Pontífice confia a Deus as almas daqueles que perderam a vida, reza pelas equipes.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/telegrama-papa-pesar-inundacoes-nepal-27-agosto.html",
       "published": "2026-08-27"
     },
     {
       "source": "CNBB",
-      "title": "58ª Assembleia Regional de Pastoral define caminhos para a ação evangelizadora em Santa Catarin",
-      "summary": "Entre os dias 19 e 21 de agosto de 2026, o regional Sul 4 da Conferência Nacional dos Bispos do Brasil (CNBB) realizou a 58ª Assembleia Regional de Pastoral, na Casa de Encontro Dom Anselmo, na Diocese de Tubarão (SC). O encontro reuniu.",
-      "url": "https://www.cnbb.org.br/58a-assembleia-regional-de-pastoral-define-caminhos-para-a-acao-evangelizadora-em-santa-catarina/",
+      "title": "Grupo de assessores se reúne com ampla pauta de temas da ação pastoral da Igreja no Brasil",
+      "summary": "O encontro tem na pauta temas como a formação de presbíteros, o ensino religioso e as Diretrizes Gerais da Ação Evangelizadora da Igreja no Brasil. Padre Tiago Camargo, subsecretário adjunto de Pastoral, explica que as reuniões do Grupo.",
+      "url": "https://www.cnbb.org.br/grupo-de-assessores-ampla-pauta-acao-pastoral-agosto-2026/",
+      "published": "2026-08-27"
+    },
+    {
+      "source": "CNBB",
+      "title": "Segundo episódio do podcast “Discernimento Católico” aborda participação e cidadania nas eleiçõ",
+      "summary": "A participação dos cristãos na vida política e a responsabilidade cidadã para além do voto são os temas centrais do segundo episódio do podcast “Discernimento Católico - Eleições 2026”, produzido pela CNBB. A edição conta com as reflexões.",
+      "url": "https://www.cnbb.org.br/podcast-discernimento-catolico-aborda-participacao-e-cidadania-nas-eleicoes-de-2026/",
       "published": "2026-08-27"
     },
     {
       "source": "ACI Digital",
-      "title": "Concílio Vaticano II reformou a liturgia para promover participação ativa, diz Leão XIV",
-      "summary": "CIDADE DO VATICANO — O papa Leão XIV descreveu hoje (26) as reformas litúrgicas que se seguiram ao Concílio Vaticano II como necessárias para incentivar a participação ativa dos fiéis. “Uma vez que os gestos e as palavras da sagrada liturgia são decisivos para concretizar essa experiência, a participação dos fiéis não pode ser passiva”, disse Leão XIV. “A reforma litúrgica promovida pelo Concílio Vaticano II se insere, portanto, na tradição viva da Igreja”....",
-      "url": "https://www.acidigital.com/noticia/69521/concilio-vaticano-ii-reformou-a-liturgia-para-promover-participacao-ativa-diz-leao-xiv",
-      "published": "2026-08-26"
+      "title": "Nove dados sobre os Padres da Igreja",
+      "summary": "Os Padres da Igreja são santos dos primeiros séculos que, com seus escritos doutrinários, configuraram a Igreja Católica como a conhecemos hoje.",
+      "url": "https://www.acidigital.com/noticia/53080/nove-dados-que-deve-conhecer-sobre-os-padres-da-igreja",
+      "published": "2026-08-28"
     },
     {
-      "source": "Aleteia",
-      "title": "Leão XIV explica as razões para a reforma litúrgica do Vaticano II",
-      "summary": "Em sua audiência geral em 26 de agosto, o Papa Leão XIV continuou sua catequese no Sacrosanctum Concilium, o documento do Vaticano II sobre a liturgia. Ele explicou as ideias por trás da reforma, citando St. Paulo VI antes de ser eleito.",
-      "url": "https://pt.aleteia.org/2026/08/27/leao-xiv-explica-as-razoes-para-a-reforma-liturgica-do-vaticano-ii/",
+      "source": "Shalom",
+      "title": "Terremoto na Colômbia: Shalom Bogotá se mobiliza para ajudar famílias afetadas",
+      "summary": "A Missão da Comunidade Shalom em Bogotá se une à mobilização solidária após o terremoto na Colômbia e arrecada doações que serão encaminhadas aos desalojados.",
+      "url": "https://comshalom.org/terremoto-na-colombia-shalom-bogota-se-mobiliza-para-ajudar-familias-afetadas/",
       "published": "2026-08-27"
     },
     {
-      "source": "Gaudium Press",
-      "title": "O plano A+A de Deus ganha destaque na Igreja",
-      "summary": "À beira de um novo século, uma nova Graça, um novo ideal. Eis a conjuntura na qual alguns homens se lançaram à descoberta de um Novo Mundo. Redação ( 26/08/2026 15:46 , Gaudium Press ) Olhares ansiosos e indecisos fitaram a chegada do.",
-      "url": "https://gaudiumpress.org/content/o-plano-aa-de-deus/",
-      "published": "2026-08-27"
+      "source": "Shalom",
+      "title": "Um grande mestre que vale a pena conhecer: Santo Agostinho",
+      "summary": "Aurélio Agostinho de Hipona, foi um dos mais importantes teólogos e filósofos nos primeiros séculos do cristianismo, cujas obras foram muito influentes no desenvolvimento do cristianismo e filosofia ocidental.",
+      "url": "https://comshalom.org/um-grande-mestre-que-vale-a-pena-conhecer-e-escutar-santo-agostinho/",
+      "published": "2026-08-28"
     }
   ],
   "closingQuote": {
-    "text": "Nada está longe de Deus.",
-    "source": "Santa Mónica"
+    "text": "A medida do amor é amar sem medida.",
+    "source": "Santo Agostinho"
   },
   "liturgyHours": {
-    "reading": "Pela misericórdia de Deus, eu vos exorto, irmãos, a vos oferecerdes em sacrifício vivo, santo e agradável a Deus: Este é o vosso culto espiritual. Não vos conformeis com o mundo, mas transformai-vos, renovando vossa maneira de pensar e de julgar,...",
+    "reading": "Aprendi a Sabedoria sem maldade e reparto-a sem inveja; não escondo a sua riqueza. É um tesouro inesgotável para os homens; os que a adquirem atraem a amizade de Deus, porque recomendados pelos dons da instrução.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
