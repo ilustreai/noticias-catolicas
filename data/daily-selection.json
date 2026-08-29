@@ -1,34 +1,34 @@
 {
-  "date": "2026-08-28",
-  "editionLabel": "28 de agosto de 2026",
+  "date": "2026-08-29",
+  "editionLabel": "29 de agosto de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santo Agostinho, bispo e doutor da Igreja",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Mt 25,1-13"
+    "celebrationTitle": "Martírio de São João Batista",
+    "colorName": "vermelho",
+    "cssColor": "#C62828",
+    "gospelShort": "Mc 6,17-29"
   },
   "saint": {
-    "feast": "Santo Agostinho\\, bispo e doutor da Igreja",
-    "name": "Santo Agostinho, doutor da Igreja",
-    "description": "Celebração litúrgica do dia: Santo Agostinho, bispo e doutor da Igreja.",
-    "url": "https://santo.cancaonova.com/santo/santo-agostinho-doutor-da-igreja-2/"
+    "feast": "\udd34 [M] Martírio de São João Batista",
+    "name": "Martírio de São João Batista, o mártir da verdade",
+    "description": "Celebração litúrgica do dia: Martírio de São João Batista.",
+    "url": "https://santo.cancaonova.com/santo/martirio-de-sao-joao-batista-o-martir-da-verdade/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 25,1-13)",
+    "ref": "Evangelho de Jesus Cristo segundo Marcos (Mc 6,17-29)",
     "lines": [
-      "Naquele tempo, disse Jesus aos seus discípulos esta parábola: O Reino dos Céus é como a história das dez jovens que pegaram suas lâmpadas de óleo e saíram ao encontro do noivo.",
-      "Cinco delas eram imprevidentes, e as outras cinco eram previdentes.",
-      "As imprevidentes pegaram as suas lâmpadas, mas não levaram óleo consigo.",
-      "As previdentes, porém, levaram vasilhas com óleo junto com as lâmpadas.",
-      "O noivo estava demorando e todas elas acabaram cochilando e dormindo.",
-      "No meio da noite, ouviu-se um grito: O noivo está chegando.",
-      "Ide ao seu encontro! Então as dez jovens se levantaram e prepararam as lâmpadas."
+      "Naquele tempo, Herodes tinha mandado prender João, e colocá-lo acorrentado na prisão.",
+      "Fez isso por causa de Herodíades, mulher do seu irmão Filipe, com quem se tinha casado.",
+      "João dizia a Herodes: Não te é permitido ficar com a mulher do teu irmão.",
+      "Por isso Herodíades o odiava e queria matá-lo, mas não podia.",
+      "Com efeito, Herodes tinha medo de João, pois sabia que ele era justo e santo, e por isso o protegia.",
+      "Gostava de ouvi-lo, embora ficasse embaraçado quando o escutava.",
+      "Finalmente, chegou o dia oportuno."
     ],
-    "body": "Naquele tempo, disse Jesus aos seus discípulos esta parábola: 1 \"O Reino dos Céus é como a história das dez jovens que pegaram suas lâmpadas de óleo e saíram ao encontro do noivo. 2 Cinco delas eram imprevidentes, e as outras cinco eram previdentes. 3 As imprevidentes pegaram as suas lâmpadas, mas não levaram óleo consigo. 4 As previdentes, porém, levaram vasilhas com óleo junto com as lâmpadas. 5 O noivo estava demorando e todas elas acabaram cochilando e dormindo. 6 No meio da noite, ouviu-se um grito: 'O noivo está chegando. Ide ao seu encontro!' 7 Então as dez jovens se levantaram e prepararam as lâmpadas. 8 As imprevidentes disseram às previdentes: 'Dai-nos um pouco de óleo, porque nossas lâmpadas estão se apagando'. 9 As previdentes responderam: 'De modo nenhum, porque o óleo pode ser insuficiente para nós e para vós. &Eacute; melhor irdes comprar aos vendedores'. 10 Enquanto elas foram comprar óleo, o noivo chegou, e as que estavam preparadas entraram com ele para a festa de casamento. E a porta se fechou. 11 Por fim, chegaram também as outras jovens e disseram: 'Senhor! Senhor! Abre-nos a porta!' 12 Ele, porém, respondeu: 'Em verdade eu vos digo: Não vos conheço!' 13 Portanto, ficai vigiando, pois não sabeis qual será o dia nem a hora\". —",
-    "keyVerse": "Vigiai e orai para ficardes de pé, ante o Filho do Homem!"
+    "body": "Naquele tempo, 17 Herodes tinha mandado prender João, e colocá-lo acorrentado na prisão. Fez isso por causa de Herodíades, mulher do seu irmão Filipe, com quem se tinha casado. 18 João dizia a Herodes: \"Não te é permitido ficar com a mulher do teu irmão\". 19 Por isso Herodíades o odiava e queria matá-lo, mas não podia. 20 Com efeito, Herodes tinha medo de João, pois sabia que ele era justo e santo, e por isso o protegia. Gostava de ouvi-lo, embora ficasse embaraçado quando o escutava. 21 Finalmente, chegou o dia oportuno. Era o aniversário de Herodes, e ele fez um grande banquete para os grandes da corte, os oficiais e os cidadãos importantes da Galileia. 22 A filha de Herodíades entrou e dançou, agradando a Herodes e seus convidados. Então o rei disse à moça: \"Pede-me o que quiseres e eu to darei\". 23 E lhe jurou dizendo: \"Eu te darei qualquer coisa que me pedires, ainda que seja a metade do meu reino\". 24 Ela saiu e perguntou à mãe: \"O que vou pedir?\" A mãe respondeu: \"A cabeça de João Batista\". 25 E, voltando depressa para junto do rei, pediu: \"Quero que me dês agora, num prato, a cabeça de João Batista\". 26 O rei ficou muito triste, mas não pôde recusar. Ele tinha feito o juramento diante dos convidados. 27 Imediatamente, o rei mandou que um soldado fosse buscar a cabeça de João. O soldado saiu, degolou-o na prisão, 28 trouxe a cabeça num prato e a deu à moça. Ela a entregou à sua mãe. 29 Ao saberem disso, os discípulos de João foram lá, levaram o cadáver e o sepultaram. —",
+    "keyVerse": "Felizes os que são perseguidos, por causa da justiça do Senhor, porque o Reino dos Céus há de ser deles!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa: doar-se, reconhecendo Jesus no próximo, para cuidar também de si mesmo",
-      "summary": "\"Acreditamos que o cuidado com o próximo, quando nasce do amor, não apenas ajude quem está em necessidade, mas também abra o coração de quem doa à graça de Deus. Queridos amigos, exorto-os, portanto, a sempre se doarem\", disse o Papa em.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-sao-vicente-de-paulo-congregacao-da-missao-eua-26.html",
-      "published": "2026-08-28"
+      "title": "Leão, o primeiro Papa a participar da procissão no Lago Albano",
+      "summary": "Neste sábado, 29 de agosto, Leão XIV celebrará em Castel Gandolfo a Santa Missa na festa de Nossa Senhora do Lago, na igreja consagrada por Paulo VI. Será o primeiro Pontífice a percorrer de barco o trecho da procissão sobre as águas,.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-castel-gandolfo-nossa-senhora-lago-procissao.html",
+      "published": "2026-08-29"
     },
     {
       "source": "Vatican News",
-      "title": "Papa: pesquisas sobre IA ajudem os governos a humanizar tecnologias digitais",
-      "summary": "Cerca de 500 pesquisadores de vários países encontraram Leão XIV e foram encorajados a continuar refletindo sobre o equilíbrio no uso das tecnologias digitais, sobretudo pela velocidade no progresso das ferramentas. Não é barrar a.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-leao-xiv-instituto-ciencias-administrativas-franca-2026.html",
+      "title": "Papa manifesta pesar pela morte do rei Harald V da Noruega",
+      "summary": "Em telegrama ao rei Haakon VIII, Leão XIV apresenta condolências à Família Real e ao povo norueguês, recorda os anos de serviço do monarca e assegura suas orações pelo descanso eterno do falecido rei. Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-08/papa-manifesta-pesar-pela-morte-do-rei-harald-v-da-noruega.html",
       "published": "2026-08-28"
     },
     {
       "source": "CNBB",
-      "title": "apresenta iniciativas de preservação de bens culturais no Fórum Brasileiro de Filantropos e",
-      "summary": "Padre Luciano da Silva Roberto, assessor da Comissão para a Cultura e a Educação da CNBB, e padre Leandro Megeto, subsecretário adjunto-geral da Conferência, representaram a instituição no evento que reuniu lideranças e especialistas para.",
-      "url": "https://www.cnbb.org.br/cnbb-apresenta-iniciativas-de-preservacao-de-bens-culturais/",
-      "published": "2026-08-28"
-    },
-    {
-      "source": "CNBB",
-      "title": "Renunciar para encontrar: o paradoxo da Cruz que liberta",
-      "summary": "Dom Anuar Battisti Arcebispo Emérito de Maringá (PR) O que fazer quando seguir a Deus dói mais do que imaginávamos Há momentos na vida em que fazer o bem parece trazer apenas sofrimento, cansaço e incompreensão dos outros. Já sentimos.",
-      "url": "https://www.cnbb.org.br/renunciar-para-encontrar-o-paradoxo-da-cruz-que-liberta/",
+      "title": "II Romaria Nacional de Catequistas começa em Aparecida com chamado à renovação da missão de anu",
+      "summary": "Promovida pela Comissão para a Animação Bíblico-Catequética da CNBB, a Romaria tem como tema “Transmitir a fé hoje” e como lema “O que vimos e ouvimos, vos anunciamos”. A proposta do encontro é fortalecer a missão daqueles que anunciam.",
+      "url": "https://www.cnbb.org.br/ii-romaria-nacional-de-catequistas-comeca-em-aparecida-com-chamado-a-renovacao-da-missao-de-anunciar-jesus-cristo/",
       "published": "2026-08-28"
     },
     {
       "source": "ACI Digital",
-      "title": "Igreja Católica Armênia em São Paulo ordena o primeiro diácono de sua história",
-      "summary": "A comunidade católica armênia de São Paulo celebrou no domingo (23) a ordenação diaconal de Mário (Mesrop) Nakashian Filho, primeira de sua história.",
-      "url": "https://www.acidigital.com/noticia/69567/igreja-catolica-armenia-em-sao-paulo-ordena-o-primeiro-diacono-de-sua-historia",
-      "published": "2026-08-28"
+      "title": "São João Paulo II elogiou o beato mártir que a Polônia celebra hoje",
+      "summary": "Hoje (29), a Igreja na Polônia recorda o sacerdote mártir Dominik Jedrzejewski, beatificado em 1999, por são João Paulo II, em uma cerimônia na qual pronunciou uma homilia que assume especial atualidade por ser um chamado à esperança e à.",
+      "url": "https://www.acidigital.com/noticia/53082/sao-joao-paulo-ii-elogiou-o-beato-martir-que-a-polonia-celebra-hoje",
+      "published": "2026-08-29"
     },
     {
       "source": "ACI Digital",
-      "title": "Quem vende seu voto não pode comungar porque é pecado, diz arcebispo de Maceió em homilia",
-      "summary": "“Eu peço a vocês que estão aqui, a você que me escuta pela Rádio Imaculada: Não venda o seu voto, não troque o seu voto, por favor. Quem faz isso, não pode comungar, porque é pecado”, disse o arcebispo de Maceió (AL), dom Carlos Alberto.",
-      "url": "https://www.acidigital.com/noticia/69569/quem-vende-seu-voto-nao-pode-comungar-porque-e-pecado-diz-arcebispo-de-maceio-em-homilia",
+      "title": "Leão XIV reza pelas vítimas de inundações no Nepal",
+      "summary": "Centenas de mortes foram registradas até o momento devido ao colapso de uma geleira ter causado inundações catastróficas na fronteira entre o Nepal e a China.",
+      "url": "https://www.acidigital.com/noticia/69553/leao-xiv-reza-pelas-vitimas-de-inundacoes-no-nepal",
       "published": "2026-08-28"
     },
     {
       "source": "Shalom",
-      "title": "Um grande mestre que vale a pena conhecer: Santo Agostinho",
-      "summary": "Aurélio Agostinho de Hipona, foi um dos mais importantes teólogos e filósofos nos primeiros séculos do cristianismo, cujas obras foram muito influentes no desenvolvimento do cristianismo e filosofia ocidental.",
-      "url": "https://comshalom.org/um-grande-mestre-que-vale-a-pena-conhecer-e-escutar-santo-agostinho/",
+      "title": "Comunidade Católica Shalom recebe Medalha São Francisco de Assis pelos 30 anos de missão no",
+      "summary": "Rio de Janeiro, 24 de agosto de 2026 — A Comunidade Católica Shalom recebeu, nesta segunda-feira (24), a Medalha São Francisco de Assis, durante solenidade realizada na Câmara Municipal do Rio de Janeiro. A honraria reconhece a atuação da Comunidade na cidade e ganha um significado especial no contexto dos 800 anos do Trânsito de São Francisco de Assis e da celebração dos 30 anos da presença do Shalom no Rio de Janeiro....",
+      "url": "https://comshalom.org/comunidade-catolica-shalom-recebe-medalha-sao-francisco-de-assis-pelos-30-anos-de-missao-no-rio-de-janeiro/",
+      "published": "2026-08-28"
+    },
+    {
+      "source": "Shalom",
+      "title": "Convenção Shalom terá Santa Missa no Altar Principal da Basílica de São Pedro",
+      "summary": "Celebração acontecerá no dia 19 de novembro, em Roma, como parte do início das comemorações pelos 45 anos da Comunidade Católica Shalom.",
+      "url": "https://comshalom.org/convencao-shalom-45-anos-missa-basilica-sao-pedro/",
       "published": "2026-08-28"
     }
   ],
   "closingQuote": {
-    "text": "A medida do amor é amar sem medida.",
-    "source": "Santo Agostinho"
+    "text": "\"Quero que me dês agora, num prato, a cabeça de João Batista\".",
+    "source": "Marcos 6,17-29"
   },
   "liturgyHours": {
-    "reading": "Aprendi a Sabedoria sem maldade e reparto-a sem inveja; não escondo a sua riqueza. É um tesouro inesgotável para os homens; os que a adquirem atraem a amizade de Deus, porque recomendados pelos dons da instrução.",
+    "reading": "O Senhor chamou-me antes de eu nascer, desde o ventre de minha mãe ele tinha na mente o meu nome; fez de minha palavra uma espada afiada, protegeu-me à sombra de sua mão e fez de mim uma flecha aguçada, escondida em sua aljava.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
