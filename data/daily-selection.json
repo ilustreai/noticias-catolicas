@@ -1,34 +1,34 @@
 {
-  "date": "2026-09-02",
-  "editionLabel": "2 de setembro de 2026",
+  "date": "2026-09-03",
+  "editionLabel": "3 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Quarta-Feira da Semana XXII do Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Lc 4,38-44"
+    "celebrationTitle": "São Gregorio Magno, papa e doutor da Igreja",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Lc 5,1-11"
   },
   "saint": {
-    "feast": "\udfe2 Quarta-Feira da Semana XXII do Tempo Comum",
-    "name": "Beata Ingrid Elofsdotter, viúva e freira dominicana",
-    "description": "Celebração litúrgica do dia: Quarta-Feira da Semana XXII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/beata-ingrid-elofsdotter-viuva-e-freira-dominicana/"
+    "feast": "São Gregorio Magno\\, papa e doutor da Igreja",
+    "name": "São Gregório Magno, doutor da Igreja",
+    "description": "Celebração litúrgica do dia: São Gregorio Magno, papa e doutor da Igreja.",
+    "url": "https://santo.cancaonova.com/santo/sao-gregorio-magno-doutor-da-igreja/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 4,38-44)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 5,1-11)",
     "lines": [
-      "Naquele tempo, Jesus saiu da sinagoga e entrou na casa de Simão.",
-      "A sogra de Simão estava sofrendo com febre alta, e pediram a Jesus em favor dela.",
-      "Inclinando-se sobre ela, Jesus ameaçou a febre, e a febre a deixou.",
-      "Imediatamente, ela se levantou e começou a servi-los.",
-      "Ao pôr do sol, todos os que tinham doentes atingidos por diversos males, os levaram a Jesus.",
-      "Jesus colocava as mãos em cada um deles e os curava.",
-      "De muitas pessoas também saíam demônios, gritando: Tu és o Filho de Deus."
+      "Naquele tempo, Jesus estava na margem do lago de Genesaré, e a multidão apertava-se ao seu redor para ouvir a palavra de Deus.",
+      "Jesus viu duas barcas paradas na margem do lago.",
+      "Os pescadores haviam desembarcado e lavavam as redes.",
+      "Subindo numa das barcas, que era de Simão, pediu que se afastasse um pouco da margem.",
+      "Depois sentou-se e, da barca, ensinava as multidões.",
+      "Quando acabou de falar, disse a Simão: Avança para águas mais profundas, e lançai vossas redes para a pesca.",
+      "Simão respondeu: Mestre, nós trabalhamos a noite inteira e nada pescamos."
     ],
-    "body": "Naquele tempo, 38 Jesus saiu da sinagoga e entrou na casa de Simão. A sogra de Simão estava sofrendo com febre alta, e pediram a Jesus em favor dela. 39 Inclinando-se sobre ela, Jesus ameaçou a febre, e a febre a deixou. Imediatamente, ela se levantou e começou a servi-los. 40 Ao pôr do sol, todos os que tinham doentes atingidos por diversos males, os levaram a Jesus. Jesus colocava as mãos em cada um deles e os curava. 41 De muitas pessoas também saíam demônios, gritando: \"Tu és o Filho de Deus\". Jesus os ameaçava, e não os deixava falar, porque sabiam que ele era o Messias. 42 Ao raiar do dia, Jesus saiu, e foi para um lugar deserto. As multidões o procuravam e, indo até ele, tentavam impedi-lo que os deixasse. 43 Mas Jesus disse: \"Eu devo anunciar a boa-nova do Reino de Deus também a outras cidades, porque para isso é que eu fui enviado\". 44 E pregava nas sinagogas da Judeia. —",
-    "keyVerse": "O Espírito do Senhor repousa sobre mim e enviou-me a anunciar aos pobres o Evangelho."
+    "body": "Naquele tempo, 1 Jesus estava na margem do lago de Genesaré, e a multidão apertava-se ao seu redor para ouvir a palavra de Deus. 2 Jesus viu duas barcas paradas na margem do lago. Os pescadores haviam desembarcado e lavavam as redes. 3 Subindo numa das barcas, que era de Simão, pediu que se afastasse um pouco da margem. Depois sentou-se e, da barca, ensinava as multidões. 4 Quando acabou de falar, disse a Simão: \"Avança para águas mais profundas, e lançai vossas redes para a pesca\". 5 Simão respondeu: \"Mestre, nós trabalhamos a noite inteira e nada pescamos. Mas, em atenção à tua palavra, vou lançar as redes\". 6 Assim fizeram, e apanharam tamanha quantidade de peixes que as redes se rompiam. 7 Então fizeram sinal aos companheiros da outra barca, para que viessem ajudá-los. Eles vieram, e encheram as duas barcas, a ponto de quase afundarem. 8 Ao ver aquilo, Simão Pedro atirou-se aos pés de Jesus, dizendo: \"Senhor, afasta-te de mim, porque sou um pecador!\" 9 &Eacute; que o espanto se apoderara de Simão e de todos os seus companheiros, por causa da pesca que acabavam de fazer. 10 Tiago e João, filhos de Zebedeu, que eram sócios de Simão, também ficaram espantados. Jesus, porém, disse a Simão: \"Não tenhas medo! De hoje em diante tu serás pescador de homens\". 11 Então levaram as barcas para a margem, deixaram tudo e seguiram a Jesus. —",
+    "keyVerse": "Vinde após mim, disse o Senhor, e eu ensinarei a pescar gente."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Audiência Geral: Papa encoraja alunos da Polônia a frequentar aulas de Religião",
-      "summary": "Durante a saudação aos fiéis de língua polonesa, Leão XIV falou da importância de participar das aulas de Religião e da catequese que ajudam a \"ampliar os horizontes, aprofundar o conhecimento de Deus e do mundo, bem como preparar para.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-aulas-religiao-escola-02092026.html",
+      "title": "Papa: a Igreja não pode permanecer passiva nem indiferente ao que acontece no mundo",
+      "summary": "Após a Sacrosanctum Concilium, agora é a vez da Constituição Pastoral Gaudium et Spes ser aprofundada pelo Papa Leão XIV em seu ciclo de catequeses sobre os documentos do Concílio Vaticano II. O texto trata da relação da Igreja com o.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-gaudium-et-spes-igreja-concilio.html",
       "published": "2026-09-02"
     },
     {
       "source": "Vatican News",
-      "title": "Missão, pastoral, liturgia, abusos: o \"mini-mestrado\" para novos bispos no Vaticano",
-      "summary": "De hoje, 2 de setembro, até quinta-feira, dia 10, será realizado o Curso anual de formação para pastores recentemente nomeados, provenientes dos cinco continentes. Ao todo, são 147 participantes de diferentes partes do mundo, divididos.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/novos-bispos-curso-anual-formacao-vaticano-dicasterio.html",
+      "title": "O cuidado com a Criação é uma questão teológica",
+      "summary": "A Comissão Teológica Internacional publica o documento “Cuidar da nossa Casa comum”, que convida a uma “resposta responsável e fraterna ao Deus trinitário”. A questão ecológica é uma questão teológica: a maneira como cuidamos da Criação.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/ambiente-ecologia-cuidado-criacao-documento-papa-leao-xiv.html",
       "published": "2026-09-02"
     },
     {
       "source": "CNBB",
-      "title": "Dom Wellington Queiroz: “onde uma criança é protegida, aí o Evangelho se torna concreto”",
-      "summary": "Presidente da Comissão para a Tutela de Menores e Adultos Vulneráveis da CNBB aprofundou os obstáculos e desafios para a prevenção dos abusos contra menores e pessoas vulneráveis nas Igreja da América Latina e Caribe: Beleza da comunidade.",
-      "url": "https://www.cnbb.org.br/dom-wellington-queiroz-onde-uma-crianca-e-protegida-ai-o-evangelho-se-torna-concreto/",
-      "published": "2026-09-01"
-    },
-    {
-      "source": "CNBB",
-      "title": "Painel sobre abusos não sexuais convidou a ampliar o olhar para outras formas que podem comprom",
-      "summary": "Padre Carrón, espanhol especialista em Proteção de Menores pela Universidade Gregoriana de Roma, apresentou tipos desses abusos, que podem ser de poder, psicológico, espiritual, de consciência e de confiança, inclusive digital. Também.",
-      "url": "https://www.cnbb.org.br/cultura-do-cuidado-abusos-nao-sexuais-padre-antonio-carron/",
+      "title": "Cardeais do Brasil participam de diálogo sobre Igreja e política às vésperas das eleições de 20",
+      "summary": "Os principais desafios relacionados às eleições de 2026 e a contribuição da Igreja Católica para a formação da consciência cidadã estarão no centro do programa especial “Igreja e política - Diálogo dos Cardeais do Brasil”, realizado nesta.",
+      "url": "https://www.cnbb.org.br/cardeais-do-brasil-participam-de-dialogo-sobre-igreja-e-politica-as-vesperas-das-eleicoes-de-2026/",
       "published": "2026-09-02"
     },
     {
       "source": "ACI Digital",
-      "title": "Enzo Bianchi, fundador da Comunidade Bose, morre aos 83 anos",
-      "summary": "O influente e controverso monge leigo italiano recentemente fez um apelo pela paz entre os fiéis que celebram as formas antigas e novas do rito romano.",
-      "url": "https://www.acidigital.com/noticia/69627/enzo-bianchi-fundador-da-comunidade-bose-morre-aos-83-anos",
+      "title": "Santa Sé monta sistema para atender religiosos excluídos de seu sistema de saúde",
+      "summary": "Há um mês e meio, a Santa Sé lançou uma iniciativa destinada a garantir assistência médica para religiosos e religiosas, missionários e outras pessoas ligadas à Igreja.",
+      "url": "https://www.acidigital.com/noticia/69635/santa-se-monta-sistema-para-atender-religiosos-excluidos-de-seu-sistema-de-saude",
       "published": "2026-09-02"
     },
     {
       "source": "Shalom",
-      "title": "Moysés Azevedo aos jovens: “Não tenham medo de fazer a vontade de Deus”",
-      "summary": "A Comunidade é chamada a colocar à disposição de Deus não apenas seus dons e talentos, mas também seu tempo, seus bens e toda a sua existência, em vista da consolidação da missão de evangelização em Natal.",
-      "url": "https://comshalom.org/moyses-azevedo-aos-jovens-nao-tenham-medo-de-fazer-a-vontade-de-deus/",
-      "published": "2026-09-01"
+      "title": "Grupos de peregrinos se preparam para a Convenção Shalom 2026",
+      "summary": "Missionários se organizam em grupos, trocam experiências e se apoiam mutuamente na preparação para a peregrinação a Roma.",
+      "url": "https://comshalom.org/grupos-de-peregrinos-se-preparam-para-a-convencao-shalom-2026/",
+      "published": "2026-09-02"
     },
     {
-      "source": "Gaudium Press",
-      "title": "Padre Zuhlsdorf: Vá em paz para outra paróquia com doutrina sólida",
-      "summary": "Este foi o conselho do padre norte-americano para o dilema dos fiéis que se deparam com confusão doutrinária em sua paróquia. Pe. Zuhlsdorf – Foto: Screenshot/ YouTube/ The Journey Home Program Redação ( 02/09/2026 10:05 , Gaudium Press ).",
-      "url": "https://gaudiumpress.org/content/padre-zuhlsdorf-va-em-paz-para-outra-paroquia-com-doutrina-solida/",
+      "source": "Shalom",
+      "title": "Reze a oração de intercessão pela Jornada Mundial da Juventude Seul 2027",
+      "summary": "A JMJ começa em agosto de 2027 e a Igreja se une em oração por todos os preparativos e pelos peregrinos que se programam para viver esse grande evento.",
+      "url": "https://comshalom.org/reze-a-oracao-de-intercessao-pela-jornada-mundial-da-juventude-seul-2027/",
+      "published": "2026-09-02"
+    },
+    {
+      "source": "Aleteia",
+      "title": "“Pedimos-te perdão porque fizemos da água uma mercadoria”: O apelo do Papa para setembro",
+      "summary": "A oração, divulgada pelo Vaticano em 1º de setembro, começa por apresentar a água como um dom de Deus: “Tu nos deste o dom da água, fonte de fecundidade, frescura e esperança.” Ela mata a sede, fecunda a terra e cura feridas. Mas, para.",
+      "url": "https://pt.aleteia.org/2026/09/02/pedimos-te-perdao-porque-fizemos-da-agua-uma-mercadoria-o-apelo-do-papa-para-setembro/",
       "published": "2026-09-02"
     }
   ],
   "closingQuote": {
-    "text": "Eu devo anunciar a Boa Nova do Reino de Deus também a outras cidades, porque para isso é que eu fui enviado.",
-    "source": "Lucas 4,38-44"
+    "text": "Eles deixaram tudo e seguiram a Jesus.",
+    "source": "Lucas 5,1-11"
   },
   "liturgyHours": {
-    "reading": "Quem nos separará do amor de Cristo? Tribulação? Angústia? Perseguição? Fome? Nudez? Perigo? Espada? Mas, em tudo isso, somos mais que vencedores, graças àquele que nos amou!",
+    "reading": "Aprendi a Sabedoria sem maldade e reparto-a sem inveja; não escondo a sua riqueza. É um tesouro inesgotável para os homens; os que a adquirem atraem a amizade de Deus, porque recomendados pelos dons da instrução.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
