@@ -39,60 +39,56 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa aos bispos das regiões árabes: “nenhum gesto em nome de Cristo é inútil”",
-      "summary": "Ao receber os membros da Conferência dos Bispos Latinos nas Regiões Árabes, o Papa recordou o testemunho dos mártires e pediu aos pastores proximidade com as comunidades atingidas por conflitos, migrações e divisões. Leão XIV também.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-audiencia-bispos-das-regioes-arabes-celra-3-setembro.html",
-      "published": "2026-09-03"
+      "title": "Audiência Geral: Papa encoraja alunos da Polônia a frequentar aulas de Religião",
+      "summary": "Durante a saudação aos fiéis de língua polonesa, Leão XIV falou da importância de participar das aulas de Religião e da catequese que ajudam a \"ampliar os horizontes, aprofundar o conhecimento de Deus e do mundo, bem como preparar para.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-aulas-religiao-escola-02092026.html",
+      "published": "2026-09-02"
     },
     {
       "source": "Vatican News",
-      "title": "Papa: a Igreja não pode permanecer passiva nem indiferente ao que acontece no mundo",
-      "summary": "Após a Sacrosanctum Concilium, agora é a vez da Constituição Pastoral Gaudium et Spes ser aprofundada pelo Papa Leão XIV em seu ciclo de catequeses sobre os documentos do Concílio Vaticano II. O texto trata da relação da Igreja com o.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-gaudium-et-spes-igreja-concilio.html",
+      "title": "Missão, pastoral, liturgia, abusos: o \"mini-mestrado\" para novos bispos no Vaticano",
+      "summary": "De hoje, 2 de setembro, até quinta-feira, dia 10, será realizado o Curso anual de formação para pastores recentemente nomeados, provenientes dos cinco continentes. Ao todo, são 147 participantes de diferentes partes do mundo, divididos.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/novos-bispos-curso-anual-formacao-vaticano-dicasterio.html",
       "published": "2026-09-02"
     },
     {
       "source": "CNBB",
-      "title": "Cardeais do Brasil participam de diálogo sobre Igreja e política às vésperas das eleições de 20",
-      "summary": "Os principais desafios relacionados às eleições de 2026 e a contribuição da Igreja Católica para a formação da consciência cidadã estarão no centro do programa especial “Igreja e política - Diálogo dos Cardeais do Brasil”, realizado nesta.",
-      "url": "https://www.cnbb.org.br/cardeais-do-brasil-participam-de-dialogo-sobre-igreja-e-politica-as-vesperas-das-eleicoes-de-2026/",
+      "title": "Coragem para construir a paz: cardeal Jaime Spengler assina pacto com Justiça Eleitoral e outra",
+      "summary": "A iniciativa reúne autoridades do poder público, representantes da sociedade civil e líderes religiosos em ações conjuntas para promover a cultura de paz durante o processo eleitoral. A campanha, criada em 2022, reforça a importância do.",
+      "url": "https://www.cnbb.org.br/coragem-construir-a-paz-cardeal-jaime-spengler-assina-pacto-com-justica-eleitoral/",
+      "published": "2026-09-03"
+    },
+    {
+      "source": "CNBB",
+      "title": "Seminário com bispos referenciais para as CEBs e Laicato reflete sobre vivência da comunhão, da",
+      "summary": "\"Ao longo dos três dias, as reflexões buscaram articular Palavra de Deus, leitura da realidade, participação eclesial, missão, formação, compromisso social e os desafios de uma Igreja que deseja avançar na vivência concreta da comunhão,.",
+      "url": "https://www.cnbb.org.br/seminario-bispos-referenciais-cebs-laicato-comunhao-participacao-missao/",
+      "published": "2026-09-03"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Enzo Bianchi, fundador da Comunidade Bose, morre aos 83 anos",
+      "summary": "O influente e controverso monge leigo italiano recentemente fez um apelo pela paz entre os fiéis que celebram as formas antigas e novas do rito romano.",
+      "url": "https://www.acidigital.com/noticia/69627/enzo-bianchi-fundador-da-comunidade-bose-morre-aos-83-anos",
       "published": "2026-09-02"
     },
     {
       "source": "ACI Digital",
-      "title": "Santa Sé monta sistema para atender religiosos excluídos de seu sistema de saúde",
-      "summary": "Há um mês e meio, a Santa Sé lançou uma iniciativa destinada a garantir assistência médica para religiosos e religiosas, missionários e outras pessoas ligadas à Igreja.",
-      "url": "https://www.acidigital.com/noticia/69635/santa-se-monta-sistema-para-atender-religiosos-excluidos-de-seu-sistema-de-saude",
-      "published": "2026-09-02"
-    },
-    {
-      "source": "Shalom",
-      "title": "Grupos de peregrinos se preparam para a Convenção Shalom 2026",
-      "summary": "Missionários se organizam em grupos, trocam experiências e se apoiam mutuamente na preparação para a peregrinação a Roma.",
-      "url": "https://comshalom.org/grupos-de-peregrinos-se-preparam-para-a-convencao-shalom-2026/",
-      "published": "2026-09-02"
-    },
-    {
-      "source": "Shalom",
-      "title": "Reze a oração de intercessão pela Jornada Mundial da Juventude Seul 2027",
-      "summary": "A JMJ começa em agosto de 2027 e a Igreja se une em oração por todos os preparativos e pelos peregrinos que se programam para viver esse grande evento.",
-      "url": "https://comshalom.org/reze-a-oracao-de-intercessao-pela-jornada-mundial-da-juventude-seul-2027/",
-      "published": "2026-09-02"
+      "title": "Congonhas celebra 245º Jubileu do Senhor Bom Jesus com presença de imagem peregrina de Fátima",
+      "summary": "A Basílica do Senhor Bom Jesus de Matosinhos de Congonhas (MG) vai celebrar de 7 a 14 de setembro o 245º Jubileu do Senhor Bom Jesus, com a presença da imagem peregrina de Nossa Senhora de Fátima, vinda de Portugal.",
+      "url": "https://www.acidigital.com/noticia/69643/congonhas-celebra-245o-jubileu-do-senhor-bom-jesus-com-presenca-de-imagem-peregrina-de-fatima",
+      "published": "2026-09-03"
     },
     {
       "source": "Aleteia",
-      "title": "Padre Alfredinho: um profeta além dos tempos",
-      "summary": "O frio cortante das prisões nazistas na Áustria durante a Segunda Guerra Mundial não foi suficiente para vergar sua espinha. As jornadas exaustivas de quinze horas diárias na cozinha de um hotel, enfrentadas ainda na infância, tampouco.",
-      "url": "https://pt.aleteia.org/2026/09/03/padre-alfredinho-um-profeta-alem-dos-tempos/",
+      "title": "Sutil e devastador: o abuso espiritual",
+      "summary": "Geralmente, os que nos causam maior escândalo são aqueles relacionados à sexualidade, por serem perceptivelmente gravíssimos, ainda mais quando o contra-testemunho vem de uma liderança cuja missão era cuidar. No entanto, há um tipo de.",
+      "url": "https://pt.aleteia.org/2026/09/03/sutil-e-devastador-o-abuso-espiritual/",
       "published": "2026-09-03"
     }
   ],
   "closingQuote": {
     "text": "Eles deixaram tudo e seguiram a Jesus.",
     "source": "Lucas 5,1-11"
-  },
-  "liturgyHours": {
-    "reading": "Aprendi a Sabedoria sem maldade e reparto-a sem inveja; não escondo a sua riqueza. É um tesouro inesgotável para os homens; os que a adquirem atraem a amizade de Deus, porque recomendados pelos dons da instrução.",
-    "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
