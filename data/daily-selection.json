@@ -1,34 +1,34 @@
 {
-  "date": "2026-09-03",
-  "editionLabel": "3 de setembro de 2026",
+  "date": "2026-09-04",
+  "editionLabel": "4 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Gregorio Magno, papa e doutor da Igreja",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Lc 5,1-11"
+    "celebrationTitle": "Sexta-Feira da Semana XXII do Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 5,33-39"
   },
   "saint": {
-    "feast": "São Gregorio Magno\\, papa e doutor da Igreja",
-    "name": "São Gregório Magno, doutor da Igreja",
-    "description": "Celebração litúrgica do dia: São Gregorio Magno, papa e doutor da Igreja.",
-    "url": "https://santo.cancaonova.com/santo/sao-gregorio-magno-doutor-da-igreja/"
+    "feast": "\udfe2 Sexta-Feira da Semana XXII do Tempo Comum",
+    "name": "Santa Rosália, virgem que levou uma vida de penitência e alimentada pela Eucaristia",
+    "description": "Celebração litúrgica do dia: Sexta-Feira da Semana XXII do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/santa-rosalia-virgem-que-levou-uma-vida-de-penitencia-e-alimentada-pela-eucaristia/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 5,1-11)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 5,33-39)",
     "lines": [
-      "Naquele tempo, Jesus estava na margem do lago de Genesaré, e a multidão apertava-se ao seu redor para ouvir a palavra de Deus.",
-      "Jesus viu duas barcas paradas na margem do lago.",
-      "Os pescadores haviam desembarcado e lavavam as redes.",
-      "Subindo numa das barcas, que era de Simão, pediu que se afastasse um pouco da margem.",
-      "Depois sentou-se e, da barca, ensinava as multidões.",
-      "Quando acabou de falar, disse a Simão: Avança para águas mais profundas, e lançai vossas redes para a pesca.",
-      "Simão respondeu: Mestre, nós trabalhamos a noite inteira e nada pescamos."
+      "Naquele tempo, os fariseus e os mestres da Lei disseram a Jesus: Os discípulos de João, e também os discípulos dos fariseus, jejuam com frequência e fazem orações.",
+      "Mas os teus discípulos comem e bebem.",
+      "Jesus, porém, lhes disse: Os convidados de um casamento podem fazer jejum enquanto o noivo está com eles?",
+      "Mas dias virão em que o noivo será tirado do meio deles.",
+      "Então, naqueles dias, eles jejuarão.",
+      "Jesus contou-lhes ainda uma parábola: Ninguém tira retalho de roupa nova para fazer remendo em roupa velha; senão vai rasgar a roupa nova, e o retalho novo não combinará com a roupa velha.",
+      "Ninguém coloca vinho novo em odres velhos; porque, senão, o vinho novo arrebenta os odres velhos e se derrama; e os odres se perdem."
     ],
-    "body": "Naquele tempo, 1 Jesus estava na margem do lago de Genesaré, e a multidão apertava-se ao seu redor para ouvir a palavra de Deus. 2 Jesus viu duas barcas paradas na margem do lago. Os pescadores haviam desembarcado e lavavam as redes. 3 Subindo numa das barcas, que era de Simão, pediu que se afastasse um pouco da margem. Depois sentou-se e, da barca, ensinava as multidões. 4 Quando acabou de falar, disse a Simão: \"Avança para águas mais profundas, e lançai vossas redes para a pesca\". 5 Simão respondeu: \"Mestre, nós trabalhamos a noite inteira e nada pescamos. Mas, em atenção à tua palavra, vou lançar as redes\". 6 Assim fizeram, e apanharam tamanha quantidade de peixes que as redes se rompiam. 7 Então fizeram sinal aos companheiros da outra barca, para que viessem ajudá-los. Eles vieram, e encheram as duas barcas, a ponto de quase afundarem. 8 Ao ver aquilo, Simão Pedro atirou-se aos pés de Jesus, dizendo: \"Senhor, afasta-te de mim, porque sou um pecador!\" 9 &Eacute; que o espanto se apoderara de Simão e de todos os seus companheiros, por causa da pesca que acabavam de fazer. 10 Tiago e João, filhos de Zebedeu, que eram sócios de Simão, também ficaram espantados. Jesus, porém, disse a Simão: \"Não tenhas medo! De hoje em diante tu serás pescador de homens\". 11 Então levaram as barcas para a margem, deixaram tudo e seguiram a Jesus. —",
-    "keyVerse": "Vinde após mim, disse o Senhor, e eu ensinarei a pescar gente."
+    "body": "Naquele tempo, 33 os fariseus e os mestres da Lei disseram a Jesus: \"Os discípulos de João, e também os discípulos dos fariseus, jejuam com frequência e fazem orações. Mas os teus discípulos comem e bebem\". 34 Jesus, porém, lhes disse: \"Os convidados de um casamento podem fazer jejum enquanto o noivo está com eles? 35 Mas dias virão em que o noivo será tirado do meio deles. Então, naqueles dias, eles jejuarão\". 36 Jesus contou-lhes ainda uma parábola: \"Ninguém tira retalho de roupa nova para fazer remendo em roupa velha; senão vai rasgar a roupa nova, e o retalho novo não combinará com a roupa velha. 37 Ninguém coloca vinho novo em odres velhos; porque, senão, o vinho novo arrebenta os odres velhos e se derrama; e os odres se perdem. 38 Vinho novo deve ser colocado em odres novos. 39 E ninguém, depois de beber vinho velho, deseja vinho novo; porque diz: o velho é melhor\". —",
+    "keyVerse": "Eu sou a luz do mundo; aquele que me segue não caminha entre as trevas, mas terá a luz da vida."
   },
   "sponsor": {
     "enabled": true,
@@ -39,56 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Audiência Geral: Papa encoraja alunos da Polônia a frequentar aulas de Religião",
-      "summary": "Durante a saudação aos fiéis de língua polonesa, Leão XIV falou da importância de participar das aulas de Religião e da catequese que ajudam a \"ampliar os horizontes, aprofundar o conhecimento de Deus e do mundo, bem como preparar para.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-aulas-religiao-escola-02092026.html",
-      "published": "2026-09-02"
+      "title": "Papa aos bispos das regiões árabes: “nenhum gesto em nome de Cristo é inútil”",
+      "summary": "Ao receber os membros da Conferência dos Bispos Latinos nas Regiões Árabes, o Papa recordou o testemunho dos mártires e pediu aos pastores proximidade com as comunidades atingidas por conflitos, migrações e divisões. Leão XIV também.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-audiencia-bispos-das-regioes-arabes-celra-3-setembro.html",
+      "published": "2026-09-03"
     },
     {
       "source": "Vatican News",
-      "title": "Missão, pastoral, liturgia, abusos: o \"mini-mestrado\" para novos bispos no Vaticano",
-      "summary": "De hoje, 2 de setembro, até quinta-feira, dia 10, será realizado o Curso anual de formação para pastores recentemente nomeados, provenientes dos cinco continentes. Ao todo, são 147 participantes de diferentes partes do mundo, divididos.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/novos-bispos-curso-anual-formacao-vaticano-dicasterio.html",
-      "published": "2026-09-02"
-    },
-    {
-      "source": "CNBB",
-      "title": "Coragem para construir a paz: cardeal Jaime Spengler assina pacto com Justiça Eleitoral e outra",
-      "summary": "A iniciativa reúne autoridades do poder público, representantes da sociedade civil e líderes religiosos em ações conjuntas para promover a cultura de paz durante o processo eleitoral. A campanha, criada em 2022, reforça a importância do.",
-      "url": "https://www.cnbb.org.br/coragem-construir-a-paz-cardeal-jaime-spengler-assina-pacto-com-justica-eleitoral/",
+      "title": "Essayan: no Oriente Médio, a paz não pode ser imposta pela guerra",
+      "summary": "Ao final do encontro anual da Conferência dos Bispos Latinos nas Regiões Árabes (CELRA), o vigário apostólico para os católicos de rito latino do Líbano reitera a necessidade do diálogo e alerta para o risco de que o sul do país seja.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-09/oriente-medio-libano-igreja-cristaos-dialogo-paz-esperanca-papa.html",
       "published": "2026-09-03"
     },
     {
       "source": "CNBB",
-      "title": "Seminário com bispos referenciais para as CEBs e Laicato reflete sobre vivência da comunhão, da",
-      "summary": "\"Ao longo dos três dias, as reflexões buscaram articular Palavra de Deus, leitura da realidade, participação eclesial, missão, formação, compromisso social e os desafios de uma Igreja que deseja avançar na vivência concreta da comunhão,.",
-      "url": "https://www.cnbb.org.br/seminario-bispos-referenciais-cebs-laicato-comunhao-participacao-missao/",
+      "title": "A educação digital começa em casa",
+      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) Uma das cenas mais comuns de nosso tempo é a de crianças muito pequenas com um celular nas mãos. Às vezes, antes mesmo de aprenderem a falar, já sabem deslizar o dedo sobre uma tela,.",
+      "url": "https://www.cnbb.org.br/a-educacao-digital-comeca-em-casa/",
       "published": "2026-09-03"
     },
     {
       "source": "ACI Digital",
-      "title": "Enzo Bianchi, fundador da Comunidade Bose, morre aos 83 anos",
-      "summary": "O influente e controverso monge leigo italiano recentemente fez um apelo pela paz entre os fiéis que celebram as formas antigas e novas do rito romano.",
-      "url": "https://www.acidigital.com/noticia/69627/enzo-bianchi-fundador-da-comunidade-bose-morre-aos-83-anos",
-      "published": "2026-09-02"
+      "title": "O dia em que santa Teresa de Calcutá disse: “A maior ameaça para a paz é o aborto”",
+      "summary": "Em 3 de fevereiro de 1994, santa Teresa de Calcutá participou no Café da Manhã de Oração Nacional, em Washington, EUA, e proclamou a verdade sobre o crime do aborto.",
+      "url": "https://www.acidigital.com/noticia/69657/o-dia-em-que-santa-teresa-de-calcuta-disse-a-maior-ameaca-para-a-paz-e-o-aborto",
+      "published": "2026-09-04"
     },
     {
-      "source": "ACI Digital",
-      "title": "Congonhas celebra 245º Jubileu do Senhor Bom Jesus com presença de imagem peregrina de Fátima",
-      "summary": "A Basílica do Senhor Bom Jesus de Matosinhos de Congonhas (MG) vai celebrar de 7 a 14 de setembro o 245º Jubileu do Senhor Bom Jesus, com a presença da imagem peregrina de Nossa Senhora de Fátima, vinda de Portugal.",
-      "url": "https://www.acidigital.com/noticia/69643/congonhas-celebra-245o-jubileu-do-senhor-bom-jesus-com-presenca-de-imagem-peregrina-de-fatima",
+      "source": "Shalom",
+      "title": "Veja tudo que acontece no CEV da missão de Salvador em Setembro",
+      "summary": "O mês de setembro será marcado por uma programação diversificada na Comunidade Católica Shalom, voltada para todos os públicos. Ao longo do mês, a programação inclui o início do Curso de Consagração a Nossa Senhora, encontros do Seminário.",
+      "url": "https://comshalom.org/veja-tudo-que-acontece-no-cev-da-missao-de-salvador-em-setembro/",
+      "published": "2026-09-04"
+    },
+    {
+      "source": "Shalom",
+      "title": "Ventania derruba estrutura, mas missão continua de pé no Quiosque do Guido",
+      "summary": "Em meio aos danos causados pelo vento, a missão permanece em oração diante da cruz, sinal de uma presença de paz na orla do Rio de Janeiro.",
+      "url": "https://comshalom.org/a-ventania-derrubou-a-estrutura-a-missao-continua-de-pe-no-quiosque-do-guido/",
       "published": "2026-09-03"
     },
     {
-      "source": "Aleteia",
-      "title": "Sutil e devastador: o abuso espiritual",
-      "summary": "Geralmente, os que nos causam maior escândalo são aqueles relacionados à sexualidade, por serem perceptivelmente gravíssimos, ainda mais quando o contra-testemunho vem de uma liderança cuja missão era cuidar. No entanto, há um tipo de.",
-      "url": "https://pt.aleteia.org/2026/09/03/sutil-e-devastador-o-abuso-espiritual/",
+      "source": "Gaudium Press",
+      "title": "EUA: Carmelitas de Fairfield erguem mosteiro para durar mil anos",
+      "summary": "Em sua rica história da arquitetura e tradição carmelita e seguindo os passos de Santa Teresa de Ávila, as religiosas estão recriando a forma como os mosteiros foram originalmente concebidos: como comunidades, e não apenas como edifícios.",
+      "url": "https://gaudiumpress.org/content/eua-carmelitas-de-fairfield-erguem-mosteiro-para-durar-mil-anos/",
       "published": "2026-09-03"
     }
   ],
   "closingQuote": {
-    "text": "Eles deixaram tudo e seguiram a Jesus.",
-    "source": "Lucas 5,1-11"
+    "text": "Mas dias virão em que o noivo será tirado do meio deles. Então, naqueles dias, eles jejuarão.",
+    "source": "Lucas 5,33-39"
+  },
+  "liturgyHours": {
+    "reading": "Agora, em Jesus Cristo, vós que outrora estáveis longe, vos tornastes próximos, pelo sangue de Cristo. Ele, de fato, é a nossa paz: do que era dividido, ele fez uma unidade. Em sua carne ele destruiu o muro de separação: a inimizade. Ele aboliu a...",
+    "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
