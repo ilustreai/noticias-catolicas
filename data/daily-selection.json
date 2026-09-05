@@ -1,34 +1,33 @@
 {
-  "date": "2026-09-04",
-  "editionLabel": "4 de setembro de 2026",
+  "date": "2026-09-05",
+  "editionLabel": "5 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Sexta-Feira da Semana XXII do Tempo Comum",
+    "celebrationTitle": "Santa Teresa de Calcutá, virgem",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 5,33-39"
+    "gospelShort": "Lc 6,1-5"
   },
   "saint": {
-    "feast": "\udfe2 Sexta-Feira da Semana XXII do Tempo Comum",
-    "name": "Santa Rosália, virgem que levou uma vida de penitência e alimentada pela Eucaristia",
-    "description": "Celebração litúrgica do dia: Sexta-Feira da Semana XXII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santa-rosalia-virgem-que-levou-uma-vida-de-penitencia-e-alimentada-pela-eucaristia/"
+    "feast": "Santa Teresa de Calcutá\\, virgem",
+    "name": "Santa Teresa de Calcutá, fundadora, missionária e mãe dos pobres",
+    "description": "Celebração litúrgica do dia: Santa Teresa de Calcutá, virgem.",
+    "url": "https://santo.cancaonova.com/santo/santa-teresa-de-calcuta-fundadora-missionaria-e-mae-dos-pobres/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 5,33-39)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 6,1-5)",
     "lines": [
-      "Naquele tempo, os fariseus e os mestres da Lei disseram a Jesus: Os discípulos de João, e também os discípulos dos fariseus, jejuam com frequência e fazem orações.",
-      "Mas os teus discípulos comem e bebem.",
-      "Jesus, porém, lhes disse: Os convidados de um casamento podem fazer jejum enquanto o noivo está com eles?",
-      "Mas dias virão em que o noivo será tirado do meio deles.",
-      "Então, naqueles dias, eles jejuarão.",
-      "Jesus contou-lhes ainda uma parábola: Ninguém tira retalho de roupa nova para fazer remendo em roupa velha; senão vai rasgar a roupa nova, e o retalho novo não combinará com a roupa velha.",
-      "Ninguém coloca vinho novo em odres velhos; porque, senão, o vinho novo arrebenta os odres velhos e se derrama; e os odres se perdem."
+      "Num sábado, Jesus estava passando através de plantações de trigo.",
+      "Seus discípulos arrancavam e comiam as espigas, debulhando-as com as mãos.",
+      "Então alguns fariseus disseram: Por que fazeis o que não é permitido em dia de sábado? Jesus respondeu-lhes: Acaso vós não lestes o que Davi e seus companheiros fizeram, quando estavam sentindo fome?",
+      "Davi entrou na casa de Deus, pegou dos pães oferecidos a Deus e os comeu, e ainda por cima os deu a seus companheiros.",
+      "No entanto, só os sacerdotes podem comer desses pães.",
+      "E Jesus acrescentou: O Filho do Homem é senhor também do sábado."
     ],
-    "body": "Naquele tempo, 33 os fariseus e os mestres da Lei disseram a Jesus: \"Os discípulos de João, e também os discípulos dos fariseus, jejuam com frequência e fazem orações. Mas os teus discípulos comem e bebem\". 34 Jesus, porém, lhes disse: \"Os convidados de um casamento podem fazer jejum enquanto o noivo está com eles? 35 Mas dias virão em que o noivo será tirado do meio deles. Então, naqueles dias, eles jejuarão\". 36 Jesus contou-lhes ainda uma parábola: \"Ninguém tira retalho de roupa nova para fazer remendo em roupa velha; senão vai rasgar a roupa nova, e o retalho novo não combinará com a roupa velha. 37 Ninguém coloca vinho novo em odres velhos; porque, senão, o vinho novo arrebenta os odres velhos e se derrama; e os odres se perdem. 38 Vinho novo deve ser colocado em odres novos. 39 E ninguém, depois de beber vinho velho, deseja vinho novo; porque diz: o velho é melhor\". —",
-    "keyVerse": "Eu sou a luz do mundo; aquele que me segue não caminha entre as trevas, mas terá a luz da vida."
+    "body": "1 Num sábado, Jesus estava passando através de plantações de trigo. Seus discípulos arrancavam e comiam as espigas, debulhando-as com as mãos. 2 Então alguns fariseus disseram: \"Por que fazeis o que não é permitido em dia de sábado?\" 3 Jesus respondeu-lhes: \"Acaso vós não lestes o que Davi e seus companheiros fizeram, quando estavam sentindo fome? 4 Davi entrou na casa de Deus, pegou dos pães oferecidos a Deus e os comeu, e ainda por cima os deu a seus companheiros. No entanto, só os sacerdotes podem comer desses pães\". 5 E Jesus acrescentou: \"O Filho do Homem é senhor também do sábado\". —",
+    "keyVerse": "Sou o Caminho, a Verdade e a Vida: ninguém vem ao Pai, senão por mim."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +38,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "No Vaticano, a orquestra juvenil de Salzburgo com os violinos de Mozart",
-      "summary": "Concerto inédito na Sala Assunta da Rádio Vaticano, onde os jovens do Mozarteum de Salzburgo gravaram um programa dedicado ao grande compositor. Na oportunidade, na última quarta-feira (02/09), foram utilizados dois instrumentos originais.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/vaticano-orquestra-salzburgo-austria-violino-mozart-papa-concert.html",
+      "title": "Leão XIV recebe o presidente da Letônia",
+      "summary": "O Papa recebeu o presidente da Letônia, Edgars Rinkēvičs, em audiência esta manhã na Residência Apostólica Vaticana. As conversas na Secretaria de Estado centraram-se em questões nacionais e internacionais, em particular no conflito na.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-vaticano-presidente-republica-letonia.html",
       "published": "2026-09-04"
     },
     {
       "source": "Vatican News",
-      "title": "Dom Murilo Krieger reflete sobre a Missão do bispo emérito",
-      "summary": "Em uma entrevista concedida aos estúdios da Rádio Vaticano / Vatican News, o arcebispo Emérito de Salvador e ex-primaz do Brasil, dom Murilo Krieger, compartilhou reflexões profundas sobre a sua nova fase ministerial, seu recente encontro.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-09/dom-murilo-krieger-reflete-sobre-missao-bispo-emerito.html",
+      "title": "O mundo da cultura em Paris: o Papa ensina que a paz nasce da linguagem",
+      "summary": "A visita de Leão XIV à sede da Unesco, em 25 de setembro, será uma oportunidade para retomar os laços de diálogo entre ciência e fé e entre a Igreja e os artistas. É o que relatam o Pe. Olric de Gélis, diretor do Centro de Pesquisa do.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-viagem-apostolica-franca-setembro-visita-unesco-26.html",
       "published": "2026-09-04"
     },
     {
       "source": "CNBB",
-      "title": "Lançamento na Catedral Metropolitana de Goiânia deu início oficialmente à preparação para o",
-      "summary": "A arquidiocese de Goiânia iniciou oficialmente a contagem regressiva para o 19º Congresso Eucarístico Nacional, que será realizado de 3 a 7 de setembro de 2027. O lançamento aconteceu na noite da última quinta-feira, dia 3, na Catedral.",
-      "url": "https://www.cnbb.org.br/lancamento-na-catedral-metropolitana-de-goiania-deu-inicio-oficialmente-a-preparacao-para-o-congresso-eucaristico-nacional/",
-      "published": "2026-09-04"
-    },
-    {
-      "source": "CNBB",
-      "title": "Coragem para construir a paz: cardeal Jaime Spengler assina pacto com Justiça Eleitoral e outra",
-      "summary": "A iniciativa reúne autoridades do poder público, representantes da sociedade civil e líderes religiosos em ações conjuntas para promover a cultura de paz durante o processo eleitoral. A campanha, criada em 2022, reforça a importância do.",
-      "url": "https://www.cnbb.org.br/coragem-construir-a-paz-cardeal-jaime-spengler-assina-pacto-com-justica-eleitoral/",
+      "title": "A educação digital começa em casa",
+      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) Uma das cenas mais comuns de nosso tempo é a de crianças muito pequenas com um celular nas mãos. Às vezes, antes mesmo de aprenderem a falar, já sabem deslizar o dedo sobre uma tela,.",
+      "url": "https://www.cnbb.org.br/a-educacao-digital-comeca-em-casa/",
       "published": "2026-09-03"
     },
     {
       "source": "ACI Digital",
-      "title": "Cardeal Cupich e freiras dos EUA buscam barrar lei de suicídio assistido na Justiça",
-      "summary": "Illinois recentemente começou a permitir que médicos ajudem pacientes a cometer suicídio, prescrevendo doses letais de drogas.",
-      "url": "https://www.acidigital.com/noticia/69665/cardeal-cupich-e-freiras-dos-eua-buscam-barrar-lei-de-suicidio-assistido-na-justica",
+      "title": "Leão XIV apresenta são João Henrique Newman como resposta a desafios atuais",
+      "summary": "O papa Leão XIV recebeu uma delegação do Oriel College da Universidade de Oxford, Inglaterra, em audiência hoje (4) no Vaticano.",
+      "url": "https://www.acidigital.com/noticia/69673/leao-xiv-apresenta-sao-joao-henrique-newman-como-resposta-a-desafios-atuais",
       "published": "2026-09-04"
     },
     {
       "source": "ACI Digital",
-      "title": "Frente Parlamentar Católica entrega aos ministros do TSE cartilha sobre discernimento do voto",
-      "summary": "O presidente da Frente Parlamentar Católica da Câmara dos Deputados, deputado Luiz Gastão, entregou aos ministros do TSE a cartilha elaborada pela frente com recomendações para as eleições 2026.",
-      "url": "https://www.acidigital.com/noticia/69663/frente-parlamentar-catolica-entrega-aos-ministros-do-tse-cartilha-sobre-discernimento-do-voto",
+      "title": "Ao olhar para vocês, vejo a maravilha de Deus, diz Leão XIV a seminaristas",
+      "summary": "O papa Leão XIV recebeu ontem (3) no palácio Apostólico, no Vaticano, um grupo de seminaristas de dois seminários italianos, agradecendo-lhes em nome da Igreja pelo “sim” que disseram.",
+      "url": "https://www.acidigital.com/noticia/69675/ao-olhar-para-voces-vejo-a-maravilha-de-deus-diz-leao-xiv-a-seminaristas",
       "published": "2026-09-04"
     },
     {
       "source": "Shalom",
-      "title": "Regenerados pela Palavra: Estudo Bíblico tem proposta de cura e libertação",
-      "summary": "Regenerados pela Palavra é um estudo aprofundado das sete Cartas bíblicas: a epístola de São Tiago, seguida das duas de São Pedro, as três epístolas de São João e, por fim, a de São Judas. É estudo com duração de 87 dias, sendo orientado a viver seguindo o método da Lectio divina . A Bíblia é o livro do qual tiramos todas as referências a respeito de Deus, da história de salvação do homem e de tudo o que nos cerca neste mundo....",
-      "url": "https://comshalom.org/regenerados-pela-palavra-estudo-biblico-tem-proposta-de-cura-e-libertacao/",
-      "published": "2026-09-03"
+      "title": "De Bento XVI a Leão XIV: a trajetória da Comunidade Shalom aos pés de Pedro",
+      "summary": "Cada Convenção em Roma marcou uma geração da Comunidade Shalom. Às vésperas dos 45 anos, vale olhar para essa história para interceder por um tempo novo, um vinho novo, um povo novo que Deus quer formar em cada missionário.",
+      "url": "https://comshalom.org/de-bento-xvi-a-leao-xiv-a-trajetoria-da-comunidade-shalom-aos-pes-de-pedro/",
+      "published": "2026-09-04"
+    },
+    {
+      "source": "Shalom",
+      "title": "Veja tudo que acontece no CEV da missão de Salvador em Setembro",
+      "summary": "O mês de setembro será marcado por uma programação diversificada na Comunidade Católica Shalom, voltada para todos os públicos. Ao longo do mês, a programação inclui o início do Curso de Consagração a Nossa Senhora, encontros do Seminário.",
+      "url": "https://comshalom.org/veja-tudo-que-acontece-no-cev-da-missao-de-salvador-em-setembro/",
+      "published": "2026-09-04"
     }
   ],
   "closingQuote": {
-    "text": "Mas dias virão em que o noivo será tirado do meio deles. Então, naqueles dias, eles jejuarão.",
-    "source": "Lucas 5,33-39"
+    "text": "O essencial não é fazer grandes coisas, mas pequenas coisas com grande amor.",
+    "source": "Santa Teresa de Calcutá"
   },
   "liturgyHours": {
-    "reading": "Agora, em Jesus Cristo, vós que outrora estáveis longe, vos tornastes próximos, pelo sangue de Cristo. Ele, de fato, é a nossa paz: do que era dividido, ele fez uma unidade. Em sua carne ele destruiu o muro de separação: a inimizade. Ele aboliu a...",
+    "reading": "Abençoai os que vos perseguem, abençoai e não amaldiçoeis. Alegrai-vos com os que se alegram, chorai com os que choram. Mantende um bom entendimento uns com os outros; não vos deixeis levar pelo gosto de grandeza, mas acomodai-vos às coisas humildes.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
