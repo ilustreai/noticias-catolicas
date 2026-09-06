@@ -1,33 +1,34 @@
 {
-  "date": "2026-09-05",
-  "editionLabel": "5 de setembro de 2026",
+  "date": "2026-09-06",
+  "editionLabel": "6 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santa Teresa de Calcutá, virgem",
+    "celebrationTitle": "Domingo XXIII do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 6,1-5"
+    "gospelShort": "Mt 18,15-20"
   },
   "saint": {
-    "feast": "Santa Teresa de Calcutá\\, virgem",
-    "name": "Santa Teresa de Calcutá, fundadora, missionária e mãe dos pobres",
-    "description": "Celebração litúrgica do dia: Santa Teresa de Calcutá, virgem.",
-    "url": "https://santo.cancaonova.com/santo/santa-teresa-de-calcuta-fundadora-missionaria-e-mae-dos-pobres/"
+    "feast": "\udfe2 Domingo XXIII do Tempo Comum",
+    "name": "São Liberato de Loro, nobre e abdicando de seu título, tornou-se frade",
+    "description": "Celebração litúrgica do dia: Domingo XXIII do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-liberato-de-loro-nobre-e-abdicando-de-seu-titulo-tornou-se-frade/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 6,1-5)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 18,15-20)",
     "lines": [
-      "Num sábado, Jesus estava passando através de plantações de trigo.",
-      "Seus discípulos arrancavam e comiam as espigas, debulhando-as com as mãos.",
-      "Então alguns fariseus disseram: Por que fazeis o que não é permitido em dia de sábado? Jesus respondeu-lhes: Acaso vós não lestes o que Davi e seus companheiros fizeram, quando estavam sentindo fome?",
-      "Davi entrou na casa de Deus, pegou dos pães oferecidos a Deus e os comeu, e ainda por cima os deu a seus companheiros.",
-      "No entanto, só os sacerdotes podem comer desses pães.",
-      "E Jesus acrescentou: O Filho do Homem é senhor também do sábado."
+      "Naquele tempo, Jesus disse a seus discípulos: Se o teu irmão pecar contra ti, vai corrigi-lo, mas em particular, a sós contigo!",
+      "Se ele te ouvir, tu ganhaste o teu irmão.",
+      "Se ele não te ouvir, toma contigo mais uma ou duas pessoas, para que toda a questão seja decidida sob a palavra de duas ou três testemunhas.",
+      "Se ele não vos der ouvido, dize-o à Igreja.",
+      "Se nem mesmo à Igreja ele ouvir, seja tratado como se fosse um pagão ou um pecador público.",
+      "Em verdade vos digo, tudo o que ligardes na terra será ligado no céu, e tudo o que desligardes na terra será desligado no céu.",
+      "De novo, eu vos digo: se dois de vós estiverem de acordo na terra sobre qualquer coisa que quiserem pedir, isso lhes será concedido por meu Pai que está nos céus."
     ],
-    "body": "1 Num sábado, Jesus estava passando através de plantações de trigo. Seus discípulos arrancavam e comiam as espigas, debulhando-as com as mãos. 2 Então alguns fariseus disseram: \"Por que fazeis o que não é permitido em dia de sábado?\" 3 Jesus respondeu-lhes: \"Acaso vós não lestes o que Davi e seus companheiros fizeram, quando estavam sentindo fome? 4 Davi entrou na casa de Deus, pegou dos pães oferecidos a Deus e os comeu, e ainda por cima os deu a seus companheiros. No entanto, só os sacerdotes podem comer desses pães\". 5 E Jesus acrescentou: \"O Filho do Homem é senhor também do sábado\". —",
-    "keyVerse": "Sou o Caminho, a Verdade e a Vida: ninguém vem ao Pai, senão por mim."
+    "body": "Naquele tempo, Jesus disse a seus discípulos: 15 \"Se o teu irmão pecar contra ti, vai corrigi-lo, mas em particular, a sós contigo! Se ele te ouvir, tu ganhaste o teu irmão. 16 Se ele não te ouvir, toma contigo mais uma ou duas pessoas, para que toda a questão seja decidida sob a palavra de duas ou três testemunhas. 17 Se ele não vos der ouvido, dize-o à Igreja. Se nem mesmo à Igreja ele ouvir, seja tratado como se fosse um pagão ou um pecador público. 18 Em verdade vos digo, tudo o que ligardes na terra será ligado no céu, e tudo o que desligardes na terra será desligado no céu. 19 De novo, eu vos digo: se dois de vós estiverem de acordo na terra sobre qualquer coisa que quiserem pedir, isso lhes será concedido por meu Pai que está nos céus. 20 Pois, onde dois ou três estiverem reunidos em meu nome, eu estou aí, no meio deles\". —",
+    "keyVerse": "O Senhor reconciliou o mundo em Cristo, confiando-nos sua Palavra; a Palavra da reconciliação, a Palavra que hoje, aqui, nos salva."
   },
   "sponsor": {
     "enabled": true,
@@ -38,17 +39,17 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "No Vaticano, a orquestra juvenil de Salzburgo com os violinos de Mozart",
-      "summary": "Concerto inédito na Sala Assunta da Rádio Vaticano, onde os jovens do Mozarteum de Salzburgo gravaram um programa dedicado ao grande compositor. Na oportunidade, na última quarta-feira (02/09), foram utilizados dois instrumentos originais.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/vaticano-orquestra-salzburgo-austria-violino-mozart-papa-concert.html",
-      "published": "2026-09-04"
+      "title": "O Papa às famílias no Vaticano: \"Vocês são um grande milagre, doam a vida pelos outros\"",
+      "summary": "Leão XIV cumprimentou mães e pais com seus filhos reunidos nos Jardins Vaticanos para a Festa da Família, organizada pelo Governatorato. O Pontífice recordou as palavras de João Paulo II: \"A família é o espelho de Deus; Deus quer ver-se.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-festa-familias-milagre-governatorato-vaticano.html",
+      "published": "2026-09-05"
     },
     {
       "source": "Vatican News",
-      "title": "Dom Murilo Krieger reflete sobre a Missão do bispo emérito",
-      "summary": "Em uma entrevista concedida aos estúdios da Rádio Vaticano / Vatican News, o arcebispo Emérito de Salvador e ex-primaz do Brasil, dom Murilo Krieger, compartilhou reflexões profundas sobre a sua nova fase ministerial, seu recente encontro.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-09/dom-murilo-krieger-reflete-sobre-missao-bispo-emerito.html",
-      "published": "2026-09-04"
+      "title": "Leão XIV às religiosas: teçam a comunhão com os fios da oração e do trabalho",
+      "summary": "Ao receber as Adoradoras Perpétuas do Santíssimo Sacramento em peregrinação a Roma, Leão XIV sublinhou a importância da busca constante pela face de Cristo: \"É necessária uma espiritualidade eucarística, isto é, uma espiritualidade de.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-adoradoras-perpetuas-santissimo-sacramento.html",
+      "published": "2026-09-05"
     },
     {
       "source": "CNBB",
@@ -59,39 +60,39 @@
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV apresenta são João Henrique Newman como resposta a desafios atuais",
-      "summary": "O papa Leão XIV recebeu uma delegação do Oriel College da Universidade de Oxford, Inglaterra, em audiência hoje (4) no Vaticano.",
-      "url": "https://www.acidigital.com/noticia/69673/leao-xiv-apresenta-sao-joao-henrique-newman-como-resposta-a-desafios-atuais",
-      "published": "2026-09-04"
+      "title": "são celebrados os santos Leto e Donaciano, mártires do século",
+      "summary": "Hoje (6), a Igreja Católica celebra os santos Leto e Donaciano, mártires do século V. Eles eram bispos, defensores corajosos da fé cristã, prontos a dar a vida por Cristo numa época em que o Império Romano estava em declínio. Leto foi queimado vivo e Donaciano morreu no deserto, após ser deportado pelo rei dos vândalos, Humerico....",
+      "url": "https://www.acidigital.com/noticia/56099/hoje-sao-celebrados-os-santos-leto-e-donaciano-martires-do-seculo-v",
+      "published": "2026-09-06"
     },
     {
-      "source": "Shalom",
-      "title": "Se o teu irmão pecar contra ti: entre ter razão e ganhar o irmão",
-      "summary": "José Ricardo Bezerra e Felipe Bezerra Neste 23º Domingo do Tempo Comum, o Evangelho traz duas partes interligadas: a correção fraterna e a oração feita em comum (Mt 18,15-20). São seis versículos apenas, e cada um deles daria um domingo.",
-      "url": "https://comshalom.org/se-o-teu-irmao-pecar-contra-ti-entre-ter-razao-e-ganhar-o-irmao/",
+      "source": "ACI Digital",
+      "title": "a Igreja celebra santa Teresa de Calcutá",
+      "summary": "A Igreja celebra hoje (5) santa Teresa de Calcutá, fundadora das Missionárias da Caridade, defensora da família e dos pobres e modelo de misericórdia.",
+      "url": "https://www.acidigital.com/noticia/69671/hoje-igreja-celebra-santa-teresa-de-calcuta",
       "published": "2026-09-05"
     },
     {
       "source": "Shalom",
-      "title": "Há 9 anos no Vaticano: relembre o histórico discurso do Papa Francisco à Comunidade Shalom",
-      "summary": "Palavras dirigidas à Comunidade em 2017 permanecem atuais e encontram novo eco na mensagem do Papa Leão XIV aos jovens no Halleluya 2026.",
-      "url": "https://comshalom.org/ha-9-anos-no-vaticano-relembre-o-historico-discurso-do-papa-francisco-a-comunidade-shalom/",
-      "published": "2026-09-04"
+      "title": "6ª edição do Mulheres com Cristo ocorre na Igreja do Ressuscitado neste sábado (5)",
+      "summary": "Encontro realizado neste sábado (5) promoveu um momento de oração, partilha e renovação da fé, reunindo mulheres na Igreja do Ressuscitado, em Fortaleza.",
+      "url": "https://comshalom.org/6a-edicao-do-mulheres-com-cristo-ocorre-na-igreja-do-ressuscitado-neste-sabado-5/",
+      "published": "2026-09-06"
     },
     {
-      "source": "Aleteia",
-      "title": "Preferindo as trevas, encontrei a luz",
-      "summary": "A terceira promessa que você faz quando renova as promessas do batismo é: “Renunciais a Satanás, pai da mentira e príncipe das trevas?” A assembleia responde: “Renuncio”, mas quando comecei a faculdade, eu não renunciava. Eu teria dito a.",
-      "url": "https://pt.aleteia.org/2026/09/04/preferindo-as-trevas-encontrei-a-luz/",
-      "published": "2026-09-04"
+      "source": "Shalom",
+      "title": "Palavra de Deus: uma carta de amor",
+      "summary": "Este é o primeiro de quatro publicações sobre a Palavra de Deus, em que Germana Perdigão nos ajuda a mergulhar na Lectio Divina!.",
+      "url": "https://comshalom.org/palavra-de-deus-uma-carta-de-amor/",
+      "published": "2026-09-05"
     }
   ],
   "closingQuote": {
-    "text": "O essencial não é fazer grandes coisas, mas pequenas coisas com grande amor.",
-    "source": "Santa Teresa de Calcutá"
+    "text": "Se ele te ouvir, tu ganharás o teu irmão.",
+    "source": "Mateus 18,15-20"
   },
   "liturgyHours": {
-    "reading": "Abençoai os que vos perseguem, abençoai e não amaldiçoeis. Alegrai-vos com os que se alegram, chorai com os que choram. Mantende um bom entendimento uns com os outros; não vos deixeis levar pelo gosto de grandeza, mas acomodai-vos às coisas humildes.",
+    "reading": "Assim fala o Senhor Deus: Ó meu povo, vou abrir as vossas sepulturas e conduzir-vos para a terra de Israel; e quando eu abrir as vossas sepulturas e vos fizer sair delas, sabereis que eu sou o Senhor. Porei em vós o meu espírito para que vivais e...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
