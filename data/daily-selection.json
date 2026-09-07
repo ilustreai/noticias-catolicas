@@ -1,34 +1,34 @@
 {
-  "date": "2026-09-06",
-  "editionLabel": "6 de setembro de 2026",
+  "date": "2026-09-07",
+  "editionLabel": "7 de setembro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XXIII do Tempo Comum",
+    "celebrationTitle": "Segunda-Feira da Semana XXIII do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 18,15-20"
+    "gospelShort": "Lc 6,6-11"
   },
   "saint": {
-    "feast": "\udfe2 Domingo XXIII do Tempo Comum",
-    "name": "São Liberato de Loro, nobre e abdicando de seu título, tornou-se frade",
-    "description": "Celebração litúrgica do dia: Domingo XXIII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-liberato-de-loro-nobre-e-abdicando-de-seu-titulo-tornou-se-frade/"
+    "feast": "\udfe2 Segunda-Feira da Semana XXIII do Tempo Comum",
+    "name": "Beato Vicente de Santo Antônio, missionário no Oriente",
+    "description": "Celebração litúrgica do dia: Segunda-Feira da Semana XXIII do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/beato-vicente-de-santo-antonio-missionario-no-oriente/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 18,15-20)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 6,6-11)",
     "lines": [
-      "Naquele tempo, Jesus disse a seus discípulos: Se o teu irmão pecar contra ti, vai corrigi-lo, mas em particular, a sós contigo!",
-      "Se ele te ouvir, tu ganhaste o teu irmão.",
-      "Se ele não te ouvir, toma contigo mais uma ou duas pessoas, para que toda a questão seja decidida sob a palavra de duas ou três testemunhas.",
-      "Se ele não vos der ouvido, dize-o à Igreja.",
-      "Se nem mesmo à Igreja ele ouvir, seja tratado como se fosse um pagão ou um pecador público.",
-      "Em verdade vos digo, tudo o que ligardes na terra será ligado no céu, e tudo o que desligardes na terra será desligado no céu.",
-      "De novo, eu vos digo: se dois de vós estiverem de acordo na terra sobre qualquer coisa que quiserem pedir, isso lhes será concedido por meu Pai que está nos céus."
+      "Aconteceu num dia de sábado que Jesus entrou na sinagoga, e começou a ensinar.",
+      "Aí havia um homem cuja mão direita era seca.",
+      "Os mestres da Lei e os fariseus o observavam, para verem se Jesus iria curá-lo em dia de sábado, e assim encontrarem motivo para acusá-lo.",
+      "Jesus, porém, conhecendo seus pensamentos, disse ao homem da mão seca: Levanta-te, e fica aqui no meio.",
+      "Ele se levantou, e ficou de pé.",
+      "Disse-lhes Jesus: Eu vos pergunto: O que é permitido fazer no sábado: o bem ou o mal, salvar uma vida ou deixar que se perca? Então Jesus olhou para todos os que estavam ao seu redor, e disse ao homem: Estende a tua mão. O homem assim o fez e sua mão ficou curada.",
+      "Eles ficaram com muita raiva, e começaram a discutir entre si sobre o que poderiam fazer contra Jesus."
     ],
-    "body": "Naquele tempo, Jesus disse a seus discípulos: 15 \"Se o teu irmão pecar contra ti, vai corrigi-lo, mas em particular, a sós contigo! Se ele te ouvir, tu ganhaste o teu irmão. 16 Se ele não te ouvir, toma contigo mais uma ou duas pessoas, para que toda a questão seja decidida sob a palavra de duas ou três testemunhas. 17 Se ele não vos der ouvido, dize-o à Igreja. Se nem mesmo à Igreja ele ouvir, seja tratado como se fosse um pagão ou um pecador público. 18 Em verdade vos digo, tudo o que ligardes na terra será ligado no céu, e tudo o que desligardes na terra será desligado no céu. 19 De novo, eu vos digo: se dois de vós estiverem de acordo na terra sobre qualquer coisa que quiserem pedir, isso lhes será concedido por meu Pai que está nos céus. 20 Pois, onde dois ou três estiverem reunidos em meu nome, eu estou aí, no meio deles\". —",
-    "keyVerse": "O Senhor reconciliou o mundo em Cristo, confiando-nos sua Palavra; a Palavra da reconciliação, a Palavra que hoje, aqui, nos salva."
+    "body": "Aconteceu num dia de sábado 6 que Jesus entrou na sinagoga, e começou a ensinar. Aí havia um homem cuja mão direita era seca. 7 Os mestres da Lei e os fariseus o observavam, para verem se Jesus iria curá-lo em dia de sábado, e assim encontrarem motivo para acusá-lo. 8 Jesus, porém, conhecendo seus pensamentos, disse ao homem da mão seca: \"Levanta-te, e fica aqui no meio\". Ele se levantou, e ficou de pé. 9 Disse-lhes Jesus: \"Eu vos pergunto: O que é permitido fazer no sábado: o bem ou o mal, salvar uma vida ou deixar que se perca?\" 10 Então Jesus olhou para todos os que estavam ao seu redor, e disse ao homem: \"Estende a tua mão.\" O homem assim o fez e sua mão ficou curada. 11 Eles ficaram com muita raiva, e começaram a discutir entre si sobre o que poderiam fazer contra Jesus. —",
+    "keyVerse": "Minhas ovelhas escutam minha voz e eu as conheço e elas me seguem."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Ucrânia, Papa: parem a destruição, abram espaço para a diplomacia",
-      "summary": "O novo apelo do Pontífice, após a oração mariana do Angelus deste primeiro domingo de setembro, pede o fim da violência e a abertura dos \"corações ao diálogo e à paz\". Leão XIV pede \"para que prevaleça a concórdia em todos os conflitos do.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-apelo-angelus-ucrania-guerra-diplomacia-dialogo.html",
-      "published": "2026-09-06"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-09-07"
     },
     {
       "source": "Vatican News",
-      "title": "Leão XIV às religiosas: teçam a comunhão com os fios da oração e do trabalho",
-      "summary": "Ao receber as Adoradoras Perpétuas do Santíssimo Sacramento em peregrinação a Roma, Leão XIV sublinhou a importância da busca constante pela face de Cristo: \"É necessária uma espiritualidade eucarística, isto é, uma espiritualidade de.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-adoradoras-perpetuas-santissimo-sacramento.html",
-      "published": "2026-09-05"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-09-07"
     },
     {
       "source": "CNBB",
-      "title": "Lançamento na Catedral Metropolitana de Goiânia deu início oficialmente à preparação para o",
-      "summary": "A arquidiocese de Goiânia iniciou oficialmente a contagem regressiva para o 19º Congresso Eucarístico Nacional, que será realizado de 3 a 7 de setembro de 2027. O lançamento aconteceu na noite da última quinta-feira, dia 3, na Catedral.",
-      "url": "https://www.cnbb.org.br/lancamento-na-catedral-metropolitana-de-goiania-deu-inicio-oficialmente-a-preparacao-para-o-congresso-eucaristico-nacional/",
-      "published": "2026-09-04"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-09-07"
     },
     {
       "source": "ACI Digital",
-      "title": "Dados sobre santa Teresa de Calcutá",
-      "summary": "A seguir, 12 dados que talvez você não sabia sobre a mulher que com seu serviço aos mais pobres mostrou a grande misericórdia de Deus no século XX.",
-      "url": "https://www.acidigital.com/noticia/69681/dados-sobre-santa-teresa-de-calcuta",
-      "published": "2026-09-05"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Santa Teresa de Calcutá teve visões de Jesus",
-      "summary": "Santa Teresa de Calcutá dialogou e teve visões de Jesus antes de fundar as Missionárias da Caridade, algo que não se soube até a sua morte, um fato que também era ignorado por um dos seus amigos durante 30 anos, o padre Sebastian Vazhakala.",
-      "url": "https://www.acidigital.com/noticia/53162/santa-teresa-de-calcuta-teve-visoes-de-jesus",
-      "published": "2026-09-05"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-09-07"
     },
     {
       "source": "Shalom",
-      "title": "Se o teu irmão pecar contra ti: entre ter razão e ganhar o irmão",
-      "summary": "José Ricardo Bezerra e Felipe Bezerra Neste 23º Domingo do Tempo Comum, o Evangelho traz duas partes interligadas: a correção fraterna e a oração feita em comum (Mt 18,15-20). São seis versículos apenas, e cada um deles daria um domingo.",
-      "url": "https://comshalom.org/se-o-teu-irmao-pecar-contra-ti-entre-ter-razao-e-ganhar-o-irmao/",
-      "published": "2026-09-05"
+      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
+      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
+      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "published": "2026-09-07"
     },
     {
       "source": "Shalom",
-      "title": "De Bento XVI a Leão XIV: a trajetória da Comunidade Shalom aos pés de Pedro",
-      "summary": "Cada Convenção em Roma marcou uma geração da Comunidade Shalom. Às vésperas dos 45 anos, vale olhar para essa história para interceder por um tempo novo, um vinho novo, um povo novo que Deus quer formar em cada missionário.",
-      "url": "https://comshalom.org/de-bento-xvi-a-leao-xiv-a-trajetoria-da-comunidade-shalom-aos-pes-de-pedro/",
-      "published": "2026-09-04"
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-09-07"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Motivação ou pressão? A diferença na criação dos filhos",
+      "summary": "Todos os pais desejam que seus filhos sejam felizes, tenham sucesso e aproveitem suas capacidades. No entanto, entre acompanhar o crescimento deles e exigir constantemente, pode haver uma linha muito tênue. Muitas vezes nos propomos a.",
+      "url": "https://pt.aleteia.org/2026/09/07/motivacao-ou-pressao-a-diferenca-na-criacao-dos-filhos/",
+      "published": "2026-09-07"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-09-07"
     }
   ],
   "closingQuote": {
-    "text": "Se ele te ouvir, tu ganharás o teu irmão.",
-    "source": "Mateus 18,15-20"
+    "text": "Observavam, para verem se Jesus curaria em dia de sábado.",
+    "source": "Lucas 6,6-11"
   },
   "liturgyHours": {
-    "reading": "Assim fala o Senhor Deus: Ó meu povo, vou abrir as vossas sepulturas e conduzir-vos para a terra de Israel; e quando eu abrir as vossas sepulturas e vos fizer sair delas, sabereis que eu sou o Senhor. Porei em vós o meu espírito para que vivais e...",
+    "reading": "Falai e procedei como pessoas que vão ser julgadas pela Lei da liberdade. Pensai bem: O juízo vai ser sem misericórdia para quem não praticou misericórdia; a misericórdia, porém, triunfa do juízo.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
