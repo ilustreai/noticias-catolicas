@@ -5,7 +5,7 @@
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Segunda-Feira da Semana XXIII do Tempo Comum",
+    "celebrationTitle": "7 de setembro de 2026 - Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
     "gospelShort": "Lc 6,6-11"
@@ -13,7 +13,7 @@
   "saint": {
     "feast": "\udfe2 Segunda-Feira da Semana XXIII do Tempo Comum",
     "name": "Beato Vicente de Santo Antônio, missionário no Oriente",
-    "description": "Celebração litúrgica do dia: Segunda-Feira da Semana XXIII do Tempo Comum.",
+    "description": "Celebração litúrgica do dia: 7 de setembro de 2026 - Tempo Comum.",
     "url": "https://santo.cancaonova.com/santo/beato-vicente-de-santo-antonio-missionario-no-oriente/"
   },
   "gospel": {
@@ -39,16 +39,16 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Genazzano espera Leão XIV, “peregrino” diante da Mãe do Bom Conselho",
-      "summary": "Na véspera da festa da Natividade da Bem-Aventurada Virgem Maria, na tarde deste 7 de setembro, Leão XIV retorna ao santuário tão querido pelos agostinianos para celebrar a Missa. O bispo de Tivoli, dom Parmeggiani: “A visita é um.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/genazzano-espera-peregrino-diante-da-mae-do-bom-conselho.html",
+      "title": "Nossa Senhora do Bom Conselho de Genazzano: uma tradição secular",
+      "summary": "O Pe. Rocco Ronzani, agostiniano e prefeito do Arquivo Apostólico do Vaticano, repercorre a história da imagem sagrada que uniu tantos fiéis e Pontífices ao santuário do Lazio e destaca a devoção especial que Leão XIV nutria pela efígie.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/papa-leao-xiv-visita-pastoral-genazzano-mae-bom-conselho-2026.html",
       "published": "2026-09-07"
     },
     {
       "source": "Vatican News",
-      "title": "Cinco horas à pé: Igreja leva esperança às comunidades isoladas do interior do Haiti",
-      "summary": "A missão da Igreja não se limita à transmissão da fé: passa também pela construção de comunidades pacificadas e solidárias, capazes de permanecer unidas mesmo diante da pobreza, da seca, do abandono e da insegurança que atingem o Haiti,.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-09/haiti-missionarios-camilianos-esperanca-comunidades-pacificadas.html",
+      "title": "Leão XIV em Genazzano: deixemos a paz crescer em nós",
+      "summary": "Na homilia da missa celebrada no Santuário de Nossa Senhora do Bom Conselho na cidade italiana de Genazzano, o Papa convidou \"a confiar à Menina Maria tudo o que ainda nasce nesta pobre, porém magnífica, humanidade\". \"Celebramos o.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-santuario-nossa-senhora-bom-conselho-genazzano.html",
       "published": "2026-09-07"
     },
     {
@@ -60,30 +60,30 @@
     },
     {
       "source": "ACI Digital",
-      "title": "são celebrados os santos Leto e Donaciano, mártires do século",
-      "summary": "Hoje (6), a Igreja Católica celebra os santos Leto e Donaciano, mártires do século V. Eles eram bispos, defensores corajosos da fé cristã, prontos a dar a vida por Cristo numa época em que o Império Romano estava em declínio. Leto foi queimado vivo e Donaciano morreu no deserto, após ser deportado pelo rei dos vândalos, Humerico....",
-      "url": "https://www.acidigital.com/noticia/56099/hoje-sao-celebrados-os-santos-leto-e-donaciano-martires-do-seculo-v",
-      "published": "2026-09-06"
-    },
-    {
-      "source": "Shalom",
-      "title": "1 ano da canonização de São Carlo Acutis e São Pier Giorgio Frassati",
-      "summary": "Canonizados pelo Papa Leão XIV em 7 de setembro de 2025, os dois santos continuam inspirando uma geração a viver a fé com alegria, coragem e os olhos voltados para o Céu.",
-      "url": "https://comshalom.org/1-ano-da-canonizacao-de-sao-carlo-acutis-e-sao-pier-giorgio-frassati/",
+      "title": "Paróquia em São Paulo celebra Nossa Senhora do Brasil no Dia da Independência",
+      "summary": "Nossa Senhora do Brasil é um título da Virgem Maria a cuja devoção há uma paróquia dedicada em São Paulo (SP). Fundada em 1942, por José Gaspar de Afonseca e Silva, no bairro Jardim América, a igreja celebra a devoção a Nossa Senhora do.",
+      "url": "https://www.acidigital.com/noticia/59117/paroquia-em-sao-paulo-celebra-nossa-senhora-do-brasil-no-dia-da-independencia",
       "published": "2026-09-07"
     },
     {
       "source": "Shalom",
-      "title": "Comunidade Shalom realizará evento para celebrar São Francisco no dia 10 de outubro",
-      "summary": "Celebração de São Francisco ocorrerá na Igreja do Ressuscitado que passou pela Cruz, com louvor, pregação, atrações artísticas e Santa Missa.",
-      "url": "https://comshalom.org/comunidade-shalom-realizara-evento-para-celebrar-sao-francisco-no-dia-10-de-outubro/",
+      "title": "No Mês da Bíblia, Paz a Vós convida à profundidade da Palavra de Deus",
+      "summary": "O mês de setembro é conhecido como Mês da Bíblia , por se celebrar no dia 29 a festa de São Jerônimo, tradutor das Escrituras para o latim, versão conhecida como Vulgata . A Palavra de Deus é alimento da alma e caminho seguro para o discernimento e o entendimento daquilo que o Senhor deseja nos dizer. Por isso, o programa Paz a Vós trará, ao longo do mês, reflexões acerca do Evangelho de cada dia....",
+      "url": "https://comshalom.org/no-mes-da-biblia-paz-a-vos-convida-a-profundidade-da-palavra-de-deus/",
       "published": "2026-09-07"
     },
     {
-      "source": "Aleteia",
-      "title": "Motivação ou pressão? A diferença na criação dos filhos",
-      "summary": "Todos os pais desejam que seus filhos sejam felizes, tenham sucesso e aproveitem suas capacidades. No entanto, entre acompanhar o crescimento deles e exigir constantemente, pode haver uma linha muito tênue. Muitas vezes nos propomos a.",
-      "url": "https://pt.aleteia.org/2026/09/07/motivacao-ou-pressao-a-diferenca-na-criacao-dos-filhos/",
+      "source": "Shalom",
+      "title": "Nossa Senhora e a Palavra de Deus",
+      "summary": "A Mãe de Deus era mestra em “aprender de coração”, mesmo quando não entendia as palavras ou os acontecimentos da vida de Jesus: “A sua mãe guardava todos esses acontecimentos em seu coração” (Lc 2,51. Cf. v. 50). Precisamos aprender a.",
+      "url": "https://comshalom.org/nossa-senhora-e-a-palavra-de-deus/",
+      "published": "2026-09-07"
+    },
+    {
+      "source": "Gaudium Press",
+      "title": "Parlamento de Liechtenstein aprova legalização do aborto até a 12ª semana, mas príncipe herdeir",
+      "summary": "O resultado apertado no Parlamento (13 a favor e 12 contra) mostra que o aborto continua sendo um dos temas sociais que mais divide as opiniões no microestado. Foto: screenshot/ landtag.li Redação ( 07/09/2026 10:01 , Gaudium Press ) No.",
+      "url": "https://gaudiumpress.org/content/parlamento-de-liechtenstein-aprova-legalizacao-do-aborto-ate-a-12a-semana-mas-principe-herdeiro-pode-vetar/",
       "published": "2026-09-07"
     }
   ],
