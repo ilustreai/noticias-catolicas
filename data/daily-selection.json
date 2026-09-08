@@ -39,16 +39,16 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Genazzano espera Leão XIV, “peregrino” diante da Mãe do Bom Conselho",
-      "summary": "Na véspera da festa da Natividade da Bem-Aventurada Virgem Maria, na tarde deste 7 de setembro, Leão XIV retorna ao santuário tão querido pelos agostinianos para celebrar a Missa. O bispo de Tivoli, dom Parmeggiani: “A visita é um.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/genazzano-espera-peregrino-diante-da-mae-do-bom-conselho.html",
+      "title": "Leão XIV em Genazzano: deixemos a paz crescer em nós",
+      "summary": "Na homilia da missa celebrada no Santuário de Nossa Senhora do Bom Conselho na cidade italiana de Genazzano, o Papa convidou \"a confiar à Menina Maria tudo o que ainda nasce nesta pobre, porém magnífica, humanidade\". \"Celebramos o.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-santuario-nossa-senhora-bom-conselho-genazzano.html",
       "published": "2026-09-07"
     },
     {
       "source": "Vatican News",
-      "title": "Nossa Senhora do Bom Conselho de Genazzano: uma tradição secular",
-      "summary": "O Pe. Rocco Ronzani, agostiniano e prefeito do Arquivo Apostólico do Vaticano, repercorre a história da imagem sagrada que uniu tantos fiéis e Pontífices ao santuário do Lazio e destaca a devoção especial que Leão XIV nutria pela efígie.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/papa-leao-xiv-visita-pastoral-genazzano-mae-bom-conselho-2026.html",
+      "title": "Genazzano: retrato de Leão XIV entre os Papas devotos da Mãe do Bom Conselho",
+      "summary": "Em visita à Basílica da Mãe do Bom Conselho, o Pontífice inaugura nesta segunda-feira, 7 de setembro, antes de celebrar a Eucaristia, na véspera da festa da Natividade da Bem-Aventurada Virgem Maria, o afresco que o retrata em oração.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-retrato-genazzano-santuario-mae-bom-conselho-2026.html",
       "published": "2026-09-07"
     },
     {
@@ -59,17 +59,10 @@
       "published": "2026-09-07"
     },
     {
-      "source": "ACI Digital",
-      "title": "é celebrada santa Regina, virgem e mártir",
-      "summary": "Santa Regina é uma virgem mártir gaulesa (hoje França) que, apesar de não ser muito conhecida fora de seu culto particular, está presente em muitas representações artísticas.",
-      "url": "https://www.acidigital.com/noticia/69691/hoje-e-celebrada-santa-regina",
-      "published": "2026-09-07"
-    },
-    {
       "source": "Shalom",
-      "title": "Comunidade Shalom realizará evento para celebrar São Francisco no dia 10 de outubro",
-      "summary": "Celebração de São Francisco ocorrerá na Igreja do Ressuscitado que passou pela Cruz, com louvor, pregação, atrações artísticas e Santa Missa.",
-      "url": "https://comshalom.org/comunidade-shalom-realizara-evento-para-celebrar-sao-francisco-no-dia-10-de-outubro/",
+      "title": "No Mês da Bíblia, Paz a Vós convida à profundidade da Palavra de Deus",
+      "summary": "O mês de setembro é conhecido como Mês da Bíblia , por se celebrar no dia 29 a festa de São Jerônimo, tradutor das Escrituras para o latim, versão conhecida como Vulgata . A Palavra de Deus é alimento da alma e caminho seguro para o discernimento e o entendimento daquilo que o Senhor deseja nos dizer. Por isso, o programa Paz a Vós trará, ao longo do mês, reflexões acerca do Evangelho de cada dia....",
+      "url": "https://comshalom.org/no-mes-da-biblia-paz-a-vos-convida-a-profundidade-da-palavra-de-deus/",
       "published": "2026-09-07"
     },
     {
@@ -81,10 +74,17 @@
     },
     {
       "source": "Aleteia",
-      "title": "Correção fraterna: um ato difícil mas necessário. As indicações do Papa Leão XIV",
-      "summary": "O Papa encorajou as comunidades cristãs a viverem esse “amor mútuo” praticando a arte “delicada e muitas vezes esquecida” da “correção fraterna” e aprendendo a “chegar a um acordo” antes de tomar uma decisão. Neste domingo, milhares de.",
-      "url": "https://pt.aleteia.org/2026/09/07/correcao-fraterna-um-ato-dificil-mas-necessario/",
-      "published": "2026-09-07"
+      "title": "Como devem ser tratadas as relíquias que temos em casa?",
+      "summary": "A igreja católica venera as relíquias dos santos porque elas têm um grande valor espiritual. Eles podem ser de vários tipos e vão desde objetos até partes de seus corpos, por isso é importante saber como tratá-los se tivermos algum em.",
+      "url": "https://pt.aleteia.org/2026/09/08/como-devem-ser-tratadas-as-reliquias-que-temos-em-casa/",
+      "published": "2026-09-08"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Dados: Convertidos ao catolicismo aumentam nas universidades",
+      "summary": "O número de estudantes universitários convertidos que estão ingressando na Igreja Católica está aumentando, de acordo com um novo estudo realizado pelo Hallow, nos Estados Unidos. Os dados corroboram os inúmeros relatos provenientes de.",
+      "url": "https://pt.aleteia.org/2026/09/08/dados-convertidos-ao-catolicismo-aumentam-nas-universidades/",
+      "published": "2026-09-08"
     }
   ],
   "closingQuote": {
