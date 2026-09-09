@@ -1,34 +1,34 @@
 {
-  "date": "2026-09-08",
-  "editionLabel": "8 de setembro de 2026",
+  "date": "2026-09-09",
+  "editionLabel": "9 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "festa",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Natividade da Virgem Santa Maria",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Mt 1,1-16.18-23"
+    "celebrationTitle": "São Pedro Claver, presbítero",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 6,20-26"
   },
   "saint": {
-    "feast": "Natividade da Virgem Santa Maria",
-    "name": "Natividade de Nossa Senhora, o nascimento da Mãe de Deus",
-    "description": "Celebração litúrgica do dia: Natividade da Virgem Santa Maria.",
-    "url": "https://santo.cancaonova.com/santo/natividade-de-nossa-senhora-o-nascimento-da-mae-de-deus/"
+    "feast": "São Pedro Claver\\, presbítero",
+    "name": "São Pedro Claver, Padroeiro das Missões Católicas entre os Negros",
+    "description": "Celebração litúrgica do dia: São Pedro Claver, presbítero.",
+    "url": "https://santo.cancaonova.com/santo/sao-pedro-claver-padroeiro-das-missoes-catolicas-entre-os-negros/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 1,1-16.18-23)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 6,20-26)",
     "lines": [
-      "Livro da origem de Jesus Cristo, filho de Davi, filho de Abraão.",
-      "Abraão gerou Isaac; Isaac gerou Jacó; Jacó gerou Judá e seus irmãos.",
-      "Judá gerou Farés e Zara, cuja mãe era Tamar.",
-      "Farés gerou Esrom; Esrom gerou Aram; Aram gerou Aminadab; Aminadab gerou Naasson; Naasson gerou Salmon; Salmon gerou Booz, cuja mãe era Raab.",
-      "Booz gerou Obed, cuja mãe era Rute.",
-      "Davi gerou Salomão, daquela que tinha sido a mulher de Urias.",
-      "Salomão gerou Roboão; Roboão gerou Abias; Abias gerou Asa; Asa gerou Josafá; Josafá gerou Jorão; Jorão gerou Ozias; Ozias gerou Joatão; Joatão gerou Acaz; Acaz gerou Ezequias; Ezequias gerou Manassés; Manassés gerou Amon; Amon gerou Josias."
+      "Naquele tempo, Jesus levantando os olhos para os seus discípulos, disse: Bem-aventurados vós, os pobres, porque vosso é o Reino de Deus!",
+      "Bem-aventurados, vós que agora tendes fome, porque sereis saciados!",
+      "Bem-aventurados vós, que agora chorais, porque havereis de rir!",
+      "Bem-aventurados sereis, quando os homens vos odiarem, vos expulsarem, vos insultarem e amaldiçoarem o vosso nome, por causa do Filho do Homem!",
+      "Alegrai-vos, nesse dia, e exultai pois será grande a vossa recompensa no céu; porque era assim que os antepassados deles tratavam os profetas.",
+      "Mas, ai de vós, ricos, porque já tendes vossa consolação!",
+      "Ai de vós, que agora tendes fartura, porque passareis fome!"
     ],
-    "body": "1 Livro da origem de Jesus Cristo, filho de Davi, filho de Abraão. 2 Abraão gerou Isaac; Isaac gerou Jacó; Jacó gerou Judá e seus irmãos. 3 Judá gerou Farés e Zara, cuja mãe era Tamar. Farés gerou Esrom; Esrom gerou Aram; 4 Aram gerou Aminadab; Aminadab gerou Naasson; Naasson gerou Salmon; 5 Salmon gerou Booz, cuja mãe era Raab. Booz gerou Obed, cuja mãe era Rute. Obed gerou Jessé. 6 Jessé gerou o rei Davi. Davi gerou Salomão, daquela que tinha sido a mulher de Urias. 7 Salomão gerou Roboão; Roboão gerou Abias; Abias gerou Asa; 8 Asa gerou Josafá; Josafá gerou Jorão; Jorão gerou Ozias; 9 Ozias gerou Joatão; Joatão gerou Acaz; Acaz gerou Ezequias; 10 Ezequias gerou Manassés; Manassés gerou Amon; Amon gerou Josias. 11 Josias gerou Jeconias e seus irmãos, no tempo do exílio na Babilônia. 12 Depois do exílio na Babilônia, Jeconias gerou Salatiel; Salatiel gerou Zorobabel; 13 Zorobabel gerou Abiud; Abiud gerou Eliaquim; Eliaquim gerou Azor; 14 Azor gerou Sadoc; Sadoc gerou Aquim; Aquim gerou Eliud; 15 Eliud gerou Eleazar; Eleazar gerou Matã; Matã gerou Jacó. 16 Jacó gerou José, o esposo de Maria, da qual nasceu Jesus, que é chamado o Cristo. 18 A origem de Jesus Cristo foi assim: Maria, sua mãe, estava prometida em casamento a José, e, antes de viverem juntos, ela ficou grávida pela ação do Espírito Santo. 19 José, seu marido, era justo e, não querendo denunciá-la, resolveu abandonar Maria, em segredo. 20 Enquanto José pensava nisso, eis que o anjo do Senhor apareceu-lhe, em sonho, e lhe disse: \"José, Filho de Davi, não tenhas medo de receber Maria como tua esposa, porque ela concebeu pela ação do Espírito Santo. 21 Ela dará à luz um filho, e tu lhe darás o nome de Jesus, pois ele vai salvar o seu povo dos seus pecados\". 22 Tudo isso aconteceu para se cumprir o que o Senhor havia dito pelo profeta: 23 \"Eis que a virgem conceberá e dará à luz um filho. Ele será chamado pelo nome de Emanuel, que significa: Deus está conosco\". —",
-    "keyVerse": "Sois feliz, virgem Maria; e mereceis todo louvor; pois de vós se levantou o sol brilhante da justiça, que é Cristo, nosso Deus, pelo qual nós fomos salvos!"
+    "body": "Naquele tempo, 20 Jesus levantando os olhos para os seus discípulos, disse: \"Bem-aventurados vós, os pobres, porque vosso é o Reino de Deus! 21 Bem-aventurados, vós que agora tendes fome, porque sereis saciados! Bem-aventurados vós, que agora chorais, porque havereis de rir! 22 Bem-aventurados sereis, quando os homens vos odiarem, vos expulsarem, vos insultarem e amaldiçoarem o vosso nome, por causa do Filho do Homem! 23 Alegrai-vos, nesse dia, e exultai pois será grande a vossa recompensa no céu; porque era assim que os antepassados deles tratavam os profetas. 24 Mas, ai de vós, ricos, porque já tendes vossa consolação! 25 Ai de vós, que agora tendes fartura, porque passareis fome! Ai de vós, que agora rides, porque tereis luto e lágrimas! 26 Ai de vós quando todos vos elogiam! Era assim que os antepassados deles tratavam os falsos profetas\". —",
+    "keyVerse": "Meus discípulos, alegrai-vos, exultai de alegria, pois grande é a recompensa que nos céus tereis um dia!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,30 +39,30 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV em Genazzano: deixemos a paz crescer em nós",
-      "summary": "Na homilia da missa celebrada no Santuário de Nossa Senhora do Bom Conselho na cidade italiana de Genazzano, o Papa convidou \"a confiar à Menina Maria tudo o que ainda nasce nesta pobre, porém magnífica, humanidade\". \"Celebramos o.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-santuario-nossa-senhora-bom-conselho-genazzano.html",
-      "published": "2026-09-07"
+      "title": "Leão XIV aos jovens africanos: sejam testemunhas do amor, da justiça e da paz",
+      "summary": "Mensagem de vídeo do Papa para a primeira edição das Jornadas da Juventude da África Ocidental realizadas em Acra, Gana, de 7 a 11 de setembro. \"Enviem uma mensagem forte ao nosso mundo dilacerado por guerras e conflitos de todos os.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/mensagem-video-papa-leao-xiv-jovens-africanos-paz-justica-amor.html",
+      "published": "2026-09-08"
     },
     {
       "source": "Vatican News",
-      "title": "Leão XIV nomeia bispos de Rubiataba-Mozarlândia e Porto Nacional",
-      "summary": "Dom Júlio César Gomes Moreira foi nomeado bispo de Rubiataba-Mozarlândia (GO), enquanto o padre José Paulino Francisco Neto será o novo bispo de Porto Nacional (TO). Leia tudo.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/leao-xiv-nomeia-bispos-de-rubiataba-mozarlandia-e-porto-nacional.html",
+      "title": "Arcebispo de Chongqing é ordenado na China",
+      "summary": "O reverendo Andrea Ding Yang foi nomeado pelo Papa em 28 de julho, após a aprovação de sua candidatura no âmbito do Acordo Provisório entre a Santa Sé e a República Popular da China. Depois de estudar por um período em Roma, em 2014,.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/arcebispo-de-chongqing-e-ordenado-na-china.html",
       "published": "2026-09-08"
     },
     {
       "source": "CNBB",
-      "title": "Comunidades vocacionais: 5º Congresso Vocacional do Brasil reúne 950 pessoas em Aparecida (SP)",
-      "summary": "Bispos, padres, religiosos e religiosas, especialmente os que atuam na animação e no acompanhamento vocacional pelo Brasil, vivenciaram dias de encontro, oração, escuta, partilha, comunhão e renovação do chamado ao discipulado de Jesus.",
-      "url": "https://www.cnbb.org.br/5o-congresso-vocacional-reune-950-pessoas-em-aparecida-sp/",
+      "title": "Seminário Bíblico aprofunda o livro de Daniel durante o Mês da Bíblia 2026",
+      "summary": "A Comissão Episcopal para a Animação Bíblico-Catequética da CNBB, em parceria com a Edições CNBB, promove, nos dias 8, 9 e 10 de setembro, o Seminário Bíblico - Mês da Bíblia 2026. A iniciativa oferece três noites de formação e.",
+      "url": "https://www.cnbb.org.br/seminario-biblico-aprofunda-o-livro-de-daniel-durante-o-mes-da-biblia-2026/",
       "published": "2026-09-08"
     },
     {
-      "source": "CNBB",
-      "title": "A graça do perdão ilimitado!",
-      "summary": "Dom Antônio Carlos Altieri Arcebispo Emérito de Passo Fundo (RS) A liturgia deste XXIV Domingo do Tempo Comum nos apresenta o sustentáculo espiritual indispensável para que possamos perseverar na missão de curar e educar sem nos deixarmos.",
-      "url": "https://www.cnbb.org.br/a-graca-do-perdao-ilimitado/",
+      "source": "ACI Digital",
+      "title": "Bispo de Santos lista, saúde, educação, meio ambiente e violência como critérios para as eleiçõ",
+      "summary": "O bispo de Santos, dom Joaquim Giovani Mol Guimarães, disse que os princípios católicos diante dos candidatos nas próximas eleições devem levar “a perguntar concretamente como as propostas apresentadas respondem aos desafios da saúde e da.",
+      "url": "https://www.acidigital.com/noticia/69715/bispo-de-santos-lista-saude-educacao-meio-ambiente-e-violencia-como-criterios-para-as-eleicoes",
       "published": "2026-09-08"
     },
     {
@@ -74,25 +74,25 @@
     },
     {
       "source": "Shalom",
-      "title": "PJJ de Natal realiza Start Acamps e dá início à preparação para a edição 2027.1",
-      "summary": "A programação reuniu jovens do PJJ em uma noite de espiritualidade, celebração e confraternização. 1 proviene da Comunidade Católica Shalom .",
-      "url": "https://comshalom.org/pjj-de-natal-realiza-start-acamps-e-da-inicio-a-preparacao-para-o-acamps-2027-1/",
-      "published": "2026-09-08"
+      "title": "A alegria de celebrar a Eucaristia no coração do Vaticano",
+      "summary": "Durante a Convenção Shalom 2026, peregrinos da Comunidade viverão a experiência de celebrar a fé no coração do Vaticano.",
+      "url": "https://comshalom.org/a-alegria-de-celebrar-a-eucaristia-no-coracao-do-vaticano/",
+      "published": "2026-09-09"
     },
     {
-      "source": "Gaudium Press",
-      "title": "Paquistão: mais de 500 mil católicos participam da peregrinação mariana",
-      "summary": "A 77ª peregrinação ao Santuário de Mariamabad reuniu mais uma vez centenas de milhares de pessoas em oração, celebração da fé e súplica pela paz. A chuva e as dificuldades de acesso ao santuário não diminuíram a participação, que.",
-      "url": "https://gaudiumpress.org/content/paquistao-mais-de-500-mil-catolicos-participam-da-peregrinacao-mariana/",
+      "source": "Shalom",
+      "title": "No silêncio fecundo de São José",
+      "summary": "“Não me lembro de lhe ter pedido alguma coisa que ele não me tenha alcançado.” (Santa Teresa de Ávila) São José, Justo na Fé, homem santo sonhador, acolhe a Virgem Maria e Cristo Jesus Salvador. O Mistério tão grande, pelo silêncio obediente, atravessa firme a noite, leva Maria pelo Oriente. “Vai a José! Ele te ensinará a amar Jesus e Maria.” (São Josemaria Escrivá) Pai adotivo do Senhor, que por graça protegeu a Chama Viva do Amor, Divino Filho que nasceu.",
+      "url": "https://comshalom.org/no-silencio-fecundo-de-sao-jose/",
       "published": "2026-09-08"
     }
   ],
   "closingQuote": {
-    "text": "O que nela foi gerado vem do Espírito Santo.",
-    "source": "Mateus 1,1-16.18-23"
+    "text": "Bem-aventurados vós, os pobres. Mas, ai de vós, ricos.",
+    "source": "Lucas 6,20-26"
   },
   "liturgyHours": {
-    "reading": "Nascerá uma haste do tronco de Jessé e, a partir da raiz, surgirá o rebento de uma flor; sobre ele repousará o Espírito do Senhor: espírito de sabedoria e discernimento, espírito de conselho e fortaleza, espírito de ciência e temor de Deus; no temor...",
+    "reading": "Nu eu saí do ventre de minha mãe e nu voltarei para lá. O Senhor deu, o Senhor tirou; como foi do agrado do Senhor, assim foi feito. Bendito seja o nome do Senhor! Se recebemos de Deus os bens, não deveríamos receber também os males?",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
