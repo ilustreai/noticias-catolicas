@@ -1,34 +1,34 @@
 {
-  "date": "2026-09-09",
-  "editionLabel": "9 de setembro de 2026",
+  "date": "2026-09-10",
+  "editionLabel": "10 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Pedro Claver, presbítero",
+    "celebrationTitle": "10 de setembro de 2026 - Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 6,20-26"
+    "gospelShort": "Lc 6,27-38"
   },
   "saint": {
-    "feast": "São Pedro Claver\\, presbítero",
-    "name": "São Pedro Claver, Padroeiro das Missões Católicas entre os Negros",
-    "description": "Celebração litúrgica do dia: São Pedro Claver, presbítero.",
-    "url": "https://santo.cancaonova.com/santo/sao-pedro-claver-padroeiro-das-missoes-catolicas-entre-os-negros/"
+    "feast": "\udfe2 Quinta-Feira da Semana XXIII do Tempo Comum",
+    "name": "São Nicolau de Tolentino, protetor das almas do purgatório",
+    "description": "Celebração litúrgica do dia: 10 de setembro de 2026 - Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-nicolau-de-tolentino-protetor-das-almas-do-purgatorio/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 6,20-26)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 6,27-38)",
     "lines": [
-      "Naquele tempo, Jesus levantando os olhos para os seus discípulos, disse: Bem-aventurados vós, os pobres, porque vosso é o Reino de Deus!",
-      "Bem-aventurados, vós que agora tendes fome, porque sereis saciados!",
-      "Bem-aventurados vós, que agora chorais, porque havereis de rir!",
-      "Bem-aventurados sereis, quando os homens vos odiarem, vos expulsarem, vos insultarem e amaldiçoarem o vosso nome, por causa do Filho do Homem!",
-      "Alegrai-vos, nesse dia, e exultai pois será grande a vossa recompensa no céu; porque era assim que os antepassados deles tratavam os profetas.",
-      "Mas, ai de vós, ricos, porque já tendes vossa consolação!",
-      "Ai de vós, que agora tendes fartura, porque passareis fome!"
+      "Naquele tempo, disse Jesus a seus discípulos: A vós que me escutais, eu digo: Amai os vossos inimigos e fazei o bem aos que vos odeiam, bendizei os que vos amaldiçoam, e rezai por aqueles que vos caluniam.",
+      "Se alguém te der uma bofetada numa face, oferece também a outra.",
+      "Se alguém te tomar o manto, deixa-o levar também a túnica.",
+      "Dá a quem te pedir e, se alguém tirar o que é teu, não peças que o devolva.",
+      "O que vós desejais que os outros vos façam, fazei-o também vós a eles.",
+      "Se amais somente aqueles que vos amam, que recompensa tereis?",
+      "Até os pecadores amam aqueles que os amam."
     ],
-    "body": "Naquele tempo, 20 Jesus levantando os olhos para os seus discípulos, disse: \"Bem-aventurados vós, os pobres, porque vosso é o Reino de Deus! 21 Bem-aventurados, vós que agora tendes fome, porque sereis saciados! Bem-aventurados vós, que agora chorais, porque havereis de rir! 22 Bem-aventurados sereis, quando os homens vos odiarem, vos expulsarem, vos insultarem e amaldiçoarem o vosso nome, por causa do Filho do Homem! 23 Alegrai-vos, nesse dia, e exultai pois será grande a vossa recompensa no céu; porque era assim que os antepassados deles tratavam os profetas. 24 Mas, ai de vós, ricos, porque já tendes vossa consolação! 25 Ai de vós, que agora tendes fartura, porque passareis fome! Ai de vós, que agora rides, porque tereis luto e lágrimas! 26 Ai de vós quando todos vos elogiam! Era assim que os antepassados deles tratavam os falsos profetas\". —",
-    "keyVerse": "Meus discípulos, alegrai-vos, exultai de alegria, pois grande é a recompensa que nos céus tereis um dia!"
+    "body": "Naquele tempo, disse Jesus a seus discípulos: 27 \"A vós que me escutais, eu digo: Amai os vossos inimigos e fazei o bem aos que vos odeiam, 28 bendizei os que vos amaldiçoam, e rezai por aqueles que vos caluniam. 29 Se alguém te der uma bofetada numa face, oferece também a outra. Se alguém te tomar o manto, deixa-o levar também a túnica. 30 Dá a quem te pedir e, se alguém tirar o que é teu, não peças que o devolva. 31 O que vós desejais que os outros vos façam, fazei-o também vós a eles. 32 Se amais somente aqueles que vos amam, que recompensa tereis? Até os pecadores amam aqueles que os amam. 33 E se fazeis o bem somente aos que vos fazem o bem, que recompensa tereis? Até os pecadores fazem assim. 34 E se emprestais somente àqueles de quem esperais receber, que recompensa tereis? Até os pecadores emprestam aos pecadores, para receber de volta a mesma quantia. 35 Ao contrário, amai os vossos inimigos, fazei o bem e emprestai sem esperar coisa alguma em troca. Então, a vossa recompensa será grande, e sereis filhos do Altíssimo, porque Deus é bondoso também para com os ingratos e os maus. 36 Sede misericordiosos, como também o vosso Pai é misericordioso. 37 Não julgueis e não sereis julgados; não condeneis e não sereis condenados; perdoai, e sereis perdoados. 38 Dai e vos será dado. Uma boa medida, calcada, sacudida, transbordante será colocada no vosso colo; porque com a mesma medida com que medirdes os outros, vós também sereis medidos\". —",
+    "keyVerse": "Se nós nos amamos, irmãos, Deus vive unido conosco, e, em nós seu amor fica pleno!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa aos poloneses: gratidão aos agricultores, por não faltar o pão de cada dia",
-      "summary": "Leão XIV recordou a Festa da Colheita durante a Audiência Geral, agradeceu pelos frutos e pediu proteção às famílias e aos campos. Uma saudação dirigida aos fiéis da Polônia e a descendentes de todo o mundo que também comemoram a tradição.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-polonia-tradicao-colheita-2026.html",
+      "title": "Na Audiência Geral com o Papa Leão, tripulantes do Navio-Escola Brasil",
+      "summary": "Entre os mais de 20 mil peregrinos presentes na Praça São Pedro nesta quarta-feira (09/09) estava a tripulação do Navio-Escola Brasil, atracado no Porto de Civitavecchia há 2 dias. A Itália é o quinto dos 17 portos estrangeiros visitados.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-navio-escola-brasil-croacia-2026.html",
       "published": "2026-09-09"
     },
     {
       "source": "Vatican News",
-      "title": "Papa: a dignidade humana é dom de Deus, não depende de capacidades ou riquezas",
-      "summary": "Leão XIV dedicou a catequese da Audiência Geral desta quarta-feira (09/09) à dignidade da pessoa humana, tema abordado no primeiro capítulo da Constituição conciliar Gaudium et spes: “Comprometamo-nos a promovê-la e defendê-la sempre, com.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/leao-xiv-catequese-audiencia-geral-9-setembro-2026.html",
+      "title": "O Papa abrirá o Ano Pastoral da Diocese de Roma na Basílica de São João de Latrão",
+      "summary": "Na sexta-feira, 18 de setembro, o Papa presidirá a Assembleia Diocesana na Basílica de Latrão. Cardeal Reina: \"Cada comunidade paroquial deve estar presente com uma delegação para expressar o rosto de toda a família diocesana\". Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/diocese-roma-papa-leao-xiv-assembleia-diocesana-ano-pastoral.html",
       "published": "2026-09-09"
     },
     {
       "source": "CNBB",
-      "title": "Formação, espiritualidade e convivência marcam dias de reflexão sobre os caminhos do ecumenismo",
-      "summary": "Ao longo da programação, voltada a reafirmar a busca pela Unidade quanto à missão da Igreja, os participantes aprofundaram a importância e os desafios no ecumenismo no contexto atual, refletiram sobre a tarefa do diálogo entre os.",
-      "url": "https://www.cnbb.org.br/formacao-e-convivencia-ecumenica-2026/",
+      "title": "Eleições 2026 ganha destaque na Igreja",
+      "summary": "Dom Pedro Cipollini Bispo de Santo André (SP) No próximo dia 4 de outubro teremos a oportunidade de exercer nossa cidadania por meio do voto, uma responsabilidade de todos. É por meio dele que escolhemos os legítimos representantes para.",
+      "url": "https://www.cnbb.org.br/eleicoes-2026/",
       "published": "2026-09-09"
     },
     {
-      "source": "CNBB",
-      "title": "Do jeito que debatermos, governaremos e conduziremos as pessoas",
-      "summary": "Dom Roberto Francisco Ferreria Paz Bispo de Campos (RJ) Os debates políticos desde 2013 tem se tornado mais embates e combates para humilhar e aniquilar os rivais que oferecer espaço de discernimento para escolha dos candidatos. Se.",
-      "url": "https://www.cnbb.org.br/do-jeito-que-debatermos-governaremos-e-conduziremos-as-pessoas/",
-      "published": "2026-09-09"
-    },
-    {
-      "source": "Shalom",
-      "title": "Dignidade humana é dom que precede qualquer escolha, ensina Leão XIV",
-      "summary": "Na segunda catequese sobre a Gaudium et Spes, o Santo Padre relembra que a dignidade da pessoa nasce de sua condição de criatura à imagem de Deus.",
-      "url": "https://comshalom.org/dignidade-humana-e-dom-que-precede-qualquer-escolha-ensina-leao-xiv/",
+      "source": "ACI Digital",
+      "title": "Leão XIV denuncia “paradoxo” do Ocidente: ênfase na liberdade, mas medo de não se encaixar",
+      "summary": "O papa Leão XIV falou hoje (9) sobre o “paradoxo” que as sociedades ocidentais estão vivendo, onde a crescente ênfase na liberdade individual coexiste com um “medo” cada vez mais disseminado de ser julgado. Em discurso a um grupo de bispos ligados ao Movimento dos Focolares de vários países, o papa falou sobre os efeitos do individualismo, \"onde as redes outrora estáveis da família, amizade e comunidade estão a dar lugar a uma crescente fragmentação\"....",
+      "url": "https://www.acidigital.com/noticia/69735/leao-xiv-denuncia-paradoxo-do-ocidente-enfase-na-liberdade-mas-medo-de-nao-se-encaixar",
       "published": "2026-09-09"
     },
     {
       "source": "Shalom",
-      "title": "PJJ de Natal realiza Start Acamps e dá início à preparação para a edição 2027.1",
-      "summary": "A programação reuniu jovens do PJJ em uma noite de espiritualidade, celebração e confraternização. 1 proviene da Comunidade Católica Shalom .",
-      "url": "https://comshalom.org/pjj-de-natal-realiza-start-acamps-e-da-inicio-a-preparacao-para-o-acamps-2027-1/",
-      "published": "2026-09-08"
+      "title": "A alegria de celebrar a Eucaristia no coração do Vaticano",
+      "summary": "Durante a Convenção Shalom 2026, peregrinos da Comunidade viverão a experiência de celebrar a fé no coração do Vaticano.",
+      "url": "https://comshalom.org/a-alegria-de-celebrar-a-eucaristia-no-coracao-do-vaticano/",
+      "published": "2026-09-09"
+    },
+    {
+      "source": "Shalom",
+      "title": "Expedição Chaves 2026.2 promove integração, cuidado e evangelização em Olimpíadas do Espaço de",
+      "summary": "Entre os dias 17 e 30 de agosto, o Voluntariado Shalom realizou mais uma edição da Expedição Chaves, na Ilha do Marajó, no Pará. A iniciativa contou com a participação de 11 voluntários vindos de diferentes regiões do Brasil, que se.",
+      "url": "https://comshalom.org/expedicao-chaves-2026-2-promove-integracao-cuidado-e-evangelizacao-em-olimpiadas-do-espaco-de-paz/",
+      "published": "2026-09-09"
     },
     {
       "source": "Aleteia",
-      "title": "Santos de setembro: A quem pedir intercessão neste mês?",
-      "summary": "Setembro é um mês marcado por transições e recomeços, e frequentemente nos vemos diante de novas metas e responsabilidades. Na tradição católica, a Igreja nos oferece a companhia dos santos como modelos de vida e intercessores para nos.",
-      "url": "https://pt.aleteia.org/2026/09/09/santos-de-setembro-a-quem-pedir-intercessao-neste-mes/",
-      "published": "2026-09-09"
+      "title": "Quais livros um católico pode ler?",
+      "summary": "Recentemente um leitor do jornal O São Paulo questionou o conhecido Padre Cido sobre os livros que os católicos podem ler. Uma pergunta interessante que levou o sacerdote a apresentar uma resposta que ilumina a consciência. O livro, este.",
+      "url": "https://pt.aleteia.org/2026/09/10/quais-livros-um-catolico-pode-ler/",
+      "published": "2026-09-10"
     }
   ],
   "closingQuote": {
-    "text": "Bem-aventurados vós, os pobres. Mas, ai de vós, ricos.",
-    "source": "Lucas 6,20-26"
+    "text": "Sede misericordiosos, como também o vosso Pai é misericordioso.",
+    "source": "Lucas 6,27-38"
   },
   "liturgyHours": {
-    "reading": "Nu eu saí do ventre de minha mãe e nu voltarei para lá. O Senhor deu, o Senhor tirou; como foi do agrado do Senhor, assim foi feito. Bendito seja o nome do Senhor! Se recebemos de Deus os bens, não deveríamos receber também os males?",
+    "reading": "Como bons administradores da multiforme graça de Deus, cada um coloque à disposição dos outros o dom que recebeu. Se alguém tem o dom de falar, proceda como com palavras de Deus. Se alguém tem o dom do serviço, exerça-o como capacidade proporcionada...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
