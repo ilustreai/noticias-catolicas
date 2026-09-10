@@ -5,7 +5,7 @@
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "10 de setembro de 2026 - Tempo Comum",
+    "celebrationTitle": "Quinta-Feira da Semana XXIII do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
     "gospelShort": "Lc 6,27-38"
@@ -13,7 +13,7 @@
   "saint": {
     "feast": "\udfe2 Quinta-Feira da Semana XXIII do Tempo Comum",
     "name": "São Nicolau de Tolentino, protetor das almas do purgatório",
-    "description": "Celebração litúrgica do dia: 10 de setembro de 2026 - Tempo Comum.",
+    "description": "Celebração litúrgica do dia: Quinta-Feira da Semana XXIII do Tempo Comum.",
     "url": "https://santo.cancaonova.com/santo/sao-nicolau-de-tolentino-protetor-das-almas-do-purgatorio/"
   },
   "gospel": {
@@ -39,44 +39,44 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Na Audiência Geral com o Papa Leão, tripulantes do Navio-Escola Brasil",
-      "summary": "Entre os mais de 20 mil peregrinos presentes na Praça São Pedro nesta quarta-feira (09/09) estava a tripulação do Navio-Escola Brasil, atracado no Porto de Civitavecchia há 2 dias. A Itália é o quinto dos 17 portos estrangeiros visitados.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-navio-escola-brasil-croacia-2026.html",
-      "published": "2026-09-09"
+      "title": "Papa: construir “casas de paz”, onde a hostilidade se neutralize com o diálogo",
+      "summary": "Telegrama de Leão XIV, assinado pelo secretário de Estado, cardeal Pietro Parolin, por ocasião da primeira Conferência do Instituto Católico pela Não Violência, promovida pela Pax Christi. O Pontífice fez um apelo para “continuar a missão.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-telegrama-nao-violencia-pax-christi-pa-2026.html",
+      "published": "2026-09-10"
     },
     {
       "source": "Vatican News",
-      "title": "O Papa abrirá o Ano Pastoral da Diocese de Roma na Basílica de São João de Latrão",
-      "summary": "Na sexta-feira, 18 de setembro, o Papa presidirá a Assembleia Diocesana na Basílica de Latrão. Cardeal Reina: \"Cada comunidade paroquial deve estar presente com uma delegação para expressar o rosto de toda a família diocesana\". Leia tudo.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/diocese-roma-papa-leao-xiv-assembleia-diocesana-ano-pastoral.html",
+      "title": "O Papa: a Igreja não está isolada do mundo, mas anuncia a esperança",
+      "summary": "Leão XIV recebeu os bispos nomeados recentemente que participam do curso de formação no Vaticano. Em seu discurso, ele assegurou que \"nenhum bispo está sozinho\" e os exortou a estarem próximos do povo, amando aqueles que Deus lhes.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-discurso-curso-formacao-novos-bispos.html",
+      "published": "2026-09-10"
+    },
+    {
+      "source": "CNBB",
+      "title": "Formação, espiritualidade e convivência marcam dias de reflexão sobre os caminhos do ecumenismo",
+      "summary": "Ao longo da programação, voltada a reafirmar a busca pela Unidade quanto à missão da Igreja, os participantes aprofundaram a importância e os desafios no ecumenismo no contexto atual, refletiram sobre a tarefa do diálogo entre os cristãos.",
+      "url": "https://www.cnbb.org.br/formacao-e-convivencia-ecumenica-2026/",
       "published": "2026-09-09"
     },
     {
       "source": "CNBB",
-      "title": "Eleições 2026 ganha destaque na Igreja",
-      "summary": "Dom Pedro Cipollini Bispo de Santo André (SP) No próximo dia 4 de outubro teremos a oportunidade de exercer nossa cidadania por meio do voto, uma responsabilidade de todos. É por meio dele que escolhemos os legítimos representantes para.",
-      "url": "https://www.cnbb.org.br/eleicoes-2026/",
+      "title": "Do jeito que debatermos, governaremos e conduziremos as pessoas",
+      "summary": "Dom Roberto Francisco Ferreria Paz Bispo de Campos (RJ) Os debates políticos desde 2013 tem se tornado mais embates e combates para humilhar e aniquilar os rivais que oferecer espaço de discernimento para escolha dos candidatos. Se.",
+      "url": "https://www.cnbb.org.br/do-jeito-que-debatermos-governaremos-e-conduziremos-as-pessoas/",
       "published": "2026-09-09"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV denuncia “paradoxo” do Ocidente: ênfase na liberdade, mas medo de não se encaixar",
-      "summary": "O papa Leão XIV falou hoje (9) sobre o “paradoxo” que as sociedades ocidentais estão vivendo, onde a crescente ênfase na liberdade individual coexiste com um “medo” cada vez mais disseminado de ser julgado. Em discurso a um grupo de bispos ligados ao Movimento dos Focolares de vários países, o papa falou sobre os efeitos do individualismo, \"onde as redes outrora estáveis da família, amizade e comunidade estão a dar lugar a uma crescente fragmentação\"....",
-      "url": "https://www.acidigital.com/noticia/69735/leao-xiv-denuncia-paradoxo-do-ocidente-enfase-na-liberdade-mas-medo-de-nao-se-encaixar",
+      "title": "Bispo reza missa com ‘credo’ contra hierarquia na Igreja e a favor de ‘toda a diversidade sexua",
+      "summary": "O bispo de Brejo (MA), José Valdeci Santos Mendes, celebrou missa como parte do evento Grito dos Excluídos no dia 7 de setembro último. Na missa, foi lido o Credo da Juventude das CEBs.",
+      "url": "https://www.acidigital.com/noticia/69737/bispo-reza-missa-com-credo-contra-hierarquia-na-igreja-e-a-favor-de-toda-a-diversidade-sexual",
       "published": "2026-09-09"
     },
     {
-      "source": "Shalom",
-      "title": "A alegria de celebrar a Eucaristia no coração do Vaticano",
-      "summary": "Durante a Convenção Shalom 2026, peregrinos da Comunidade viverão a experiência de celebrar a fé no coração do Vaticano.",
-      "url": "https://comshalom.org/a-alegria-de-celebrar-a-eucaristia-no-coracao-do-vaticano/",
-      "published": "2026-09-09"
-    },
-    {
-      "source": "Shalom",
-      "title": "Expedição Chaves 2026.2 promove integração, cuidado e evangelização em Olimpíadas do Espaço de",
-      "summary": "Entre os dias 17 e 30 de agosto, o Voluntariado Shalom realizou mais uma edição da Expedição Chaves, na Ilha do Marajó, no Pará. A iniciativa contou com a participação de 11 voluntários vindos de diferentes regiões do Brasil, que se.",
-      "url": "https://comshalom.org/expedicao-chaves-2026-2-promove-integracao-cuidado-e-evangelizacao-em-olimpiadas-do-espaco-de-paz/",
+      "source": "ACI Digital",
+      "title": "Leão XIV denuncia manipulações que ameaçam a dignidade humana",
+      "summary": "Na audiência geral de hoje (9), o papa Leão XIV exortou à superação das “falsificações e manipulações” que impedem a plena realização da dignidade humana.",
+      "url": "https://www.acidigital.com/noticia/69723/leao-xiv-denuncia-manipulacoes-que-ameacam-a-dignidade-humana",
       "published": "2026-09-09"
     },
     {
