@@ -1,34 +1,32 @@
 {
-  "date": "2026-09-10",
-  "editionLabel": "10 de setembro de 2026",
+  "date": "2026-09-11",
+  "editionLabel": "11 de setembro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Quinta-Feira da Semana XXIII do Tempo Comum",
+    "celebrationTitle": "Sexta-Feira da Semana XXIII do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 6,27-38"
+    "gospelShort": "Lc 6,39-42"
   },
   "saint": {
-    "feast": "\udfe2 Quinta-Feira da Semana XXIII do Tempo Comum",
-    "name": "São Nicolau de Tolentino, protetor das almas do purgatório",
-    "description": "Celebração litúrgica do dia: Quinta-Feira da Semana XXIII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-nicolau-de-tolentino-protetor-das-almas-do-purgatorio/"
+    "feast": "\udfe2 Sexta-Feira da Semana XXIII do Tempo Comum",
+    "name": "São João Gabriel Perboyre, sacerdote e professor",
+    "description": "Celebração litúrgica do dia: Sexta-Feira da Semana XXIII do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-joao-gabriel-perboyre-sacerdote-e-professor/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 6,27-38)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 6,39-42)",
     "lines": [
-      "Naquele tempo, disse Jesus a seus discípulos: A vós que me escutais, eu digo: Amai os vossos inimigos e fazei o bem aos que vos odeiam, bendizei os que vos amaldiçoam, e rezai por aqueles que vos caluniam.",
-      "Se alguém te der uma bofetada numa face, oferece também a outra.",
-      "Se alguém te tomar o manto, deixa-o levar também a túnica.",
-      "Dá a quem te pedir e, se alguém tirar o que é teu, não peças que o devolva.",
-      "O que vós desejais que os outros vos façam, fazei-o também vós a eles.",
-      "Se amais somente aqueles que vos amam, que recompensa tereis?",
-      "Até os pecadores amam aqueles que os amam."
+      "Naquele tempo, Jesus contou uma parábola aos discípulos: Pode um cego guiar outro cego?",
+      "Um discípulo não é maior do que o mestre; todo discípulo bem formado será como o mestre.",
+      "Por que vês tu o cisco no olho do teu irmão, e não percebes a trave que há no teu próprio olho?",
+      "Como podes dizer a teu irmão: Irmão, deixa-me tirar o cisco do teu olho, quando tu não vês a trave no teu próprio olho?",
+      "Tira primeiro a trave do teu olho, e então poderás enxergar bem para tirar o cisco do olho do teu irmão."
     ],
-    "body": "Naquele tempo, disse Jesus a seus discípulos: 27 \"A vós que me escutais, eu digo: Amai os vossos inimigos e fazei o bem aos que vos odeiam, 28 bendizei os que vos amaldiçoam, e rezai por aqueles que vos caluniam. 29 Se alguém te der uma bofetada numa face, oferece também a outra. Se alguém te tomar o manto, deixa-o levar também a túnica. 30 Dá a quem te pedir e, se alguém tirar o que é teu, não peças que o devolva. 31 O que vós desejais que os outros vos façam, fazei-o também vós a eles. 32 Se amais somente aqueles que vos amam, que recompensa tereis? Até os pecadores amam aqueles que os amam. 33 E se fazeis o bem somente aos que vos fazem o bem, que recompensa tereis? Até os pecadores fazem assim. 34 E se emprestais somente àqueles de quem esperais receber, que recompensa tereis? Até os pecadores emprestam aos pecadores, para receber de volta a mesma quantia. 35 Ao contrário, amai os vossos inimigos, fazei o bem e emprestai sem esperar coisa alguma em troca. Então, a vossa recompensa será grande, e sereis filhos do Altíssimo, porque Deus é bondoso também para com os ingratos e os maus. 36 Sede misericordiosos, como também o vosso Pai é misericordioso. 37 Não julgueis e não sereis julgados; não condeneis e não sereis condenados; perdoai, e sereis perdoados. 38 Dai e vos será dado. Uma boa medida, calcada, sacudida, transbordante será colocada no vosso colo; porque com a mesma medida com que medirdes os outros, vós também sereis medidos\". —",
-    "keyVerse": "Se nós nos amamos, irmãos, Deus vive unido conosco, e, em nós seu amor fica pleno!"
+    "body": "Naquele tempo, 39 Jesus contou uma parábola aos discípulos: \"Pode um cego guiar outro cego? Não cairão os dois num buraco? 40 Um discípulo não é maior do que o mestre; todo discípulo bem formado será como o mestre. 41 Por que vês tu o cisco no olho do teu irmão, e não percebes a trave que há no teu próprio olho? 42 Como podes dizer a teu irmão: Irmão, deixa-me tirar o cisco do teu olho, quando tu não vês a trave no teu próprio olho? Hipócrita! Tira primeiro a trave do teu olho, e então poderás enxergar bem para tirar o cisco do olho do teu irmão\". —",
+    "keyVerse": "Vossa palavra é a verdade; santificai-nos na verdade!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +37,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa: construir “casas de paz”, onde a hostilidade se neutralize com o diálogo",
-      "summary": "Telegrama de Leão XIV, assinado pelo secretário de Estado, cardeal Pietro Parolin, por ocasião da primeira Conferência do Instituto Católico pela Não Violência, promovida pela Pax Christi. O Pontífice fez um apelo para “continuar a missão.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-telegrama-nao-violencia-pax-christi-pa-2026.html",
+      "title": "Os novos mártires do século XXI: encontro para refletir sobre os Santos da “porta ao lado”",
+      "summary": "O Dicastério para as Causas dos Santos promove o encontro na próxima terça-feira, 15 de setembro, no Instituto Patrístico Augustinianum, em Roma, das 9h30 às 18h30. O prefeito, cardeal Semeraro: “Os santos não são apenas aqueles.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/dicasterio-causas-santos-simposio-martires.html",
       "published": "2026-09-10"
     },
     {
       "source": "Vatican News",
-      "title": "Na Audiência Geral com o Papa Leão, tripulantes do Navio-Escola Brasil",
-      "summary": "Entre os mais de 20 mil peregrinos presentes na Praça São Pedro nesta quarta-feira (09/09) estava a tripulação do Navio-Escola Brasil, atracado no Porto de Civitavecchia há 2 dias. A Itália é o quinto dos 17 portos estrangeiros visitados.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-navio-escola-brasil-croacia-2026.html",
+      "title": "Grupo SAE e mídia vaticana juntos por nova sinergia editorial",
+      "summary": "Pela primeira vez, um grupo editorial italiano firma um acordo desse tipo com a Santa Sé. A partir de 11 de setembro, vídeos e notícias sobre o Papa Leão XIV e seu pontificado serão divulgados, 24 horas por dia, no site de La Stampa e de.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/grupo-sae-midia-vaticano-nova-sinergia-editorial.html",
+      "published": "2026-09-10"
+    },
+    {
+      "source": "CNBB",
+      "title": "Setor Música Litúrgica da CNBB reúne compositores na 17ª edição de encontro nacional",
+      "summary": "O evento continua a caminhada de formação litúrgico-musical \"nas veredas do Concílio Vaticano II e do magistério da Igreja no Brasil\". No atual momento de implantação da sinodalidade, é essencial retomar o trabalho das comissões.",
+      "url": "https://www.cnbb.org.br/17o-encontro-de-compositores-musica-liturgica/",
+      "published": "2026-09-10"
+    },
+    {
+      "source": "CNBB",
+      "title": "Onde há cuidado, Deus abre caminhos",
+      "summary": "Dom Luiz Antonio Cipolini Bispo de Marília (SP) Há momentos em que Deus nos permite contemplar, de maneira muito concreta, a beleza de uma Igreja que acolhe e cuida. Foi com esse sentimento que recebemos, em nossa Diocese, as Irmãs da.",
+      "url": "https://www.cnbb.org.br/onde-ha-cuidado-deus-abre-caminhos/",
+      "published": "2026-09-10"
+    },
+    {
+      "source": "Shalom",
+      "title": "Expedição Chaves 2026.2 promove integração, cuidado e evangelização em Olimpíadas do Espaço de",
+      "summary": "Entre os dias 17 e 30 de agosto, o Voluntariado Shalom realizou mais uma edição da Expedição Chaves, na Ilha do Marajó, no Pará. A iniciativa contou com a participação de 11 voluntários vindos de diferentes regiões do Brasil, que se.",
+      "url": "https://comshalom.org/expedicao-chaves-2026-2-promove-integracao-cuidado-e-evangelizacao-em-olimpiadas-do-espaco-de-paz/",
       "published": "2026-09-09"
     },
     {
-      "source": "CNBB",
-      "title": "A oração das pessoas cristãs nos primeiros séculos do cristianismo",
-      "summary": "Dom Vital Corbellini Bispo de Marabá (PA) A oração é parte integrante do nosso seguimento a Jesus Cristo e a Igreja. Ela nos liga a Deus e às pessoas que estão ao nosso lado, às comunidades, para nós vivermos a unidade, a sinodalidade, o.",
-      "url": "https://www.cnbb.org.br/a-oracao-das-pessoas-cristas-nos-primeiros-seculos-do-cristianismo/",
-      "published": "2026-09-10"
-    },
-    {
-      "source": "CNBB",
-      "title": "Encerramento da Festa de São Raimundo Nonato dos Mulundus",
-      "summary": "Dom Benedito Araujo Bispo de Campo Maior (PI) Homilia – Encerramento da Festa de São Raimundo Nonato dos Mulundus. Vargem Grande MA, 31/08/26 Após a Procissão. 1 Cor 2, 1-5; Sl 118 (119); Lc 4, 16-30. Tema: Com São Raimundo Nonato dos.",
-      "url": "https://www.cnbb.org.br/encerramento-da-festa-de-sao-raimundo-nonato-dos-mulundus/",
-      "published": "2026-09-10"
-    },
-    {
       "source": "Shalom",
-      "title": "Comunhão e alegria: Shalom Parnaíba reúne bispo e sacerdotes para noite de fraternidade",
-      "summary": "O encontro também foi uma oportunidade para partilhar um pouco da missão evangelizadora realizada pela Comunidade em Parnaíba, especialmente junto à juventude.",
-      "url": "https://comshalom.org/comunhao-e-alegria-shalom-parnaiba-reune-bispo-e-sacerdotes-para-noite-de-fraternidade-1/",
+      "title": "Não perca a data! Garanta seu pacote Shalom para a JMJ Seul 2027",
+      "summary": "O ano está terminando, 2027 já está logo ali, e a Jornada Mundial da Juventude se aproxima cada vez mais. A Comunidade Shalom estará junto com toda a juventude católica em Seul, na Coreia do Sul, entre 3 e 8 de agosto. Os peregrinos poderão participar com a Juventude Shalom e viver mais intensamente o Carisma e a Vocação, de uma forma inesquecível! O pacote Peregrino Shalom está no primeiro lote, pelo valor de US$ 440,00 , até o dia 10 de outubro ....",
+      "url": "https://comshalom.org/nao-perca-a-data-garanta-seu-pacote-shalom-para-a-jmj-seul-2027/",
       "published": "2026-09-10"
     },
     {
-      "source": "Shalom",
-      "title": "Intercessão pelos que sofrem: três realidades que pedem oração",
-      "summary": "Todos os dias, notícias sobre guerras, desastres naturais, doenças e diferentes formas de violência chegam até nós. Em meio à velocidade das redes sociais e da rotina, porém, algumas dessas dores podem parecer distantes. Para a Igreja, essas realidades também são um chamado à intercessão . Interceder é colocar diante de Deus a vida daqueles que sofrem, confiando que a oração não é indiferente à realidade....",
-      "url": "https://comshalom.org/intercessao-pelos-que-sofrem/",
-      "published": "2026-09-10"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Quais livros um católico pode ler?",
-      "summary": "Recentemente um leitor do jornal O São Paulo questionou o conhecido Padre Cido sobre os livros que os católicos podem ler. Uma pergunta interessante que levou o sacerdote a apresentar uma resposta que ilumina a consciência. O livro, este.",
-      "url": "https://pt.aleteia.org/2026/09/10/quais-livros-um-catolico-pode-ler/",
+      "source": "Gaudium Press",
+      "title": "Jerusalém pertence a todos? Cardeal Pizzaballa propõe recuperar a vocação universal da Cidade",
+      "summary": "Segundo o Cardeal Pizzaballa, a missão da Jerusalém terrestre é tornar-se imagem e reflexo da Jerusalém celeste, além de profecia da reconciliação e da paz desejadas por Deus para toda a família humana. Foto: latinpatriarchateofjerusalem.",
+      "url": "https://gaudiumpress.org/content/jerusalem-pertence-a-todos-cardeal-pizzaballa-propoe-recuperar-a-vocacao-universal-da-cidade-santa/",
       "published": "2026-09-10"
     }
   ],
   "closingQuote": {
-    "text": "Sede misericordiosos, como também o vosso Pai é misericordioso.",
-    "source": "Lucas 6,27-38"
+    "text": "Pode um cego guiar outro cego?",
+    "source": "Lucas 6,39-42"
   },
   "liturgyHours": {
-    "reading": "Como bons administradores da multiforme graça de Deus, cada um coloque à disposição dos outros o dom que recebeu. Se alguém tem o dom de falar, proceda como com palavras de Deus. Se alguém tem o dom do serviço, exerça-o como capacidade proporcionada...",
+    "reading": "De bom grado, eu me gloriarei das minhas fraquezas, para que a força de Cristo habite em mim. Eis por que eu me comprazo nas fraquezas, nas injúrias, nas necessidades, nas perseguições e nas angústias sofridas por amor a Cristo. Pois, quando eu me...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
