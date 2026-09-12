@@ -1,32 +1,34 @@
 {
-  "date": "2026-09-11",
-  "editionLabel": "11 de setembro de 2026",
+  "date": "2026-09-12",
+  "editionLabel": "12 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Sexta-Feira da Semana XXIII do Tempo Comum",
+    "celebrationTitle": "Santíssimo Nome de Maria",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 6,39-42"
+    "gospelShort": "Lc 6,43-49"
   },
   "saint": {
-    "feast": "\udfe2 Sexta-Feira da Semana XXIII do Tempo Comum",
-    "name": "São João Gabriel Perboyre, sacerdote e professor",
-    "description": "Celebração litúrgica do dia: Sexta-Feira da Semana XXIII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-joao-gabriel-perboyre-sacerdote-e-professor/"
+    "feast": "Santíssimo Nome de Maria",
+    "name": "São Nilo",
+    "description": "Celebração litúrgica do dia: Santíssimo Nome de Maria.",
+    "url": "https://santo.cancaonova.com/santo/sao-nilo/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 6,39-42)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 6,43-49)",
     "lines": [
-      "Naquele tempo, Jesus contou uma parábola aos discípulos: Pode um cego guiar outro cego?",
-      "Um discípulo não é maior do que o mestre; todo discípulo bem formado será como o mestre.",
-      "Por que vês tu o cisco no olho do teu irmão, e não percebes a trave que há no teu próprio olho?",
-      "Como podes dizer a teu irmão: Irmão, deixa-me tirar o cisco do teu olho, quando tu não vês a trave no teu próprio olho?",
-      "Tira primeiro a trave do teu olho, e então poderás enxergar bem para tirar o cisco do olho do teu irmão."
+      "Naquele tempo, disse Jesus aos seus discípulos: Não existe árvore boa que dê frutos ruins, nem árvore ruim que dê frutos bons.",
+      "Toda árvore é reconhecida pelos seus frutos.",
+      "Não se colhem figos de espinheiros, nem uvas de plantas espinhosas.",
+      "O homem bom tira coisas boas do bom tesouro do seu coração.",
+      "Mas o homem mau tira coisas más do seu mau tesouro, pois sua boca fala do que o coração está cheio.",
+      "Por que me chamais: Senhor!",
+      "Senhor!, mas não fazeis o que eu digo?"
     ],
-    "body": "Naquele tempo, 39 Jesus contou uma parábola aos discípulos: \"Pode um cego guiar outro cego? Não cairão os dois num buraco? 40 Um discípulo não é maior do que o mestre; todo discípulo bem formado será como o mestre. 41 Por que vês tu o cisco no olho do teu irmão, e não percebes a trave que há no teu próprio olho? 42 Como podes dizer a teu irmão: Irmão, deixa-me tirar o cisco do teu olho, quando tu não vês a trave no teu próprio olho? Hipócrita! Tira primeiro a trave do teu olho, e então poderás enxergar bem para tirar o cisco do olho do teu irmão\". —",
-    "keyVerse": "Vossa palavra é a verdade; santificai-nos na verdade!"
+    "body": "Naquele tempo, disse Jesus aos seus discípulos: 43 \"Não existe árvore boa que dê frutos ruins, nem árvore ruim que dê frutos bons. 44 Toda árvore é reconhecida pelos seus frutos. Não se colhem figos de espinheiros, nem uvas de plantas espinhosas. 45 O homem bom tira coisas boas do bom tesouro do seu coração. Mas o homem mau tira coisas más do seu mau tesouro, pois sua boca fala do que o coração está cheio. 46 Por que me chamais: 'Senhor! Senhor!', mas não fazeis o que eu digo? 47 Vou mostrar-vos com quem se parece todo aquele que vem a mim, ouve as minhas palavras e as põe em prática. 48 &Eacute; semelhante a um homem que construiu uma casa: cavou fundo e colocou o alicerce sobre a rocha. Veio a enchente, a torrente deu contra a casa, mas não conseguiu derrubá-la, porque estava bem construída. 49 Aquele, porém, que ouve e não põe em prática, é semelhante a um homem que construiu uma casa no chão, sem alicerce. A torrente deu contra a casa, e ela imediatamente desabou; e foi grande a ruína dessa casa\". —",
+    "keyVerse": "Quem me ama, realmente, guardará minha palavra e meu Pai o amará, e a ele nós viremos."
   },
   "sponsor": {
     "enabled": true,
@@ -37,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Cardeal Barreto recorda La Oroya e olha com esperança visita de Leão XIV ao Peru",
-      "summary": "O cardeal Pedro Barreto recorda seu compromisso com a defesa da vida e da dignidade humana, desde seu acompanhamento às famílias de La Oroya até seu trabalho pela Amazônia e pela criação da Rede Eclesial Pan-Amazônica. Também recorda o.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-09/vida-sagrada-cardeal-pedro-barreto-la-oroya-esperanca-leao-xiv.html",
+      "title": "Bispo de Kharkiv com Leão XIV: pessoas estão morrendo na Ucrânia, fazer de tudo para acabar com",
+      "summary": "Dom Pavlo Honcharuk, bispo de uma das dioceses ucranianas mais atingidas pela violência e pelos bombardeios, foi recebido nesta sexta-feira no Palácio Apostólico pelo Papa Leão XIV. “Agradeci ao Santo Padre por sua oração e sua.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-ucrania-audiencia-bispo-kharkiv-goncharuk-guerra.html",
       "published": "2026-09-11"
     },
     {
       "source": "Vatican News",
-      "title": "Visita de Leão XIV na segunda-feira confirma a missão da Biblioteca Vaticana",
-      "summary": "Na véspera da primeira visita de Leão XIV à Biblioteca Apostólica Vaticana, o arcebispo Giovanni Cesare Pagazzi reflete sobre o vínculo entre o ministério do Papa e o serviço à cultura, sobre o diálogo com a arte contemporânea e sobre o.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-visita-biblioteca-vaticana-14-setembro-2026.html",
+      "title": "Leão XIV se reúne com bispos de El Salvador em visita ad limina",
+      "summary": "O episcopado salvadorenho conclui nesta sexta-feira, 11 de setembro, sua visita ad limina Apostolorum com uma audiência privada com o Papa Leão XIV. O cardeal Gregorio Rosa Chávez destaca a intensidade do encontro e manifesta a esperança.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-bispos-el-salvador-visita-ad-limina-apostolorum.html",
       "published": "2026-09-11"
     },
     {
       "source": "CNBB",
-      "title": "Dom Jaime: diálogo para descobrir os sonhos que nos unem e ver possível um mundo melhor para to",
-      "summary": "O IV Encontro Sinodal Fratelli Tutti: diálogo socioambiental Norte-Sul é realizado entre os dias 10 e 12 de setembro, na Casa Geral de La Salle, em Roma, e busca consolidar um espaço de diálogo entre atores das Américas do Norte e do Sul.",
-      "url": "https://www.cnbb.org.br/dom-jaime-iv-encontro-sinodal-fratelli-tutti-dialogo-socioambiental-norte-sul/",
+      "title": "A fraternidade começa em casa",
+      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) Ninguém nasce sabendo conviver. Aprendemos, pouco a pouco, que o mundo não gira ao nosso redor, que outras pessoas possuem necessidades, direitos, fragilidades e ritmos diferentes dos.",
+      "url": "https://www.cnbb.org.br/a-fraternidade-comeca-em-casa/",
       "published": "2026-09-11"
     },
     {
       "source": "ACI Digital",
-      "title": "Centenas de navegadores homenageiam Nossa Senhora do Vale na Venezuela",
-      "summary": "Centenas de pescadores uniram-se ao navio-escola Simón Bolívar no mar da ilha de Margarita, Venezuela, para prestar homenagem a Nossa Senhora do Vale numa procissão náutica realizada todos os anos.",
-      "url": "https://www.acidigital.com/noticia/69765/centenas-de-navegadores-homenageiam-nossa-senhora-do-vale-na-venezuela",
+      "title": "Características do Santíssimo Nome de Maria explicadas pelos santos",
+      "summary": "Por volta do século XVIII adeptos da heresia jansenista começaram a divulgar que a devoção a Santa Maria era uma superstição. Santo Alfonso Maria de Ligório, doutor da Igreja, saiu em defesa da Mãe de Deus e publicou seu famoso livro “As.",
+      "url": "https://www.acidigital.com/noticia/53244/caracteristicas-do-santissimo-nome-de-maria-explicadas-pelos-santos",
+      "published": "2026-09-12"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "A história da jovem que se livrou do demônio graças ao nome de Maria",
+      "summary": "Santo Afonso Maria de Ligório relata em seu livro “As Glórias de Maria” (Cap. X) que, seguindo as referências de outros dois autores católicos, por volta do ano 1465 vivia em Güeldres (Holanda) uma jovem chamada Maria que foi levar alguns.",
+      "url": "https://www.acidigital.com/noticia/69781/historia-da-jovem-que-se-livrou-do-demonio-gracas-ao-nome-de-maria",
+      "published": "2026-09-12"
+    },
+    {
+      "source": "Shalom",
+      "title": "Expedição Chaves 2026.2 promove integração, cuidado e evangelização em Olimpíadas do Espaço de",
+      "summary": "Entre os dias 17 e 30 de agosto, o Voluntariado Shalom realizou mais uma edição da Expedição Chaves, na Ilha do Marajó, no Pará. A iniciativa contou com a participação de 11 voluntários vindos de diferentes regiões do Brasil, que se.",
+      "url": "https://comshalom.org/expedicao-chaves-2026-2-promove-integracao-cuidado-e-evangelizacao-em-olimpiadas-do-espaco-de-paz/",
       "published": "2026-09-11"
     },
     {
       "source": "Shalom",
-      "title": "Comunhão e alegria: Shalom Parnaíba reúne bispo e sacerdotes para noite de fraternidade",
-      "summary": "O encontro também foi uma oportunidade para partilhar um pouco da missão evangelizadora realizada pela Comunidade em Parnaíba, especialmente junto à juventude.",
-      "url": "https://comshalom.org/comunhao-e-alegria-shalom-parnaiba-reune-bispo-e-sacerdotes-para-noite-de-fraternidade-1/",
-      "published": "2026-09-10"
-    },
-    {
-      "source": "Aleteia",
-      "title": "O Sudário das Crianças de Gaza: A Assembleia Geral da ONU conhecerá seus nomes.",
-      "summary": "7 de setembro, pátio do Museu Nacional de Poznań, 19h. Um retângulo de tecido branco foi estendido: 180 centímetros de largura por 150 centímetros de altura. Durante uma hora e meia, quase duzentas pessoas escreveram nele os nomes e as.",
-      "url": "https://pt.aleteia.org/2026/09/11/o-sudario-das-criancas-de-gaza-a-assembleia-geral-da-onu-conhecera-seus-nomes/",
-      "published": "2026-09-11"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "Parlamento britânico rejeita suicídio assistido em vitória histórica para a defesa da vida",
-      "summary": "O Parlamento britânico foi chamado a escolher entre duas concepções de compaixão. Foto: Facebook Redação ( 11/09/2026 14:58 , Gaudium Press ) A Câmara dos Comuns do Reino Unido rejeitou, nesta sexta-feira, 11 de setembro, o projeto de lei.",
-      "url": "https://gaudiumpress.org/content/parlamento-britanico-rejeita-suicidio-assistido-em-vitoria-historica-para-a-defesa-da-vida/",
-      "published": "2026-09-11"
+      "title": "Saiba mais sobre a importância de São Francisco de Assis para a Vocação Shalom",
+      "summary": "Em entrevista concedida em 2013, Moysés Azevedo, fundador e moderador geral da Comunidade Católica Shalom, falou sobre a influência de São Francisco de Assis na história e na espiritualidade da Vocação Shalom. No diálogo, Moysés recorda.",
+      "url": "https://comshalom.org/sao-francisco-de-assis-baluarte-da-vocacao-shalom-3/",
+      "published": "2026-09-12"
     }
   ],
   "closingQuote": {
-    "text": "Pode um cego guiar outro cego?",
-    "source": "Lucas 6,39-42"
+    "text": "Por que me chamais: 'Senhor! Senhor!', mas não fazeis o que eu digo?",
+    "source": "Lucas 6,43-49"
   },
   "liturgyHours": {
-    "reading": "De bom grado, eu me gloriarei das minhas fraquezas, para que a força de Cristo habite em mim. Eis por que eu me comprazo nas fraquezas, nas injúrias, nas necessidades, nas perseguições e nas angústias sofridas por amor a Cristo. Pois, quando eu me...",
+    "reading": "Fazei tudo sem reclamar ou murmurar, para que sejais livres de repreensão e ambiguidade, filhos de Deus sem defeito, no meio desta geração depravada e pervertida, na qual brilhais como os astros no universo.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
