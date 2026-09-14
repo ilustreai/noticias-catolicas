@@ -1,34 +1,31 @@
 {
-  "date": "2026-09-13",
-  "editionLabel": "13 de setembro de 2026",
+  "date": "2026-09-14",
+  "editionLabel": "14 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "festa",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XXIV do Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 18,21-35"
+    "celebrationTitle": "Exaltação da Santa Cruz",
+    "colorName": "vermelho",
+    "cssColor": "#C62828",
+    "gospelShort": "Jo 3,13-17"
   },
   "saint": {
-    "feast": "\udfe2 Domingo XXIV do Tempo Comum",
-    "name": "São João Crisóstomo, bispo e doutor da Igreja",
-    "description": "Celebração litúrgica do dia: Domingo XXIV do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-joao-crisostomo-bispo/"
+    "feast": "\udd34 [F] Exaltação da Santa Cruz",
+    "name": "Exaltação da Santa Cruz, o amor de Deus que se manifesta",
+    "description": "Celebração litúrgica do dia: Exaltação da Santa Cruz.",
+    "url": "https://santo.cancaonova.com/santo/exaltacao-da-santa-cruz-o-amor-de-deus/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 18,21-35)",
+    "ref": "Evangelho de Jesus Cristo segundo João (Jo 3,13-17)",
     "lines": [
-      "Naquele tempo, Pedro aproximou-se de Jesus e perguntou: Senhor, quantas vezes devo perdoar, se meu irmão pecar contra mim?",
-      "Até sete vezes? Jesus respondeu: Não te digo até sete vezes, mas até setenta vezes sete.",
-      "Porque o Reino dos Céus é como um rei que resolveu acertar as contas com seus empregados.",
-      "Quando começou o acerto, levaram-lhe um que lhe devia uma enorme fortuna.",
-      "Como o empregado não tivesse com que pagar, o patrão mandou que fosse vendido como escravo, junto com a mulher e os filhos e tudo o que possuía, para que pagasse a dívida.",
-      "O empregado, porém, caíu aos pés do patrão e, prostrado, suplicava: Dá-me um prazo!",
-      "e eu te pagarei tudo! Diante disso, o patrão teve compaixão, soltou o empregado e perdoou-lhe a dívida."
+      "Naquele tempo, disse Jesus a Nicodemos: Ninguém subiu ao céu, a não ser aquele que desceu do céu, o Filho do Homem.",
+      "Do mesmo modo como Moisés levantou a serpente no deserto, assim é necessário que o Filho do Homem seja levantado, para que todos os que nele crerem tenham a vida eterna.",
+      "Pois Deus amou tanto o mundo, que deu o seu Filho unigênito, para que não morra todo o que nele crer, mas tenha a vida eterna.",
+      "De fato, Deus não enviou o seu Filho ao mundo para condenar o mundo, mas para que o mundo seja salvo por ele."
     ],
-    "body": "Naquele tempo, 21 Pedro aproximou-se de Jesus e perguntou: \"Senhor, quantas vezes devo perdoar, se meu irmão pecar contra mim? Até sete vezes?\" 22 Jesus respondeu: \"Não te digo até sete vezes, mas até setenta vezes sete. 23 Porque o Reino dos Céus é como um rei que resolveu acertar as contas com seus empregados. 24 Quando começou o acerto, levaram-lhe um que lhe devia uma enorme fortuna. 25 Como o empregado não tivesse com que pagar, o patrão mandou que fosse vendido como escravo, junto com a mulher e os filhos e tudo o que possuía, para que pagasse a dívida. 26 O empregado, porém, caíu aos pés do patrão e, prostrado, suplicava: 'Dá-me um prazo! e eu te pagarei tudo!' 27 Diante disso, o patrão teve compaixão, soltou o empregado e perdoou-lhe a dívida. 28 Ao sair dali, aquele empregado encontrou um dos seus companheiros que lhe devia apenas cem moedas. Ele o agarrou e começou a sufocá-lo, dizendo: 'Paga o que me deves'. 29 O companheiro, caindo aos seus pés, suplicava: 'Dá-me um prazo, e eu te pagarei!' 30 Mas o empregado não quis saber disso. Saiu e mandou jogá-lo na prisão, até que pagasse o que devia. 31 Vendo o que havia acontecido, os outros empregados ficaram muito tristes, procuraram o patrão e lhe contaram tudo. 32 Então o patrão mandou chamá-lo e lhe disse: 'Empregado perverso, eu te perdoei toda a tua dívida, porque tu me suplicaste. 33 Não devias tu também ter compaixão do teu companheiro, como eu tive compaixão de ti?' 34 O patrão indignou-se e mandou entregar aquele empregado aos torturadores, até que pagasse toda a sua dívida. 35 &Eacute; assim que o meu Pai que está nos céus fará convosco, se cada um não perdoar de coração ao seu irmão\". —",
-    "keyVerse": "Eu vos dou este novo Mandamento, nova ordem, agora, vos dou; que, também, vos ameis uns aos outros como eu vos amei, diz o Senhor."
+    "body": "Naquele tempo, disse Jesus a Nicodemos: 13 \"Ninguém subiu ao céu, a não ser aquele que desceu do céu, o Filho do Homem. 14 Do mesmo modo como Moisés levantou a serpente no deserto, assim é necessário que o Filho do Homem seja levantado, 15 para que todos os que nele crerem tenham a vida eterna. 16 Pois Deus amou tanto o mundo, que deu o seu Filho unigênito, para que não morra todo o que nele crer, mas tenha a vida eterna. 17 De fato, Deus não enviou o seu Filho ao mundo para condenar o mundo, mas para que o mundo seja salvo por ele\". —",
+    "keyVerse": "Nós vos adoramos, Senhor Jesus Cristo, e vos bendizemos, porque pela cruz remistes o mundo!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +36,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa no Angelus: o perdão é indispensável para viver em paz",
-      "summary": "Leão XIV alertou para as consequências da falta de perdão: conflitos, acusações, rancores e vinganças que destroem as relações, dividem as famílias e podem desencadear guerras. “Só o perdão liberta e traz de volta a luz”, afirmou o.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-angelus-perdao-indispensavel-para-viver-em-paz.html",
-      "published": "2026-09-13"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-09-14"
     },
     {
       "source": "Vatican News",
-      "title": "Hebdomada Papae, o boletim em latim do Vatican News",
-      "summary": "No boletim de hoje: a Audiência Geral da última quarta-feira; o Angelus de 6 de setembro, na Praça São Pedro; e o encontro do Pontífice, no último dia 9, com os bispos amigos do Movimento dos Focolares. Leia tudo.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/hebdomada-papae-boletim-latim-vatican-news-12-setembro-2026.html",
-      "published": "2026-09-13"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-09-14"
     },
     {
       "source": "CNBB",
-      "title": "Instituições feridas ganha destaque na Igreja",
-      "summary": "Dom Walmor Oliveira de Azevedo Arcebispo de Belo Horizonte (MG) Afirma-se que uma nação precisa ter instituições fortes, capazes de alavancar o desenvolvimento integral, sempre preservando a moralidade, especialmente na gestão pública, e.",
-      "url": "https://www.cnbb.org.br/instituicoes-feridas/",
-      "published": "2026-09-11"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-09-14"
     },
     {
       "source": "ACI Digital",
-      "title": "A história da jovem que se livrou do demônio graças ao nome de Maria",
-      "summary": "Santo Afonso Maria de Ligório relata em seu livro “As Glórias de Maria” (Cap. X) que, seguindo as referências de outros dois autores católicos, por volta do ano 1465 vivia em Güeldres (Holanda) uma jovem chamada Maria que foi levar alguns.",
-      "url": "https://www.acidigital.com/noticia/69781/historia-da-jovem-que-se-livrou-do-demonio-gracas-ao-nome-de-maria",
-      "published": "2026-09-12"
+      "title": "Igreja no Brasil se prepara para o mês vocacional com intensa programação",
+      "summary": "Dioceses de todo o Brasil organizam eventos e campanhas para o mês vocacional de agosto, incentivando jovens a discernirem sua vocação.",
+      "url": "https://www.acidigital.com/noticia/58573/licoes-de-santa-ana-e-sao-joaquim-para-casais-que-enfrentam-a-infertilidade",
+      "published": "2026-09-14"
     },
     {
       "source": "ACI Digital",
-      "title": "é a festa do Santíssimo Nome de Maria, luz que ilumina",
-      "summary": "“O nome de Maria, que significa Senhora da luz, indica que Deus me encheu de sabedoria e luz, como astros brilhantes, para iluminar os céus e a terra”, disse a Virgem à Santa Matilde.",
-      "url": "https://www.acidigital.com/noticia/69725/hoje-e-a-festa-do-santissimo-nome-de-maria",
-      "published": "2026-09-12"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-09-14"
     },
     {
       "source": "Shalom",
-      "title": "Moysés Azevedo celebra 30 anos da Comunidade Shalom em São Luís",
-      "summary": "Fundador da Comunidade participa de encontros com membros, jovens, formadores e representantes da Igreja durante visita à missão maranhense.",
-      "url": "https://comshalom.org/moyses-azevedo-visita-a-missao-de-sao-luis-durante-celebracoes-pelos-30-anos-da-comunidade/",
-      "published": "2026-09-13"
+      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
+      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
+      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "published": "2026-09-14"
     },
     {
       "source": "Shalom",
-      "title": "Fiéis podem venerar relíquia de São Francisco na Igreja do Ressuscitado durante Ano Jubilar",
-      "summary": "Relíquia de primeiro grau do santo está sob o altar desde a Dedicação do templo; Igreja também guarda relíquias de São João Paulo II e Santa Teresa d’Ávila.",
-      "url": "https://comshalom.org/reliquia-sao-francisco-igreja-ressuscitado/",
-      "published": "2026-09-13"
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-09-14"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-09-14"
     }
   ],
   "closingQuote": {
-    "text": "A oração é a respiração da alma.",
-    "source": "São João Crisóstomo"
+    "text": "É necessário que o Filho do Homem seja levantado.",
+    "source": "João 3,13-17"
   },
   "liturgyHours": {
-    "reading": "Lembra-te de Jesus Cristo, da descendência de Davi, ressuscitado dentre os mortos. Merece fé esta palavra: se com ele morremos, com ele viveremos. Se com ele ficamos firmes, com ele reinaremos. Se nós o negamos, também ele nos negará. Se lhe somos...",
+    "reading": "Nós vemos a Jesus coroado de glória e honra, por ter sofrido a morte. Sim, pela graça de Deus em favor de todos, ele provou a morte. Convinha de fato que aquele, por quem e para quem todas as coisas existem, e que desejou conduzir muitos filhos à...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
