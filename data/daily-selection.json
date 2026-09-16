@@ -3,17 +3,17 @@
   "editionLabel": "16 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santos Cornélio, papa, e Cipriano, bispo, mártires",
-    "colorName": "vermelho",
-    "cssColor": "#C62828",
+    "celebrationTitle": "16 de setembro de 2026 - Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
     "gospelShort": "Lc 7,31-35"
   },
   "saint": {
     "feast": "\udd34 [M] Santos Cornélio\\, papa\\, e Cipriano\\, bispo\\, mártires",
     "name": "São Cornélio e São Cipriano, Papa e Bispo",
-    "description": "Celebração litúrgica do dia: Santos Cornélio, papa, e Cipriano, bispo, mártires.",
+    "description": "Celebração litúrgica do dia: 16 de setembro de 2026 - Tempo Comum.",
     "url": "https://santo.cancaonova.com/santo/sao-cornelio-e-sao-cipriano-papa-e-bispo/"
   },
   "gospel": {
@@ -34,52 +34,52 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV: o testemunho beneditino é um dom profético para o nosso tempo",
-      "summary": "Os participantes do Simpósio da Communio Internationalis Benedictinarum (CIB) foram recebidos pelo Papa Leão XIV no Vaticano, neste sábado, 12 de setembro. Criada em 2001 como uma estrutura de ligação entre as diferentes congregações femininas da família beneditina, a organização reúne cerca de 13 mil monjas que seguem a Regra de São Bento....",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/leao-xiv-testemunho-beneditino-um-dom-profetico-audiencia.html",
-      "published": "2026-12-09"
+      "title": "Leão XIV: com mansidão, neutralizar uma era dominada por sistemas armados",
+      "summary": "O Papa recebe em audiência na Sala Clementina, no Vaticano, cerca de 300 participantes do congresso “O século XXI: uma nova era de mártires?”, realizado no Augustinianum. O Pontífice destaca que “os testemunhos da fé não propõem uma.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-congresso-nova-era-martires-seculo-xxi-paz-2026.html",
+      "published": "2026-09-16"
     },
     {
       "source": "Vatican News",
-      "title": "Lourdes se prepara para receber Leão XIV: os mais frágeis no coração da Igreja",
-      "summary": "O santuário mariano francês espera cerca de 150 mil pessoas para os diversos momentos da visita do Papa, nos dias 26 e 27 de setembro. O encontro com os doentes, a oração na Gruta de Massabielle e a Missa dominical estarão entre os.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-09/santuario-lourdes-papa-leao-xiv-viagem-apostolica-franca.html",
+      "title": "Papa a fiéis da América Latina: que o Evangelho abra mentes e coração nas comunidades",
+      "summary": "A exortação de Leão XIV foi na Audiência Geral: \"nestes dias, muitos países latino-americanos celebram seu feriado nacional. Peçamos ao Senhor que, ao valorizarmos a identidade da nossa pátria, o Evangelho nos abra a mente e o coração.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-saudacao-espanhol-brasil-2026.html",
       "published": "2026-09-16"
     },
     {
       "source": "CNBB",
-      "title": "Cardeal dom Raymundo Damasceno Assis completa 40 anos de ordenação episcopal neste 15 de setemb",
-      "summary": "A terça-feira, 15 de setembro de 2026, tem um sentido especial para o cardeal dom Raymundo Damasceno Assis, arcebispo emérito de Aparecida (SP), e para aqueles que acompanham a sua trajetória como pastor da Igreja Católica no Brasil. A.",
-      "url": "https://www.cnbb.org.br/40-anos-de-ordenacao-espicopal-de-dom-raymundo/",
-      "published": "2026-09-14"
+      "title": "Dicastérios da Santa Sé lançam documento “Um caminho de Esperança”",
+      "summary": "No aniversário de 60 anos da declaração do Concílio Vaticano II, \"Nostra Aetate\", a Igreja renova a necessidade de diálogo enter os católicos e fiéis de outras religiões. O documento foi produzido pelosDicastérios para a Doutrina da Fé,.",
+      "url": "https://www.cnbb.org.br/dicasterios-da-santa-se-lancam-documento-um-caminho-de-esperanca/",
+      "published": "2026-09-16"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Regional da CNBB convoca dioceses a ajudar famílias atingidas por enchentes no Vale do Ribeira",
+      "summary": "O Regional Sul 1 da Conferência Nacional dos Bispos do Brasil (CNBB) convocou ontem (15) “todas as dioceses, paróquias, comunidades, pastorais, movimentos e organismos a se unirem” à diocese de Registro (SP) no atendimento às “famílias.",
+      "url": "https://www.acidigital.com/noticia/69845/regional-da-cnbb-convoca-dioceses-a-ajudar-familias-atingidas-por-enchentes-no-vale-do-ribeira",
+      "published": "2026-09-16"
     },
     {
       "source": "Shalom",
-      "title": "Building Hope: Missão Shalom Toronto se une à África em jantar beneficente em favor do Espaço d",
-      "summary": "A Missão Shalom Toronto realizou, no último sábado, 12 de setembro, o Building Hope Gala Dinner, um jantar beneficente destinado à arrecadação de fundos para a construção do Espaço Educativo de Paz da Comunidade Católica Shalom em.",
-      "url": "https://comshalom.org/building-hope-missao-shalom-toronto-se-une-a-africa-em-jantar-beneficente-em-favor-do-espaco-de-paz-em-lubango/",
+      "title": "Super El Niño e Laudato si’: o que o fenômeno climático tem a ver com a fé?",
+      "summary": "Previsões sobre a intensidade do fenômeno climático reacendem a reflexão sobre a criação, a responsabilidade humana e o cuidado com os mais vulneráveis.",
+      "url": "https://comshalom.org/super-el-nino-e-laudato-si-o-que-o-fenomeno-climatico-tem-a-ver-com-a-fe/",
+      "published": "2026-09-16"
+    },
+    {
+      "source": "Shalom",
+      "title": "Ler e viver a Palavra de Deus",
+      "summary": "Quem tem a Bíblia como Bússola, Porto Seguro e Luz, jamais se perde, jamais afunda no mar das desgraças e jamais caminha pelas trevas do pecado, pelo contrário: caminha iluminado para morar e contemplar a face da Luz Eterna.",
+      "url": "https://comshalom.org/ler-e-viver-a-palavra-de-deus/",
+      "published": "2026-09-16"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Os três critérios de Leão XIV para cantar bem na missa",
+      "summary": "Leão XIV começa mencionando um ponto importante: O canto e a música litúrgica constituem, na tradição da Igreja, um tesouro de valor inestimável. E imediatamente, após evocar esse aspecto que poderíamos qualificar de patrimonial , ele.",
+      "url": "https://pt.aleteia.org/2026/09/15/os-tres-criterios-de-leao-xiv-para-cantar-bem-na-missa/",
       "published": "2026-09-15"
-    },
-    {
-      "source": "Shalom",
-      "title": "Casal transforma lua de mel em experiência de fé na Convenção 2026",
-      "summary": "Recém-casados e à espera do primeiro filho, Francisco e Dayane se preparam para viver a Convenção 2026 como um tempo de renovação da própria vocação.",
-      "url": "https://comshalom.org/de-recem-casados-a-pais-casal-vive-dupla-graca-a-caminho-da-convencao/",
-      "published": "2026-09-16"
-    },
-    {
-      "source": "Aleteia",
-      "title": "A Biblioteca do Vaticano precisa ser maior, o Papa Leão decide",
-      "summary": "Vaticano em breve verá a construção de um novo edifício destinado a expandir a Biblioteca Apostólica do Vaticano (BAV) e os Arquivos Apostólicos do Vaticano. Durante uma visita à instituição do século XV na manhã de segunda-feira, 14 de.",
-      "url": "https://pt.aleteia.org/2026/09/16/a-biblioteca-do-vaticano-precisa-ser-maior-o-papa-leao-decide/",
-      "published": "2026-09-16"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Padre americano decidiu que a feira do bairro era um ótimo lugar para evangelizar",
-      "summary": "Apesar do calor escaldante de três dígitos (em Fahrenheit), uma feira anual do condado fervilhou de atividades na pitoresca cidade de Washington, no Missouri. A Washington Town and Country Fair é realizada há quase 100 anos, tendo.",
-      "url": "https://pt.aleteia.org/2026/09/16/fe-na-feira-do-bairro-seria-essa-uma-nova-tendencia/",
-      "published": "2026-09-16"
     }
   ],
   "closingQuote": {
