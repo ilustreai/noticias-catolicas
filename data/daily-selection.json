@@ -1,31 +1,29 @@
 {
-  "date": "2026-09-15",
-  "editionLabel": "15 de setembro de 2026",
+  "date": "2026-09-16",
+  "editionLabel": "16 de setembro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Nossa Senhora das Dores",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Jo 19,25-27 ou Lc 2,33-35"
+    "celebrationTitle": "Santos Cornélio, papa, e Cipriano, bispo, mártires",
+    "colorName": "vermelho",
+    "cssColor": "#C62828",
+    "gospelShort": "Lc 7,31-35"
   },
   "saint": {
-    "feast": "Nossa Senhora das Dores",
-    "name": "Nossa Senhora das Dores, o sofrimento de Maria",
-    "description": "Celebração litúrgica do dia: Nossa Senhora das Dores.",
-    "url": "https://santo.cancaonova.com/santo/nossa-senhora-das-dores/"
+    "feast": "\udd34 [M] Santos Cornélio\\, papa\\, e Cipriano\\, bispo\\, mártires",
+    "name": "São Cornélio e São Cipriano, Papa e Bispo",
+    "description": "Celebração litúrgica do dia: Santos Cornélio, papa, e Cipriano, bispo, mártires.",
+    "url": "https://santo.cancaonova.com/santo/sao-cornelio-e-sao-cipriano-papa-e-bispo/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo João (Jo 19,25-27 ou Lc 2,33-35)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 7,31-35)",
     "lines": [
-      "Naquele tempo, perto da cruz de Jesus, estavam de pé a sua mãe, a irmã da sua mãe, Maria de Cléofas, e Maria Madalena.",
-      "Jesus, ao ver sua mãe e, ao lado dela, o discípulo que ele amava, disse à mãe: Mulher, este é o teu filho.",
-      "Depois disse ao discípulo: Esta é a tua mãe.",
-      "Daquela hora em diante, o discípulo a acolheu consigo."
+      "Naquele tempo, disse Jesus: Com quem hei de comparar os homens desta geração?",
+      "São como crianças que se sentam nas praças, e se dirigem aos colegas, dizendo: Tocamos flauta para vós e não dançastes; fizemos lamentações e não chorastes! Pois veio João Batista, que não comia pão nem bebia vinho, e vós dissestes: Ele está com um demônio! Veio o Filho do Homem, que come e bebe, e vós dizeis: Ele é um comilão e beberrão, amigo dos publicanos e dos pecadores! Mas a sabedoria foi justificada por todos os seus filhos."
     ],
-    "body": "Naquele tempo, 25 perto da cruz de Jesus, estavam de pé a sua mãe, a irmã da sua mãe, Maria de Cléofas, e Maria Madalena. 26 Jesus, ao ver sua mãe e, ao lado dela, o discípulo que ele amava, disse à mãe: \"Mulher, este é o teu filho\". 27 Depois disse ao discípulo: \"Esta é a tua mãe\". Daquela hora em diante, o discípulo a acolheu consigo.",
-    "keyVerse": "Feliz a virgem Maria, que, sem passar pela morte, do martírio ganha a palma, ao pé da cruz do Senhor!"
+    "body": "Naquele tempo, disse Jesus: 31 \"Com quem hei de comparar os homens desta geração? Com quem eles se parecem? 32 São como crianças que se sentam nas praças, e se dirigem aos colegas, dizendo: 'Tocamos flauta para vós e não dançastes; fizemos lamentações e não chorastes!' 33 Pois veio João Batista, que não comia pão nem bebia vinho, e vós dissestes: 'Ele está com um demônio!' 34 Veio o Filho do Homem, que come e bebe, e vós dizeis: 'Ele é um comilão e beberrão, amigo dos publicanos e dos pecadores!' 35 Mas a sabedoria foi justificada por todos os seus filhos\". —",
+    "keyVerse": "Senhor, tuas palavras são espírito, são vida; só tu tens palavras de vida eterna."
   },
   "sponsor": {
     "enabled": true,
@@ -36,60 +34,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "No Angelus, a saudação do Papa aos descendentes de italianos de Erechim/RS",
-      "summary": "Leão saudou fiéis de São Paulo e do interior gaúcho, especialmente o grupo da Escola de Língua e Cultura Italiana da \"Fainors\". Foi o final da viagem de imersão de 15 dias pelo país, uma iniciativa anual junto à Associação \"Bellunesi nel.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-angelus-saudacao-sao-paulo-fainors-erechim-rs-26.html",
-      "published": "2026-09-14"
+      "title": "Lourdes se prepara para receber Leão XIV: os mais frágeis no coração da Igreja",
+      "summary": "O santuário mariano francês espera cerca de 150 mil pessoas para os diversos momentos da visita do Papa, nos dias 26 e 27 de setembro. O encontro com os doentes, a oração na Gruta de Massabielle e a Missa dominical estarão entre os.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-09/santuario-lourdes-papa-leao-xiv-viagem-apostolica-franca.html",
+      "published": "2026-09-16"
     },
     {
       "source": "Vatican News",
-      "title": "Os 30 anos de “Caridade Política”: em um livro, as vozes dos diplomatas sobre as luzes e sombra",
-      "summary": "Por ocasião do aniversário da fundação da associação criada por Alfredo Luciani, 93 embaixadores junto à Santa Sé oferecem a Leão XIV, em um volume, suas reflexões sobre a realidade política e social de seus países. A iniciativa inclui.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/diplomacia-religioes-ambaixadores-leao-xiv.html",
-      "published": "2026-09-15"
+      "title": "O Papa: a Igreja não está isolada do mundo, mas anuncia a esperança",
+      "summary": "O Papa em audiência com os participantes do Curso de Formação para novos bispos  (@Vatican Media) Papa Papa Leão XIV bispos igreja católica Santa Sé missionários inteligência artificial sociedade civil jovens sacerdotes O Papa: a Igreja não está isolada do mundo, mas anuncia a esperança Leão XIV recebeu os bispos nomeados recentemente que participam do curso de formação no Vaticano....",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-discurso-curso-formacao-novos-bispos.html",
+      "published": "2026-10-09"
     },
     {
       "source": "CNBB",
-      "title": "Comissão Bíblico-Catequéticia prorroga até o próximo 28/09 o envio de informações pedidas pelo",
-      "summary": "Cada diocese, arquidiocese e prelazia recebeu uma carta com as orientações e o link específico para o preenchimento do formulário. A CNBB solicita às Igrejas particulares que ainda não enviaram suas respostas que verifiquem a comunicação.",
-      "url": "https://www.cnbb.org.br/levantamento-sobre-ingresso-no-catecumenato/",
-      "published": "2026-09-15"
+      "title": "Cardeal dom Raymundo Damasceno Assis completa 40 anos de ordenação episcopal neste 15 de setemb",
+      "summary": "A terça-feira, 15 de setembro de 2026, tem um sentido especial para o cardeal dom Raymundo Damasceno Assis, arcebispo emérito de Aparecida (SP), e para aqueles que acompanham a sua trajetória como pastor da Igreja Católica no Brasil. A.",
+      "url": "https://www.cnbb.org.br/40-anos-de-ordenacao-espicopal-de-dom-raymundo/",
+      "published": "2026-09-14"
     },
     {
       "source": "ACI Digital",
-      "title": "Cardeal Czerny é o primeiro a receber medalha Papa Leão XIV de Sustentabilidade",
-      "summary": "O prefeito aposentado do departamento de Desenvolvimento Humano da Santa Sé receberá a homenagem do papa em 13 de outubro.",
-      "url": "https://www.acidigital.com/noticia/69825/cardeal-czerny-e-o-primeiro-a-receber-medalha-papa-leao-xiv-de-sustentabilidade",
+      "title": "Observar têmporas traz frutos para comunidade religiosa missionária",
+      "summary": "O padre Dave Brokke, da Sociedade de Nossa Senhora da Santíssima Trindade, diz que a adoção da prática tradicional dos dias de têmporas se tornou um modo de fomentar vocações.",
+      "url": "https://www.acidigital.com/noticia/69831/observar-temporas-traz-frutos-para-comunidade-religiosa-missionaria",
       "published": "2026-09-15"
     },
     {
-      "source": "Aleteia",
-      "title": "Os três critérios de Leão XIV para cantar bem na missa",
-      "summary": "Leão XIV começa mencionando um ponto importante: O canto e a música litúrgica constituem, na tradição da Igreja, um tesouro de valor inestimável. E imediatamente, após evocar esse aspecto que poderíamos qualificar de patrimonial , ele.",
-      "url": "https://pt.aleteia.org/2026/09/15/os-tres-criterios-de-leao-xiv-para-cantar-bem-na-missa/",
+      "source": "Shalom",
+      "title": "Building Hope: Missão Shalom Toronto se une à África em jantar beneficente em favor do Espaço d",
+      "summary": "A Missão Shalom Toronto realizou, no último sábado, 12 de setembro, o Building Hope Gala Dinner, um jantar beneficente destinado à arrecadação de fundos para a construção do Espaço Educativo de Paz da Comunidade Católica Shalom em.",
+      "url": "https://comshalom.org/building-hope-missao-shalom-toronto-se-une-a-africa-em-jantar-beneficente-em-favor-do-espaco-de-paz-em-lubango/",
       "published": "2026-09-15"
     },
     {
-      "source": "Aleteia",
-      "title": "Por que está cada vez mais difícil conviver com quem pensa diferente nas urnas?",
-      "summary": "“Como alguém pode votar nele?”“Depois de tudo o que aconteceu, você ainda pensa assim?”“Se você vota nesse partido, não temos mais nada em comum.” Talvez você já tenha ouvido, ou até dito alguma dessas frases. O que deveria ser uma.",
-      "url": "https://pt.aleteia.org/2026/09/15/por-que-esta-cada-vez-mais-dificil-conviver-com-quem-pensa-diferente-nas-urnas/",
-      "published": "2026-09-15"
+      "source": "Shalom",
+      "title": "Casal transforma lua de mel em experiência de fé na Convenção 2026",
+      "summary": "Recém-casados e à espera do primeiro filho, Francisco e Dayane se preparam para viver a Convenção 2026 como um tempo de renovação da própria vocação.",
+      "url": "https://comshalom.org/de-recem-casados-a-pais-casal-vive-dupla-graca-a-caminho-da-convencao/",
+      "published": "2026-09-16"
     },
     {
       "source": "Gaudium Press",
-      "title": "Filipinas sedia primeira Assembleia Missionária Digital Católica",
-      "summary": "Comunicadores de todo o continente asiático se reuniram para alinhar estratégias de evangelização digital com o apoio do Vaticano.",
-      "url": "https://gaudiumpress.org/content/filipinas-sedia-primeira-assembleia-missionaria-digital-catolica/",
+      "title": "Dioceses dos EUA receberão réplicas do manto de Nossa Senhora de Guadalupe",
+      "summary": "Iniciativa pastoral prevê peregrinações em catedrais e comunidades periféricas, preparando os fiéis para as celebrações de 2031 e para o Grande Jubileu de 2033.",
+      "url": "https://gaudiumpress.org/content/dioceses-dos-eua-receberao-replicas-do-manto-de-nossa-senhora-de-guadalupe/",
       "published": "2026-09-15"
     }
   ],
   "closingQuote": {
-    "text": "Mãe entre todas bendita, do Filho único aflita, a imensa dor assistia (Stabat Mater).",
-    "source": "João 19,25-27"
+    "text": "Tocamos flauta para vós e não dançastes; fizemos lamentações e não chorastes!",
+    "source": "Lucas 7,31-35"
   },
   "liturgyHours": {
-    "reading": "Alegro-me, agora, de tudo o que já sofri por vós e procuro completar na minha própria carne o que falta das tribulações de Cristo, em solidariedade com o seu corpo, isto é, a Igreja. A ela eu sirvo, exercendo o cargo que Deus me confiou de vos...",
+    "reading": "Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e Deus de toda consolação. Ele nos consola em todas as nossas aflições, para que, com a consolação que nós mesmos recebemos de Deus, possamos consolar os que se acham em...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
