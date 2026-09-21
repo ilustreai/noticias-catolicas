@@ -79,9 +79,9 @@
     },
     {
       "source": "Aleteia",
-      "title": "Chegou ao fim! A despedida emocionante de Roumie de The Chosen",
-      "summary": "Por anos, Jonathan Roumie teve a tarefa incomum de encontrar as palavras, gestos e expressões com as quais retratar Jesus. Agora, à medida que as filmagens da última temporada de The Chosen chegam ao fim, o ator admitiu que as palavras.",
-      "url": "https://pt.aleteia.org/2026/09/21/chegou-ao-fim-a-despedida-emocionante-de-roumie-de-the-chosen/",
+      "title": "Dormir separados? A nova tendência entre os casais",
+      "summary": "Todos nós temos hábitos diferentes para dormir: alguns se movimentam mais do que outros, uns preferem um colchão macio e outros um mais firme, entre outros aspectos. Graças a isso, popularizou-se uma tendência entre os casais chamada.",
+      "url": "https://pt.aleteia.org/2026/09/21/dormir-separados-a-nova-tendencia-entre-os-casais/",
       "published": "2026-09-21"
     },
     {
@@ -95,5 +95,9 @@
   "closingQuote": {
     "text": "\"Segue-me!\". ele se levantou e seguiu a Jesus.",
     "source": "Mateus 9,9-13"
+  },
+  "liturgyHours": {
+    "reading": "Já não sois estrangeiros nem migrantes, mas concidadãos dos santos. Sois da família de Deus. Vós fostes integrados no edifício que tem como fundamento os apóstolos e os profetas, e o próprio Jesus Cristo como pedra principal. É nele que toda a...",
+    "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
