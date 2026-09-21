@@ -1,34 +1,32 @@
 {
-  "date": "2026-09-20",
-  "editionLabel": "20 de setembro de 2026",
+  "date": "2026-09-21",
+  "editionLabel": "21 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "festa",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XXV do Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 20,1-16a"
+    "celebrationTitle": "São Mateus, apóstolo e evangelista",
+    "colorName": "vermelho",
+    "cssColor": "#C62828",
+    "gospelShort": "Mt 9,9-13"
   },
   "saint": {
-    "feast": "\udfe2 Domingo XXV do Tempo Comum",
-    "name": "Santo André Kim e companheiros mártires da Coreia",
-    "description": "Celebração litúrgica do dia: Domingo XXV do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santo-andre-kim-e-companheiros-martires-da-coreia/"
+    "feast": "\udd34 [F] São Mateus\\, apóstolo e evangelista",
+    "name": "São Mateus, apóstolo e evangelista",
+    "description": "Celebração litúrgica do dia: São Mateus, apóstolo e evangelista.",
+    "url": "https://santo.cancaonova.com/santo/sao-mateus-apostolo-e-evangelista/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 20,1-16a)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 9,9-13)",
     "lines": [
-      "Naquele tempo, Jesus contou esta parábola a seus discípulos: O Reino dos Céus é como a história do patrão que saiu de madrugada para contratar trabalhadores para a sua vinha.",
-      "Combinou com os trabalhadores uma moeda de prata por dia, e os mandou para a vinha.",
-      "&Agrave;s nove horas da manhã, o patrão saiu de novo, viu outros que estavam na praça, desocupados, e lhes disse: Ide também vós para a minha vinha!",
-      "E eu vos pagarei o que for justo.",
-      "O patrão saiu de novo ao meio-dia e às três horas da tarde, e fez a mesma coisa.",
-      "Saindo outra vez pelas cinco horas da tarde, encontrou outros que estavam na praça, e lhes disse: Por que estais aí o dia inteiro desocupados? Eles responderam: Porque ninguém nos contratou.",
-      "O patrão lhes disse: Ide vós também para a minha vinha."
+      "Naquele tempo, Jesus viu um homem chamado Mateus, sentado na coletoria de impostos, e disse-lhe: Segue-me! Ele se levantou e seguiu a Jesus.",
+      "Enquanto Jesus estava à mesa, em casa de Mateus, vieram muitos cobradores de impostos e pecadores e sentaram-se à mesa com Jesus e seus discípulos.",
+      "Alguns fariseus viram isso e perguntaram aos discípulos: Por que vosso mestre come com os cobradores de impostos e pecadores? Jesus ouviu a pergunta e respondeu: Aqueles que têm saúde não precisam de médico, mas sim os doentes.",
+      "Aprendei, pois, o que significa: Quero misericórdia e não sacrifício.",
+      "De fato, eu não vim para chamar os justos, mas os pecadores."
     ],
-    "body": "Naquele tempo, Jesus contou esta parábola a seus discípulos: 1 \"O Reino dos Céus é como a história do patrão que saiu de madrugada para contratar trabalhadores para a sua vinha. 2 Combinou com os trabalhadores uma moeda de prata por dia, e os mandou para a vinha. 3 &Agrave;s nove horas da manhã, o patrão saiu de novo, viu outros que estavam na praça, desocupados, 4 e lhes disse: 'Ide também vós para a minha vinha! E eu vos pagarei o que for justo'. 5 E eles foram. O patrão saiu de novo ao meio-dia e às três horas da tarde, e fez a mesma coisa. 6 Saindo outra vez pelas cinco horas da tarde, encontrou outros que estavam na praça, e lhes disse: 'Por que estais aí o dia inteiro desocupados?' 7 Eles responderam: 'Porque ninguém nos contratou'. O patrão lhes disse: 'Ide vós também para a minha vinha'. 8 Quando chegou a tarde, o patrão disse ao administrador: 'Chama os trabalhadores e paga-lhes uma diária a todos, começando pelos últimos até os primeiros!' 9 Vieram os que tinham sido contratados às cinco da tarde e cada um recebeu uma moeda de prata. 10 Em seguida vieram os que foram contratados primeiro, e pensavam que iam receber mais. Porém, cada um deles também recebeu uma moeda de prata. 11 Ao receberem o pagamento, começaram a resmungar contra o patrão: 12 'Estes últimos trabalharam uma hora só, e tu os igualaste a nós, que suportamos o cansaço e o calor o dia inteiro'. 13 Então o patrão disse a um deles: 'Amigo, eu não fui injusto contigo. Não combinamos uma moeda de prata? 14 Toma o que é teu e volta para casa! Eu quero dar a este que foi contratado por último o mesmo que dei a ti. 15 Por acaso não tenho o direito de fazer o que quero com aquilo que me pertence? Ou estás com inveja, porque estou sendo bom?' 16a Assim, os últimos serão os primeiros, e os primeiros serão os últimos\". —",
-    "keyVerse": "Vinde abrir o nosso coração, Senhor; ó Senhor, abri o nosso coração, e, então, do vosso filho a palavra, poderemos acolher com muito amor!"
+    "body": "Naquele tempo, 9 Jesus viu um homem chamado Mateus, sentado na coletoria de impostos, e disse-lhe: \"Segue-me!\" Ele se levantou e seguiu a Jesus. 10 Enquanto Jesus estava à mesa, em casa de Mateus, vieram muitos cobradores de impostos e pecadores e sentaram-se à mesa com Jesus e seus discípulos. 11 Alguns fariseus viram isso e perguntaram aos discípulos: \"Por que vosso mestre come com os cobradores de impostos e pecadores?\" 12 Jesus ouviu a pergunta e respondeu: \"Aqueles que têm saúde não precisam de médico, mas sim os doentes. 13 Aprendei, pois, o que significa: 'Quero misericórdia e não sacrifício'. De fato, eu não vim para chamar os justos, mas os pecadores\". —",
+    "keyVerse": "A vós, ó Deus, louvamos, a vós, Senhor, cantamos, vos louva, ó Senhor, o coro dos apóstolos."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +37,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "O Papa: acolher e proteger a vida desde a concepção até o fim natural",
-      "summary": "Mensagem de Leão XIV para a quinta edição da Marcha pela Vida de Bratislava, na Eslováquia: promover uma cultura que cuide dos mais frágeis e indefesos. O secretário da Conferência Episcopal: “Pedimos às instituições que protejam,.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-mensagem-marcha-vida-bratislava-bispos-eslovacos.html",
-      "published": "2026-09-20"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-09-21"
     },
     {
       "source": "Vatican News",
-      "title": "Leão XIV: que os atletas mostrem ao mundo que somente a partilha leva à paz",
-      "summary": "O Papa saudou na manhã deste sábado, 19 de setembro, os atletas italianos da “Special Olympics”, que promove o esporte para pessoas com deficiência intelectual, que participaram dos Jogos Mundiais de Inverno de Turim 2025. Ele lembrou que.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-esporte-audiencia-special-olympics-deficiencia.html",
-      "published": "2026-09-19"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-09-21"
     },
     {
       "source": "CNBB",
-      "title": "Daniel, uma pastoral que enxerga no escuro",
-      "summary": "Dom Leomar Brustolin Arcebispo de Santa Maria (RS) O livro de Daniel foi escrito para que um povo ameaçado não perdesse a capacidade de esperar. Há momentos em que a missão da Igreja não consiste em oferecer respostas rápidas, mas em.",
-      "url": "https://www.cnbb.org.br/daniel-uma-pastoral-que-enxerga-no-escuro/",
-      "published": "2026-09-18"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-09-21"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV apela à comunidade internacional para que aja diante da grave crise na Somália",
-      "summary": "Leão XIV fez um apelo urgente neste domingo à comunidade internacional para que aumente a ajuda à Somália, país do Chifre da África que enfrenta uma grave crise humanitária.",
-      "url": "https://www.acidigital.com/noticia/69897/leao-xiv-apela-a-comunidade-internacional-para-que-aja-diante-da-grave-crise-na-somalia",
-      "published": "2026-09-20"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-09-21"
     },
     {
       "source": "Shalom",
-      "title": "Moysés Azevedo fala à missão de São Luís em Encontro Geral da Obra",
-      "summary": "Fundador e moderador geral da Comunidade Shalom participou do Encontro Geral da Obra durante visita à missão maranhense.",
-      "url": "https://comshalom.org/moyses-azevedo-fala-a-missao-de-sao-luis-em-encontro-geral-da-obra/",
-      "published": "2026-09-19"
+      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
+      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
+      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "published": "2026-09-21"
     },
     {
       "source": "Shalom",
-      "title": "Os primeiros e os últimos: entre a conta que fazemos e a bondade que recebemos",
-      "summary": "José Ricardo Bezerra e Felipe Bezerra Neste 25º Domingo do Tempo Comum, o Evangelho (Mt 20,1-16a) nos apresenta a parábola dos trabalhadores da vinha. Um patrão sai de madrugada para contratar operários e volta a sair às nove horas, ao.",
-      "url": "https://comshalom.org/os-primeiros-e-os-ultimos-entre-a-conta-que-fazemos-e-a-bondade-que-recebemos/",
-      "published": "2026-09-19"
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-09-21"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-09-21"
     },
     {
       "source": "Gaudium Press",
-      "title": "XXV Domingo do Tempo Comum: sempre é tempo de conversão",
-      "summary": "A parábola dos operários revela a infinita misericórdia divina que convida todos, em qualquer tempo, a trabalhar na vinha do Senhor. “A parábola dos trabalhadores da vinha”, por David Teniers II, o Jovem New York Historical, Nova York.",
-      "url": "https://gaudiumpress.org/content/xxv-domingo-do-tempo-comum-sempre-e-tempo-de-conversao/",
+      "title": "Diálogo sem dissolução: até onde Leão XIV pretende levar a abertura às outras religiões?",
+      "summary": "“Não se trata de fundar uma grande religião mundial na qual todas as crenças sejam niveladas”. O objetivo é outro: construir uma sociedade fraterna que seja capaz de acolher as diferenças. Papa Leão XIV assina a Nota Um Caminho de.",
+      "url": "https://gaudiumpress.org/content/dialogo-sem-dissolucao-ate-onde-leao-xiv-pretende-levar-a-abertura-as-outras-religioes/",
       "published": "2026-09-20"
     }
   ],
   "closingQuote": {
-    "text": "Estás com inveja porque eu estou sendo bom?",
-    "source": "Mateus 20,1-16"
+    "text": "\"Segue-me!\". ele se levantou e seguiu a Jesus.",
+    "source": "Mateus 9,9-13"
   },
   "liturgyHours": {
-    "reading": "A salvação pertence ao nosso Deus, que está sentado no trono, e ao Cordeiro. O louvor, a glória e a sabedoria, a ação de graças, a honra, o poder e a força pertencem ao nosso Deus para sempre. Amém.",
+    "reading": "Já não sois estrangeiros nem migrantes, mas concidadãos dos santos. Sois da família de Deus. Vós fostes integrados no edifício que tem como fundamento os apóstolos e os profetas, e o próprio Jesus Cristo como pedra principal. É nele que toda a...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
