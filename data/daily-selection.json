@@ -1,32 +1,30 @@
 {
-  "date": "2026-09-21",
-  "editionLabel": "21 de setembro de 2026",
+  "date": "2026-09-22",
+  "editionLabel": "22 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "festa",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Mateus, apóstolo e evangelista",
-    "colorName": "vermelho",
-    "cssColor": "#C62828",
-    "gospelShort": "Mt 9,9-13"
+    "celebrationTitle": "Terça-Feira da Semana XXV do Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 8,19-21"
   },
   "saint": {
-    "feast": "\udd34 [F] São Mateus\\, apóstolo e evangelista",
-    "name": "São Mateus, apóstolo e evangelista",
-    "description": "Celebração litúrgica do dia: São Mateus, apóstolo e evangelista.",
-    "url": "https://santo.cancaonova.com/santo/sao-mateus-apostolo-e-evangelista/"
+    "feast": "\udfe2 Terça-Feira da Semana XXV do Tempo Comum",
+    "name": "São Maurício e companheiros mártires, soldados de Deus",
+    "description": "Celebração litúrgica do dia: Terça-Feira da Semana XXV do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-mauricio-e-companheiros-martires-soldados-de-deus/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 9,9-13)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 8,19-21)",
     "lines": [
-      "Naquele tempo, Jesus viu um homem chamado Mateus, sentado na coletoria de impostos, e disse-lhe: Segue-me! Ele se levantou e seguiu a Jesus.",
-      "Enquanto Jesus estava à mesa, em casa de Mateus, vieram muitos cobradores de impostos e pecadores e sentaram-se à mesa com Jesus e seus discípulos.",
-      "Alguns fariseus viram isso e perguntaram aos discípulos: Por que vosso mestre come com os cobradores de impostos e pecadores? Jesus ouviu a pergunta e respondeu: Aqueles que têm saúde não precisam de médico, mas sim os doentes.",
-      "Aprendei, pois, o que significa: Quero misericórdia e não sacrifício.",
-      "De fato, eu não vim para chamar os justos, mas os pecadores."
+      "Naquele tempo, a mãe e os irmãos de Jesus aproximaram-se, mas não podiam chegar perto dele, por causa da multidão.",
+      "Então anunciaram a Jesus: Tua mãe e teus irmãos estão aí fora e querem te ver.",
+      "Jesus respondeu: Minha mãe e meus irmãos são aqueles que ouvem a Palavra de Deus, e a põem em prática."
     ],
-    "body": "Naquele tempo, 9 Jesus viu um homem chamado Mateus, sentado na coletoria de impostos, e disse-lhe: \"Segue-me!\" Ele se levantou e seguiu a Jesus. 10 Enquanto Jesus estava à mesa, em casa de Mateus, vieram muitos cobradores de impostos e pecadores e sentaram-se à mesa com Jesus e seus discípulos. 11 Alguns fariseus viram isso e perguntaram aos discípulos: \"Por que vosso mestre come com os cobradores de impostos e pecadores?\" 12 Jesus ouviu a pergunta e respondeu: \"Aqueles que têm saúde não precisam de médico, mas sim os doentes. 13 Aprendei, pois, o que significa: 'Quero misericórdia e não sacrifício'. De fato, eu não vim para chamar os justos, mas os pecadores\". —",
-    "keyVerse": "A vós, ó Deus, louvamos, a vós, Senhor, cantamos, vos louva, ó Senhor, o coro dos apóstolos."
+    "body": "Naquele tempo, 19 a mãe e os irmãos de Jesus aproximaram-se, mas não podiam chegar perto dele, por causa da multidão. 20 Então anunciaram a Jesus: \"Tua mãe e teus irmãos estão aí fora e querem te ver\". 21 Jesus respondeu: \"Minha mãe e meus irmãos são aqueles que ouvem a Palavra de Deus, e a põem em prática\". —",
+    "keyVerse": "Feliz quem ouve e observa a palavra de Deus!"
   },
   "sponsor": {
     "enabled": true,
@@ -37,60 +35,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa encontra funcionários do Dicastério para a Cultura e a Educação do Vaticano",
-      "summary": "A visita de Leão XIV durou cerca de uma hora nas dependências do Dicastério na manhã desta segunda-feira (21/09). O Papa saudou todos os funcionários e colaboradores, em um clima de grande cordialidade, e também proferiu um breve discurso.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-visita-dicasterio-cultura-educacao-21-setembro-26.html",
+      "title": "IA, Papa: transformar os frutos da inovação tecnológica em instrumentos de paz",
+      "summary": "Leão XIV envia uma mensagem aos participantes da primeira edição do “AI4Peace”, simpósio internacional que começa hoje na Pontifícia Universidade Lateranense, dedicado às oportunidades e aos desafios apresentados pela Inteligência.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-mensagem-inteligencia-artificial-simposio-lateranense.html",
       "published": "2026-09-21"
     },
     {
       "source": "Vatican News",
-      "title": "Crise humanitária na Somália agravada pela violência e pelo clima extremo",
-      "summary": "Em seu apelo após o Angelus do domingo 20, o Papa Leão XIV pediu uma resposta generosa da comunidade internacional. Seca, fome, deslocamentos, conflitos armados e cortes na ajuda humanitária colocam milhões de somalis em situação de.",
-      "url": "https://www.vaticannews.va/pt/mundo/news/2026-09/somalia-crise-humanitaria-violencia-clima-leao-xiv-apelo.html",
+      "title": "Curada milagrosamente em Lourdes: a visita do Papa ajudará as pessoas que sofrem",
+      "summary": "A senhora de 68 anos, Antonietta Raco, natural da Lucânia, cuja cura da esclerose lateral primária em 2009 foi reconhecida como cientificamente inexplicável, conta à mídia do Vaticano as emoções em relação à chegada de Leão XIV ao.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-viagem-apostolica-franca-santuario-lourdes-2026.html",
       "published": "2026-09-21"
     },
     {
       "source": "CNBB",
-      "title": "Comissão para a Cultura e a Educação da CNBB lança a publicação: “Novos compromissos do Pacto",
-      "summary": "O guia tem como objetivo apresentar os três novos compromissos do Pacto Educativo Global — educar para a paz, para a interioridade e para um mundo digital mais humanizado —, traduzindo-os para a realidade concreta, com sugestões ão de.",
-      "url": "https://www.cnbb.org.br/comissao-para-a-cultura-e-a-educacao-da-cnbb-lanca-a-publicacao-novos-compromissos-do-pacto-educativo-global/",
-      "published": "2026-09-21"
-    },
-    {
-      "source": "CNBB",
-      "title": "Conselho Episcopal Pastoral (Consep) da CNBB se reúne em Brasília nesta semana",
-      "summary": "Na pauta do encontro desta semana, as análises de conjuntura social e eclesial; os informes econômico, das Comissões Episcopais e da Secretaria Geral; o processo de recepção do Sínodo sobre a Sinodalidade; as Campanhas; o itinerário de.",
-      "url": "https://www.cnbb.org.br/conselho-episcopal-pastoral-consep-da-cnbb-se-reune-em-brasilia-nesta-semana/",
+      "title": "Faleceu dom Dadeus Grings, arcebispo emérito de Porto Alegre (RS), aos 90 anos",
+      "summary": "A arquidiocese de Porto Alegre (RS) comunicou, na manhã desta segunda-feira, 21 de setembro, o falecimento de dom Dadeus Grings, seu arcebispo emérito, aos 90 anos. O prelado estava internado no Hospital Dom João Becker, em Gravataí,.",
+      "url": "https://www.cnbb.org.br/faleceu-dom-dadeus-grings-arcebispo-emerito-de-porto-alegre/",
       "published": "2026-09-21"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV apela à comunidade internacional para que aja diante da grave crise na Somália",
-      "summary": "Leão XIV fez um apelo urgente neste domingo à comunidade internacional para que aumente a ajuda à Somália, país do Chifre da África que enfrenta uma grave crise humanitária.",
-      "url": "https://www.acidigital.com/noticia/69897/leao-xiv-apela-a-comunidade-internacional-para-que-aja-diante-da-grave-crise-na-somalia",
-      "published": "2026-09-20"
+      "title": "começa a novena de santa Teresinha do Menino Jesus, padroeira das missões",
+      "summary": "“Para mim, a oração é um impulso do coração, é um simples olhar lançado para o céu, é um grito de gratidão e de amor, tanto no meio da tribulação como no meio da alegria”, dizia santa Teresinha do Menino Jesus, doutora da Igreja e.",
+      "url": "https://www.acidigital.com/noticia/69921/novena-de-santa-teresinha-do-menino-jesus-padroeira-das-missoes",
+      "published": "2026-09-22"
     },
     {
-      "source": "ACI Digital",
-      "title": "Católicos de todo o mundo são convidados a participar de Rosário Global pela",
-      "summary": "Católicos de todo o mundo são convidados a se unir em oração para o Rosário Mundial pela Paz, que acontecerá em 22 de outubro, festa do papa são João Paulo II. O evento é uma iniciativa internacional de oração que visa reunir famílias, paróquias, escolas, comunidades religiosas e indivíduos de todo o mundo em resposta ao apelo do papa Leão XIV para que a Igreja reze o rosário pela paz....",
-      "url": "https://www.acidigital.com/noticia/69905/catolicos-de-todo-o-mundo-sao-convidados-a-participar-de-rosario-global-pela-paz",
-      "published": "2026-09-21"
+      "source": "Shalom",
+      "title": "Paz a Vós propõe semana sobre encontro com Jesus, missão e seguimento",
+      "summary": "De 21 a 25 de setembro, programa conduz os participantes por um caminho de oração, refletindo sobre o chamado e o seguimento de Cristo.",
+      "url": "https://comshalom.org/paz-a-vos-propoe-semana-sobre-encontro-com-jesus-missao-e-seguimento/",
+      "published": "2026-09-22"
+    },
+    {
+      "source": "Shalom",
+      "title": "Secretaria de Cultura acolhe o Halleluya Rio de Janeiro 2026 em assembleia de alinhamento",
+      "summary": "O Teatro Alcione Araújo, localizado na sede da Secretaria de Estado de Cultura e Economia Criativa do Rio de Janeiro, acolheu, nesta segunda-feira (21), uma assembleia de alinhamento com os voluntários do Festival Halleluya Rio 2026. O.",
+      "url": "https://comshalom.org/secretaria-de-cultura-acolhe-o-halleluya-rio-de-janeiro-2026-em-assembleia-de-alinhamento/",
+      "published": "2026-09-22"
     },
     {
       "source": "Gaudium Press",
-      "title": "Quênia: bispo exorta 13 novos diáconos a seguirem o exemplo de seus fundadores",
-      "summary": "“Não Eles foram contra a corrente de sua cultura e discerniram o que Deus queria”, afirmou o prelado. Foto: St John Evangelist Catholic church-Karen/.",
-      "url": "https://gaudiumpress.org/content/quenia-bispo-exorta-13-novos-diaconos-a-seguirem-o-exemplo-de-seus-fundadores/",
+      "title": "Espanha: ativistas pró-aborto invadem paróquia em Barcelona",
+      "summary": "Um grupo de aproximadamente 30 a 40 ativistas pró-aborto — a maioria mulheres jovens que se haviam infiltrado entre o público — se levantou gritando palavras de ordem. Foto: Corriente Social Cristiana Redação ( 21/09/2026 12:12 , Gaudium.",
+      "url": "https://gaudiumpress.org/content/espanha-ativistas-pro-aborto-invadem-paroquia-em-barcelona/",
       "published": "2026-09-21"
     }
   ],
   "closingQuote": {
-    "text": "\"Segue-me!\". ele se levantou e seguiu a Jesus.",
-    "source": "Mateus 9,9-13"
+    "text": "Minha mãe e meus irmãos são aqueles que ouvem a Palavra de Deus, e a põem em prática.",
+    "source": "Lucas 8,19-21"
   },
   "liturgyHours": {
-    "reading": "Já não sois estrangeiros nem migrantes, mas concidadãos dos santos. Sois da família de Deus. Vós fostes integrados no edifício que tem como fundamento os apóstolos e os profetas, e o próprio Jesus Cristo como pedra principal. É nele que toda a...",
+    "reading": "Já é hora de despertar. Com efeito, agora a salvação está mais perto de nós do que quando abraçamos a fé. A noite já vai adiantada, o dia vem chegando: despojemo-nos das ações das trevas e vistamos as armas da luz. Procedamos honestamente, como em...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
