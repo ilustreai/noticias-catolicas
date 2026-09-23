@@ -1,30 +1,32 @@
 {
-  "date": "2026-09-22",
-  "editionLabel": "22 de setembro de 2026",
+  "date": "2026-09-23",
+  "editionLabel": "23 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "22 de setembro de 2026 - Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Lc 8,19-21"
+    "celebrationTitle": "São Pio de Pietrelcina, presbítero",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Lc 9,1-6"
   },
   "saint": {
-    "feast": "\udfe2 Terça-Feira da Semana XXV do Tempo Comum",
-    "name": "São Maurício e companheiros mártires, soldados de Deus",
-    "description": "Celebração litúrgica do dia: 22 de setembro de 2026 - Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-mauricio-e-companheiros-martires-soldados-de-deus/"
+    "feast": "São Pio de Pietrelcina\\, presbítero",
+    "name": "São Pio de Pietrelcina da Ordem dos Frades Menores Capuchinhos",
+    "description": "Celebração litúrgica do dia: São Pio de Pietrelcina, presbítero.",
+    "url": "https://santo.cancaonova.com/santo/sao-pio-de-pietrelcina-da-ordem-dos-frades-menores-capuchinhos/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 8,19-21)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 9,1-6)",
     "lines": [
-      "Naquele tempo, a mãe e os irmãos de Jesus aproximaram-se, mas não podiam chegar perto dele, por causa da multidão.",
-      "Então anunciaram a Jesus: Tua mãe e teus irmãos estão aí fora e querem te ver.",
-      "Jesus respondeu: Minha mãe e meus irmãos são aqueles que ouvem a Palavra de Deus, e a põem em prática."
+      "Naquele tempo, Jesus convocou os Doze, deu-lhes poder e autoridade sobre todos os demônios e para curar doenças, enviou-os a proclamar o Reino de Deus e a curar os enfermos.",
+      "E disse-lhes: Não leveis nada para o caminho: nem cajado, nem sacola, nem pão, nem dinheiro, nem mesmo duas túnicas.",
+      "Em qualquer casa onde entrardes, ficai aí; e daí é que partireis de novo.",
+      "Todos aqueles que não vos acolherem, ao sairdes daquela cidade, sacudi a poeira dos vossos pés, como protesto contra eles.",
+      "Os discípulos partiram e percorriam os povoados, anunciando a Boa-Nova e fazendo curas em todos os lugares."
     ],
-    "body": "Naquele tempo, 19 a mãe e os irmãos de Jesus aproximaram-se, mas não podiam chegar perto dele, por causa da multidão. 20 Então anunciaram a Jesus: \"Tua mãe e teus irmãos estão aí fora e querem te ver\". 21 Jesus respondeu: \"Minha mãe e meus irmãos são aqueles que ouvem a Palavra de Deus, e a põem em prática\". —",
-    "keyVerse": "Feliz quem ouve e observa a palavra de Deus!"
+    "body": "Naquele tempo, 1 Jesus convocou os Doze, deu-lhes poder e autoridade sobre todos os demônios e para curar doenças, 2 enviou-os a proclamar o Reino de Deus e a curar os enfermos. 3 E disse-lhes: \"Não leveis nada para o caminho: nem cajado, nem sacola, nem pão, nem dinheiro, nem mesmo duas túnicas. 4 Em qualquer casa onde entrardes, ficai aí; e daí é que partireis de novo. 5 Todos aqueles que não vos acolherem, ao sairdes daquela cidade, sacudi a poeira dos vossos pés, como protesto contra eles\". 6 Os discípulos partiram e percorriam os povoados, anunciando a Boa-Nova e fazendo curas em todos os lugares. —",
+    "keyVerse": "Convertei-vos e crede no Evangelho, pois, o Reino de Deus está chegando!"
   },
   "sponsor": {
     "enabled": true,
@@ -35,60 +37,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa encontra funcionários do Dicastério para a Cultura e a Educação do Vaticano",
-      "summary": "A visita de Leão XIV durou cerca de uma hora nas dependências do Dicastério na manhã desta segunda-feira (21/09). O Papa saudou todos os funcionários e colaboradores, em um clima de grande cordialidade, e também proferiu um breve discurso.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-visita-dicasterio-cultura-educacao-21-setembro-26.html",
-      "published": "2026-09-21"
+      "title": "Jovens parisienses: o Papa na Unesco para afirmar os valores espirituais da arte",
+      "summary": "A visita de Leão XIV à sede da Organização das Nações Unidas para a Educação, a Ciência e a Cultura (Unesco), na sexta-feira, 25 de setembro, será uma oportunidade para elevar o valor do conhecimento à redescoberta de si mesmo e da.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-viagem-franca-visita-unesco-paris-jovens.html",
+      "published": "2026-09-22"
     },
     {
       "source": "Vatican News",
-      "title": "Jovens de Paris: visita do Papa à Unesco reafirma valores espirituais da arte",
-      "summary": "A visita de Leão XIV à sede da Organização das Nações Unidas para a Educação, a Ciência e a Cultura, na sexta-feira, 25 de setembro, será uma oportunidade para valorizar o conhecimento como forma de redescobrir a si mesmo e a história.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-09/papa-leao-xiv-viagem-apostolica-franca-visita-unesco-jovens-2026.html",
+      "title": "Paris, Notre-Dame e Saint-Denis: Leão XIV percorrerá a história cristã da França",
+      "summary": "Em sua viagem à França, de 25 a 28 de setembro, o Pontífice visitará a capital, Paris, Lourdes, onde se encontra o santuário mariano, e Metz, cidade natal de Robert Schuman, um dos pais fundadores da União Europeia. Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-viagem-apostolica-franca-igreja-missao-saint-denis.html",
       "published": "2026-09-22"
     },
     {
       "source": "CNBB",
-      "title": "Bispos do Conselho Pastoral refletem sobre inteligência artificial e comunhão na Igreja",
-      "summary": "A reunião do Conselho Episcopal Pastoral (Consep) da Conferência Nacional dos Bispos do Brasil (CNBB) iniciou na manhã desta terça-feira, 22, com a apresentação de duas análises de conjuntura aos bispos da Presidência da Conferência,.",
-      "url": "https://www.cnbb.org.br/consep-setembro-2026-inteligencia-artificial-e-comunhao-na-igreja/",
+      "title": "Presidência da CNBB manifesta pesar e solidariedade às famílias e comunidades de Itumirim (MG)",
+      "summary": "A Presidência da Conferência Nacional dos Bispos do Brasil (CNBB) manifestou \"profundo pesar e solidariedade\" às famílias e às comunidades de Itumirim (MG), diante do acidente ocorrido no último domingo, 20 de setembro. O ônibus que.",
+      "url": "https://www.cnbb.org.br/nota-de-solidariedade-familias-e-comunidades-de-itumirim-mg/",
       "published": "2026-09-22"
     },
     {
       "source": "ACI Digital",
-      "title": "Relíquia da túnica de Cristo será exibida a Leão XIV na França",
-      "summary": "Pela primeira vez, um papa vai ver em exposição a Túnica Sagrada, vestimenta usada por Cristo em Sua Paixão, que está conservada na basílica de Saint-Denis em Argenteuil, França. A relíquia especial é exibida em exposições regulares a cada 50 anos, e em ocasiões extraordinárias — a mais recente em 2023 —, mas nunca antes havia sido levada à presença de um papa....",
-      "url": "https://www.acidigital.com/noticia/69937/reliquia-da-tunica-de-cristo-sera-exibida-a-leao-xiv-na-franca",
-      "published": "2026-09-22"
+      "title": "Três fatos milagrosos de padre Pio que talvez você não saiba",
+      "summary": "Padre John Zeller pertence aos Missionários Franciscanos da Palavra Eterna e é diretor do departamento de peregrinação do canal católico EWTN em Birmingham, EUA. Em uma entrevista contou alguns fatos milagrosos e pouco conhecidos dos.",
+      "url": "https://www.acidigital.com/noticia/49690/tres-fatos-milagrosos-de-padre-pio-que-talvez-voce-nao-saiba",
+      "published": "2026-09-23"
     },
     {
       "source": "ACI Digital",
-      "title": "Beata Benigna Cardoso dá nome a fóssil de 120 milhões de anos",
-      "summary": "Um fóssil de araucária de cerca de 120 milhões de anos recebeu o nome científico Araucaria benignae em homenagem à beata Benigna Cardoso da Silva, mártir de Santana do Cariri (CE) conhecida como a “heroína da castidade”.",
-      "url": "https://www.acidigital.com/noticia/69939/beata-benigna-cardoso-da-nome-a-fossil-de-120-milhoes-de-anos",
+      "title": "a Igreja celebra são Pio de Pietrelcina, o santo dos estigmas",
+      "summary": "“Oh Jesus, meu suspiro e minha vida, peço-te que faça de mim um sacerdote santo e uma vítima perfeita”, escreveu uma vez são Pio da Pietrelcina, cuja festa se celebra hoje. Sua oração foi escutada e lhe foi concedido o dom dos estigmas.",
+      "url": "https://www.acidigital.com/noticia/69923/sao-pio-de-pietrelcina-o-santo-dos-estigmas",
+      "published": "2026-09-23"
+    },
+    {
+      "source": "Shalom",
+      "title": "Paz a Vós propõe semana sobre encontro com Jesus, missão e seguimento",
+      "summary": "De 21 a 25 de setembro, programa conduz os participantes por um caminho de oração, refletindo sobre o chamado e o seguimento de Cristo.",
+      "url": "https://comshalom.org/paz-a-vos-propoe-semana-sobre-encontro-com-jesus-missao-e-seguimento/",
       "published": "2026-09-22"
     },
     {
       "source": "Shalom",
-      "title": "Pelos caminhos dos santos: os lugares de peregrinação da Convenção Shalom 2026",
-      "summary": "Entre Roma e Assis, peregrinos da Comunidade Shalom visitarão lugares marcados pela vida dos apóstolos Pedro e Paulo, de São Francisco, Santa Clara e São Carlo Acutis.",
-      "url": "https://comshalom.org/lugares-peregrinacao-convencao-shalom-2026/",
-      "published": "2026-09-22"
-    },
-    {
-      "source": "Shalom",
-      "title": "Assembleia reúne Comunidade de Vida e Comunidade de Aliança e apresenta o Halleluya 2026",
-      "summary": "Encontro na festa de São Mateus apresentou a programação do festival, que acontece nos dias 10 e 11 de outubro, pela primeira vez na praia.",
-      "url": "https://comshalom.org/assembleia-reune-comunidade-de-vida-e-comunidade-de-alianca-e-apresenta-o-halleluya-2026/",
+      "title": "Secretaria de Cultura acolhe o Halleluya Rio de Janeiro 2026 em assembleia de alinhamento",
+      "summary": "O Teatro Alcione Araújo, localizado na sede da Secretaria de Estado de Cultura e Economia Criativa do Rio de Janeiro, acolheu, nesta segunda-feira (21), uma assembleia de alinhamento com os voluntários do Festival Halleluya Rio 2026. O.",
+      "url": "https://comshalom.org/secretaria-de-cultura-acolhe-o-halleluya-rio-de-janeiro-2026-em-assembleia-de-alinhamento/",
       "published": "2026-09-22"
     }
   ],
   "closingQuote": {
-    "text": "Minha mãe e meus irmãos são aqueles que ouvem a Palavra de Deus, e a põem em prática.",
-    "source": "Lucas 8,19-21"
+    "text": "Rezai, esperai, não vos preocupeis.",
+    "source": "São Pio de Pietrelcina"
   },
   "liturgyHours": {
-    "reading": "Já é hora de despertar. Com efeito, agora a salvação está mais perto de nós do que quando abraçamos a fé. A noite já vai adiantada, o dia vem chegando: despojemo-nos das ações das trevas e vistamos as armas da luz. Procedamos honestamente, como em...",
+    "reading": "Lembrai-vos de vossos dirigentes, que vos pregaram a palavra de Deus, e, considerando o fim de sua vida, imitai-lhes a fé. Jesus Cristo é o mesmo, ontem e hoje e por toda a eternidade. Não vos deixeis enganar por qualquer espécie de doutrina...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
