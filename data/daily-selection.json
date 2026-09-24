@@ -1,32 +1,31 @@
 {
-  "date": "2026-09-23",
-  "editionLabel": "23 de setembro de 2026",
+  "date": "2026-09-24",
+  "editionLabel": "24 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Pio de Pietrelcina, presbítero",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Lc 9,1-6"
+    "celebrationTitle": "Quinta-Feira da Semana XXV do Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 9,7-9"
   },
   "saint": {
-    "feast": "São Pio de Pietrelcina\\, presbítero",
-    "name": "São Pio de Pietrelcina da Ordem dos Frades Menores Capuchinhos",
-    "description": "Celebração litúrgica do dia: São Pio de Pietrelcina, presbítero.",
-    "url": "https://santo.cancaonova.com/santo/sao-pio-de-pietrelcina-da-ordem-dos-frades-menores-capuchinhos/"
+    "feast": "\udfe2 Quinta-Feira da Semana XXV do Tempo Comum",
+    "name": "São Gerardo Sagredo, apóstolo e padroeiro da Hungria",
+    "description": "Celebração litúrgica do dia: Quinta-Feira da Semana XXV do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-gerardo-sagredo-apostolo-e-padroeiro-da-hungria/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 9,1-6)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 9,7-9)",
     "lines": [
-      "Naquele tempo, Jesus convocou os Doze, deu-lhes poder e autoridade sobre todos os demônios e para curar doenças, enviou-os a proclamar o Reino de Deus e a curar os enfermos.",
-      "E disse-lhes: Não leveis nada para o caminho: nem cajado, nem sacola, nem pão, nem dinheiro, nem mesmo duas túnicas.",
-      "Em qualquer casa onde entrardes, ficai aí; e daí é que partireis de novo.",
-      "Todos aqueles que não vos acolherem, ao sairdes daquela cidade, sacudi a poeira dos vossos pés, como protesto contra eles.",
-      "Os discípulos partiram e percorriam os povoados, anunciando a Boa-Nova e fazendo curas em todos os lugares."
+      "Naquele tempo, o tetrarca Herodes ouviu falar de tudo o que estava acontecendo, e ficou perplexo, porque alguns diziam que João Batista tinha ressuscitado dos mortos.",
+      "Outros diziam que Elias tinha aparecido; outros ainda, que um dos antigos profetas tinha ressuscitado.",
+      "Então Herodes disse: Eu mandei degolar João.",
+      "Quem é esse homem, sobre quem ouço falar essas coisas? E procurava ver Jesus."
     ],
-    "body": "Naquele tempo, 1 Jesus convocou os Doze, deu-lhes poder e autoridade sobre todos os demônios e para curar doenças, 2 enviou-os a proclamar o Reino de Deus e a curar os enfermos. 3 E disse-lhes: \"Não leveis nada para o caminho: nem cajado, nem sacola, nem pão, nem dinheiro, nem mesmo duas túnicas. 4 Em qualquer casa onde entrardes, ficai aí; e daí é que partireis de novo. 5 Todos aqueles que não vos acolherem, ao sairdes daquela cidade, sacudi a poeira dos vossos pés, como protesto contra eles\". 6 Os discípulos partiram e percorriam os povoados, anunciando a Boa-Nova e fazendo curas em todos os lugares. —",
-    "keyVerse": "Convertei-vos e crede no Evangelho, pois, o Reino de Deus está chegando!"
+    "body": "Naquele tempo, 7 o tetrarca Herodes ouviu falar de tudo o que estava acontecendo, e ficou perplexo, porque alguns diziam que João Batista tinha ressuscitado dos mortos. 8 Outros diziam que Elias tinha aparecido; outros ainda, que um dos antigos profetas tinha ressuscitado. 9 Então Herodes disse: \"Eu mandei degolar João. Quem é esse homem, sobre quem ouço falar essas coisas?\" E procurava ver Jesus. —",
+    "keyVerse": "Sou o caminho, a Verdade e a Vida; ninguém vem ao Pai, senão por mim."
   },
   "sponsor": {
     "enabled": true,
@@ -37,60 +36,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Grupo de ucranianas com o Papa: “Lutamos por nossos entes queridos desaparecidos ou presos”",
-      "summary": "Yulia, Olesya, Alla, Violetta, Tetiana e outras cinco companheiras, presidentes ou colaboradoras de ONGs na Ucrânia, participaram da Audiência Geral e rencontraram Leão XIV, a quem entregaram uma mensagem e um quadro enviado por um.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/leao-xiv-audiencia-geral-ucrania-mulheres-prisioneiros-guerra.html",
+      "title": "Jovens europeus em Metz: o Papa nos encoraja a um diálogo livre e fraterno",
+      "summary": "No encontro “Nas raízes da Europa pela paz e a unidade”, do qual Leão XIV participará na próxima segunda-feira, 28 de setembro, na cidade natal de Robert Schuman, também estará presente uma delegação da Fraternidade Europeia de Estudantes.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-viagem-apostolica-franca-metz-jovens-europeus-26.html",
       "published": "2026-09-23"
     },
     {
       "source": "Vatican News",
-      "title": "Que nenhum surdo fique fora da voz do Papa!",
-      "summary": "O Vatican News, em parceria com o \"Orionita Sinalizando\", oferece a interpretação em Língua Brasileira de Sinais (Libras) para os dois eventos semanais do Papa: a Audiência Geral das quartas-feiras e o Angelus dominical. Leia tudo.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/vatican-news-interpretacao-libras-surdos-orionitas.html",
+      "title": "Papa: a caridade deve orientar o progresso. Deus e o homem não são rivais",
+      "summary": "Cerca de 25 mil pessoas participaram da Audiência Geral de hoje na Praça S. Pedro. Em sua catequese, o Pontífice deu prosseguimento ao ciclo sobre os documentos do Concílio Vaticano II Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-gaudium-et-spes-terceiro-capitulo.html",
       "published": "2026-09-23"
     },
     {
       "source": "CNBB",
-      "title": "Padre Silvio Pereira é nomeado como bispo auxiliar da diocese de São Miguel Paulista (SP)",
-      "summary": "O presbítero pertence ao clero da diocese São Miguel Paulista (SP). Até então, entre outras funções, o monsenhor Silvio Pereira atuava como reitor seminário diocesano de Filosofia e Teologia. A Conferência Nacional dos Bispos do Brasil.",
-      "url": "https://www.cnbb.org.br/bispo-auxiliar-da-diocese-de-sao-miguel-paulista/",
+      "title": "Em café com jornalistas e comunicadores, Presidência da CNBB reflete sobre os desafios à Igreja",
+      "summary": "De acordo com o assessor de Comunicação da CNBB, padre Arnaldo Rodrigues, tratou-se de uma oportunidade de fortalecer uma relação já marcada pela história, pelo diálogo, pela confiança, pela transparência e pelo conhecimento mútuo. \"Nosso.",
+      "url": "https://www.cnbb.org.br/cafe-da-presidencia-com-a-imprensa/",
       "published": "2026-09-23"
     },
     {
       "source": "ACI Digital",
-      "title": "O testemunho de um homem que agradece a padre Pio por cura do câncer",
-      "summary": "Padre Pio fez vários milagres em vida e também depois da sua morte. Para Anthony Fuina, um pai de família norte-americano, um desses casos foi a cura do câncer de intestino.",
-      "url": "https://www.acidigital.com/noticia/69951/o-testemunho-de-um-homem-que-agradece-a-padre-pio-por-cura-do-cancer",
+      "title": "Leão XIV fala sobre ‘preconceito’ que vê progresso técnico como contrário à fé",
+      "summary": "O papa Leão XIV criticou hoje (23) o \"preconceito\" que apresenta o progresso técnico e científico como contrário à fé cristã e alertou sobre o \"drama do humanismo ateu\" descrito pelo cardeal jesuíta francês Henri de Lubac (1896-1991). “Nos humanismos pós-cristãos, o ser humano e Deus são erroneamente apresentados como rivais: para afirmar os seus saberes, a sua liberdade e o seu progresso, o homem deveria emancipar-se de Deus....",
+      "url": "https://www.acidigital.com/noticia/69955/leao-xiv-fala-sobre-preconceito-que-ve-progresso-tecnico-como-contrario-a-fe",
       "published": "2026-09-23"
     },
     {
       "source": "ACI Digital",
-      "title": "Relíquia da túnica de Cristo será exibida a Leão XIV na França",
-      "summary": "Pela primeira vez, um papa vai ver em exposição a Túnica Sagrada, vestimenta usada por Cristo em Sua Paixão, que está conservada na basílica de Saint-Denis em Argenteuil, França. A relíquia especial é exibida em exposições regulares a cada 50 anos, e em ocasiões extraordinárias — a mais recente em 2023 —, mas nunca antes havia sido levada à presença de um papa....",
-      "url": "https://www.acidigital.com/noticia/69937/reliquia-da-tunica-de-cristo-sera-exibida-a-leao-xiv-na-franca",
-      "published": "2026-09-22"
+      "title": "Dez dados que todo católico deveria saber sobre a Bíblia",
+      "summary": "Por ocasião do mês da Bíblia, o portal católico de recursos apostólicos Catholic Link publicou dez informações sobre as Sagradas Escrituras que podem ajudar no apostolado.",
+      "url": "https://www.acidigital.com/noticia/49723/dez-dados-que-todo-catolico-deveria-saber-sobre-a-biblia",
+      "published": "2026-09-24"
     },
     {
       "source": "Shalom",
-      "title": "Atraídos pela Palavra: momento de aprofundamento na Bíblia acontece nesta quarta-feira em Goiân",
-      "summary": "A Palavra de Deus nos atrai, nos forma e transforma nossa vida. É com esse desejo que viveremos um momento especial de aprofundamento na Palavra , com o tema “Atraídos pela Palavra” . Será uma oportunidade para nos aproximarmos ainda mais da Sagrada Escritura e permitir que Deus fale ao nosso coração, ilumine nossa caminhada e renove em nós o desejo de viver segundo a sua Palavra. Este momento será aberto a todos os públicos ....",
-      "url": "https://comshalom.org/atraidos-pela-palavra/",
-      "published": "2026-09-23"
+      "title": "a beatificação de Fulton Sheen nesta quinta",
+      "summary": "A beatificação de Fulton Sheen será celebrada nesta quinta-feira, 24 de setembro, em St. Louis, nos Estados Unidos. A cerimônia terá como representante do Papa Leão XIV, o cardeal Luis Antonio Tagle. Na véspera da celebração, o Papa recordou Sheen durante a Audiência Geral e destacou seu testemunho de evangelização por meio dos meios de comunicação. Nascido em 8 de maio de 1895, em El Paso, Illinois, Fulton Sheen foi ordenado sacerdote em 1919....",
+      "url": "https://comshalom.org/igreja-celebra-a-beatificacao-de-fulton-sheen-nesta-quinta/",
+      "published": "2026-09-24"
     },
     {
       "source": "Shalom",
-      "title": "Contagem regressiva para novembro: garanta já sua vaga na Convenção Shalom 2026",
-      "summary": "Com a aproximação da Convenção, participantes organizam os últimos detalhes para viver em Roma um tempo de comunhão, oração e renovação da oferta.",
-      "url": "https://comshalom.org/contagem-regressiva-para-novembro-garanta-ja-sua-vaga-na-convencao-shalom-2026/",
+      "title": "Halleluya Teresina 2026 reúne música, arte e espiritualidade em dois dias de festival na Ponte",
+      "summary": "Teresina já pode começar a contagem regressiva. Nos dias 17 e 18 de outubro, o Complexo da Ponte Estaiada será palco da quinta edição do Festival Halleluya Teresina, que reúne música, arte, cultura e espiritualidade em uma programação.",
+      "url": "https://comshalom.org/halleluya-teresina-2026-reune-musica-arte-e-espiritualidade-em-dois-dias-de-festival-na-ponte-estaiada/",
       "published": "2026-09-23"
     }
   ],
   "closingQuote": {
-    "text": "Rezai, esperai, não vos preocupeis.",
-    "source": "São Pio de Pietrelcina"
+    "text": "Eu mandei degolar João. Quem é esse homem, sobre quem ouço falar essas coisas?",
+    "source": "Lucas 9,7-9"
   },
   "liturgyHours": {
-    "reading": "Lembrai-vos de vossos dirigentes, que vos pregaram a palavra de Deus, e, considerando o fim de sua vida, imitai-lhes a fé. Jesus Cristo é o mesmo, ontem e hoje e por toda a eternidade. Não vos deixeis enganar por qualquer espécie de doutrina...",
+    "reading": "Isto diz o Senhor: O céu é o meu trono e a terra é o apoio de meus pés. Que casa é esta que edificareis para mim, e que lugar é este para meu descanso? Tudo isso foi minha mão que fez, tudo isso é meu, diz o Senhor. Mas eu olho para este, para o...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
