@@ -1,31 +1,32 @@
 {
-  "date": "2026-09-24",
-  "editionLabel": "24 de setembro de 2026",
+  "date": "2026-09-25",
+  "editionLabel": "25 de setembro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Quinta-Feira da Semana XXV do Tempo Comum",
+    "celebrationTitle": "Sexta-Feira da Semana XXV do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 9,7-9"
+    "gospelShort": "Lc 9,18-22"
   },
   "saint": {
-    "feast": "\udfe2 Quinta-Feira da Semana XXV do Tempo Comum",
-    "name": "São Gerardo Sagredo, apóstolo e padroeiro da Hungria",
-    "description": "Celebração litúrgica do dia: Quinta-Feira da Semana XXV do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-gerardo-sagredo-apostolo-e-padroeiro-da-hungria/"
+    "feast": "\udfe2 Sexta-Feira da Semana XXV do Tempo Comum",
+    "name": "São Firmino de Amiens, o bispo espanhol decapitado",
+    "description": "Celebração litúrgica do dia: Sexta-Feira da Semana XXV do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-firmino-de-amiens-o-bispo-espanhol-decapitado/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 9,7-9)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 9,18-22)",
     "lines": [
-      "Naquele tempo, o tetrarca Herodes ouviu falar de tudo o que estava acontecendo, e ficou perplexo, porque alguns diziam que João Batista tinha ressuscitado dos mortos.",
-      "Outros diziam que Elias tinha aparecido; outros ainda, que um dos antigos profetas tinha ressuscitado.",
-      "Então Herodes disse: Eu mandei degolar João.",
-      "Quem é esse homem, sobre quem ouço falar essas coisas? E procurava ver Jesus."
+      "Aconteceu que Jesus estava rezando num lugar retirado, e os discípulos estavam com ele.",
+      "Então Jesus perguntou-lhes: Quem diz o povo que eu sou? Eles responderam: Uns dizem que és João Batista; outros, que és Elias; mas outros acham que és algum dos antigos profetas que ressuscitou.",
+      "Mas Jesus perguntou: E vós, quem dizeis que eu sou? Pedro respondeu: O Cristo de Deus.",
+      "Mas Jesus proibiu-lhes severamente que contassem isso a alguém.",
+      "E acrescentou: O Filho do Homem deve sofrer muito, ser rejeitado pelos anciãos, pelos sumos sacerdotes e doutores da Lei, deve ser morto e ressuscitar no terceiro dia."
     ],
-    "body": "Naquele tempo, 7 o tetrarca Herodes ouviu falar de tudo o que estava acontecendo, e ficou perplexo, porque alguns diziam que João Batista tinha ressuscitado dos mortos. 8 Outros diziam que Elias tinha aparecido; outros ainda, que um dos antigos profetas tinha ressuscitado. 9 Então Herodes disse: \"Eu mandei degolar João. Quem é esse homem, sobre quem ouço falar essas coisas?\" E procurava ver Jesus. —",
-    "keyVerse": "Sou o caminho, a Verdade e a Vida; ninguém vem ao Pai, senão por mim."
+    "body": "Aconteceu que Jesus 18 estava rezando num lugar retirado, e os discípulos estavam com ele. Então Jesus perguntou-lhes: \"Quem diz o povo que eu sou?\" 19 Eles responderam: \"Uns dizem que és João Batista; outros, que és Elias; mas outros acham que és algum dos antigos profetas que ressuscitou\". 20 Mas Jesus perguntou: \"E vós, quem dizeis que eu sou?\" Pedro respondeu: \"O Cristo de Deus\". 21 Mas Jesus proibiu-lhes severamente que contassem isso a alguém. 22 E acrescentou: \"O Filho do Homem deve sofrer muito, ser rejeitado pelos anciãos, pelos sumos sacerdotes e doutores da Lei, deve ser morto e ressuscitar no terceiro dia\". —",
+    "keyVerse": "Veio o filho do homem, a fim de servir e dar sua vida em resgate por muitos."
   },
   "sponsor": {
     "enabled": true,
@@ -36,60 +37,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "UNESCO: “A visita do Papa chega no momento certo para o nosso mundo”",
-      "summary": "Em entrevista concedida aos meios de comunicação do Vaticano, a diretora-geral adjunta da Organização das Nações Unidas para a Educação, a Ciência e a Cultura (UNESCO), Åsa Regnér, destaca a importância da presença de Leão XIV na UNESCO,.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-viagem-apostolica-unesco-diretora-adjunta.html",
-      "published": "2026-09-24"
+      "title": "Parolin na ONU: elevação do nível do mar exige cultura do cuidado e solidariedade",
+      "summary": "Em nome da Santa Sé, o secretário de Estado do Papa Leão XIV alerta que o aumento do nível dos oceanos ameaça comunidades, segurança alimentar, patrimônios culturais e até a existência de alguns Estados Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/cardeal-parolin-onu-elevacao-nivel-mar-cultura-do-cuidado.html",
+      "published": "2026-09-25"
     },
     {
       "source": "Vatican News",
-      "title": "Grupo de ucranianas com o Papa: “Lutamos por nossos entes queridos desaparecidos ou presos”",
-      "summary": "Yulia, Olesya, Alla, Violetta, Tetiana e outras cinco companheiras, presidentes ou colaboradoras de ONGs na Ucrânia, participaram da Audiência Geral e rencontraram Leão XIV, a quem entregaram uma mensagem e um quadro enviado por um.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/leao-xiv-audiencia-geral-ucrania-mulheres-prisioneiros-guerra.html",
+      "title": "Leão XIV rumo à França para uma viagem de diálogo, memória e esperança",
+      "summary": "Papa embarcou nesta sexta-feira, 25 de setembro, no aeroporto de Fiumicino, dando início à sua Viagem Apostólica à França, marcada pelo diálogo, pela paz, pela cultura e pela atenção às pessoas mais vulneráveis Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-viagem-apostolica-franca-aeroporto-fiumicino.html",
+      "published": "2026-09-25"
+    },
+    {
+      "source": "CNBB",
+      "title": "Em café com jornalistas, Presidência da CNBB reflete sobre os desafios à Igreja no Brasil, proj",
+      "summary": "De acordo com o assessor de Comunicação da CNBB, padre Arnaldo Rodrigues, tratou-se de uma oportunidade de fortalecer uma relação já marcada pela história, pelo diálogo, pela confiança, pela transparência e pelo conhecimento mútuo. \"Nosso.",
+      "url": "https://www.cnbb.org.br/cafe-da-presidencia-com-a-imprensa/",
       "published": "2026-09-23"
     },
     {
-      "source": "CNBB",
-      "title": "Grupo de Assessores se encontra em momento de partilhas e apresentação de novidades para a Comu",
-      "summary": "O encontro foi marcado pelas partilhas das atividades realizadas pelas Comissões Episcopais da CNBB e pela apresentação de novidades no âmbito da Comunicação da Conferência. A reunião também contou com a participação on-line de assessores.",
-      "url": "https://www.cnbb.org.br/grupo-de-assessores-setembro-2026/",
-      "published": "2026-09-24"
+      "source": "ACI Digital",
+      "title": "Cinco pessoas que conheceram santos pessoalmente",
+      "summary": "Você imagina conhecer ou ter conhecido algum santo da Igreja? Essas cinco pessoas foram seus amigos próximos e decidiram descrever brevemente a relação que tiveram, algumas histórias e como eles marcaram suas vida.",
+      "url": "https://www.acidigital.com/noticia/49697/cinco-pessoas-que-conheceram-santos-pessoalmente",
+      "published": "2026-09-25"
     },
     {
-      "source": "CNBB",
-      "title": "Live especial favorece diálogo sobre a posição da CNBB em defesa da vida e da dignidade humana",
-      "summary": "Programa será espaço de diálogo sobre a dignidade humana e a defesa da vida à luz da fé, da bioética, da medicina e do direito, além de marcar o lançamento de publicação sobre o tema. Com apresentação do secretário-geral da CNBB, dom.",
-      "url": "https://www.cnbb.org.br/live-especial-posicao-cnbb-defesa-da-vida/",
+      "source": "ACI Digital",
+      "title": "começa a novena a são Francisco de Assis",
+      "summary": "“Nenhuma outra coisa temos que fazer senão sermos solícitos em seguir a vontade de Deus e em agradá-lo em todas as coisas”, dizia são Francisco de Assis, que recebeu o dom dos estigmas e foi declarado “padroeiro dos cultivadores da.",
+      "url": "https://www.acidigital.com/noticia/69977/novena-a-sao-francisco-de-assis",
+      "published": "2026-09-25"
+    },
+    {
+      "source": "Shalom",
+      "title": "Acamp s Teens é realizado em Mossoró",
+      "summary": "Nos dias 19 e 20 de setembro de 2026 foi realizado o Seminário de Vida no Espírito Santo: Acamp s Teens, que teve como público-alvo crianças e adolescentes de 11 a 13 anos de idade. O evento ocorreu na Chácara O M, em Mossoró-RN. A.",
+      "url": "https://comshalom.org/acamps-teens-mossoro/",
       "published": "2026-09-24"
     },
     {
       "source": "Shalom",
-      "title": "Atraídos pela Palavra: configurados a Cristo",
-      "summary": "“Ele é a imagem do Deus invisível, o Primogênito de toda a criação.” (Cl 1,15) Quando nos aproximamos da Palavra de Deus, não estamos simplesmente diante de um texto antigo. Estamos diante de uma Palavra viva, capaz de revelar quem Deus é.",
-      "url": "https://comshalom.org/atraidos-pela-palavra-configurados-a-cristo/",
-      "published": "2026-09-24"
-    },
-    {
-      "source": "Shalom",
-      "title": "Halleluya Solidário 2026: o som da esperança ressoa nos Arcos da Lapa Rio de Janeiro",
-      "summary": "O evento reunirá voluntários, profissionais de diferentes áreas e pessoas dispostas a doar tempo, dons e presença para um dia inteiro de cuidado, partilha e evangelização junto às pessoas em situação de vulnerabilidade social.",
-      "url": "https://comshalom.org/halleluya-solidario-2026-o-som-da-esperanca-ressoa-nos-arcos-da-lapa-rio-de-janeiro/",
-      "published": "2026-09-24"
-    },
-    {
-      "source": "Aleteia",
-      "title": "[RECEITA] As broas de milho da abadessa Leocádia: uma receita de 1729 que chegou até nós",
-      "summary": "Há receitas que parecem pequenas demais para carregar uma história. Uma broa, feita de farinha, leite, açúcar e algumas especiarias, poderia parecer apenas mais uma receita antiga. Mas as Broas de milho de Santa Clara guardam um.",
-      "url": "https://pt.aleteia.org/2026/09/24/receita-as-broas-de-milho-da-abadessa-leocadia-uma-receita-de-1729-que-chegou-ate-nos/",
+      "title": "4ª Copa Shalom reúne jovens em Palmas e transforma esporte em evangelização",
+      "summary": "Evento promovido pela Missão Shalom Palmas reuniu equipes de diferentes grupos e comunidades em dois dias de competições, fraternidade e anúncio do Evangelho.",
+      "url": "https://comshalom.org/copa-shalom-palmas-esporte-evangelizacao/",
       "published": "2026-09-24"
     }
   ],
   "closingQuote": {
-    "text": "Eu mandei degolar João. Quem é esse homem, sobre quem ouço falar essas coisas?",
-    "source": "Lucas 9,7-9"
+    "text": "Tu és o Cristo de Deus. O Filho do Homem deve sofrer muito.",
+    "source": "Lucas 9,18-22"
   },
   "liturgyHours": {
-    "reading": "Isto diz o Senhor: O céu é o meu trono e a terra é o apoio de meus pés. Que casa é esta que edificareis para mim, e que lugar é este para meu descanso? Tudo isso foi minha mão que fez, tudo isso é meu, diz o Senhor. Mas eu olho para este, para o...",
+    "reading": "Nenhuma palavra perniciosa deve sair dos vossos lábios, mas sim alguma palavra boa, capaz de edificar oportunamente e de trazer graça aos que a ouvem. Não contristeis o Espírito Santo com o qual Deus vos marcou como com um selo para o dia da...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
