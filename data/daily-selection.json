@@ -1,31 +1,34 @@
 {
-  "date": "2026-09-26",
-  "editionLabel": "26 de setembro de 2026",
+  "date": "2026-09-27",
+  "editionLabel": "27 de setembro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "26 de setembro de 2026 - Tempo Comum",
+    "celebrationTitle": "Domingo XXVI do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 9,43b-45"
+    "gospelShort": "Mt 21,28-32"
   },
   "saint": {
-    "feast": "\udd34 [m] Santos Cosme e Damião\\, mártires",
-    "name": "São Cosme e São Damião, os irmãos gêmeos médicos",
-    "description": "Celebração litúrgica do dia: 26 de setembro de 2026 - Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-cosme-e-sao-damiao-os-irmaos-gemeos-medicos/"
+    "feast": "\udfe2 Domingo XXVI do Tempo Comum",
+    "name": "São Vicente de Paulo, padroeiro das Associações de Caridade",
+    "description": "Celebração litúrgica do dia: Domingo XXVI do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-vicente-de-paulo-padroeiro-das-associacoes-de-caridadesao-vicente-de-paulo-padroeiro-das-associacoes-de-caridade/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 9,43b-45)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 21,28-32)",
     "lines": [
-      "Naquele tempo, b todos estavam admirados com todas as coisas que Jesus fazia.",
-      "Então Jesus disse a seus discípulos: Prestai bem atenção às palavras que vou dizer: O Filho do Homem vai ser entregue nas mãos dos homens.",
-      "Mas os discípulos não compreendiam o que Jesus dizia.",
-      "O sentido lhes ficava escondido, de modo que não podiam entender; e eles tinham medo de fazer perguntas sobre o assunto."
+      "Naquele tempo, Jesus disse aos sacerdotes e anciãos do povo: Que vos parece?",
+      "Dirigindo-se ao primeiro, ele disse: Filho, vai trabalhar hoje na vinha! O filho respondeu: Não quero.",
+      "Mas depois mudou de opinião e foi.",
+      "O pai dirigiu-se ao outro filho e disse a mesma coisa.",
+      "Este respondeu: Sim, senhor, eu vou.",
+      "Qual dos dois fez a vontade do pai? Os sumos sacerdotes e os anciãos do povo responderam: O primeiro.",
+      "Então Jesus lhes disse: Em verdade vos digo, que os cobradores de impostos e as prostitutas vos precedem no Reino de Deus."
     ],
-    "body": "Naquele tempo, 43b todos estavam admirados com todas as coisas que Jesus fazia. Então Jesus disse a seus discípulos: 44 \"Prestai bem atenção às palavras que vou dizer: O Filho do Homem vai ser entregue nas mãos dos homens\". 45 Mas os discípulos não compreendiam o que Jesus dizia. O sentido lhes ficava escondido, de modo que não podiam entender; e eles tinham medo de fazer perguntas sobre o assunto. —",
-    "keyVerse": "Jesus Cristo salvador destruiu o mal e a morte; fez brilhar pelo Evangelho, a luz e a vida imperecíveis."
+    "body": "Naquele tempo, Jesus disse aos sacerdotes e anciãos do povo: 28 \"Que vos parece? Um homem tinha dois filhos. Dirigindo-se ao primeiro, ele disse: 'Filho, vai trabalhar hoje na vinha!' 29 O filho respondeu: 'Não quero'. Mas depois mudou de opinião e foi. 30 O pai dirigiu-se ao outro filho e disse a mesma coisa. Este respondeu: 'Sim, senhor, eu vou'. Mas não foi. 31 Qual dos dois fez a vontade do pai?\" Os sumos sacerdotes e os anciãos do povo responderam: \"O primeiro\". Então Jesus lhes disse: \"Em verdade vos digo, que os cobradores de impostos e as prostitutas vos precedem no Reino de Deus. 32 Porque João veio até vós, num caminho de justiça, e vós não acreditastes nele. Ao contrário, os cobradores de impostos e as prostitutas creram nele. Vós, porém, mesmo vendo isso, não vos arrependestes para crer nele\". —",
+    "keyVerse": "Minhas ovelhas escutam a minha voz, minha voz estão elas a escutar; eu conheço, então, minhas ovelhas, que me seguem, comigo a caminhar!"
   },
   "sponsor": {
     "enabled": true,
@@ -36,30 +39,30 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Parolin na ONU: elevação do nível do mar exige cultura do cuidado e solidariedade",
-      "summary": "Em nome da Santa Sé, o secretário de Estado do Papa Leão XIV alerta que o aumento do nível dos oceanos ameaça comunidades, segurança alimentar, patrimônios culturais e até a existência de alguns Estados Leia tudo.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/cardeal-parolin-onu-elevacao-nivel-mar-cultura-do-cuidado.html",
-      "published": "2026-09-25"
-    },
-    {
-      "source": "Vatican News",
-      "title": "Cardeal Parolin: solução de dois Estados, único caminho viável e équo para uma paz justa e dura",
-      "summary": "Declaração do Secretário de Estado, Pietro Parolin, à Assembleia Geral da ONU: “Apesar dos esforços para consolidar o cessar-fogo na Faixa de Gaza, o que foi feito, até agora, ainda é terminantemente insuficiente\". O Cardeal expressou.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/cardeal-parolin-solucao-dois-estados-caminho-viavel-palestina.html",
+      "title": "Papa visita centro para migrantes em Paris e ressalta contribuição das mulheres",
+      "summary": "O projeto \"Maison Bakhita\", em Paris, nasceu em resposta ao apelo do Papa Francisco feito em 2017 por ocasião do Dia Mundial do Migrante, quando propôs os famosos quatro verbos para as sociedades contemporâneas em matéria de migração:.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-visita-maison-bakhita-migrantes-franca.html",
       "published": "2026-09-26"
     },
     {
+      "source": "Vatican News",
+      "title": "Papa: tantas vozes reivindicam autoridade sobre fiéis, o bispo ofereça um ensinamento claro",
+      "summary": "Carta do Santo Padre Leão XIV aos Bispos da América Latina e do Caribe por ocasião do terceiro centenário da canonização de São Toríbio de Mogrovejo Os meus antecessores debruçaram-se amplamente sobre a figura do &laquo;excelso metropolita de Lima&raquo;, [1] recordando o seu zelo evangelizador, [2] o seu empenho na edificação e renovação da vida eclesial [3] e a sua proximidade aos mais pobres e vulneráveis....",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-carta-bispos-america-latina-caribe-sao-turibio.html",
+      "published": "2026-10-09"
+    },
+    {
       "source": "CNBB",
-      "title": "Comissão para a Liturgia da CNBB promove, de forma remota, III Encontro da Pastoral do Artista",
-      "summary": "O bispo de Bonfim (BA) e presidente da Comissão para a Liturgia da CNBB, dom Hernaldo Pinto Farias, enviou um vídeo de saudação aos participantes do encontro: \"Que bom você ter podido participar deste momento de reflexão e partilha e.",
-      "url": "https://www.cnbb.org.br/comissao-para-a-liturgia-da-cnbb-promove-iii-encontro-da-pastoral-do-artista-sacro/",
+      "title": "CF 2027: Seminário Nacional começa com exortação para transformar cuidado das crianças em cultu",
+      "summary": "Encontro de aproximação e animação da Campanha da Fraternidade 2027 reúne, em Brasília, representantes de diferentes realidades eclesiais até domingo, 27. Na abertura, o secretário-geral da CNBB, dom Ricardo Hoepers, defendeu escuta,.",
+      "url": "https://www.cnbb.org.br/cf-2027-seminario-nacional-exortacao-transformar-cuidado-das-criancas-em-cultura/",
       "published": "2026-09-25"
     },
     {
       "source": "ACI Digital",
-      "title": "Como os católicos devem celebrar são Cosme e são Damião",
-      "summary": "Os católicos devem celebrar são Cosme e são Damião no dia 26 de setembro, “cultuá-los na fé da Igreja e nas missas”, disse à ACI Digital em 2023 o padre Vagner Baia, missionário da Comunidade Canção Nova e membro da Associação.",
-      "url": "https://www.acidigital.com/noticia/56276/como-os-catolicos-devem-celebrar-sao-cosme-e-sao-damiao",
+      "title": "a Igreja celebra são Cosme e são Damião, gêmeos mártires e padroeiros dos médicos",
+      "summary": "Hoje (26), a Igreja celebra os mártires Cosme e Damião, irmãos gêmeos que, junto com são Lucas, são os padroeiros dos médicos católicos.",
+      "url": "https://www.acidigital.com/noticia/49699/hoje-a-igreja-celebra-sao-cosme-e-sao-damiao-gemeos-martires-e-padroeiros-dos-medicos",
       "published": "2026-09-26"
     },
     {
@@ -71,25 +74,25 @@
     },
     {
       "source": "Aleteia",
-      "title": "Viagem à França: O que Leão XIV confidenciou aos jornalistas no avião",
-      "summary": "No avião que o levava à França neste dia 25 de setembro de 2026, Leão XIV confidenciou a jornalistas — incluindo os da I.MEDIA — que considera importante que os representantes da imprensa sejam todos bem-vindos para cobrir sua viagem,.",
-      "url": "https://pt.aleteia.org/2026/09/25/viagem-a-franca-o-que-leao-xiv-confidenciou-aos-jornalistas-no-aviao/",
+      "title": "Zero D.C. : O nascimento de Cristo visto pelo lado mais sombrio da história",
+      "summary": "Imagine-se por um instante caminhando pelas estradas empoeiradas da Judeia de dois mil anos atrás. O ar é pesado de incertezas, o peso de um império em transição ecoa nas pedras seculares, e nos corações dos homens, o medo e a esperança.",
+      "url": "https://pt.aleteia.org/2026/09/25/zero-d-c-o-nascimento-de-cristo-visto-pelo-lado-mais-sombrio-da-historia/",
       "published": "2026-09-25"
     },
     {
-      "source": "Gaudium Press",
-      "title": "Igreja Católica no Malawi celebra 125 anos de evangelização com ordenações sacerdotais",
-      "summary": "Os frutos colhidos hoje — novas vocações, comunidades vivas e presença social — são testemunho da semeadura generosa de outrora. Foto: Diocese of Dedza Redação ( 26/09/2026 09:29 , Gaudium Press ) A Igreja Católica no Malawi celebrou, no.",
-      "url": "https://gaudiumpress.org/content/igreja-catolica-no-malawi-celebra-125-anos-de-evangelizacao-com-ordenacoes-sacerdotais/",
-      "published": "2026-09-26"
+      "source": "Aleteia",
+      "title": "Bondade, verdade e beleza: Não aceite substitutos",
+      "summary": "Eu alerto meus alunos no Benedictine College, em Atchison, Kansas, para não serem enganados por substitutos baratos daquilo que estão procurando de verdade. E sei exatamente o que eles estão procurando. “Para que foi criado o mundo?”,.",
+      "url": "https://pt.aleteia.org/2026/09/25/bondade-verdade-e-beleza-nao-aceite-substitutos/",
+      "published": "2026-09-25"
     }
   ],
   "closingQuote": {
-    "text": "O Filho do Homem vai ser entregue nas mãos dos homens. Eles tinham medo de fazer perguntas sobre o assunto.",
-    "source": "Lucas 9,43"
+    "text": "Arrependeu-se e foi. Os cobradores de impostos e as prostitutas vão entrar antes de vós no Reino do céu.",
+    "source": "Mateus 21,28-32"
   },
   "liturgyHours": {
-    "reading": "Irmãos, cuidai cada vez mais de confirmar a vossa vocação e eleição. Procedendo assim, jamais tropeçareis. Desta maneira vos será largamente proporcionado o acesso ao reino eterno de nosso Senhor e Salvador, Jesus Cristo.",
+    "reading": "Derramarei sobre vós uma água pura, e sereis purificados. Eu vos purificarei de todas as impurezas e de todos os ídolos. Eu vos darei um coração novo e porei um espírito novo dentro de vós. Arrancarei do vosso corpo o coração de pedra e vos darei um...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
