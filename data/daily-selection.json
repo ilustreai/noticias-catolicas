@@ -1,34 +1,32 @@
 {
-  "date": "2026-09-28",
-  "editionLabel": "28 de setembro de 2026",
+  "date": "2026-09-29",
+  "editionLabel": "29 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "festa",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santos Lourenço Ruiz e Companheiros, mártires",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Lc 9,46-50"
+    "celebrationTitle": "Santos Miguel, Gabriel e Rafael, Arcanjos",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Jo 1,47-51"
   },
   "saint": {
-    "feast": "\udd34 [m] Santos Lourenço Ruiz e Companheiros\\, mártires",
-    "name": "São Venceslau, o pacífico duque da Boêmia",
-    "description": "Celebração litúrgica do dia: Santos Lourenço Ruiz e Companheiros, mártires.",
-    "url": "https://santo.cancaonova.com/santo/sao-venceslau-o-pacifico-duque-da-boemia/"
+    "feast": "Santos Miguel\\, Gabriel e Rafael\\, Arcanjos",
+    "name": "Santos Arcanjos Miguel, Gabriel e Rafael, soldados do exército celeste",
+    "description": "Celebração litúrgica do dia: Santos Miguel, Gabriel e Rafael, Arcanjos.",
+    "url": "https://santo.cancaonova.com/santo/santos-arcanjos-miguel-gabriel-e-rafael/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 9,46-50)",
+    "ref": "Evangelho de Jesus Cristo segundo João (Jo 1,47-51)",
     "lines": [
-      "Naquele tempo, houve entre os discípulos uma discussão, para saber qual deles seria o maior.",
-      "Jesus sabia o que estavam pensando.",
-      "Pegou então uma criança, colocou-a junto de si e disse-lhes: Quem receber esta criança em meu nome, estará recebendo a mim.",
-      "E quem me receber, estará recebendo aquele que me enviou.",
-      "Pois aquele que entre todos vós for o menor, esse é o maior.",
-      "João disse a Jesus: Mestre, vimos um homem que expulsa demônios em teu nome.",
-      "Mas nós o proibimos, porque não anda conosco."
+      "Naquele tempo, Jesus viu Natanael que vinha para ele e comentou: Aí vem um israelita de verdade, um homem sem falsidade.",
+      "Natanael perguntou: De onde me conheces? Jesus respondeu: Antes que Filipe te chamasse, enquanto estavas debaixo da figueira, eu te vi.",
+      "Natanael respondeu: Rabi, tu és o Filho de Deus, tu és o Rei de Israel.",
+      "Jesus disse: Tu crês porque te disse: Eu te vi debaixo da figueira?",
+      "Coisas maiores que esta verás! E Jesus continuou: Em verdade, em verdade, eu vos digo: Vereis o céu aberto e os anjos de Deus subindo e descendo sobre o Filho do Homem."
     ],
-    "body": "Naquele tempo, 46 houve entre os discípulos uma discussão, para saber qual deles seria o maior. 47 Jesus sabia o que estavam pensando. Pegou então uma criança, colocou-a junto de si 48 e disse-lhes: \"Quem receber esta criança em meu nome, estará recebendo a mim. E quem me receber, estará recebendo aquele que me enviou. Pois aquele que entre todos vós for o menor, esse é o maior\". 49 João disse a Jesus: \"Mestre, vimos um homem que expulsa demônios em teu nome. Mas nós o proibimos, porque não anda conosco\". 50 Jesus disse-lhe: \"Não o proibais, pois quem não está contra vós, está a vosso favor\". —",
-    "keyVerse": "Veio o filho do homem, a fim de servir dar sua vida em resgate por muitos."
+    "body": "Naquele tempo, 47 Jesus viu Natanael que vinha para ele e comentou: \"Aí vem um israelita de verdade, um homem sem falsidade\". 48 Natanael perguntou: \"De onde me conheces?\" Jesus respondeu: \"Antes que Filipe te chamasse, enquanto estavas debaixo da figueira, eu te vi\". 49 Natanael respondeu: \"Rabi, tu és o Filho de Deus, tu és o Rei de Israel\". 50 Jesus disse: \"Tu crês porque te disse: Eu te vi debaixo da figueira? Coisas maiores que esta verás!\" 51 E Jesus continuou: \"Em verdade, em verdade, eu vos digo: Vereis o céu aberto e os anjos de Deus subindo e descendo sobre o Filho do Homem\". —",
+    "keyVerse": "Bendizei ao Senhor Deus, os seus poderes, seus ministros que fazeis sua vontade!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +37,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV aos peregrinos em Lourdes: sede missionários da esperança",
-      "summary": "Eis o milagre deste lugar: suscitar a alegria da esperança mesmo no meio das provações e da dor. A Virgem Maria cura os nossos olhares e transfigura os nossos corações, dando-lhes a paz. Sede testemunhas ativas desta força e desta ternura.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-viagem-franca-missa-santuario-nossa-senhora-lourde.html",
-      "published": "2026-09-27"
+      "title": "Papa: tantas vozes reivindicam autoridade sobre fiéis, o bispo ofereça um ensinamento claro",
+      "summary": "Carta do Santo Padre Leão XIV aos Bispos da América Latina e do Caribe por ocasião do terceiro centenário da canonização de São Toríbio de Mogrovejo Os meus antecessores debruçaram-se amplamente sobre a figura do &laquo;excelso metropolita de Lima&raquo;, [1] recordando o seu zelo evangelizador, [2] o seu empenho na edificação e renovação da vida eclesial [3] e a sua proximidade aos mais pobres e vulneráveis....",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-carta-bispos-america-latina-caribe-sao-turibio.html",
+      "published": "2026-10-09"
     },
     {
       "source": "Vatican News",
-      "title": "O Papa em Metz: cuidado com a ilusão do rearmamento",
-      "summary": "No encontro \"nas raízes da Europa pela paz e unidade\", em Metz, o Papa Leão XIV pediu \"coragem nas negociações\", pediu \"esforços criativos para promover a paz mundial\" e não apenas para \"conter a hemorragia da guerra\". A propósito dos.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-discurso-raizes-europa-schuman-paz.html",
+      "title": "Os esforços criativos para a negociação e a ilusão do rearmamento",
+      "summary": "Leão convidou a rezar o Rosário pela paz durante o mês de outubro. E, em Metz, convidou a “sacrificar algumas posições pelo bem maior”. Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-09/esforcos-criativos-negociacao-ilusao-rearmamento-editorial-papa.html",
       "published": "2026-09-28"
     },
     {
       "source": "CNBB",
-      "title": "Comissão Episcopal para a Juventude atualiza e disponibiliza cartilha “Cuidar da Vida” sobre pr",
-      "summary": "A cartilha surgiu como uma iniciativa do projeto \"Cuidar da Vida\" e reúne conteúdos para fortalecer o cuidado com a vida nas pastorais, grupos juvenis e escolas. O material oferece recursos aos agentes de pastoral que desejam desenvolver.",
-      "url": "https://www.cnbb.org.br/comissao-episcopal-para-a-juventude-atualiza-e-disponibiliza-cuidar-da-vida-com-conteudos-para-a-prevencao-ao-suicidio/",
+      "title": "Secretário-geral da CNBB recorda a importância do arcebispo emérito em missa de despedida de do",
+      "summary": "Em Curitiba, o bispo auxiliar de Brasília e secretário-geral da CNBB, dom Ricardo Hoepers, participou da Missa de despedida de dom Pedro. Em seu testemunho, reforçou a importância do arcebispo emérito em sua trajetória e lembrou do.",
+      "url": "https://www.cnbb.org.br/secretario-geral-da-cnbb-recorda-a-importancia-do-arcebispo-emerito-em-missa-de-despedida-de-dom-pedro-fedalto/",
       "published": "2026-09-28"
     },
     {
       "source": "CNBB",
-      "title": "20 representantes da Igreja no Brasil participam de Simpósio Internacional Missiológico de 24 e",
-      "summary": "O propósito partilhado é fazer da escuta sensível, da mesa partilhada e da rica diversidade cultural o ponto de partida para um renovado e fecundo caminho evangelizador rumo ao 7º Congresso Missionário Americano (CAM 7), previsto para o.",
-      "url": "https://www.cnbb.org.br/20-representantes-da-igreja-no-brasil-participam-de-simposio-internacional-missiologico-de-24-e-27-de-setembro-no-chile/",
+      "title": "Banner Iniciação à Vida Cristã",
+      "summary": "Em Curitiba, o bispo auxiliar de Brasília e secretário-geral da CNBB, dom Ricardo Hoepers, participou da Missa de despedida de dom Pedro. Em seu testemunho, reforçou a importância do arcebispo emérito em sua trajetória e lembrou do momento em que foi recebido por ele quando ingressou no seminário",
+      "url": "https://www.cnbb.org.br/banner-iniciacao-a-vida-crista/",
       "published": "2026-09-28"
     },
     {
       "source": "ACI Digital",
-      "title": "Apostolado Brasileiro nos EUA se reorganiza para aproximar comunidades",
-      "summary": "Dois bispos brasileiros que atuam nos EUA participaram do XV Encontro Nacional do Apostolado Brasileiro: o bispo de Fall River, dom Edgar da Cunha, e o bispo auxiliar de Boston, dom Cristiano Barbosa. A reunião, realizada de 21 a 24 de.",
-      "url": "https://www.acidigital.com/noticia/70053/apostolado-brasileiro-nos-eua-se-reorganiza-para-aproximar-comunidades",
+      "title": "Europa deve voltar às suas raízes cristãs e estar aberta a migrantes, diz Leão XIV",
+      "summary": "METZ, França — O papa Leão XIV exortou hoje (28) a Europa a voltar às suas raízes, inclusive sua herança cristã, e a se engajar com pessoas de outras culturas que agora vivem no continente. Falando sobre a grande presença de imigrantes na Europa, Leão XIV disse: \"É preciso compreender o alcance histórico do que está a acontecer, ou seja, um encontro sem precedentes entre povos e culturas, que apela a uma redescoberta criativa das nossas raízes e, ao mesmo tempo, a uma escuta atenta do outro\"....",
+      "url": "https://www.acidigital.com/noticia/70039/europa-deve-voltar-as-suas-raizes-cristas-e-estar-aberta-a-migrantes-diz-leao-xiv",
       "published": "2026-09-28"
     },
     {
       "source": "ACI Digital",
-      "title": "Santuário de Aparecida tem marco zero para registrar chegada de peregrinos a pé",
-      "summary": "Os peregrinos que chegarem a pé ao Santuário Nacional de Aparecida, em Aparecida (SP), contam agora com um ponto de referência para registrar a chegada ao templo.",
-      "url": "https://www.acidigital.com/noticia/70051/santuario-de-aparecida-tem-marco-zero-para-registrar-chegada-de-peregrinos-a-pe",
+      "title": "Leão XIV pede que escuteiros de Portugal sejam construtores de paz",
+      "summary": "O papa Leão XIV enviou uma mensagem à peregrinação do Corpo Nacional de Escutas (CNE) ao santuário de Fátima, em Portugal.",
+      "url": "https://www.acidigital.com/noticia/70043/leao-xiv-pede-que-escuteiros-de-portugal-sejam-construtores-de-paz",
       "published": "2026-09-28"
     },
     {
-      "source": "Aleteia",
-      "title": "Lembre-se de que o Senhor Jesus Cristo não é um coach de vida",
-      "summary": "A maioria de nós é influenciável. Quando algo está na moda, nos aderimos à tendência para estar em sintonia com os outros. E isso é compreensível, pois faz parte da natureza humana buscar uma identidade e se encaixar em um grupo com o.",
-      "url": "https://pt.aleteia.org/2026/09/28/lembre-se-de-que-o-senhor-jesus-cristo-nao-e-um-coach-de-vida/",
+      "source": "Gaudium Press",
+      "title": "Espanha: dobra número de seminaristas em Ávila",
+      "summary": "“O ambiente que deve caracterizar o seminário é o de uma família”, uma formação que abrange as dimensões humana, espiritual, pastoral e intelectual, afirma o reitor. Foto: Diocese de Ávila Redação ( 28/09/2026 10:52 , Gaudium Press ) O.",
+      "url": "https://gaudiumpress.org/content/espanha-dobra-numero-de-seminaristas-em-avila/",
       "published": "2026-09-28"
     }
   ],
   "closingQuote": {
-    "text": "Aquele que entre todos vós for o menor, esse é o maior.",
-    "source": "Lucas 9,46-50"
+    "text": "Vereis o céu aberto e os anjos de Deus subindo &nbsp;e descendo sobre o Filho do Homem.",
+    "source": "João 1,47-51"
   },
   "liturgyHours": {
-    "reading": "Quando encontrei tuas palavras, alimentei-me; elas se tornaram para mim uma delícia, e a alegria do coração, o modo como invocar teu nome sobre mim, Senhor Deus dos exércitos.",
+    "reading": "Jacó viu em sonho uma escada apoiada no chão, com a outra ponta tocando o céu e os anjos de Deus subindo e descendo por ela. No alto da escada estava o Senhor que lhe dizia: Eu sou o Senhor, Deus de Abraão, teu pai, e Deus de Isaac.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
