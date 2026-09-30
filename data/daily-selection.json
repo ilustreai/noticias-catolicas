@@ -3,17 +3,17 @@
   "editionLabel": "30 de setembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Jerônimo, presbítero e doutor da Igreja",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
+    "celebrationTitle": "30 de setembro de 2026 - Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
     "gospelShort": "Lc 9,57-62"
   },
   "saint": {
     "feast": "São Jerônimo\\, presbítero e doutor da Igreja",
     "name": "São Jerônimo, presbítero e doutor da Igreja",
-    "description": "Celebração litúrgica do dia: São Jerônimo, presbítero e doutor da Igreja.",
+    "description": "Celebração litúrgica do dia: 30 de setembro de 2026 - Tempo Comum.",
     "url": "https://santo.cancaonova.com/santo/sao-jeronimo-presbitero-e-doutor-da-igreja/"
   },
   "gospel": {
@@ -39,17 +39,24 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV: o renascimento da fé na França é uma esperança para toda a Igreja",
-      "summary": "Na Audiência Geral, Leão XIV fala sobre a recente viagem apostólica ao país, ainda com impressões \"tão vivas\" e relembra os momentos vividos com os fiéis e a “inesquecível” Vigília dos jovens. A Catedral de Notre-Dame restaurada é um.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-30-setembro-viagem-franca.html",
+      "title": "Leão XIV: mártires de Pratulin, testemunhas da unidade até o sangue",
+      "summary": "Leão XIV recordou nesta quarta-feira o beato Vicente Lewoniuk e os seus 12 companheiros de Pratulin, na Polônia. Eram católicos de rito bizantino (greco-católicos). Foram mortos pelos soldados do czar no século XIX porque não quiseram.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/leao-xiv-audiencia-geral-vincenzo-lewoniuk-companheiros-martires.html",
       "published": "2026-09-30"
     },
     {
       "source": "Vatican News",
-      "title": "O Papa: no silêncio, cultivar a atenção e ser sensível à voz de quem é ignorado",
-      "summary": "Leão XIV recebeu os membros da Comissão Internacional das Monjas Contemplativas Dominicanas. Em seu discurso, o Papa destacou que \"o silêncio é um ato de vontade, que envolve a pessoa por inteiro, e ajuda a viver relações sólidas porque.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-comissao-internacional-monjas-contemplativas-dominicanas.html",
+      "title": "Papa pede diálogo diante da retomada dos combates no Tigré",
+      "summary": "Há dezenas de milhares de novos deslocados em Afar e receio de um novo bloqueio total de comunicações, energia e ajuda humanitária. O conflito iniciou em novembro de 2020 entre forças do governo federal etíope e a FPLT, causando centenas.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-apelo-paz-dialogo-tigre-etiopia.html",
       "published": "2026-09-30"
+    },
+    {
+      "source": "CNBB",
+      "title": "Presidente da Comissão Missionária da CNBB, dom Maurício Jardim, apresenta a programação para o",
+      "summary": "O bispo recorda, que em 2026, a Igreja celebra o centenário da criação, pelo Papa Pio X, do Dia Mundial das Missões. \"No Brasil desde 1972, através da CNBB, foi assumida a Campanha Missionária durante o mês de outubro, cujo objetivo.",
+      "url": "https://www.cnbb.org.br/programacao-para-o-mes-missionario-2026/",
+      "published": "2026-09-29"
     },
     {
       "source": "CNBB",
@@ -59,31 +66,24 @@
       "published": "2026-09-29"
     },
     {
-      "source": "CNBB",
-      "title": "Seminário Nacional das Campanhas em Brasília prepara a Igreja para uma CF centrada no cuidado d",
-      "summary": "De quinta-feira (24) a domingo (27), Brasília sediou o Seminário Nacional da Campanha, que reuniu representantes de regionais, dioceses, pastorais, movimentos e instituições parceiras. O objetivo foi formar multiplicadores para levar a.",
-      "url": "https://www.cnbb.org.br/seminario-nacional-das-campanhas-em-brasilia-prepara-a-igreja-para-uma-cf-centrada-no-cuidado-das-criancas/",
-      "published": "2026-09-29"
+      "source": "Aleteia",
+      "title": "Há pessoas que não querem morrer, Estão somente cansadas de viver da maneira como estão vivendo",
+      "summary": "Da sobrevivência à vida: quando a esperança precisa ser reaprendida. Cansadas de acordar sem vontade. De realizar tarefas no automático. De sorrir quando, por dentro, tudo parece silencioso demais. Cansadas de ouvir que “vai passar”.",
+      "url": "https://pt.aleteia.org/2026/09/30/ha-pessoas-que-nao-querem-morrer-estao-somente-cansadas-de-viver-da-maneira-como-estao-vivendo/",
+      "published": "2026-09-30"
     },
     {
       "source": "Aleteia",
-      "title": "Peregrino entre os peregrinos em Lourdes, fervoroso defensor da paz em Metz",
-      "summary": "Quando as primeiras tochas se acenderam no santuário de Lourdes, na noite de sábado, 27 de setembro, a cidade mariana gradualmente assumiu o ar de um rosário de luz. Às 21 horas, cerca de 50.000 pessoas estavam reunidas para viver, à luz.",
-      "url": "https://pt.aleteia.org/2026/09/29/peregrino-entre-os-peregrinos-em-lourdes-fervoroso-defensor-da-paz-em-metz/",
-      "published": "2026-09-29"
-    },
-    {
-      "source": "Aleteia",
-      "title": "“Leão, irmão do caminho”: o músico por trás do hino da visita do Papa ao Peru",
-      "summary": "Quando Jaime Montoya soube que havia vencido o concurso com uma canção dedicada ao Papa Leão XIV, para sua visita ao Peru, mal podia acreditar. Por trás do reconhecimento estavam não apenas algumas semanas de composição e ensaios à.",
-      "url": "https://pt.aleteia.org/2026/09/30/leao-irmao-do-caminho-o-musico-por-tras-do-hino-da-visita-do-papa-ao-peru/",
+      "title": "O hábito diário que sustentava a santidade do Beato Fulton Sheen",
+      "summary": "Muitas vezes, quando admiramos alguém, um santo ou beato, e nos inspiramos em seu estilo de vida, queremos descobrir o que essa pessoa fez de diferente — por exemplo, qual hábito diário ela mantinha. Assim como quando uma criança quer ser.",
+      "url": "https://pt.aleteia.org/2026/09/30/o-habito-diario-que-sustentava-a-santidade-do-beato-fulton-sheen/",
       "published": "2026-09-30"
     },
     {
       "source": "Gaudium Press",
-      "title": "Canadá: Campanha do Rosário atrai centenas de jovens em Montreal",
-      "summary": "Um movimento crescente do Rosário no Oratório de São José, em Montreal, está atraindo centenas de jovens para uma campanha de 1.000 dias em prol da renovação da fé em Quebec. Foto: diocesemontreal.org Redação ( 29/09/2026 16:28 , Gaudium.",
-      "url": "https://gaudiumpress.org/content/canada-campanha-do-rosario-atrai-centenas-de-jovens-em-montreal/",
+      "title": "Benefício da correção ganha destaque na Igreja",
+      "summary": "Quem foge da correção, foge do remédio; falta virtude e falta juízo. Davi é repreendido pelo profeta Natã Foto: RAE Redação ( 29/09/2026 18:55 , Gaudium Press ) Uma das coisas em que mais se manifesta a grande soberba do homem é a grande.",
+      "url": "https://gaudiumpress.org/content/beneficio-da-correcao/",
       "published": "2026-09-30"
     }
   ],
