@@ -1,34 +1,34 @@
 {
-  "date": "2026-09-30",
-  "editionLabel": "30 de setembro de 2026",
+  "date": "2026-10-01",
+  "editionLabel": "1 de outubro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Jerônimo, presbítero e doutor da Igreja",
+    "celebrationTitle": "Santa Teresa do Menino Jesus, virgem e doutor da Igreja",
     "colorName": "branco",
     "cssColor": "#FFFFFF",
-    "gospelShort": "Lc 9,57-62"
+    "gospelShort": "Lc 10,1-12"
   },
   "saint": {
-    "feast": "São Jerônimo\\, presbítero e doutor da Igreja",
-    "name": "São Jerônimo, presbítero e doutor da Igreja",
-    "description": "Celebração litúrgica do dia: São Jerônimo, presbítero e doutor da Igreja.",
-    "url": "https://santo.cancaonova.com/santo/sao-jeronimo-presbitero-e-doutor-da-igreja/"
+    "feast": "Santa Teresa do Menino Jesus\\, virgem e doutor da Igreja",
+    "name": "Santa Teresinha do Menino Jesus, doutora da infância espiritual",
+    "description": "Celebração litúrgica do dia: Santa Teresa do Menino Jesus, virgem e doutor da Igreja.",
+    "url": "https://santo.cancaonova.com/santo/santa-teresinha-do-menino-jesus-doutora-da-infancia-espiritual/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 9,57-62)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 10,1-12)",
     "lines": [
-      "Naquele tempo, enquanto Jesus e seus discípulos caminhavam, alguém na estrada disse a Jesus: Eu te seguirei para onde quer que fores.",
-      "Jesus lhe respondeu: As raposas têm tocas e os pássaros têm ninhos; mas o Filho do Homem não tem onde repousar a cabeça.",
-      "Jesus disse a outro: Segue-me.",
-      "Este respondeu: Deixa-me primeiro ir enterrar meu pai.",
-      "Jesus respondeu: Deixa que os mortos enterrem os seus mortos; mas tu, vai anunciar o Reino de Deus.",
-      "Um outro ainda lhe disse: Eu te seguirei, Senhor, mas deixa-me primeiro despedir-me dos meus familiares.",
-      "Jesus, porém, respondeu-lhe: Quem põe a mão no arado e olha para trás, não está apto para o Reino de Deus."
+      "Naquele tempo, o Senhor escolheu outros setenta e dois discípulos e os enviou dois a dois, na sua frente, a toda cidade e lugar aonde ele próprio devia ir.",
+      "E dizia-lhes: A messe é grande, mas os trabalhadores são poucos.",
+      "Por isso, pedi ao dono da messe que mande trabalhadores para a colheita.",
+      "Eis que vos envio como cordeiros para o meio de lobos.",
+      "Não leveis bolsa, nem sacola, nem sandálias, e não cumprimenteis ninguém pelo caminho!",
+      "Em qualquer casa em que entrardes, dizei primeiro: A paz esteja nesta casa! Se ali morar um amigo da paz, a vossa paz repousará sobre ele; se não, ela voltará para vós.",
+      "Permanecei naquela mesma casa, comei e bebei do que tiverem, porque o trabalhador merece o seu salário."
     ],
-    "body": "Naquele tempo, 57 enquanto Jesus e seus discípulos caminhavam, alguém na estrada disse a Jesus: \"Eu te seguirei para onde quer que fores\". 58 Jesus lhe respondeu: \"As raposas têm tocas e os pássaros têm ninhos; mas o Filho do Homem não tem onde repousar a cabeça\". 59 Jesus disse a outro: \"Segue-me\". Este respondeu: \"Deixa-me primeiro ir enterrar meu pai\". 60 Jesus respondeu: \"Deixa que os mortos enterrem os seus mortos; mas tu, vai anunciar o Reino de Deus\". 61 Um outro ainda lhe disse: \"Eu te seguirei, Senhor, mas deixa-me primeiro despedir-me dos meus familiares\". 62 Jesus, porém, respondeu-lhe: \"Quem põe a mão no arado e olha para trás, não está apto para o Reino de Deus\". —",
-    "keyVerse": "Eu tudo considero como perda e como lixo, a fim de eu ganhar Cristo e ser achado nele!"
+    "body": "Naquele tempo, 1 o Senhor escolheu outros setenta e dois discípulos e os enviou dois a dois, na sua frente, a toda cidade e lugar aonde ele próprio devia ir. 2 E dizia-lhes: \"A messe é grande, mas os trabalhadores são poucos. Por isso, pedi ao dono da messe que mande trabalhadores para a colheita. 3 Eis que vos envio como cordeiros para o meio de lobos. 4 Não leveis bolsa, nem sacola, nem sandálias, e não cumprimenteis ninguém pelo caminho! 5 Em qualquer casa em que entrardes, dizei primeiro: 'A paz esteja nesta casa!' 6 Se ali morar um amigo da paz, a vossa paz repousará sobre ele; se não, ela voltará para vós. 7 Permanecei naquela mesma casa, comei e bebei do que tiverem, porque o trabalhador merece o seu salário. Não passeis de casa em casa. 8 Quando entrardes numa cidade e fordes bem recebidos, comei do que vos servirem, 9 curai os doentes que nela houver e dizei ao povo: 'O Reino de Deus está próximo de vós.' 10 Mas, quando entrardes numa cidade e não fordes bem recebidos, saindo pelas ruas, dizei: 11 'Até a poeira de vossa cidade, que se apegou aos nossos pés, sacudimos contra vós. No entanto, sabei que o Reino de Deus está próximo!' 12 Eu vos digo que, naquele dia, Sodoma será tratada com menos rigor do que essa cidade\". —",
+    "keyVerse": "Convertei-vos e crede no Evangelho, pois o Reino de Deus está chegando!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,30 +39,30 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV: o renascimento da fé na França é uma esperança para toda a Igreja",
-      "summary": "Na Audiência Geral, Leão XIV fala sobre a recente viagem apostólica ao país, ainda com impressões \"tão vivas\" e relembra os momentos vividos com os fiéis e a “inesquecível” Vigília dos jovens. A Catedral de Notre-Dame restaurada é um.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-30-setembro-viagem-franca.html",
+      "title": "Leão XIV: mártires de Pratulin, testemunhas da unidade até o sangue",
+      "summary": "Leão XIV recordou nesta quarta-feira o beato Vicente Lewoniuk e os seus 12 companheiros de Pratulin, na Polônia. Eram católicos de rito bizantino (greco-católicos). Foram mortos pelos soldados do czar no século XIX porque não quiseram.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/leao-xiv-audiencia-geral-vincenzo-lewoniuk-companheiros-martires.html",
       "published": "2026-09-30"
     },
     {
       "source": "Vatican News",
-      "title": "O Papa: no silêncio, cultivar a atenção e ser sensível à voz de quem é ignorado",
-      "summary": "Leão XIV recebeu os membros da Comissão Internacional das Monjas Contemplativas Dominicanas. Em seu discurso, o Papa destacou que \"o silêncio é um ato de vontade, que envolve a pessoa por inteiro, e ajuda a viver relações sólidas porque.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-comissao-internacional-monjas-contemplativas-dominicanas.html",
+      "title": "Papa pede diálogo diante da retomada dos combates no Tigré",
+      "summary": "Há dezenas de milhares de novos deslocados em Afar e receio de um novo bloqueio total de comunicações, energia e ajuda humanitária. O conflito iniciou em novembro de 2020 entre forças do governo federal etíope e a FPLT, causando centenas.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-09/papa-leao-xiv-audiencia-geral-apelo-paz-dialogo-tigre-etiopia.html",
       "published": "2026-09-30"
     },
     {
       "source": "CNBB",
-      "title": "Comissão Episcopal para a Vida e a Família da CNBB promove, de 1º a 8 de outubro, a Semana Naci",
-      "summary": "Para marcar o início da Semana, a Comissão para a Vida e a Família sugere que, no dia 1º de outubro, abertura da Semana Nacional da Vida, seja celebrado o Sinal da Alegria, fazendo ressoar os sinos de nossas igrejas. Já no dia 8 de.",
-      "url": "https://www.cnbb.org.br/comissao-episcopal-para-a-vida-e-a-familia-da-cnbb-promove-de-1o-a-8-de-outubro-a-semana-nacional-da-vida/",
-      "published": "2026-09-30"
+      "title": "Presidente da Comissão Missionária da CNBB, dom Maurício Jardim, apresenta a programação para o",
+      "summary": "O bispo recorda, que em 2026, a Igreja celebra o centenário da criação, pelo Papa Pio X, do Dia Mundial das Missões. \"No Brasil desde 1972, através da CNBB, foi assumida a Campanha Missionária durante o mês de outubro, cujo objetivo.",
+      "url": "https://www.cnbb.org.br/programacao-para-o-mes-missionario-2026/",
+      "published": "2026-09-29"
     },
     {
       "source": "CNBB",
-      "title": "Comissões da CNBB se reúnem para aprofundar compromisso com a justiça social e renovar resposta",
-      "summary": "Segundo a Comissão para a Ação Sociotransformadora da CNBB, o encontro se constitui como \"um momento de comunhão, compromisso e discernimento sobre os desafios da Igreja e os caminhos para uma atuação cada vez mais próxima das realidades.",
-      "url": "https://www.cnbb.org.br/comissoes-da-cnbb-compromisso-justica-social/",
+      "title": "Eleições e discernimento",
+      "summary": "Dom Geraldo dos Reis Maia Bispo de Araçuaí Chegar a um novo processo eleitoral é oportunidade de esperança diante das possibilidades de transformações sociais que se descortinam no horizonte. Sim, somos movidos pela “esperança que não.",
+      "url": "https://www.cnbb.org.br/eleicoes-e-discernimento/",
       "published": "2026-09-30"
     },
     {
@@ -73,26 +73,26 @@
       "published": "2026-09-30"
     },
     {
-      "source": "ACI Digital",
-      "title": "Campanha de Lula orienta militantes a apresentar a identidade católica do presidente",
-      "summary": "“Lula é católico e sempre guiado por valores cristãos de amor ao próximo e cuidado com quem mais precisa”, diz uma cartilha elaborada pela campanha do presidente Luiz Inácio Lula da Silva (PT) pela reeleição para orientar militantes na.",
-      "url": "https://www.acidigital.com/noticia/70097/campanha-de-lula-orienta-militantes-a-apresentar-a-identidade-catolica-do-presidente",
+      "source": "Aleteia",
+      "title": "Há pessoas que não querem morrer, Estão somente cansadas de viver da maneira como estão vivendo",
+      "summary": "Da sobrevivência à vida: quando a esperança precisa ser reaprendida. Cansadas de acordar sem vontade. De realizar tarefas no automático. De sorrir quando, por dentro, tudo parece silencioso demais. Cansadas de ouvir que “vai passar”.",
+      "url": "https://pt.aleteia.org/2026/09/30/ha-pessoas-que-nao-querem-morrer-estao-somente-cansadas-de-viver-da-maneira-como-estao-vivendo/",
       "published": "2026-09-30"
     },
     {
       "source": "Aleteia",
-      "title": "Peregrino entre os peregrinos em Lourdes, fervoroso defensor da paz em Metz",
-      "summary": "Quando as primeiras tochas se acenderam no santuário de Lourdes, na noite de sábado, 27 de setembro, a cidade mariana gradualmente assumiu o ar de um rosário de luz. Às 21 horas, cerca de 50.000 pessoas estavam reunidas para viver, à luz.",
-      "url": "https://pt.aleteia.org/2026/09/29/peregrino-entre-os-peregrinos-em-lourdes-fervoroso-defensor-da-paz-em-metz/",
-      "published": "2026-09-29"
+      "title": "“Leão, irmão do caminho”: o músico por trás do hino da visita do Papa ao Peru",
+      "summary": "Quando Jaime Montoya soube que havia vencido o concurso com uma canção dedicada ao Papa Leão XIV, para sua visita ao Peru, mal podia acreditar. Por trás do reconhecimento estavam não apenas algumas semanas de composição e ensaios à.",
+      "url": "https://pt.aleteia.org/2026/09/30/leao-irmao-do-caminho-o-musico-por-tras-do-hino-da-visita-do-papa-ao-peru/",
+      "published": "2026-09-30"
     }
   ],
   "closingQuote": {
-    "text": "Eu te seguirei para onde quer que fores.",
-    "source": "Lucas 9,57-62"
+    "text": "A vossa paz repousará sobre ele.",
+    "source": "Lucas 10,1-12"
   },
   "liturgyHours": {
-    "reading": "Aprendi a Sabedoria sem maldade e reparto-a sem inveja; não escondo a sua riqueza. É um tesouro inesgotável para os homens; os que a adquirem atraem a amizade de Deus, porque recomendados pelos dons da instrução.",
+    "reading": "Águas torrenciais jamais apagarão o amor, nem rios poderão afogá-lo. Se alguém oferecesse todas as riquezas de sua casa para comprar o amor, seria tratado com desprezo.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
