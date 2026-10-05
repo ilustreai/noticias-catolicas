@@ -1,34 +1,34 @@
 {
-  "date": "2026-10-04",
-  "editionLabel": "4 de outubro de 2026",
+  "date": "2026-10-05",
+  "editionLabel": "5 de outubro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XXVII do Tempo Comum",
+    "celebrationTitle": "Santa Faustina Kowalska, virgem",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 21,33-43"
+    "gospelShort": "Lc 10,25-37"
   },
   "saint": {
-    "feast": "\udfe2 Domingo XXVII do Tempo Comum",
-    "name": "São Francisco de Assis, fundador dos Franciscanos",
-    "description": "Celebração litúrgica do dia: Domingo XXVII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-francisco-de-assis-fundador-dos-franciscanos/"
+    "feast": "Santa Faustina Kowalska\\, virgem",
+    "name": "Santa Maria Faustina Kowalska, apóstola da Divina Misericórdia",
+    "description": "Celebração litúrgica do dia: Santa Faustina Kowalska, virgem.",
+    "url": "https://santo.cancaonova.com/santo/santa-maria-faustina-kowalska-apostola-da-divina-misericordia/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 21,33-43)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 10,25-37)",
     "lines": [
-      "Naquele tempo, Jesus disse aos sumos sacerdotes e aos anciãos do povo: Escutai esta outra parábola: Certo proprietário plantou uma vinha, pôs uma cerca em volta, fez nela um lagar para esmagar as uvas, e construiu uma torre de guarda.",
-      "Depois, arrendou-a a vinhateiros, e viajou para o estrangeiro.",
-      "Quando chegou o tempo da colheita, o proprietário mandou seus empregados aos vinhateiros para receber seus frutos.",
-      "Os vinhateiros, porém, agarraram os empregados, espancaram a um, mataram a outro, e ao terceiro apedrejaram.",
-      "O proprietário mandou de novo outros empregados, em maior número do que os primeiros.",
-      "Mas eles os trataram da mesma forma.",
-      "Finalmente, o proprietário enviou-lhes o seu filho, pensando: Ao meu filho eles vão respeitar."
+      "Naquele tempo, um mestre da Lei se levantou e, querendo pôr Jesus em dificuldade, perguntou: Mestre, que devo fazer para receber em herança a vida eterna? Jesus lhe disse: O que está escrito na Lei?",
+      "Como lês? Ele então respondeu: Amarás o Senhor, teu Deus, de todo o teu coração e com toda a tua alma, com toda a tua força e com toda a tua inteligência; e ao teu próximo como a ti mesmo! Jesus lhe disse: Tu respondeste corretamente.",
+      "Ele, porém, querendo justificar-se, disse a Jesus: E quem é o meu próximo? Jesus respondeu: Certo homem descia de Jerusalém para Jericó e caiu nas mãos de assaltantes.",
+      "Estes arrancaram-lhe tudo, espancaram-no, e foram-se embora deixando-o quase morto.",
+      "Por acaso, um sacerdote estava descendo por aquele caminho.",
+      "Quando viu o homem, seguiu adiante, pelo outro lado.",
+      "O mesmo aconteceu com um levita: chegou ao lugar, viu o homem e seguiu adiante, pelo outro lado."
     ],
-    "body": "Naquele tempo, Jesus disse aos sumos sacerdotes e aos anciãos do povo: 33 \"Escutai esta outra parábola: Certo proprietário plantou uma vinha, pôs uma cerca em volta, fez nela um lagar para esmagar as uvas, e construiu uma torre de guarda. Depois, arrendou-a a vinhateiros, e viajou para o estrangeiro. 34 Quando chegou o tempo da colheita, o proprietário mandou seus empregados aos vinhateiros para receber seus frutos. 35 Os vinhateiros, porém, agarraram os empregados, espancaram a um, mataram a outro, e ao terceiro apedrejaram. 36 O proprietário mandou de novo outros empregados, em maior número do que os primeiros. Mas eles os trataram da mesma forma. 37 Finalmente, o proprietário enviou-lhes o seu filho, pensando: 'Ao meu filho eles vão respeitar'. 38 Os vinhateiros, porém, ao verem o filho, disseram entre si: 'Este é o herdeiro. Vinde, vamos matá-lo e tomar posse da sua herança!' 39 Então agarraram o filho, jogaram-no para fora da vinha e o mataram. 40 Pois bem, quando o dono da vinha voltar, o que fará com esses vinhateiros?\" 41 Os sumos sacerdotes e os anciãos do povo responderam: \"Com certeza mandará matar de modo violento esses perversos e arrendará a vinha a outros vinhateiros, que lhe entregarão os frutos no tempo certo\". 42 Então Jesus lhes disse: \"Vós nunca lestes nas Escrituras: 'A pedra que os construtores rejeitaram tornou-se a pedra angular; isto foi feito pelo Senhor e é maravilhoso aos nossos olhos?' 43 Por isso, eu vos digo: o Reino de Deus vos será tirado e será entregue a um povo que produzirá frutos\". —",
-    "keyVerse": "Eu vos escolhi, foi do meio do mundo, a fim de que deis um fruto que dure. Eu vos escolhi, foi do meio do mundo. Amém! Aleluia, aleluia!"
+    "body": "Naquele tempo, 25 um mestre da Lei se levantou e, querendo pôr Jesus em dificuldade, perguntou: \"Mestre, que devo fazer para receber em herança a vida eterna?\" 26 Jesus lhe disse: \"O que está escrito na Lei? Como lês?\" 27 Ele então respondeu: \"Amarás o Senhor, teu Deus, de todo o teu coração e com toda a tua alma, com toda a tua força e com toda a tua inteligência; e ao teu próximo como a ti mesmo!\" 28 Jesus lhe disse: \"Tu respondeste corretamente. Faze isso e viverás\". 29 Ele, porém, querendo justificar-se, disse a Jesus: \"E quem é o meu próximo?\" 30 Jesus respondeu: \"Certo homem descia de Jerusalém para Jericó e caiu nas mãos de assaltantes. Estes arrancaram-lhe tudo, espancaram-no, e foram-se embora deixando-o quase morto. 31 Por acaso, um sacerdote estava descendo por aquele caminho. Quando viu o homem, seguiu adiante, pelo outro lado. 32 O mesmo aconteceu com um levita: chegou ao lugar, viu o homem e seguiu adiante, pelo outro lado. 33 Mas um samaritano que estava viajando, chegou perto dele, viu e sentiu compaixão. 34 Aproximou-se dele e fez curativos, derramando óleo e vinho nas feridas. Depois colocou o homem em seu próprio animal e levou-o a uma pensão, onde cuidou dele. 35 No dia seguinte, pegou duas moedas de prata e entregou-as ao dono da pensão, recomendando: \"Toma conta dele! Quando eu voltar, vou pagar o que tiveres gasto a mais'. E Jesus perguntou: 36 \"Na tua opinião, qual dos três foi o próximo do homem que caiu nas mãos dos assaltantes?\" 37 Ele respondeu: \"Aquele que usou de misericórdia para com ele\". Então Jesus lhe disse: \"Vai e faze a mesma coisa\". —",
+    "keyVerse": "Eu vos dou novo preceito: que uns aos outros vos ameis, como eu vos tenho amado."
   },
   "sponsor": {
     "enabled": true,
@@ -39,67 +39,53 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
-      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "title": "Leão XIV: rezemos o Terço para que os povos sejam libertados do flagelo da guerra",
+      "summary": "O Pontífice pediu aos fiéis que intensifiquem a oração do Terço neste mês de outubro em particula pela Terra Santa e pelas vítimas inocentes da violência. Ao final do Angelus, o Papa recordou ainda a realização de um encontro no Vaticano.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-apelo-oracao-terco-paz-mes-outubro.html",
       "published": "2026-10-04"
     },
     {
       "source": "Vatican News",
-      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
-      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "title": "Papa recorda São Francisco: grande operário na vinha do Senhor!",
+      "summary": "No Angelus na Praça São Pedro, ao comentar a Liturgia deste XXVII Domingo do Tempo Comum, Leão XIV recordou os 800 anos da morte do Pobrezinho de Assis e exortou: \"Enquanto celebramos o ano jubilar franciscano, imploremos com perseverança.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-angelus-4-outubro-parabola-vinhateiros.html",
       "published": "2026-10-04"
     },
     {
       "source": "CNBB",
-      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
-      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
-      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "title": "A vinha que Deus confia e os frutos que Ele espera",
+      "summary": "Dom Anuar Battisti Arcebispo Emérito de Maringá (PR) Caros irmãos e irmãs, a paz do Senhor Ressuscitado esteja em vosso coração neste domingo. Uma pergunta simples nos acompanha nesta liturgia: que fruto estou dando com a vida que recebi?.",
+      "url": "https://www.cnbb.org.br/dom-anuar-a-vinha-que-deus-confia-e-os-frutos-que-ele-espera/",
+      "published": "2026-10-04"
+    },
+    {
+      "source": "CNBB",
+      "title": "A Parábola dos vinhateiros: Cuidemos da Casa Comum – 27º Domingo T.C.",
+      "summary": "+ Vilson Dias de Oliveira, DC Bispo Emérito de Limeira (SP) Vamos progredindo em nossa jornada litúrgica e pastoral, chegando agora ao XXVII Domingo do Tempo Comum, quando a Palavra de Deus ecoa de maneira lancinante no horizonte da nossa.",
+      "url": "https://www.cnbb.org.br/dom-vilson-dias-parabola-dos-vinhateiros-cuidemos-da-casa-comum/",
       "published": "2026-10-04"
     },
     {
       "source": "ACI Digital",
-      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
-      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
-      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
-      "published": "2026-10-04"
+      "title": "Igreja no Brasil celebra hoje são Benedito, padroeiro dos cozinheiros",
+      "summary": "Hoje (5), a Igreja no Brasil celebra a festa de são Benedito, um santo de grande devoção e muito popular no país, sendo chamado também de Benedito, o Negro, por sua descendência africana. Embora são Benedito seja celebrada em todo o mundo no dia 4 de abril, data de sua morte, sua festa no Brasil ocorre em 5 de outubro por uma especial deferência canônica concedida à Conferência Nacional dos Bispos do Brasil (CNBB), em 1983....",
+      "url": "https://www.acidigital.com/noticia/70167/igreja-no-brasil-celebra-sao-benedito-padroeiro-dos-cozinheiros",
+      "published": "2026-10-05"
     },
     {
-      "source": "Shalom",
-      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
-      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
-      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
-      "published": "2026-10-04"
-    },
-    {
-      "source": "Shalom",
-      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
-      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
-      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
-      "published": "2026-10-04"
-    },
-    {
-      "source": "Aleteia",
-      "title": "De Bergoglio a Irmã Thea : 6 rostos que fizeram Francisco de Assis continuar vivendo",
-      "summary": "Na noite de 4 de outubro de 1226, Francisco de Assis atravessou a última fronteira. A Igreja chama aquele momento de Trânsito de São Francisco. Oito séculos depois, a pergunta talvez não seja apenas quem foi Francisco. É também: quem.",
-      "url": "https://pt.aleteia.org/2026/10/02/de-bergoglio-a-irma-thea-6-rostos-que-fizeram-francisco-de-assis-continuar-vivendo/",
-      "published": "2026-10-02"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
-      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
-      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "source": "ACI Digital",
+      "title": "O carisma de São Francisco continua a dar frutos ainda hoje, diz Leão XIV no Ângelus",
+      "summary": "No domingo, o Papa Leão XIV refletiu sobre a parábola dos lavradores e comentou que «o carisma de São Francisco continua a dar frutos ainda hoje», oito séculos após a morte do santo.",
+      "url": "https://www.acidigital.com/noticia/70165/o-carisma-de-sao-francisco-continua-a-dar-frutos-ainda-hoje-diz-leao-xiv-no-angelus",
       "published": "2026-10-04"
     }
   ],
   "closingQuote": {
-    "text": "Senhor, fazei de mim um instrumento de vossa paz.",
-    "source": "São Francisco de Assis"
+    "text": "E quem é o meu próximo?",
+    "source": "Lucas 10,25-37"
   },
   "liturgyHours": {
-    "reading": "Assim fala o Senhor Deus: Ó meu povo, vou abrir as vossas sepulturas e conduzir-vos para a terra de Israel; e quando eu abrir as vossas sepulturas e vos fizer sair delas, sabereis que eu sou o Senhor. Porei em vós o meu espírito para que vivais e...",
+    "reading": "Falai e procedei como pessoas que vão ser julgadas pela Lei da liberdade. Pensai bem: O juízo vai ser sem misericórdia para quem não praticou misericórdia; a misericórdia, porém, triunfa do juízo.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
