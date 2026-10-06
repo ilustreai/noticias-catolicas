@@ -1,34 +1,34 @@
 {
-  "date": "2026-10-05",
-  "editionLabel": "5 de outubro de 2026",
+  "date": "2026-10-06",
+  "editionLabel": "6 de outubro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santa Faustina Kowalska, virgem",
+    "celebrationTitle": "São Bruno, presbítero",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 10,25-37"
+    "gospelShort": "Lc 10,38-42"
   },
   "saint": {
-    "feast": "Santa Faustina Kowalska\\, virgem",
-    "name": "Santa Maria Faustina Kowalska, apóstola da Divina Misericórdia",
-    "description": "Celebração litúrgica do dia: Santa Faustina Kowalska, virgem.",
-    "url": "https://santo.cancaonova.com/santo/santa-maria-faustina-kowalska-apostola-da-divina-misericordia/"
+    "feast": "São Bruno\\, presbítero",
+    "name": "São Bruno, um dos fundadores da Ordem dos Cartuxos",
+    "description": "Celebração litúrgica do dia: São Bruno, presbítero.",
+    "url": "https://santo.cancaonova.com/santo/sao-bruno-um-dos-fundadores-da-ordem-dos-cartuxos/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 10,25-37)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 10,38-42)",
     "lines": [
-      "Naquele tempo, um mestre da Lei se levantou e, querendo pôr Jesus em dificuldade, perguntou: Mestre, que devo fazer para receber em herança a vida eterna? Jesus lhe disse: O que está escrito na Lei?",
-      "Como lês? Ele então respondeu: Amarás o Senhor, teu Deus, de todo o teu coração e com toda a tua alma, com toda a tua força e com toda a tua inteligência; e ao teu próximo como a ti mesmo! Jesus lhe disse: Tu respondeste corretamente.",
-      "Ele, porém, querendo justificar-se, disse a Jesus: E quem é o meu próximo? Jesus respondeu: Certo homem descia de Jerusalém para Jericó e caiu nas mãos de assaltantes.",
-      "Estes arrancaram-lhe tudo, espancaram-no, e foram-se embora deixando-o quase morto.",
-      "Por acaso, um sacerdote estava descendo por aquele caminho.",
-      "Quando viu o homem, seguiu adiante, pelo outro lado.",
-      "O mesmo aconteceu com um levita: chegou ao lugar, viu o homem e seguiu adiante, pelo outro lado."
+      "Naquele tempo, Jesus entrou num povoado, e certa mulher, de nome Marta, recebeu-o em sua casa.",
+      "Sua irmã, chamada Maria, sentou-se aos pés do Senhor, e escutava a sua palavra.",
+      "Marta, porém, estava ocupada com muitos afazeres.",
+      "Ela aproximou-se e disse: Senhor, não te importas que minha irmã me deixe sozinha, com todo o serviço?",
+      "Manda que ela me venha ajudar! O Senhor, porém, lhe respondeu: Marta, Marta!",
+      "Tu te preocupas e andas agitada por muitas coisas.",
+      "Porém, uma só coisa é necessária."
     ],
-    "body": "Naquele tempo, 25 um mestre da Lei se levantou e, querendo pôr Jesus em dificuldade, perguntou: \"Mestre, que devo fazer para receber em herança a vida eterna?\" 26 Jesus lhe disse: \"O que está escrito na Lei? Como lês?\" 27 Ele então respondeu: \"Amarás o Senhor, teu Deus, de todo o teu coração e com toda a tua alma, com toda a tua força e com toda a tua inteligência; e ao teu próximo como a ti mesmo!\" 28 Jesus lhe disse: \"Tu respondeste corretamente. Faze isso e viverás\". 29 Ele, porém, querendo justificar-se, disse a Jesus: \"E quem é o meu próximo?\" 30 Jesus respondeu: \"Certo homem descia de Jerusalém para Jericó e caiu nas mãos de assaltantes. Estes arrancaram-lhe tudo, espancaram-no, e foram-se embora deixando-o quase morto. 31 Por acaso, um sacerdote estava descendo por aquele caminho. Quando viu o homem, seguiu adiante, pelo outro lado. 32 O mesmo aconteceu com um levita: chegou ao lugar, viu o homem e seguiu adiante, pelo outro lado. 33 Mas um samaritano que estava viajando, chegou perto dele, viu e sentiu compaixão. 34 Aproximou-se dele e fez curativos, derramando óleo e vinho nas feridas. Depois colocou o homem em seu próprio animal e levou-o a uma pensão, onde cuidou dele. 35 No dia seguinte, pegou duas moedas de prata e entregou-as ao dono da pensão, recomendando: \"Toma conta dele! Quando eu voltar, vou pagar o que tiveres gasto a mais'. E Jesus perguntou: 36 \"Na tua opinião, qual dos três foi o próximo do homem que caiu nas mãos dos assaltantes?\" 37 Ele respondeu: \"Aquele que usou de misericórdia para com ele\". Então Jesus lhe disse: \"Vai e faze a mesma coisa\". —",
-    "keyVerse": "Eu vos dou novo preceito: que uns aos outros vos ameis, como eu vos tenho amado."
+    "body": "Naquele tempo, 38 Jesus entrou num povoado, e certa mulher, de nome Marta, recebeu-o em sua casa. 39 Sua irmã, chamada Maria, sentou-se aos pés do Senhor, e escutava a sua palavra. 40 Marta, porém, estava ocupada com muitos afazeres. Ela aproximou-se e disse: \"Senhor, não te importas que minha irmã me deixe sozinha, com todo o serviço? Manda que ela me venha ajudar!\" 41 O Senhor, porém, lhe respondeu: \"Marta, Marta! Tu te preocupas e andas agitada por muitas coisas. 42 Porém, uma só coisa é necessária. Maria escolheu a melhor parte e esta não lhe será tirada\". —",
+    "keyVerse": "Feliz quem ouve e observa a palavra de Deus!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "O Papa: mulheres no Vaticano, uma riqueza a ser reconhecida e valorizada cada vez mais",
-      "summary": "Leão XIV recebeu em audiência representantes da Associação dos Leigos Funcionários do Vaticano e da Associação das Mulheres no Vaticano e exortou, na era da IA, a manter o foco na centralidade da pessoa humana e na dignidade do trabalho.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-audiencia-associacao-funcionarios-leigos-mulheres-vaticano.html",
+      "title": "Papa à Igreja na Coreia: apoiar jovens da JMJ de Seul, com Cristo, pela paz e reconciliação",
+      "summary": "\"Sejam unidos e artífices da paz\", exorta Leão à Vida Consangrada da Coreia que mora em Roma, ao recordar que o Evangelho cresceu no país pelo testemunho dos mártires. E o Papa deseja que a Jornada Mundial da Juventude de Seul, de 3 a 8.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-audiencia-sacerdotes-religiosas-residentes-roma-26.html",
       "published": "2026-10-05"
     },
     {
       "source": "Vatican News",
-      "title": "Papa escreve a Pe. Romanelli após ataque de sábado em Gaza: \"até quando, Senhor?\"",
-      "summary": "A mensagem de Leão XIV ao pároco da Sagrada Família após mais um ataque israelense que provocou mortos e feridos, entre os quais, duas mulheres da comunidade cristã. Enquanto isso, diante da trágica recordação de 7 de outubro, o cardeal.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-10/papa-leao-xiv-mensagem-paroco-gaza-romanelli-outubro-26.html",
+      "title": "Papa recebe em audiência o primeiro-ministro da Eslovênia",
+      "summary": "O primeiro-ministro Janša foi recebido na manhã desta segunda-feira, 5 de outubro, no Vaticano. Em seguida ele esteve na Secretaria de Estado para encontro com foco também em questões internacionais e na situação política nos Bãlcas.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-audiencia-primeiro-ministro-eslovenia-5-outubro-26.html",
       "published": "2026-10-05"
     },
     {
       "source": "CNBB",
-      "title": "Pastoral Afro-Brasileira convoca Comunidades Negras para Romaria ao Santuário de Nossa Senhora",
-      "summary": "Neste ano, o tema escolhido para animar a celebração é “Dignidade inviolável: Povo Negro, imagem viva de Deus”. Considerado um momento privilegiado de união dos grupos de base da pastoral afro-brasileira, evento propõe reflexão mais ampla.",
-      "url": "https://www.cnbb.org.br/pastoral-afro-brasileira-30a-romaria-santuario-nacional-aparecida/",
+      "title": "Seminário sobre bens culturais da Igreja começa nesta segunda-feira, 5, em Brasília, com transm",
+      "summary": "A Comissão Episcopal para a Cultura e a Educação da CNBB inicia, nesta segunda-feira, 5 de outubro, em Brasília (DF), o II Seminário Nacional de Patrimônio Cultural Católico e o III Encontro dos Equipamentos e Centros Culturais Católicos.",
+      "url": "https://www.cnbb.org.br/seminario-sobre-bens-culturais-da-igreja-comeca-nesta-segunda-feira-5-em-brasilia/",
       "published": "2026-10-05"
     },
     {
       "source": "CNBB",
-      "title": "Oitocentos anos de um coração aberto: São Francisco de Assis e o chamado à simplicidade",
-      "summary": "Dom Anuar Battisti Arcebispo Emérito de Maringá (PR) Uma memória que atravessa os séculos e continua a interpelar a nossa forma de viver a fé Há datas que o calendário registra e o tempo esquece. E há datas que, mesmo depois de oitocentos.",
-      "url": "https://www.cnbb.org.br/oitocentos-anos-de-um-coracao-aberto-sao-francisco-de-assis-e-o-chamado-a-simplicidade/",
+      "title": "Semana Nacional da Vida ganha destaque na Igreja",
+      "summary": "Dom Diamantino Prata de Carvalho Bispo Emérito da Campanha (MG) A Semana Nacional da Vida, celebrada anualmente de 1º a 7 de outubro, culminando no Dia do Nascituro (8 de outubro), é uma das iniciativas mais expressivas promovidas pela.",
+      "url": "https://www.cnbb.org.br/semana-nacional-da-vida-3/",
       "published": "2026-10-05"
     },
     {
       "source": "ACI Digital",
-      "title": "Guarapuava realiza vigília pela vida no Dia do Nascituro",
-      "summary": "A diocese de Guarapuava (PR) realiza entre os dias 7 e 8 de outubro uma vigília pela vida na paróquia Sant’Ana. A iniciativa ocorre durante a programação da Semana Nacional da Vida, promovida pela Comissão Episcopal Pastoral para a Vida e.",
-      "url": "https://www.acidigital.com/noticia/70189/guarapuava-realiza-vigilia-pela-vida-no-dia-do-nascituro",
-      "published": "2026-10-05"
+      "title": "As razões de irmã Lúcia para não deixar de rezar o terço diariamente",
+      "summary": "Trata-se do livro Apelos da Mensagem de Fátima , escrito pela venerável que morreu em 2005. Nesta obra, recorda que a Mãe de Deus fez este convite a partir da sua primeira aparição em Fátima (Portugal), em 13 de maio de 1917. “Rezem o terço todos os dias, para alcançarem a paz no mundo e o fim da guerra”, encorajou a Virgem Maria em sua mensagem inicial. A seguir, as razões de Irmã Lúcia compartilhadas pelo jornal National Catholic Register, da EWTN.",
+      "url": "https://www.acidigital.com/noticia/70199/razoes-de-irma-lucia-para-nao-deixar-de-rezar-o-terco-diariamente",
+      "published": "2026-10-06"
     },
     {
-      "source": "Aleteia",
-      "title": "Os sete pecados capitais das redes sociais",
-      "summary": "Acreditamos que entrar nas redes sociais é um passatempo inócuo; no entanto, se analisarmos com consciência, encontraremos os sete pecados capitais saltando aos olhos na maioria dos conteúdos que consumimos. Não acredita? Façamos um.",
-      "url": "https://pt.aleteia.org/2026/10/05/os-sete-pecados-capitais-das-redes-sociais/",
-      "published": "2026-10-05"
+      "source": "ACI Digital",
+      "title": "é celebrado são Bartolo Longo, de espírita a “apóstolo do rosário”",
+      "summary": "São Bartolo Longo foi um advogado e leigo que fundou o Santuário de Nossa Senhora do Rosário de Pompeia, Itália, dedicou-se a ensinar o catecismo e a difundir a devoção ao rosário.",
+      "url": "https://www.acidigital.com/noticia/70195/hoje-e-celebrado-sao-bartolo-longo-de-espirita-a-apostolo-do-rosario",
+      "published": "2026-10-06"
     },
     {
       "source": "Gaudium Press",
-      "title": "Dezoito diáconos americanos foram ordenados em Roma pelo bispo Robert Barron",
-      "summary": "“Acreditem no que leem. Ensinem o que acreditam. Pratiquem o que pregam”, disse o prelado aos recém-ordenados. Foto: Fabio Gonnella/EWTN News Redação ( 05/10/2026 10:44 , Gaudium Press ) Na tarde de quinta-feira, 1º de outubro, a Basílica.",
-      "url": "https://gaudiumpress.org/content/dezoito-diaconos-americanos-foram-ordenados-em-roma-pelo-bispo-robert-barron/",
+      "title": "Córsega: centenas de fiéis se reúnem em oração após vandalismo contra imagem de Nossa Senhora",
+      "summary": "Córsega: dezenas de fiéis se reúnem em oração após vandalismo a imagem de Nossa Senhora Centenas de pessoas se reuniram em frente à delegacia de polícia de Porto-Vecchio e na rotatória de Stabiacciu, local onde a imagem de Nossa Senhora.",
+      "url": "https://gaudiumpress.org/content/corsega-dezenas-de-fieis-se-reunem-em-oracao-apos-vandalismo-a-imagem-de-nossa-senhora/",
       "published": "2026-10-05"
     }
   ],
   "closingQuote": {
-    "text": "E quem é o meu próximo?",
-    "source": "Lucas 10,25-37"
+    "text": "Marta recebeu-o em sua casa. Maria escolheu a melhor parte.",
+    "source": "Lucas 10,38-42"
   },
   "liturgyHours": {
-    "reading": "Falai e procedei como pessoas que vão ser julgadas pela Lei da liberdade. Pensai bem: O juízo vai ser sem misericórdia para quem não praticou misericórdia; a misericórdia, porém, triunfa do juízo.",
+    "reading": "Nós vimos, e damos testemunho, que o Pai enviou o seu Filho como Salvador do mundo. Todo aquele que proclama que Jesus é o Filho de Deus, Deus permanece com ele, e ele com Deus.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
