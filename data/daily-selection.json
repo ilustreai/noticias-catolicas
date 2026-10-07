@@ -1,34 +1,34 @@
 {
-  "date": "2026-10-06",
-  "editionLabel": "6 de outubro de 2026",
+  "date": "2026-10-07",
+  "editionLabel": "7 de outubro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Bruno, presbítero",
+    "celebrationTitle": "7 de outubro de 2026 - Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 10,38-42"
+    "gospelShort": "Lc 1,26-38"
   },
   "saint": {
-    "feast": "São Bruno\\, presbítero",
-    "name": "São Bruno, um dos fundadores da Ordem dos Cartuxos",
-    "description": "Celebração litúrgica do dia: São Bruno, presbítero.",
-    "url": "https://santo.cancaonova.com/santo/sao-bruno-um-dos-fundadores-da-ordem-dos-cartuxos/"
+    "feast": "Nossa Senhora do Rosário",
+    "name": "Nossa Senhora do Rosário, o meio de alcançar almas para Deus",
+    "description": "Celebração litúrgica do dia: 7 de outubro de 2026 - Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/nossa-senhora-do-rosario-o-meio-de-alcancar-almas-para-deus/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 10,38-42)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 1,26-38)",
     "lines": [
-      "Naquele tempo, Jesus entrou num povoado, e certa mulher, de nome Marta, recebeu-o em sua casa.",
-      "Sua irmã, chamada Maria, sentou-se aos pés do Senhor, e escutava a sua palavra.",
-      "Marta, porém, estava ocupada com muitos afazeres.",
-      "Ela aproximou-se e disse: Senhor, não te importas que minha irmã me deixe sozinha, com todo o serviço?",
-      "Manda que ela me venha ajudar! O Senhor, porém, lhe respondeu: Marta, Marta!",
-      "Tu te preocupas e andas agitada por muitas coisas.",
-      "Porém, uma só coisa é necessária."
+      "Naquele tempo, o anjo Gabriel foi enviado por Deus a uma cidade da Galileia, chamada Nazaré, a uma virgem, prometida em casamento a um homem chamado José.",
+      "Ele era descendente de Davi e o nome da virgem era Maria.",
+      "O anjo entrou onde ela estava e disse: Alegra-te, cheia de graça, o Senhor está contigo! Maria ficou perturbada com estas palavras e começou a pensar qual seria o significado da saudação.",
+      "O anjo, então, disse-lhe: Não tenhas medo, Maria, porque encontraste graça diante de Deus.",
+      "Eis que conceberás e darás à luz um filho, a quem porás o nome de Jesus.",
+      "Ele será grande, será chamado Filho do Altíssimo, e o Senhor Deus lhe dará o trono de seu pai Davi.",
+      "Ele reinará para sempre sobre os descendentes de Jacó, e o seu reino não terá fim."
     ],
-    "body": "Naquele tempo, 38 Jesus entrou num povoado, e certa mulher, de nome Marta, recebeu-o em sua casa. 39 Sua irmã, chamada Maria, sentou-se aos pés do Senhor, e escutava a sua palavra. 40 Marta, porém, estava ocupada com muitos afazeres. Ela aproximou-se e disse: \"Senhor, não te importas que minha irmã me deixe sozinha, com todo o serviço? Manda que ela me venha ajudar!\" 41 O Senhor, porém, lhe respondeu: \"Marta, Marta! Tu te preocupas e andas agitada por muitas coisas. 42 Porém, uma só coisa é necessária. Maria escolheu a melhor parte e esta não lhe será tirada\". —",
-    "keyVerse": "Feliz quem ouve e observa a palavra de Deus!"
+    "body": "Naquele tempo, 26 o anjo Gabriel foi enviado por Deus a uma cidade da Galileia, chamada Nazaré, 27 a uma virgem, prometida em casamento a um homem chamado José. Ele era descendente de Davi e o nome da virgem era Maria. 28 O anjo entrou onde ela estava e disse: \"Alegra-te, cheia de graça, o Senhor está contigo!\" 29 Maria ficou perturbada com estas palavras e começou a pensar qual seria o significado da saudação. 30 O anjo, então, disse-lhe: \"Não tenhas medo, Maria, porque encontraste graça diante de Deus. 31 Eis que conceberás e darás à luz um filho, a quem porás o nome de Jesus. 32 Ele será grande, será chamado Filho do Altíssimo, e o Senhor Deus lhe dará o trono de seu pai Davi. 33 Ele reinará para sempre sobre os descendentes de Jacó, e o seu reino não terá fim\". 34 Maria perguntou ao anjo: \"Como acontecerá isso, se eu não conheço homem algum?\" 35 O anjo respondeu: \"O Espírito virá sobre ti, e o poder do Altíssimo te cobrirá com sua sombra. Por isso, o menino que vai nascer será chamado Santo, Filho de Deus. 36 Também Isabel, tua parenta, concebeu um filho na velhice. Este já é o sexto mês daquela que era considerada estéril, 37 porque para Deus nada é impossível\". 38 Maria, então, disse: \"Eis aqui a serva do Senhor; faça-se em mim segundo a tua palavra!\" E o anjo retirou-se. —",
+    "keyVerse": "Maria, alegra-te, ó cheia de graça, o Senhor é contigo; és bendita entre todas as mulheres da terra!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "O Papa: mulheres no Vaticano, uma riqueza a ser reconhecida e valorizada cada vez mais",
-      "summary": "Leão XIV recebeu em audiência representantes da Associação dos Leigos Funcionários do Vaticano e da Associação das Mulheres no Vaticano e exortou, na era da IA, a manter o foco na centralidade da pessoa humana e na dignidade do trabalho.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-audiencia-associacao-funcionarios-leigos-mulheres-vaticano.html",
-      "published": "2026-10-05"
+      "title": "Papa: ao adorar Cristo, o fiel não pode aceitar opressão nem injustiça",
+      "summary": "Na Audiência Geral na Praça São Pedro, o Papa Leão comentou o quarto capítulo da Constituição Pastoral Gaudium et spes, que trata da missão da Igreja no mundo atual. Esta missão se realiza principalmente pelo testemunho da fé e da.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-audiencia-geral-gaudium-et-spes-capitulo-quarto.html",
+      "published": "2026-10-07"
     },
     {
       "source": "Vatican News",
-      "title": "Papa escreve a Pe. Romanelli após ataque de sábado em Gaza: \"até quando, Senhor?\"",
-      "summary": "A mensagem de Leão XIV ao pároco da Sagrada Família após mais um ataque israelense que provocou mortos e feridos, entre os quais, duas mulheres da comunidade cristã. Enquanto isso, diante da trágica recordação de 7 de outubro, o cardeal.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-10/papa-leao-xiv-mensagem-paroco-gaza-romanelli-outubro-26.html",
-      "published": "2026-10-05"
+      "title": "O Papa: a beleza desperta os desejos mais nobres do coração, abrindo-o para Deus",
+      "summary": "Ao encontrar-se na manhã desta quarta-feira, 7 de outubro, com um grupo de \"Patronos das Artes nos Museus Vaticanos\" de Louisiana, Leão XIV os exortou a cultivar um espírito de contemplação que ajude, sobretudo, os jovens, a elevar o.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-patronos-museus-vaticanos-beleza-arte-deus.html",
+      "published": "2026-10-07"
     },
     {
       "source": "CNBB",
-      "title": "Seminário em Brasília debate preservação e gestão dos bens culturais da Igreja a serviço da eva",
-      "summary": "Para dom Gregório Paixão, presidente da Comissão para a Cultura e a Educação da CNBB, o encontro busca despertar, entre bispos, sacerdotes e leigos, um olhar mais atento para o patrimônio cultural da Igreja e para a responsabilidade de.",
-      "url": "https://www.cnbb.org.br/seminario-em-brasilia-debate-preservacao-e-gestao-dos-bens-culturais-da-igreja-a-servico-da-evangelizacao/",
-      "published": "2026-10-06"
+      "title": "Segundo turno: momento de consciência, memória e discernimento",
+      "summary": "Dom Roberto Francisco Ferreria Paz Bispo de Campos (RJ) O segundo turno das eleições nacionais busca dar governabilidade e consolidar uma maioria que possa desenvolver as mudanças necessárias e a implementação das políticas de Estado.",
+      "url": "https://www.cnbb.org.br/segundo-turno-momento-de-consciencia-memoria-e-discernimento/",
+      "published": "2026-10-07"
     },
     {
       "source": "CNBB",
-      "title": "O mistério da diversidade das buscas religiosas ao longo da história humana",
-      "summary": "Dom Anuar Battisti Arcebispo Emérito de Maringá (PR) No 28º. Domingo do Tempo Comum o evangelista Mateus, ao desvelar a Parábola do Banquete Nupcial (Mt 22, 1-14) no ápice do confronto no Templo de Jerusalém, oferece-nos as chaves.",
-      "url": "https://www.cnbb.org.br/o-misterio-da-diversidade-das-buscas-religiosas-ao-longo-da-historia-humana/",
-      "published": "2026-10-06"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "São Bruno e sua impressionante “resposta” a um anjo no Vaticano",
-      "summary": "Hoje (6) é o dia de são Bruno, conhecido por se opor à corrupção do sagrado exercida por parte do clero. Em uma coluna no Vaticano, este santo aparece dando uma impressionante “resposta” a um anjo. Do que se trata? A tradição diz que o alemão são Bruno (1030-1101) foi professor de Teologia em Reims, França, onde viu com dor como vários eclesiásticos caíam no pecado da simonia, que consiste em fazer negócios com sacramentos e objetos sagrados. O bispo da região lhe deu um alto cargo....",
-      "url": "https://www.acidigital.com/noticia/56378/sao-bruno-e-sua-impressionante-resposta-a-um-anjo-no-vaticano",
-      "published": "2026-10-06"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Festa de São Francisco das Chagas começa amanhã em Canindé",
-      "summary": "O Santuário de São Francisco das Chagas em Canindé (CE), celebra de amanhã (7) a 17 de outubro a Festa de São Francisco das Chagas com programação especial pelos 800 anos da morte do santo de Assis.",
-      "url": "https://www.acidigital.com/noticia/70207/festa-de-sao-francisco-das-chagas-comeca-amanha-em-caninde",
+      "title": "Em outubro, Papa Leão XIV pede oração “pela pastoral da saúde mental”",
+      "summary": "Intenção de oração do Papa Leão XIV para o mês de outubro é dedicada à pastoral da saúde mental. Por meio da Rede Mundial de Oração do Papa, Leão convida a rezar para que a Igreja se torne uma casa aberta, capaz de acompanhar sem julgar e.",
+      "url": "https://www.cnbb.org.br/intencao-oracao-papa-outubro-pastoral-saude-mental/",
       "published": "2026-10-06"
     },
     {
       "source": "Aleteia",
-      "title": "Atalia, a rainha maldita da Bíblia",
-      "summary": "Atalia é filha de Acabe, rei de Israel, e da escandalosa Jezabel (às vezes, Atalia também pode ser apresentada como irmã de Acabe). Com pais assim, condenados pela Bíblia por seus crimes e sua adesão aos deuses pagãos, que destino.",
-      "url": "https://pt.aleteia.org/2026/10/06/atalia-a-rainha-maldita-da-biblia/",
+      "title": "O Vaticano está a caminho de Hollywood com uma estrela surpreendente",
+      "summary": "A estrada para o Oscar começou em alguns lugares incomuns ao longo dos anos, mas um pequeno vilarejo nas Dolomitas italianas, com um catequista de 22 anos que vende ovos nas horas vagas, certamente está no topo dessa lista. No entanto, é.",
+      "url": "https://pt.aleteia.org/2026/10/07/o-vaticano-esta-a-caminho-de-hollywood-com-uma-estrela-surpreendente/",
+      "published": "2026-10-07"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Dados do IBGE sobre a fé do povo brasileiro",
+      "summary": "Se você andar por esse Brasil afora — do Sertão do Cariri ao pé da Serra Gaúcha, das periferias fervilhantes das grandes capitais aos beiradões dos rios da Amazônia —, vai perceber logo de cara: o jeito que o nosso povo se conecta com o.",
+      "url": "https://pt.aleteia.org/2026/10/07/dados-do-ibge-sobre-a-fe-do-povo-brasileiro/",
+      "published": "2026-10-07"
+    },
+    {
+      "source": "Gaudium Press",
+      "title": "Papa Leão XIV manifesta proximidade com comunidade católica de Gaza após novo ataque",
+      "summary": "Em mensagem ao pároco Gabriel Romanelli, o Pontífice assegurou suas orações pela comunidade de Gaza e voltou a pedir paz para a Terra Santa: Até quando, Senhor? Pe. Gabriel Romanelli Foto: Vatican News Redação ( 06/10/2026 10:32 , Gaudium.",
+      "url": "https://gaudiumpress.org/content/papa-leao-xiv-manifesta-proximidade-com-comunidade-catolica-de-gaza-apos-novo-ataque/",
       "published": "2026-10-06"
     }
   ],
   "closingQuote": {
-    "text": "Marta recebeu-o em sua casa. Maria escolheu a melhor parte.",
-    "source": "Lucas 10,38-42"
+    "text": "Eis que conceberás e darás à luz um filho.",
+    "source": "Lucas 1,26-38"
   },
   "liturgyHours": {
-    "reading": "Nós vimos, e damos testemunho, que o Pai enviou o seu Filho como Salvador do mundo. Todo aquele que proclama que Jesus é o Filho de Deus, Deus permanece com ele, e ele com Deus.",
+    "reading": "Exulto de alegria no Senhor, minha alma rejubila no meu Deus, que me revestiu com as vestes da salvação e me envolveu num manto de justiça, como noiva que se adorna com suas joias.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
