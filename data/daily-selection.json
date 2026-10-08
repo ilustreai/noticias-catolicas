@@ -8,7 +8,7 @@
     "celebrationTitle": "Quinta-Feira da Semana XXVII do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 5, 1-12"
+    "gospelShort": "Lc 11,5-13"
   },
   "saint": {
     "feast": "\udfe2 Quinta-Feira da Semana XXVII do Tempo Comum",
@@ -17,12 +17,18 @@
     "url": "https://santo.cancaonova.com/santo/santa-pelagia-preservou-a-sua-castidade-ate-o-fim/"
   },
   "gospel": {
-    "ref": "Liturgia do Quinta-Feira - 8 de outubro de 2026",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 11,5-13)",
     "lines": [
-      "A liturgia de hoje nos convida à escuta da Palavra de Deus.",
-      "Cristo nos ensina o caminho da verdadeira felicidade.",
-      "Que a mensagem do Evangelho transforme nossos corações."
-    ]
+      "Naquele tempo, disse Jesus aos seus discípulos: Se um de vós tiver um amigo e for procurá-lo à meia-noite e lhe disser: Amigo, empresta-me três pães, porque um amigo meu chegou de viagem e nada tenho para lhe oferecer, e se o outro responder lá de dentro: Não me incomodes!",
+      "Já tranquei a porta, e meus filhos e eu já estamos deitados; não me posso levantar para te dar os pães; eu vos declaro: mesmo que o outro não se levante para dá-los porque é seu amigo, vai levantar-se ao menos por causa da impertinência dele e lhe dará quanto for necessário.",
+      "Portanto, eu vos digo: pedi e recebereis; procurai e encontrareis; batei e vos será aberto.",
+      "Pois quem pede, recebe; quem procura, encontra; e, para quem bate, se abrirá.",
+      "Será que algum de vós que é pai, se o filho pedir um peixe, lhe dará uma cobra?",
+      "Ou ainda, se pedir um ovo, lhe dará um escorpião?",
+      "Ora, se vós que sois maus, sabeis dar coisas boas aos vossos filhos, quanto mais o Pai do Céu dará o Espírito Santo aos que o pedirem! —"
+    ],
+    "body": "Naquele tempo, disse Jesus aos seus discípulos: 5 \"Se um de vós tiver um amigo e for procurá-lo à meia-noite e lhe disser: 'Amigo, empresta-me três pães, 6 porque um amigo meu chegou de viagem e nada tenho para lhe oferecer', 7 e se o outro responder lá de dentro: 'Não me incomodes! Já tranquei a porta, e meus filhos e eu já estamos deitados; não me posso levantar para te dar os pães'; 8 eu vos declaro: mesmo que o outro não se levante para dá-los porque é seu amigo, vai levantar-se ao menos por causa da impertinência dele e lhe dará quanto for necessário. 9 Portanto, eu vos digo: pedi e recebereis; procurai e encontrareis; batei e vos será aberto. 10 Pois quem pede, recebe; quem procura, encontra; e, para quem bate, se abrirá. 11 Será que algum de vós que é pai, se o filho pedir um peixe, lhe dará uma cobra? 12 Ou ainda, se pedir um ovo, lhe dará um escorpião? 13 Ora, se vós que sois maus, sabeis dar coisas boas aos vossos filhos, quanto mais o Pai do Céu dará o Espírito Santo aos que o pedirem!\" —",
+    "keyVerse": "Abri-nos, ó Senhor, o coração para ouvirmos a palavra de Jesus!"
   },
   "sponsor": {
     "enabled": true,
@@ -33,52 +39,52 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV: rezemos o terço, conforto de Maria nas dificuldades da vida",
-      "summary": "Ao saudar os peregrinos italianos ao final da Audiência Geral, o Papa renova o convite para rezar a oração mariana “tão querida à tradição da Igreja”. Um apelo que ecoa o do Angelus do último domingo, 4 de outubro, e o recitado em.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-audiencia-geral-rezar-o-terco-maria-outubro-2026.html",
+      "title": "Papa: ao adorar Cristo, o fiel não pode aceitar opressão nem injustiça",
+      "summary": "Na Audiência Geral na Praça São Pedro, o Papa Leão comentou o quarto capítulo da Constituição Pastoral Gaudium et spes, que trata da missão da Igreja no mundo atual. Esta missão se realiza principalmente pelo testemunho da fé e da.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-audiencia-geral-gaudium-et-spes-capitulo-quarto.html",
       "published": "2026-10-07"
     },
     {
       "source": "Vatican News",
-      "title": "Papa: que Nossa Senhora Aparecida proteja sempre os brasileiros",
-      "summary": "A Igreja no Brasil celebra a solenidade de Nossa Senhora Aparecida, padroeira do país, na próxima segunda-feira, 12 de outubro. Leão XIV, assim, aproveitou a saudação aos peregrinos de língua portuguesa para saudar o povo brasileiro:.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-audiencia-geral-nossa-senhora-aparecida-outubro-26.html",
+      "title": "O Papa: a beleza desperta os desejos mais nobres do coração, abrindo-o para Deus",
+      "summary": "Ao encontrar-se na manhã desta quarta-feira, 7 de outubro, com um grupo de \"Patronos das Artes nos Museus Vaticanos\" de Louisiana, Leão XIV os exortou a cultivar um espírito de contemplação que ajude, sobretudo, os jovens, a elevar o.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-patronos-museus-vaticanos-beleza-arte-deus.html",
       "published": "2026-10-07"
     },
     {
       "source": "CNBB",
-      "title": "apresenta orientações pastorais no Fórum, em Brasília (DF), de presidentes e gestores ligados à",
-      "summary": "De acordo com o padre Júlio Cezar Rezende, na programação do Fórum coube à CNBB apresentar as reflexões acumuladas no âmbito da Comissão para a Cultura e a Educação com foco no processo de elaboração do “Orientações Pastorais e Normas.",
-      "url": "https://www.cnbb.org.br/forum-de-presidentes-e-gestores-de-mantenedoras-da-anec/",
+      "title": "Bispos referenciais para a comunicação se reúnem na sede da CNBB para refletir sobre missão no",
+      "summary": "A Comissão para a Comunicação da CNBB reúne, de 6 a 8 de outubro, na sede da Conferência, em Brasília (DF), os bispos referenciais para a Comunicação Social dos regionais da CNBB. O encontro é um espaço de comunhão, avaliação e.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-para-a-comunicacao-se-reunem-na-sede-da-cnbb-para-refletir-sobre-missao-no-ambiente-digital/",
       "published": "2026-10-07"
     },
     {
       "source": "CNBB",
-      "title": "O banquete do Reino convite universal e resposta generosa",
-      "summary": "Dom Antonio Carlos Rossi Keller Bispo de Frederico Westphalen (RS) 28.o Domingo Comum Ciclo A O Banquete do Reino – Convite universal e resposta generosa A liturgia do 28.º Domingo do Tempo Comum – Ano A apresenta-nos a imagem poderosa do.",
-      "url": "https://www.cnbb.org.br/o-banquete-do-reino-convite-universal-e-resposta-generosa/",
+      "title": "Segundo turno: momento de consciência, memória e discernimento",
+      "summary": "Dom Roberto Francisco Ferreria Paz Bispo de Campos (RJ) O segundo turno das eleições nacionais busca dar governabilidade e consolidar uma maioria que possa desenvolver as mudanças necessárias e a implementação das políticas de Estado.",
+      "url": "https://www.cnbb.org.br/segundo-turno-momento-de-consciencia-memoria-e-discernimento/",
       "published": "2026-10-07"
     },
     {
       "source": "ACI Digital",
-      "title": "Bispo da Jordânia fala do lugar do batismo de Jesus como ponto de peregrinação",
-      "summary": "O bispo Iyad Twal, vigário do patriarcado latino da Jordânia e membro do conselho de curadores da comissão do lugar do batismo de Jesus, disse que a Jordânia é \"parte da Terra Santa\" e que o ano de 2030, 2 mil anos do batismo de Jesus no rio Jordão, é uma oportunidade para fortalecer a posição do país no mapa de peregrinação cristã....",
-      "url": "https://www.acidigital.com/noticia/70231/bispo-da-jordania-fala-do-lugar-do-batismo-de-jesus-como-ponto-de-peregrinacao",
-      "published": "2026-10-07"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Bispos nos EUA pedem fim da pena de morte e Trump autoriza fuzilamento de militar",
-      "summary": "“A responsabilização por atos ilícitos graves é necessária, mas não exige que se tire outra vida”, escreveram os bispos.",
-      "url": "https://www.acidigital.com/noticia/70235/bispos-nos-eua-pedem-fim-da-pena-de-morte-e-trump-autoriza-fuzilamento-de-militar",
+      "title": "Traslado dos Carros abre as romarias do Círio de Nazaré 2026 hoje",
+      "summary": "Os 14 carros e barcas de promessas seguirão a berlinda com a imagem peregrina de Nossa Senhora de Nazaré da basílica santuário até o Complexo Porto Futuro. Expectativa é de reunir 30 mil devotos.",
+      "url": "https://www.acidigital.com/noticia/70225/traslado-dos-carros-abre-as-romarias-do-cirio-de-nazare-2026-hoje",
       "published": "2026-10-07"
     },
     {
       "source": "Aleteia",
-      "title": "Por dentro da horta orgânica secreta do Vaticano",
-      "summary": "“O segredo de uma horta orgânica é o jardineiro”, afirma Stefano Giampaolo. O gerente dos serviços de jardinagem do Vaticano é só elogios ao projeto. Embora a área de superfície da horta seja de modestos 400 metros quadrados, a ambição e.",
-      "url": "https://pt.aleteia.org/2026/10/06/por-dentro-da-horta-organica-secreta-do-vaticano/",
-      "published": "2026-10-06"
+      "title": "O Vaticano está a caminho de Hollywood com uma estrela surpreendente",
+      "summary": "A estrada para o Oscar começou em alguns lugares incomuns ao longo dos anos, mas um pequeno vilarejo nas Dolomitas italianas, com um catequista de 22 anos que vende ovos nas horas vagas, certamente está no topo dessa lista. No entanto, é.",
+      "url": "https://pt.aleteia.org/2026/10/07/o-vaticano-esta-a-caminho-de-hollywood-com-uma-estrela-surpreendente/",
+      "published": "2026-10-07"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Dados do IBGE sobre a fé do povo brasileiro",
+      "summary": "Se você andar por esse Brasil afora — do Sertão do Cariri ao pé da Serra Gaúcha, das periferias fervilhantes das grandes capitais aos beiradões dos rios da Amazônia —, vai perceber logo de cara: o jeito que o nosso povo se conecta com o.",
+      "url": "https://pt.aleteia.org/2026/10/07/dados-do-ibge-sobre-a-fe-do-povo-brasileiro/",
+      "published": "2026-10-07"
     }
   ],
   "closingQuote": {
