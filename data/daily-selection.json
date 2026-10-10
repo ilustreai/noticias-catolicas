@@ -1,34 +1,29 @@
 {
-  "date": "2026-10-09",
-  "editionLabel": "9 de outubro de 2026",
+  "date": "2026-10-10",
+  "editionLabel": "10 de outubro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santos Dionísio, bispo, e Companheiros, mártires",
+    "celebrationTitle": "Santa Maria no Sábado",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 11,15-26"
+    "gospelShort": "Lc 11,27-28"
   },
   "saint": {
-    "feast": "\udd34 [m] Santos Dionísio\\, bispo\\, e Companheiros\\, mártires",
-    "name": "São Dionísio, o Apóstolo da Gália",
-    "description": "Celebração litúrgica do dia: Santos Dionísio, bispo, e Companheiros, mártires.",
-    "url": "https://santo.cancaonova.com/santo/sao-dionisio-apostolo-da-galia/"
+    "feast": "Santa Maria no Sábado",
+    "name": "São Daniel Comboni, evangelizador e protetor do Continente Africano",
+    "description": "Celebração litúrgica do dia: Santa Maria no Sábado.",
+    "url": "https://santo.cancaonova.com/santo/sao-daniel-comboni-evangelizador-e-protetor-do-continente-africano/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 11,15-26)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 11,27-28)",
     "lines": [
-      "Naquele tempo, Jesus estava expulsando um demônio.",
-      "Mas alguns disseram: &Eacute; por Belzebu, o príncipe dos demônios, que ele expulsa os demônios.",
-      "Outros, para tentar Jesus, pediam-lhe um sinal do céu.",
-      "Mas, conhecendo seus pensamentos, Jesus disse-lhes: Todo reino dividido contra si mesmo será destruído; e cairá uma casa por cima da outra.",
-      "Ora, se até Satanás está dividido contra si mesmo, como poderá sobreviver o seu reino?",
-      "Vós dizeis que é por Belzebu que eu expulso os demônios.",
-      "Se é por meio de Belzebu que eu expulso demônios, vossos filhos os expulsam por meio de quem?"
+      "Naquele tempo, enquanto Jesus falava, uma mulher levantou a voz no meio da multidão e lhe disse: Feliz o ventre que te trouxe e os seios que te amamentaram.",
+      "Jesus respondeu: Muito mais felizes são aqueles que ouvem a palavra de Deus e a põem em prática."
     ],
-    "body": "Naquele tempo, Jesus estava expulsando um demônio. 15 Mas alguns disseram: \"&Eacute; por Belzebu, o príncipe dos demônios, que ele expulsa os demônios\". 16 Outros, para tentar Jesus, pediam-lhe um sinal do céu. 17 Mas, conhecendo seus pensamentos, Jesus disse-lhes: \"Todo reino dividido contra si mesmo será destruído; e cairá uma casa por cima da outra. 18 Ora, se até Satanás está dividido contra si mesmo, como poderá sobreviver o seu reino? Vós dizeis que é por Belzebu que eu expulso os demônios. 19 Se é por meio de Belzebu que eu expulso demônios, vossos filhos os expulsam por meio de quem? Por isso, eles mesmos serão vossos juízes. 20 Mas, se é pelo dedo de Deus que eu expulso os demônios, então chegou para vós o Reino de Deus. 21 Quando um homem forte e bem armado guarda a própria casa, seus bens estão seguros. 22 Mas, quando chega um homem mais forte do que ele, vence-o, arranca-lhe a armadura na qual ele confiava, e reparte o que roubou. 23 Quem não está comigo, está contra mim. E quem não recolhe comigo, dispersa. 24 Quando o espírito mau sai de um homem, fica vagando em lugares desertos, à procura de repouso; não o encontrando, ele diz: 'Vou voltar para minha casa de onde saí'. 25 Quando ele chega, encontra a casa varrida e arrumada. 26 Então ele vai, e traz consigo outros sete espíritos piores do que ele. E, entrando, instalam-se aí. No fim, esse homem fica em condição pior do que antes\". —",
-    "keyVerse": "Agora o príncipe deste mundo há de ser lançado fora; quando eu for elevado da terra, atrairei para mim todo ser."
+    "body": "Naquele tempo, 27 enquanto Jesus falava, uma mulher levantou a voz no meio da multidão e lhe disse: \"Feliz o ventre que te trouxe e os seios que te amamentaram\". 28 Jesus respondeu: \"Muito mais felizes são aqueles que ouvem a palavra de Deus e a põem em prática\". —",
+    "keyVerse": "Feliz quem ouve e observa a palavra de Deus!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +34,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV abrirá o congresso \"O esplendor do ser humano\" na Universidade Católica",
-      "summary": "Com uma audiência especial no Vaticano, o Papa dará início aos trabalhos, que se realizarão de sexta-feira, 16, a domingo, 18 de outubro, em quatro sessões sobre temas antropológicos e científicos. Os eventos serão realizados na sede.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-abertura-congresso-fertilidade.html",
+      "title": "Amoris laetitia, as Igrejas da Índia e da Austrália: experiências e desafios",
+      "summary": "O terceiro dia de trabalhos do encontro do Papa com os chefes das Igrejas Orientais e os presidentes das Conferências Episcopais, dez anos após a exortação pós-sinodal, é dedicado aos jovens na descoberta da vocação matrimonial. O.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/amoris-laetitia-igrejas-india-australia-experiencia.html",
       "published": "2026-10-09"
     },
     {
       "source": "Vatican News",
-      "title": "Papa: \"A inteligência é determinante para a fé e a missão\"",
-      "summary": "Ao inaugurar o ano acadêmico das Universidades Pontifícias, o Papa fez uma oportuna observação para ressaltar a importância do estudo: \"Em cada época, não faltam falsos mestres que desviam para os seus próprios interesses o sentimento.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-homilia-inauguracao-ano-academico-universidades.html",
-      "published": "2026-10-08"
-    },
-    {
-      "source": "CNBB",
-      "title": "Comissão Sociotransformadora da CNBB disponibiliza material de apoio para a Jornada Mundial dos",
-      "summary": "A Igreja Católica no Brasil celebra, de 8 a 15 de novembro, a X Jornada Mundial dos Pobres (10ª JMP), que traz o lema bíblico “O Senhor é o refúgio do pobre” (cf. Sl 14, 6) e o chamado mobilizador “Minha comunidade eclesial transforma o.",
-      "url": "https://www.cnbb.org.br/jmj-2026-tem-o-lema-a-igreja-catolica-no-brasil-celebra-de-08-a-15-de-novembro-a-x-jornada-mundial-dos-pobres-10a-jmp-que-traz-o-lema-biblico-o-senhor-e-o-refugio-do-pobre-cf/",
+      "title": "Koovakad: a fraternidade é a única arquitetura possível para um futuro sustentável",
+      "summary": "O cardeal prefeito do Dicastério para o Diálogo Inter-religioso falou no dia 7 de outubro, na Antonianum, em Roma, no âmbito da conferência “O encontro de 27 de outubro de 1986 e a Magnifica humanitas de Leão XIV”. O “Espírito de Assis”,.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/koovakad-assis-religioes-oracao-paz-magnifica-humanitas.html",
       "published": "2026-10-09"
     },
     {
       "source": "CNBB",
-      "title": "Comissão promove oficina gratuita sobre mobilização de recursos para projetos de patrimônio cul",
-      "summary": "A iniciativa integra a Jornada Nacional de Mobilização sobre Investimentos e Promoção do Patrimônio Cultural e será realizada em formato on-line e gratuito com o objetivo de apresentar estratégias e ferramentas práticas para a captação de.",
-      "url": "https://www.cnbb.org.br/comissao-promove-oficina-gratuita-sobre-mobilizacao-de-recursos-para-projetos-de-patrimonio-cultural-na-lei-rouanet/",
+      "title": "Inteligência Artificial, uma questão espiritual",
+      "summary": "Dom Lindomar Rocha Mota Bispo de São Luís de Montes Belos (GO) Há uma tendência comum de tratar a inteligência artificial como um problema técnico. Perguntamos até onde chegarão as máquinas e quantas profissões desaparecerão; que riscos.",
+      "url": "https://www.cnbb.org.br/inteligencia-artificial-uma-questao-espiritual/",
       "published": "2026-10-09"
     },
     {
       "source": "ACI Digital",
-      "title": "Colômbia volta a Consenso de Genebra, pacto internacional contra o aborto",
-      "summary": "O governo da Colômbia anunciou que o país voltou à Declaração de Consenso de Genebra, coalizão de países que promove a família e diz que \"não existe um direito internacional ao aborto\".",
-      "url": "https://www.acidigital.com/noticia/70271/colombia-volta-a-consenso-de-genebra-pacto-internacional-contra-o-aborto",
+      "title": "Encontro sobre Amoris laetitia debate por que muitos jovens não querem se casar",
+      "summary": "No encontro internacional sobre a família no Vaticano, participantes buscam responder à questão: por que diminui o número de jovens que se casam na Igreja.",
+      "url": "https://www.acidigital.com/noticia/70289/encontro-sobre-amoris-laetitia-debate-por-que-muitos-jovens-nao-querem-se-casar",
       "published": "2026-10-09"
     },
     {
-      "source": "ACI Digital",
-      "title": "EWTN nomeia Ursula Murua para suceder Montse Alvarado como chefe da EWTN News",
-      "summary": "A EWTN Global Catholic Network nomeou Ursula Murua, que por anos foi responsável pela estratégia digital da divisão de notícias da rede, presidente da EWTN News, com efeito a partir de 1º de novembro.",
-      "url": "https://www.acidigital.com/noticia/70277/ewtn-nomeia-ursula-murua-para-suceder-montse-alvarado-como-chefe-da-ewtn-news",
+      "source": "Aleteia",
+      "title": "Freira irlandesa é a primeira mulher presidente das Pontifícias Obras Missionárias nomeada por",
+      "summary": "As Pontifícias Obras Missionárias (POM) é o órgão da Santa Sé para a promoção da evangelização em todo o mundo. Mais de dois séculos após sua fundação em Lyon pela Beata Paulina Jaricot, as POM são, pela primeira vez, chefiadas por uma.",
+      "url": "https://pt.aleteia.org/2026/10/09/freira-irlandese-e-a-primeira-mulher-presidente-das-pontificias-obras-missionarias/",
+      "published": "2026-10-09"
+    },
+    {
+      "source": "Aleteia",
+      "title": "A primeira escola da fé é o lar: como cultivar a espiritualidade dos filhos",
+      "summary": "Observar as crianças diante do mundo é contemplar a forma mais pura de poesia. Os pequenos possuem um olhar curioso, capaz de enxergar beleza onde a correria dos adultos só vê rotina. Eles têm a capacidade natural de se maravilhar com a.",
+      "url": "https://pt.aleteia.org/2026/10/09/a-primeira-escola-da-fe-e-o-lar-como-cultivar-a-espiritualidade-dos-filhos/",
       "published": "2026-10-09"
     },
     {
       "source": "Gaudium Press",
-      "title": "Exorcistas destacam o papel de Nossa Senhora e da música sacra nos exorcismos",
-      "summary": "“Quanto mais sacra for a música, mais intimamente ela estará ligada à ação litúrgica, pois prefigura a liturgia na Jerusalém celestial: desde os salmos até o canto gregoriano e os cantos populares em honra da Virgem”. Redação ( 09/10/2026.",
-      "url": "https://gaudiumpress.org/content/exorcistas-destacam-o-papel-de-nossa-senhora-e-da-musica-sacra-nos-exorcismos/",
+      "title": "Manto oficial de Nossa Senhora para o Círio de Nazaré 2026 é apresentado em Belém",
+      "summary": "Peça criada pelo estilista Artur Maciel destaca o tema missionário de 2026 e traz elementos inspirados no encontro bíblico entre Maria e Santa Isabel.",
+      "url": "https://gaudiumpress.org/content/manto-oficial-de-nossa-senhora-para-o-cirio-de-nazare-2026-e-apresentado-em-belem/",
       "published": "2026-10-09"
     }
   ],
   "closingQuote": {
-    "text": "Se é pelo dedo de Deus que eu expulso os demônios, então chegou para vós o Reino de Deus.",
-    "source": "Lucas 11,15-26"
+    "text": "Feliz o ventre que te trouxe. Muito mais felizes são aqueles que ouvem a palavra de Deus.",
+    "source": "Lucas 11,27-28"
   },
   "liturgyHours": {
-    "reading": "De bom grado, eu me gloriarei das minhas fraquezas, para que a força de Cristo habite em mim. Eis por que eu me comprazo nas fraquezas, nas injúrias, nas necessidades, nas perseguições e nas angústias sofridas por amor a Cristo. Pois, quando eu me...",
+    "reading": "Fazei tudo sem reclamar ou murmurar, para que sejais livres de repreensão e ambiguidade, filhos de Deus sem defeito, no meio desta geração depravada e pervertida, na qual brilhais como os astros no universo.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
