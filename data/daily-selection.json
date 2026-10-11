@@ -1,29 +1,34 @@
 {
-  "date": "2026-10-10",
-  "editionLabel": "10 de outubro de 2026",
+  "date": "2026-10-11",
+  "editionLabel": "11 de outubro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santa Maria no Sábado",
+    "celebrationTitle": "Domingo XXVIII do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 11,27-28"
+    "gospelShort": "Mt 22,1-14 "
   },
   "saint": {
-    "feast": "Santa Maria no Sábado",
-    "name": "São Daniel Comboni, evangelizador e protetor do Continente Africano",
-    "description": "Celebração litúrgica do dia: Santa Maria no Sábado.",
-    "url": "https://santo.cancaonova.com/santo/sao-daniel-comboni-evangelizador-e-protetor-do-continente-africano/"
+    "feast": "\udfe2 Domingo XXVIII do Tempo Comum",
+    "name": "Santo Alexandre Sauli, mortificando o corpo com a fadiga",
+    "description": "Celebração litúrgica do dia: Domingo XXVIII do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/santo-alexandre-sauli-mortificando-o-corpo-com-a-fadiga/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 11,27-28)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 22,1-14 )",
     "lines": [
-      "Naquele tempo, enquanto Jesus falava, uma mulher levantou a voz no meio da multidão e lhe disse: Feliz o ventre que te trouxe e os seios que te amamentaram.",
-      "Jesus respondeu: Muito mais felizes são aqueles que ouvem a palavra de Deus e a põem em prática."
+      "Naquele tempo, Jesus voltou a falar em parábolas aos sumos sacerdotes e aos anciãos do povo, dizendo: O Reino dos Céus é como a história do rei que preparou a festa de casamento do seu filho.",
+      "E mandou os seus empregados para chamar os convidados para a festa, mas estes não quiseram vir.",
+      "O rei mandou outros empregados, dizendo: Dizei aos convidados: já preparei o banquete, os bois e os animais cevados já foram abatidos e tudo está pronto.",
+      "Vinde para a festa! Mas os convidados não deram a menor atenção: um foi para o seu campo, outro para os seus negócios, outros agarraram os empregados, bateram neles e os mataram.",
+      "O rei ficou indignado e mandou suas tropas para matar aqueles assassinos e incendiar a cidade deles.",
+      "Em seguida, o rei disse aos empregados: A festa de casamento está pronta, mas os convidados não foram dignos dela.",
+      "Portanto, ide até às encruzilhadas dos caminhos e convidai para a festa todos os que encontrardes."
     ],
-    "body": "Naquele tempo, 27 enquanto Jesus falava, uma mulher levantou a voz no meio da multidão e lhe disse: \"Feliz o ventre que te trouxe e os seios que te amamentaram\". 28 Jesus respondeu: \"Muito mais felizes são aqueles que ouvem a palavra de Deus e a põem em prática\". —",
-    "keyVerse": "Feliz quem ouve e observa a palavra de Deus!"
+    "body": "Naquele tempo, 1 Jesus voltou a falar em parábolas aos sumos sacerdotes e aos anciãos do povo, dizendo: 2 \"O Reino dos Céus é como a história do rei que preparou a festa de casamento do seu filho. 3 E mandou os seus empregados para chamar os convidados para a festa, mas estes não quiseram vir. 4 O rei mandou outros empregados, dizendo: 'Dizei aos convidados: já preparei o banquete, os bois e os animais cevados já foram abatidos e tudo está pronto. Vinde para a festa!' 5 Mas os convidados não deram a menor atenção: um foi para o seu campo, outro para os seus negócios, 6 outros agarraram os empregados, bateram neles e os mataram. 7 O rei ficou indignado e mandou suas tropas para matar aqueles assassinos e incendiar a cidade deles. 8 Em seguida, o rei disse aos empregados: 'A festa de casamento está pronta, mas os convidados não foram dignos dela. 9 Portanto, ide até às encruzilhadas dos caminhos e convidai para a festa todos os que encontrardes'. 10 Então os empregados saíram pelos caminhos e reuniram todos os que encontraram, maus e bons. E a sala da festa ficou cheia de convidados. 11 Quando o rei entrou para ver os convidados, observou aí um homem que não estava usando traje de festa 12 e perguntou-lhe: 'Amigo, como entraste aqui sem o traje de festa?' Mas o homem nada respondeu. 13 Então o rei disse aos que serviam: 'Amarrai os pés e as mãos desse homem e jogai-o fora, na escuridão! Aí haverá choro e ranger de dentes'. 14 Por que muitos são chamados, e poucos são escolhidos\". —",
+    "keyVerse": "Que o Pai do Senhor Jesus Cristo nos dê do saber o espírito; conheçamos, assim, a esperança à qual nos chamou, como herança!"
   },
   "sponsor": {
     "enabled": true,
@@ -34,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Amoris Laetitia: \"trabalhos em andamento\" no Vaticano em meio aos desafios dos jovens, migraçõe",
-      "summary": "Primeiro briefing, na Sala de Imprensa da Santa Sé, desde o início do encontro de cúpula, convocado por Leão XIV por ocasião do 10º aniversário da Exortação apostólica do Papa Francisco. Após as sessões iniciais, destinadas a.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/amoris-laetitia-trabalhos-em-andamento-no-vaticano-coletiva.html",
+      "title": "Leão XIV: o poder não pode ocupar o lugar do serviço",
+      "summary": "Leão XIV recebeu os membros do Sínodo dos Bispos da Igreja Greco-Melquita de Antioquia e expressou proximidade aos cristãos que vivem em regiões marcadas pela guerra, pelo extremismo religioso e pelas dificuldades econômicas. O Pontífice.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/leao-xiv-o-poder-nao-pode-ocupar-o-lugar-do-servico.html",
       "published": "2026-10-10"
     },
     {
       "source": "Vatican News",
-      "title": "Papa nomeia dom Viola arcipreste da Basílica de São Pedro",
-      "summary": "O arcebispo, até agora secretário do Dicastério para o Culto Divino e a Disciplina dos Sacramentos, também foi nomeado por Leão XIV vigário-geral para a Cidade do Vaticano e presidente da Fábrica de São Pedro. Para ocupar o cargo deixado.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-nomeia-dom-viola-arcipreste-da-basilica-de-sao-pedro.html",
+      "title": "Papa Leão: a arte transforma a matéria em dom e anúncio de beleza",
+      "summary": "Ao receber os membros do Bizot Group, que reúne dirigentes de alguns dos principais museus do mundo, o Papa destacou a relação entre arte, criação e fé. Leão XIV recordou que a matéria é dom, pode ser transformada pela criatividade humana.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-a-arte-transforma-a-materia-em-dom-e-anuncio-de-beleza.html",
       "published": "2026-10-10"
     },
     {
       "source": "CNBB",
-      "title": "Comissão Sociotransformadora da CNBB disponibiliza material de apoio para a Jornada Mundial dos",
-      "summary": "A Igreja Católica no Brasil celebra, de 8 a 15 de novembro, a X Jornada Mundial dos Pobres (10ª JMP), que traz o lema bíblico “O Senhor é o refúgio do pobre” (cf. Sl 14, 6) e o chamado mobilizador “Minha comunidade eclesial transforma o.",
-      "url": "https://www.cnbb.org.br/jmj-2026-tem-o-lema-a-igreja-catolica-no-brasil-celebra-de-08-a-15-de-novembro-a-x-jornada-mundial-dos-pobres-10a-jmp-que-traz-o-lema-biblico-o-senhor-e-o-refugio-do-pobre-cf/",
+      "title": "Comissão promove oficina gratuita sobre mobilização de recursos para projetos de patrimônio cul",
+      "summary": "A iniciativa integra a Jornada Nacional de Mobilização sobre Investimentos e Promoção do Patrimônio Cultural e será realizada em formato on-line e gratuito com o objetivo de apresentar estratégias e ferramentas práticas para a captação de.",
+      "url": "https://www.cnbb.org.br/comissao-promove-oficina-gratuita-sobre-mobilizacao-de-recursos-para-projetos-de-patrimonio-cultural-na-lei-rouanet/",
       "published": "2026-10-09"
     },
     {
       "source": "CNBB",
-      "title": "Animados pela Palavra de Deus, Bispos do Brasil conduzem novena de Nossa Senhora Aparecida no",
-      "summary": "Confira as reflexões dos bispos nos seis primeiros dias da Novena em honra a Nossa Senhora Aparecida celebrada no Santuário Nacional. A partir do tema “Com Maria, em comunidade, conhecer e praticar a Palavra”, Santuário destaca a Palavra.",
-      "url": "https://www.cnbb.org.br/bispos-do-brasil-animam-novena-de-nossa-senhora-aparecida/",
+      "title": "Pesquisa Nacional sobre Evangelização da Juventude no Brasil ganha relatório completo",
+      "summary": "O estudo reúne dados de 11.498 adolescentes e jovens, de todas as regiões do país, e busca contribuir para uma compreensão mais ampla das realidades, experiências, desafios, expectativas e vivências de fé das juventudes. A coleta foi.",
+      "url": "https://www.cnbb.org.br/pesquisa-nacional-sobre-evangelizacao-da-juventude-no-brasil-ganha-relatorio-completo/",
       "published": "2026-10-09"
     },
     {
       "source": "ACI Digital",
-      "title": "Colômbia volta a Consenso de Genebra, pacto internacional contra o aborto",
-      "summary": "O governo da Colômbia anunciou que o país voltou à Declaração de Consenso de Genebra, coalizão de países que promove a família e diz que \"não existe um direito internacional ao aborto\".",
-      "url": "https://www.acidigital.com/noticia/70271/colombia-volta-a-consenso-de-genebra-pacto-internacional-contra-o-aborto",
+      "title": "Igreja no Brasil celebra Nossa Senhora de Nazaré, a Rainha da Amazônia",
+      "summary": "Hoje, segundo domingo de outubro, a Igreja no Brasil celebra a maior devoção mariana do Norte do país, Nossa Senhora de Nazaré, chamada carinhosamente pelos fiéis de Rainha da Amazônia.",
+      "url": "https://www.acidigital.com/noticia/70265/igreja-no-brasil-celebra-nossa-senhora-de-nazare",
+      "published": "2026-10-11"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Encontro sobre Amoris laetitia debate por que muitos jovens não querem se casar",
+      "summary": "No encontro internacional sobre a família no Vaticano, participantes buscam responder à questão: por que diminui o número de jovens que se casam na Igreja.",
+      "url": "https://www.acidigital.com/noticia/70289/encontro-sobre-amoris-laetitia-debate-por-que-muitos-jovens-nao-querem-se-casar",
       "published": "2026-10-09"
     },
     {
       "source": "Aleteia",
-      "title": "Papa Leão XIV participará de conferência sobre infertilidade",
-      "summary": "De 16 a 18 de outubro, a Universidade Católica do Sagrado Coração, em Milão, organiza um seminário para marcar o 25º aniversário da fundação do Instituto Científico Internacional Paulo VI para Pesquisa sobre Fertilidade Humana e.",
-      "url": "https://pt.aleteia.org/2026/10/09/papa-leao-xiv-participara-de-conferencia-sobre-infertilidade/",
+      "title": "A primeira escola da fé é o lar: como cultivar a espiritualidade dos filhos",
+      "summary": "Observar as crianças diante do mundo é contemplar a forma mais pura de poesia. Os pequenos possuem um olhar curioso, capaz de enxergar beleza onde a correria dos adultos só vê rotina. Eles têm a capacidade natural de se maravilhar com a.",
+      "url": "https://pt.aleteia.org/2026/10/09/a-primeira-escola-da-fe-e-o-lar-como-cultivar-a-espiritualidade-dos-filhos/",
       "published": "2026-10-09"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "Cardeal Tagle é o novo decano do colégio cardinalício: o que isso significa?",
-      "summary": "O cardeal filipino Luis Antonio Tagle Tagle sucede ao Cardeal Giovanni Battista Re, de 92 anos, e se torna o primeiro asiático a ocupar a função de decano do Colégio Cardinalício. Foto: Vatican News Redação ( 10/10/2026 08:34 , Gaudium.",
-      "url": "https://gaudiumpress.org/content/cardeal-tagle-e-o-novo-decano-do-colegio-cardinalicio-o-que-isso-significa/",
-      "published": "2026-10-10"
     }
   ],
   "closingQuote": {
-    "text": "Feliz o ventre que te trouxe. Muito mais felizes são aqueles que ouvem a palavra de Deus.",
-    "source": "Lucas 11,27-28"
+    "text": "Convidai para a festa todos os que encontrardes.",
+    "source": "Mateus 22,1-14"
   },
   "liturgyHours": {
-    "reading": "Fazei tudo sem reclamar ou murmurar, para que sejais livres de repreensão e ambiguidade, filhos de Deus sem defeito, no meio desta geração depravada e pervertida, na qual brilhais como os astros no universo.",
+    "reading": "Lembra-te de Jesus Cristo, da descendência de Davi, ressuscitado dentre os mortos. Merece fé esta palavra: se com ele morremos, com ele viveremos. Se com ele ficamos firmes, com ele reinaremos. Se nós o negamos, também ele nos negará. Se lhe somos...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
