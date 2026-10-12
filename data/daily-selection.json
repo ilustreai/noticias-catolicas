@@ -39,17 +39,17 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa Leão: decidi me submeter a uma cirurgia para retirar um nódulo no pulmão",
-      "summary": "Ao final do Angelus, Leão XIV anunciou aos fiéis que deverá passar por uma intervenção médica para retirar um nódulo “circunscrito no pulmão”, identificado “em uma fase muito inicial” e “bem localizado” durante alguns exames. A cirurgia.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-decidi-me-submeter-a-uma-cirurgia-nos-proximos-dias.html",
+      "title": "Fiéis na Praça São Pedro próximos ao Papa: rezamos por sua saúde, recupere-se logo",
+      "summary": "Ao saberem da notícia da cirurgia no pulmão à qual Leão XIV deverá se submeter nos próximos dias, os peregrinos reagiram com a emoção e a empatia reservadas a um membro da família. Foram muitos os votos de pronta recuperação e as.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/fieis-na-praca-sao-pedro-proximos-ao-papa-11-outubro.html",
       "published": "2026-10-11"
     },
     {
       "source": "Vatican News",
-      "title": "Papa recorda a martirizada Ucrânia: o pão das pessoas não pode ser refém da guerra",
-      "summary": "Leão XIV fez um novo apelo pelas populações atingidas pelas consequências do conflito e pediu às partes que garantam o transporte seguro de cereais pelo Mar Negro. Após o Angelus, o Pontífice recordou ainda as vítimas de acidentes de.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/apelos-saudacoes-angelus-papa-leao-11-outubro-2026.html",
-      "published": "2026-10-11"
+      "title": "Leão XIV, Círculo São Pedro: uma obra louvável que cumpre o mandamento da caridade",
+      "summary": "Ao receber a antiga associação em audiência, o Papa agradeceu aos membros e voluntários pelo seu compromisso, que contribui \"para formar o rosto bonito da Igreja\", no testemunho do \"Evangelho entre os pobres e os desfavorecidos\", e.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-circulo-sao-pedro-amor-compromisso-vida-servico-pobres.html",
+      "published": "2026-10-12"
     },
     {
       "source": "CNBB",
@@ -60,24 +60,31 @@
     },
     {
       "source": "ACI Digital",
-      "title": "Oração para rezar a Deus pela saúde de Leão XIV",
-      "summary": "Una-se a essa intenção preparada pelos Missionários Franciscanos da EWTN, comunidade religiosa de padres e frades fundada pela madre Angélica.",
-      "url": "https://www.acidigital.com/noticia/70307/oracao-para-rezar-a-deus-pela-saude-de-leao-xiv",
-      "published": "2026-10-11"
-    },
-    {
-      "source": "ACI Digital",
       "title": "Leão XIV nomeia novo arcipreste da basílica de São Pedro",
       "summary": "O papa Leão XIV nomeou ontem (10) monsenhor Vittorio Francesco Viola, franciscano italiano de 61 anos, arcipreste da basílica de São Pedro, no Vaticano.",
       "url": "https://www.acidigital.com/noticia/70305/leao-xiv-nomeia-novo-arcipreste-da-basilica-de-sao-pedro",
       "published": "2026-10-11"
     },
     {
-      "source": "Gaudium Press",
-      "title": "esclarece: só sete ordens equestres são reconhecidas pela Santa Sé",
-      "summary": "Em nota oficial, a Secretaria de Estado confirma que a Santa Sé reconhece e acompanha, além de suas próprias ordens equestres pontifícias, apenas a Soberana Ordem de Malta e a Ordem Equestre do Santo Sepulcro de Jerusalém. Ordem Equestre.",
-      "url": "https://gaudiumpress.org/content/vaticano-esclarece-so-sete-ordens-equestres-sao-reconhecidas-pela-santa-se/",
+      "source": "ACI Digital",
+      "title": "Leão XIV pede para proclamar Evangelho “com coragem”, mesmo onde ele não é compreendido",
+      "summary": "No Ângelus de hoje (11), o papa Leão XIV disse que a alegria de Cristo proclamada pelos cristãos “não é artificial” e encorajou os fiéis a não se desanimarem.",
+      "url": "https://www.acidigital.com/noticia/70303/leao-xiv-pede-para-proclamar-evangelho-com-coragem-mesmo-onde-ele-nao-e-compreendido",
       "published": "2026-10-11"
+    },
+    {
+      "source": "Aleteia",
+      "title": "A fé que mostra as mãos: o enigma da justificação pelas obras",
+      "summary": "Ao percorrer as páginas do Novo Testamento com o olhar livre de dogmatismos engessados, o leitor atento depara-se com um impasse fascinante que há séculos inquieta teólogos, historiadores e filósofos da cultura. Trata-se da tensão sutil.",
+      "url": "https://pt.aleteia.org/2026/10/12/a-fe-que-mostra-as-maos-o-enigma-da-justificacao-pelas-obras/",
+      "published": "2026-10-12"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Choque em Roma e solidariedade internacional após anúncio da cirurgia de Leão XIV",
+      "summary": "Poucas horas antes da oração do Angelus do pontífice, em 11 de outubro de 2026, as reações de dignitários católicos, bem como de chefes de Estado, se multiplicaram, enquanto na Cúria Romana reina o espanto geral – sem alarmismo. O.",
+      "url": "https://pt.aleteia.org/2026/10/12/choque-em-roma-e-solidariedade-internacional-apos-anuncio-da-cirurgia-de-leao-xiv/",
+      "published": "2026-10-12"
     }
   ],
   "closingQuote": {
