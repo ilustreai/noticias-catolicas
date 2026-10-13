@@ -1,34 +1,32 @@
 {
-  "date": "2026-10-12",
-  "editionLabel": "12 de outubro de 2026",
+  "date": "2026-10-13",
+  "editionLabel": "13 de outubro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "solenidade",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Nossa Senhora Aparecida, Padroeira do Brasil",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Jo 2,1-11 (Bodas de Caná)"
+    "celebrationTitle": "Terça-Feira da Semana XXVIII do Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 11,37-41"
   },
   "saint": {
-    "feast": "\udfe2 Segunda-Feira da Semana XXVIII do Tempo Comum",
-    "name": "Nossa Senhora Aparecida, a rainha e padroeira do Brasil",
-    "description": "Celebração litúrgica do dia: Nossa Senhora Aparecida, Padroeira do Brasil.",
-    "url": "https://santo.cancaonova.com/santo/nossa-senhora-aparecida-a-rainha-e-padroeira-do-brasil/"
+    "feast": "\udfe2 Terça-Feira da Semana XXVIII do Tempo Comum",
+    "name": "Beata Alexandrina Maria da Costa: Virgindade Preservada",
+    "description": "Celebração litúrgica do dia: Terça-Feira da Semana XXVIII do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/beata-alexandrina-maria-da-costa-virgindade-preservada/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo João (Jo 2,1-11 (Bodas de Caná))",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 11,37-41)",
     "lines": [
-      "Naquele tempo, houve um casamento em Caná da Galileia.",
-      "A mãe de Jesus estava presente.",
-      "Também Jesus e seus discípulos tinham sido convidados para o casamento.",
-      "Como o vinho veio a faltar, a mãe de Jesus lhe disse: Eles não têm mais vinho.",
-      "Jesus respondeu-lhe: Mulher, por que dizes isto a mim?",
-      "Minha hora ainda não chegou. Sua mãe disse aos que estavam servindo: Fazei o que ele vos disser.",
-      "Estavam seis talhas de pedra colocadas aí para a purificação que os judeus costumam fazer."
+      "Naquele tempo, enquanto Jesus falava, um fariseu convidou-o para jantar com ele.",
+      "O fariseu ficou admirado ao ver que Jesus não tivesse lavado as mãos antes da refeição.",
+      "O Senhor disse ao fariseu: Vós fariseus, limpais o copo e o prato por fora, mas o vosso interior está cheio de roubos e maldades.",
+      "Aquele que fez o exterior não fez também o interior?",
+      "Antes, dai esmola do que vós possuís e tudo ficará puro para vós."
     ],
-    "body": "Naquele tempo, 1 houve um casamento em Caná da Galileia. A mãe de Jesus estava presente. 2 Também Jesus e seus discípulos tinham sido convidados para o casamento. 3 Como o vinho veio a faltar, a mãe de Jesus lhe disse: \"Eles não têm mais vinho\". 4 Jesus respondeu-lhe: \"Mulher, por que dizes isto a mim? Minha hora ainda não chegou.\" 5 Sua mãe disse aos que estavam servindo: \"Fazei o que ele vos disser\". 6 Estavam seis talhas de pedra colocadas aí para a purificação que os judeus costumam fazer. Em cada uma delas cabiam mais ou menos cem litros. 7 Jesus disse aos que estavam servindo: \"Enchei as talhas de água\". Encheram-nas até a boca. 8 Jesus disse: \"Agora tirai e levai ao mestre-sala\". E eles levaram. 9 O mestre-sala experimentou a água, que se tinha transformado em vinho. Ele não sabia de onde vinha, mas os que estavam servindo sabiam, pois eram eles que tinham tirado a água. 10 O mestre-sala chamou então o noivo e lhe disse: \"Todo mundo serve primeiro o vinho melhor e, quando os convidados já estão embriagados, serve o vinho menos bom. Mas tu guardaste o vinho melhor até agora!\" 11 Este foi o início dos sinais de Jesus. Ele o realizou em Caná da Galileia e manifestou a sua glória, e seus discípulos creram nele. —",
-    "keyVerse": "Disse a mãe de Jesus aos serventes: &ldquo;Fazei tudo o que Ele disser!&rdquo;."
+    "body": "Naquele tempo, 37 enquanto Jesus falava, um fariseu convidou-o para jantar com ele. Jesus entrou e pôs-se à mesa. 38 O fariseu ficou admirado ao ver que Jesus não tivesse lavado as mãos antes da refeição. 39 O Senhor disse ao fariseu: \"Vós fariseus, limpais o copo e o prato por fora, mas o vosso interior está cheio de roubos e maldades. 40 Insensatos! Aquele que fez o exterior não fez também o interior? 41 Antes, dai esmola do que vós possuís e tudo ficará puro para vós\". —",
+    "keyVerse": "A palavra do Senhor é viva e eficaz: ela julga os pensamentos e as intenções do coração."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +37,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa: uma cultura da tutela em todos ambientes, inclusive nos digitais, deve crescer",
-      "summary": "Uma mensagem de Leão XIV abriu o Seminário-Oficina sobre a proteção de menores e adultos vulneráveis no Vaticano, destinado aos funcionários da Santa Sé. Uma iniciativa organizada pelo Departamento do Trabalho da Sé Apostólica (Ulsa), em.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/papa-leao-xiv-mensagem-seminario-tutela-menores-vaticano-2026.html",
-      "published": "2026-10-12"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-10-13"
     },
     {
       "source": "Vatican News",
-      "title": "Fiéis na Praça São Pedro próximos ao Papa: rezamos por sua saúde, recupere-se logo",
-      "summary": "Ao saberem da notícia da cirurgia no pulmão à qual Leão XIV deverá se submeter nos próximos dias, os peregrinos reagiram com a emoção e a empatia reservadas a um membro da família. Foram muitos os votos de pronta recuperação e as.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/fieis-na-praca-sao-pedro-proximos-ao-papa-11-outubro.html",
-      "published": "2026-10-11"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-10-13"
     },
     {
       "source": "CNBB",
-      "title": "Papa Leão XIV se submeterá a uma cirurgia no pulmão; CNBB enviou mensagem na qual expressa prox",
-      "summary": "O Papa Leão XIV anunciou, ao final do Angelus deste domingo, 11 de outubro, que deverá se submeter a uma cirurgia para retirar um nódulo circunscrito no pulmão. A cirurgia será realizada nos próximos dias no Hospital Policlínico Gemelli.",
-      "url": "https://www.cnbb.org.br/mensagem-da-cnbb-ao-santo-padre/",
-      "published": "2026-10-11"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-10-13"
     },
     {
       "source": "ACI Digital",
-      "title": "Jovens do Líbano, da Síria e do Iraque receberão educação católica graças a Leão XIV",
-      "summary": "O papa Leão XIV enviou fundos para fornecer bolsas de estudo a estudantes cristãos no Líbano, na Síria e no Iraque, para cobrir o custo anual de suas mensalidades escolares e universitárias, disse o Dicastério para as Igrejas Orientais.",
-      "url": "https://www.acidigital.com/noticia/70317/jovens-do-libano-da-siria-e-do-iraque-receberao-educacao-catolica-gracas-a-leao-xiv",
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-10-13"
+    },
+    {
+      "source": "Shalom",
+      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
+      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
+      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "published": "2026-10-13"
+    },
+    {
+      "source": "Shalom",
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-10-13"
+    },
+    {
+      "source": "Aleteia",
+      "title": "A fé que mostra as mãos: o enigma da justificação pelas obras",
+      "summary": "Ao percorrer as páginas do Novo Testamento com o olhar livre de dogmatismos engessados, o leitor atento depara-se com um impasse fascinante que há séculos inquieta teólogos, historiadores e filósofos da cultura. Trata-se da tensão sutil.",
+      "url": "https://pt.aleteia.org/2026/10/12/a-fe-que-mostra-as-maos-o-enigma-da-justificacao-pelas-obras/",
       "published": "2026-10-12"
     },
     {
       "source": "Aleteia",
-      "title": "Cinco mitos sobre a paternidade",
-      "summary": "A paternidade moderna é uma jornada complexa, muitas vezes marcada pela busca de um equilíbrio entre expectativas tradicionais e a realidade atual. Ao longo do caminho, vários mitos enraizados acabam moldando a percepção da sociedade — e.",
-      "url": "https://pt.aleteia.org/2026/10/12/cinco-mitos-sobre-a-paternidade/",
-      "published": "2026-10-12"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Choque em Roma e solidariedade internacional após anúncio da cirurgia de Leão XIV",
-      "summary": "Poucas horas antes da oração do Angelus do pontífice, em 11 de outubro de 2026, as reações de dignitários católicos, bem como de chefes de Estado, se multiplicaram, enquanto na Cúria Romana reina o espanto geral – sem alarmismo. O.",
-      "url": "https://pt.aleteia.org/2026/10/12/choque-em-roma-e-solidariedade-internacional-apos-anuncio-da-cirurgia-de-leao-xiv/",
-      "published": "2026-10-12"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "A crise de fé e a mensagem de Fátima",
-      "summary": "“Ó Imaculado Coração, ajudai-nos a vencer a ameaça do mal, que se enraíza tão facilmente nos corações dos homens de hoje e que, nos seus efeitos incomensuráveis, pesa já sobre a vida presente e parece fechar os caminhos do futuro”.",
-      "url": "https://gaudiumpress.org/content/a-crise-de-fe-e-a-mensagem-de-fatima/",
-      "published": "2026-10-12"
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-10-13"
     }
   ],
   "closingQuote": {
-    "text": "Fazei o que ele vos disser.",
-    "source": "João 2,1-11"
+    "text": "Dai esmola do que vós possuís e tudo ficará puro para vós.",
+    "source": "Lucas 11,37-41"
   },
   "liturgyHours": {
-    "reading": "Exulto de alegria no Senhor e minh’alma regozija-se em meu Deus; ele me vestiu com as vestes da salvação, envolveu-me com o manto da justiça e adornou-me como um noivo com sua coroa, ou uma noiva com suas joias. Assim como a terra faz brotar a...",
+    "reading": "Ó vós todos que estais com sede, vinde às águas; vós que não tendes dinheiro, apressai-vos, vinde e comei, vinde comprar sem dinheiro, tomar vinho e leite sem nenhuma paga.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
