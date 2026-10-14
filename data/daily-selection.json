@@ -1,32 +1,32 @@
 {
-  "date": "2026-10-13",
-  "editionLabel": "13 de outubro de 2026",
+  "date": "2026-10-14",
+  "editionLabel": "14 de outubro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Terça-Feira da Semana XXVIII do Tempo Comum",
+    "celebrationTitle": "São Calisto I, papa e mártir",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 11,37-41"
+    "gospelShort": "Lc 11,42-46"
   },
   "saint": {
-    "feast": "\udfe2 Terça-Feira da Semana XXVIII do Tempo Comum",
-    "name": "Beata Alexandrina Maria da Costa: Virgindade Preservada",
-    "description": "Celebração litúrgica do dia: Terça-Feira da Semana XXVIII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/beata-alexandrina-maria-da-costa-virgindade-preservada/"
+    "feast": "\udd34 [m] São Calisto I\\, papa e mártir",
+    "name": "São Calisto I, Papa criador do cemitério da Via Ápia",
+    "description": "Celebração litúrgica do dia: São Calisto I, papa e mártir.",
+    "url": "https://santo.cancaonova.com/santo/sao-calisto-i-papa-criador-do-cemiterio-da-via-apia/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 11,37-41)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 11,42-46)",
     "lines": [
-      "Naquele tempo, enquanto Jesus falava, um fariseu convidou-o para jantar com ele.",
-      "O fariseu ficou admirado ao ver que Jesus não tivesse lavado as mãos antes da refeição.",
-      "O Senhor disse ao fariseu: Vós fariseus, limpais o copo e o prato por fora, mas o vosso interior está cheio de roubos e maldades.",
-      "Aquele que fez o exterior não fez também o interior?",
-      "Antes, dai esmola do que vós possuís e tudo ficará puro para vós."
+      "Naquele tempo, disse o Senhor: Ai de vós, fariseus, porque pagais o dízimo da hortelã, da arruda e de todas as outras ervas, mas deixais de lado a justiça e o amor de Deus.",
+      "Vós deveríeis praticar isso, sem deixar de lado aquilo.",
+      "Ai de vós, fariseus, porque gostais do lugar de honra nas sinagogas, e de serdes cumprimentados nas praças públicas.",
+      "Aí de vós, porque sois como túmulos que não se veem, sobre os quais os homens andam sem saber.",
+      "Um mestre da Lei tomou a palavra e disse: Mestre, falando assim, insultas-nos também a nós! Jesus respondeu: Ai de vós também, mestres da Lei, porque colocais sobre os homens cargas insuportáveis, e vós mesmos não tocais nessas cargas, nem com um só dedo."
     ],
-    "body": "Naquele tempo, 37 enquanto Jesus falava, um fariseu convidou-o para jantar com ele. Jesus entrou e pôs-se à mesa. 38 O fariseu ficou admirado ao ver que Jesus não tivesse lavado as mãos antes da refeição. 39 O Senhor disse ao fariseu: \"Vós fariseus, limpais o copo e o prato por fora, mas o vosso interior está cheio de roubos e maldades. 40 Insensatos! Aquele que fez o exterior não fez também o interior? 41 Antes, dai esmola do que vós possuís e tudo ficará puro para vós\". —",
-    "keyVerse": "A palavra do Senhor é viva e eficaz: ela julga os pensamentos e as intenções do coração."
+    "body": "Naquele tempo, disse o Senhor: 42 \"Ai de vós, fariseus, porque pagais o dízimo da hortelã, da arruda e de todas as outras ervas, mas deixais de lado a justiça e o amor de Deus. Vós deveríeis praticar isso, sem deixar de lado aquilo. 43 Ai de vós, fariseus, porque gostais do lugar de honra nas sinagogas, e de serdes cumprimentados nas praças públicas. 44 Aí de vós, porque sois como túmulos que não se veem, sobre os quais os homens andam sem saber\". 45 Um mestre da Lei tomou a palavra e disse: \"Mestre, falando assim, insultas-nos também a nós!\" 46 Jesus respondeu: \"Ai de vós também, mestres da Lei, porque colocais sobre os homens cargas insuportáveis, e vós mesmos não tocais nessas cargas, nem com um só dedo\". —",
+    "keyVerse": "Minhas ovelhas escutam minha voz, eu as conheço e elas me seguem."
   },
   "sponsor": {
     "enabled": true,
@@ -37,67 +37,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
-      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "title": "Rezando pela saúde do Papa Leão XIV",
+      "summary": "Um terço rezado na capela do Hospital Gemelli, conduzido pelo vigário do Papa para a Diocese de Roma, cardeal Baldo Reina, transmitido ao vivo pela Rádio Vaticano; orações das comunidades agostinianas e nas igrejas espalhadas pelo mundo;.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-oracao-saude-terco-gemelli.html",
       "published": "2026-10-13"
     },
     {
       "source": "Vatican News",
-      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
-      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "title": "Amoris laetitia, as famílias cristãs, comunidades profundas de vida e amor",
+      "summary": "Do encontro em comemoração aos dez anos da exortação apostólica, mensagem de felicitações ao Papa por “uma rápida recuperação”. No último dia de trabalhos, o testemunho do cardeal Rugambwa: na África Oriental, as paróquias se transformam.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/amoris-laetitia-familias-cristas-comunidades-profundas-vaticano.html",
       "published": "2026-10-13"
     },
     {
       "source": "CNBB",
-      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
-      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
-      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "title": "A semelhança das coisas ganha destaque na Igreja",
+      "summary": "Dom Lindomar Rocha Mota Bispo de São Luís de Montes Belos (GO) Tudo o que pertence a uma mesma época acaba, de algum modo, por se parecer, segundo Marcel Proust. Há uma familiaridade entre coisas aparentemente distantes quando nasceram.",
+      "url": "https://www.cnbb.org.br/a-semelhanca-das-coisas/",
+      "published": "2026-10-13"
+    },
+    {
+      "source": "CNBB",
+      "title": "e CRB avançam na elaboração de projeto formativo para fortalecer políticas de proteção na Igrej",
+      "summary": "Entre os principais encaminhamentos do encontro, segundo o secretário-geral da CNBB, dom Ricardo Hoepers, está a realização de um mapeamento das necessidades dos regionais e das estruturas de proteção existentes no país. O levantamento.",
+      "url": "https://www.cnbb.org.br/cnbb-e-crb-avancam-na-elaboracao-de-projeto-formativo-para-fortalecer-politicas-de-protecao-na-igreja/",
       "published": "2026-10-13"
     },
     {
       "source": "ACI Digital",
-      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
-      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
-      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "title": "O Evangelho não nos autoriza a odiar quem pensa diferente, diz arcebispo de Aparecida",
+      "summary": "“O Evangelho, queridos irmãos e irmãs, não nos autoriza a odiar quem pensa diferente, e nem a matar os inimigos”, disse o arcebispo de Aparecida (SP), dom Mário Antônio da Silva, ontem (12), na homilia da missa solene de Nossa Senhora.",
+      "url": "https://www.acidigital.com/noticia/70335/o-evangelho-nao-nos-autoriza-a-odiar-quem-pensa-diferente-diz-arcebispo-de-aparecida",
       "published": "2026-10-13"
     },
     {
-      "source": "Shalom",
-      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
-      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
-      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
-      "published": "2026-10-13"
-    },
-    {
-      "source": "Shalom",
-      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
-      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
-      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "source": "ACI Digital",
+      "title": "é celebrada a beata Alexandrina da Costa, que viveu a paixão de Cristo",
+      "summary": "“Queres me encontrar, minha filha? Busca-me em teu coração e em tua alma, aí habito teu coração como em meu tabernáculo. Se soubesses o quanto me consolas e o quanto socorres os pecadores só ao dizer-me que eres minha vítima”, disse uma.",
+      "url": "https://www.acidigital.com/noticia/70319/beata-alexandrina-da-costa-que-viveu-a-paixao-de-cristo",
       "published": "2026-10-13"
     },
     {
       "source": "Aleteia",
-      "title": "A fé que mostra as mãos: o enigma da justificação pelas obras",
-      "summary": "Ao percorrer as páginas do Novo Testamento com o olhar livre de dogmatismos engessados, o leitor atento depara-se com um impasse fascinante que há séculos inquieta teólogos, historiadores e filósofos da cultura. Trata-se da tensão sutil.",
-      "url": "https://pt.aleteia.org/2026/10/12/a-fe-que-mostra-as-maos-o-enigma-da-justificacao-pelas-obras/",
-      "published": "2026-10-12"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
-      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
-      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "title": "A trajetória de Duda, a jovem que transformou o próprio sofrimento em um farol de fé",
+      "summary": "Existe uma linha tênue e invisível que separa o sofrimento humano da pura transcendência espiritual. É uma fronteira de silêncio, onde a medicina baixa a guarda de seus diagnósticos frios, os prognósticos desabam e o que realmente resta é.",
+      "url": "https://pt.aleteia.org/2026/10/13/a-trajetoria-de-duda-a-jovem-que-transformou-o-proprio-sofrimento-em-um-farol-de-fe/",
       "published": "2026-10-13"
     }
   ],
   "closingQuote": {
-    "text": "Dai esmola do que vós possuís e tudo ficará puro para vós.",
-    "source": "Lucas 11,37-41"
+    "text": "Aí de vós, fariseus; ai de vós também, mestres da Lei.",
+    "source": "Lucas 11,42-46"
   },
   "liturgyHours": {
-    "reading": "Ó vós todos que estais com sede, vinde às águas; vós que não tendes dinheiro, apressai-vos, vinde e comei, vinde comprar sem dinheiro, tomar vinho e leite sem nenhuma paga.",
+    "reading": "Reconhece, hoje, e grava-o em teu coração, que o Senhor é o Deus lá em cima no céu e cá embaixo na terra, e que não há outro além dele. Guarda suas leis e seus mandamentos que hoje te prescrevo.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
