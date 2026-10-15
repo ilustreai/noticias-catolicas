@@ -1,32 +1,34 @@
 {
-  "date": "2026-10-14",
-  "editionLabel": "14 de outubro de 2026",
+  "date": "2026-10-15",
+  "editionLabel": "15 de outubro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Calisto I, papa e mártir",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Lc 11,42-46"
+    "celebrationTitle": "Santa Teresa de Jesus, virgem e doutor da Igreja",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Lc 11,47-54"
   },
   "saint": {
-    "feast": "\udd34 [m] São Calisto I\\, papa e mártir",
-    "name": "São Calisto I, Papa criador do cemitério da Via Ápia",
-    "description": "Celebração litúrgica do dia: São Calisto I, papa e mártir.",
-    "url": "https://santo.cancaonova.com/santo/sao-calisto-i-papa-criador-do-cemiterio-da-via-apia/"
+    "feast": "Santa Teresa de Jesus\\, virgem e doutor da Igreja",
+    "name": "Santa Teresa d’Ávila, a grande doutora da oração",
+    "description": "Celebração litúrgica do dia: Santa Teresa de Jesus, virgem e doutor da Igreja.",
+    "url": "https://santo.cancaonova.com/santo/santa-teresa-davila-a-grande-doutora-da-oracao/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 11,42-46)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 11,47-54)",
     "lines": [
-      "Naquele tempo, disse o Senhor: Ai de vós, fariseus, porque pagais o dízimo da hortelã, da arruda e de todas as outras ervas, mas deixais de lado a justiça e o amor de Deus.",
-      "Vós deveríeis praticar isso, sem deixar de lado aquilo.",
-      "Ai de vós, fariseus, porque gostais do lugar de honra nas sinagogas, e de serdes cumprimentados nas praças públicas.",
-      "Aí de vós, porque sois como túmulos que não se veem, sobre os quais os homens andam sem saber.",
-      "Um mestre da Lei tomou a palavra e disse: Mestre, falando assim, insultas-nos também a nós! Jesus respondeu: Ai de vós também, mestres da Lei, porque colocais sobre os homens cargas insuportáveis, e vós mesmos não tocais nessas cargas, nem com um só dedo."
+      "Naquele tempo, disse o Senhor: Ai de vós, porque construís os túmulos dos profetas; no entanto, foram vossos pais que os mataram.",
+      "Com isso, vós sois testemunhas e aprovais as obras de vossos pais, pois eles mataram os profetas e vós construís os túmulos.",
+      "&Eacute; por isso que a sabedoria de Deus afirmou: Eu lhes enviarei profetas e apóstolos, e eles matarão e perseguirão alguns deles, a fim de que se peçam contas a esta geração do sangue de todos os profetas, derramado desde a criação do mundo, desde o sangue de Abel até o sangue de Zacarias, que foi morto entre o altar e o santuário.",
+      "Sim, eu vos digo: serão pedidas contas disso a esta geração.",
+      "Ai de vós, mestres da Lei, porque tomastes a chave da ciência.",
+      "Vós mesmos não entrastes, e ainda impedistes os que queriam entrar.",
+      "Quando Jesus saiu daí, os mestres da Lei e os fariseus começaram a tratá-lo mal, e a provocá-lo sobre muitos pontos."
     ],
-    "body": "Naquele tempo, disse o Senhor: 42 \"Ai de vós, fariseus, porque pagais o dízimo da hortelã, da arruda e de todas as outras ervas, mas deixais de lado a justiça e o amor de Deus. Vós deveríeis praticar isso, sem deixar de lado aquilo. 43 Ai de vós, fariseus, porque gostais do lugar de honra nas sinagogas, e de serdes cumprimentados nas praças públicas. 44 Aí de vós, porque sois como túmulos que não se veem, sobre os quais os homens andam sem saber\". 45 Um mestre da Lei tomou a palavra e disse: \"Mestre, falando assim, insultas-nos também a nós!\" 46 Jesus respondeu: \"Ai de vós também, mestres da Lei, porque colocais sobre os homens cargas insuportáveis, e vós mesmos não tocais nessas cargas, nem com um só dedo\". —",
-    "keyVerse": "Minhas ovelhas escutam minha voz, eu as conheço e elas me seguem."
+    "body": "Naquele tempo, disse o Senhor: 47 \"Ai de vós, porque construís os túmulos dos profetas; no entanto, foram vossos pais que os mataram. 48 Com isso, vós sois testemunhas e aprovais as obras de vossos pais, pois eles mataram os profetas e vós construís os túmulos. 49 &Eacute; por isso que a sabedoria de Deus afirmou: Eu lhes enviarei profetas e apóstolos, e eles matarão e perseguirão alguns deles, 50 a fim de que se peçam contas a esta geração do sangue de todos os profetas, derramado desde a criação do mundo, 51 desde o sangue de Abel até o sangue de Zacarias, que foi morto entre o altar e o santuário. Sim, eu vos digo: serão pedidas contas disso a esta geração. 52 Ai de vós, mestres da Lei, porque tomastes a chave da ciência. Vós mesmos não entrastes, e ainda impedistes os que queriam entrar\". 53 Quando Jesus saiu daí, os mestres da Lei e os fariseus começaram a tratá-lo mal, e a provocá-lo sobre muitos pontos. 54 Armavam ciladas, para pegá-lo de surpresa, por qualquer palavra que saísse de sua boca. —",
+    "keyVerse": "Sou o Caminho, a Verdade e a Vida, ninguém vem ao Pai, senão por mim."
   },
   "sponsor": {
     "enabled": true,
@@ -37,60 +39,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Francisco Nhampossa: “Com sua encíclica o Papa Leão reforça o diálogo e promove a paz”",
-      "summary": "Com a sua Carta Encíclica Magnifica Humanitas (MH), o Papa Leão XIV reforça o compromisso da Igreja com o diálogo nacional e internacional dos povos e nações, com a manutenção da paz e a redução das guerras, disse aos media do Vaticano.",
-      "url": "https://www.vaticannews.va/pt/africa/news/2026-10/igreja-papa-magnifica-humanitas-dialogo-paz-direitos-humanos.html",
-      "published": "2026-10-14"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-10-15"
     },
     {
       "source": "Vatican News",
-      "title": "Papa Leão: mesmo ferida, uma família pode sempre crescer a partir do amor",
-      "summary": "A homilia preparada pelo Papa Leão XIV foi lida pelo cardeal Tagle, que presidiu a missa desta manhã na Praça São Pedro, concluindo o encontro que marcou o 10° aniversário da publicação da Exortação Apostólica Amoris laetitia. Foram.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/missa-encontro-amoris-laetitia-papa-leao-cardeal-tagle.html",
-      "published": "2026-10-14"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-10-15"
     },
     {
       "source": "CNBB",
-      "title": "Secretário Geral celebra os 74 anos da CNBB a serviço da Igreja, do Povo de Deus e da evangeliz",
-      "summary": "O bispo auxiliar de Brasília e secretário-geral da Conferência Nacional dos Bispos do Brasil (CNBB), dom Ricardo Hoepers, celebra em vídeo, o aniversário de 74 anos da Conferência neste dia 14 de outubro de 2026. O secretário-geral.",
-      "url": "https://www.cnbb.org.br/dom-ricardo-celebra-os-74-anos-da-cnbb-a-servico-da-igreja/",
-      "published": "2026-10-14"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-10-15"
     },
     {
       "source": "ACI Digital",
-      "title": "Padres de Goiás repudiam ofensas de apoiador de Lula a dom Adair, chamado de “demônio” em vídeo",
-      "summary": "Sacerdotes do clero de Formosa (GO) que atuam em seis municípios goianos manifestaram hoje (14), por meio de nota, repúdio aos “indignos ataques, calúnias e mentiras dirigidas contra” seu bispo, dom Adair José Guimarães, feitos por um.",
-      "url": "https://www.acidigital.com/noticia/70371/padres-de-goias-repudiam-ofensas-de-apoiador-de-lula-a-dom-adair-chamado-de-demonio-em-video",
-      "published": "2026-10-14"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-10-15"
     },
     {
-      "source": "ACI Digital",
-      "title": "O Evangelho não nos autoriza a odiar quem pensa diferente, diz arcebispo de Aparecida",
-      "summary": "“O Evangelho, queridos irmãos e irmãs, não nos autoriza a odiar quem pensa diferente, e nem a matar os inimigos”, disse o arcebispo de Aparecida (SP), dom Mário Antônio da Silva, ontem (12), na homilia da missa solene de Nossa Senhora.",
-      "url": "https://www.acidigital.com/noticia/70335/o-evangelho-nao-nos-autoriza-a-odiar-quem-pensa-diferente-diz-arcebispo-de-aparecida",
-      "published": "2026-10-13"
+      "source": "Shalom",
+      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
+      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
+      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "published": "2026-10-15"
+    },
+    {
+      "source": "Shalom",
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-10-15"
     },
     {
       "source": "Aleteia",
-      "title": "[FOTOS] Através das cores de Carlo Acutis: os lugares que focam na vida",
-      "summary": "Quais são os lugares emblemáticos da vida de Carlo Acutis? Que muros, que ruas, que igrejas viram crescer este jovem canonizado no ano passado? É fácil imaginar os santos em cenários simples, um pouco difusos, como se a sua história.",
-      "url": "https://pt.aleteia.org/2026/10/14/fotos-atraves-das-cores-de-carlo-acutis-os-lugares-que-focam-na-vida/",
-      "published": "2026-10-14"
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-10-15"
     },
     {
-      "source": "Aleteia",
-      "title": "Seu filho te bate quando faz birra? Saiba o que fazer",
-      "summary": "Durante a fase de desenvolvimento, é normal que as crianças ainda não saibam exatamente como regular suas emoções, podendo bater ou morder quando se sentem frustradas e incompreendidas. No entanto, até que ponto devemos permitir essas.",
-      "url": "https://pt.aleteia.org/2026/10/14/seu-filho-te-bate-quando-faz-birra-saiba-o-que-fazer/",
+      "source": "Gaudium Press",
+      "title": "Dom Wellington de Queiroz é nomeado Arcebispo de Cuiabá (MT)",
+      "summary": "O prelado de 58 anos é o primeiro Bispo nascido no Tocantins a ser ordenado e destinado para o trabalho pastoral no próprio estado.",
+      "url": "https://gaudiumpress.org/content/dom-wellington-de-queiroz-e-nomeado-arcebispo-de-cuiaba-mt/",
       "published": "2026-10-14"
     }
   ],
   "closingQuote": {
-    "text": "Aí de vós, fariseus; ai de vós também, mestres da Lei.",
-    "source": "Lucas 11,42-46"
+    "text": "Nada te perturbe, nada te amedronte.",
+    "source": "Santa Teresa d'Ávila"
   },
   "liturgyHours": {
-    "reading": "Reconhece, hoje, e grava-o em teu coração, que o Senhor é o Deus lá em cima no céu e cá embaixo na terra, e que não há outro além dele. Guarda suas leis e seus mandamentos que hoje te prescrevo.",
+    "reading": "Águas torrenciais jamais apagarão o amor, nem rios poderão afogá-lo. Se alguém oferecesse todas as riquezas de sua casa para comprar o amor, seria tratado com desprezo.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
