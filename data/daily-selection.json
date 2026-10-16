@@ -1,34 +1,34 @@
 {
-  "date": "2026-10-15",
-  "editionLabel": "15 de outubro de 2026",
+  "date": "2026-10-16",
+  "editionLabel": "16 de outubro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santa Teresa de Jesus, virgem e doutor da Igreja",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Lc 11,47-54"
+    "celebrationTitle": "Santa Hedwiges, religiosa",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 12,1-7"
   },
   "saint": {
-    "feast": "Santa Teresa de Jesus\\, virgem e doutor da Igreja",
-    "name": "Santa Teresa d’Ávila, a grande doutora da oração",
-    "description": "Celebração litúrgica do dia: Santa Teresa de Jesus, virgem e doutor da Igreja.",
-    "url": "https://santo.cancaonova.com/santo/santa-teresa-davila-a-grande-doutora-da-oracao/"
+    "feast": "Santa Hedwiges\\, religiosa",
+    "name": "Santa Margarida Maria Alacoque, Apóstola do Coração de Jesus",
+    "description": "Celebração litúrgica do dia: Santa Hedwiges, religiosa.",
+    "url": "https://santo.cancaonova.com/santo/santa-margarida-maria-alacoque-apostola-do-coracao-de-jesus/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 11,47-54)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 12,1-7)",
     "lines": [
-      "Naquele tempo, disse o Senhor: Ai de vós, porque construís os túmulos dos profetas; no entanto, foram vossos pais que os mataram.",
-      "Com isso, vós sois testemunhas e aprovais as obras de vossos pais, pois eles mataram os profetas e vós construís os túmulos.",
-      "&Eacute; por isso que a sabedoria de Deus afirmou: Eu lhes enviarei profetas e apóstolos, e eles matarão e perseguirão alguns deles, a fim de que se peçam contas a esta geração do sangue de todos os profetas, derramado desde a criação do mundo, desde o sangue de Abel até o sangue de Zacarias, que foi morto entre o altar e o santuário.",
-      "Sim, eu vos digo: serão pedidas contas disso a esta geração.",
-      "Ai de vós, mestres da Lei, porque tomastes a chave da ciência.",
-      "Vós mesmos não entrastes, e ainda impedistes os que queriam entrar.",
-      "Quando Jesus saiu daí, os mestres da Lei e os fariseus começaram a tratá-lo mal, e a provocá-lo sobre muitos pontos."
+      "Naquele tempo, milhares de pessoas se reuniram, a ponto de uns pisarem os outros.",
+      "Jesus começou a falar, primeiro a seus discípulos: Tomai cuidado com o fermento dos fariseus, que é a hipocrisia.",
+      "Não há nada de escondido, que não venha a ser revelado, e não há nada de oculto que não venha a ser conhecido.",
+      "Portanto, tudo o que tiverdes dito na escuridão, será ouvido à luz do dia; e o que tiverdes pronunciado ao pé do ouvido, no quarto, será proclamado sobre os telhados.",
+      "Pois bem, meus amigos, eu vos digo: não tenhais medo daqueles que matam o corpo, não podendo fazer mais do que isto.",
+      "Vou mostrar-vos a quem deveis temer: temei aquele que, depois de tirar a vida, tem o poder de lançar-vos no inferno.",
+      "Sim, eu vos digo, a este temei."
     ],
-    "body": "Naquele tempo, disse o Senhor: 47 \"Ai de vós, porque construís os túmulos dos profetas; no entanto, foram vossos pais que os mataram. 48 Com isso, vós sois testemunhas e aprovais as obras de vossos pais, pois eles mataram os profetas e vós construís os túmulos. 49 &Eacute; por isso que a sabedoria de Deus afirmou: Eu lhes enviarei profetas e apóstolos, e eles matarão e perseguirão alguns deles, 50 a fim de que se peçam contas a esta geração do sangue de todos os profetas, derramado desde a criação do mundo, 51 desde o sangue de Abel até o sangue de Zacarias, que foi morto entre o altar e o santuário. Sim, eu vos digo: serão pedidas contas disso a esta geração. 52 Ai de vós, mestres da Lei, porque tomastes a chave da ciência. Vós mesmos não entrastes, e ainda impedistes os que queriam entrar\". 53 Quando Jesus saiu daí, os mestres da Lei e os fariseus começaram a tratá-lo mal, e a provocá-lo sobre muitos pontos. 54 Armavam ciladas, para pegá-lo de surpresa, por qualquer palavra que saísse de sua boca. —",
-    "keyVerse": "Sou o Caminho, a Verdade e a Vida, ninguém vem ao Pai, senão por mim."
+    "body": "Naquele tempo, 1 milhares de pessoas se reuniram, a ponto de uns pisarem os outros. Jesus começou a falar, primeiro a seus discípulos: \"Tomai cuidado com o fermento dos fariseus, que é a hipocrisia. 2 Não há nada de escondido, que não venha a ser revelado, e não há nada de oculto que não venha a ser conhecido. 3 Portanto, tudo o que tiverdes dito na escuridão, será ouvido à luz do dia; e o que tiverdes pronunciado ao pé do ouvido, no quarto, será proclamado sobre os telhados. 4 Pois bem, meus amigos, eu vos digo: não tenhais medo daqueles que matam o corpo, não podendo fazer mais do que isto. 5 Vou mostrar-vos a quem deveis temer: temei aquele que, depois de tirar a vida, tem o poder de lançar-vos no inferno. Sim, eu vos digo, a este temei. 6 Não se vendem cinco pardais por uma pequena quantia? No entanto, nenhum deles é esquecido por Deus. 7 Até mesmo os cabelos de vossa cabeça estão todos contados. Não tenhais medo! Vós valeis mais do que muitos pardais\". —",
+    "keyVerse": "Sobre nós venha, Senhor, a vossa graça, da mesma forma que em vós nós esperamos!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Do Vaticano à contribuição das Igrejas locais: brasileiro aprofunda experiência da sexualidade",
-      "summary": "O aniversário de 10 anos da Exortação Apostólica Amoris laetitia, do Papa Francisco, acaba de ser lembrado no Vaticano com um encontro internacional que desafiou a Igreja a acompanhar os jovens e as famílias na busca por uma vocação.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-10/pe-maicon-malacarne-phd-teologia-moral-identidade-sexualidade-26.html",
+      "title": "Moçambique. Jovens da paróquia Santa Cruz em Nampula rezam pelo Papa Leão",
+      "summary": "Os jovens da Paróquia Santa Cruz, na Arquidiocese de Nampula (norte de Moçambique) realizaram, esta quarta-feira, 14 de outubro, uma vigília de oração pela recuperação do Papa Leão XIV, um dia depois de o Santo Padre ter sido submetido a.",
+      "url": "https://www.vaticannews.va/pt/africa/news/2026-10/igreja-mocambique-jovens-saude-papa-leao-oracao-paz.html",
       "published": "2026-10-15"
     },
     {
       "source": "Vatican News",
-      "title": "Cardeal Scherer: Unidos em Cristo, participando da missão",
-      "summary": "O Papa Leão XIV, na sua mensagem para o 100º Dia Mundial das Missões, destaca isso: se quisermos que o trabalho missionário da Igreja produza frutos ainda em nossos dias, precisamos estar em comunhão com Cristo e em comunhão eclesial.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-10/cardeal-scherer-unidos-cristo-participando-missao.html",
+      "title": "Encontro de Amoris laetitia: buscar \"novas respostas para novas perguntas\"",
+      "summary": "Padre Costa na coletiva com os jornalistas na Sala de Imprensa da Santa Sé, ao término dos trabalhos por ocasião do aniversário de 10 anos da Exortação Apostólica do Papa Francisco: as famílias não devem se limitar a “relações íntimas”.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/encontro-internacional-amoris-laetitia-encerramento-respostas-26.html",
       "published": "2026-10-15"
     },
     {
       "source": "CNBB",
-      "title": "7º Congresso Americano Missionário (CAM7): lançados a identidade visual e um triênio preparatór",
-      "summary": "O evento será realizado na arquidiocese de Curitiba (PR), de 14 a 18 de novembro de 2029, com o tema: “América em saída: povo de Deus que anuncia e testemunha Jesus Cristo”. Nesse caminho até o evento, foi lançada a identidade visual do.",
-      "url": "https://www.cnbb.org.br/7o-congresso-americano-missionario-cam7-identidade-visual-trienio-preparatorio/",
+      "title": "Dom Paulo Andreolli é nomeado bispo da diocese de Ponta de Pedras, no Pará",
+      "summary": "Dom Paulo é italiano, missionário Xaveriano e vem dedicando grande parte de sua vida ao trabalho pastoral, missionário e vocacional, com forte presença no Brasil, especialmente no estado do Pará. A Conferência Nacional dos Bispos do.",
+      "url": "https://www.cnbb.org.br/1007128-2/",
       "published": "2026-10-15"
     },
     {
       "source": "CNBB",
-      "title": "Amar a Deus de todo o seu coração, de toda a sua alma e de todo o teu entendimento!",
-      "summary": "Cardeal Orani João Tempesta Arcebispo do Rio de Janeiro (RJ) Amar a Deus de todo o seu coração, de toda a sua alma e de todo o teu entendimento! E amarás o teu próximo como a ti mesmo! Sob as bênçãos de Deus seguimos firmes na celebração.",
-      "url": "https://www.cnbb.org.br/amar-a-deus-de-todo-o-seu-coracao-de-toda-a-sua-alma-e-de-todo-o-teu-entendimento/",
+      "title": "Educar é acreditar que o futuro ainda pode ser diferente",
+      "summary": "Dom Leomar Antônio Brustolin Arcebispo de Santa Maria (RS) Poucas missões exigem tanta esperança quanto educar. O agricultor lança a semente esperando a colheita; o educador, porém, semeia no terreno sagrado da liberdade humana. Ensina,.",
+      "url": "https://www.cnbb.org.br/educar-e-acreditar-que-o-futuro-ainda-pode-ser-diferente/",
       "published": "2026-10-15"
     },
     {
       "source": "ACI Digital",
-      "title": "Divergências políticas não justificam ofensas, diz dom Adair ao agradecer apoio de padres diant",
-      "summary": "“A diversidade de opiniões, inclusive no campo político, jamais deve converter-se em licença para injuriar, difamar ou ferir a dignidade de quem quer que seja”, disse o bispo de Formosa, dom Adair José Guimarães, ontem (14) em nota de.",
-      "url": "https://www.acidigital.com/noticia/70389/divergencias-politicas-nao-justificam-ofensas-diz-dom-adair-ao-agradecer-apoio-de-padres-diante",
-      "published": "2026-10-15"
+      "title": "começa a novena a santo Antônio de Sant’Anna Galvão",
+      "summary": "“Fervoroso adorador da Eucaristia, de prudente e sábio orientador das almas que o procuravam e de grande devoto da Imaculada Conceição de Maria, de quem ele se considerava ‘filho e perpétuo escravo’”, assim Bento XVI definiu santo Antônio de Sant’Anna Galvão, na missa de sua canonização em 11 de maio de 2007. A poucos dias da festa do também chamado são Frei Galvão, apresentamos uma novena publicada pelo portal Canção Nova, em honra do primeiro santo brasileiro....",
+      "url": "https://www.acidigital.com/noticia/70399/hoje-comeca-a-novena-a-santo-antonio-de-santanna-galvao",
+      "published": "2026-10-16"
     },
     {
       "source": "Aleteia",
-      "title": "[FOTOS] Através das cores de Carlo Acutis: os lugares que focam na vida",
-      "summary": "Quais são os lugares emblemáticos da vida de Carlo Acutis? Que muros, que ruas, que igrejas viram crescer este jovem canonizado no ano passado? É fácil imaginar os santos em cenários simples, um pouco difusos, como se a sua história.",
-      "url": "https://pt.aleteia.org/2026/10/14/fotos-atraves-das-cores-de-carlo-acutis-os-lugares-que-focam-na-vida/",
-      "published": "2026-10-14"
+      "title": "Gemas de ovo de Santa Teresa, uma doce delícia para a festa de Santa Teresa de Ávila",
+      "summary": "Reformadora carmelita, mestra da oração, Doutora da Igreja… Há muitas razões para honrar Santa Teresa de Ávila. Há mais de um século, seus compatriotas escolheram a maneira mais humilde possível de expressar sua devoção à sua grande.",
+      "url": "https://pt.aleteia.org/2026/10/15/gemas-de-ovo-de-santa-teresa-uma-doce-delicia-para-a-festa-de-santa-teresa-de-avila/",
+      "published": "2026-10-15"
     },
     {
       "source": "Gaudium Press",
-      "title": "Relíquia de São Francisco de Assis peregrina por comunidades católicas nas Filipinas",
-      "summary": "A iniciativa, que faz parte do Ano Jubilar Franciscano, levou a relíquia do \"Pobre de Assis\" a comunidades locais, promovendo momentos de Fé, Novenas e Celebrações Eucarísticas.",
-      "url": "https://gaudiumpress.org/content/reliquia-de-sao-francisco-de-assis-peregrina-por-comunidades-catolicas-nas-filipinas/",
+      "title": "A doença de Leão XIV e as incertezas de um pontificado que apenas começou",
+      "summary": "O diagnóstico de câncer pulmonar do Pontífice surpreendeu a Cúria Romana, provocou uma manifestação incomum de preocupação do Cardeal Pietro Parolin e lançou dúvidas sobre as próximas viagens apostólicas. Entre a esperança de uma.",
+      "url": "https://gaudiumpress.org/content/a-doenca-de-leao-xiv-e-as-incertezas-de-um-pontificado-que-apenas-comecou/",
       "published": "2026-10-15"
     }
   ],
   "closingQuote": {
-    "text": "Nada te perturbe, nada te amedronte.",
-    "source": "Santa Teresa d'Ávila"
+    "text": "Os cabelos de vossa cabeça estão todos contados.",
+    "source": "Lucas 12,1-7"
   },
   "liturgyHours": {
-    "reading": "Águas torrenciais jamais apagarão o amor, nem rios poderão afogá-lo. Se alguém oferecesse todas as riquezas de sua casa para comprar o amor, seria tratado com desprezo.",
+    "reading": "Com Cristo, eu fui pregado na cruz. Eu vivo, mas não eu, é Cristo que vive em mim. Esta minha vida presente, na carne, eu a vivo na fé, crendo no Filho de Deus, que me amou e por mim se entregou.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
