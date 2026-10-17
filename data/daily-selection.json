@@ -1,34 +1,33 @@
 {
-  "date": "2026-10-16",
-  "editionLabel": "16 de outubro de 2026",
+  "date": "2026-10-17",
+  "editionLabel": "17 de outubro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santa Hedwiges, religiosa",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Lc 12,1-7"
+    "celebrationTitle": "Santo Inácio de Antioquia, bispo e mártir",
+    "colorName": "vermelho",
+    "cssColor": "#C62828",
+    "gospelShort": "Lc 12,8-12"
   },
   "saint": {
-    "feast": "Santa Hedwiges\\, religiosa",
-    "name": "Santa Margarida Maria Alacoque, Apóstola do Coração de Jesus",
-    "description": "Celebração litúrgica do dia: Santa Hedwiges, religiosa.",
-    "url": "https://santo.cancaonova.com/santo/santa-margarida-maria-alacoque-apostola-do-coracao-de-jesus/"
+    "feast": "\udd34 [M] Santo Inácio de Antioquia\\, bispo e mártir",
+    "name": "Santo Inácio de Antioquia, o bispo perseguido e jogado às feras",
+    "description": "Celebração litúrgica do dia: Santo Inácio de Antioquia, bispo e mártir.",
+    "url": "https://santo.cancaonova.com/santo/santo-inacio-de-antioquia-o-bispo-perseguido-e-jogado-as-feras/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 12,1-7)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 12,8-12)",
     "lines": [
-      "Naquele tempo, milhares de pessoas se reuniram, a ponto de uns pisarem os outros.",
-      "Jesus começou a falar, primeiro a seus discípulos: Tomai cuidado com o fermento dos fariseus, que é a hipocrisia.",
-      "Não há nada de escondido, que não venha a ser revelado, e não há nada de oculto que não venha a ser conhecido.",
-      "Portanto, tudo o que tiverdes dito na escuridão, será ouvido à luz do dia; e o que tiverdes pronunciado ao pé do ouvido, no quarto, será proclamado sobre os telhados.",
-      "Pois bem, meus amigos, eu vos digo: não tenhais medo daqueles que matam o corpo, não podendo fazer mais do que isto.",
-      "Vou mostrar-vos a quem deveis temer: temei aquele que, depois de tirar a vida, tem o poder de lançar-vos no inferno.",
-      "Sim, eu vos digo, a este temei."
+      "Naquele tempo, disse Jesus aos seus discípulos: Todo aquele que der testemunho de mim diante dos homens, o Filho do Homem também dará testemunho dele diante dos anjos de Deus.",
+      "Mas aquele que me renegar diante dos homens, será negado diante dos anjos de Deus.",
+      "Todo aquele que disser alguma coisa contra o Filho do Homem será perdoado.",
+      "Mas quem blasfemar contra o Espírito Santo não será perdoado.",
+      "Quando vos conduzirem diante das sinagogas, magistrados e autoridades, não fiqueis preocupados como ou com que vos defendereis, ou com o que direis.",
+      "Pois nessa hora o Espírito Santo vos ensinará o que deveis dizer."
     ],
-    "body": "Naquele tempo, 1 milhares de pessoas se reuniram, a ponto de uns pisarem os outros. Jesus começou a falar, primeiro a seus discípulos: \"Tomai cuidado com o fermento dos fariseus, que é a hipocrisia. 2 Não há nada de escondido, que não venha a ser revelado, e não há nada de oculto que não venha a ser conhecido. 3 Portanto, tudo o que tiverdes dito na escuridão, será ouvido à luz do dia; e o que tiverdes pronunciado ao pé do ouvido, no quarto, será proclamado sobre os telhados. 4 Pois bem, meus amigos, eu vos digo: não tenhais medo daqueles que matam o corpo, não podendo fazer mais do que isto. 5 Vou mostrar-vos a quem deveis temer: temei aquele que, depois de tirar a vida, tem o poder de lançar-vos no inferno. Sim, eu vos digo, a este temei. 6 Não se vendem cinco pardais por uma pequena quantia? No entanto, nenhum deles é esquecido por Deus. 7 Até mesmo os cabelos de vossa cabeça estão todos contados. Não tenhais medo! Vós valeis mais do que muitos pardais\". —",
-    "keyVerse": "Sobre nós venha, Senhor, a vossa graça, da mesma forma que em vós nós esperamos!"
+    "body": "Naquele tempo, disse Jesus aos seus discípulos: 8 \"Todo aquele que der testemunho de mim diante dos homens, o Filho do Homem também dará testemunho dele diante dos anjos de Deus. 9 Mas aquele que me renegar diante dos homens, será negado diante dos anjos de Deus. 10 Todo aquele que disser alguma coisa contra o Filho do Homem será perdoado. Mas quem blasfemar contra o Espírito Santo não será perdoado. 11 Quando vos conduzirem diante das sinagogas, magistrados e autoridades, não fiqueis preocupados como ou com que vos defendereis, ou com o que direis. 12 Pois nessa hora o Espírito Santo vos ensinará o que deveis dizer\". —",
+    "keyVerse": "O Espírito Santo, a verdade, de mim irá testemunhar; e vós minhas testemunhas sereis em todo lugar."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +38,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Francisco Nhampossa: “Com sua encíclica o Papa Leão reforça o diálogo e promove a paz”",
-      "summary": "Com a sua Carta Encíclica Magnifica Humanitas (MH), o Papa Leão XIV reforça o compromisso da Igreja com o diálogo nacional e internacional dos povos e nações, com a manutenção da paz e a redução das guerras, disse aos media do Vaticano.",
-      "url": "https://www.vaticannews.va/pt/africa/news/2026-10/igreja-papa-magnifica-humanitas-dialogo-paz-direitos-humanos.html",
+      "title": "O Núncio na Ucrânia: aqui a Igreja é um baluarte de esperança contra o desespero",
+      "summary": "Em discurso proferido na quinta-feira, 15 de outubro, numa conferência on-line organizada pela Universidade Niccolò Cusano, o arcebispo Kulbokas descreveu o papel da comunidade católica local no conflito em andamento: \"Permanecemos fiéis.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/nuncio-apostolico-kulbokas-ucrania-russia-leao-xiv-igreja.html",
       "published": "2026-10-16"
     },
     {
       "source": "Vatican News",
-      "title": "Do Vaticano à contribuição das Igrejas locais: brasileiro aprofunda experiência da sexualidade",
-      "summary": "O aniversário de 10 anos da Exortação Apostólica Amoris laetitia, do Papa Francisco, acaba de ser lembrado no Vaticano com um encontro internacional que desafiou a Igreja a acompanhar os jovens e as famílias na busca por uma vocação.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-10/pe-maicon-malacarne-phd-teologia-moral-identidade-sexualidade-26.html",
-      "published": "2026-10-15"
-    },
-    {
-      "source": "CNBB",
-      "title": "Igreja no Brasil realiza Coleta Missionária neste fim de semana para apoiar projetos de evangel",
-      "summary": "A coleta é um dos principais momentos do Mês Missionário, celebrado em outubro, e representa uma forma concreta de participação dos católicos na missão evangelizadora. Os recursos arrecadados ajudam a sustentar mais de mil dioceses em.",
-      "url": "https://www.cnbb.org.br/igreja-no-brasil-realiza-coleta-missionaria-neste-fim-de-semana-para-apoiar-projetos-de-evangelizacao-em-todo-o-mundo/",
+      "title": "Papa em mensagem à FAO: jamais usar o pão como arma de guerra",
+      "summary": "No Dia Mundial da Alimentação, a mensagem de Leão XIV ao diretor-geral da FAO: “a fome não pode ser considerada uma anomalia estatística, pois é causada principalmente pela falta de vontade política e de solidariedade coletiva”. O.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-mensagem-fao-dia-mundial-da-alimentacao-2026.html",
       "published": "2026-10-16"
     },
     {
       "source": "CNBB",
-      "title": "Não vote pela servidão voluntária!",
-      "summary": "Dom Itacir Brassiani Bispo de Santa Cruz do Sul (RS) No evangelho do próximo domingo temos mais uma cena da tensão entre Jesus e os fariseus, sacerdotes e demais autoridades do templo. Eles preparam uma armadilha a Jesus: “É lícito ou não.",
-      "url": "https://www.cnbb.org.br/nao-vote-pela-servidao-voluntaria/",
+      "title": "Com transmissão ao vivo, Seminário de Missiologia vai contribuir no processo de preparação para",
+      "summary": "O evento tem como objetivo contribuir com a caminhada sinodal-missionária da Igreja no Brasil no processo de preparação para o Ano Missionário Nacional e para o 7º Congresso Americano Missionário (CAM7), que será realizado em Curitiba.",
+      "url": "https://www.cnbb.org.br/seminario-de-missiologia-preparacao-ano-misisonario-cam7/",
       "published": "2026-10-16"
     },
     {
       "source": "ACI Digital",
-      "title": "começa a novena a santo Antônio de Sant’Anna Galvão",
-      "summary": "“Fervoroso adorador da Eucaristia, de prudente e sábio orientador das almas que o procuravam e de grande devoto da Imaculada Conceição de Maria, de quem ele se considerava ‘filho e perpétuo escravo’”, assim Bento XVI definiu santo Antônio de Sant’Anna Galvão, na missa de sua canonização em 11 de maio de 2007. A poucos dias da festa do também chamado são Frei Galvão, apresentamos uma novena publicada pelo portal Canção Nova, em honra do primeiro santo brasileiro....",
-      "url": "https://www.acidigital.com/noticia/70399/hoje-comeca-a-novena-a-santo-antonio-de-santanna-galvao",
+      "title": "No Oriente Médio, crianças atendem ao chamado do papa Leão XIV para rezar o terço pela paz",
+      "summary": "Num Oriente Médio marcado pela guerra, crianças do Líbano, da Palestina e da Síria reuniram-se em igrejas e pátios de escolas este mês para atender ao apelo do papa Leão XIV para rezar o terço pela paz, unindo-se a cerca de um milhão de jovens em todo o mundo. Suas orações fizeram parte da campanha Um Milhão de Crianças Rezando o Rosário, organizada pela fundação pontifícia Ajuda à Igreja que Sofre (AIS), que ocorreu de 1 a 7 de outubro....",
+      "url": "https://www.acidigital.com/noticia/70417/no-oriente-medio-criancas-atendem-ao-chamado-do-papa-leao-xiv-para-rezar-o-terco-pela-paz",
       "published": "2026-10-16"
     },
     {
       "source": "ACI Digital",
-      "title": "Santa Sé divulga primeiras fotos do papa Leão XIV depois de cirurgia",
-      "summary": "Fontes da Santa Sé disseram também que o papa celebrará publicamente o Ângelus no próximo domingo (18), embora ainda não tenha sido especificado se isso ocorrerá no hospital ou no Vaticano.",
-      "url": "https://www.acidigital.com/noticia/70419/santa-se-divulga-primeiras-fotos-do-papa-leao-xiv-depois-de-cirurgia",
+      "title": "Bispo de Barretos repudia agressão contra homem que se identifica como mulher",
+      "summary": "O bispo de Barretos (SP), dom Milton Kenan Júnior, repudiou “tamanha agressão e ato de violência” contra um homem que se identifica como mulher, de 43 anos, com o nome de Jade, em 12 de outubro, na Praça de São Benedito, em Barretos. Em.",
+      "url": "https://www.acidigital.com/noticia/70425/bispo-de-barretos-repudia-agressao-contra-homem-que-se-identifica-como-mulher",
       "published": "2026-10-16"
     },
     {
-      "source": "Gaudium Press",
-      "title": "Mais de dois milhões de pessoas participam do Círio de Nazaré em Belém do Pará",
-      "summary": "Missa presidida por Dom Julio Akamine enfatizou o zelo comunitário e o compromisso de \"não deixar ninguém para trás\" na jornada de Fé.",
-      "url": "https://gaudiumpress.org/content/mais-de-dois-milhoes-de-pessoas-participam-do-cirio-de-nazare-em-belem-do-para/",
+      "source": "Aleteia",
+      "title": "O Vaticano publica imagens de Leão XIV celebrando missa no hospital",
+      "summary": "Em 16 de outubro de 2026, a Sala de Imprensa da Santa Sé divulgou as primeiras fotos do Papa Leão XIV após a cirurgia de remoção de um nódulo cancerígeno no pulmão, realizada na terça-feira.",
+      "url": "https://pt.aleteia.org/2026/10/16/saude-de-leao-xiv-cardeal-parolin-nao-faz-previsoes-sobre-o-futuro-do-pontificado/",
+      "published": "2026-10-16"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Os médicos de Leão XIV notaram a boa recuperação do pulmão operado",
+      "summary": "Após a operação cirúrgica no pulmão direito, o Papa Leão XIV continua sua convalescença no Hospital Gemelli de Roma. A previsão é que sua internação continue até o dia 20 de outubro. Acompanhe as últimas notícias sobre sua saúde em nossa transmissão ao vivo.",
+      "url": "https://pt.aleteia.org/2026/10/16/os-medicos-de-leao-xiv-notaram-a-boa-recuperacao-do-pulmao-operado/",
       "published": "2026-10-16"
     }
   ],
   "closingQuote": {
-    "text": "Os cabelos de vossa cabeça estão todos contados.",
-    "source": "Lucas 12,1-7"
+    "text": "Nessa hora o Espírito Santo vos ensinará o que deveis dizer.",
+    "source": "Lucas 12,8-12"
   },
   "liturgyHours": {
-    "reading": "Com Cristo, eu fui pregado na cruz. Eu vivo, mas não eu, é Cristo que vive em mim. Esta minha vida presente, na carne, eu a vivo na fé, crendo no Filho de Deus, que me amou e por mim se entregou.",
+    "reading": "Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e Deus de toda consolação. Ele nos consola em todas as nossas aflições, para que, com a consolação que nós mesmos recebemos de Deus, possamos consolar os que se acham em...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
