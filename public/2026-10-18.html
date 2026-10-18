@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notícias Católicas - 18 de outubro de 2026 - @ilustre.ai</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=EB+Garamond:wght@500;600&family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F9F6F0;
+    --ink: #1A1410;
+    --wine: #6B1A2A;
+    --gold: #B8943F;
+    --gold-lt: #D4AF6A;
+    --navy: #1C2B4A;
+    --mist: #E8E2D8;
+    --rule: rgba(184,148,63,0.35);
+    --liturgical-color: #2E7D32;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.7;
+    overflow-x: hidden;
+    -webkit-touch-callout: default;
+    -webkit-user-select: text;
+    user-select: text;
+  }
+  a { color: inherit; }
+
+  .masthead {
+    background: var(--navy);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 24px rgba(0,0,0,0.22);
+    transition: background 0.4s ease;
+  }
+  .masthead.scrolled {
+    background: var(--liturgical-color);
+  }
+  .masthead.scrolled.liturgy-light {
+    --masthead-text: rgba(0,0,0,0.85);
+    --masthead-muted: rgba(0,0,0,0.55);
+  }
+  .masthead.scrolled .masthead-brand {
+    color: var(--masthead-text, var(--gold));
+  }
+  .masthead.scrolled .masthead-date {
+    color: var(--masthead-muted, rgba(255,255,255,0.58));
+  }
+  .masthead-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 12px;
+    padding: 14px 24px 18px;
+  }
+  .masthead-brand {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    color: var(--gold);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .masthead-date {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    color: rgba(255,255,255,0.58);
+    text-transform: uppercase;
+  }
+  .hero {
+    background: var(--navy);
+    padding: 54px 24px 64px;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.4s ease;
+  }
+  .hero.scrolled {
+    background: var(--liturgical-color);
+  }
+  .hero.scrolled.liturgy-light .hero-title {
+    color: var(--ink);
+  }
+  .hero.scrolled.liturgy-light .hero-title em {
+    color: var(--gold);
+  }
+  .hero-content { max-width: 900px; margin: 0 auto; }
+  .hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(38px, 7vw, 72px);
+    font-weight: 900;
+    line-height: 1.1;
+    color: white;
+    max-width: 700px;
+  }
+  .hero-title em {
+    color: var(--gold-lt);
+    font-style: italic;
+  }
+
+  .liturgy-strip {
+    background-color: var(--liturgical-color);
+    padding: 0 24px;
+    box-shadow: inset 0 1px 0 rgba(0,0,0,0.06), inset 0 -1px 0 rgba(0,0,0,0.06);
+  }
+  .liturgy-strip.liturgy-light {
+    --liturgy-text: rgba(0,0,0,0.85);
+    --liturgy-muted: rgba(0,0,0,0.55);
+    --liturgy-rule: rgba(0,0,0,0.12);
+  }
+  .liturgy-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-left: 1px solid var(--liturgy-rule, rgba(255,255,255,0.14));
+  }
+  .liturgy-cell {
+    padding: 20px 24px;
+    border-right: 1px solid var(--liturgy-rule, rgba(255,255,255,0.14));
+  }
+  .liturgy-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--liturgy-muted, rgba(255,255,255,0.72));
+    margin-bottom: 7px;
+  }
+  .liturgy-value {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--liturgy-text, white);
+    line-height: 1.3;
+  }
+  .liturgy-value.gold { color: var(--gold-lt); }
+
+  .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 56px 0 32px;
+  }
+  .section-header-line { flex: 1; height: 1px; background: var(--mist); }
+  .section-header-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--wine);
+    white-space: nowrap;
+  }
+
+  .saint-card {
+    background: white;
+    border: 1px solid var(--mist);
+    border-top: 3px solid var(--gold);
+    padding: 36px 40px;
+    margin-bottom: 20px;
+  }
+  .saint-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .saint-bio {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #4a4040;
+    line-height: 1.8;
+  }
+  .saint-more-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--wine);
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 3px;
+  }
+  .saint-more-link svg { width: 10px; height: 10px; }
+
+  .gospel-scroll {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+  }
+  .gospel-scroll::-webkit-scrollbar { display: none; }
+  .gospel-scroll .gospel-card {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    margin-bottom: 0;
+  }
+  .gospel-scroll-wrapper { position: relative; }
+  .gospel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: none;
+    color: var(--gold-lt);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    padding: 0;
+  }
+  .gospel-arrow:hover { opacity: 1; }
+  .gospel-arrow.hidden { opacity: 0; pointer-events: none; }
+  .gospel-arrow svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+  .gospel-arrow-left { left: -24px; }
+  .gospel-arrow-right { right: -24px; }
+  .gospel-dots { position: absolute; bottom: 19px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 5; }
+  .gospel-dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.3); transition: all 0.3s; cursor: pointer; }
+  .gospel-dot.active { background: var(--gold); width: 8px; height: 8px; }
+  .gospel-card {
+    background: var(--navy);
+    padding: 40px 44px;
+    margin-bottom: 20px;
+  }
+  .gospel-ref {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+  .gospel-text {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    line-height: 1.5;
+    max-width: 640px;
+  }
+  .gospel-line { display: block; }
+  .gospel-line + .gospel-line { margin-top: 8px; }
+
+  .news-feed { display: flex; flex-direction: column; gap: 0; }
+  .news-item {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    border-top: 1px solid var(--mist);
+  }
+  .news-item:last-child { border-bottom: 1px solid var(--mist); }
+  .news-index {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: var(--gold);
+    padding: 28px 16px 0 0;
+  }
+  .news-body { padding: 28px 0 30px; }
+  .news-source {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--wine);
+    margin-bottom: 10px;
+  }
+  .news-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    line-height: 1.24;
+    color: var(--navy);
+    margin-bottom: 12px;
+  }
+  .news-summary {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 1.72;
+    color: #4a4040;
+    max-width: 680px;
+    margin-bottom: 18px;
+  }
+  .news-link-row { display: flex; align-items: center; gap: 16px; }
+  .news-date { font-size: 12px; color: rgba(0,0,0,0.32); letter-spacing: 0.2px; }
+  .btn-source {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--wine);
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 3px;
+  }
+  .btn-source svg { width: 10px; height: 10px; }
+  .gospel-link-wrapper { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .gospel-link-wrapper .btn-source { color: var(--gold); border-bottom-color: var(--gold); }
+  .closing-quote {
+    margin: 44px 0 0;
+    padding: 34px 38px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    color: var(--navy);
+  }
+  .closing-quote-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--wine);
+    margin-bottom: 12px;
+  }
+  .closing-quote-text {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(25px, 5vw, 40px);
+    line-height: 1.2;
+    color: var(--navy);
+  }
+  .closing-quote-source {
+    margin-top: 14px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #4a4040;
+  }
+
+  .sponsor-bar {
+    margin: 28px 0 0;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    color: var(--navy);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+  }
+  .sponsor-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--wine);
+  }
+  .sponsor-bar a {
+    color: var(--navy);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  footer {
+    margin-top: 64px;
+    background: var(--navy);
+    color: white;
+    padding: 44px 24px;
+    text-align: center;
+  }
+  .footer-brand {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold-lt);
+  }
+  .footer-sub {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: rgba(255,255,255,0.55);
+    margin-top: 8px;
+  }
+  .footer-logo {
+    display: block;
+    margin: 0 auto 20px;
+    height: 48px;
+    width: auto;
+  }
+  .footer-link {
+    display: inline-block;
+    margin-top: 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: white;
+    text-decoration: none;
+  }
+  .footer-privacy {
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    color: rgba(255,255,255,0.35);
+    line-height: 1.5;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .back-to-top {
+    position: fixed; bottom: 28px; right: 28px; z-index: 100;
+    width: 44px; height: 44px; border-radius: 50%;
+    background: rgba(26,20,16,0.55); border: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0; visibility: hidden;
+    transition: opacity 0.35s, visibility 0.35s, background 0.25s;
+  }
+  .back-to-top.visible { opacity: 1; visibility: visible; }
+  .back-to-top:hover { background: rgba(26,20,16,0.75); }
+  .back-to-top svg { width: 20px; height: 20px; stroke: #fff; stroke-width: 2.2; fill: none; stroke-linecap: round; }
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .reveal.visible:nth-child(2) { transition-delay: 0.08s; }
+  .reveal.visible:nth-child(3) { transition-delay: 0.16s; }
+  .reveal.visible:nth-child(4) { transition-delay: 0.24s; }
+  .reveal.visible:nth-child(5) { transition-delay: 0.32s; }
+  .reveal.visible:nth-child(6) { transition-delay: 0.40s; }
+  .reveal.visible:nth-child(7) { transition-delay: 0.48s; }
+
+  @media (max-width: 720px) {
+    body { font-size: 17px; }
+    .liturgy-strip { padding: 0; }
+    .liturgy-inner { grid-template-columns: 1fr; border-left: none; }
+    .liturgy-cell { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.14); }
+    .saint-card, .gospel-card { padding: 28px 24px; }
+    .gospel-dots { bottom: 11px; }
+    .gospel-arrow-left { left: 4px; }
+    .gospel-arrow-right { right: 4px; }
+    .closing-quote { padding: 28px 0; }
+    .gospel-text { font-size: 22px; }
+    .news-item { grid-template-columns: 44px 1fr; }
+    .news-headline { font-size: 22px; }
+    .sponsor-bar { align-items: flex-start; flex-direction: column; gap: 4px; padding: 12px 0; }
+  }
+  .experimental-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: rgba(28,43,74,0.92);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 14px 24px;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .experimental-banner.hidden {
+    transform: translateY(100%);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .experimental-banner-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .experimental-banner-icon {
+    font-size: 18px;
+    color: var(--gold-lt);
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  .experimental-banner-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.5;
+    flex: 1;
+    margin: 0;
+  }
+  .experimental-banner-content a {
+    color: var(--gold-lt);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(212,175,106,0.35);
+  }
+  .experimental-banner-close {
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.5);
+    font-size: 22px;
+    cursor: pointer;
+    padding: 0 4px;
+    line-height: 1;
+    flex-shrink: 0;
+    transition: color 0.2s;
+  }
+  .experimental-banner-close:hover { color: #fff; }
+  @media (max-width: 720px) {
+    .experimental-banner-content { flex-wrap: wrap; gap: 8px; }
+    .experimental-banner-content p { font-size: 12px; }
+  }
+
+  .story-download {
+    margin-top: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    border: 1px solid var(--gold);
+    background: transparent;
+    color: var(--wine);
+    padding: 0 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .story-hint {
+    margin: 8px 0 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    color: #999;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+  .story-hint .three-dots {
+    font-size: 16px;
+    font-weight: 700;
+    color: #666;
+    vertical-align: middle;
+  }
+</style>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "e4d6458580d34137accb2f68b3c132b4"}'></script>
+</head>
+<body>
+<div class="experimental-banner" id="experimentalBanner">
+  <div class="experimental-banner-content">
+    <span class="experimental-banner-icon">&awconint;</span>
+    <p><strong>Fase experimental</strong> — este site está em construção. Erros e instabilidade são esperados. Reporte qualquer problema no <a href="https://www.instagram.com/ilustre.ai" target="_blank" rel="noopener noreferrer">@ilustre.ai</a>.</p>
+    <button class="experimental-banner-close" id="expBannerClose" aria-label="Fechar aviso">&times;</button>
+  </div>
+</div>
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="masthead-brand" href="#">newsletter &bull; ilustre.ai</a>
+    <span class="masthead-date">18 de outubro de 2026</span>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">Uma <em>pausa</em> antes do mundo acelerar</h1>
+  </div>
+</section>
+
+<div class="liturgy-strip">
+  <div class="liturgy-inner">
+    <div class="liturgy-cell">
+      <div class="liturgy-label">Tempo Litúrgico</div>
+      <div class="liturgy-value gold">Domingo 29 do Tempo Comum</div>
+    </div>
+    <div class="liturgy-cell">
+      <div class="liturgy-label">Liturgia do Dia</div>
+      <div class="liturgy-value">Mt 22,15-21</div>
+    </div>
+  </div>
+</div>
+
+<main class="container">
+
+  <div class="section-header">
+    <span class="section-header-title">Santo do Dia</span>
+    <div class="section-header-line"></div>
+  </div>
+  <div class="saint-card">
+    <h2 class="saint-name">São Lucas, o Evangelista</h2>
+
+    <a class="saint-more-link" href="https://santo.cancaonova.com/santo/sao-lucas-o-evangelista/" target="_blank" rel="noopener noreferrer">
+      Saiba mais na Canção Nova
+      <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <path d="M1 9L9 1M9 1H3M9 1V7"/>
+      </svg>
+    </a>
+  </div>
+
+  <div class="section-header">
+    <span class="section-header-title">Liturgia do dia</span>
+    <div class="section-header-line"></div>
+  </div>
+
+  <div class="gospel-scroll-wrapper">
+  <div class="gospel-scroll" id="gospelScroll">
+  <div class="gospel-card">
+    <div class="gospel-ref">Evangelho do Dia</div>
+    <p class="gospel-text">
+      Naquele tempo, Os fariseus fizeram um plano para apanhar Jesus em alguma palavra. Então mandaram os seus discípulos, junto com alguns do partido de Herodes, para dizerem a Jesus: Mestre, sabemos que és verdadeiro e que, de fato, ensinas o caminho de...
+    </p>
+    <div class="gospel-link-wrapper">
+      <a class="btn-source gospel-link" href="https://www.cnbb.org.br/liturgia-diaria/" target="_blank" rel="noopener noreferrer">
+    Ler o Evangelho na CNBB
+    <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <path d="M1 9L9 1M9 1H3M9 1V7"/>
+    </svg>
+  </a>
+    </div>
+  </div>
+  <div class="gospel-card">
+    <div class="gospel-ref">Liturgia das Horas</div>
+    <p class="gospel-text">A salvação pertence ao nosso Deus, que está sentado no trono, e ao Cordeiro. O louvor, a glória e a sabedoria, a ação de graças, a honra, o poder e a força pertencem ao nosso Deus para sempre. Amém.</p>
+    <div class="gospel-link-wrapper">
+      <a class="btn-source gospel-link" href="https://www.paulus.com.br/portal/liturgia-diaria-das-horas/" target="_blank" rel="noopener noreferrer">
+        Ler a Liturgia das Horas na Paulus
+        <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M1 9L9 1M9 1H3M9 1V7"/>
+        </svg>
+      </a>
+    </div>
+  </div></div>
+  <div class="gospel-dots" id="gospelDots"></div>
+  <button class="gospel-arrow gospel-arrow-left" id="gospelArrowLeft" aria-label="Anterior">
+    <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+  </button>
+  <button class="gospel-arrow gospel-arrow-right" id="gospelArrowRight" aria-label="Próximo">
+    <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
+  </button></div>
+
+  <div class="section-header">
+    <span class="section-header-title">Notícias Selecionadas</span>
+    <div class="section-header-line"></div>
+  </div>
+
+  <div class="news-feed" id="news-feed">
+
+    <article class="news-item reveal">
+      <div class="news-index">01</div>
+      <div class="news-body">
+        <div class="news-source">Vatican News</div>
+        <h3 class="news-headline">“Jovens protagonistas e não meros expectadores do mundo digital”: Alice Nhamposse</h3>
+        <p class="news-summary">“A Magnifica Humanitas (MH) do Papa Leão XIV propõe que os jovens não sejam expectadores passivos do mundo digital, mas protagonistas conscientes, o que implica o desenvolvimento de habilidades de discernimento diante de algoritmos, redes.</p>
+        <div class="news-link-row">
+          <span class="news-date">18 out</span>
+          <a class="btn-source" href="https://www.vaticannews.va/pt/africa/news/2026-10/ucm-magnifica-humanitas-papa-leao-jovens-ia-tecnologia-digital.html" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="news-item reveal">
+      <div class="news-index">02</div>
+      <div class="news-body">
+        <div class="news-source">Vatican News</div>
+        <h3 class="news-headline">O Papa deixa o Hospital Gemelli no início da tarde. Amanhã ele fará a oração do Angelus no Vati</h3>
+        <p class="news-summary">Os médicos consideraram Leão XIV &quot;apto para receber alta&quot;, com base &quot;nos exames de sangue, na radiografia do tórax realizada esta manhã e na avaliação do quadro clínico&quot;. Amanhã, domingo, 18 de outubro, ele rezará a oração do Angelus da.</p>
+        <div class="news-link-row">
+          <span class="news-date">17 out</span>
+          <a class="btn-source" href="https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-gemelli-alta-hospitalar-hospital-sala-imprensa.html" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="news-item reveal">
+      <div class="news-index">03</div>
+      <div class="news-body">
+        <div class="news-source">CNBB</div>
+        <h3 class="news-headline">envia “Mensagem de Condolência” pelo falecimento do reitor da PUC-PR, irmão Rogério Mateucci</h3>
+        <p class="news-summary">Na mensagem, a CNBB reforça que a vida de Renato &quot;foi marcada pelo serviço, pela generosidade e pela fidelidade à missão educativa e evangelizadora, deixa uma presença que permanece viva na memória agradecida de todos aqueles que.</p>
+        <div class="news-link-row">
+          <span class="news-date">17 out</span>
+          <a class="btn-source" href="https://www.cnbb.org.br/condolencia-pelo-falecimento-do-reitor-da-pucpr/" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="news-item reveal">
+      <div class="news-index">04</div>
+      <div class="news-body">
+        <div class="news-source">CNBB</div>
+        <h3 class="news-headline">Com transmissão ao vivo, Seminário de Missiologia vai contribuir no processo de preparação para</h3>
+        <p class="news-summary">O evento tem como objetivo contribuir com a caminhada sinodal-missionária da Igreja no Brasil no processo de preparação para o Ano Missionário Nacional e para o 7º Congresso Americano Missionário (CAM7), que será realizado em Curitiba.</p>
+        <div class="news-link-row">
+          <span class="news-date">16 out</span>
+          <a class="btn-source" href="https://www.cnbb.org.br/seminario-de-missiologia-preparacao-ano-misisonario-cam7/" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="news-item reveal">
+      <div class="news-index">05</div>
+      <div class="news-body">
+        <div class="news-source">ACI Digital</div>
+        <h3 class="news-headline">é celebrado são Lucas evangelista, padroeiro dos médicos</h3>
+        <p class="news-summary">Hoje é celebrado são Lucas evangelista, padroeiro dos médicos. Hoje é celebrado são Lucas evangelista, o padroeiro dos médicos.</p>
+        <div class="news-link-row">
+          <span class="news-date">18 out</span>
+          <a class="btn-source" href="https://www.acidigital.com/noticia/70413/hoje-e-celebrado-sao-lucas-evangelista-padroeiro-dos-medicos" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="news-item reveal">
+      <div class="news-index">06</div>
+      <div class="news-body">
+        <div class="news-source">ACI Digital</div>
+        <h3 class="news-headline">Dez dados sobre a vida de são Lucas</h3>
+        <p class="news-summary">Hoje, 18 de outubro, a Igreja celebra a festa de são Lucas evangelista. Pouco se sabe sobre ele, mas algumas tradições foram transmitidas sobre sua vida. Em Colossenses 4,14, São Paulo escreve: &quot;Saúda-vos Lucas, o caríssimo médico, e Demas&quot;. Em 2 Timóteo 4,11, Paulo escreve: “Só Lucas está comigo. Toma contigo Marcos e traze-o, porque me é bem útil para o ministério”.</p>
+        <div class="news-link-row">
+          <span class="news-date">18 out</span>
+          <a class="btn-source" href="https://www.acidigital.com/noticia/53546/dez-dados-sobre-a-vida-de-sao-lucas" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="news-item reveal">
+      <div class="news-index">07</div>
+      <div class="news-body">
+        <div class="news-source">Aleteia</div>
+        <h3 class="news-headline">Os médicos de Leão XIV notaram a boa recuperação do pulmão operado</h3>
+        <p class="news-summary">Após a operação cirúrgica no pulmão direito, o Papa Leão XIV continua sua convalescença no Hospital Gemelli de Roma. A previsão é que sua internação continue até o dia 20 de outubro. Acompanhe as últimas notícias sobre sua saúde em nossa transmissão ao vivo.</p>
+        <div class="news-link-row">
+          <span class="news-date">16 out</span>
+          <a class="btn-source" href="https://pt.aleteia.org/2026/10/16/os-medicos-de-leao-xiv-notaram-a-boa-recuperacao-do-pulmao-operado/" target="_blank" rel="noopener noreferrer">
+            Ler na fonte
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path d="M1 9L9 1M9 1H3M9 1V7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <aside class="closing-quote">
+    <div class="closing-quote-label">Para guardar hoje</div>
+    <p class="closing-quote-text">Dai, pois, a César o que é de César&amp;nbsp;</p>
+    <p class="closing-quote-source">Mateus 22,15-21</p>
+    <button class="story-download" type="button" id="download-story-quote">Baixar para Stories</button>
+    <p class="story-hint">Não funcionou? Toque em <span class="three-dots">&#x22EE;</span> e selecione <strong>Abrir no Chrome</strong></p>
+  </aside>
+
+
+  <aside class="sponsor-bar">
+    <span class="sponsor-label">Apoio</span>
+    <a href="https://www.instagram.com/ilustre.ai" target="_blank" rel="noopener noreferrer">Gostou do conteúdo? Considere apoiar esse projeto assinando nosso conteúdo exclusivo no Instagram @ilustre.ai.</a>
+  </aside>
+</main>
+
+<footer>
+  <a href="https://ilustreai.com.br" target="_blank" rel="noopener noreferrer">
+    <img src="assets/logo-ilustreai.png" alt="ilustre.ai" class="footer-logo">
+  </a>
+  <p class="footer-brand">Curadoria por @ilustre.ai</p>
+  <p class="footer-sub">Arte sacra e evangelização digital</p>
+  <a class="footer-link" href="https://www.instagram.com/ilustre.ai" target="_blank" rel="noopener noreferrer">
+    Instagram · @ilustre.ai
+  </a>
+  <p class="footer-privacy">Este site não coleta dados pessoais nem utiliza cookies de rastreamento.</p>
+</footer>
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+  <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+<script>
+  (function () {
+(function () {
+    var button = document.getElementById('download-story-quote');
+    if (button) {
+      function dataUrlToBlob(dataUrl) {
+        var parts = dataUrl.split(',');
+        var mime = parts[0].match(/:(.*?);/)[1];
+        var bytes = atob(parts[1]);
+        var buf = new Uint8Array(bytes.length);
+        for (var i = 0; i < bytes.length; i++) buf[i] = bytes.charCodeAt(i);
+        return new Blob([buf], { type: mime });
+      }
+      function downloadCanvas(canvas) {
+        var dataUrl = canvas.toDataURL('image/png');
+        var blob = dataUrlToBlob(dataUrl);
+        var url = URL.createObjectURL(blob);
+        var link = document.createElement('a');
+        link.href = url;
+        link.download = 'ilustre-ai.png';
+        document.body.appendChild(link);
+        link.click();
+        setTimeout(function() { document.body.removeChild(link); URL.revokeObjectURL(url); }, 1000);
+      }
+      function wrapStoryText(context, text, maxWidth) {
+        var words = String(text || '').split(/\s+/).filter(Boolean);
+        var lines = [], line = '';
+        words.forEach(function (word) {
+          var candidate = line ? line + ' ' + word : word;
+          if (context.measureText(candidate).width <= maxWidth || !line) {
+            line = candidate; return;
+          }
+          lines.push(line);
+          line = word;
+        });
+        if (line) lines.push(line);
+        return lines;
+      }
+      function drawStoryCard(quote, source) {
+        var canvas = document.createElement('canvas');
+        canvas.width = 1080; canvas.height = 1920;
+        var ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#F9F6F0'; ctx.fillRect(0, 0, 1080, 1920);
+        ctx.strokeStyle = 'rgba(184,148,63,0.42)'; ctx.lineWidth = 3;
+        ctx.beginPath(); ctx.moveTo(120, 210); ctx.lineTo(960, 210);
+        ctx.moveTo(120, 1660); ctx.lineTo(960, 1660); ctx.stroke();
+        ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
+        ctx.fillStyle = '#1C2B4A';
+        ctx.font = '900 74px "Playfair Display", Georgia, serif';
+        var lines = wrapStoryText(ctx, quote, 870);
+        var startY = Math.round((1920 - lines.length * 92) / 2) + 20;
+        lines.forEach(function (l, i) { ctx.fillText(l, 540, startY + i * 92); });
+        ctx.fillStyle = '#4a4040'; ctx.font = '500 36px Inter, Arial, sans-serif';
+        ctx.fillText(source, 540, startY + lines.length * 92 + 70);
+        ctx.fillStyle = '#6B1A2A'; ctx.font = '700 28px Inter, Arial, sans-serif';
+        ctx.fillText('noticias.ilustreai.com.br', 540, 1765);
+        return canvas;
+      }
+      button.addEventListener('click', function () {
+        var qt = document.querySelector('.closing-quote-text');
+        var sc = document.querySelector('.closing-quote-source');
+        var quote = qt ? qt.textContent.trim() : '';
+        var source = sc ? sc.textContent.trim() : '';
+        if (!quote) return;
+        Promise.resolve(document.fonts ? document.fonts.ready : undefined)
+          .then(function () { return drawStoryCard(quote, source); })
+          .then(function (canvas) { downloadCanvas(canvas); })
+          .catch(function () { button.textContent = 'Tente novamente'; });
+      });
+    }
+  })();
+    var masthead = document.querySelector('.masthead');
+    var hero = document.querySelector('.hero');
+    var trigger = document.querySelector('.liturgy-strip');
+    if (masthead && hero && trigger) {
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          masthead.classList.toggle('scrolled', !entry.isIntersecting);
+          hero.classList.toggle('scrolled', !entry.isIntersecting);
+        });
+      }, { threshold: 0 });
+      observer.observe(trigger);
+    }
+
+    var reveals = document.querySelectorAll('.reveal');
+    if (reveals.length > 0 && 'IntersectionObserver' in window) {
+      var revealObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+      reveals.forEach(function (el) { revealObserver.observe(el); });
+    } else {
+      reveals.forEach(function (el) { el.classList.add('visible'); });
+    }
+
+    var btn = document.getElementById('backToTop');
+    if (btn) {
+      var scrollHandler = function () {
+        btn.classList.toggle('visible', window.scrollY > 300);
+      };
+      window.addEventListener('scroll', scrollHandler, { passive: true });
+      scrollHandler();
+      btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    }
+
+    var gospelScroll = document.getElementById('gospelScroll');
+    var arrowLeft = document.getElementById('gospelArrowLeft');
+    var arrowRight = document.getElementById('gospelArrowRight');
+    if (gospelScroll && arrowLeft && arrowRight) {
+      var cards = gospelScroll.querySelectorAll('.gospel-card');
+      var len = cards.length;
+      if (len > 1) {
+        var current = 0;
+        var dotsEl = document.getElementById('gospelDots');
+        for (var i = 0; i < len; i++) { var d = document.createElement('span'); d.className = 'gospel-dot'; dotsEl.appendChild(d); }
+        var dots = dotsEl.querySelectorAll('.gospel-dot');
+        function updateDots() {
+          for (var i = 0; i < len; i++) dots[i].classList.toggle('active', i === current);
+        }
+        function updateArrows() {
+          arrowLeft.classList.toggle('hidden', current <= 0);
+          arrowRight.classList.toggle('hidden', current >= len - 1);
+        }
+        function goTo(index) {
+          if (index < 0 || index >= len) return;
+          current = index;
+          gospelScroll.scrollTo({ left: current * gospelScroll.clientWidth, behavior: 'smooth' });
+          updateArrows(); updateDots();
+        }
+        for (var i = 0; i < len; i++) { (function(idx) { dots[idx].addEventListener('click', function() { goTo(idx); }); })(i); }
+        arrowLeft.addEventListener('click', function () { goTo(current - 1); });
+        arrowRight.addEventListener('click', function () { goTo(current + 1); });
+        gospelScroll.addEventListener('scroll', function () {
+          current = Math.round(gospelScroll.scrollLeft / gospelScroll.clientWidth);
+          updateArrows(); updateDots();
+        }, { passive: true });
+        updateArrows(); updateDots();
+      }
+    }
+    var expBanner = document.getElementById('experimentalBanner');
+    var expBtn = document.getElementById('expBannerClose');
+    if (expBanner && expBtn) {
+      expBtn.addEventListener('click', function () {
+        expBanner.classList.add('hidden');
+      });
+    }
+  })();
+</script>
+</body>
+</html>

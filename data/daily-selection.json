@@ -1,33 +1,34 @@
 {
-  "date": "2026-10-17",
-  "editionLabel": "17 de outubro de 2026",
+  "date": "2026-10-18",
+  "editionLabel": "18 de outubro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santo Inácio de Antioquia, bispo e mártir",
-    "colorName": "vermelho",
-    "cssColor": "#C62828",
-    "gospelShort": "Lc 12,8-12"
+    "celebrationTitle": "Domingo XXIX do Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Mt 22,15-21"
   },
   "saint": {
-    "feast": "\udd34 [M] Santo Inácio de Antioquia\\, bispo e mártir",
-    "name": "Santo Inácio de Antioquia, o bispo perseguido e jogado às feras",
-    "description": "Celebração litúrgica do dia: Santo Inácio de Antioquia, bispo e mártir.",
-    "url": "https://santo.cancaonova.com/santo/santo-inacio-de-antioquia-o-bispo-perseguido-e-jogado-as-feras/"
+    "feast": "\udfe2 Domingo XXIX do Tempo Comum",
+    "name": "São Lucas, o Evangelista",
+    "description": "Celebração litúrgica do dia: Domingo XXIX do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-lucas-o-evangelista/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 12,8-12)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 22,15-21)",
     "lines": [
-      "Naquele tempo, disse Jesus aos seus discípulos: Todo aquele que der testemunho de mim diante dos homens, o Filho do Homem também dará testemunho dele diante dos anjos de Deus.",
-      "Mas aquele que me renegar diante dos homens, será negado diante dos anjos de Deus.",
-      "Todo aquele que disser alguma coisa contra o Filho do Homem será perdoado.",
-      "Mas quem blasfemar contra o Espírito Santo não será perdoado.",
-      "Quando vos conduzirem diante das sinagogas, magistrados e autoridades, não fiqueis preocupados como ou com que vos defendereis, ou com o que direis.",
-      "Pois nessa hora o Espírito Santo vos ensinará o que deveis dizer."
+      "Naquele tempo, Os fariseus fizeram um plano para apanhar Jesus em alguma palavra.",
+      "Então mandaram os seus discípulos, junto com alguns do partido de Herodes, para dizerem a Jesus: Mestre, sabemos que és verdadeiro e que, de fato, ensinas o caminho de Deus.",
+      "Não te deixas influenciar pela opinião dos outros, pois não julgas um homem pelas aparências.",
+      "Dize-nos, pois, o que pensas: &Eacute; lícito ou não pagar imposto a César? Jesus percebeu a maldade deles e disse: Hipócritas!",
+      "Por que me preparais uma armadilha?",
+      "Mostrai-me a moeda do imposto! Levaram-lhe então a moeda.",
+      "E Jesus disse: De quem é a figura e a inscrição desta moeda? Eles responderam: De César."
     ],
-    "body": "Naquele tempo, disse Jesus aos seus discípulos: 8 \"Todo aquele que der testemunho de mim diante dos homens, o Filho do Homem também dará testemunho dele diante dos anjos de Deus. 9 Mas aquele que me renegar diante dos homens, será negado diante dos anjos de Deus. 10 Todo aquele que disser alguma coisa contra o Filho do Homem será perdoado. Mas quem blasfemar contra o Espírito Santo não será perdoado. 11 Quando vos conduzirem diante das sinagogas, magistrados e autoridades, não fiqueis preocupados como ou com que vos defendereis, ou com o que direis. 12 Pois nessa hora o Espírito Santo vos ensinará o que deveis dizer\". —",
-    "keyVerse": "O Espírito Santo, a verdade, de mim irá testemunhar; e vós minhas testemunhas sereis em todo lugar."
+    "body": "Naquele tempo, 15 Os fariseus fizeram um plano para apanhar Jesus em alguma palavra. 16 Então mandaram os seus discípulos, junto com alguns do partido de Herodes, para dizerem a Jesus: \"Mestre, sabemos que és verdadeiro e que, de fato, ensinas o caminho de Deus. Não te deixas influenciar pela opinião dos outros, pois não julgas um homem pelas aparências. 17 Dize-nos, pois, o que pensas: &Eacute; lícito ou não pagar imposto a César?\" 18 Jesus percebeu a maldade deles e disse: \"Hipócritas! Por que me preparais uma armadilha? 19 Mostrai-me a moeda do imposto!\" Levaram-lhe então a moeda. 20 E Jesus disse: \"De quem é a figura e a inscrição desta moeda?\" 21 Eles responderam: \"De César\". Jesus então lhes disse: \"Dai pois a César o que é de César, e a Deus o que é de Deus\". —",
+    "keyVerse": "Como astros no mundo, vós resplandeçais, mensagem de vida ao mundo anunciando, da vida a palavra, com fé, proclameis, quais astros luzentes no mundo brilheis."
   },
   "sponsor": {
     "enabled": true,
@@ -38,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "“A comunicação deve fortalecer diálogo, participação democrática e bem comum”",
-      "summary": "Numa reflexão à volta do capítulo IV da Magnifica Humanitas (MH) do Papa Leão XIV e em declarações à Rádio Vaticano, Sílvia Afonso, Docente na Universidade Católica Moçambique (UCM), destacou o papel da comunicação na formação da opinião.",
-      "url": "https://www.vaticannews.va/pt/africa/news/2026-10/universidade-catolica-papa-leao-dialogo-participacao-bem-comum.html",
-      "published": "2026-10-17"
+      "title": "“Jovens protagonistas e não meros expectadores do mundo digital”: Alice Nhamposse",
+      "summary": "“A Magnifica Humanitas (MH) do Papa Leão XIV propõe que os jovens não sejam expectadores passivos do mundo digital, mas protagonistas conscientes, o que implica o desenvolvimento de habilidades de discernimento diante de algoritmos, redes.",
+      "url": "https://www.vaticannews.va/pt/africa/news/2026-10/ucm-magnifica-humanitas-papa-leao-jovens-ia-tecnologia-digital.html",
+      "published": "2026-10-18"
     },
     {
       "source": "Vatican News",
-      "title": "Francisco Nhampossa: “Com sua encíclica o Papa Leão reforça o diálogo e promove a paz”",
-      "summary": "Com a sua Carta Encíclica Magnifica Humanitas (MH), o Papa Leão XIV reforça o compromisso da Igreja com o diálogo nacional e internacional dos povos e nações, com a manutenção da paz e a redução das guerras, disse aos media do Vaticano.",
-      "url": "https://www.vaticannews.va/pt/africa/news/2026-10/igreja-papa-magnifica-humanitas-dialogo-paz-direitos-humanos.html",
-      "published": "2026-10-16"
+      "title": "O Papa deixa o Hospital Gemelli no início da tarde. Amanhã ele fará a oração do Angelus no Vati",
+      "summary": "Os médicos consideraram Leão XIV \"apto para receber alta\", com base \"nos exames de sangue, na radiografia do tórax realizada esta manhã e na avaliação do quadro clínico\". Amanhã, domingo, 18 de outubro, ele rezará a oração do Angelus da.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-gemelli-alta-hospitalar-hospital-sala-imprensa.html",
+      "published": "2026-10-17"
     },
     {
       "source": "CNBB",
-      "title": "Igreja no Brasil realiza Coleta Missionária neste fim de semana para apoiar projetos de evangel",
-      "summary": "A coleta é um dos principais momentos do Mês Missionário, celebrado em outubro, e representa uma forma concreta de participação dos católicos na missão evangelizadora. Os recursos arrecadados ajudam a sustentar mais de mil dioceses em.",
-      "url": "https://www.cnbb.org.br/igreja-no-brasil-realiza-coleta-missionaria-neste-fim-de-semana-para-apoiar-projetos-de-evangelizacao-em-todo-o-mundo/",
+      "title": "envia “Mensagem de Condolência” pelo falecimento do reitor da PUC-PR, irmão Rogério Mateucci",
+      "summary": "Na mensagem, a CNBB reforça que a vida de Renato \"foi marcada pelo serviço, pela generosidade e pela fidelidade à missão educativa e evangelizadora, deixa uma presença que permanece viva na memória agradecida de todos aqueles que.",
+      "url": "https://www.cnbb.org.br/condolencia-pelo-falecimento-do-reitor-da-pucpr/",
+      "published": "2026-10-17"
+    },
+    {
+      "source": "CNBB",
+      "title": "Com transmissão ao vivo, Seminário de Missiologia vai contribuir no processo de preparação para",
+      "summary": "O evento tem como objetivo contribuir com a caminhada sinodal-missionária da Igreja no Brasil no processo de preparação para o Ano Missionário Nacional e para o 7º Congresso Americano Missionário (CAM7), que será realizado em Curitiba.",
+      "url": "https://www.cnbb.org.br/seminario-de-missiologia-preparacao-ano-misisonario-cam7/",
       "published": "2026-10-16"
     },
     {
       "source": "ACI Digital",
-      "title": "Campo Grande abre inquérito para beatificação de padre que conviveu com são João Bosco",
-      "summary": "A arquidiocese de Campo Grande (MS) abre na terça-feira (20) o inquérito diocesano da causa de beatificação e canonização do padre João Crippa, missionário salesiano que conviveu com são João Bosco e é considerado por historiadores.",
-      "url": "https://www.acidigital.com/noticia/70429/campo-grande-abre-inquerito-para-beatificacao-de-padre-que-conviveu-com-sao-joao-bosco",
-      "published": "2026-10-16"
+      "title": "é celebrado são Lucas evangelista, padroeiro dos médicos",
+      "summary": "Hoje é celebrado são Lucas evangelista, padroeiro dos médicos. Hoje é celebrado são Lucas evangelista, o padroeiro dos médicos.",
+      "url": "https://www.acidigital.com/noticia/70413/hoje-e-celebrado-sao-lucas-evangelista-padroeiro-dos-medicos",
+      "published": "2026-10-18"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Dez dados sobre a vida de são Lucas",
+      "summary": "Hoje, 18 de outubro, a Igreja celebra a festa de são Lucas evangelista. Pouco se sabe sobre ele, mas algumas tradições foram transmitidas sobre sua vida. Em Colossenses 4,14, São Paulo escreve: \"Saúda-vos Lucas, o caríssimo médico, e Demas\". Em 2 Timóteo 4,11, Paulo escreve: “Só Lucas está comigo. Toma contigo Marcos e traze-o, porque me é bem útil para o ministério”.",
+      "url": "https://www.acidigital.com/noticia/53546/dez-dados-sobre-a-vida-de-sao-lucas",
+      "published": "2026-10-18"
     },
     {
       "source": "Aleteia",
-      "title": "Há graça até nos lugares onde você só consegue enxergar dor.",
-      "summary": "Existem momentos em que a vida parece perder o sentido: Uma perda que não esperávamos, uma espera que se prolonga, uma porta que se fecha, uma oração que parece não ser respondida. E, quando a dor chega, é natural perguntar: “Onde Deus.",
-      "url": "https://pt.aleteia.org/2026/10/16/ha-graca-ate-nos-lugares-onde-voce-so-consegue-enxergar-dor/",
+      "title": "Os médicos de Leão XIV notaram a boa recuperação do pulmão operado",
+      "summary": "Após a operação cirúrgica no pulmão direito, o Papa Leão XIV continua sua convalescença no Hospital Gemelli de Roma. A previsão é que sua internação continue até o dia 20 de outubro. Acompanhe as últimas notícias sobre sua saúde em nossa transmissão ao vivo.",
+      "url": "https://pt.aleteia.org/2026/10/16/os-medicos-de-leao-xiv-notaram-a-boa-recuperacao-do-pulmao-operado/",
       "published": "2026-10-16"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Leão XIV receberá alta do hospital Gemelli esta tarde",
-      "summary": "Após a operação cirúrgica no pulmão direito, o Papa Leão XIV continua sua convalescença no Hospital Gemelli de Roma. A previsão é que sua internação continue até o dia 20 de outubro. Acompanhe as últimas notícias sobre sua saúde em nossa transmissão ao vivo",
-      "url": "https://pt.aleteia.org/2026/10/16/saude-de-leao-xiv-cardeal-parolin-nao-faz-previsoes-sobre-o-futuro-do-pontificado/",
-      "published": "2026-10-16"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "Leão XIV recebe alta hospitalar e rezará o Ângelus no Vaticano",
-      "summary": "Após cinco dias de internação no Hospital Gemelli, em Roma, Pontífice apresenta melhora clínica e poderá prosseguir a recuperação no Vaticano. Foto: Vatican News/ Vatican Media Redação ( 17/10/2026 10:15 , Gaudium Press ) O Papa Leão XIV.",
-      "url": "https://gaudiumpress.org/content/leao-xiv-recebe-alta-hospitalar-e-rezara-o-angelus-no-vaticano/",
-      "published": "2026-10-17"
     }
   ],
   "closingQuote": {
-    "text": "Nessa hora o Espírito Santo vos ensinará o que deveis dizer.",
-    "source": "Lucas 12,8-12"
+    "text": "Dai, pois, a César o que é de César&nbsp;",
+    "source": "Mateus 22,15-21"
   },
   "liturgyHours": {
-    "reading": "Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e Deus de toda consolação. Ele nos consola em todas as nossas aflições, para que, com a consolação que nós mesmos recebemos de Deus, possamos consolar os que se acham em...",
+    "reading": "A salvação pertence ao nosso Deus, que está sentado no trono, e ao Cordeiro. O louvor, a glória e a sabedoria, a ação de graças, a honra, o poder e a força pertencem ao nosso Deus para sempre. Amém.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
