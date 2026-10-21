@@ -1,32 +1,34 @@
 {
-  "date": "2026-10-20",
-  "editionLabel": "20 de outubro de 2026",
+  "date": "2026-10-21",
+  "editionLabel": "21 de outubro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Terça-Feira da Semana XXIX do Tempo Comum",
+    "celebrationTitle": "Quarta-Feira da Semana XXIX do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 12,35-38"
+    "gospelShort": "Lc 12,39-48"
   },
   "saint": {
-    "feast": "\udfe2 Terça-Feira da Semana XXIX do Tempo Comum",
-    "name": "Santa Maria Bertilla Boscardin, enfermeira na Primeira Guerra Mundial",
-    "description": "Celebração litúrgica do dia: Terça-Feira da Semana XXIX do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santa-maria-bertilla-boscardin-enfermeira-na-primeira-guerra-mundial/"
+    "feast": "\udfe2 Quarta-Feira da Semana XXIX do Tempo Comum",
+    "name": "Santa Úrsula e as onze companheiras mártires",
+    "description": "Celebração litúrgica do dia: Quarta-Feira da Semana XXIX do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/santa-ursula-e-as-onze-companheiras-martires/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 12,35-38)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 12,39-48)",
     "lines": [
-      "Naquele tempo, disse Jesus aos seus discípulos: Que vossos rins estejam cingidos e as lâmpadas acesas.",
-      "Sede como homens que estão esperando seu senhor voltar de uma festa de casamento, para lhe abrirem, imediatamente, a porta, logo que ele chegar e bater.",
-      "Felizes os empregados que o senhor encontrar acordados quando chegar.",
-      "Em verdade eu vos digo: Ele mesmo vai cingir-se, fazê-los sentar-se à mesa e, passando, os servirá.",
-      "E caso ele chegue à meia-noite ou às três da madrugada, felizes serão, se assim os encontrar! —"
+      "Naquele tempo, disse Jesus aos seus discípulos: Ficai certos: se o dono da casa soubesse a hora em que o ladrão iria chegar, não deixaria que arrombasse a sua casa.",
+      "Vós também ficai preparados!",
+      "Porque o Filho do Homem vai chegar na hora em que menos o esperardes.",
+      "Então Pedro disse: Senhor, tu contas esta parábola para nós ou para todos? E o Senhor respondeu: Quem é o administrador fiel e prudente que o senhor vai colocar à frente do pessoal de sua casa para dar comida a todos na hora certa?",
+      "Feliz o empregado que o patrão, ao chegar, encontrar agindo assim!",
+      "Em verdade eu vos digo: o senhor lhe confiará a administração de todos os seus bens.",
+      "Porém, se aquele empregado pensar: Meu patrão está demorando, e começar a espancar os criados e as criadas, e a comer, a beber e a embriagar-se, o senhor daquele empregado chegará num dia inesperado e numa hora imprevista, ele o partirá ao meio e o fará participar do destino dos infiéis."
     ],
-    "body": "Naquele tempo, disse Jesus aos seus discípulos: 35 \"Que vossos rins estejam cingidos e as lâmpadas acesas. 36 Sede como homens que estão esperando seu senhor voltar de uma festa de casamento, para lhe abrirem, imediatamente, a porta, logo que ele chegar e bater. 37 Felizes os empregados que o senhor encontrar acordados quando chegar. Em verdade eu vos digo: Ele mesmo vai cingir-se, fazê-los sentar-se à mesa e, passando, os servirá. 38 E caso ele chegue à meia-noite ou às três da madrugada, felizes serão, se assim os encontrar!\" —",
-    "keyVerse": "Vigiai e orai para ficardes de pé, ante o Filho do Homem!"
+    "body": "Naquele tempo, disse Jesus aos seus discípulos: 39 \"Ficai certos: se o dono da casa soubesse a hora em que o ladrão iria chegar, não deixaria que arrombasse a sua casa. 40 Vós também ficai preparados! Porque o Filho do Homem vai chegar na hora em que menos o esperardes\". 41 Então Pedro disse: \"Senhor, tu contas esta parábola para nós ou para todos?\" 42 E o Senhor respondeu: \"Quem é o administrador fiel e prudente que o senhor vai colocar à frente do pessoal de sua casa para dar comida a todos na hora certa? 43 Feliz o empregado que o patrão, ao chegar, encontrar agindo assim! 44 Em verdade eu vos digo: o senhor lhe confiará a administração de todos os seus bens. 45 Porém, se aquele empregado pensar: 'Meu patrão está demorando', e começar a espancar os criados e as criadas, e a comer, a beber e a embriagar-se, 46 o senhor daquele empregado chegará num dia inesperado e numa hora imprevista, ele o partirá ao meio e o fará participar do destino dos infiéis. 47 Aquele empregado que, conhecendo a vontade do senhor, nada preparou, nem agiu conforme a sua vontade, será chicoteado muitas vezes 48 Porém, o empregado que não conhecia essa vontade e fez coisas que merecem castigo, será chicoteado poucas vezes. A quem muito foi dado, muito será pedido; a quem muito foi confiado, muito mais será exigido! —",
+    "keyVerse": "Vigiai, diz Jesus, vigiai, pois, no dia em que não esperais, o vosso Senhor há de vir."
   },
   "sponsor": {
     "enabled": true,
@@ -37,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "O Papa continua sua recuperação no Vaticano. Fará a Audiência Geral na Praça São Pedro",
-      "summary": "Leão XIV recebeu alta no último sábado do Hospital Agostino Gemelli e continua seu período de recuperação na Residência Apostólica Vaticana após a cirurgia de remoção de um adenocarcinoma pulmonar. Ele não irá hoje nem amanhã à sua.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-recuperacao-vaticano-castel-gandolfo-audiencia-geral.html",
-      "published": "2026-10-19"
+      "title": "Cardeal Semeraro: o santo vive na história, mas imprime nela uma nova orientação",
+      "summary": "O prefeito do Dicastério para as Causas dos Santos, cardeal Marcello Semeraro, abriu na tarde desta segunda-feira, 19 de outubro, o congresso “A santidade na história”, explicando que a pesquisa histórica “nos faz reconhecer como a graça.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/cardeal-semeraro-congresso-santidade-historia-augustinianum-2026.html",
+      "published": "2026-10-20"
     },
     {
       "source": "Vatican News",
-      "title": "Papa: Comissão Teológica tem novos membros nomeados, inclusive um brasileiro",
-      "summary": "Tiago de Fraga Gomes, da PUCRS, está entre os novos membros. Leão XIV também renovou nesta segunda-feira, 19 de outubro, o mandato de 5 anos para outros componentes da Comissão Teológica Internacional, que agora conta com 30 integrantes.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-nomeaco-comissao-teologica-internacional-pucrs-bra.html",
-      "published": "2026-10-19"
-    },
-    {
-      "source": "CNBB",
-      "title": "Amar a Deus e ao próximo: o caminho para a unidade cristã",
-      "summary": "Cardeal Orani João Tempesta Arcebispo do Rio de Janeiro (RJ) Neste 30º. Domingo do Tempo Comum uma grande alegria nos reúne neste domingo em torno da mesa da Palavra e da Eucaristia. Somos o povo de Deus, e é como povo que escutamos o.",
-      "url": "https://www.cnbb.org.br/amar-a-deus-e-ao-proximo-o-caminho-para-a-unidade-crista/",
+      "title": "Cardeal Koovakad em Londres: católicos e jainistas juntos pela paz",
+      "summary": "O prefeito do Dicastério para o Diálogo Inter-religioso, cardeal George Jacob Koovakad, fez uma intervenção na celebração do “Ahimsa Day” no Parlamento britânico, iniciativa organizada pelo \"Institute of Jainology\": “a não violência, a.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/cardeal-koovakad-londres-ahimsa-day-parlamento-britanico-2026.html",
       "published": "2026-10-20"
     },
     {
       "source": "CNBB",
-      "title": "Conselho Permanente da CNBB inicia 120ª reunião com reflexões sobre conjunturas social e eclesi",
-      "summary": "A CNBB iniciou, nesta terça-feira, 20 de outubro, a 120ª reunião do Conselho Permanente, na sede da entidade, em Brasília (DF). O encontro reúne bispos dos regionais e das comissões da Conferência até quinta-feira, 22, para refletir sobre.",
-      "url": "https://www.cnbb.org.br/conselho-permanente-da-cnbb-inicia-120a-reuniao/",
+      "title": "“Comunicação hostil tem sufocado o debate público”, aponta presidente da CNBB no artigo “Desafi",
+      "summary": "O arcebispo de Porto Alegre (RS), presidente da CNBB, cardeal Jaime Spengler publicou no site da Conferência um artigo intitulado \"Desafios do Presente\". No texto, o cardeal aponta que a \"aceleração da comunicação e o ambiente hostil,.",
+      "url": "https://www.cnbb.org.br/presidente-da-cnbb-publica-artigo-desafio-do-presente/",
+      "published": "2026-10-20"
+    },
+    {
+      "source": "CNBB",
+      "title": "Amar a Deus e ao próximo!",
+      "summary": "Dom Diamantino Prata de Carvalho Bispo Emérito da Campanha (MG) Reunidos como Povo de Deus, celebramos o XXX Domingo do Tempo Comum. No domingo anterior, fomos interpelados pela provocação sobre o tributo a César e pela firme resposta de.",
+      "url": "https://www.cnbb.org.br/amar-a-deus-e-ao-proximo-3/",
       "published": "2026-10-20"
     },
     {
       "source": "ACI Digital",
-      "title": "Jovens membros da Ordem de Malta ajudam sem-teto na praça de São Pedro",
-      "summary": "Todas as terças-feiras, voluntários se reúnem perto da praça de São Pedro, no Vaticano, para fornecer comida aos moradores de rua.",
-      "url": "https://www.acidigital.com/noticia/70495/jovens-membros-da-ordem-de-malta-ajudam-sem-teto-na-praca-de-sao-pedro",
+      "title": "Leão XIV encarrega teólogos de definir o que é a Tradição da Igreja",
+      "summary": "O papa Leão XIV nomeou 24 membros para a Comissão Teológica Internacional, que estudará durante cinco anos a Tradição da Igreja e a transmissão cultural da fé.",
+      "url": "https://www.acidigital.com/noticia/70497/leao-xiv-encarrega-teologos-de-definir-o-que-e-a-tradicao-da-igreja",
       "published": "2026-10-20"
     },
     {
       "source": "ACI Digital",
-      "title": "Beleza e tradição impulsionam conversões ao catolicismo na Universidade Stanford",
-      "summary": "Ao longo do último ano, a Comunidade Católica de Stanford testemunhou um aumento expressivo no número de adultos que ingressaram na Igreja Católica.",
-      "url": "https://www.acidigital.com/noticia/70473/beleza-e-tradicao-impulsionam-conversoes-ao-catolicismo-na-universidade-stanford",
+      "title": "Padre brasileiro é nomeado para a Comissão Teológica Internacional",
+      "summary": "O padre Tiago de Fraga Gomes, do clero da diocese de Osório (RS), foi nomeado ontem (19) membro da Comissão Teológica Internacional no quinquênio 2026–2031 pelo papa Leão XIV. O sacerdote é professor adjunto da Escola de Humanidades da.",
+      "url": "https://www.acidigital.com/noticia/70489/padre-brasileiro-e-nomeado-para-a-comissao-teologica-internacional",
       "published": "2026-10-20"
     },
     {
-      "source": "Aleteia",
-      "title": "Este santo teria recebido uma carta da Virgem Maria",
-      "summary": "Nenhum documento histórico permite afirmar com certeza que a Virgem Maria tenha escrito cartas durante a sua vida. No entanto, uma tradição antiga, relatada especialmente em A Legenda Dourada, obra medieval de Tiago de Varazze, menciona.",
-      "url": "https://pt.aleteia.org/2026/10/20/este-santo-teria-recebido-uma-carta-da-virgem-maria/",
+      "source": "Gaudium Press",
+      "title": "Nigéria: Padre John Inalegwu Otache é libertado após cinco dias sequestrado",
+      "summary": "Sacerdote católico e mais cinco reféns foram resgatados por forças de segurança no Estado de Benue após cinco dias em cativeiro.",
+      "url": "https://gaudiumpress.org/content/nigeria-padre-john-inalegwu-otache-e-libertado-apos-cinco-dias-sequestrado/",
       "published": "2026-10-20"
     }
   ],
   "closingQuote": {
-    "text": "Felizes os empregados que o senhor encontrar acordados quando chegar.",
-    "source": "Lucas 12,35-38"
+    "text": "A quem muito foi dado, muito será pedido.",
+    "source": "Lucas 12,"
   },
   "liturgyHours": {
-    "reading": "Já é hora de despertar. Com efeito, agora a salvação está mais perto de nós do que quando abraçamos a fé. A noite já vai adiantada, o dia vem chegando: despojemo-nos das ações das trevas e vistamos as armas da luz. Procedamos honestamente, como em...",
+    "reading": "Meu filho, sê vigilante em todas as tuas obras e mostra-te prudente em tua conversação. Não faças a ninguém o que para ti não desejas. Dá de teu pão a quem tem fome, e de tuas vestes aos que estão despidos. Dá de esmola todo o teu supérfluo. Bendize...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
