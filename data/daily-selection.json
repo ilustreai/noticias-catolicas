@@ -1,32 +1,34 @@
 {
-  "date": "2026-10-22",
-  "editionLabel": "22 de outubro de 2026",
+  "date": "2026-10-23",
+  "editionLabel": "23 de outubro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "São João Paulo II, papa",
+    "celebrationTitle": "São João de Capistrano, presbítero",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 12,49-53"
+    "gospelShort": "Lc 12,54-59"
   },
   "saint": {
-    "feast": "São João Paulo II\\, papa",
-    "name": "São João Paulo II, o terceiro maior Pontificado da História da Igreja",
-    "description": "Celebração litúrgica do dia: São João Paulo II, papa.",
-    "url": "https://santo.cancaonova.com/santo/sao-joao-paulo-ii-o-terceiro-maior-pontificado-da-historia-da-igreja/"
+    "feast": "São João de Capistrano\\, presbítero",
+    "name": "São João de Capistrano, patrono dos capelães militares",
+    "description": "Celebração litúrgica do dia: São João de Capistrano, presbítero.",
+    "url": "https://santo.cancaonova.com/santo/sao-joao-de-capistrano-patrono-dos-capelaes-militares/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 12,49-53)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 12,54-59)",
     "lines": [
-      "Naquele tempo, disse Jesus a seus discípulos: Eu vim para lançar fogo sobre a terra, e como gostaria que já estivesse aceso!",
-      "Devo receber um batismo, e como estou ansioso até que isto se cumpra!",
-      "Vós pensais que eu vim trazer a paz sobre a terra?",
-      "Pelo contrário, eu vos digo, vim trazer divisão.",
-      "Pois, daqui em diante, numa família de cinco pessoas, três ficarão divididas contra duas e duas contra três; ficarão divididos: o pai contra o filho e o filho contra o pai; a mãe contra a filha e a filha contra a mãe; a sogra contra a nora e a nora contra a sogra."
+      "Naquele tempo, Jesus dizia às multidões: Quando vedes uma nuvem vinda do ocidente, logo dizeis que vem chuva.",
+      "Quando sentis soprar o vento do sul, logo dizeis que vai fazer calor.",
+      "Vós sabeis interpretar o aspecto da terra e do céu.",
+      "Como é que não sabeis interpretar o tempo presente?",
+      "Por que não julgais por vós mesmos o que é justo?",
+      "Quando, pois, tu vais com o teu adversário apresentar-te diante do magistrado, procura resolver o caso com ele enquanto estais a caminho.",
+      "Senão ele te levará ao juiz, o juiz te entregará ao guarda, e o guarda te jogará na cadeia."
     ],
-    "body": "Naquele tempo, disse Jesus a seus discípulos: 49 \"Eu vim para lançar fogo sobre a terra, e como gostaria que já estivesse aceso! 50 Devo receber um batismo, e como estou ansioso até que isto se cumpra! 51 Vós pensais que eu vim trazer a paz sobre a terra? Pelo contrário, eu vos digo, vim trazer divisão. 52 Pois, daqui em diante, numa família de cinco pessoas, três ficarão divididas contra duas e duas contra três; 53 ficarão divididos: o pai contra o filho e o filho contra o pai; a mãe contra a filha e a filha contra a mãe; a sogra contra a nora e a nora contra a sogra\". —",
-    "keyVerse": "Eu tudo considero como perda e como lixo, a fim de eu ganhar Cristo e ser achado nele!"
+    "body": "Naquele tempo, 54 Jesus dizia às multidões: \"Quando vedes uma nuvem vinda do ocidente, logo dizeis que vem chuva. E assim acontece. 55 Quando sentis soprar o vento do sul, logo dizeis que vai fazer calor. E assim acontece. 56 Hipócritas! Vós sabeis interpretar o aspecto da terra e do céu. Como é que não sabeis interpretar o tempo presente? 57 Por que não julgais por vós mesmos o que é justo? 58 Quando, pois, tu vais com o teu adversário apresentar-te diante do magistrado, procura resolver o caso com ele enquanto estais a caminho. Senão ele te levará ao juiz, o juiz te entregará ao guarda, e o guarda te jogará na cadeia. 59 Eu te digo: daí tu não sairás, enquanto não pagares o último centavo\". —",
+    "keyVerse": "Graças te dou, ó Pai, Senhor do céu e da terra, pois revelaste os mistérios do teu reino aos pequeninos, escondendo-os aos doutores!"
   },
   "sponsor": {
     "enabled": true,
@@ -37,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV: divergências de opinião não devem alimentar preconceito e hostilidade",
-      "summary": "Ao receber no Vaticano os membros do American Jewish Committee, Leão XIV destacou a amizade entre judeus e católicos e recordou que o compromisso com a fraternidade exige a defesa da dignidade humana, da liberdade religiosa, da justiça e.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-ao-comite-judaico-americano-rejeitar-toda-forma-de-odio.html",
+      "title": "Leão XIV: ajudem os jovens a serem protagonistas de uma nova maneira de habitar o mundo",
+      "summary": "O Papa reuniu-se com os participantes do Congresso Internacional sobre a Pastoral Escolar e Universitária realizado, no Vaticano, e \"os convidou a \"educar o coração para a compaixão, para a gratidão, para a capacidade de se deixar tocar.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-congresso-pastoral-escolar-universitaria.html",
       "published": "2026-10-22"
     },
     {
       "source": "Vatican News",
-      "title": "Os novos tempos da Amazônia: a ótica do professor Virgílio Viana",
-      "summary": "Em recente entrevista nos estúdios da Rádio Vaticana, o professor Virgílio Viana, atual superintendente-geral da Fundação Amazônia Sustentável (FAS), compartilhou reflexões profundas após participar de um evento de destaque na Academia de.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/novos-tempos-amazonia-otica-professor-virgilio-viana.html",
+      "title": "Papa: \"Estou ansioso para vê-los em Seul\". Incrições abertas para a JMJ 2027",
+      "summary": "\"Nesta peregrinação, tragam com vocês tudo o que são e tudo o que têm no coração, incluindo seus sonhos, desejos e esperanças, mas também suas feridas e dificuldades\": com essas palavras, o Santo Padre convida os jovens de todo o mundo a.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-videomensagem-inicio-inscricoes-jmj-seul-2027.html",
       "published": "2026-10-22"
     },
     {
       "source": "CNBB",
-      "title": "JMJ Seul 2027: inscrições estão abertas para peregrinos de todo o mundo",
-      "summary": "Em videomensagem, o Papa Leão XIV convidou \"de todo o coração\" cada um dos jovens a participar da JMJ em Seul. \"Não se trata apenas de um convite para visitar uma nova cidade. É um apelo para que empreendam uma peregrinação de fé, de.",
-      "url": "https://www.cnbb.org.br/jmj-seul-2027-inscricoes-abertas-peregrinos-de-todo-o-mundo/",
+      "title": "Missão: a fé que se põe a caminho",
+      "summary": "Dom Leomar Brustolin Arcebispo de Santa Maria (RS) A fé cristã nasce de um encontro, mas esse encontro não nos deixa permanecer onde estamos: imediatamente abre um caminho de seguimento e missão. Jesus chama os discípulos para estarem com.",
+      "url": "https://www.cnbb.org.br/missao-a-fe-que-se-poe-a-caminho/",
       "published": "2026-10-22"
     },
     {
       "source": "CNBB",
-      "title": "Conselho Permanente encerra reunião com missa e debates sobre o Ano Missionário e Congresso",
-      "summary": "A reunião do Conselho Permanente da CNBB foi encerrada nesta quinta-feira, 22 de outubro, na sede da Conferência, em Brasília (DF). No último dia do encontro, os bispos trataram de temas relacionados à formação presbiteral, ao Congresso.",
-      "url": "https://www.cnbb.org.br/conselho-permanente-encerra-reuniao-com-missa-e-debates-sobre-o-ano-missionario-e-congresso-eucaristico/",
+      "title": "Conselho Permanente reforça defesa da democracia e incentiva voto consciente no segundo turno d",
+      "summary": "O Conselho Permanente da CNBB divulgou, na quarta-feira, 21 de outubro, uma mensagem ao povo brasileiro por ocasião do segundo turno das eleições nacionais de 2026. No documento, os bispos reforçam a importância da participação consciente.",
+      "url": "https://www.cnbb.org.br/conselho-permanente-reforca-defesa-da-democracia-e-incentiva-voto-consciente-no-segundo-turno-das-eleicoes/",
       "published": "2026-10-22"
     },
     {
       "source": "ACI Digital",
-      "title": "Como pensam os teólogos nomeados por Leão XIV para órgão da Santa Sé",
-      "summary": "Os novos membros da Comissão Teológica Internacional abrangem seis mulheres e acadêmicos de cinco continentes, vários dos quais discordaram publicamente de doutrinas estabelecidas pela Igreja.",
-      "url": "https://www.acidigital.com/noticia/70527/como-pensam-os-teologos-nomeados-por-leao-xiv-para-orgao-da-santa-se",
+      "title": "Hóstias consagradas são profanadas em igreja invadida por ladrões em Cuiabá",
+      "summary": "Hóstias consagradas foram profanadas durante a invasão à comunidade Nossa Senhora da Paz, pertencente à paróquia Nossa Senhora da Guia, na madrugada de ontem (21), no bairro Jardim Petrópolis, em Cuiabá (MT). Segundo o pároco, padre.",
+      "url": "https://www.acidigital.com/noticia/70531/hostias-consagradas-sao-profanadas-em-igreja-invadida-por-ladroes-em-cuiaba",
+      "published": "2026-10-22"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Não é prudente votar por antipatia, medos ou preconceitos, diz bispo de Campos",
+      "summary": "“Não é prudente votar por antipatia, medos ou preconceitos, e muito menos por interesses escusos, particularistas e ocultos”, escreveu o bispo de Campos (RJ), dom Roberto Francisco Ferreria Paz.",
+      "url": "https://www.acidigital.com/noticia/70525/nao-e-prudente-votar-por-antipatia-medos-ou-preconceitos-diz-bispo-de-campos",
       "published": "2026-10-22"
     },
     {
       "source": "Aleteia",
-      "title": "O que são as Obras Missionárias Pontifícias?",
-      "summary": "As missões não são exclusividade daqueles que partem para pregar o Evangelho em países distantes. Já no século XIX, havia pessoas que buscavam formas de ajudar os missionários à distância. Elas não tinham a intenção de viajar pelo mundo.",
-      "url": "https://pt.aleteia.org/2026/10/22/o-que-sao-as-obras-missionarias-pontificias/",
-      "published": "2026-10-22"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Diagnosticado com câncer aos 4 anos, viveu uma vida difícil, mas extraordinariamente bonita",
-      "summary": "Aos quatro anos, as crianças têm toda a vida pela frente. No entanto, para Louis, um convidado inesperado mudou completamente sua infância em 10 de dezembro de 2009: um tumor cerebral. Durante onze anos, a doença dominou a vida diária do.",
-      "url": "https://pt.aleteia.org/2026/10/22/diagnosticado-com-cancer-aos-4-anos-viveu-uma-vida-dificil-mas-extraordinariamente-bonita/",
-      "published": "2026-10-22"
+      "title": "Por que a carta de Madre Teresa para Bear Grylls significa tanto",
+      "summary": "Bear Grylls já comeu algumas coisas verdadeiramente estranhas em sua trajetória. Estômagos já embrulharam com ele comendo cobra crua, insetos e órgãos de animais. E não vamos esquecer das várias outras substâncias que provavelmente.",
+      "url": "https://pt.aleteia.org/2026/10/21/por-que-a-carta-de-madre-teresa-para-bear-grylls-significa-tanto/",
+      "published": "2026-10-21"
     }
   ],
   "closingQuote": {
-    "text": "Não tenhais medo! Abri as portas a Cristo!",
-    "source": "São João Paulo II"
+    "text": "Vós sabeis interpretar o aspecto da terra e do céu. Como é que não sabeis interpretar o tempo presente?",
+    "source": "Lucas 12,54-59"
   },
   "liturgyHours": {
-    "reading": "Isto diz o Senhor: O céu é o meu trono e a terra é o apoio de meus pés. Que casa é esta que edificareis para mim, e que lugar é este para meu descanso? Tudo isso foi minha mão que fez, tudo isso é meu, diz o Senhor. Mas eu olho para este, para o...",
+    "reading": "Nenhuma palavra perniciosa deve sair dos vossos lábios, mas sim alguma palavra boa, capaz de edificar oportunamente e de trazer graça aos que a ouvem. Não contristeis o Espírito Santo com o qual Deus vos marcou como com um selo para o dia da...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
