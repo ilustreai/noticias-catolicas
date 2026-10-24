@@ -1,34 +1,34 @@
 {
-  "date": "2026-10-23",
-  "editionLabel": "23 de outubro de 2026",
+  "date": "2026-10-24",
+  "editionLabel": "24 de outubro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "São João de Capistrano, presbítero",
+    "celebrationTitle": "Santo Antônio Maria Claret, bispo",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 12,54-59"
+    "gospelShort": "Lc 13,1-9"
   },
   "saint": {
-    "feast": "São João de Capistrano\\, presbítero",
-    "name": "São João de Capistrano, patrono dos capelães militares",
-    "description": "Celebração litúrgica do dia: São João de Capistrano, presbítero.",
-    "url": "https://santo.cancaonova.com/santo/sao-joao-de-capistrano-patrono-dos-capelaes-militares/"
+    "feast": "Santo Antônio Maria Claret\\, bispo",
+    "name": "Santo Antônio Maria Claret, fundador dos Claretianos e Claretianas",
+    "description": "Celebração litúrgica do dia: Santo Antônio Maria Claret, bispo.",
+    "url": "https://santo.cancaonova.com/santo/santo-antonio-maria-claret-fundador-dos-claretianos-e-claretianas/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 12,54-59)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 13,1-9)",
     "lines": [
-      "Naquele tempo, Jesus dizia às multidões: Quando vedes uma nuvem vinda do ocidente, logo dizeis que vem chuva.",
-      "Quando sentis soprar o vento do sul, logo dizeis que vai fazer calor.",
-      "Vós sabeis interpretar o aspecto da terra e do céu.",
-      "Como é que não sabeis interpretar o tempo presente?",
-      "Por que não julgais por vós mesmos o que é justo?",
-      "Quando, pois, tu vais com o teu adversário apresentar-te diante do magistrado, procura resolver o caso com ele enquanto estais a caminho.",
-      "Senão ele te levará ao juiz, o juiz te entregará ao guarda, e o guarda te jogará na cadeia."
+      "Naquele tempo, vieram algumas pessoas trazendo notícias a Jesus a respeito dos galileus que Pilatos tinha matado, misturando seu sangue com o dos sacrifícios que ofereciam.",
+      "Jesus lhes respondeu: Vós pensais que esses galileus eram mais pecadores do que todos os outros galileus, por terem sofrido tal coisa?",
+      "Mas se vós não vos converterdes, ireis morrer todos do mesmo modo.",
+      "E aqueles dezoito que morreram, quando a torre de Siloé caiu sobre eles?",
+      "Pensais que eram mais culpados do que todos os outros moradores de Jerusalém?",
+      "Mas, se não vos converterdes, ireis morrer todos do mesmo modo.",
+      "E Jesus contou esta parábola: Certo homem tinha uma figueira plantada na sua vinha."
     ],
-    "body": "Naquele tempo, 54 Jesus dizia às multidões: \"Quando vedes uma nuvem vinda do ocidente, logo dizeis que vem chuva. E assim acontece. 55 Quando sentis soprar o vento do sul, logo dizeis que vai fazer calor. E assim acontece. 56 Hipócritas! Vós sabeis interpretar o aspecto da terra e do céu. Como é que não sabeis interpretar o tempo presente? 57 Por que não julgais por vós mesmos o que é justo? 58 Quando, pois, tu vais com o teu adversário apresentar-te diante do magistrado, procura resolver o caso com ele enquanto estais a caminho. Senão ele te levará ao juiz, o juiz te entregará ao guarda, e o guarda te jogará na cadeia. 59 Eu te digo: daí tu não sairás, enquanto não pagares o último centavo\". —",
-    "keyVerse": "Graças te dou, ó Pai, Senhor do céu e da terra, pois revelaste os mistérios do teu reino aos pequeninos, escondendo-os aos doutores!"
+    "body": "1 Naquele tempo, vieram algumas pessoas trazendo notícias a Jesus a respeito dos galileus que Pilatos tinha matado, misturando seu sangue com o dos sacrifícios que ofereciam. 2 Jesus lhes respondeu: \"Vós pensais que esses galileus eram mais pecadores do que todos os outros galileus, por terem sofrido tal coisa? 3 Eu vos digo que não. Mas se vós não vos converterdes, ireis morrer todos do mesmo modo. 4 E aqueles dezoito que morreram, quando a torre de Siloé caiu sobre eles? Pensais que eram mais culpados do que todos os outros moradores de Jerusalém? 5 Eu vos digo que não. Mas, se não vos converterdes, ireis morrer todos do mesmo modo\". 6 E Jesus contou esta parábola: \"Certo homem tinha uma figueira plantada na sua vinha. Foi até ela procurar figos e não encontrou. 7 Então disse ao vinhateiro: 'Já faz três anos que venho procurando figos nesta figueira e nada encontro. Corta-a! Por que está ela inutilizando a terra?' 8 Ele, porém, respondeu: 'Senhor, deixa a figueira ainda este ano. Vou cavar em volta dela e colocar adubo. 9 Pode ser que venha a dar fruto. Se não der, então tu a cortarás' \". —",
+    "keyVerse": "Não quero a morte do pecador, diz o Senhor, mas que ele volte, se converta e tenha vida."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Shevchuk leva ao Papa “a oração da Ucrânia” e uma lista com nomes dos prisioneiros",
-      "summary": "O chefe da Igreja greco-católica ucraniana foi recebido em audiência por Leão XIV no Palácio Apostólico vaticano. Gratidão pelas ligações telefônicas a Putin e Zelensky, pela atenção dada à tragédia de Oleshky, pelos apelos, pela missão.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/ucrania-shevchuk-igreja-greco-catolica-audiencia-papa-leao-xiv.html",
+      "title": "Leão XIV não irá a Assis para favorecer a recuperação após a cirurgia",
+      "summary": "Os médicos informam que Leão XIV foi submetido a uma radiografia de controle do tórax e que a evolução do pós-operatório é “excelente”. Por precaução, foi desaconselhada a viagem de helicóptero prevista para 27 de outubro a Assis, onde o.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/leao-xiv-nao-ira-a-assis-para-favorecer-recuperacao-da-cirurgia.html",
       "published": "2026-10-23"
     },
     {
       "source": "Vatican News",
-      "title": "Leão XIV: divergências de opinião não devem alimentar preconceito e hostilidade",
-      "summary": "Ao receber no Vaticano os membros do American Jewish Committee, Leão XIV destacou a amizade entre judeus e católicos e recordou que o compromisso com a fraternidade exige a defesa da dignidade humana, da liberdade religiosa, da justiça e.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-ao-comite-judaico-americano-rejeitar-toda-forma-de-odio.html",
-      "published": "2026-10-22"
+      "title": "Papa: a verdadeira justiça nunca está separada da verdade e da misericórdia",
+      "summary": "Ao receber os participantes do Congresso Internacional pelos 150 anos da Faculdade de Direito Canônico da Pontifícia Universidade Gregoriana, Leão XIV destacou que o direito da Igreja deve estar orientado pela justiça, pela verdade e pela.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-a-verdadeira-justica-nunca-esta-separada-da-verdade.html",
+      "published": "2026-10-23"
     },
     {
       "source": "CNBB",
-      "title": "Comissão celebra 10 anos de luta profética contra o tráfico de pessoas; momento reafirma a miss",
-      "summary": "A Comissão Especial de Enfrentamento ao Tráfico Humano, da CNBB, realizou um encontro virtual para marcar uma década de caminhada sob o lema: “10 anos rompendo o silêncio: Tráfico de pessoas existe e enfrentá-lo é a nossa missão”. O.",
-      "url": "https://www.cnbb.org.br/comissao-celebra-10-anos-de-luta-profetica-contra-o-trafico-de-pessoas-momento-reafirma-a-coragem-profetica/",
+      "title": "participa do Congresso Internacional de Pastoral Escolar e Universitária no Vaticano",
+      "summary": "\"Inspirado no compromisso de desenhar novos mapas de esperança, o Congresso reforça a importância de uma educação comprometida com a dignidade humana, a cultura do encontro e a construção da paz\", resumiu Beatriz Leal, assessora do Setor.",
+      "url": "https://www.cnbb.org.br/cnbb-participa-do-congresso-internacional-de-pastoral-escolar-e-universitaria-no-vaticano/",
+      "published": "2026-10-23"
+    },
+    {
+      "source": "CNBB",
+      "title": "Comissão Especial para o Acordo Brasil – Santa Sé avança para tornar o acordo mais conhecido na",
+      "summary": "Dom Paulo Cezar Costa, o Acordo Brasil-Santa Sé tem defendido que o Acordo Brasil - Santa Sé é fundamental porque garante a verdadeira laicidade do Estado e garante a liberdade a todas as religiões, incluindo a Católica, para que possam.",
+      "url": "https://www.cnbb.org.br/reuniao-acordo-brasil-santa-se/",
       "published": "2026-10-23"
     },
     {
       "source": "ACI Digital",
-      "title": "A verdadeira justiça nunca está separada ‘da verdade e da misericórdia’, diz Leão XIV",
-      "summary": "Leão XIV tem doutorado em direito canônico e uma longa carreira como especialista em legislação eclesiástica, formação que influencia notavelmente sua visão sobre o governo da Igreja.",
-      "url": "https://www.acidigital.com/noticia/70557/a-verdadeira-justica-nunca-esta-separada-da-verdade-e-da-misericordia-diz-leao-xiv",
+      "title": "O que Lula e Flávio Bolsonaro propõem sobre vida e família",
+      "summary": "A defesa da vida desde a concepção aparece explicitamente no plano de governo do senador Flávio Bolsonaro (PL), candidato à Presidência da República.",
+      "url": "https://www.acidigital.com/noticia/70575/o-que-lula-e-flavio-bolsonaro-propoem-sobre-vida-e-familia",
       "published": "2026-10-23"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Como pensam os teólogos nomeados por Leão XIV para órgão da Santa Sé",
-      "summary": "Os novos membros da Comissão Teológica Internacional abrangem seis mulheres e acadêmicos de cinco continentes, vários dos quais discordaram publicamente de doutrinas estabelecidas pela Igreja.",
-      "url": "https://www.acidigital.com/noticia/70527/como-pensam-os-teologos-nomeados-por-leao-xiv-para-orgao-da-santa-se",
-      "published": "2026-10-22"
     },
     {
       "source": "Aleteia",
-      "title": "Você conhece Antoninho da Rocha Marmo, o santo paulistano?",
-      "summary": "Imagine por um instante a vastidão dos céus de São Paulo no início do século passado, quando a cidade começava a desenhar seus contornos de metrópole e a tuberculose varria famílias inteiras sob o estigma do isolamento e da morte. É nesse.",
-      "url": "https://pt.aleteia.org/2026/10/23/voce-conhece-antoninho-da-rocha-marmo-o-santo-paulistano/",
+      "title": "Santa Sé e Honduras assinam acordo que garante direitos da Igreja Católica e sigilo da confissã",
+      "summary": "Preparado ao longo de vários anos, este acordo garante à Igreja Católica, em particular, o direito de culto, de organização e também o respeito ao sigilo da confissão sem limitações , neste país centro-americano onde metade da população.",
+      "url": "https://pt.aleteia.org/2026/10/23/santa-se-e-honduras-assinam-acordo-que-garante-direitos-da-igreja-catolica-e-sigilo-da-confissao/",
       "published": "2026-10-23"
     },
     {
       "source": "Gaudium Press",
-      "title": "Papa Leão XIV recebe título de confrade da Capela de São Jorge, em Windsor",
-      "summary": "Honraria concedida pela Casa Real britânica retribui gesto do Pontífice ao Rei Charles III e fortalece o diálogo ecumênico.",
-      "url": "https://gaudiumpress.org/content/papa-leao-xiv-recebe-titulo-de-confrade-da-capela-de-sao-jorge-em-windsor/",
+      "title": "Viagem do Papa Leão XIV a Assis é cancelada por recomendação médica",
+      "summary": "Apesar da excelente evolução pós-operatória confirmada em novo exame, equipe de saúde prefere cautela; Pontífice enviará mensagem ao encontro de oração pela paz.",
+      "url": "https://gaudiumpress.org/content/viagem-do-papa-leao-xiv-a-assis-e-cancelada-por-recomendacao-medica/",
       "published": "2026-10-23"
     }
   ],
   "closingQuote": {
-    "text": "Vós sabeis interpretar o aspecto da terra e do céu. Como é que não sabeis interpretar o tempo presente?",
-    "source": "Lucas 12,54-59"
+    "text": "Se vós não vos converterdes, ireis morrer todos do mesmo modo.",
+    "source": "Lucas 13,1-9"
   },
   "liturgyHours": {
-    "reading": "Nenhuma palavra perniciosa deve sair dos vossos lábios, mas sim alguma palavra boa, capaz de edificar oportunamente e de trazer graça aos que a ouvem. Não contristeis o Espírito Santo com o qual Deus vos marcou como com um selo para o dia da...",
+    "reading": "Irmãos, cuidai cada vez mais de confirmar a vossa vocação e eleição. Procedendo assim, jamais tropeçareis. Desta maneira vos será largamente proporcionado o acesso ao reino eterno de nosso Senhor e Salvador, Jesus Cristo.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
