@@ -1,31 +1,34 @@
 {
-  "date": "2026-10-25",
-  "editionLabel": "25 de outubro de 2026",
+  "date": "2026-10-26",
+  "editionLabel": "26 de outubro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XXX do Tempo Comum",
+    "celebrationTitle": "Segunda-Feira da Semana XXX do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 22,34-40"
+    "gospelShort": "Lc 13,10-17"
   },
   "saint": {
-    "feast": "\udfe2 Domingo XXX do Tempo Comum",
-    "name": "Santo Antônio de Sant’Anna Galvão, o Frei Galvão",
-    "description": "Celebração litúrgica do dia: Domingo XXX do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santo-antonio-de-santanna-galvao-o-frei-galvao/"
+    "feast": "\udfe2 Segunda-Feira da Semana XXX do Tempo Comum",
+    "name": "Santo Evaristo, o quinto Papa da Igreja Católica",
+    "description": "Celebração litúrgica do dia: Segunda-Feira da Semana XXX do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/santo-evaristo-o-quinto-papa-da-igreja-catolica/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 22,34-40)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 13,10-17)",
     "lines": [
-      "Naquele tempo, Os fariseus ouviram dizer que Jesus tinha feito calar os saduceus.",
-      "Então eles se reuniram em grupo, e um deles perguntou a Jesus, para experimentá-lo: Mestre, qual é o maior mandamento da Lei? Jesus respondeu: Amarás o Senhor teu Deus de todo o teu coração, de toda a tua alma, e de todo o teu entendimento! Esse é o maior e o primeiro mandamento.",
-      "O segundo é semelhante a esse: Amarás ao teu próximo como a ti mesmo.",
-      "Toda a Lei e os profetas dependem desses dois mandamentos."
+      "Naquele tempo, Jesus estava ensinando numa sinagoga, em dia de sábado.",
+      "Havia aí uma mulher que, fazia dezoito anos, estava com um espírito que a tornava doente.",
+      "Era encurvada e incapaz de se endireitar.",
+      "Vendo-a, Jesus chamou-a e lhe disse: Mulher, estás livre da tua doença.",
+      "Jesus colocou as mãos sobre ela, e imediatamente a mulher se endireitou, e começou a louvar a Deus.",
+      "O chefe da sinagoga ficou furioso, porque Jesus tinha feito uma cura em dia de sábado.",
+      "E, tomando a palavra, começou a dizer à multidão: Existem seis dias para trabalhar."
     ],
-    "body": "Naquele tempo, 34 Os fariseus ouviram dizer que Jesus tinha feito calar os saduceus. Então eles se reuniram em grupo, 35 e um deles perguntou a Jesus, para experimentá-lo: 36 \"Mestre, qual é o maior mandamento da Lei?\" 37 Jesus respondeu: \"'Amarás o Senhor teu Deus de todo o teu coração, de toda a tua alma, e de todo o teu entendimento!' 38 Esse é o maior e o primeiro mandamento. 39 O segundo é semelhante a esse: 'Amarás ao teu próximo como a ti mesmo'. 40 Toda a Lei e os profetas dependem desses dois mandamentos\". —",
-    "keyVerse": "Se alguém me ama, guardará a minha palavra, e meu Pai o amará, e a ele nós viremos."
+    "body": "Naquele tempo, 10 Jesus estava ensinando numa sinagoga, em dia de sábado. 11 Havia aí uma mulher que, fazia dezoito anos, estava com um espírito que a tornava doente. Era encurvada e incapaz de se endireitar. 12 Vendo-a, Jesus chamou-a e lhe disse: \"Mulher, estás livre da tua doença\". 13 Jesus colocou as mãos sobre ela, e imediatamente a mulher se endireitou, e começou a louvar a Deus. 14 O chefe da sinagoga ficou furioso, porque Jesus tinha feito uma cura em dia de sábado. E, tomando a palavra, começou a dizer à multidão: \"Existem seis dias para trabalhar. Vinde, então, nesses dias para serdes curados, mas não em dia de sábado\". 15 O Senhor lhe respondeu: \"Hipócritas! Cada um de vós não solta do curral o boi ou o jumento, para dar-lhe de beber, mesmo que seja dia de sábado? 16 Esta filha de Abraão, que Satanás amarrou durante dezoito anos, não deveria ser libertada dessa prisão, em dia de sábado?\" 17 Esta resposta envergonhou todos os inimigos de Jesus. E a multidão inteira se alegrava com as maravilhas que ele fazia. —",
+    "keyVerse": "Vossa palavra é a verdade; santificai-nos na verdade!"
   },
   "sponsor": {
     "enabled": true,
@@ -36,60 +39,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa a \"Jesus Youth\" da Índia: testemunhar com coragem a fé e promover o matrimônio",
-      "summary": "Na Sala Paulo VI, Leão XIV recebe em audiência delegados e responsáveis do movimento católico internacional que, neste ano, comemora 40 anos de fundação e 10 anos desde o reconhecimento da Santa Sé. À associação católica que, em todo o.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-jesus-youth-india-outubro-2026.html",
-      "published": "2026-10-24"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-10-26"
     },
     {
       "source": "Vatican News",
-      "title": "Patriarca Bartolomeu I em peregrinação pela Itália: entre Roma, Loreto e Assis",
-      "summary": "O arcebispo de Constantinopla, Bartolomeu I, que recebeu, na Universidade Angelicum, em Roma, o título honoris causa em Teologia, participa da Conferência \"Creta 10 nos depois\", sobre os 10 anos do Concílio da Igreja Ortodoxa. Em 26 de.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-10/patriarca-bartolomeu-i-peregrinacao-italia-audiencia-papa-leao.html",
-      "published": "2026-10-25"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-10-26"
     },
     {
       "source": "CNBB",
-      "title": "Comissão celebra 10 anos de luta profética contra o tráfico de pessoas; momento reafirma a miss",
-      "summary": "A Comissão Especial de Enfrentamento ao Tráfico Humano, da CNBB, realizou um encontro virtual para marcar uma década de caminhada sob o lema: “10 anos rompendo o silêncio: Tráfico de pessoas existe e enfrentá-lo é a nossa missão”. O.",
-      "url": "https://www.cnbb.org.br/comissao-celebra-10-anos-de-luta-profetica-contra-o-trafico-de-pessoas-momento-reafirma-a-coragem-profetica/",
-      "published": "2026-10-23"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-10-26"
     },
     {
       "source": "ACI Digital",
-      "title": "Sem o amor a Deus, nossas boas obras se reduziriam a moralismo, diz Leão XIV",
-      "summary": "“Não basta saber que Deus existe, que é único ou que é o Todo-Poderoso; o Senhor espera de nós uma relação pessoal: o único Deus verdadeiro quer tornar-se o nosso Deus”, disse o papa Leão XIV no Ângelus de hoje (25), na praça de São Pedro.",
-      "url": "https://www.acidigital.com/noticia/70577/sem-o-amor-a-deus-nossas-boas-obras-se-reduziriam-a-moralismo-diz-leao-xiv",
-      "published": "2026-10-25"
+      "title": "Igreja no Brasil se prepara para o mês vocacional com intensa programação",
+      "summary": "Dioceses de todo o Brasil organizam eventos e campanhas para o mês vocacional de agosto, incentivando jovens a discernirem sua vocação.",
+      "url": "https://www.acidigital.com/noticia/58573/licoes-de-santa-ana-e-sao-joaquim-para-casais-que-enfrentam-a-infertilidade",
+      "published": "2026-10-26"
     },
     {
       "source": "ACI Digital",
-      "title": "O papa reza pelas vítimas do atentado contra uma igreja ortodoxa na Jordânia",
-      "summary": "O papa Leão XIV expressou, neste domingo, sua proximidade com as vítimas do atentado terrorista perpetrado na última sexta-feira contra os fiéis da Igreja Ortodoxa de São Jorge, em Mut, na Jordânia, e destacou o exemplo de convivência.",
-      "url": "https://www.acidigital.com/noticia/70579/o-papa-reza-pelas-vitimas-do-atentado-contra-uma-igreja-ortodoxa-na-jordania",
-      "published": "2026-10-25"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-10-26"
+    },
+    {
+      "source": "Shalom",
+      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
+      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
+      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "published": "2026-10-26"
+    },
+    {
+      "source": "Shalom",
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-10-26"
     },
     {
       "source": "Aleteia",
-      "title": "Você conhece Antoninho da Rocha Marmo, o santo paulistano?",
-      "summary": "Imagine por um instante a vastidão dos céus de São Paulo no início do século passado, quando a cidade começava a desenhar seus contornos de metrópole e a tuberculose varria famílias inteiras sob o estigma do isolamento e da morte. É nesse.",
-      "url": "https://pt.aleteia.org/2026/10/23/voce-conhece-antoninho-da-rocha-marmo-o-santo-paulistano/",
-      "published": "2026-10-23"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "Leão XIV no Ângelus: sem o amor, nossa fé ficaria desprovida do seu conteúdo",
-      "summary": "Cristo coloca o amor no centro de nossa relação com Deus, lembrou Leão XIV, e Deus espera de nós uma relação pessoal. Foto: Vatican News/ Vatican Media Redação ( 25/10/2026 11:48 , Gaudium Press ) No Ângelus deste domingo, 25 de outubro,.",
-      "url": "https://gaudiumpress.org/content/leao-xiv-no-angelus-sem-o-amor-nossa-fe-ficaria-desprovida-do-seu-conteudo/",
-      "published": "2026-10-25"
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-10-26"
     }
   ],
   "closingQuote": {
-    "text": "Amarás o Senhor teu Deus, e ao teu próximo como a ti mesmo.",
-    "source": "Mateus 22,34-40"
+    "text": "Esta filha de Abraão, não deveria ser libertada dessa prisão, em dia de sábado?",
+    "source": "Lucas 13,10-17"
   },
   "liturgyHours": {
-    "reading": "Derramarei sobre vós uma água pura, e sereis purificados. Eu vos purificarei de todas as impurezas e de todos os ídolos. Eu vos darei um coração novo e porei um espírito novo dentro de vós. Arrancarei do vosso corpo o coração de pedra e vos darei um...",
+    "reading": "Quando encontrei tuas palavras, alimentei-me; elas se tornaram para mim uma delícia, e a alegria do coração, o modo como invocar teu nome sobre mim, Senhor Deus dos exércitos.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
