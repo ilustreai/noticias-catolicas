@@ -1,34 +1,32 @@
 {
-  "date": "2026-10-26",
-  "editionLabel": "26 de outubro de 2026",
+  "date": "2026-10-27",
+  "editionLabel": "27 de outubro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Segunda-Feira da Semana XXX do Tempo Comum",
+    "celebrationTitle": "Terça-Feira da Semana XXX do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 13,10-17"
+    "gospelShort": "Lc 13,18-21"
   },
   "saint": {
-    "feast": "\udfe2 Segunda-Feira da Semana XXX do Tempo Comum",
-    "name": "Santo Evaristo, o quinto Papa da Igreja Católica",
-    "description": "Celebração litúrgica do dia: Segunda-Feira da Semana XXX do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santo-evaristo-o-quinto-papa-da-igreja-catolica/"
+    "feast": "\udfe2 Terça-Feira da Semana XXX do Tempo Comum",
+    "name": "São Gonçalo de Lagos, o padroeiro de Torres Vedras",
+    "description": "Celebração litúrgica do dia: Terça-Feira da Semana XXX do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-goncalo-de-lagos-o-padroeiro-de-torres-vedras/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 13,10-17)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 13,18-21)",
     "lines": [
-      "Naquele tempo, Jesus estava ensinando numa sinagoga, em dia de sábado.",
-      "Havia aí uma mulher que, fazia dezoito anos, estava com um espírito que a tornava doente.",
-      "Era encurvada e incapaz de se endireitar.",
-      "Vendo-a, Jesus chamou-a e lhe disse: Mulher, estás livre da tua doença.",
-      "Jesus colocou as mãos sobre ela, e imediatamente a mulher se endireitou, e começou a louvar a Deus.",
-      "O chefe da sinagoga ficou furioso, porque Jesus tinha feito uma cura em dia de sábado.",
-      "E, tomando a palavra, começou a dizer à multidão: Existem seis dias para trabalhar."
+      "Naquele tempo, Jesus dizia: A que é semelhante o Reino de Deus, e com que poderei compará-lo?",
+      "Ele é como a semente de mostarda, que um homem pega e atira no seu jardim.",
+      "A semente cresce, torna-se uma grande árvore, e as aves do céu fazem ninhos nos seus ramos.",
+      "Jesus disse ainda: Com que poderei ainda comparar o Reino de Deus?",
+      "Ele é como o fermento que uma mulher pega e mistura com três porções de farinha, até que tudo fique fermentado."
     ],
-    "body": "Naquele tempo, 10 Jesus estava ensinando numa sinagoga, em dia de sábado. 11 Havia aí uma mulher que, fazia dezoito anos, estava com um espírito que a tornava doente. Era encurvada e incapaz de se endireitar. 12 Vendo-a, Jesus chamou-a e lhe disse: \"Mulher, estás livre da tua doença\". 13 Jesus colocou as mãos sobre ela, e imediatamente a mulher se endireitou, e começou a louvar a Deus. 14 O chefe da sinagoga ficou furioso, porque Jesus tinha feito uma cura em dia de sábado. E, tomando a palavra, começou a dizer à multidão: \"Existem seis dias para trabalhar. Vinde, então, nesses dias para serdes curados, mas não em dia de sábado\". 15 O Senhor lhe respondeu: \"Hipócritas! Cada um de vós não solta do curral o boi ou o jumento, para dar-lhe de beber, mesmo que seja dia de sábado? 16 Esta filha de Abraão, que Satanás amarrou durante dezoito anos, não deveria ser libertada dessa prisão, em dia de sábado?\" 17 Esta resposta envergonhou todos os inimigos de Jesus. E a multidão inteira se alegrava com as maravilhas que ele fazia. —",
-    "keyVerse": "Vossa palavra é a verdade; santificai-nos na verdade!"
+    "body": "Naquele tempo, 18 Jesus dizia: \"A que é semelhante o Reino de Deus, e com que poderei compará-lo? 19 Ele é como a semente de mostarda, que um homem pega e atira no seu jardim. A semente cresce, torna-se uma grande árvore, e as aves do céu fazem ninhos nos seus ramos\". 20 Jesus disse ainda: \"Com que poderei ainda comparar o Reino de Deus? 21 Ele é como o fermento que uma mulher pega e mistura com três porções de farinha, até que tudo fique fermentado\". —",
+    "keyVerse": "Graças te dou, ó Pai, Senhor do céu e da terra, pois revelaste os mistérios do teu Reino aos pequeninos, escondendo-os aos doutores!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,53 +37,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Apelos do Papa pelos povos do Iêmen e Jordânia: todos têm direito de viver em paz",
-      "summary": "\"Continuemos juntos a rezar pela paz\", exortou Leão XIV ao final do Angelus: \"que o Senhor inspire escolhas de diálogo e de paz!\". Os apelos foram dirigidos ao Iêmen, que sofre agravamento da emergência humanitária na cidade de Taiz, e à.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-apelo-paz-iemen-jordania-encontro-assis-outubro-26.html",
-      "published": "2026-10-25"
+      "title": "Papa recebe em audiência a presidente da Eslovênia",
+      "summary": "Nataša Pirc Musar foi recebida por Leão XIV no Palácio Apostólico Vaticano. Nas conversas na Secretaria de Estado, destaque para temas de caráter internacional, com atenção especial à região dos Bálcãs Ocidentais e aos conflitos na.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-recebe-em-audiencia-presidente-da-eslovenia.html",
+      "published": "2026-10-26"
     },
     {
       "source": "Vatican News",
-      "title": "Papa: não se pode amar a Deus sem que esse amor transborde ao nosso irmão",
-      "summary": "\"A dimensão do amor como o ponto fundamental da relação com Deus\" foi analisada por Leão XIV neste domingo (25/10), antes da oração mariana do Angelus, na Praça São Pedro. Através dos dois primeiros mandamentos, o Papa afirmou: \"não.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-angelus-25-outubro-2026.html",
-      "published": "2026-10-25"
-    },
-    {
-      "source": "CNBB",
-      "title": "publica a “Mensagem aos eleitos e eleitas nas Eleições de 2026”",
-      "summary": "Ao cumprimentar os eleitos e eleitas, a CNBB reconhece, na mensagem, a importância da participação popular e das instituições democráticas para a vida da nação e reforça que o voto expressa a confiança depositada pelos cidadãos naqueles.",
-      "url": "https://www.cnbb.org.br/cnbb-publica-a-mensagem-aos-eleitos-e-eleitas-nas-eleicoes-de-2026/",
+      "title": "O Papa: numa sociedade como a nossa, a dimensão da caridade é fundamental",
+      "summary": "Na audiência com as Irmãs da Caridade, Leão XIV destacou o legado da fundadora, Santa Joana Antida Thouret, que colocou Cristo no centro de sua vida, dedicando-se aos pobres, aos enfermos e aos mais necessitados. Um ensinamento que hoje.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-irmas-sociedade-dimensao-caridade-fundamental-joana-thouret.html",
       "published": "2026-10-26"
     },
     {
       "source": "CNBB",
-      "title": "Comissão Especial de Bioética da CNBB promove 2º Encontro Nacional de Hospitais Católicos",
-      "summary": "O objetivo do evento é discutir sobre os principais desafios bioéticos à luz da Encíclica Magnífica Humanitas, refletir sobre a missão, identidade e vocação das instituições hospitalares católicas na realidade atual e incentivar a criação.",
-      "url": "https://www.cnbb.org.br/comissao-bioetica-2o-encontro-hospitais-catolicos/",
+      "title": "A solidariedade sem fronteiras: o desafio da Fraternidade Universal entre continentes",
+      "summary": "Dom Vilson Dias de Oliveira Bispo Emérito de Limeira (SP) A dimensão da solidariedade no seio da Igreja Católica ganha o seu sentido mais profundo quando ultrapassa as fronteiras do habitual e alcança realidades geograficamente distantes,.",
+      "url": "https://www.cnbb.org.br/a-solidariedade-sem-fronteiras-o-desafio-da-fraternidade-universal-entre-continentes/",
       "published": "2026-10-26"
     },
     {
       "source": "ACI Digital",
-      "title": "María Corina Machado volta à Venezuela e participa de missa no santuário da Divina Pastora",
-      "summary": "María Corina Machado, laureada com o prêmio Nobel da Paz 2025, voltou ontem (25) à Venezuela, depois de cerca de um ano de exílio. Em sua primeira aparição pública em solo venezuelano, a líder política visitou o santuário arquidiocesano da Divina Pastora, em Barquisimeto. Machado deixou o país em dezembro do ano passado, graças a uma complexa operação de resgate coordenada pelos EUA que a levou a Oslo, Noruega....",
-      "url": "https://www.acidigital.com/noticia/70583/maria-corina-machado-volta-a-venezuela-e-participa-de-missa-no-santuario-da-divina-pastora",
+      "title": "O que a Igreja no Egito está fazendo para manter jovens ligados à sua fé",
+      "summary": "Em declarações à organização Ajuda à Igreja que Sofre, o bispo Emmanuel Bishay, da eparquia Copta Católica de Luxor, Egito, disse que as relações entre as Igrejas Católica e Ortodoxa são boas.",
+      "url": "https://www.acidigital.com/noticia/70597/o-que-a-igreja-no-egito-esta-fazendo-para-manter-jovens-ligados-a-sua-fe",
       "published": "2026-10-26"
     },
     {
       "source": "ACI Digital",
-      "title": "Grupo de direitos humanos pede libertação imediata de seis cristãos detidos no Egito por causa",
-      "summary": "A organização Alliance Defending Freedom pediu às autoridades egípcias para libertarem seis jovens cristãos depois da publicação de um vídeo no TikTok que as autoridades consideraram ofensivo ao islã.",
-      "url": "https://www.acidigital.com/noticia/70589/grupo-de-direitos-humanos-pede-libertacao-imediata-de-seis-cristaos-detidos-no-egito-por-causa",
+      "title": "é dia de santo Odrano, abade e fundador irlandês, apóstolo da Escócia",
+      "summary": "Hoje (27) é a festa de santo Odrano (Odran ou Odhran), que foi chamado de \"nobre e sem mancha\". Odrano viveu entre os séculos V e VI e talvez seja o mais famoso abade do mosteiro de Meath, Irlanda. Santo Odrano viveu por mais de 40 anos em Silvermines, no condado de Tipperary, Irlanda, e é considerado o responsável pela construção da igreja local em 520. Segundo a tradição irlandesa, Odrano foi abade do mosteiro de Meath e fundou o mosteiro de Lattreagh....",
+      "url": "https://www.acidigital.com/noticia/56572/hoje-e-dia-de-santo-odrano-abade-e-fundador-irlandes-apostolo-da-escocia",
+      "published": "2026-10-27"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Quatro obstáculos que quem está na catequese pode enfrentar",
+      "summary": "O catecumenato não é um mar de rosas, é um percurso que comporta inúmeros obstáculos. Como em qualquer verdadeira aventura, inimigos e combates podem obstruir essa magnífica jornada. Aqui estão quatro obstáculos enfrentados por muitos.",
+      "url": "https://pt.aleteia.org/2026/10/26/quatro-obstaculos-que-quem-esta-na-catequese-pode-enfrentar/",
+      "published": "2026-10-26"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Católico contestador: antes de criticar um sacerdote, você estudou?",
+      "summary": "Nomes históricos da música e da evangelização no país, como o Padre Zezinho, SCJ, ou figuras de grande visibilidade mediática e pastoral, como o Padre Júlio Lancellotti, tornaram-se alvos frequentes de questionamentos, rejeições ou.",
+      "url": "https://pt.aleteia.org/2026/10/26/catolico-contestador-antes-de-criticar-um-sacerdote-voce-estudou/",
       "published": "2026-10-26"
     }
   ],
   "closingQuote": {
-    "text": "Esta filha de Abraão, não deveria ser libertada dessa prisão, em dia de sábado?",
-    "source": "Lucas 13,10-17"
+    "text": "A semente cresce e torna-se uma grande árvore.",
+    "source": "Lucas 13,18-21"
   },
   "liturgyHours": {
-    "reading": "Quando encontrei tuas palavras, alimentei-me; elas se tornaram para mim uma delícia, e a alegria do coração, o modo como invocar teu nome sobre mim, Senhor Deus dos exércitos.",
+    "reading": "Vós, meus irmãos, não estais nas trevas, de modo que esse dia vos surpreenda como um ladrão. Todos vós sois filhos da luz e filhos do dia. Não somos da noite, nem das trevas.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
