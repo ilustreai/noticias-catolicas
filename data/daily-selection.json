@@ -1,32 +1,34 @@
 {
-  "date": "2026-10-27",
-  "editionLabel": "27 de outubro de 2026",
+  "date": "2026-10-28",
+  "editionLabel": "28 de outubro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "festa",
     "season": "Tempo Comum",
-    "celebrationTitle": "Terça-Feira da Semana XXX do Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Lc 13,18-21"
+    "celebrationTitle": "Santos Simão e Judas, apóstolos",
+    "colorName": "vermelho",
+    "cssColor": "#C62828",
+    "gospelShort": "Lc 6,12-19"
   },
   "saint": {
-    "feast": "\udfe2 Terça-Feira da Semana XXX do Tempo Comum",
-    "name": "São Gonçalo de Lagos, o padroeiro de Torres Vedras",
-    "description": "Celebração litúrgica do dia: Terça-Feira da Semana XXX do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-goncalo-de-lagos-o-padroeiro-de-torres-vedras/"
+    "feast": "\udd34 [F] Santos Simão e Judas\\, apóstolos",
+    "name": "São Simão e São Judas Tadeu, os apóstolos primos de Jesus",
+    "description": "Celebração litúrgica do dia: Santos Simão e Judas, apóstolos.",
+    "url": "https://santo.cancaonova.com/santo/sao-simao-e-sao-judas-tadeu-os-apostolos-primos-de-jesus/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 13,18-21)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 6,12-19)",
     "lines": [
-      "Naquele tempo, Jesus dizia: A que é semelhante o Reino de Deus, e com que poderei compará-lo?",
-      "Ele é como a semente de mostarda, que um homem pega e atira no seu jardim.",
-      "A semente cresce, torna-se uma grande árvore, e as aves do céu fazem ninhos nos seus ramos.",
-      "Jesus disse ainda: Com que poderei ainda comparar o Reino de Deus?",
-      "Ele é como o fermento que uma mulher pega e mistura com três porções de farinha, até que tudo fique fermentado."
+      "Naqueles dias, Jesus foi à montanha para rezar.",
+      "E passou a noite toda em oração a Deus.",
+      "Ao amanhecer, chamou seus discípulos e escolheu doze dentre eles, aos quais deu o nome de apóstolos: Simão, a quem impôs o nome de Pedro, e seu irmão André; Tiago e João; Filipe e Bartolomeu; Mateus e Tomé; Tiago, filho de Alfeu, e Simão, chamado Zelota; Judas, filho de Tiago, e Judas Iscariotes, aquele que se tornou traidor.",
+      "Jesus desceu da montanha com eles e parou num lugar plano.",
+      "Ali estavam muitos dos seus discípulos e grande multidão de gente de toda a Judéia e de Jerusalém, do litoral de Tiro e Sidônia.",
+      "Vieram para ouvir Jesus e serem curados de suas doenças.",
+      "E aqueles que estavam atormentados por espíritos maus também foram curados."
     ],
-    "body": "Naquele tempo, 18 Jesus dizia: \"A que é semelhante o Reino de Deus, e com que poderei compará-lo? 19 Ele é como a semente de mostarda, que um homem pega e atira no seu jardim. A semente cresce, torna-se uma grande árvore, e as aves do céu fazem ninhos nos seus ramos\". 20 Jesus disse ainda: \"Com que poderei ainda comparar o Reino de Deus? 21 Ele é como o fermento que uma mulher pega e mistura com três porções de farinha, até que tudo fique fermentado\". —",
-    "keyVerse": "Graças te dou, ó Pai, Senhor do céu e da terra, pois revelaste os mistérios do teu Reino aos pequeninos, escondendo-os aos doutores!"
+    "body": "12 Naqueles dias, Jesus foi à montanha para rezar. E passou a noite toda em oração a Deus. 13 Ao amanhecer, chamou seus discípulos e escolheu doze dentre eles, aos quais deu o nome de apóstolos: 14 Simão, a quem impôs o nome de Pedro, e seu irmão André; Tiago e João; Filipe e Bartolomeu; 15 Mateus e Tomé; Tiago, filho de Alfeu, e Simão, chamado Zelota; 16 Judas, filho de Tiago, e Judas Iscariotes, aquele que se tornou traidor. 17 Jesus desceu da montanha com eles e parou num lugar plano. Ali estavam muitos dos seus discípulos e grande multidão de gente de toda a Judéia e de Jerusalém, do litoral de Tiro e Sidônia. 18 Vieram para ouvir Jesus e serem curados de suas doenças. E aqueles que estavam atormentados por espíritos maus também foram curados. 19 A multidão toda procurava tocar em Jesus, porque uma força saía dele, e curava a todos. —",
+    "keyVerse": "A vós, ó Deus, louvamos, a vós, Senhor, cantamos; vos louva, ó Senhor, o coro dos Apóstolos!"
   },
   "sponsor": {
     "enabled": true,
@@ -37,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa Leão: temos de reconstruir a paz, não preparar outras guerras",
-      "summary": "O Papa enviou uma mensagem de vídeo aos líderes religiosos presentes no encontro promovido pela Comunidade de Santo Egídio em Assis, por ocasião do 40º aniversário do Dia de Oração pela Paz, instituído por João Paulo II, e reiterou que.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-assis-mensagem-video-comunidade-santo-egidio-paz.html",
+      "title": "De João Paulo II a Leão XIV, quarenta anos do \"Espírito de Assis\"",
+      "summary": "Na quarta década do histórico Dia de Oração pela Paz, convocado pelo Papa João Paulo II em 27 de outubro de 1986, o legado do \"Espírito de Assis\" abrange quatro pontificados. De João Paulo II, que aprofundou seu significado teológico, a.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/assis-1986-oracao-paz-quatro-pontificados-espirito.html",
       "published": "2026-10-27"
     },
     {
       "source": "Vatican News",
-      "title": "Testemunho de missionário italiano em Cusco, uma das etapas de Leão no Peru",
-      "summary": "A etapa do Papa na cidade peruana nos Andes, a 3.400 metros acima do nível do mar, será rápida, mas intensa, como parte da sua viagem pela América Latina. O Pe. Walter Corsini, vigário-geral dos Missionários Servos dos Pobres: \"a Igreja.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-viagem-internacional-america-latina-peru-corsini.html",
+      "title": "Concerto pela Paz, em Roma, inspirado no Papa João Paulo II",
+      "summary": "O Auditório Conciliazione, em Roma, acolheu na última semana um evento intitulado \"Salmos com João Paulo II\", por ocasião das comemorações do aniversário de 45 anos da Fundação Vaticana, que recebe o nome do Papa polonês. Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/concerto-pela-paz-roma-inspirado-papa-joao-paulo-ii-outubro-26.html",
       "published": "2026-10-27"
     },
     {
       "source": "CNBB",
-      "title": "A esperança que não decepciona: a vida triunfa sobre a morte",
-      "summary": "Dom Anuar Battisti Arcebispo Emérito de Maringá (PR) Neste dia 2 de novembro, a Igreja nos convida a uma parada sagrada. Nossos passos, hoje, dirigem-se aos cemitérios, aos columbários ou simplesmente ao santuário silencioso de nossas.",
-      "url": "https://www.cnbb.org.br/a-esperanca-que-nao-decepciona-a-vida-triunfa-sobre-a-morte/",
-      "published": "2026-10-27"
-    },
-    {
-      "source": "CNBB",
-      "title": "A vitória de Cristo e a nossa esperança",
-      "summary": "Dom Antônio Carlos Altieri Arcebispo Emérito de Passo Fundo (RS) Queridos irmãos e irmãs, hoje a Igreja nos reúne não para celebrar a derrota ou o fim, mas para iluminar a nossa dor com a luz da esperança. Celebrar a Comemoração de Todos.",
-      "url": "https://www.cnbb.org.br/a-vitoria-de-cristo-e-a-nossa-esperanca/",
+      "title": "A vocação à felicidade: o caminho luminoso de todos os santos",
+      "summary": "Dom Anuar Battisti Arcebispo Emérito de Maringá (PR) É com o coração repleto de alegria e de uma esperança renovada que nos reunimos, neste dia abençoado, para celebrar a Solenidade de Todos os Santos. A liturgia de hoje nos convida a.",
+      "url": "https://www.cnbb.org.br/a-vocacao-a-felicidade-o-caminho-luminoso-de-todos-os-santos/",
       "published": "2026-10-27"
     },
     {
       "source": "ACI Digital",
-      "title": "Conferência episcopal polonesa se opõe a projetos de lei sobre aborto",
-      "summary": "Os bispos se opõem a uma política que “não constrói, mas destrói”, disse o arcebispo Tadeusz Wojda, enquanto o historiador Piotr Franaszek assume a liderança da comissão de abusos da Igreja.",
-      "url": "https://www.acidigital.com/noticia/70609/conferencia-episcopal-polonesa-se-opoe-a-projetos-de-lei-sobre-aborto",
+      "title": "Santa Sé nega a grupo tradicional permissão para rezar na basílica de São Pedro",
+      "summary": "Organizadores dizem que cerca de 1,5 mil peregrinos tiveram negada a visita para rezar no túmulo do apóstolo, depois de seu pedido de uma missa pontifical também ter sido rejeitado.",
+      "url": "https://www.acidigital.com/noticia/70617/santa-se-nega-a-grupo-tradicional-permissao-para-rezar-na-basilica-de-sao-pedro",
       "published": "2026-10-27"
     },
     {
       "source": "ACI Digital",
-      "title": "Polarização da eleição não pode determinar o horizonte do próximo governo, diz CNBB em congratu",
-      "summary": "“As eleições se encerraram, mas permanece diante de todos nós uma tarefa que ultrapassa os resultados eleitorais: cuidar da unidade do país e reconstruir os caminhos do diálogo, da confiança e da convivência fraterna entre os.",
-      "url": "https://www.acidigital.com/noticia/70605/polarizacao-da-eleicao-nao-pode-determinar-o-horizonte-do-proximo-governo-diz-cnbb-em",
+      "title": "é celebrado são Judas Tadeu, padroeiro das causas impossíveis",
+      "summary": "A Igreja celebra hoje (28), a festa de são Judas Tadeu, apóstolo e mártir, conhecido como padroeiro das causas impossíveis e é um dos santos mais populares no Brasil. São Judas Tadeu é um dos doze apóstolos e não se trata de Judas Iscariotes. Ele era primo de Jesus e irmão de Tiago Menor. Foi ele quem, na Última Ceia, perguntou a Jesus: “Senhor, como é possível que tenhas de te manifestar a nós e não ao mundo?” (Jo 14,22)....",
+      "url": "https://www.acidigital.com/noticia/70587/sao-judas-tadeu-padroeiro-das-causas-impossiveis",
+      "published": "2026-10-28"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Fim das eleições: É hora de deixar o espírito competitivo e cobrar os eleitos",
+      "summary": "Durante a campanha eleitoral deste ano, relembramos a mesma disputa de 2022, com pessoas tomando lado e vestindo camisas de futebol como se fossem de fato torcedores ao invés de cidadãos de uma mesma nação buscando o bem comum. Mas agora.",
+      "url": "https://pt.aleteia.org/2026/10/27/fim-das-eleicoes-e-hora-de-deixar-o-espirito-competitivo-e-cobrar-os-eleitos/",
       "published": "2026-10-27"
     },
     {
       "source": "Aleteia",
-      "title": "Quatro obstáculos que quem está na catequese pode enfrentar",
-      "summary": "O catecumenato não é um mar de rosas, é um percurso que comporta inúmeros obstáculos. Como em qualquer verdadeira aventura, inimigos e combates podem obstruir essa magnífica jornada. Aqui estão quatro obstáculos enfrentados por muitos.",
-      "url": "https://pt.aleteia.org/2026/10/26/quatro-obstaculos-que-quem-esta-na-catequese-pode-enfrentar/",
-      "published": "2026-10-26"
+      "title": "Além das sombras da alma: fé, psicologia e o reencontro com a luz",
+      "summary": "Contudo, há uma forma mais silenciosa e profunda de penumbra — aquela que não depende do pôr do sol para se instalar. A escuridão exterior não é a única que pode nos assustar; existe também a escuridão interior, que nos impede de enxergar.",
+      "url": "https://pt.aleteia.org/2026/10/27/alem-das-sombras-da-alma-fe-psicologia-e-o-reencontro-com-a-luz/",
+      "published": "2026-10-27"
     }
   ],
   "closingQuote": {
-    "text": "A semente cresce e torna-se uma grande árvore.",
-    "source": "Lucas 13,18-21"
+    "text": "Escolheu doze dentre eles, aos quais deu o nome de apóstolos.",
+    "source": "Lucas 6,12-19"
   },
   "liturgyHours": {
-    "reading": "Vós, meus irmãos, não estais nas trevas, de modo que esse dia vos surpreenda como um ladrão. Todos vós sois filhos da luz e filhos do dia. Não somos da noite, nem das trevas.",
+    "reading": "Já não sois estrangeiros nem migrantes, mas concidadãos dos santos. Sois da família de Deus. Vós fostes integrados no edifício que tem como fundamento os apóstolos e os profetas, e o próprio Jesus Cristo como pedra principal. É nele que toda a...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
