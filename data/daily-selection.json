@@ -1,34 +1,34 @@
 {
-  "date": "2026-10-28",
-  "editionLabel": "28 de outubro de 2026",
+  "date": "2026-10-29",
+  "editionLabel": "29 de outubro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "festa",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santos Simão e Judas, apóstolos",
-    "colorName": "vermelho",
-    "cssColor": "#C62828",
-    "gospelShort": "Lc 6,12-19"
+    "celebrationTitle": "Quinta-Feira da Semana XXX do Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 13,31-35"
   },
   "saint": {
-    "feast": "\udd34 [F] Santos Simão e Judas\\, apóstolos",
-    "name": "São Simão e São Judas Tadeu, os apóstolos primos de Jesus",
-    "description": "Celebração litúrgica do dia: Santos Simão e Judas, apóstolos.",
-    "url": "https://santo.cancaonova.com/santo/sao-simao-e-sao-judas-tadeu-os-apostolos-primos-de-jesus/"
+    "feast": "\udfe2 Quinta-Feira da Semana XXX do Tempo Comum",
+    "name": "São Narciso, o bispo de Jerusalém",
+    "description": "Celebração litúrgica do dia: Quinta-Feira da Semana XXX do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-narciso-o-bispo-de-jerusalem/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 6,12-19)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 13,31-35)",
     "lines": [
-      "Naqueles dias, Jesus foi à montanha para rezar.",
-      "E passou a noite toda em oração a Deus.",
-      "Ao amanhecer, chamou seus discípulos e escolheu doze dentre eles, aos quais deu o nome de apóstolos: Simão, a quem impôs o nome de Pedro, e seu irmão André; Tiago e João; Filipe e Bartolomeu; Mateus e Tomé; Tiago, filho de Alfeu, e Simão, chamado Zelota; Judas, filho de Tiago, e Judas Iscariotes, aquele que se tornou traidor.",
-      "Jesus desceu da montanha com eles e parou num lugar plano.",
-      "Ali estavam muitos dos seus discípulos e grande multidão de gente de toda a Judéia e de Jerusalém, do litoral de Tiro e Sidônia.",
-      "Vieram para ouvir Jesus e serem curados de suas doenças.",
-      "E aqueles que estavam atormentados por espíritos maus também foram curados."
+      "Naquela hora, alguns fariseus aproximaram-se e disseram a Jesus: Tu deves ir embora daqui, porque Herodes quer te matar.",
+      "Jesus disse: Ide dizer a essa raposa: eu expulso demônios e faço curas hoje e amanhã; e no terceiro dia terminarei o meu trabalho.",
+      "Entretanto, preciso caminhar hoje, amanhã e depois de amanhã, porque não convém que um profeta morra fora de Jerusalém.",
+      "Tu que matas os profetas e apedrejas os que te foram enviados!",
+      "Quantas vezes eu quis reunir teus filhos, como a galinha reúne os pintainhos debaixo das asas, mas tu não quiseste!",
+      "Eis que vossa casa ficará abandonada.",
+      "Eu vos digo: não me vereis mais, até que chegue o tempo em que vós mesmos direis: Bendito aquele que vem em nome do Senhor ."
     ],
-    "body": "12 Naqueles dias, Jesus foi à montanha para rezar. E passou a noite toda em oração a Deus. 13 Ao amanhecer, chamou seus discípulos e escolheu doze dentre eles, aos quais deu o nome de apóstolos: 14 Simão, a quem impôs o nome de Pedro, e seu irmão André; Tiago e João; Filipe e Bartolomeu; 15 Mateus e Tomé; Tiago, filho de Alfeu, e Simão, chamado Zelota; 16 Judas, filho de Tiago, e Judas Iscariotes, aquele que se tornou traidor. 17 Jesus desceu da montanha com eles e parou num lugar plano. Ali estavam muitos dos seus discípulos e grande multidão de gente de toda a Judéia e de Jerusalém, do litoral de Tiro e Sidônia. 18 Vieram para ouvir Jesus e serem curados de suas doenças. E aqueles que estavam atormentados por espíritos maus também foram curados. 19 A multidão toda procurava tocar em Jesus, porque uma força saía dele, e curava a todos. —",
-    "keyVerse": "A vós, ó Deus, louvamos, a vós, Senhor, cantamos; vos louva, ó Senhor, o coro dos Apóstolos!"
+    "body": "31 Naquela hora, alguns fariseus aproximaram-se e disseram a Jesus: \"Tu deves ir embora daqui, porque Herodes quer te matar\". 32 Jesus disse: \"Ide dizer a essa raposa: eu expulso demônios e faço curas hoje e amanhã; e no terceiro dia terminarei o meu trabalho. 33 Entretanto, preciso caminhar hoje, amanhã e depois de amanhã, porque não convém que um profeta morra fora de Jerusalém. 34 Jerusalém, Jerusalém! Tu que matas os profetas e apedrejas os que te foram enviados! Quantas vezes eu quis reunir teus filhos, como a galinha reúne os pintainhos debaixo das asas, mas tu não quiseste! 35 Eis que vossa casa ficará abandonada. Eu vos digo: não me vereis mais, até que chegue o tempo em que vós mesmos direis: 'Bendito aquele que vem em nome do Senhor' \". —",
+    "keyVerse": "Bendito é o rei que vem em nome do Senhor! Glória a Deus nos altos céus e na terra paz aos homens!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Assis, Marengo: a Mongólia, exemplo da contribuição das religiões para construir a paz",
-      "summary": "“Na Mongólia, quando se caminha, tem-se a sensação de que o céu é mais real do que a terra. E essa é também uma mensagem que toda religião oferece ao mundo”. O cardeal, prefeito apostólico de Ulan Bator, relata à mídia vaticana a.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/assis-cardeal-marengo-vaticano-assis-italia-europa-oracao-paz.html",
+      "title": "Saudação do Papa aos ativistas migrantes no centro de detenção do ICE em Chicago",
+      "summary": "Um grupo de trinta pessoas da Coalizão para a Liderança Espiritual e Pública compareceu à Audiência Geral desta manhã na Praça São Pedro e transmitiu a Leão XIV as vozes de tantas pessoas arrancadas de suas vidas e famílias. Eles.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-ativistas-migrantes-centro-detentos-ice-chicago.html",
       "published": "2026-10-28"
     },
     {
       "source": "Vatican News",
-      "title": "O Papa: redescobrir Maria como pilar do diálogo e caminho para a paz",
-      "summary": "Mensagem de Leão XIV, assinada pelo secretário de Estado Vaticano, cardeal Pietro Parolin, por ocasião do encontro \"Maria, caminho de diálogo e paz para o mediterrâneo\", promovido pela PAMI e pela Ordem dos Frades Menores, que se realiza.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/mensagem-parolin-pontificia-academia-mariana-encontro-maria.html",
+      "title": "Papa: a fé é chamada a se tornar cultura para alcançar todas as pessoas",
+      "summary": "Na Praça São Pedro, Leão XIV deu continuidade ao ciclo sobre os documentos conciliares, analisando hoje o tema da cultura segundo Constituição Pastoral Gaudium et spes. Neste documento, a Igreja exorta a comunidade internacional a.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-audiencia-geral-gaudium-et-spes-cultura.html",
       "published": "2026-10-28"
     },
     {
       "source": "CNBB",
-      "title": "Solenidade de todos os santos",
-      "summary": "Cardeal Orani João Tempesta Arcebispo do Rio de Janeiro (RJ) “Alegrai -vos e exultai, porque será grande a vossa recompensa nos céus” (Mt 5,12) Celebramos neste Domingo, dia 1° de novembro, a Solenidade de Todos os Santos e Santas de.",
-      "url": "https://www.cnbb.org.br/solenidade-de-todos-os-santos-8/",
+      "title": "Santidade encarnada: a prática da caridade junto aos que sofrem",
+      "summary": "Dom Anuar Battisti Arcebispo Emérito de Maringá (PR) Amados irmãos e irmãs em Cristo, celebramos hoje a Solenidade de Todos os Santos. Contudo, engana-se profundamente quem imagina a santidade da Igreja como um refúgio asséptico, alienado.",
+      "url": "https://www.cnbb.org.br/santidade-encarnada-a-pratica-da-caridade-junto-aos-que-sofrem/",
+      "published": "2026-10-28"
+    },
+    {
+      "source": "CNBB",
+      "title": "Do purgatório à plenitude da pátria celestial",
+      "summary": "Dom Anuar Battisti Arcebispo Emérito de Maringá (PR) Passada a celebração de luz e de glória da Solenidade de Todos os Santos, a Santa Mãe Igreja convoca-nos a um recolhimento amoroso, sóbrio e imbuído de profunda esperança: a Comemoração.",
+      "url": "https://www.cnbb.org.br/do-purgatorio-a-plenitude-da-patria-celestial/",
       "published": "2026-10-28"
     },
     {
       "source": "ACI Digital",
-      "title": "Um século depois de Pio XI ordenar bispos chineses, quem escolhe os bispos da China?",
-      "summary": "O cardeal Stephen Chow saudou o aumento das ordenações aprovadas pelo papado no âmbito do acordo Santa Sé-China; um missionário, acadêmicos e defensores dos direitos humanos perguntam quanta liberdade isso trouxe.",
-      "url": "https://www.acidigital.com/noticia/70641/um-seculo-depois-de-pio-xi-ordenar-bispos-chineses-quem-escolhe-os-bispos-da-china",
+      "title": "Diocese de Apucarana decide disciplinar o uso do termo ‘católico’ por entidades, associações, c",
+      "summary": "Entidades, associações, comunidades e movimentos que queiram se apresentar publicamente como “católicos” na diocese de Apucarana (PR) precisam de autorização prévia da autoridade eclesiástica, segundo decreto publicado pelo bispo, dom.",
+      "url": "https://www.acidigital.com/noticia/70639/diocese-de-apucarana-decide-disciplinar-o-uso-do-termo-catolico-por-entidades-associacoes",
       "published": "2026-10-28"
     },
     {
       "source": "ACI Digital",
-      "title": "Gaúchos da fronteira se mobilizam pela oportunidade de estar com Leão XIV no Uruguai e na Argen",
-      "summary": "Para quem mora nas dioceses do Rio Grande do Sul que fazem fronteira com Uruguai e Argentina, a visita do Santo Padre aos países vizinhos é quase como se o Brasil fosse parte da viagem apostólica à América do Sul.",
-      "url": "https://www.acidigital.com/noticia/70627/gauchos-da-fronteira-se-mobilizam-pela-oportunidade-de-estar-com-leao-xiv-no-uruguai-e-na",
-      "published": "2026-10-28"
+      "title": "Dez razões para amar e honrar a Nossa Senhora",
+      "summary": "Nossa Senhora esteve presente na encarnação, no nascimento, no primeiro milagre, na paixão e morte de Jesus Cristo, recebeu o Espírito Santo junto com os apóstolos em Pentecostes, e hoje continua participando da história da salvação, levando todos os fiéis ao seu Filho. O ‘ National Catholic Register ’ propõe dez razões para amar a Mãe de Deus, porque quanto mais se recorre a ela, mais se pode ajudar o ser humano no seu caminho ao céu. Não se pode superar Deus....",
+      "url": "https://www.acidigital.com/noticia/49970/dez-razoes-para-amar-e-honrar-a-nossa-senhora",
+      "published": "2026-10-29"
     },
     {
       "source": "Aleteia",
-      "title": "O cardeal da coragem: John Henry Newman",
-      "summary": "Quando era jovem fui em uma cafeteria em frente ao St. John’s Catholic Newman Center, na Universidade de Illinois, achei curioso o nome sem imaginar a grandeza do homem que dava nome ao lugar. Ali, defronte à biblioteca central, o nome.",
-      "url": "https://pt.aleteia.org/2026/10/28/o-cardeal-da-coragem-john-henry-newman/",
-      "published": "2026-10-28"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "As homilias devem vir da Fé, não da inteligência artificial , adverte Cardeal Tagle",
-      "summary": "O purpurado destacou que a inteligência artificial não pode substituir o testemunho pessoal e o encontro com Cristo na pregação.",
-      "url": "https://gaudiumpress.org/content/as-homilias-devem-vir-da-fe-nao-da-inteligencia-artificial-adverte-cardeal-tagle/",
+      "title": "Sexualidade no casamento: onde está o limite?",
+      "summary": "Uma das dúvidas mais frequentes na vida conjugal é: tudo é lícito na intimidade sexual dentro do casamento? A resposta tem uma palavra com má imprensa hoje em dia, mas muito útil: castidade. Em alguns círculos, acredita-se que a castidade.",
+      "url": "https://pt.aleteia.org/2026/10/28/sexualidade-no-casamento-onde-esta-o-limite/",
       "published": "2026-10-28"
     }
   ],
   "closingQuote": {
-    "text": "Escolheu doze dentre eles, aos quais deu o nome de apóstolos.",
-    "source": "Lucas 6,12-19"
+    "text": "Não convém que um profeta morra fora de Jerusalém.",
+    "source": "Lucas 13,31-35"
   },
   "liturgyHours": {
-    "reading": "Já não sois estrangeiros nem migrantes, mas concidadãos dos santos. Sois da família de Deus. Vós fostes integrados no edifício que tem como fundamento os apóstolos e os profetas, e o próprio Jesus Cristo como pedra principal. É nele que toda a...",
+    "reading": "O Reino de Deus não é comida nem bebida, mas é justiça e paz e alegria no Espírito Santo. É servindo a Cristo, dessa maneira, que seremos agradáveis a Deus e teremos a aprovação dos homens. Portanto, busquemos tenazmente tudo o que contribui para a...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
