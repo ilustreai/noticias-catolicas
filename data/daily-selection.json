@@ -1,34 +1,32 @@
 {
-  "date": "2026-10-29",
-  "editionLabel": "29 de outubro de 2026",
+  "date": "2026-10-30",
+  "editionLabel": "30 de outubro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Quinta-Feira da Semana XXX do Tempo Comum",
+    "celebrationTitle": "Sexta-Feira da Semana XXX do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 13,31-35"
+    "gospelShort": "Lc 14,1-6"
   },
   "saint": {
-    "feast": "\udfe2 Quinta-Feira da Semana XXX do Tempo Comum",
-    "name": "São Narciso, o bispo de Jerusalém",
-    "description": "Celebração litúrgica do dia: Quinta-Feira da Semana XXX do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-narciso-o-bispo-de-jerusalem/"
+    "feast": "\udfe2 Sexta-Feira da Semana XXX do Tempo Comum",
+    "name": "São Frumêncio",
+    "description": "Celebração litúrgica do dia: Sexta-Feira da Semana XXX do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-frumencio/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 13,31-35)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 14,1-6)",
     "lines": [
-      "Naquela hora, alguns fariseus aproximaram-se e disseram a Jesus: Tu deves ir embora daqui, porque Herodes quer te matar.",
-      "Jesus disse: Ide dizer a essa raposa: eu expulso demônios e faço curas hoje e amanhã; e no terceiro dia terminarei o meu trabalho.",
-      "Entretanto, preciso caminhar hoje, amanhã e depois de amanhã, porque não convém que um profeta morra fora de Jerusalém.",
-      "Tu que matas os profetas e apedrejas os que te foram enviados!",
-      "Quantas vezes eu quis reunir teus filhos, como a galinha reúne os pintainhos debaixo das asas, mas tu não quiseste!",
-      "Eis que vossa casa ficará abandonada.",
-      "Eu vos digo: não me vereis mais, até que chegue o tempo em que vós mesmos direis: Bendito aquele que vem em nome do Senhor ."
+      "Aconteceu que, num dia de sábado, Jesus foi comer na casa de um dos chefes dos fariseus.",
+      "Diante de Jesus, havia um hidrópico.",
+      "Tomando a palavra, Jesus falou aos mestres da Lei e aos fariseus: A Lei permite curar em dia de sábado, ou não? Mas eles ficaram em silêncio.",
+      "Então Jesus tomou o homem pela mão, curou-o e despediu-o.",
+      "Depois lhes disse: Se algum de vós tem um filho ou um boi que caiu num poço, não o tira logo, mesmo em dia de sábado? E eles não foram capazes de responder a isso."
     ],
-    "body": "31 Naquela hora, alguns fariseus aproximaram-se e disseram a Jesus: \"Tu deves ir embora daqui, porque Herodes quer te matar\". 32 Jesus disse: \"Ide dizer a essa raposa: eu expulso demônios e faço curas hoje e amanhã; e no terceiro dia terminarei o meu trabalho. 33 Entretanto, preciso caminhar hoje, amanhã e depois de amanhã, porque não convém que um profeta morra fora de Jerusalém. 34 Jerusalém, Jerusalém! Tu que matas os profetas e apedrejas os que te foram enviados! Quantas vezes eu quis reunir teus filhos, como a galinha reúne os pintainhos debaixo das asas, mas tu não quiseste! 35 Eis que vossa casa ficará abandonada. Eu vos digo: não me vereis mais, até que chegue o tempo em que vós mesmos direis: 'Bendito aquele que vem em nome do Senhor' \". —",
-    "keyVerse": "Bendito é o rei que vem em nome do Senhor! Glória a Deus nos altos céus e na terra paz aos homens!"
+    "body": "1 Aconteceu que, num dia de sábado, Jesus foi comer na casa de um dos chefes dos fariseus. E eles o observavam. 2 Diante de Jesus, havia um hidrópico. 3 Tomando a palavra, Jesus falou aos mestres da Lei e aos fariseus: \"A Lei permite curar em dia de sábado, ou não?\" 4 Mas eles ficaram em silêncio. Então Jesus tomou o homem pela mão, curou-o e despediu-o. 5 Depois lhes disse: \"Se algum de vós tem um filho ou um boi que caiu num poço, não o tira logo, mesmo em dia de sábado?\" 6 E eles não foram capazes de responder a isso. —",
+    "keyVerse": "Minhas ovelhas escutam minha voz, eu as conheço e elas me seguem."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +37,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "O esmoleiro na Ucrânia para levar o conforto do Papa",
-      "summary": "A viagem do arcebispo Luis Marín de San Martín pelo país do Leste Europeu começou a ganhar intensidade no dia 28 de outubro. Em missão a serviço de Leão XIV, ele se encontra com instituições e comunidades que trabalham para aliviar o.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/ucrania-esmoleiro-papa-leao-missao-caridade.html",
+      "title": "Leão XIV recebe presidente da Costa Rica no Vaticano",
+      "summary": "Laura Fernández Delgado foi recebida pelo Papa no Palácio Apostólico do Vaticano. No encontro na Secretaria de Estado, pauta sobre temas da atualidade sociopolítica do país e da região, com referência especial às questões relacionadas à.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-10/papa-leao-xiv-audiencia-presidente-costa-rica-laura-fernandez-26.html",
       "published": "2026-10-29"
     },
     {
       "source": "Vatican News",
-      "title": "Assis, Marengo: a Mongólia, exemplo da contribuição das religiões para construir a paz",
-      "summary": "“Na Mongólia, quando se caminha, tem-se a sensação de que o céu é mais real do que a terra. E essa é também uma mensagem que toda religião oferece ao mundo”. O cardeal, prefeito apostólico de Ulan Bator, relata à mídia vaticana a.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/assis-cardeal-marengo-vaticano-assis-italia-europa-oracao-paz.html",
-      "published": "2026-10-28"
-    },
-    {
-      "source": "CNBB",
-      "title": "Comissão inicia processo de escuta para preparação do Ano Missionário Nacional 2028-2029",
-      "summary": "A realização do Ano Missionário Nacional foi aprovada durante a 62ª Assembleia Geral da CNBB, como parte da preparação para o 7º Congresso Americano Missionário (CAM 7), que acontecerá de 14 a 18 de novembro de 2029, na arquidiocese de.",
-      "url": "https://www.cnbb.org.br/comissao-inicia-processo-de-escuta-para-preparacao-do-ano-missionario-nacional-2028-2029/",
+      "title": "Irmã García: a presença do Papa dará novo impulso à Igreja no Peru",
+      "summary": "Em vista da visita apostólica que o Papa Leão XIV realizará à América Latina, a Irmã María Antonieta García Carrizales, superiora-geral das Religiosas Franciscanas da Imaculada Conceição, fala sobre os preparativos no Peru para receber o.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-10/papa-leao-xiv-peru-franciscanas-imaculada-conceicao-preparacao.html",
       "published": "2026-10-29"
     },
     {
       "source": "CNBB",
-      "title": "Dicastério oferece documento com sugestões para renovar o compromisso com a transmissão da fé",
-      "summary": "O documento \"Vinde a Mim - Considerações sobre a transmissão da fé em uma mudança de época” foi divulgado pelo Dicastério para a Doutrina da Fé e propõe reflexões e indicações práticas para evangelizar \"numa época de grande fragmentação\".",
-      "url": "https://www.cnbb.org.br/dicasterio-oferece-documento-com-sugestoes-para-renovar-o-compromisso-com-a-transmissao-da-fe/",
+      "title": "Existir é mais do que estar no mundo",
+      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) Recentemente, recebi de um filósofo uma reflexão que me fez pensar: “Existir não é só o fato de ser uma pessoa no mundo. É existir como alguém que dá sentido à minha existência também!”. A.",
+      "url": "https://www.cnbb.org.br/existir-e-mais-do-que-estar-no-mundo/",
+      "published": "2026-10-29"
+    },
+    {
+      "source": "CNBB",
+      "title": "Todos os Santos ganha destaque na Igreja",
+      "summary": "Dom Rodolfo Luís Weber Arcebispo de Passo Fundo (RS) A liturgia da Solenidade de Todos os Santos, celebrada em 1º de novembro, traz como antífona de abertura: “Alegremo-nos todos no Senhor, celebrando este dia festivo em honra de todos os.",
+      "url": "https://www.cnbb.org.br/todos-os-santos-4/",
       "published": "2026-10-29"
     },
     {
       "source": "ACI Digital",
-      "title": "Um século depois de Pio XI ordenar bispos chineses, quem escolhe os bispos da China?",
-      "summary": "O cardeal Stephen Chow saudou o aumento das ordenações aprovadas pelo papado no âmbito do acordo Santa Sé-China; um missionário, acadêmicos e defensores dos direitos humanos perguntam quanta liberdade isso trouxe.",
-      "url": "https://www.acidigital.com/noticia/70641/um-seculo-depois-de-pio-xi-ordenar-bispos-chineses-quem-escolhe-os-bispos-da-china",
-      "published": "2026-10-28"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Uruguai, uma “pequena França da América Latina”, se prepara para receber Leão XIV",
-      "summary": "Ao visitar o Uruguai de 6 a 8 de novembro de 2026, antes de viajar para a Argentina e o Peru, Leão XIV destacará um país singular no cenário religioso latino-americano. Marcado pela influência intelectual e política da França, o Uruguai.",
-      "url": "https://pt.aleteia.org/2026/10/29/uruguai-uma-pequena-franca-da-america-latina-se-prepara-para-receber-leao-xiv/",
+      "title": "Imperfeições do acordo entre a China e a Santa Sé são evidentes, diz Gallagher",
+      "summary": "O arcebispo Paul Gallagher, secretário da Santa Sé para as relações com os Estados e organizações internacionais, reconheceu os problemas do acordo Vaticano-China nesta terça-feira (27).",
+      "url": "https://www.acidigital.com/noticia/70663/imperfeicoes-do-acordo-entre-a-china-e-a-santa-se-sao-evidentes-diz-gallagher",
       "published": "2026-10-29"
     },
     {
-      "source": "Gaudium Press",
-      "title": "Exorcista indica como cristianizar Halloween ou Véspera de Todos os Santos",
-      "summary": "Como as famílias católicas podem recuperar o sentido original da festa. É necessário falar da santidade como nosso caminho de vida e destino final, apresentar a vida de alguns santos às crianças e alertar sobre os perigos da magia, das.",
-      "url": "https://gaudiumpress.org/content/exorcista-indica-como-cristianizar-halloween-ou-vespera-de-todos-os-santos/",
+      "source": "ACI Digital",
+      "title": "é dia de santo Alonso Rodríguez, exemplo de humildade e serviço",
+      "summary": "A Igreja celebra hoje (30) santo Alonso Rodríguez, irmão coadjutor jesuíta que viveu entre os séculos XVI e XVII, exemplo de humildade e vocação ao serviço. Antes de se tornar religioso, Alonso era um homem de família: era casado e tinha três filhos. Quando tinha cerca de 40 anos, diversas circunstâncias fizeram com que a sua vida tomasse um rumo completamente diferente – que o levaria a fazer parte da Companhia de Jesus....",
+      "url": "https://www.acidigital.com/noticia/56588/hoje-e-dia-de-santo-alonso-rodriguez-exemplo-de-humildade-e-servico",
+      "published": "2026-10-30"
+    },
+    {
+      "source": "Aleteia",
+      "title": "5 maneiras de cuidar de uma pessoa doente no fim da vida",
+      "summary": "Como cuidar de uma pessoa doente que se encontra no fim da vida da maneira mais adequada? O especialista em cuidados paliativos Juan Carlos Trallero oferece em seu site 5 conselhos para acompanhar o processo de morrer: Geralmente, os.",
+      "url": "https://pt.aleteia.org/2026/10/29/5-maneiras-de-cuidar-de-uma-pessoa-doente-no-fim-da-vida/",
       "published": "2026-10-29"
     }
   ],
   "closingQuote": {
-    "text": "Não convém que um profeta morra fora de Jerusalém.",
-    "source": "Lucas 13,31-35"
+    "text": "Se algum de vós tem um filho ou um boi que caiu num poço, não o tira logo, mesmo em dia de sábado?'",
+    "source": "Lucas 14,1-6"
   },
   "liturgyHours": {
-    "reading": "O Reino de Deus não é comida nem bebida, mas é justiça e paz e alegria no Espírito Santo. É servindo a Cristo, dessa maneira, que seremos agradáveis a Deus e teremos a aprovação dos homens. Portanto, busquemos tenazmente tudo o que contribui para a...",
+    "reading": "Agora, em Jesus Cristo, vós que outrora estáveis longe, vos tornastes próximos, pelo sangue de Cristo. Ele, de fato, é a nossa paz: do que era dividido, ele fez uma unidade. Em sua carne ele destruiu o muro de separação: a inimizade. Ele aboliu a...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
