@@ -1,34 +1,34 @@
 {
-  "date": "2026-10-31",
-  "editionLabel": "31 de outubro de 2026",
+  "date": "2026-11-01",
+  "editionLabel": "1 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "solenidade",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santa Maria no Sábado",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Lc 14,1.7-11"
+    "celebrationTitle": "Todos os Santos",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Mt 5,1-12a"
   },
   "saint": {
-    "feast": "Santa Maria no Sábado",
-    "name": "Santo Afonso Rodrigues, padroeiro de Palma de Maiorca",
-    "description": "Celebração litúrgica do dia: Santa Maria no Sábado.",
-    "url": "https://santo.cancaonova.com/santo/santo-afonso-rodrigues-padroeiro-de-palma-de-maiorca/"
+    "feast": "Todos os Santos",
+    "name": "Solenidade de Todos os Santos de Deus",
+    "description": "Celebração litúrgica do dia: Todos os Santos.",
+    "url": "https://santo.cancaonova.com/santo/solenidade-de-todos-os-santos-de-deus/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 14,1.7-11)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 5,1-12a)",
     "lines": [
-      "Aconteceu que, num dia de sábado, Jesus foi comer na casa de um dos chefes dos fariseus.",
-      "Jesus notou como os convidados escolhiam os primeiros lugares.",
-      "Então contou-lhes uma parábola: Quando tu fores convidado para uma festa de casamento, não ocupes o primeiro lugar.",
-      "Pode ser que tenha sido convidado alguém mais importante do que tu, e o dono da casa, que convidou os dois, venha te dizer: Dá o lugar a ele.",
-      "Então tu ficarás envergonhado e irás ocupar o último lugar.",
-      "Mas, quando tu fores convidado, vai sentar-te no último lugar.",
-      "Assim, quando chegar quem te convidou, te dirá: Amigo, vem mais para cima."
+      "Naquele tempo, vendo Jesus as multidões, subiu ao monte e sentou-se.",
+      "Os discípulos aproximaram-se, e Jesus começou a ensiná-los: Bem-aventurados os pobres em espírito, porque deles é o Reino dos Céus.",
+      "Bem-aventurados os aflitos, porque serão consolados.",
+      "Bem-aventurados os mansos, porque possuirão a terra.",
+      "Bem-aventurados os que têm fome e sede de justiça, porque serão saciados.",
+      "Bem-aventurados os misericordiosos, porque alcançarão misericórdia.",
+      "Bem-aventurados os puros de coração, porque verão a Deus."
     ],
-    "body": "1 Aconteceu que, num dia de sábado, Jesus foi comer na casa de um dos chefes dos fariseus. E eles o observavam. 7 Jesus notou como os convidados escolhiam os primeiros lugares. Então contou-lhes uma parábola: 8 \"Quando tu fores convidado para uma festa de casamento, não ocupes o primeiro lugar. Pode ser que tenha sido convidado alguém mais importante do que tu, 9 e o dono da casa, que convidou os dois, venha te dizer: 'Dá o lugar a ele'. Então tu ficarás envergonhado e irás ocupar o último lugar. 10 Mas, quando tu fores convidado, vai sentar-te no último lugar. Assim, quando chegar quem te convidou, te dirá: 'Amigo, vem mais para cima'. E isto vai ser uma honra para ti diante de todos os convidados. 11 Porque quem se eleva, será humilhado e quem se humilha, será elevado\". —",
-    "keyVerse": "Tomai meu jugo sobre vós e aprendei de mim, que sou de coração humilde e manso!"
+    "body": "Naquele tempo, 1 vendo Jesus as multidões, subiu ao monte e sentou-se. Os discípulos aproximaram-se, 2 e Jesus começou a ensiná-los: 3 \"Bem-aventurados os pobres em espírito, porque deles é o Reino dos Céus. 4 Bem-aventurados os aflitos, porque serão consolados. 5 Bem-aventurados os mansos, porque possuirão a terra. 6 Bem-aventurados os que têm fome e sede de justiça, porque serão saciados. 7 Bem-aventurados os misericordiosos, porque alcançarão misericórdia. 8 Bem-aventurados os puros de coração, porque verão a Deus. 9 Bem-aventurados os que promovem a paz, porque serão chamados filhos de Deus. 10 Bem-aventurados os que são perseguidos por causa da justiça, porque deles é o Reino dos Céus. 11 Bem-aventurados sois vós, quando vos injuriarem e perseguirem, e mentindo, disserem todo tipo de mal contra vós, por causa de mim. 12 Alegrai-vos e exultai, porque será grande a vossa recompensa nos céus\". —",
+    "keyVerse": "Vinde a mim, todos vós que estais cansados e penais a carregar pesado fardo, e descanso eu vos darei, diz o Senhor."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Esmoleiro do Papa termina visita ao povo ferido da Ucrânia",
-      "summary": "As instituições de caridade de Kiev e Fastiv foram as últimas etapas da missão de caridade de dom Luis Marín de San Martín, que, em nome do Papa, levou o apoio e a solidariedade da Igreja. Comovente foi o encontro com as mães que perderam.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/esmoleiro-papa-leao-xiv-missao-ucrania-doacoes-visita-concluida.html",
-      "published": "2026-10-31"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-11-01"
     },
     {
       "source": "Vatican News",
-      "title": "Hebdomada Papae: o boletim de notícias em latim deste 31 de outubro",
-      "summary": "As notícias do Vaticano em latim, com tradução para o italiano, vão ao ar todos os domingos às 14h05. No resumo de hoje: o Angelus do último domingo (25/10), a Audiência Geral de 28 de outubro; o apelo do Papa para que se reze pela paz. O.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-10/hebdomada-papae-boletim-noticias-31-outubro-2026-vatican-news.html",
-      "published": "2026-10-31"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-11-01"
     },
     {
       "source": "CNBB",
-      "title": "III Seminário Nacional das Missões Populares reúne missionários e lideranças em Brasília até do",
-      "summary": "O evento vai reunir missionários, lideranças e religiosos de várias partes do país até domingo para momentos de formação, celebração e convivência, a partir de quatro eixos temáticos: memória, identidade e encantamento; Igreja Sinodal e.",
-      "url": "https://www.cnbb.org.br/iii-seminario-nacional-missoes-populares/",
-      "published": "2026-10-30"
-    },
-    {
-      "source": "CNBB",
-      "title": "Dia de Finados recorda os entes queridos, renova a fé na vida eterna e reflete sobre o sentido",
-      "summary": "Dom Leomar Brustolin publicou um artigo no qual reflete sobre a saudade daqueles que partiram, o significado da oração pelos falecidos e a esperança cristã na ressurreição. Para o arcebispo, a data não deve ser compreendida apenas como um.",
-      "url": "https://www.cnbb.org.br/dia-de-finados-recorda-os-entes-queridos-renova-a-fe-na-vida-eterna-e-reflete-sobre-o-sentido-da-existencia/",
-      "published": "2026-10-30"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-11-01"
     },
     {
       "source": "ACI Digital",
-      "title": "A pátria permanece, independentemente de quem ocupa o poder, diz bispo de Piracicaba",
-      "summary": "“A pátria permanece, independentemente de quem ocupa o poder. Deus não perdeu nem ganhou uma eleição; a família não deixou de ser um valor e os pobres não podem ser abandonados porque votaram neste ou naquele candidato”, disse o bispo de.",
-      "url": "https://www.acidigital.com/noticia/70679/a-patria-permanece-independentemente-de-quem-ocupa-o-poder-diz-bispo-de-piracicaba",
-      "published": "2026-10-30"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-11-01"
     },
     {
-      "source": "ACI Digital",
-      "title": "O Halloween, sem demônios e bruxas, tem origem católica",
-      "summary": "Retratada em incontáveis cenas de filmes e programas de TV, a brincadeira das crianças americanas de tocar a campainha das casas usando fantasias de múmias, lobisomem, vampiro, bruxa e todo o repertório dos filmes de terror propondo.",
-      "url": "https://www.acidigital.com/noticia/56607/o-halloween-sem-demonios-e-bruxas-tem-origem-catolica",
-      "published": "2026-10-31"
+      "source": "Shalom",
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-11-01"
     },
     {
       "source": "Aleteia",
-      "title": "Uruguai, uma “pequena França da América Latina”, se prepara para receber Leão XIV",
-      "summary": "Ao visitar o Uruguai de 6 a 8 de novembro de 2026, antes de viajar para a Argentina e o Peru, Leão XIV destacará um país singular no cenário religioso latino-americano. Marcado pela influência intelectual e política da França, o Uruguai.",
-      "url": "https://pt.aleteia.org/2026/10/29/uruguai-uma-pequena-franca-da-america-latina-se-prepara-para-receber-leao-xiv/",
-      "published": "2026-10-29"
+      "title": "A Santa Sé e a história das ditaduras de Argentina, Chile e Uruguai",
+      "summary": "Durante sua viagem pela América Latina, o Papa Leão XIV será recebido por três líderes com inclinações políticas muito diferentes. O presidente do Uruguai, Yamandú Orsi, eleito em 2025, é membro da Frente Ampla e está entre os poucos.",
+      "url": "https://pt.aleteia.org/2026/10/30/a-santa-se-e-a-historia-das-ditaduras-de-argentina-chile-e-uruguai/",
+      "published": "2026-10-30"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-11-01"
+    },
+    {
+      "source": "Gaudium Press",
+      "title": "Arcebispo de Nairóbi às novas religiosas: vida sacramental, oração e conselhos evangélicos",
+      "summary": "O prelado exortou as religiosas a colocarem seu carisma religioso no centro de suas vidas e a permanecerem fiéis à oração e aos sacramentos, em especial à Eucaristia e ao sacramento da penitência. Arcebispo Philip Arnold Subira Anyolo.",
+      "url": "https://gaudiumpress.org/content/arcebispo-de-nairobi-as-novas-religiosas-vida-sacramental-oracao-e-conselhos-evangelicos/",
+      "published": "2026-10-31"
     }
   ],
   "closingQuote": {
-    "text": "Quem se eleva, será humilhado e quem se humilha, será elevado.",
-    "source": "Lucas 14,1.7-11"
+    "text": "Alegrai-vos e exultai, porque será grande a vossa recompensa nos céus.",
+    "source": "Mateus 5,1-12"
   },
   "liturgyHours": {
-    "reading": "Abençoai os que vos perseguem, abençoai e não amaldiçoeis. Alegrai-vos com os que se alegram, chorai com os que choram. Mantende um bom entendimento uns com os outros; não vos deixeis levar pelo gosto de grandeza, mas acomodai-vos às coisas humildes.",
+    "reading": "Que o Deus de nosso Senhor Jesus Cristo, o Pai a quem pertence a glória, vos dê um espírito de sabedoria que vo-lo revele e faça verdadeiramente conhecer. Que ele abra o vosso coração à sua luz, para que saibais qual a esperança que o seu chamamento...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
