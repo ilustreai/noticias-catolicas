@@ -1,34 +1,34 @@
 {
-  "date": "2026-11-01",
-  "editionLabel": "1 de novembro de 2026",
+  "date": "2026-11-02",
+  "editionLabel": "2 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "solenidade",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Todos os Santos",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Mt 5,1-12a"
+    "celebrationTitle": "Comemoração de Todos os Fiéis Defuntos",
+    "colorName": "roxo",
+    "cssColor": "#7B2D26",
+    "gospelShort": "Lc 12,35-40"
   },
   "saint": {
-    "feast": "Todos os Santos",
-    "name": "Solenidade de Todos os Santos de Deus",
-    "description": "Celebração litúrgica do dia: Todos os Santos.",
-    "url": "https://santo.cancaonova.com/santo/solenidade-de-todos-os-santos-de-deus/"
+    "feast": "\udfe3 Comemoração de Todos os Fiéis Defuntos",
+    "name": "Na comemoração dos Fiéis Defuntos, recordemos das almas",
+    "description": "Celebração litúrgica do dia: Comemoração de Todos os Fiéis Defuntos.",
+    "url": "https://santo.cancaonova.com/santo/na-comemoracao-dos-fieis-defuntos-recordemos-das-almas/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 5,1-12a)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 12,35-40)",
     "lines": [
-      "Naquele tempo, vendo Jesus as multidões, subiu ao monte e sentou-se.",
-      "Os discípulos aproximaram-se, e Jesus começou a ensiná-los: Bem-aventurados os pobres em espírito, porque deles é o Reino dos Céus.",
-      "Bem-aventurados os aflitos, porque serão consolados.",
-      "Bem-aventurados os mansos, porque possuirão a terra.",
-      "Bem-aventurados os que têm fome e sede de justiça, porque serão saciados.",
-      "Bem-aventurados os misericordiosos, porque alcançarão misericórdia.",
-      "Bem-aventurados os puros de coração, porque verão a Deus."
+      "Naquele tempo, disse Jesus a seus discípulos: Que vossos rins estejam cingidos e as lâmpadas acesas.",
+      "Sede como homens que estão esperando seu senhor voltar de uma festa de casamento, para lhe abrir, imediatamente, a porta, logo que ele chegar e bater.",
+      "Felizes os empregados que o senhor encontrar acordados quando chegar.",
+      "Em verdade eu vos digo: Ele mesmo vai cingir-se, fazê-los sentar-se à mesa e, passando, os servirá.",
+      "E caso ele chegue à meia-noite ou às três da madrugada, felizes serão, se assim os encontrar!",
+      "Mas ficai certos: se o dono da casa soubesse a hora em que o ladrão iria chegar, não deixaria que arrombasse a sua casa.",
+      "bVós também, ficai preparados!"
     ],
-    "body": "Naquele tempo, 1 vendo Jesus as multidões, subiu ao monte e sentou-se. Os discípulos aproximaram-se, 2 e Jesus começou a ensiná-los: 3 \"Bem-aventurados os pobres em espírito, porque deles é o Reino dos Céus. 4 Bem-aventurados os aflitos, porque serão consolados. 5 Bem-aventurados os mansos, porque possuirão a terra. 6 Bem-aventurados os que têm fome e sede de justiça, porque serão saciados. 7 Bem-aventurados os misericordiosos, porque alcançarão misericórdia. 8 Bem-aventurados os puros de coração, porque verão a Deus. 9 Bem-aventurados os que promovem a paz, porque serão chamados filhos de Deus. 10 Bem-aventurados os que são perseguidos por causa da justiça, porque deles é o Reino dos Céus. 11 Bem-aventurados sois vós, quando vos injuriarem e perseguirem, e mentindo, disserem todo tipo de mal contra vós, por causa de mim. 12 Alegrai-vos e exultai, porque será grande a vossa recompensa nos céus\". —",
-    "keyVerse": "Vinde a mim, todos vós que estais cansados e penais a carregar pesado fardo, e descanso eu vos darei, diz o Senhor."
+    "body": "Naquele tempo, disse Jesus a seus discípulos: 35 Que vossos rins estejam cingidos e as lâmpadas acesas. 36 Sede como homens que estão esperando seu senhor voltar de uma festa de casamento, para lhe abrir, imediatamente, a porta, logo que ele chegar e bater. 37 Felizes os empregados que o senhor encontrar acordados quando chegar. Em verdade eu vos digo: Ele mesmo vai cingir-se, fazê-los sentar-se à mesa e, passando, os servirá. 38 E caso ele chegue à meia-noite ou às três da madrugada, felizes serão, se assim os encontrar! 39 Mas ficai certos: se o dono da casa soubesse a hora em que o ladrão iria chegar, não deixaria que arrombasse a sua casa. bVós também, ficai preparados! Porque o Filho do Homem vai chegar na hora em que menos o esperardes\". —",
+    "keyVerse": "É esta a vontade de quem me enviou: que eu não perca nenhum dos que ele me deu, mas que eu os ressuscite no último dia."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV: do gesto de humanidade de Oleshky a iniciativas concretas de paz",
-      "summary": "Ao final do Angelus, Leão XIV volta a dedicar um pensamento à cidade ucraniana, na região de Kherson, cujas condições trágicas da população ele havia denunciado, invocando — inclusive por meio de ligações telefônicas aos presidentes Putin.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-angelus-tregua-oleshky-ucrania-paz-russia-2026.html",
-      "published": "2026-11-01"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-11-02"
     },
     {
       "source": "Vatican News",
-      "title": "Papa no dia de Todos os Santos: vocação que nos interpela por escolhas de amor",
-      "summary": "A festa deste domingo (01/11) vem com um convite \"cheio de esperança\" de Leão XIV para se percorrer o caminho da santidade, sem cansar \"de construir a paz, tanto nas situações mais importantes como nas da vida quotidiana\". Afinal, \"a.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-reflexao-angelus-1-novembro-2026-todos-os-santos.html",
-      "published": "2026-11-01"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-11-02"
     },
     {
       "source": "CNBB",
-      "title": "III Seminário Nacional das Missões Populares reúne missionários e lideranças em Brasília até do",
-      "summary": "O evento vai reunir missionários, lideranças e religiosos de várias partes do país até domingo para momentos de formação, celebração e convivência, a partir de quatro eixos temáticos: memória, identidade e encantamento; Igreja Sinodal e.",
-      "url": "https://www.cnbb.org.br/iii-seminario-nacional-missoes-populares/",
-      "published": "2026-10-30"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-11-02"
     },
     {
       "source": "ACI Digital",
-      "title": "Como lucrar indulgência plenária no Dia de Finados",
-      "summary": "Hoje (2), Dia dos Fiéis Defuntos, um católico pode lucrar a indulgência plenária visitando um cemitério ou alguma igreja para rezar pela alma de algum familiar, amigo, ou alguma alma do purgatório.",
-      "url": "https://www.acidigital.com/noticia/49994/como-lucrar-indulgencia-plenaria-no-dia-de-finados",
-      "published": "2026-11-01"
+      "title": "Igreja no Brasil se prepara para o mês vocacional com intensa programação",
+      "summary": "Dioceses de todo o Brasil organizam eventos e campanhas para o mês vocacional de agosto, incentivando jovens a discernirem sua vocação.",
+      "url": "https://www.acidigital.com/noticia/58573/licoes-de-santa-ana-e-sao-joaquim-para-casais-que-enfrentam-a-infertilidade",
+      "published": "2026-11-02"
     },
     {
       "source": "ACI Digital",
-      "title": "Papa pede que a evacuação humanitária de civis de Oleskhy abra novos caminhos para a paz na Ucr",
-      "summary": "Depois da oração do Ângelus de hoje (1), o papa Leão XIV destacou a recente operação humanitária que permitiu a evacuação de centenas de civis da cidade ucraniana de Oleskhy, na província de Kherson.",
-      "url": "https://www.acidigital.com/noticia/70693/papa-pede-que-a-evacuacao-humanitaria-de-civis-de-oleskhy-abra-novos-caminhos-para-a-paz-na",
-      "published": "2026-11-01"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-11-02"
+    },
+    {
+      "source": "Shalom",
+      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
+      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
+      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
+      "published": "2026-11-02"
+    },
+    {
+      "source": "Shalom",
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-11-02"
     },
     {
       "source": "Aleteia",
-      "title": "A Santa Sé e a história das ditaduras de Argentina, Chile e Uruguai",
-      "summary": "Durante sua viagem pela América Latina, o Papa Leão XIV será recebido por três líderes com inclinações políticas muito diferentes. O presidente do Uruguai, Yamandú Orsi, eleito em 2025, é membro da Frente Ampla e está entre os poucos.",
-      "url": "https://pt.aleteia.org/2026/10/30/a-santa-se-e-a-historia-das-ditaduras-de-argentina-chile-e-uruguai/",
-      "published": "2026-10-30"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "ferroviário na Espanha: sacerdote dá absolvição geral",
-      "summary": "O padre destaca a beleza do sacerdócio: “ser um sinal da presença de Deus e da misericórdia de Deus no meio do mundo. E isso vale a pena, com certeza”. Foto: Wikipedia Redação ( 01/11/2026 11:05 , Gaudium Press ) Na manhã de 28 de.",
-      "url": "https://gaudiumpress.org/content/acidente-ferroviario-na-espanha-sacerdote-da-absolvicao-geral/",
-      "published": "2026-11-01"
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-11-02"
     }
   ],
   "closingQuote": {
-    "text": "Alegrai-vos e exultai, porque será grande a vossa recompensa nos céus.",
-    "source": "Mateus 5,1-12"
+    "text": "Vós também, ficai preparados!",
+    "source": "Lucas 12,35-40"
   },
   "liturgyHours": {
-    "reading": "Que o Deus de nosso Senhor Jesus Cristo, o Pai a quem pertence a glória, vos dê um espírito de sabedoria que vo-lo revele e faça verdadeiramente conhecer. Que ele abra o vosso coração à sua luz, para que saibais qual a esperança que o seu chamamento...",
+    "reading": "Se Jesus morreu e ressuscitou – e esta é a nossa fé – de modo semelhante Deus trará de volta, com Cristo, os que através dele entraram no sono da morte.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
