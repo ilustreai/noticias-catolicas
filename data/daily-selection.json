@@ -1,34 +1,34 @@
 {
-  "date": "2026-11-02",
-  "editionLabel": "2 de novembro de 2026",
+  "date": "2026-11-03",
+  "editionLabel": "3 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Comemoração de Todos os Fiéis Defuntos",
-    "colorName": "roxo",
-    "cssColor": "#7B2D26",
-    "gospelShort": "Lc 12,35-40"
+    "celebrationTitle": "São Martinho de Porres, religioso",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 14,15-24"
   },
   "saint": {
-    "feast": "\udfe3 Comemoração de Todos os Fiéis Defuntos",
-    "name": "Na comemoração dos Fiéis Defuntos, recordemos das almas",
-    "description": "Celebração litúrgica do dia: Comemoração de Todos os Fiéis Defuntos.",
-    "url": "https://santo.cancaonova.com/santo/na-comemoracao-dos-fieis-defuntos-recordemos-das-almas/"
+    "feast": "São Martinho de Porres\\, religioso",
+    "name": "São Martinho de Lima, patrono dos barbeiros",
+    "description": "Celebração litúrgica do dia: São Martinho de Porres, religioso.",
+    "url": "https://santo.cancaonova.com/santo/sao-martinho-de-lima-patrono-dos-barbeiros/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 12,35-40)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 14,15-24)",
     "lines": [
-      "Naquele tempo, disse Jesus a seus discípulos: Que vossos rins estejam cingidos e as lâmpadas acesas.",
-      "Sede como homens que estão esperando seu senhor voltar de uma festa de casamento, para lhe abrir, imediatamente, a porta, logo que ele chegar e bater.",
-      "Felizes os empregados que o senhor encontrar acordados quando chegar.",
-      "Em verdade eu vos digo: Ele mesmo vai cingir-se, fazê-los sentar-se à mesa e, passando, os servirá.",
-      "E caso ele chegue à meia-noite ou às três da madrugada, felizes serão, se assim os encontrar!",
-      "Mas ficai certos: se o dono da casa soubesse a hora em que o ladrão iria chegar, não deixaria que arrombasse a sua casa.",
-      "bVós também, ficai preparados!"
+      "Naquele tempo, um homem que estava à mesa, disse a Jesus: Feliz aquele que come o pão no Reino de Deus! Jesus respondeu: Um homem deu um grande banquete e convidou muitas pessoas.",
+      "Na hora do banquete, mandou seu empregado dizer aos convidados: Vinde, pois tudo está pronto.",
+      "Mas todos, um a um, começaram a dar desculpas.",
+      "O primeiro disse: Comprei um campo, e preciso ir vê-lo.",
+      "Peço-te que aceites minhas desculpas.",
+      "Um outro disse: Comprei cinco juntas de bois, e vou experimentá-las.",
+      "Peço-te que aceites minhas desculpas."
     ],
-    "body": "Naquele tempo, disse Jesus a seus discípulos: 35 Que vossos rins estejam cingidos e as lâmpadas acesas. 36 Sede como homens que estão esperando seu senhor voltar de uma festa de casamento, para lhe abrir, imediatamente, a porta, logo que ele chegar e bater. 37 Felizes os empregados que o senhor encontrar acordados quando chegar. Em verdade eu vos digo: Ele mesmo vai cingir-se, fazê-los sentar-se à mesa e, passando, os servirá. 38 E caso ele chegue à meia-noite ou às três da madrugada, felizes serão, se assim os encontrar! 39 Mas ficai certos: se o dono da casa soubesse a hora em que o ladrão iria chegar, não deixaria que arrombasse a sua casa. bVós também, ficai preparados! Porque o Filho do Homem vai chegar na hora em que menos o esperardes\". —",
-    "keyVerse": "É esta a vontade de quem me enviou: que eu não perca nenhum dos que ele me deu, mas que eu os ressuscite no último dia."
+    "body": "Naquele tempo, 15 um homem que estava à mesa, disse a Jesus: \"Feliz aquele que come o pão no Reino de Deus!\" 16 Jesus respondeu: \"Um homem deu um grande banquete e convidou muitas pessoas. 17 Na hora do banquete, mandou seu empregado dizer aos convidados: 'Vinde, pois tudo está pronto'. 18 Mas todos, um a um, começaram a dar desculpas. O primeiro disse: 'Comprei um campo, e preciso ir vê-lo. Peço-te que aceites minhas desculpas'. 19 Um outro disse: 'Comprei cinco juntas de bois, e vou experimentá-las. Peço-te que aceites minhas desculpas'. 20 Um terceiro disse: 'Acabo de me casar e, por isso, não posso ir'. 21 O empregado voltou e contou tudo ao patrão. Então o dono da casa ficou muito zangado e disse ao empregado: 'Sai depressa pelas praças e ruas da cidade. Traze para cá os pobres, os aleijados, os cegos e os coxos'. 22 O empregado disse: 'Senhor, o que tu mandaste fazer foi feito, e ainda há lugar'. 23 O patrão disse ao empregado: 'Sai pelas estradas e atalhos, e obriga as pessoas a virem aqui, para que minha casa fique cheia'. 24 Pois eu vos digo: nenhum daqueles que foram convidados provará do meu banquete'\". —",
+    "keyVerse": "Vinde a mim, todos vós que estais cansados, e descanso eu vos darei, diz o senhor."
   },
   "sponsor": {
     "enabled": true,
@@ -42,48 +42,41 @@
       "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
       "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
       "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
-      "published": "2026-11-02"
+      "published": "2026-11-03"
     },
     {
       "source": "Vatican News",
       "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
       "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
       "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
-      "published": "2026-11-02"
+      "published": "2026-11-03"
     },
     {
       "source": "CNBB",
       "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
       "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
       "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
-      "published": "2026-11-02"
+      "published": "2026-11-03"
     },
     {
       "source": "ACI Digital",
       "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
       "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
       "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
-      "published": "2026-11-02"
-    },
-    {
-      "source": "Shalom",
-      "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
-      "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
-      "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
-      "published": "2026-11-02"
+      "published": "2026-11-03"
     },
     {
       "source": "Shalom",
       "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
       "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
       "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
-      "published": "2026-11-02"
+      "published": "2026-11-03"
     },
     {
       "source": "Aleteia",
-      "title": "Por que o cristão deve exercer sempre a amabilidade?",
-      "summary": "A amabilidade é uma qualidade que é agradecida na alma por quem a exerce, sobretudo quando o ambiente em que nos desenvolvemos é hostil. Cada um certamente tem suas próprias experiências a respeito. No entanto, para alguns parecerá.",
-      "url": "https://pt.aleteia.org/2026/11/02/por-que-o-cristao-deve-exercer-sempre-a-amabilidade/",
+      "title": "Na Síria, a Mona Lisa desaparece dos livros escolares, as mulheres também",
+      "summary": "Imagens de mulheres removidas, véus adicionados, obras-primas removidas ou retocadas: alterações nos livros escolares oficiais na Síria suscitam fortes críticas e alimentam temores de uma islamização da sociedade. Em uma mensagem.",
+      "url": "https://pt.aleteia.org/2026/11/02/na-siria-a-mona-lisa-desaparece-dos-livros-escolares-as-mulheres-tambem/",
       "published": "2026-11-02"
     },
     {
@@ -91,15 +84,22 @@
       "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
       "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
       "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-11-03"
+    },
+    {
+      "source": "Gaudium Press",
+      "title": "Doutorado em Direito Canônico através de Goiânia",
+      "summary": "O Instituto Superior de Direito Canônico de Goiânia firmou um convênio com a Faculdade de Direito Canônico da Pontifícia Universidade Javeriana, de Bogotá, na Colômbia. Redação ( 02/11/2026 15:05 , Gaudium Press ) O Instituto Superior de.",
+      "url": "https://gaudiumpress.org/content/doutorado-em-direito-canonico-atraves-de-goiania/",
       "published": "2026-11-02"
     }
   ],
   "closingQuote": {
-    "text": "Vós também, ficai preparados!",
-    "source": "Lucas 12,35-40"
+    "text": "Sai pelas estradas e atalhos, e obriga as pessoas a virem aqui, para que minha casa fique cheia.",
+    "source": "Lucas 14,15-24"
   },
   "liturgyHours": {
-    "reading": "Se Jesus morreu e ressuscitou – e esta é a nossa fé – de modo semelhante Deus trará de volta, com Cristo, os que através dele entraram no sono da morte.",
+    "reading": "Nós vimos, e damos testemunho, que o Pai enviou o seu Filho como Salvador do mundo. Todo aquele que proclama que Jesus é o Filho de Deus, Deus permanece com ele, e ele com Deus.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
