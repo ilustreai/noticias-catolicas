@@ -1,34 +1,34 @@
 {
-  "date": "2026-11-04",
-  "editionLabel": "4 de novembro de 2026",
+  "date": "2026-11-05",
+  "editionLabel": "5 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Carlos Borromeu, bispo",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Lc 14,25-33"
+    "celebrationTitle": "Quinta-Feira da Semana XXXI do Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 15,1-10"
   },
   "saint": {
-    "feast": "São Carlos Borromeu\\, bispo",
-    "name": "São Carlos Borromeu, o reorganizador da Igreja Católica",
-    "description": "Celebração litúrgica do dia: São Carlos Borromeu, bispo.",
-    "url": "https://santo.cancaonova.com/santo/sao-carlos-borromeu-o-reorganizador-da-igreja-catolica/"
+    "feast": "\udfe2 Quinta-Feira da Semana XXXI do Tempo Comum",
+    "name": "Santa Bertila, uma nobre monja francesa que foi santa",
+    "description": "Celebração litúrgica do dia: Quinta-Feira da Semana XXXI do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/santa-bertila-uma-nobre-monja-francesa-que-foi-santa/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 14,25-33)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 15,1-10)",
     "lines": [
-      "Naquele tempo, grandes multidões acompanhavam Jesus.",
-      "Voltando-se, ele lhes disse: Se alguém vem a mim, mas não se desapega de seu pai e sua mãe, sua mulher e seus filhos, seus irmãos e suas irmãs e até da sua própria vida, não pode ser meu discípulo.",
-      "Quem não carrega sua cruz e não caminha atrás de mim, não pode ser meu discípulo.",
-      "Com efeito: qual de vós, querendo construir uma torre, não se senta primeiro e calcula os gastos, para ver se tem o suficiente para terminar?",
-      "Caso contrário, ele vai lançar o alicerce e não será capaz de acabar.",
-      "E todos os que virem isso começarão a caçoar, dizendo: Este homem começou a construir e não foi capaz de acabar! Ou ainda: Qual o rei que ao sair para guerrear com outro, não se senta primeiro e examina bem se com dez mil homens poderá enfrentar o outro que marcha contra ele com vinte mil?",
-      "Se ele vê que não pode, enquanto o outro rei ainda está longe, envia mensageiros para negociar as condições de paz."
+      "Naquele tempo, os publicanos e pecadores aproximavam-se de Jesus para o escutar.",
+      "Os fariseus, porém, e os mestres da Lei criticavam Jesus.",
+      "Este homem acolhe os pecadores e faz refeição com eles.",
+      "Então Jesus contou-lhes esta parábola: Se um de vós tem cem ovelhas e perde uma, não deixa as noventa e nove no deserto, e vai atrás daquela que se perdeu, até encontrá-la?",
+      "Quando a encontra, coloca-a nos ombros com alegria, e, chegando a casa, reúne os amigos e vizinhos, e diz: Alegrai-vos comigo!",
+      "Encontrei a minha ovelha que estava perdida! Eu vos digo: Assim haverá no céu mais alegria por um só pecador que se converte, do que por noventa e nove justos que não precisam de conversão.",
+      "E se uma mulher tem dez moedas de prata e perde uma, não acende uma lâmpada, varre a casa e a procura cuidadosamente, até encontrá-la?"
     ],
-    "body": "Naquele tempo, 25 grandes multidões acompanhavam Jesus. Voltando-se, ele lhes disse: 26 \"Se alguém vem a mim, mas não se desapega de seu pai e sua mãe, sua mulher e seus filhos, seus irmãos e suas irmãs e até da sua própria vida, não pode ser meu discípulo. 27 Quem não carrega sua cruz e não caminha atrás de mim, não pode ser meu discípulo. 28 Com efeito: qual de vós, querendo construir uma torre, não se senta primeiro e calcula os gastos, para ver se tem o suficiente para terminar? Caso contrário, 29 ele vai lançar o alicerce e não será capaz de acabar. E todos os que virem isso começarão a caçoar, dizendo: 30 'Este homem começou a construir e não foi capaz de acabar!' 31 Ou ainda: Qual o rei que ao sair para guerrear com outro, não se senta primeiro e examina bem se com dez mil homens poderá enfrentar o outro que marcha contra ele com vinte mil? 32 Se ele vê que não pode, enquanto o outro rei ainda está longe, envia mensageiros para negociar as condições de paz. 33 Do mesmo modo, portanto, qualquer um de vós, se não renunciar a tudo o que tem, não pode ser meu discípulo!\" —",
-    "keyVerse": "Felizes sereis vós, se fordes ultrajados por causa de Jesus, pois repousa sobre vós o Espírito de Deus."
+    "body": "Naquele tempo, 1 os publicanos e pecadores aproximavam-se de Jesus para o escutar. 2 Os fariseus, porém, e os mestres da Lei criticavam Jesus. \"Este homem acolhe os pecadores e faz refeição com eles\". 3 Então Jesus contou-lhes esta parábola: 4 \"Se um de vós tem cem ovelhas e perde uma, não deixa as noventa e nove no deserto, e vai atrás daquela que se perdeu, até encontrá-la? 5 Quando a encontra, coloca-a nos ombros com alegria, 6 e, chegando a casa, reúne os amigos e vizinhos, e diz: 'Alegrai-vos comigo! Encontrei a minha ovelha que estava perdida!' 7 Eu vos digo: Assim haverá no céu mais alegria por um só pecador que se converte, do que por noventa e nove justos que não precisam de conversão. 8 E se uma mulher tem dez moedas de prata e perde uma, não acende uma lâmpada, varre a casa e a procura cuidadosamente, até encontrá-la? 9 Quando a encontra, reúne as amigas e vizinhas, e diz: 'Alegrai-vos comigo! Encontrei a moeda que tinha perdido!' 10 Por isso, eu vos digo, haverá alegria entre os anjos de Deus por um só pecador que se converte\". —",
+    "keyVerse": "Vinde a mim, todos vós que estais cansados, e descanso eu vos darei, diz o Senhor."
   },
   "sponsor": {
     "enabled": true,
@@ -39,56 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV: buscar as condições para uma paz justa e duradoura no Oriente Médio",
-      "summary": "Na saudação às delegações da \"L’Œuvre d’Orient\" e do \"Institut Chrétiens d’Orient\", em audiência no Vaticano, o Papa incentiva um duplo diálogo entre fé e razão, bem como entre cultura e história, para alcançar a reconciliação entre os.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-l-uvre-d-orient-institut-chretiens-d-orient-2026.html",
+      "title": "Família agostiniana lança plataforma digital para compartilhar a missão de Leão XIV",
+      "summary": "Novo portal reúne notícias, reflexões, documentos e testemunhos sobre a vida e o ministério do Pontífice. Iniciativa conjunta das comunidades agostinianas busca ampliar a presença da espiritualidade de Santo Agostinho no ambiente digital.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-11/agostinianos-plataforma-internacional-agustinos-con-el-papa.html",
       "published": "2026-11-04"
     },
     {
       "source": "Vatican News",
-      "title": "Papa: a política deve cuidar das feridas dos povos e oferecer esperança",
-      "summary": "Na Audiência Geral desta quarta-feira (04/11), Leão XIV deu continuidade ao ciclo de catequeses sobre os documentos do Concílio Vaticano II, refletindo sobre a vida econômica, social e política à luz da Constituição pastoral Gaudium et.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/catequese-leao-economia-e-politica-a-servico-da-dignidade-humana.html",
+      "title": "Leão XIV aos fiéis de língua portuguesa: na política, trabalhar pelo bem comum",
+      "summary": "O Papa, na catequese da Audiência Geral desta quarta-feira (04/11), convidou a fazer do trabalho e do empenho na sociedade um instrumento para preservar a dignidade humana e construir a paz. Em especial, na saudação aos lusófonos, falou.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-saudacao-portuguesa-arabe-polonesa-politicos-26.html",
       "published": "2026-11-04"
     },
     {
       "source": "CNBB",
-      "title": "Encontro inter-religioso na CNBB reúne representantes de diferentes tradições religiosas e prop",
-      "summary": "A CNBB recebeu, nesta quarta-feira, 4 de novembro, em sua sede, em Brasília (DF), representantes de diferentes tradições religiosas para um encontro de diálogo, escuta e partilha. A reunião teve como objetivo fortalecer os laços entre as.",
-      "url": "https://www.cnbb.org.br/encontro-inter-religioso-na-cnbb-reune-representantes-de-diferentes-tradicoes-religiosas-e-propoe-mobilizacao-pela-paz/",
-      "published": "2026-11-04"
+      "title": "Edições CNBB lança texto-base da Campanha da Fraternidade 2027 nesta quarta-feira, às 16h",
+      "summary": "O lançamento será realizado durante uma live especial, transmitida nos canais da CNBB e da Edições CNBB no Youtube. O secretário executivo de Campanhas da CNBB, padre Jean Poul Hansen, conduzirá o evento on-line. Em 2027, Campanha da.",
+      "url": "https://www.cnbb.org.br/lancamento-texto-base-campanha-fraternidade-2027/",
+      "published": "2026-11-03"
     },
     {
       "source": "CNBB",
-      "title": "Ecologia integral e culto espiritual",
-      "summary": "Dom Lindomar Rocha Mota Bispo de São Luís de Monte Belos (GO) Em uma pequena igreja, numa comunidade distante dos grandes centros, um sacerdote toma nas mãos um pouco de pão e um cálice de vinho. Ao redor dele, um grupo de fiéis participa.",
-      "url": "https://www.cnbb.org.br/ecologia-integral-e-culto-espiritual/",
+      "title": "Seminário no Regional Oeste 2 aponta caminhos para transformar a reflexão sobre a infância em c",
+      "summary": "Com o tema “Fraternidade e o cuidado das Crianças” e o lema “Quem recebe uma criança em meu nome, a mim recebe” (Mt 18,5), o Regional Oeste 2 da Conferência Nacional dos Bispos do Brasil (CNBB Oeste 2) realizou, nos dias 31 de outubro e.",
+      "url": "https://www.cnbb.org.br/seminario-no-regional-oeste-2-aponta-caminhos-para-transformar-a-reflexao-sobre-a-infancia-em-compromisso-concreto/",
       "published": "2026-11-03"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV pede orações por sua primeira viagem à América do",
-      "summary": "Leão XIV pediu aos fiéis que o acompanhem com orações pela viagem apostólica que realizará ao Uruguai, Argentina e Peru, de 6 a 17 de novembro.",
-      "url": "https://www.acidigital.com/noticia/70735/leao-xiv-pede-oracoes-por-sua-primeira-viagem-a-america-do-sul",
-      "published": "2026-11-04"
+      "title": "a Igreja celebra são Zacarias e santa Isabel, pais de João Batista",
+      "summary": "“Ambos eram justos diante de Deus e observavam irrepreensivelmente todos os mandamentos e preceitos do Senhor”, afirma são Lucas em seu evangelho (Lc 1,6) sobre são Zacarias e santa Isabel – pais de são João Batista e tios de Jesus –,.",
+      "url": "https://www.acidigital.com/noticia/70743/igreja-celebra-sao-zacarias-e-santa-isabel-pais-de-joao-batista",
+      "published": "2026-11-05"
     },
     {
       "source": "ACI Digital",
-      "title": "Aborto vence em três Estados em meio a grande vitória democrata nas eleições de meio de mandato",
-      "summary": "Os eleitores em Idaho mantiveram a proibição ao aborto no estado, mas em outros lugares o aborto foi ampliado à medida que os democratas retomaram a Câmara e o Senado dos EUA.",
-      "url": "https://www.acidigital.com/noticia/70733/aborto-vence-em-tres-estados-em-meio-a-grande-vitoria-democrata-nas-eleicoes-de-meio-de-mandato",
+      "title": "Clérigos dos EUA e do México celebram missa na fronteira por migrantes mortos",
+      "summary": "Clérigos da Igreja nos EUA e no México reuniram-se na fronteira para celebrar uma missa em sufrágio pelas almas daqueles que morreram ao tentar atravessá-la.",
+      "url": "https://www.acidigital.com/noticia/70721/clerigos-dos-eua-e-do-mexico-celebram-missa-na-fronteira-por-migrantes-mortos",
       "published": "2026-11-04"
     },
     {
       "source": "Aleteia",
-      "title": "[CRONOLOGIA] As diferentes missões de Leão XIV durante seus 20 anos no Peru",
-      "summary": "Enviado ao Peru pela primeira vez em 1985 por sua ordem religiosa, os Agostinianos, Robert Francis Prevost serviu lá por quase vinte anos em diversas funções, desde a formação de religiosos até o serviço como sacerdote episcopal. De.",
-      "url": "https://pt.aleteia.org/2026/11/03/cronologia-as-diferentes-missoes-de-leao-xiv-durante-seus-20-anos-no-peru/",
-      "published": "2026-11-03"
+      "title": "A espiritualidade do Coração: educar com ternura",
+      "summary": "A espiritualidade do Coração de Jesus nos reconduz ao lugar onde o amor se faz doação, e a doação se faz esperança. Jesus, do alto da cruz, entrega tudo e o que parece fracasso se transforma em fonte de vida. Em meio à pressa e aos.",
+      "url": "https://pt.aleteia.org/2026/11/04/a-espiritualidade-do-coracao-educar-com-ternura/",
+      "published": "2026-11-04"
     }
   ],
   "closingQuote": {
-    "text": "Qualquer um de vós, se não renunciar a tudo o que tem, não pode ser meu discípulo!",
-    "source": "Lucas 14,25-33"
+    "text": "Haverá alegria no céu por um só pecador que se converte.",
+    "source": "Lucas 15,1-10"
+  },
+  "liturgyHours": {
+    "reading": "Como bons administradores da multiforme graça de Deus, cada um coloque à disposição dos outros o dom que recebeu. Se alguém tem o dom de falar, proceda como com palavras de Deus. Se alguém tem o dom do serviço, exerça-o como capacidade proporcionada...",
+    "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
