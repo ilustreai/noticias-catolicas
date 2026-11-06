@@ -1,34 +1,34 @@
 {
-  "date": "2026-11-05",
-  "editionLabel": "5 de novembro de 2026",
+  "date": "2026-11-06",
+  "editionLabel": "6 de novembro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Quinta-Feira da Semana XXXI do Tempo Comum",
+    "celebrationTitle": "Sexta-Feira da Semana XXXI do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 15,1-10"
+    "gospelShort": "Lc 16,1-8"
   },
   "saint": {
-    "feast": "\udfe2 Quinta-Feira da Semana XXXI do Tempo Comum",
-    "name": "Santa Bertila, uma nobre monja francesa que foi santa",
-    "description": "Celebração litúrgica do dia: Quinta-Feira da Semana XXXI do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santa-bertila-uma-nobre-monja-francesa-que-foi-santa/"
+    "feast": "\udfe2 Sexta-Feira da Semana XXXI do Tempo Comum",
+    "name": "São Nuno de Santa Maria, o grande Santo Condestável",
+    "description": "Celebração litúrgica do dia: Sexta-Feira da Semana XXXI do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-nuno-de-santa-maria-o-grande-santo-condestavel/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 15,1-10)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 16,1-8)",
     "lines": [
-      "Naquele tempo, os publicanos e pecadores aproximavam-se de Jesus para o escutar.",
-      "Os fariseus, porém, e os mestres da Lei criticavam Jesus.",
-      "Este homem acolhe os pecadores e faz refeição com eles.",
-      "Então Jesus contou-lhes esta parábola: Se um de vós tem cem ovelhas e perde uma, não deixa as noventa e nove no deserto, e vai atrás daquela que se perdeu, até encontrá-la?",
-      "Quando a encontra, coloca-a nos ombros com alegria, e, chegando a casa, reúne os amigos e vizinhos, e diz: Alegrai-vos comigo!",
-      "Encontrei a minha ovelha que estava perdida! Eu vos digo: Assim haverá no céu mais alegria por um só pecador que se converte, do que por noventa e nove justos que não precisam de conversão.",
-      "E se uma mulher tem dez moedas de prata e perde uma, não acende uma lâmpada, varre a casa e a procura cuidadosamente, até encontrá-la?"
+      "Naquele tempo, Jesus disse aos discípulos: Um homem rico tinha um administrador que foi acusado de esbanjar os seus bens.",
+      "Ele o chamou e lhe disse: Que é isto que ouço a teu respeito?",
+      "Presta contas da tua administração, pois já não podes mais administrar meus bens.",
+      "O administrador então começou a refletir: O senhor vai me tirar a administração.",
+      "Para cavar, não tenho forças; de mendigar, tenho vergonha.",
+      "Já sei o que fazer, para que alguém me receba em sua casa quando eu for afastado da administração.",
+      "Então ele chamou cada um dos que estavam devendo ao seu patrão."
     ],
-    "body": "Naquele tempo, 1 os publicanos e pecadores aproximavam-se de Jesus para o escutar. 2 Os fariseus, porém, e os mestres da Lei criticavam Jesus. \"Este homem acolhe os pecadores e faz refeição com eles\". 3 Então Jesus contou-lhes esta parábola: 4 \"Se um de vós tem cem ovelhas e perde uma, não deixa as noventa e nove no deserto, e vai atrás daquela que se perdeu, até encontrá-la? 5 Quando a encontra, coloca-a nos ombros com alegria, 6 e, chegando a casa, reúne os amigos e vizinhos, e diz: 'Alegrai-vos comigo! Encontrei a minha ovelha que estava perdida!' 7 Eu vos digo: Assim haverá no céu mais alegria por um só pecador que se converte, do que por noventa e nove justos que não precisam de conversão. 8 E se uma mulher tem dez moedas de prata e perde uma, não acende uma lâmpada, varre a casa e a procura cuidadosamente, até encontrá-la? 9 Quando a encontra, reúne as amigas e vizinhas, e diz: 'Alegrai-vos comigo! Encontrei a moeda que tinha perdido!' 10 Por isso, eu vos digo, haverá alegria entre os anjos de Deus por um só pecador que se converte\". —",
-    "keyVerse": "Vinde a mim, todos vós que estais cansados, e descanso eu vos darei, diz o Senhor."
+    "body": "Naquele tempo, 1 Jesus disse aos discípulos: \"Um homem rico tinha um administrador que foi acusado de esbanjar os seus bens. 2 Ele o chamou e lhe disse: 'Que é isto que ouço a teu respeito? Presta contas da tua administração, pois já não podes mais administrar meus bens'. 3 O administrador então começou a refletir: 'O senhor vai me tirar a administração. Que vou fazer? Para cavar, não tenho forças; de mendigar, tenho vergonha. 4 Ah! Já sei o que fazer, para que alguém me receba em sua casa quando eu for afastado da administração'. 5 Então ele chamou cada um dos que estavam devendo ao seu patrão. E perguntou ao primeiro: 'Quanto deves ao meu patrão?' 6 Ele respondeu: 'Cem barris de óleo!' O administrador disse: 'Pega a tua conta, senta-te, depressa, e escreve cinquenta!' 7 Depois ele perguntou a outro: 'E tu, quanto deves?' Ele respondeu: 'Cem medidas de trigo'. O administrador disse: 'Pega tua conta e escreve oitenta'. 8 E o senhor elogiou o administrador desonesto, porque ele agiu com esperteza. Com efeito, os filhos deste mundo são mais espertos em seus negócios do que os filhos da luz\". —",
+    "keyVerse": "O amor de Deus se realiza em todo aquele, que guarda sua palavra fielmente."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Shevchuk: sem intervenção de Leão XIV, trégua em Oleshky teria sido impossível",
-      "summary": "O líder da Igreja Greco-Católica Ucraniana, Sviatoslav Shevchuk, expressa gratidão a Leão XIV pelas ligações telefônicas a Putin e Zelensky e por ter sido a “voz dos que não têm voz” na Ucrânia. Fala sobre o “demônio” da guerra, que torna.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-11/ucrania-arcebispo-sviatoslav-shevchuk-papa-oleshky-guerra-paz.html",
-      "published": "2026-11-05"
+      "title": "Leão XIV parte para a América Latina: viagem de escuta, proximidade e unidade",
+      "summary": "A sétima Viagem Apostólica é um retorno às raízes latino-americanas de Leão XIV, mas também de um peregrino que deseja escutar, aproximar-se das realidades locais e renovar a esperança de um continente marcado pela fé, mas também por.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-viagem-apostolica-america-latina-partida-fiumicino.html",
+      "published": "2026-11-06"
     },
     {
       "source": "Vatican News",
-      "title": "Papa nomeia dois subsecretários do Dicastério para o Desenvolvimento Humano Integral",
-      "summary": "Leão XIV escolheu para o cargo o padre jesuíta Avelino Chicoma Bundo Chico, atual chefe de gabinete do mesmo dicastério, e a professora Claudia Leal Luna, professora titular do Pontifício Instituto Teológico João Paulo II para as Ciências.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-11/nomeacao-subsecretarios-dicasterio-desenvolvimento-humano.html",
+      "title": "Leão XIV: guardar o tesouro da comunhão na Igreja, fonte fecunda de paz para todos",
+      "summary": "Em mensagem em vídeo para Simpósio na Urbaniana sobre a Igreja na China, o Papa ressalta que cem anos atrás, a viagem de seis homens, que partiram da China rumo a Roma para se tornarem bispos da Igreja católica, despertou alegria e.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-mensagem-centenario-ordenacao-bispos-chineses.html",
       "published": "2026-11-05"
     },
     {
       "source": "CNBB",
-      "title": "“Pelo bom uso das riquezas”: a intenção de oração do Papa Leão XIV para o mês de novembro",
-      "summary": "“O Senhor é o refúgio do pobre” é o título da Mensagem para o X Dia Mundial dos Pobres deste mês de novembro. Assim, o Papa Leao XIV dedica a sua intenção de oração do mês ao “bom uso das riquezas”. Através da Rede Mundial de Oração do.",
-      "url": "https://www.cnbb.org.br/pelo-bom-uso-das-riquezas-a-intencao-de-oracao-do-papa-leao-xiv-para-o-mes-de-novembro/",
-      "published": "2026-11-04"
+      "title": "A visita do Papa Leão XIV ao Uruguai, Argentina e Peru de 6 a 17 de novembro: uma viagem de esc",
+      "summary": "O diretor da Sala de Imprensa da Santa Sé, Matteo Bruni, na presença da nova prefeita do Dicastério para a Comunicação, Montserrat Alvarado, apresentou os detalhes da longa Viagem Apostólica do Papa ao Uruguai, à Argentina e ao Peru, de 6.",
+      "url": "https://www.cnbb.org.br/a-visita-do-papa-leao-xiv-a-america-latina/",
+      "published": "2026-11-05"
     },
     {
       "source": "CNBB",
-      "title": "Secretário-Geral da CNBB recebe representante da série The Chosen em Brasília",
-      "summary": "Durante a audiência na sede da CNBB, Flávia Maria apresentou os próximos passos e projetos da série no Brasil, com destaque para as expectativas em torno da 6ª temporada, que retratará a Crucificação de Jesus. A coordenadora ressaltou a.",
-      "url": "https://www.cnbb.org.br/the-chosen-secretario-geral-cnbb-recebe-representante-da-serie/",
+      "title": "O amor como experiência de plenitude",
+      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) Recentemente, li um texto em que o autor procurava traduzir em palavras uma das experiências humanas mais profundas e, ao mesmo tempo, mais difíceis de definir: o amor. Entre tantas.",
+      "url": "https://www.cnbb.org.br/o-amor-como-experiencia-de-plenitude/",
       "published": "2026-11-05"
     },
     {
       "source": "ACI Digital",
-      "title": "Conheça o papamóvel que Leão XIV vai usar em sua visita ao Peru",
-      "summary": "O papamóvel de Leão XIV para sua visita ao Peru é apresentado e abençoado. A General Motors adaptou dois veículos em 24 dias para facilitar a proximidade com os fiéis.",
-      "url": "https://www.acidigital.com/noticia/70745/conheca-o-papamovel-que-leao-xiv-vai-usar-em-sua-visita-ao-peru",
+      "title": "Leão XIV visita três santuários marianos em sua primeira viagem à América do",
+      "summary": "O itinerário incluirá três devoções marianas estreitamente ligadas à história e à fé do Uruguai, da Argentina e do Peru.",
+      "url": "https://www.acidigital.com/noticia/70747/leao-xiv-visita-tres-santuarios-marianos-em-sua-primeira-viagem-a-america-do-sul",
       "published": "2026-11-05"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV pede orações por sua primeira viagem à América do",
-      "summary": "Leão XIV pediu aos fiéis que o acompanhem com orações pela viagem apostólica que realizará ao Uruguai, Argentina e Peru, de 6 a 17 de novembro.",
-      "url": "https://www.acidigital.com/noticia/70735/leao-xiv-pede-oracoes-por-sua-primeira-viagem-a-america-do-sul",
-      "published": "2026-11-04"
+      "title": "Bombas no Vaticano, um mistério da Segunda Guerra Mundial",
+      "summary": "Em 5 de novembro de 1943, uma aeronave não identificada lançou bombas sobre o Vaticano — uma delas passou muito perto da Basílica de São Pedro. Mas quem fez isso, e por que o caso permanece envolto em mistério desde então?.",
+      "url": "https://www.acidigital.com/noticia/70767/bombas-no-vaticano-um-misterio-da-segunda-guerra-mundial",
+      "published": "2026-11-05"
     },
     {
       "source": "Aleteia",
-      "title": "[CRONOLOGIA] As diferentes missões de Leão XIV durante seus 20 anos no Peru",
-      "summary": "Enviado ao Peru pela primeira vez em 1985 por sua ordem religiosa, os Agostinianos, Robert Francis Prevost serviu lá por quase vinte anos em diversas funções, desde a formação de religiosos até o serviço como sacerdote episcopal. De.",
-      "url": "https://pt.aleteia.org/2026/11/03/cronologia-as-diferentes-missoes-de-leao-xiv-durante-seus-20-anos-no-peru/",
-      "published": "2026-11-03"
+      "title": "A espiritualidade do Coração: educar com ternura",
+      "summary": "A espiritualidade do Coração de Jesus nos reconduz ao lugar onde o amor se faz doação, e a doação se faz esperança. Jesus, do alto da cruz, entrega tudo e o que parece fracasso se transforma em fonte de vida. Em meio à pressa e aos.",
+      "url": "https://pt.aleteia.org/2026/11/04/a-espiritualidade-do-coracao-educar-com-ternura/",
+      "published": "2026-11-04"
     }
   ],
   "closingQuote": {
-    "text": "Haverá alegria no céu por um só pecador que se converte.",
-    "source": "Lucas 15,1-10"
+    "text": "Os filhos deste mundo são mais espertos em seus negócios do que os filhos da luz.",
+    "source": "Lucas 16,1-8"
   },
   "liturgyHours": {
-    "reading": "Como bons administradores da multiforme graça de Deus, cada um coloque à disposição dos outros o dom que recebeu. Se alguém tem o dom de falar, proceda como com palavras de Deus. Se alguém tem o dom do serviço, exerça-o como capacidade proporcionada...",
+    "reading": "De bom grado, eu me gloriarei das minhas fraquezas, para que a força de Cristo habite em mim. Eis por que eu me comprazo nas fraquezas, nas injúrias, nas necessidades, nas perseguições e nas angústias sofridas por amor a Cristo. Pois, quando eu me...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
