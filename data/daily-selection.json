@@ -1,34 +1,34 @@
 {
-  "date": "2026-11-06",
-  "editionLabel": "6 de novembro de 2026",
+  "date": "2026-11-07",
+  "editionLabel": "7 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Sexta-Feira da Semana XXXI do Tempo Comum",
+    "celebrationTitle": "Santa Maria no Sábado",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 16,1-8"
+    "gospelShort": "Lc 16,9-15"
   },
   "saint": {
-    "feast": "\udfe2 Sexta-Feira da Semana XXXI do Tempo Comum",
-    "name": "São Nuno de Santa Maria, o grande Santo Condestável",
-    "description": "Celebração litúrgica do dia: Sexta-Feira da Semana XXXI do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-nuno-de-santa-maria-o-grande-santo-condestavel/"
+    "feast": "Santa Maria no Sábado",
+    "name": "São Vilibrordo, o bispo de Utrecht",
+    "description": "Celebração litúrgica do dia: Santa Maria no Sábado.",
+    "url": "https://santo.cancaonova.com/santo/sao-vilibrordo-o-bispo-de-utrecht/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 16,1-8)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 16,9-15)",
     "lines": [
-      "Naquele tempo, Jesus disse aos discípulos: Um homem rico tinha um administrador que foi acusado de esbanjar os seus bens.",
-      "Ele o chamou e lhe disse: Que é isto que ouço a teu respeito?",
-      "Presta contas da tua administração, pois já não podes mais administrar meus bens.",
-      "O administrador então começou a refletir: O senhor vai me tirar a administração.",
-      "Para cavar, não tenho forças; de mendigar, tenho vergonha.",
-      "Já sei o que fazer, para que alguém me receba em sua casa quando eu for afastado da administração.",
-      "Então ele chamou cada um dos que estavam devendo ao seu patrão."
+      "Naquele tempo, disse Jesus aos seus discípulos: Usai o dinheiro injusto para fazer amigos, pois, quando acabar, eles vos receberão nas moradas eternas.",
+      "Quem é fiel nas pequenas coisas também é fiel nas grandes, e quem é injusto nas pequenas também é injusto nas grandes.",
+      "Por isso, se vós não sois fiéis no uso do dinheiro injusto, quem vos confiará o verdadeiro bem?",
+      "E se não sois fiéis no que é dos outros, quem vos dará aquilo que é vosso?",
+      "Ninguém pode servir a dois senhores.",
+      "porque ou odiará um e amará o outro, ou se apegará a um e desprezará o outro.",
+      "Vós não podeis servir a Deus e ao dinheiro."
     ],
-    "body": "Naquele tempo, 1 Jesus disse aos discípulos: \"Um homem rico tinha um administrador que foi acusado de esbanjar os seus bens. 2 Ele o chamou e lhe disse: 'Que é isto que ouço a teu respeito? Presta contas da tua administração, pois já não podes mais administrar meus bens'. 3 O administrador então começou a refletir: 'O senhor vai me tirar a administração. Que vou fazer? Para cavar, não tenho forças; de mendigar, tenho vergonha. 4 Ah! Já sei o que fazer, para que alguém me receba em sua casa quando eu for afastado da administração'. 5 Então ele chamou cada um dos que estavam devendo ao seu patrão. E perguntou ao primeiro: 'Quanto deves ao meu patrão?' 6 Ele respondeu: 'Cem barris de óleo!' O administrador disse: 'Pega a tua conta, senta-te, depressa, e escreve cinquenta!' 7 Depois ele perguntou a outro: 'E tu, quanto deves?' Ele respondeu: 'Cem medidas de trigo'. O administrador disse: 'Pega tua conta e escreve oitenta'. 8 E o senhor elogiou o administrador desonesto, porque ele agiu com esperteza. Com efeito, os filhos deste mundo são mais espertos em seus negócios do que os filhos da luz\". —",
-    "keyVerse": "O amor de Deus se realiza em todo aquele, que guarda sua palavra fielmente."
+    "body": "Naquele tempo, disse Jesus aos seus discípulos: 9 \"Usai o dinheiro injusto para fazer amigos, pois, quando acabar, eles vos receberão nas moradas eternas. 10 Quem é fiel nas pequenas coisas também é fiel nas grandes, e quem é injusto nas pequenas também é injusto nas grandes. 11 Por isso, se vós não sois fiéis no uso do dinheiro injusto, quem vos confiará o verdadeiro bem? 12 E se não sois fiéis no que é dos outros, quem vos dará aquilo que é vosso? 13 Ninguém pode servir a dois senhores. porque ou odiará um e amará o outro, ou se apegará a um e desprezará o outro. Vós não podeis servir a Deus e ao dinheiro\". 14 Os fariseus, que eram amigos do dinheiro, ouviam tudo isso e riam de Jesus. 15 Então, Jesus lhes disse: \"Vós gostais de parecer justos diante dos homens, mas Deus conhece vossos corações. Com efeito, o que é importante para os homens, é detestável para Deus\". —",
+    "keyVerse": "Jesus Cristo, Senhor nosso, embora sendo rico, para nós se tornou pobre, a fim de enriquecer-nos mediante sua pobreza."
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Shevchuk: sem intervenção de Leão XIV, trégua em Oleshky teria sido impossível",
-      "summary": "O líder da Igreja Greco-Católica Ucraniana, Sviatoslav Shevchuk, expressa gratidão a Leão XIV pelas ligações telefônicas a Putin e Zelensky e por ter sido a “voz dos que não têm voz” na Ucrânia. Fala sobre o “demônio” da guerra, que torna.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-11/ucrania-arcebispo-sviatoslav-shevchuk-papa-oleshky-guerra-paz.html",
-      "published": "2026-11-05"
+      "title": "Leão XIV pede oração e jejum pelo aumento das vocações sacerdotais e religiosas",
+      "summary": "\"Também nós, que entregamos a vida ao Senhor, precisamos nos perguntar onde está o nosso coração.\" Estas foram as palavras proferidas pelo Papa Leão XIV ao clero uruguaio na homilia das vésperas na Catedral da Imaculada Conceição e dos.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-uruguai-encontro-clero-catedral-imaculada-felipe-tiago.html",
+      "published": "2026-11-06"
     },
     {
       "source": "Vatican News",
-      "title": "Papa nomeia dois subsecretários do Dicastério para o Desenvolvimento Humano Integral",
-      "summary": "Leão XIV escolheu para o cargo o padre jesuíta Avelino Chicoma Bundo Chico, atual chefe de gabinete do mesmo dicastério, e a professora Claudia Leal Luna, professora titular do Pontifício Instituto Teológico João Paulo II para as Ciências.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-11/nomeacao-subsecretarios-dicasterio-desenvolvimento-humano.html",
-      "published": "2026-11-05"
-    },
-    {
-      "source": "CNBB",
-      "title": "Venite ad me: fé, comunhão e a dimensão social do testemunho cristão",
-      "summary": "Dom Vilson Dias de Oliveira Bispo Emérito de Limeira (SP) As reflexões subjacentes aos documentos recentes da Igreja, enriquecidas pela imemorial tradição teológico-pastoral e impulsionadas pelo magistério do Papa Francisco na Evangelii.",
-      "url": "https://www.cnbb.org.br/venite-ad-me-fe-comunhao-e-a-dimensao-social-do-testemunho-cristao/",
+      "title": "Leão XIV parte para a América Latina: viagem de escuta, proximidade e unidade",
+      "summary": "A sexta Viagem Apostólica é um retorno às raízes latino-americanas de Leão XIV, mas também de um peregrino que deseja escutar, aproximar-se das realidades locais e renovar a esperança de um continente marcado pela fé, mas também por.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-viagem-apostolica-america-latina-partida-fiumicino.html",
       "published": "2026-11-06"
     },
     {
       "source": "CNBB",
-      "title": "Comissão Sociotransformadora da CNBB disponibiliza material de apoio para a Jornada Mundial dos",
-      "summary": "A Igreja Católica no Brasil celebra, de 8 a 15 de novembro, a X Jornada Mundial dos Pobres (10ª JMP), que traz o lema bíblico “O Senhor é o refúgio do pobre” (cf. Sl 14, 6) e o chamado mobilizador “Minha comunidade eclesial transforma o.",
-      "url": "https://www.cnbb.org.br/jmj-2026-tem-o-lema-a-igreja-catolica-no-brasil-celebra-de-08-a-15-de-novembro-a-x-jornada-mundial-dos-pobres-10a-jmp-que-traz-o-lema-biblico-o-senhor-e-o-refugio-do-pobre-cf/",
+      "title": "A desigualdade social é uma tragédia global",
+      "summary": "Dom Itacir Brassiani Bispo de Santa Cruz do Sul (RS) Falando aos trabalhadores da Previdência Social da Itália, o Papa Leão afirmou: “Existe muita riqueza no mundo, mas o número de pobres continua aumentando. Milhões de pessoas em todo o.",
+      "url": "https://www.cnbb.org.br/a-desigualdade-social-e-uma-tragedia-global/",
+      "published": "2026-11-06"
+    },
+    {
+      "source": "CNBB",
+      "title": "Live de experiências de recepção das Diretrizes da Ação Evangelizadora e do Sínodo sobre Sinoda",
+      "summary": "O objetivo da live é promover um espaço de partilha eclesial por meio da apresentação de experiências significativas de recepção das Diretrizes Gerais da Ação Evangelizadora da Igreja no Brasil (DGAE) 2026 - 2032 e do Documento Final do.",
+      "url": "https://www.cnbb.org.br/live-partilha-experiencias-recepcao-diretrizes-sinodo/",
       "published": "2026-11-06"
     },
     {
       "source": "ACI Digital",
-      "title": "Papamóvel que Leão XIV vai usar no Peru foi feito no Brasil",
-      "summary": "A primeira viagem do papa Leão XIV à América Latina vai ter “um toque brasileiro”. A empresa Engesig, de Mogi das Cruzes (SP), dedicada à adaptação de veículos, construiu o papamóvel que Leão XIV vai usar no Peru. “Para ser bem honesto com você, nunca imaginei [que receberia essa encomenda], porque, até onde a gente sabe, o papamóvel nunca foi desenvolvido aqui no país”, disse à ACI Digital o gerente industrial da Engesig, Enzo Bolletta Neto....",
-      "url": "https://www.acidigital.com/noticia/70773/papamovel-que-leao-xiv-vai-usar-no-peru-foi-feito-no-brasil",
-      "published": "2026-11-06"
+      "title": "é dia do beato Francisco Palau, pregador das missões populares",
+      "summary": "A Igreja católica recorda hoje (7) o beato Francisco Palau y Quer, padre e frade carmelita descalço, nascido em Aitona, Lérida, Espanha, em 29 de dezembro de 1811.",
+      "url": "https://www.acidigital.com/noticia/56647/hoje-e-dia-do-beato-francisco-palau-pregador-das-missoes-populares",
+      "published": "2026-11-07"
     },
     {
-      "source": "ACI Digital",
-      "title": "Conheça o papamóvel que Leão XIV vai usar em sua visita ao Peru",
-      "summary": "O papamóvel de Leão XIV para sua visita ao Peru é apresentado e abençoado. A General Motors adaptou dois veículos em 24 dias para facilitar a proximidade com os fiéis.",
-      "url": "https://www.acidigital.com/noticia/70745/conheca-o-papamovel-que-leao-xiv-vai-usar-em-sua-visita-ao-peru",
-      "published": "2026-11-05"
+      "source": "Aleteia",
+      "title": "Alzheimer em casa: cuidar com paciência, amor e fé",
+      "summary": "Você está na casa de seus pais e, de repente, sua mãe sai do quarto e não sabe onde está nem quem você é. Esta é uma das cenas que muitas famílias enfrentam quando o Alzheimer chega a um de seus entes queridos. A doença é.",
+      "url": "https://pt.aleteia.org/2026/11/06/alzheimer-em-casa-cuidar-com-paciencia-amor-e-fe/",
+      "published": "2026-11-06"
     },
     {
       "source": "Gaudium Press",
-      "title": "Nova Zelândia registra aumento significativo na frequência às Santas Missas",
-      "summary": "Levantamento nas seis dioceses católicas do país contraria a narrativa de declínio religioso e sinaliza o retorno de fiéis e o surgimento de novos convertidos.",
-      "url": "https://gaudiumpress.org/content/nova-zelandia-registra-aumento-significativo-na-frequencia-as-santas-missas/",
+      "title": "divulga tema do Dia Mundial do Doente de 2027",
+      "summary": "Inspirado na cura do paralítico em Cafarnaum, o anúncio do Vaticano convoca paróquias e a sociedade civil a ampararem os enfermos e solitários.",
+      "url": "https://gaudiumpress.org/content/vaticano-divulga-tema-do-dia-mundial-do-doente-de-2027/",
       "published": "2026-11-06"
     }
   ],
   "closingQuote": {
-    "text": "Os filhos deste mundo são mais espertos em seus negócios do que os filhos da luz.",
-    "source": "Lucas 16,1-8"
+    "text": "Se vós não sois fiéis no uso do dinheiro injusto, quem vos confiará o verdadeiro bem?",
+    "source": "Lucas 16,9-15"
   },
   "liturgyHours": {
-    "reading": "De bom grado, eu me gloriarei das minhas fraquezas, para que a força de Cristo habite em mim. Eis por que eu me comprazo nas fraquezas, nas injúrias, nas necessidades, nas perseguições e nas angústias sofridas por amor a Cristo. Pois, quando eu me...",
+    "reading": "Fazei tudo sem reclamar ou murmurar, para que sejais livres de repreensão e ambiguidade, filhos de Deus sem defeito, no meio desta geração depravada e pervertida, na qual brilhais como os astros no universo.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
