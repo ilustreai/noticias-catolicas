@@ -1,34 +1,34 @@
 {
-  "date": "2026-11-07",
-  "editionLabel": "7 de novembro de 2026",
+  "date": "2026-11-08",
+  "editionLabel": "8 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santa Maria no Sábado",
+    "celebrationTitle": "Domingo XXXII do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 16,9-15"
+    "gospelShort": "Mt 25,1-13"
   },
   "saint": {
-    "feast": "Santa Maria no Sábado",
-    "name": "São Vilibrordo, o bispo de Utrecht",
-    "description": "Celebração litúrgica do dia: Santa Maria no Sábado.",
-    "url": "https://santo.cancaonova.com/santo/sao-vilibrordo-o-bispo-de-utrecht/"
+    "feast": "\udfe2 Domingo XXXII do Tempo Comum",
+    "name": "São Deodato I, o pontífice que guiou os cristãos em épocas difíceis",
+    "description": "Celebração litúrgica do dia: Domingo XXXII do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-deodato-i-o-pontifice-que-guiou-os-cristaos-em-epocas-dificeis/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 16,9-15)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 25,1-13)",
     "lines": [
-      "Naquele tempo, disse Jesus aos seus discípulos: Usai o dinheiro injusto para fazer amigos, pois, quando acabar, eles vos receberão nas moradas eternas.",
-      "Quem é fiel nas pequenas coisas também é fiel nas grandes, e quem é injusto nas pequenas também é injusto nas grandes.",
-      "Por isso, se vós não sois fiéis no uso do dinheiro injusto, quem vos confiará o verdadeiro bem?",
-      "E se não sois fiéis no que é dos outros, quem vos dará aquilo que é vosso?",
-      "Ninguém pode servir a dois senhores.",
-      "porque ou odiará um e amará o outro, ou se apegará a um e desprezará o outro.",
-      "Vós não podeis servir a Deus e ao dinheiro."
+      "Naquele tempo, disse Jesus a seus discípulos esta parábola: O Reino dos Céus é como a história das dez jovens que pegaram suas lâmpadas de óleo e saíram ao encontro do noivo.",
+      "Cinco delas eram imprevidentes, e as outras cinco eram previdentes.",
+      "As imprevidentes pegaram as suas lâmpadas, mas não levaram óleo consigo.",
+      "As previdentes, porém, levaram vasilhas com óleo junto com as lâmpadas.",
+      "O noivo estava demorando, e todas elas acabaram cochilando e dormindo.",
+      "No meio da noite, ouviu-se um grito: O noivo está chegando.",
+      "Ide ao seu encontro! Então as dez jovens se levantaram e prepararam as lâmpadas."
     ],
-    "body": "Naquele tempo, disse Jesus aos seus discípulos: 9 \"Usai o dinheiro injusto para fazer amigos, pois, quando acabar, eles vos receberão nas moradas eternas. 10 Quem é fiel nas pequenas coisas também é fiel nas grandes, e quem é injusto nas pequenas também é injusto nas grandes. 11 Por isso, se vós não sois fiéis no uso do dinheiro injusto, quem vos confiará o verdadeiro bem? 12 E se não sois fiéis no que é dos outros, quem vos dará aquilo que é vosso? 13 Ninguém pode servir a dois senhores. porque ou odiará um e amará o outro, ou se apegará a um e desprezará o outro. Vós não podeis servir a Deus e ao dinheiro\". 14 Os fariseus, que eram amigos do dinheiro, ouviam tudo isso e riam de Jesus. 15 Então, Jesus lhes disse: \"Vós gostais de parecer justos diante dos homens, mas Deus conhece vossos corações. Com efeito, o que é importante para os homens, é detestável para Deus\". —",
-    "keyVerse": "Jesus Cristo, Senhor nosso, embora sendo rico, para nós se tornou pobre, a fim de enriquecer-nos mediante sua pobreza."
+    "body": "Naquele tempo, disse Jesus a seus discípulos esta parábola: 1 \"O Reino dos Céus é como a história das dez jovens que pegaram suas lâmpadas de óleo e saíram ao encontro do noivo. 2 Cinco delas eram imprevidentes, e as outras cinco eram previdentes. 3 As imprevidentes pegaram as suas lâmpadas, mas não levaram óleo consigo. 4 As previdentes, porém, levaram vasilhas com óleo junto com as lâmpadas. 5 O noivo estava demorando, e todas elas acabaram cochilando e dormindo. 6 No meio da noite, ouviu-se um grito: 'O noivo está chegando. Ide ao seu encontro!' 7 Então as dez jovens se levantaram e prepararam as lâmpadas. 8 As imprevidentes disseram às previdentes: 'Dai-nos um pouco de óleo, porque nossas lâmpadas estão se apagando'. 9 As previdentes responderam: 'De modo nenhum, porque o óleo pode ser insuficiente para nós e para vós. &Eacute; melhor irdes comprar dos vendedores'. 10 Enquanto elas foram comprar óleo, o noivo chegou, e as que estavam preparadas entraram com ele para a festa de casamento. E a porta se fechou. 11 Por fim, chegaram também as outras jovens e disseram: 'Senhor! Senhor! Abre-nos a porta!' 12 Ele, porém, respondeu: 'Em verdade eu vos digo: Não vos conheço!' 13 Portanto, ficai vigiando, pois não sabeis qual será o dia, nem a hora\". —",
+    "keyVerse": "&Eacute; preciso vigiar e ficar de prontidão; em que dia o Senhor há de vir, não sabeis não!"
   },
   "sponsor": {
     "enabled": true,
@@ -39,60 +39,46 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV aos uruguaios: sede pontes, uma comunidade fraterna e de oração",
-      "summary": "Encorajo-vos a prosseguir a missão evangelizadora com entusiasmo. Sede pontes, para que muitos se encontrem com Jesus. Sede uma comunidade fraterna, que se reúne e partilha a vida e os projetos, os sonhos e as esperanças, especialmente.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-missa-paysandu-uruguai-viagem-apostolica-07-11-26.html",
+      "title": "Peregrinação da juventude brasileira a Montevideu: fé, vocação e o encontro",
+      "summary": "O Papa Leão XIV presidiu, no início da noite desta sexta-feira (06/11), a celebração das vésperas com os bispos, sacerdotes, diáconos, religiosos, religiosas e seminaristas na Catedral da Imaculada Conceição e dos Santos Filipe e Tiago,.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-11/peregrinacao-juventude-brasileira-montevideu-fe-vocacao.html",
       "published": "2026-11-07"
     },
     {
       "source": "Vatican News",
-      "title": "Reitor da Universidade Católica do Uruguai: “Magnifica humanitas é fundamental\"",
-      "summary": "O sacerdote jesuíta Padre Julio Fernández Techera, em entrevista à mídia do Vaticano, fala sobre o enorme desafio proposto pela encíclica de Leão XIV, apresentada na universidade católica do Uruguai, neste sábado, 7 de novembro: \"Devemos.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-uruguai-viagem-apostolica-reitor-universidade.html",
+      "title": "O primeiro dia de Leão no Uruguai: uma recepção de braços aberto",
+      "summary": "A chegada do Papa Leão XIV a Montevidéu marca a história do país que depois de mais de 38 anos recebe novamente um Sucessor de Pedro. Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/primeiro-dia-leao-uruguai-recepcao-bracos-aberto.html",
       "published": "2026-11-07"
     },
     {
       "source": "CNBB",
-      "title": "Comissão Sociotransformadora da CNBB disponibiliza material de apoio para a Jornada Mundial dos",
-      "summary": "A Igreja Católica no Brasil celebra, de 8 a 15 de novembro, a X Jornada Mundial dos Pobres (10ª JMP), que traz o lema bíblico “O Senhor é o refúgio do pobre” (cf. Sl 14, 6) e o chamado mobilizador “Minha comunidade eclesial transforma o.",
-      "url": "https://www.cnbb.org.br/jmj-2026-tem-o-lema-a-igreja-catolica-no-brasil-celebra-de-08-a-15-de-novembro-a-x-jornada-mundial-dos-pobres-10a-jmp-que-traz-o-lema-biblico-o-senhor-e-o-refugio-do-pobre-cf/",
-      "published": "2026-11-06"
-    },
-    {
-      "source": "CNBB",
-      "title": "As chagas da “Terra de Santa Cruz”: desigualdade, miséria e a resposta profética do episcopado",
-      "summary": "Dom Vilson Dias de Oliveira Bispo Emérito de Limeira (SP) A vivência do Dia Mundial dos Pobres no contexto brasileiro ganha uma densidade dramática e profética indispensável, pois convoca a Igreja e a sociedade a olharem de frente para as.",
-      "url": "https://www.cnbb.org.br/as-chagas-da-terra-de-santa-cruz-desigualdade-miseria-e-a-resposta-profetica-do-episcopado/",
+      "title": "Live de experiências de recepção das Diretrizes da Ação Evangelizadora e do Sínodo sobre Sinoda",
+      "summary": "O objetivo da live é promover um espaço de partilha eclesial por meio da apresentação de experiências significativas de recepção das Diretrizes Gerais da Ação Evangelizadora da Igreja no Brasil (DGAE) 2026 - 2032 e do Documento Final do.",
+      "url": "https://www.cnbb.org.br/live-partilha-experiencias-recepcao-diretrizes-sinodo/",
       "published": "2026-11-06"
     },
     {
       "source": "ACI Digital",
-      "title": "Conheça o papamóvel que Leão XIV vai usar em sua visita ao Peru",
-      "summary": "O papamóvel de Leão XIV para sua visita ao Peru é apresentado e abençoado. A General Motors adaptou dois veículos em 24 dias para facilitar a proximidade com os fiéis.",
-      "url": "https://www.acidigital.com/noticia/70745/conheca-o-papamovel-que-leao-xiv-vai-usar-em-sua-visita-ao-peru",
-      "published": "2026-11-05"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Arcebispo emérito de Olinda e Recife é nomeado administrador apostólico de mosteiro beneditino",
-      "summary": "O arcebispo emérito de Olinda e Recife (PE), dom Antônio Fernando Saburido, foi nomeado prior administrador apostólico do Mosteiro de São Bento de Olinda pela Santa Sé. A nomeação foi feita por decreto do Dicastério para os Institutos de.",
-      "url": "https://www.acidigital.com/noticia/70777/arcebispo-emerito-de-olinda-e-recife-e-nomeado-administrador-apostolico-de-mosteiro-beneditino",
-      "published": "2026-11-06"
-    },
-    {
-      "source": "Gaudium Press",
-      "title": "Papa no avião: “Nunca duvidei de que faria esta viagem; esta é a minha missão”",
-      "summary": "Durante o voo entre Roma e Montevidéu, o Papa Leão XIV cumprimentou os 82 jornalistas que o acompanham na viagem apostólica. Ele afirmou que estava ciente das dúvidas levantadas sobre a realização da viagem, mas garantiu que, de sua.",
-      "url": "https://gaudiumpress.org/content/papa-no-aviao-nunca-duvidei-de-que-faria-esta-viagem-esta-e-a-minha-missao/",
+      "title": "é dia do beato Francisco Palau, pregador das missões populares",
+      "summary": "A Igreja católica recorda hoje (7) o beato Francisco Palau y Quer, padre e frade carmelita descalço, nascido em Aitona, Lérida, Espanha, em 29 de dezembro de 1811.",
+      "url": "https://www.acidigital.com/noticia/56647/hoje-e-dia-do-beato-francisco-palau-pregador-das-missoes-populares",
       "published": "2026-11-07"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Alzheimer em casa: cuidar com paciência, amor e fé",
+      "summary": "Você está na casa de seus pais e, de repente, sua mãe sai do quarto e não sabe onde está nem quem você é. Esta é uma das cenas que muitas famílias enfrentam quando o Alzheimer chega a um de seus entes queridos. A doença é.",
+      "url": "https://pt.aleteia.org/2026/11/06/alzheimer-em-casa-cuidar-com-paciencia-amor-e-fe/",
+      "published": "2026-11-06"
     }
   ],
   "closingQuote": {
-    "text": "Se vós não sois fiéis no uso do dinheiro injusto, quem vos confiará o verdadeiro bem?",
-    "source": "Lucas 16,9-15"
+    "text": "O noivo está chegando. Ide ao seu encontro.",
+    "source": "Mateus 25,1-13"
   },
   "liturgyHours": {
-    "reading": "Fazei tudo sem reclamar ou murmurar, para que sejais livres de repreensão e ambiguidade, filhos de Deus sem defeito, no meio desta geração depravada e pervertida, na qual brilhais como os astros no universo.",
+    "reading": "Lembra-te de Jesus Cristo, da descendência de Davi, ressuscitado dentre os mortos. Merece fé esta palavra: se com ele morremos, com ele viveremos. Se com ele ficamos firmes, com ele reinaremos. Se nós o negamos, também ele nos negará. Se lhe somos...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
