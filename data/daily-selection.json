@@ -1,34 +1,34 @@
 {
-  "date": "2026-11-08",
-  "editionLabel": "8 de novembro de 2026",
+  "date": "2026-11-09",
+  "editionLabel": "9 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "festa",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XXXII do Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Mt 25,1-13"
+    "celebrationTitle": "Dedicação da Basílica de Latrão",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Jo 2, 13-22"
   },
   "saint": {
-    "feast": "\udfe2 Domingo XXXII do Tempo Comum",
-    "name": "São Deodato I, o pontífice que guiou os cristãos em épocas difíceis",
-    "description": "Celebração litúrgica do dia: Domingo XXXII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-deodato-i-o-pontifice-que-guiou-os-cristaos-em-epocas-dificeis/"
+    "feast": "Dedicação da Basílica de Latrão",
+    "name": "Dedicação da Basílica de Latrão, a Mãe de todas as Igrejas",
+    "description": "Celebração litúrgica do dia: Dedicação da Basílica de Latrão.",
+    "url": "https://santo.cancaonova.com/santo/dedicacao-da-basilica-de-latrao/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 25,1-13)",
+    "ref": "Evangelho de Jesus Cristo segundo João (Jo 2, 13-22)",
     "lines": [
-      "Naquele tempo, disse Jesus a seus discípulos esta parábola: O Reino dos Céus é como a história das dez jovens que pegaram suas lâmpadas de óleo e saíram ao encontro do noivo.",
-      "Cinco delas eram imprevidentes, e as outras cinco eram previdentes.",
-      "As imprevidentes pegaram as suas lâmpadas, mas não levaram óleo consigo.",
-      "As previdentes, porém, levaram vasilhas com óleo junto com as lâmpadas.",
-      "O noivo estava demorando, e todas elas acabaram cochilando e dormindo.",
-      "No meio da noite, ouviu-se um grito: O noivo está chegando.",
-      "Ide ao seu encontro! Então as dez jovens se levantaram e prepararam as lâmpadas."
+      "Estava próxima a Páscoa dos judeus e Jesus subiu a Jerusalém.",
+      "No Templo, encontrou os vendedores de bois, ovelhas e pombas e os cambistas que estavam aí sentados.",
+      "Fez então um chicote de cordas e expulsou todos do Templo, junto com as ovelhas e os bois; espalhou as moedas e derrubou as mesas dos cambistas.",
+      "E disse aos que vendiam pombas: Tirai isto daqui!",
+      "Não façais da casa de meu Pai uma casa de comércio! Seus discípulos lembraram-se, mais tarde, que a Escritura diz: O zelo por tua casa me consumirá.",
+      "Então os judeus perguntaram a Jesus: Que sinal nos mostras para agir assim? Ele respondeu: Destruí, este Templo, e em três dias o levantarei.",
+      "Os judeus disseram: Quarenta e seis anos foram precisos para a construção deste santuário e tu o levantarás em três dias? Mas Jesus estava falando do Templo do seu corpo."
     ],
-    "body": "Naquele tempo, disse Jesus a seus discípulos esta parábola: 1 \"O Reino dos Céus é como a história das dez jovens que pegaram suas lâmpadas de óleo e saíram ao encontro do noivo. 2 Cinco delas eram imprevidentes, e as outras cinco eram previdentes. 3 As imprevidentes pegaram as suas lâmpadas, mas não levaram óleo consigo. 4 As previdentes, porém, levaram vasilhas com óleo junto com as lâmpadas. 5 O noivo estava demorando, e todas elas acabaram cochilando e dormindo. 6 No meio da noite, ouviu-se um grito: 'O noivo está chegando. Ide ao seu encontro!' 7 Então as dez jovens se levantaram e prepararam as lâmpadas. 8 As imprevidentes disseram às previdentes: 'Dai-nos um pouco de óleo, porque nossas lâmpadas estão se apagando'. 9 As previdentes responderam: 'De modo nenhum, porque o óleo pode ser insuficiente para nós e para vós. &Eacute; melhor irdes comprar dos vendedores'. 10 Enquanto elas foram comprar óleo, o noivo chegou, e as que estavam preparadas entraram com ele para a festa de casamento. E a porta se fechou. 11 Por fim, chegaram também as outras jovens e disseram: 'Senhor! Senhor! Abre-nos a porta!' 12 Ele, porém, respondeu: 'Em verdade eu vos digo: Não vos conheço!' 13 Portanto, ficai vigiando, pois não sabeis qual será o dia, nem a hora\". —",
-    "keyVerse": "&Eacute; preciso vigiar e ficar de prontidão; em que dia o Senhor há de vir, não sabeis não!"
+    "body": "13 Estava próxima a Páscoa dos judeus e Jesus subiu a Jerusalém. 14 No Templo, encontrou os vendedores de bois, ovelhas e pombas e os cambistas que estavam aí sentados. 15 Fez então um chicote de cordas e expulsou todos do Templo, junto com as ovelhas e os bois; espalhou as moedas e derrubou as mesas dos cambistas. 16 E disse aos que vendiam pombas: \"Tirai isto daqui! Não façais da casa de meu Pai uma casa de comércio!\" 17 Seus discípulos lembraram-se, mais tarde, que a Escritura diz: \"O zelo por tua casa me consumirá\". 18 Então os judeus perguntaram a Jesus: \"Que sinal nos mostras para agir assim?\" 19 Ele respondeu: \"Destruí, este Templo, e em três dias o levantarei\". 20 Os judeus disseram: \"Quarenta e seis anos foram precisos para a construção deste santuário e tu o levantarás em três dias?\" 21 Mas Jesus estava falando do Templo do seu corpo. 22 Quando Jesus ressuscitou, os discípulos lembraram-se do que ele tinha dito e acreditaram na Escritura e na palavra dele. —",
+    "keyVerse": ""
   },
   "sponsor": {
     "enabled": true,
@@ -39,38 +39,52 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "O pesar de Leão XIV pelas vítimas do atentado em Cracóvia",
-      "summary": "Em um telegrama assinado pelo cardeal secretário de Estado, Pietro Parolin, o Papa expressa sua proximidade espiritual a todos os atingidos pela tragédia ocorrida na cidade polonesa, que deixou seis mortos e cerca de 15 feridos. O.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/pesar-de-leao-xiv-pelas-vitimas-do-atentado-em-cracovia.html",
-      "published": "2026-11-08"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-11-09"
     },
     {
       "source": "Vatican News",
-      "title": "Papa aos cristãos uruguaios: não se cansem de transmitir a fé",
-      "summary": "Leão XIV celebrou a missa no Santuário Nacional da Virgem dos Trinta e Três. \"Nesta festa da Padroeira do Uruguai, apresentemos ao Senhor todo este povo. Que a Rainha do Céu ampare aqueles que continuam semeando a fé e nos ensine a.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-homilia-missa-santuario-virgem-trinta-tres-uruguai-maria.html",
-      "published": "2026-11-08"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-11-09"
     },
     {
       "source": "CNBB",
-      "title": "Comissão Sociotransformadora da CNBB disponibiliza material de apoio para a Jornada Mundial dos",
-      "summary": "A Igreja Católica no Brasil celebra, de 8 a 15 de novembro, a X Jornada Mundial dos Pobres (10ª JMP), que traz o lema bíblico “O Senhor é o refúgio do pobre” (cf. Sl 14, 6) e o chamado mobilizador “Minha comunidade eclesial transforma o.",
-      "url": "https://www.cnbb.org.br/jmj-2026-tem-o-lema-a-igreja-catolica-no-brasil-celebra-de-08-a-15-de-novembro-a-x-jornada-mundial-dos-pobres-10a-jmp-que-traz-o-lema-biblico-o-senhor-e-o-refugio-do-pobre-cf/",
-      "published": "2026-11-06"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-11-09"
     },
     {
       "source": "ACI Digital",
-      "title": "Leão XIV deixa uma tarefa aos uruguaios: voltar a evangelizar o país.",
-      "summary": "O Uruguai é um dos países mais secularizados da América Latina, onde a maioria da população não professa nenhuma religião organizada e 28% se identificam como ateus ou agnósticos.",
-      "url": "https://www.acidigital.com/noticia/70813/leao-xiv-deixa-uma-tarefa-aos-uruguaios-voltar-a-evangelizar-o-pais",
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-11-09"
+    },
+    {
+      "source": "Shalom",
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-11-09"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Uruguai: Leão XIV convida fiéis a “trabalharem juntos” no combate à pobreza.",
+      "summary": "“Construir pontes, derrubar muros e promover encontros” é o papel primordial da Igreja ao vivenciar sua missão em comunidades operárias, afirmou Leão XIV durante sua visita à paróquia de Nossa Senhora de Guadalupe, em Montevidéu, em 7 de.",
+      "url": "https://pt.aleteia.org/2026/11/08/montevideu-leao-xiv-convida-fieis-a-trabalharem-juntas-no-combate-a-pobreza/",
       "published": "2026-11-08"
     },
     {
-      "source": "ACI Digital",
-      "title": "Papamóvel que Leão XIV vai usar no Peru foi feito no Brasil",
-      "summary": "A primeira viagem do papa Leão XIV à América Latina vai ter “um toque brasileiro”. A empresa Engesig, de Mogi das Cruzes (SP), dedicada à adaptação de veículos, construiu o papamóvel que Leão XIV vai usar no Peru. “Para ser bem honesto com você, nunca imaginei [que receberia essa encomenda], porque, até onde a gente sabe, o papamóvel nunca foi desenvolvido aqui no país”, disse à ACI Digital o gerente industrial da Engesig, Enzo Bolletta Neto....",
-      "url": "https://www.acidigital.com/noticia/70773/papamovel-que-leao-xiv-vai-usar-no-peru-foi-feito-no-brasil",
-      "published": "2026-11-06"
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-11-09"
     },
     {
       "source": "Gaudium Press",
@@ -81,11 +95,11 @@
     }
   ],
   "closingQuote": {
-    "text": "O noivo está chegando. Ide ao seu encontro.",
-    "source": "Mateus 25,1-13"
+    "text": "Jesus estava falando do Templo do seu corpo.",
+    "source": "João 2,13-22"
   },
   "liturgyHours": {
-    "reading": "Lembra-te de Jesus Cristo, da descendência de Davi, ressuscitado dentre os mortos. Merece fé esta palavra: se com ele morremos, com ele viveremos. Se com ele ficamos firmes, com ele reinaremos. Se nós o negamos, também ele nos negará. Se lhe somos...",
+    "reading": "Eu os conduzirei ao meu santo monte e os alegrarei em minha casa de oração; aceitarei com agrado em meu altar seus holocaustos e vítimas, pois minha casa será chamada casa de oração para todos os povos.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
