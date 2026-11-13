@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-12",
-  "editionLabel": "12 de novembro de 2026",
+  "date": "2026-11-13",
+  "editionLabel": "13 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "São Josafá, bispo e mártir",
-    "colorName": "vermelho",
-    "cssColor": "#C62828",
-    "gospelShort": "Lc 17,20-25"
+    "celebrationTitle": "Sexta-Feira da Semana XXXII do Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 17,26-37"
   },
   "saint": {
-    "feast": "\udd34 [M] São Josafá\\, bispo e mártir",
-    "name": "São Josafá, o incessante zelo ao seu povo à unidade católica",
-    "description": "Celebração litúrgica do dia: São Josafá, bispo e mártir.",
-    "url": "https://santo.cancaonova.com/santo/sao-josafa-o-incessante-zelo-ao-seu-povo-a-unidade-catolica/"
+    "feast": "\udfe2 Sexta-Feira da Semana XXXII do Tempo Comum",
+    "name": "Santo Abão de Fluery, um Abade acadêmico",
+    "description": "Celebração litúrgica do dia: Sexta-Feira da Semana XXXII do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/santo-abao-de-fluery-um-abade-academico/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 17,20-25)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 17,26-37)",
     "lines": [
-      "Naquele tempo, os fariseus perguntaram a Jesus sobre o momento em que chegaria o Reino de Deus.",
-      "Jesus respondeu: O Reino de Deus não vem ostensivamente.",
-      "Nem se poderá dizer: Está aqui ou Está ali, porque o Reino de Deus está entre vós.",
-      "E Jesus disse aos discípulos: Dias virão em que desejareis ver um só dia do Filho do Homem e não podereis ver.",
-      "As pessoas vos dirão: Ele está ali ou Ele está aqui.",
-      "Não deveis ir, nem correr atrás.",
-      "Pois, como o relâmpago brilha de um lado até ao outro do céu, assim também será o Filho do Homem, no seu dia."
+      "Naquele tempo, disse Jesus aos seus discípulos: Como aconteceu nos dias de Noé, assim também acontecerá nos dias do Filho do Homem.",
+      "Eles comiam, bebiam, casavam-se e se davam em casamento, até ao dia em que Noé entrou na arca.",
+      "Então chegou o dilúvio e fez morrer todos eles.",
+      "Acontecerá como nos dias de Ló: comiam e bebiam, compravam e vendiam, plantavam e construíam.",
+      "Mas no dia em que Ló saiu de Sodoma, Deus fez chover fogo e enxofre do céu e fez morrer todos.",
+      "O mesmo acontecerá no dia em que o Filho do Homem for revelado.",
+      "Nesse dia, quem estiver no terraço, não desça para apanhar os bens que estão em sua casa."
     ],
-    "body": "Naquele tempo, 20 os fariseus perguntaram a Jesus sobre o momento em que chegaria o Reino de Deus. Jesus respondeu: \"O Reino de Deus não vem ostensivamente. 21 Nem se poderá dizer: 'Está aqui' ou 'Está ali', porque o Reino de Deus está entre vós\". 22 E Jesus disse aos discípulos: \"Dias virão em que desejareis ver um só dia do Filho do Homem e não podereis ver. 23 As pessoas vos dirão: 'Ele está ali' ou 'Ele está aqui'. Não deveis ir, nem correr atrás. 24 Pois, como o relâmpago brilha de um lado até ao outro do céu, assim também será o Filho do Homem, no seu dia. 25 Antes, porém, ele deverá sofrer muito e ser rejeitado por esta geração\". —",
+    "body": "Naquele tempo, disse Jesus aos seus discípulos: 26 \"Como aconteceu nos dias de Noé, assim também acontecerá nos dias do Filho do Homem. 27 Eles comiam, bebiam, casavam-se e se davam em casamento, até ao dia em que Noé entrou na arca. Então chegou o dilúvio e fez morrer todos eles. 28 Acontecerá como nos dias de Ló: comiam e bebiam, compravam e vendiam, plantavam e construíam. 29 Mas no dia em que Ló saiu de Sodoma, Deus fez chover fogo e enxofre do céu e fez morrer todos. 30 O mesmo acontecerá no dia em que o Filho do Homem for revelado. 31 Nesse dia, quem estiver no terraço, não desça para apanhar os bens que estão em sua casa. E quem estiver nos campos não volte para trás. 32 Lembrai-vos da mulher de Ló. 33 Quem procura ganhar a sua vida, vai perdê-la; e quem a perde, vai conservá-la. 34 Eu vos digo: nessa noite, dois estarão numa cama; um será tomado e o outro será deixado. 35 Duas mulheres estarão moendo juntas; uma será tomada e a outra será deixada. 36 Dois homens estarão no campo; um será levado e o outro será deixado\". 37 Os discípulos perguntaram: \"Senhor, onde acontecerá isso?\" Jesus respondeu: \"Onde estiver o cadáver, aí se reunirão os abutres\". —",
     "keyVerse": ""
   },
   "sponsor": {
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa: a paz depende de nós, \"aqui e agora\", pelo olhar, respeito e escuta ao próximo",
-      "summary": "Leão encontra a Vida Consagrada e os leigos do Peru e dá indicações de como ser Igreja e construir \"a civilização do amor, verdadeiramente alicerçada no bem comum\". Da íntima relação com Deus, à busca pela unidade e reconciliação,.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-viagem-apostolica-peru-hora-media-catedral-lima-26.html",
-      "published": "2026-11-12"
+      "title": "Leão XIV aos jovens peruanos: quando sofrerdes, recorrei a Jesus",
+      "summary": "Queridos jovens, quando sofrerdes, recorrei a Jesus. Não tenhais medo de lhe falar com sinceridade, mesmo quando vos custe encontrar palavras para rezar. Ele conhece as nossas lágrimas e as perguntas que ainda não sabemos responder.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/leao-xiv-viagem-apostolica-peru-vigilia-jovens-e-estudantes-lima.html",
+      "published": "2026-11-13"
     },
     {
       "source": "Vatican News",
-      "title": "Papa aos bispos do Peru: a Igreja não nos pertence, é de Cristo",
-      "summary": "Em encontro em Lima, Leão XIV recorda o exemplo dos santos peruanos, pede respostas firmes aos abusos e convida o episcopado a caminhar unido e próximo do povo. Leia tudo.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-aos-bispos-do-peru-igreja-de-cristo-abusos-unidade.html",
+      "title": "Leão XIV em Lima: reencontro pastoral e o apelo à juventude",
+      "summary": "O ponto alto da noite desta quinta-feira (12/11), ocorreu no Estádio Nacional de Lima, onde milhares de jovens peruanos e estrangeiros se reuniram para uma vigília de oração e festa. Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/leao-xiv-lima-reencontro-pastoral-apelo-juventude.html",
       "published": "2026-11-12"
     },
     {
       "source": "CNBB",
-      "title": "3º Encontro de Padres em Missão Digital avança na comunhão e no desenho de iniciativas comuns e",
-      "summary": "O secretário-geral da CNBB propôs aos comunicadores o caminho das três conversões apontadas pelo Sínodo sobre a Sinodalidade e a comunhão com as Diretrizes Gerais da Ação Evangelizadora da Igreja no Brasil aprovadas na 62ª Assembleia.",
-      "url": "https://www.cnbb.org.br/3o-encontro-de-padres-em-missao-digital/",
-      "published": "2026-11-11"
+      "title": "Presidente da CNBB concede entrevista exclusiva à Rádio Vaticano sobre a viagem do Papa Leão à",
+      "summary": "A viagem do Papa Leão XIV ao Uruguai, à Argentina e ao Peru reafirma a vitalidade da fé na América Latina e seu potencial de solidariedade e renovação. Dom Jaime Spengler, presidente da CNBB e do Celam, destacou os desafios e as dimensões.",
+      "url": "https://www.cnbb.org.br/presidente-da-cnbb-concede-entrevista-exclusiva-a-radio-vaticano-sobre-a-viagem-do-papa-leao-a-america-latina/",
+      "published": "2026-11-12"
     },
     {
       "source": "CNBB",
-      "title": "A Laborem Exercens e a dimensão espiritual do trabalho",
-      "summary": "Dom João Santos Cardoso Arcebispo de Natal (RN) Publicada em 1981, a Encíclica Laborem Exercens, de São João Paulo II, apresenta uma profunda reflexão sobre o significado do trabalho humano. Mais do que uma atividade destinada à produção.",
-      "url": "https://www.cnbb.org.br/a-laborem-exercens-e-a-dimensao-espiritual-do-trabalho/",
+      "title": "Deus confia em nós! ganha destaque na Igreja",
+      "summary": "Dom Rodolfo Luís Weber Arcebispo de Passo Fundo (RS) A Palavra de Deus do penúltimo domingo do Ano Litúrgico (Provérbios 31; Salmo 127; 1 Tessalonicenses 5,1-6 e Mateus 25,14-30) convida à vigilância, à responsabilidade e a sermos.",
+      "url": "https://www.cnbb.org.br/deus-confia-em-nos-2/",
       "published": "2026-11-12"
     },
     {
       "source": "ACI Digital",
-      "title": "Mais de um milhão de pessoas foram ao encontro dos jovens com Leão XIV em Buenos Aires",
-      "summary": "Cerca de um milhão de pessoas participaram do encontro de Leão XIV com jovens em Buenos Aires, Argentina, marcado por testemunhos, confissões, música e oração.",
-      "url": "https://www.acidigital.com/noticia/70901/mais-de-um-milhao-de-pessoas-foram-ao-encontro-dos-jovens-com-leao-xiv-em-buenos-aires",
-      "published": "2026-11-11"
+      "title": "Leão XIV se reúne com seis vítimas de abusos no Peru",
+      "summary": "O papa Leão XIV se encontrou hoje (12) na Nunciatura Apostólica, com seis pessoas que sofreram abusos por parte de membros da Igreja Católica no Peru, manifestando-lhes sua proximidade depois de ouvir suas histórias de sofrimento e dor. A Sala de Imprensa da Santa Sé informou que o encontro começou pouco depois das 16h30 e durou mais de uma hora....",
+      "url": "https://www.acidigital.com/noticia/70935/leao-xiv-se-reune-com-seis-vitimas-de-abusos-no-peru",
+      "published": "2026-11-12"
     },
     {
       "source": "ACI Digital",
-      "title": "Andorra tem um bispo príncipe e está em jogo uma lei de aborto",
-      "summary": "As leis de Andorra levam a assinatura de um bispo. Agora, o governo quer uma que ele não concederá: o fim da prisão para mulheres que fazem aborto.",
-      "url": "https://www.acidigital.com/noticia/70929/andorra-tem-um-bispo-principe-e-esta-em-jogo-uma-lei-de-aborto",
+      "title": "CNBB apresenta suas diretrizes gerais de evangelização a padres com forte presença na internet",
+      "summary": "A Comissão Episcopal para a Comunicação da CNBB promoveu nos dias 10 e 11 de novembro o 3º Encontro de Padres em Missão Digital, em Brasília (DF).",
+      "url": "https://www.acidigital.com/noticia/70925/cnbb-apresenta-suas-diretrizes-gerais-de-evangelizacao-a-padres-com-forte-presenca-na-internet",
       "published": "2026-11-12"
     },
     {
       "source": "Aleteia",
-      "title": "O luto do que não vivemos: despedidas que acontecem enquanto estamos vivos",
-      "summary": "Existe um tipo de luto sobre o qual pouco falamos: o luto daquilo que não vivemos. É a dor de um relacionamento que não se transformou na família que sonhamos construir, de uma amizade que ficou pelo caminho, de uma oportunidade perdida.",
-      "url": "https://pt.aleteia.org/2026/11/12/o-luto-do-que-nao-vivemos-despedidas-que-acontecem-enquanto-estamos-vivos/",
-      "published": "2026-11-12"
+      "title": "Por que assinar um jornal é uma espécie de ato espiritual",
+      "summary": "Há algo de quase contracultural em assinar um jornal. Não porque o gesto seja dramático ou heróico — é, afinal de contas, uma das coisas mais silenciosas que uma pessoa pode fazer —, mas porque vai contra a corrente de como a internet já.",
+      "url": "https://pt.aleteia.org/2026/11/11/por-que-assinar-um-jornal-e-uma-especie-de-ato-espiritual/",
+      "published": "2026-11-11"
     }
   ],
   "closingQuote": {
-    "text": "O Reino de Deus está entre vós.",
-    "source": "Lucas 17,20-25"
+    "text": "O mesmo acontecerá no dia em que o Filho do Homem for revelado.",
+    "source": "Lucas 17,26-37"
   },
   "liturgyHours": {
-    "reading": "Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e Deus de toda consolação. Ele nos consola em todas as nossas aflições, para que, com a consolação que nós mesmos recebemos de Deus, possamos consolar os que se acham em...",
+    "reading": "Com Cristo, eu fui pregado na cruz. Eu vivo, mas não eu, é Cristo que vive em mim. Esta minha vida presente, na carne, eu a vivo na fé, crendo no Filho de Deus, que me amou e por mim se entregou.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
