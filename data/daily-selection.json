@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-13",
-  "editionLabel": "13 de novembro de 2026",
+  "date": "2026-11-14",
+  "editionLabel": "14 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Sexta-Feira da Semana XXXII do Tempo Comum",
+    "celebrationTitle": "Santa Maria no Sábado",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 17,26-37"
+    "gospelShort": "Lc 18,1-8"
   },
   "saint": {
-    "feast": "\udfe2 Sexta-Feira da Semana XXXII do Tempo Comum",
-    "name": "Santo Abão de Fluery, um Abade acadêmico",
-    "description": "Celebração litúrgica do dia: Sexta-Feira da Semana XXXII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santo-abao-de-fluery-um-abade-academico/"
+    "feast": "Santa Maria no Sábado",
+    "name": "São José Pignatelli, padre que deu exemplo de obediência à Sé Apostólica",
+    "description": "Celebração litúrgica do dia: Santa Maria no Sábado.",
+    "url": "https://santo.cancaonova.com/santo/sao-jose-pignatelli-padre-que-deu-exemplo-de-obediencia-a-se-apostolica/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 17,26-37)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 18,1-8)",
     "lines": [
-      "Naquele tempo, disse Jesus aos seus discípulos: Como aconteceu nos dias de Noé, assim também acontecerá nos dias do Filho do Homem.",
-      "Eles comiam, bebiam, casavam-se e se davam em casamento, até ao dia em que Noé entrou na arca.",
-      "Então chegou o dilúvio e fez morrer todos eles.",
-      "Acontecerá como nos dias de Ló: comiam e bebiam, compravam e vendiam, plantavam e construíam.",
-      "Mas no dia em que Ló saiu de Sodoma, Deus fez chover fogo e enxofre do céu e fez morrer todos.",
-      "O mesmo acontecerá no dia em que o Filho do Homem for revelado.",
-      "Nesse dia, quem estiver no terraço, não desça para apanhar os bens que estão em sua casa."
+      "Naquele tempo, Jesus contou aos discípulos uma parábola, para mostrar-lhes a necessidade de rezar sempre, e nunca desistir, dizendo: Numa cidade havia um juiz que não temia a Deus, e não respeitava homem algum.",
+      "Na mesma cidade havia uma viúva, que vinha à procura do juiz, pedindo: Faze-me justiça contra o meu adversário! Durante muito tempo, o juiz se recusou.",
+      "Por fim, ele pensou: Eu não temo a Deus, e não respeito homem algum.",
+      "Mas esta viúva já me está aborrecendo.",
+      "Vou fazer-lhe justiça, para que ela não venha a agredir-me!  E o Senhor acrescentou: Escutai o que diz este juiz injusto.",
+      "E Deus, não fará justiça aos seus escolhidos, que dia e noite gritam por ele?",
+      "Eu vos digo que Deus lhes fará justiça bem depressa."
     ],
-    "body": "Naquele tempo, disse Jesus aos seus discípulos: 26 \"Como aconteceu nos dias de Noé, assim também acontecerá nos dias do Filho do Homem. 27 Eles comiam, bebiam, casavam-se e se davam em casamento, até ao dia em que Noé entrou na arca. Então chegou o dilúvio e fez morrer todos eles. 28 Acontecerá como nos dias de Ló: comiam e bebiam, compravam e vendiam, plantavam e construíam. 29 Mas no dia em que Ló saiu de Sodoma, Deus fez chover fogo e enxofre do céu e fez morrer todos. 30 O mesmo acontecerá no dia em que o Filho do Homem for revelado. 31 Nesse dia, quem estiver no terraço, não desça para apanhar os bens que estão em sua casa. E quem estiver nos campos não volte para trás. 32 Lembrai-vos da mulher de Ló. 33 Quem procura ganhar a sua vida, vai perdê-la; e quem a perde, vai conservá-la. 34 Eu vos digo: nessa noite, dois estarão numa cama; um será tomado e o outro será deixado. 35 Duas mulheres estarão moendo juntas; uma será tomada e a outra será deixada. 36 Dois homens estarão no campo; um será levado e o outro será deixado\". 37 Os discípulos perguntaram: \"Senhor, onde acontecerá isso?\" Jesus respondeu: \"Onde estiver o cadáver, aí se reunirão os abutres\". —",
+    "body": "Naquele tempo, 1 Jesus contou aos discípulos uma parábola, para mostrar-lhes a necessidade de rezar sempre, e nunca desistir, dizendo: 2 \"Numa cidade havia um juiz que não temia a Deus, e não respeitava homem algum. 3 Na mesma cidade havia uma viúva, que vinha à procura do juiz, pedindo: 'Faze-me justiça contra o meu adversário!' 4 Durante muito tempo, o juiz se recusou. Por fim, ele pensou: 'Eu não temo a Deus, e não respeito homem algum. 5 Mas esta viúva já me está aborrecendo. Vou fazer-lhe justiça, para que ela não venha a agredir-me!' '' 6 E o Senhor acrescentou: \"Escutai o que diz este juiz injusto. 7 E Deus, não fará justiça aos seus escolhidos, que dia e noite gritam por ele? Será que vai fazê-los esperar? 8 Eu vos digo que Deus lhes fará justiça bem depressa. Mas o Filho do homem, quando vier, será que ainda vai encontrar fé sobre a terra?\" —",
     "keyVerse": ""
   },
   "sponsor": {
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "\"Papa peruano, aqui está o seu Vaticano!”: a explosão de alegria dos jovens em Lima",
-      "summary": "Sessenta mil jovens, além de outros 300 mil nas áreas circundantes, participaram nesta noite da vigília com Leão XIV no Estádio Nacional de Lima. Uma grande festa, com cantos, música, danças, testemunhos, apresentações cênicas, ondas nas.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/peru-lima-vigilia-jovens-estadio-nacional-viagem-papa-leao-xiv.html",
+      "title": "Papa: \"Que alegria voltar a Chiclayo!\". A tarefa do anúncio é crucial",
+      "summary": "Na histórica missa junto à comunidade da \"sua querida Chiclayo\", Leão XIV deu indicações de como levar adiante a missão de evangelizar, mesmo em pleno século XXI, convocando todos a \"assumir o compromisso de partilhar a esperança viva que.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-viagem-apostolica-peru-chiclayo-missa-1311-2026.html",
       "published": "2026-11-13"
     },
     {
       "source": "Vatican News",
-      "title": "Leão XIV, a missão, a fraternidade agostiniana e a ligação com o povo peruano",
-      "summary": "Em entrevista à Agência Fides, o vigário-geral da Ordem de Santo Agostinho, padre Alexander Lam, recorda a convivência com Robert Prevost, sua experiência missionária e episcopal no país e as marcas deixadas pelo povo peruano no atual.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/leao-xiv-peru-missao-fraternidade-agostiniana.html",
+      "title": "María, mãe de Agustín: a fé, força para enfrentar a doença. O Papa é uma graça",
+      "summary": "\"Obrigado pela sua fidelidade\", disse Leão XIV à professora da Universidade Católica Santo Turibio de Mogrovejo, em Chiclayo, após ouvir o seu testemunho de mãe de um filho gravemente doente: \"É uma bênção\". À mídia vaticana, a docente.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/maria-agustin-fe-forca-para-enfrentar-doenca-papa.html",
       "published": "2026-11-13"
     },
     {
       "source": "CNBB",
-      "title": "Encontro de formação da Pastoral Familiar aprofunda missão de anunciar a vocação e acompanhar a",
-      "summary": "Com o tema “Família, torna-te aquilo que és: do anúncio da vocação ao acompanhamento das famílias”, a Comissão Nacional da Pastoral Familiar (CNPF) realizou a edição deste ano do Encontro Nacional de Formação da Pastoral Familiar. O.",
-      "url": "https://www.cnbb.org.br/encontro-formacao-pastoral-familiar-missao-anunciar-vocacao-e-acompanhar-as-familias/",
+      "title": "retransmite, dia 15/11, às 17h, a celebração de encerramento do Ano Jubilar da Igreja Primacial",
+      "summary": "O Ano Jubilar Arquidiocesano celebra dois marcos históricos: os 475 anos de criação do Bispado de São Salvador da Bahia, em 1551, e os 350 anos de sua elevação à condição de Arquidiocese, em 1676. Primeira diocese do Brasil, a Igreja de.",
+      "url": "https://www.cnbb.org.br/celebracao-de-encerramento-do-ano-jubilar-da-igreja-igreja-primacial-do-brasil/",
       "published": "2026-11-13"
     },
     {
       "source": "CNBB",
-      "title": "Comissão para a Liturgia da CNBB disponibiliza subsídio com orientações e sugestões de cantos p",
-      "summary": "Material elaborado pelo Setor Música Litúrgica reúne reflexões sobre a espiritualidade do Advento, leituras bíblicas e sugestões de repertório para auxiliar comunidades na preparação das celebrações do Ciclo do Natal. A publicação reúne.",
-      "url": "https://www.cnbb.org.br/comissao-para-a-liturgia-da-cnbb-disponibiliza-subsidio-com-orientacoes-e-sugestoes-de-cantos-para-o-advento/",
+      "title": "Regional Nordeste 2 reúne advogados, contadores e ecônomos em encontro de gestão eclesial",
+      "summary": "Advogados, contadores e ecônomos das 21 dioceses dos estados de Alagoas, Paraíba, Pernambuco e Rio Grande do Norte participaram do Encontro Regional de Gestão Eclesial promovido pelo Regional Nordeste 2 da Conferência Nacional dos Bispos.",
+      "url": "https://www.cnbb.org.br/regional-nordeste-2-reune-advogados-contadores-e-economos-em-encontro-de-gestao-eclesial/",
       "published": "2026-11-13"
     },
     {
       "source": "ACI Digital",
-      "title": "Abuso sexual é crime, não questão disciplinar , dizem católicas em Gana e exigem responsabiliza",
-      "summary": "O Conselho Arquidiocesano de Mulheres Católicas de Accra pediu investigações imediatas sobre abuso sexual infantil e responsabilização legal dos perpetradores, pedindo uma maior proteção para as crianças.",
-      "url": "https://www.acidigital.com/noticia/70947/abuso-sexual-e-crime-nao-questao-disciplinar-dizem-catolicas-em-gana-e-exigem-responsabilizacao",
+      "title": "Freira que fez missões com Leão XIV recorda suas visitas a cavalo pela serra de Lambayeque",
+      "summary": "A Madre María Bernardette, que participou de missões com Robert Prevost em Cañaris, recorda suas viagens a cavalo e sua proximidade com as comunidades mais remotas de Lambayeque.",
+      "url": "https://www.acidigital.com/noticia/70961/freira-que-fez-missoes-com-leao-xiv-recorda-suas-visitas-a-cavalo-pela-serra-de-lambayeque",
       "published": "2026-11-13"
     },
     {
       "source": "ACI Digital",
-      "title": "Arquidiocese do Rio de Janeiro celebra jubileu com programação na catedral e na antiga Sé",
-      "summary": "A arquidiocese do Rio de Janeiro celebra grande jubileu arquidiocesano, de 450 anos da criação da prelazia do Rio de Janeiro, 350 anos de sua elevação à diocese e 50 anos da catedral metropolitana e da paróquia Nossa Senhora do Carmo da.",
-      "url": "https://www.acidigital.com/noticia/70949/arquidiocese-do-rio-de-janeiro-celebra-jubileu-com-programacao-na-catedral-e-na-antiga-se",
-      "published": "2026-11-13"
+      "title": "é dia de são José Pignatelli, restaurador dos jesuítas",
+      "summary": "Hoje (14) é dia de são José María Pignatelli, jesuíta nascido em Zaragoza, Espanha, em 1737. De família italiana, era filho de Antonio Pignatelli de Aragão, príncipe do Sacro Império Romano Germânico. Entrou para a Companhia de Jesus e se dedicou inicialmente à catequese de crianças e presos....",
+      "url": "https://www.acidigital.com/noticia/53737/hoje-e-dia-de-sao-jose-pignatelli-restaurador-dos-jesuitas",
+      "published": "2026-11-14"
     },
     {
       "source": "Aleteia",
-      "title": "Quando a inspiração de São Maximiliano Kolbe chegou ao Brasil através de um franciscano",
-      "summary": "Em outubro de 1917, em Roma, um jovem franciscano polonês, São Maximiliano Maria Kolbe, reuniu-se com alguns confrades para dar vida a uma iniciativa que nascia de um grande desejo: conquistar o mundo inteiro para Cristo por meio da.",
-      "url": "https://pt.aleteia.org/2026/11/13/quando-a-inspiracao-de-sao-maximiliano-kolbe-chegou-ao-brasil-atraves-de-um-franciscano/",
-      "published": "2026-11-13"
+      "title": "O luto do que não vivemos: despedidas que acontecem enquanto estamos vivos",
+      "summary": "Existe um tipo de luto sobre o qual pouco falamos: o luto daquilo que não vivemos. É a dor de um relacionamento que não se transformou na família que sonhamos construir, de uma amizade que ficou pelo caminho, de uma oportunidade perdida.",
+      "url": "https://pt.aleteia.org/2026/11/12/o-luto-do-que-nao-vivemos-despedidas-que-acontecem-enquanto-estamos-vivos/",
+      "published": "2026-11-12"
     }
   ],
   "closingQuote": {
-    "text": "O mesmo acontecerá no dia em que o Filho do Homem for revelado.",
-    "source": "Lucas 17,26-37"
+    "text": "Deus fará justiça aos seus escolhidos, dia e noite gritam por ele.",
+    "source": "Lucas 18,1-8"
   },
   "liturgyHours": {
-    "reading": "Com Cristo, eu fui pregado na cruz. Eu vivo, mas não eu, é Cristo que vive em mim. Esta minha vida presente, na carne, eu a vivo na fé, crendo no Filho de Deus, que me amou e por mim se entregou.",
+    "reading": "O que nós esperamos, de acordo com a sua promessa, são novos céus e uma nova terra, onde habitará a justiça. Caríssimos, vivendo nessa esperança, esforçai-vos para que ele vos encontre numa vida pura e sem mancha e em paz. Considerai também como...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
