@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-14",
-  "editionLabel": "14 de novembro de 2026",
+  "date": "2026-11-15",
+  "editionLabel": "15 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santa Maria no Sábado",
+    "celebrationTitle": "Domingo XXXIII do Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 18,1-8"
+    "gospelShort": "Mt 25,14-30 "
   },
   "saint": {
-    "feast": "Santa Maria no Sábado",
-    "name": "São José Pignatelli, padre que deu exemplo de obediência à Sé Apostólica",
-    "description": "Celebração litúrgica do dia: Santa Maria no Sábado.",
-    "url": "https://santo.cancaonova.com/santo/sao-jose-pignatelli-padre-que-deu-exemplo-de-obediencia-a-se-apostolica/"
+    "feast": "\udfe2 Domingo XXXIII do Tempo Comum",
+    "name": "Santo Alberto Magno, mestre de Tomás de Aquino",
+    "description": "Celebração litúrgica do dia: Domingo XXXIII do Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/santo-alberto-magno-mestre-de-tomas-de-aquino/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 18,1-8)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 25,14-30 )",
     "lines": [
-      "Naquele tempo, Jesus contou aos discípulos uma parábola, para mostrar-lhes a necessidade de rezar sempre, e nunca desistir, dizendo: Numa cidade havia um juiz que não temia a Deus, e não respeitava homem algum.",
-      "Na mesma cidade havia uma viúva, que vinha à procura do juiz, pedindo: Faze-me justiça contra o meu adversário! Durante muito tempo, o juiz se recusou.",
-      "Por fim, ele pensou: Eu não temo a Deus, e não respeito homem algum.",
-      "Mas esta viúva já me está aborrecendo.",
-      "Vou fazer-lhe justiça, para que ela não venha a agredir-me!  E o Senhor acrescentou: Escutai o que diz este juiz injusto.",
-      "E Deus, não fará justiça aos seus escolhidos, que dia e noite gritam por ele?",
-      "Eu vos digo que Deus lhes fará justiça bem depressa."
+      "Naquele tempo, Jesus contou esta parábola a seus discípulos: Um homem ia viajar para o estrangeiro.",
+      "Chamou seus empregados e lhes entregou seus bens.",
+      "A um deu cinco talentos, a outro deu dois e ao terceiro, um; a cada qual de acordo com a sua capacidade.",
+      "O empregado que havia recebido cinco talentos saiu logo, trabalhou com eles, e lucrou outros cinco.",
+      "Do mesmo modo, o que havia recebido dois lucrou outros dois.",
+      "Mas aquele que havia recebido um só, saiu, cavou um buraco na terra, e escondeu o dinheiro do seu patrão.",
+      "Depois de muito tempo, o patrão voltou e foi acertar contas com os empregados."
     ],
-    "body": "Naquele tempo, 1 Jesus contou aos discípulos uma parábola, para mostrar-lhes a necessidade de rezar sempre, e nunca desistir, dizendo: 2 \"Numa cidade havia um juiz que não temia a Deus, e não respeitava homem algum. 3 Na mesma cidade havia uma viúva, que vinha à procura do juiz, pedindo: 'Faze-me justiça contra o meu adversário!' 4 Durante muito tempo, o juiz se recusou. Por fim, ele pensou: 'Eu não temo a Deus, e não respeito homem algum. 5 Mas esta viúva já me está aborrecendo. Vou fazer-lhe justiça, para que ela não venha a agredir-me!' '' 6 E o Senhor acrescentou: \"Escutai o que diz este juiz injusto. 7 E Deus, não fará justiça aos seus escolhidos, que dia e noite gritam por ele? Será que vai fazê-los esperar? 8 Eu vos digo que Deus lhes fará justiça bem depressa. Mas o Filho do homem, quando vier, será que ainda vai encontrar fé sobre a terra?\" —",
+    "body": "Naquele tempo, Jesus contou esta parábola a seus discípulos: 14 \"Um homem ia viajar para o estrangeiro. Chamou seus empregados e lhes entregou seus bens. 15 A um deu cinco talentos, a outro deu dois e ao terceiro, um; a cada qual de acordo com a sua capacidade. Em seguida viajou. 16 O empregado que havia recebido cinco talentos saiu logo, trabalhou com eles, e lucrou outros cinco. 17 Do mesmo modo, o que havia recebido dois lucrou outros dois. 18 Mas aquele que havia recebido um só, saiu, cavou um buraco na terra, e escondeu o dinheiro do seu patrão. 19 Depois de muito tempo, o patrão voltou e foi acertar contas com os empregados. 20 O empregado que havia recebido cinco talentos entregou-lhe mais cinco, dizendo: 'Senhor, tu me entregaste cinco talentos. Aqui estão mais cinco que lucrei'. 21 O patrão lhe disse: 'Muito bem, servo bom e fiel! como foste fiel na administração de tão pouco, eu te confiarei muito mais. Vem participar da minha alegria!' 22 Chegou também o que havia recebido dois talentos, e disse: 'Senhor, tu me entregaste dois talentos. Aqui estão mais dois que lucrei'. 23 O patrão lhe disse: 'Muito bem, servo bom e fiel! Como foste fiel na administração de tão pouco, eu te confiarei muito mais. Vem participar da minha alegria!' 24 Por fim, chegou aquele que havia recebido um talento, e disse: 'Senhor, sei que és um homem severo, pois colhes onde não plantaste e ceifas onde não semeaste. 25 Por isso, fiquei com medo e escondi o teu talento no chão. Aqui tens o que te pertence'. 26 O patrão lhe respondeu: 'Servo mau e preguiçoso! Tu sabias que eu colho onde não plantei e que ceifo onde não semeei? 27 Então, devias ter depositado meu dinheiro no banco, para que, ao voltar, eu recebesse com juros o que me pertence'. 28 Em seguida, o patrão ordenou: 'Tirai dele o talento e dai-o àquele que tem dez! 29 Porque a todo aquele que tem será dado mais, e terá em abundância, mas daquele que não tem, até o que tem lhe será tirado. 30 Quanto a este servo inútil, jogai-o lá fora, na escuridão. Aí haverá choro e ranger de dentes!'\". —",
     "keyVerse": ""
   },
   "sponsor": {
@@ -39,60 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "\"Papa peruano, aqui está o seu Vaticano!”: a explosão de alegria dos jovens em Lima",
-      "summary": "Sessenta mil jovens, além de outros 300 mil nas áreas circundantes, participaram nesta noite da vigília com Leão XIV no Estádio Nacional de Lima. Uma grande festa, com cantos, música, danças, testemunhos, apresentações cênicas, ondas nas.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/peru-lima-vigilia-jovens-estadio-nacional-viagem-papa-leao-xiv.html",
-      "published": "2026-11-13"
+      "title": "Arcebispo Stanisław Sommertag é o novo núncio na Índia",
+      "summary": "Polonês e até então núncio apostólico no Senegal, na Guiné-Bissau, na Mauritânia e em Cabo Verde, o arcebispo iniciou seu serviço à Santa Sé em 19 de junho de 2000 e trabalhou em diversas representações pontifícias. Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-11/papa-leao-xiv-nomeacao-nuncio-apostolico-india-sommertag.html",
+      "published": "2026-11-14"
     },
     {
       "source": "Vatican News",
-      "title": "Papa: coroar o amor de Maria, da Mãe que une a família e orienta para a reconciliação",
-      "summary": "Leão XIV, no rito de coroação da Virgem Imaculada e diante de milhares de fiéis em Chiclayo, fez a sua homenagem de gratidão e amor filial a Nossa senhora. Com a sua intercessão, o Papa convidou a continuar caminhando \"como uma única.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-viagem-apostolica-peru-catedral-chiclayo-2026.html",
+      "title": "Hebdomada Papae, o boletim em latim do VN",
+      "summary": "As notícias do Vaticano em língua latina: na edição de hoje, em destaque: alguns momentos da viagem do Papa Leão XIV ao Uruguai, à Argentina e ao Peru. O programa semanal de notícias, realizado em colaboração com o Departamento de Cartas.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-11/hebdomada-papae-boletim-noticias-latim-vatican-news-14-novembro.html",
       "published": "2026-11-14"
     },
     {
       "source": "CNBB",
-      "title": "Comissão para a Liturgia da CNBB disponibiliza subsídio com orientações e sugestões de cantos p",
-      "summary": "Material elaborado pelo Setor Música Litúrgica reúne reflexões sobre a espiritualidade do Advento, leituras bíblicas e sugestões de repertório para auxiliar comunidades na preparação das celebrações do Ciclo do Natal. A publicação reúne.",
-      "url": "https://www.cnbb.org.br/comissao-para-a-liturgia-da-cnbb-disponibiliza-subsidio-com-orientacoes-e-sugestoes-de-cantos-para-o-advento/",
+      "title": "Viagem Apostólica: aos bispos do Peru, Papa Leão XIV recorda que a Igreja não nos pertence, é d",
+      "summary": "O momento do Papa Leão XIV com o episcopado peruano foi realizado ontem, na capela do Paço Arquiepiscopal. Na ocasião, recordou o exemplo dos santos peruanos, pediu respostas firmes aos abusos e convidou o episcopado a caminhar unido e.",
+      "url": "https://www.cnbb.org.br/viagem-apostolica-aos-bispos-do-peru-papa-leao-xiv-recorda-que-a-igreja-nao-nos-pertence-e-de-cristo/",
       "published": "2026-11-13"
     },
     {
       "source": "CNBB",
-      "title": "Seminário da Campanha da Fraternidade 2027 no Regional Sul 3 reúne 80 pessoas",
-      "summary": "Encontro realizado em Porto Alegre contou com apresentação teatral e momento de estudo do texto-base da Campanha da Fraternidade. Em grupos, participantes discutiram tópicos do documento e, ao final do seminário, partilharam as sínteses.",
-      "url": "https://www.cnbb.org.br/seminario-da-campanha-da-fraternidade-2027-no-regional-sul-3-reune-80-pessoas/",
+      "title": "Encontro de formação da Pastoral Familiar aprofunda missão de anunciar a vocação e acompanhar a",
+      "summary": "Com o tema “Família, torna-te aquilo que és: do anúncio da vocação ao acompanhamento das famílias”, a Comissão Nacional da Pastoral Familiar (CNPF) realizou a edição deste ano do Encontro Nacional de Formação da Pastoral Familiar. O.",
+      "url": "https://www.cnbb.org.br/encontro-formacao-pastoral-familiar-missao-anunciar-vocacao-e-acompanhar-as-familias/",
       "published": "2026-11-13"
     },
     {
       "source": "ACI Digital",
-      "title": "Abuso sexual é crime, não questão disciplinar , dizem católicas em Gana e exigem responsabiliza",
-      "summary": "O Conselho Arquidiocesano de Mulheres Católicas de Accra pediu investigações imediatas sobre abuso sexual infantil e responsabilização legal dos perpetradores, pedindo uma maior proteção para as crianças.",
-      "url": "https://www.acidigital.com/noticia/70947/abuso-sexual-e-crime-nao-questao-disciplinar-dizem-catolicas-em-gana-e-exigem-responsabilizacao",
-      "published": "2026-11-13"
+      "title": "é celebrada Nossa Senhora do Rocio, padroeira do Paraná",
+      "summary": "A Igreja celebra hoje (15), Nossa Senhora do Rocio, padroeira do estado do Paraná. Assim como Nossa Senhora Aparecida, esta devoção mariana brasileira teve início com uma pesca e foi crescendo com o tempo, conquistando uma multidão de devotos. A Festa Estadual de Nossa Senhora do Rocio, que acontece anualmente em Paranaguá (PR), é um dos grandes eventos de turismo religioso no Sul do Brasil....",
+      "url": "https://www.acidigital.com/noticia/50277/hoje-e-celebrada-nossa-senhora-do-rocio-padroeira-do-parana",
+      "published": "2026-11-15"
     },
     {
       "source": "ACI Digital",
-      "title": "Arquidiocese do Rio de Janeiro celebra jubileu com programação na catedral e na antiga Sé",
-      "summary": "A arquidiocese do Rio de Janeiro celebra grande jubileu arquidiocesano, de 450 anos da criação da prelazia do Rio de Janeiro, 350 anos de sua elevação à diocese e 50 anos da catedral metropolitana e da paróquia Nossa Senhora do Carmo da.",
-      "url": "https://www.acidigital.com/noticia/70949/arquidiocese-do-rio-de-janeiro-celebra-jubileu-com-programacao-na-catedral-e-na-antiga-se",
-      "published": "2026-11-13"
+      "title": "é celebrado santo Alberto Magno, o “grande doutor” por um acordo com Nossa Senhora",
+      "summary": "Hoje (15), celebra-se santo Alberto Magno, doutor da Igreja e padroeiro dos estudantes de ciências naturais. Era considerado um grande especialista, mas a sua memória prodigiosa e seu notável espírito científico se devem a um acordo com Nossa Senhora. Santo Alberto nasceu em Lauingen (Alemanha), por volta de 1206....",
+      "url": "https://www.acidigital.com/noticia/70917/hoje-e-celebrado-santo-alberto-magno-o-grande-doutor-por-um-acordo-com-nossa-senhora",
+      "published": "2026-11-15"
     },
     {
-      "source": "Gaudium Press",
-      "title": "Apenas 28,8% dos católicos dos EUA acreditam na Presença Real de Cristo na Eucaristia",
-      "summary": "Os resultados da pesquisa americana revelam que é necessário investir na formação espiritual desde a infância, na preparação para os sacramentos, na qualidade da catequese paroquial e na formação permanente dos adultos. Foto: Josh.",
-      "url": "https://gaudiumpress.org/content/apenas-288-dos-catolicos-dos-eua-acreditam-na-presenca-real-de-cristo-na-eucaristia/",
-      "published": "2026-11-14"
+      "source": "Aleteia",
+      "title": "Quando a inspiração de São Maximiliano Kolbe chegou ao Brasil através de um franciscano",
+      "summary": "Em outubro de 1917, em Roma, um jovem franciscano polonês, São Maximiliano Maria Kolbe, reuniu-se com alguns confrades para dar vida a uma iniciativa que nascia de um grande desejo: conquistar o mundo inteiro para Cristo por meio da.",
+      "url": "https://pt.aleteia.org/2026/11/13/quando-a-inspiracao-de-sao-maximiliano-kolbe-chegou-ao-brasil-atraves-de-um-franciscano/",
+      "published": "2026-11-13"
     }
   ],
   "closingQuote": {
-    "text": "Deus fará justiça aos seus escolhidos, dia e noite gritam por ele.",
-    "source": "Lucas 18,1-8"
+    "text": "Como foste fiel na administração de tão pouco, vem participar de minha alegria.",
+    "source": "Mateus 25,14-30"
   },
   "liturgyHours": {
-    "reading": "O que nós esperamos, de acordo com a sua promessa, são novos céus e uma nova terra, onde habitará a justiça. Caríssimos, vivendo nessa esperança, esforçai-vos para que ele vos encontre numa vida pura e sem mancha e em paz. Considerai também como...",
+    "reading": "A salvação pertence ao nosso Deus, que está sentado no trono, e ao Cordeiro. O louvor, a glória e a sabedoria, a ação de graças, a honra, o poder e a força pertencem ao nosso Deus para sempre. Amém.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
