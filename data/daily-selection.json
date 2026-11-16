@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-15",
-  "editionLabel": "15 de novembro de 2026",
+  "date": "2026-11-16",
+  "editionLabel": "16 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Domingo XXXIII do Tempo Comum",
+    "celebrationTitle": "Santa Gertrudes, virgem",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Mt 25,14-30 "
+    "gospelShort": "Lc 18,35-43"
   },
   "saint": {
-    "feast": "\udfe2 Domingo XXXIII do Tempo Comum",
-    "name": "Santo Alberto Magno, mestre de Tomás de Aquino",
-    "description": "Celebração litúrgica do dia: Domingo XXXIII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santo-alberto-magno-mestre-de-tomas-de-aquino/"
+    "feast": "Santa Gertrudes\\, virgem",
+    "name": "Santa Margarida da Escócia, a caridosa rainha",
+    "description": "Celebração litúrgica do dia: Santa Gertrudes, virgem.",
+    "url": "https://santo.cancaonova.com/santo/santa-margarida-da-escocia-a-caridosa-rainha/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 25,14-30 )",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 18,35-43)",
     "lines": [
-      "Naquele tempo, Jesus contou esta parábola a seus discípulos: Um homem ia viajar para o estrangeiro.",
-      "Chamou seus empregados e lhes entregou seus bens.",
-      "A um deu cinco talentos, a outro deu dois e ao terceiro, um; a cada qual de acordo com a sua capacidade.",
-      "O empregado que havia recebido cinco talentos saiu logo, trabalhou com eles, e lucrou outros cinco.",
-      "Do mesmo modo, o que havia recebido dois lucrou outros dois.",
-      "Mas aquele que havia recebido um só, saiu, cavou um buraco na terra, e escondeu o dinheiro do seu patrão.",
-      "Depois de muito tempo, o patrão voltou e foi acertar contas com os empregados."
+      "Quando Jesus se aproximava de Jericó, um cego estava sentado à beira do caminho, pedindo esmolas.",
+      "Ouvindo a multidão passar, ele perguntou o que estava acontecendo.",
+      "Disseram-lhe que Jesus Nazareno estava passando por ali.",
+      "Então o cego gritou: Jesus, filho de Davi, tem piedade de mim! As pessoas que iam na frente mandavam que ele ficasse calado.",
+      "Mas ele gritava mais ainda: Filho de Davi, tem piedade de mim! Jesus parou e mandou que levassem o cego até ele.",
+      "Quando o cego chegou perto, Jesus perguntou: O que queres que eu faça por ti? O cego respondeu: Senhor, eu quero enxergar de novo.",
+      "Jesus disse: Enxerga, pois, de novo."
     ],
-    "body": "Naquele tempo, Jesus contou esta parábola a seus discípulos: 14 \"Um homem ia viajar para o estrangeiro. Chamou seus empregados e lhes entregou seus bens. 15 A um deu cinco talentos, a outro deu dois e ao terceiro, um; a cada qual de acordo com a sua capacidade. Em seguida viajou. 16 O empregado que havia recebido cinco talentos saiu logo, trabalhou com eles, e lucrou outros cinco. 17 Do mesmo modo, o que havia recebido dois lucrou outros dois. 18 Mas aquele que havia recebido um só, saiu, cavou um buraco na terra, e escondeu o dinheiro do seu patrão. 19 Depois de muito tempo, o patrão voltou e foi acertar contas com os empregados. 20 O empregado que havia recebido cinco talentos entregou-lhe mais cinco, dizendo: 'Senhor, tu me entregaste cinco talentos. Aqui estão mais cinco que lucrei'. 21 O patrão lhe disse: 'Muito bem, servo bom e fiel! como foste fiel na administração de tão pouco, eu te confiarei muito mais. Vem participar da minha alegria!' 22 Chegou também o que havia recebido dois talentos, e disse: 'Senhor, tu me entregaste dois talentos. Aqui estão mais dois que lucrei'. 23 O patrão lhe disse: 'Muito bem, servo bom e fiel! Como foste fiel na administração de tão pouco, eu te confiarei muito mais. Vem participar da minha alegria!' 24 Por fim, chegou aquele que havia recebido um talento, e disse: 'Senhor, sei que és um homem severo, pois colhes onde não plantaste e ceifas onde não semeaste. 25 Por isso, fiquei com medo e escondi o teu talento no chão. Aqui tens o que te pertence'. 26 O patrão lhe respondeu: 'Servo mau e preguiçoso! Tu sabias que eu colho onde não plantei e que ceifo onde não semeei? 27 Então, devias ter depositado meu dinheiro no banco, para que, ao voltar, eu recebesse com juros o que me pertence'. 28 Em seguida, o patrão ordenou: 'Tirai dele o talento e dai-o àquele que tem dez! 29 Porque a todo aquele que tem será dado mais, e terá em abundância, mas daquele que não tem, até o que tem lhe será tirado. 30 Quanto a este servo inútil, jogai-o lá fora, na escuridão. Aí haverá choro e ranger de dentes!'\". —",
+    "body": "35 Quando Jesus se aproximava de Jericó, um cego estava sentado à beira do caminho, pedindo esmolas. 36 Ouvindo a multidão passar, ele perguntou o que estava acontecendo. 37 Disseram-lhe que Jesus Nazareno estava passando por ali. 38 Então o cego gritou: \"Jesus, filho de Davi, tem piedade de mim!\" 39 As pessoas que iam na frente mandavam que ele ficasse calado. Mas ele gritava mais ainda: \"Filho de Davi, tem piedade de mim!\" 40 Jesus parou e mandou que levassem o cego até ele. Quando o cego chegou perto, Jesus perguntou: 41 \"O que queres que eu faça por ti?\" O cego respondeu: \"Senhor, eu quero enxergar de novo\". 42 Jesus disse: \"Enxerga, pois, de novo. A tua fé te salvou.\" 43 No mesmo instante, o cego começou a ver de novo e seguia Jesus, glorificando a Deus. Vendo isso, todo o povo deu louvores a Deus. —",
     "keyVerse": ""
   },
   "sponsor": {
@@ -39,53 +39,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Dia dos Pobres, o esmoleiro: não são problemas sociais, mas pessoas com dignidade",
-      "summary": "Na décima edição da celebração instituída pelo Papa Francisco, o arcebispo prefeito do Dicastério para o Serviço da Caridade, Luis Marín de San Martín, preside a Missa na Basílica de São Pedro, delegado por Leão XIV. Na homilia, ele.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-11/dia-mundial-dos-pobres-santa-missa-dom-luis-marin-de-san-martin.html",
-      "published": "2026-11-15"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-11-16"
     },
     {
       "source": "Vatican News",
-      "title": "A irmã do secretário do Papa: “Dom Robert” próximo daqueles que mais precisam",
-      "summary": "Leidy, irmã de Dom Edgard Rimaycuna Inga, compartilha com os meios de comunicação vaticanos a emoção de sua família pelo retorno de Leão XIV a Chiclayo, onde Prevost foi bispo de 2015 a 2023. Ela recorda os anos de serviço pastoral do.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/leao-xiv-chiclayo-edgard-rimaycuna-inga-viagem-apostolica.html",
-      "published": "2026-11-15"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-11-16"
     },
     {
       "source": "CNBB",
-      "title": "Comissão para a Liturgia da CNBB disponibiliza subsídio com orientações e sugestões de cantos p",
-      "summary": "Material elaborado pelo Setor Música Litúrgica reúne reflexões sobre a espiritualidade do Advento, leituras bíblicas e sugestões de repertório para auxiliar comunidades na preparação das celebrações do Ciclo do Natal. A publicação reúne.",
-      "url": "https://www.cnbb.org.br/comissao-para-a-liturgia-da-cnbb-disponibiliza-subsidio-com-orientacoes-e-sugestoes-de-cantos-para-o-advento/",
-      "published": "2026-11-13"
-    },
-    {
-      "source": "CNBB",
-      "title": "retransmite, dia 15/11, às 17h, a celebração de encerramento do Ano Jubilar da Igreja Primacial",
-      "summary": "O Ano Jubilar Arquidiocesano celebra dois marcos históricos: os 475 anos de criação do Bispado de São Salvador da Bahia, em 1551, e os 350 anos de sua elevação à condição de Arquidiocese, em 1676. Primeira diocese do Brasil, a Igreja de.",
-      "url": "https://www.cnbb.org.br/celebracao-de-encerramento-do-ano-jubilar-da-igreja-igreja-primacial-do-brasil/",
-      "published": "2026-11-13"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-11-16"
     },
     {
       "source": "ACI Digital",
-      "title": "Sete santos que viveram a extrema pobreza",
-      "summary": "Hoje (15) é celebrado o Dia Mundial dos Pobres. Os santos também sofreram com a pobreza. A seguir, sete santos que a viveram de forma extrema.",
-      "url": "https://www.acidigital.com/noticia/50035/sete-santos-que-viveram-a-extrema-pobreza",
-      "published": "2026-11-15"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-11-16"
     },
     {
-      "source": "ACI Digital",
-      "title": "é dia de são José Pignatelli, restaurador dos jesuítas",
-      "summary": "Hoje (14) é dia de são José María Pignatelli, jesuíta nascido em Zaragoza, Espanha, em 1737. De família italiana, era filho de Antonio Pignatelli de Aragão, príncipe do Sacro Império Romano Germânico. Entrou para a Companhia de Jesus e se dedicou inicialmente à catequese de crianças e presos....",
-      "url": "https://www.acidigital.com/noticia/53737/hoje-e-dia-de-sao-jose-pignatelli-restaurador-dos-jesuitas",
+      "source": "Shalom",
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-11-16"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Lágrimas, risos e grandes demonstrações de alegria pelo retorno de Leão XIV a Chiclayo",
+      "summary": "Cyprien Viet, correspondente especial em Chiclayo Quase um milhão de pessoas se alinharam ao longo do trajeto papal, enquanto 500 mil fiéis se reuniram na sexta-feira nos Pampas de Pimentel para assistir à missa, enfrentando cansaço,.",
+      "url": "https://pt.aleteia.org/2026/11/14/lagrimas-risos-e-grandes-demonstracoes-de-alegria-pelo-retorno-de-leao-xiv-a-chiclayo/",
       "published": "2026-11-14"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-11-16"
+    },
+    {
+      "source": "Gaudium Press",
+      "title": "Leão XIV: A doença, vivida com fé, é um caminho para crescer no amor de Cristo",
+      "summary": "Durante a visita à cidade peruana de Cusco, neste domingo, 15 de novembro, o Papa Leão XIV dirigiu uma mensagem especial aos doentes, idosos, sacerdotes e pessoas consagradas. Foto: Vatican Media Redação ( 15/11/2026 16:16 , Gaudium Press.",
+      "url": "https://gaudiumpress.org/content/leao-xiv-a-doenca-vivida-com-fe-e-um-caminho-para-crescer-no-amor-de-cristo/",
+      "published": "2026-11-15"
     }
   ],
   "closingQuote": {
-    "text": "Como foste fiel na administração de tão pouco, vem participar de minha alegria.",
-    "source": "Mateus 25,14-30"
+    "text": "O que queres que eu faça por ti?' Senhor, eu quero enxergar de novo.",
+    "source": "Lucas 18,35-43"
   },
   "liturgyHours": {
-    "reading": "A salvação pertence ao nosso Deus, que está sentado no trono, e ao Cordeiro. O louvor, a glória e a sabedoria, a ação de graças, a honra, o poder e a força pertencem ao nosso Deus para sempre. Amém.",
+    "reading": "Quem não quer trabalhar, também não deve comer. Ora, ouvimos dizer que entre vós há alguns que vivem à toa, muito ocupados em não fazer nada. Em nome do Senhor Jesus Cristo, ordenamos e exortamos a essas pessoas que, trabalhando, comam na...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
