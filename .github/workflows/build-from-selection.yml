@@ -16,8 +16,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: catholic-news-rebuild
-  cancel-in-progress: true
+  group: catholic-news-publish
+  cancel-in-progress: false
 
 jobs:
   build:
