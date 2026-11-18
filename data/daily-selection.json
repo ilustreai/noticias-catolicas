@@ -3,9 +3,9 @@
   "editionLabel": "18 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "18 de novembro de 2026 - Tempo Comum",
+    "celebrationTitle": "Dedicação das Basílicas dos Santos Pedro e Paulo, apóstolos",
     "colorName": "verde",
     "cssColor": "#2E7D32",
     "gospelShort": "Lc 19,11-28"
@@ -13,7 +13,7 @@
   "saint": {
     "feast": "Dedicação das Basílicas dos Santos Pedro e Paulo\\, apóstolos",
     "name": "Dedicação das Basílicas de São Pedro e de São Paulo",
-    "description": "Celebração litúrgica do dia: 18 de novembro de 2026 - Tempo Comum.",
+    "description": "Celebração litúrgica do dia: Dedicação das Basílicas dos Santos Pedro e Paulo, apóstolos.",
     "url": "https://santo.cancaonova.com/santo/basilicas-de-sao-pedro-e-de-sao-paulo/"
   },
   "gospel": {
@@ -39,51 +39,51 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Papa Leão receberá comunidade Shalom nesta quinta-feira no Vaticano",
-      "summary": "Cerca de 3 mil membros da Comunidade Católica Shalom, fundada em Fortaleza, no Ceará, participam de uma convenção internacional em Roma. A audiência com o Pontífice será um dos momentos centrais do encontro, que reúne missionários de mais.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-recebera-comunidade-shalom-no-vaticano-45-anos.html",
+      "title": "Na Audiência Geral, Leão XIV usa cruz peitoral recebida de presente no Peru",
+      "summary": "Confeccionada em prata e madrepérola, a peça foi encomendada pela Conferência Episcopal Peruana e contém relíquias de cinco santos ligados à história da Igreja no país. Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/leao-xiv-audiencia-geral-cruz-peitoral-presente-peru.html",
       "published": "2026-11-18"
     },
     {
       "source": "Vatican News",
-      "title": "Gugerotti: a Igreja de Gaza, tabernáculo do cristianismo",
-      "summary": "Durante o primeiro dia da viagem pastoral à Terra Santa, o prefeito do Dicastério para as Igrejas Orientais conversou com o padre Gabriel Romanelli, pároco da Igreja da Sagrada Família em Gaza. O relato da tragédia humanitária, o empenho.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-11/terra-santa-israel-palestina-paz-gaza-guerra-gugerotti-igreja.html",
+      "title": "Leão XIV: chamar o mal pelo nome e combater os abusos com justiça",
+      "summary": "O Pontífice dedica uma reflexão às vítimas e aos sobreviventes de abusos, na Audiência Geral desta quarta-feira, 18 de novembro, dia em que a Conferência Episcopal Italiana promove um Dia Nacional de Oração sobre o tema, reafirmando a.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-audiencia-geral-dia-mundial-da-pesca-novembro-2026.html",
       "published": "2026-11-18"
     },
     {
       "source": "CNBB",
-      "title": "Cristãos leigos e leigas, poetas e artesãos do Reino na história",
-      "summary": "Dom Roberto Francisco Ferreria Paz Bispo de Campos (RJ) Neste domingo 22 de novembro, no grandioso marco litúrgico da Solenidade de Cristo Rei do Universo, comemoramos o Dia Nacional do Laicato, trazendo para a celebração a sua vida,.",
-      "url": "https://www.cnbb.org.br/cristaos-leigos-e-leigas-poetas-e-artesaos-do-reino-na-historia/",
-      "published": "2026-11-17"
+      "title": "CNLB disponibiliza cartilha para celebrar o Dia Nacional dos Cristãos Leigos e Leigas 2026",
+      "summary": "O CNLB disponibilizou a cartilha de preparação para o Dia Nacional dos Cristãos Leigos e Leigas 2026, que será celebrado no próximo domingo, 22 de novembro, Solenidade de Nosso Senhor Jesus Cristo, Rei do Universo. Com o tema “Cristãos.",
+      "url": "https://www.cnbb.org.br/cnlb-disponibiliza-cartilha-para-celebrar-o-dia-nacional-dos-cristaos-leigos-e-leigas-2026/",
+      "published": "2026-11-18"
     },
     {
       "source": "CNBB",
-      "title": "Fórum Igrejas e Ecologia Integral reúne pastorais e movimentos para fortalecer conversão ecológ",
-      "summary": "O encontro buscou fortalecer a atuação da Igreja no Brasil diante da crise climática e dos desafios socioambientais. Promovido pela Comissão Especial para a Ecologia Integral e Mineração da Conferência Nacional dos Bispos do Brasil.",
-      "url": "https://www.cnbb.org.br/forum-igrejas-ecologia-integral-fortalece-conversao-ecologica/",
-      "published": "2026-11-17"
-    },
-    {
-      "source": "Shalom",
-      "title": "Cardeal Tolentino na Convenção Shalom: A paz não é trazida por um general, mas por uma criança",
-      "summary": "A paz começa no coração de cada pessoa e exige uma transformação da humanidade. Esta é uma das ideias centrais das reflexões do cardeal português José Tolentino de Mendonça, que participa da Convenção Shalom 45 anos, a decorrer entre 15 e.",
-      "url": "https://comshalom.org/cardeal-tolentino-de-mendonca-a-paz-nao-e-trazida-por-um-general-mas-por-uma-crianca/",
-      "published": "2026-11-16"
-    },
-    {
-      "source": "Shalom",
-      "title": "Cardeal Baldassare Reina destaca encontro providencial e misericórdia de Deus na Convenção Shal",
-      "summary": "Homilia na Basílica de São Paulo Fora dos Muros sublinha a acção de Deus na história da Comunidade e renova o chamamento à evangelização, no contexto dos 45 anos do carisma Shalom.",
-      "url": "https://comshalom.org/cardeal-baldassare-reina-destaca-encontro-providencial-e-misericordia-de-deus-na-convencao-shalom/",
+      "title": "Comissão de Bens Culturais do regional Nordeste 3 apresenta proposta de estruturação do trabalh",
+      "summary": "A Comissão de Bens Culturais do regional Nordeste 3, acompanhada pelo bispo referencial, dom Francisco Vidal, apresentou aos bispos reunidos no Conselho Regional (CONSER), na manhã da última sexta-feira, 13 de novembro, uma proposta de.",
+      "url": "https://www.cnbb.org.br/comissao-de-bens-culturais-do-regional-nordeste-3-apresenta-proposta-de-estruturacao-do-trabalho-de-preservacao-do-patrimonio-da-igreja/",
       "published": "2026-11-18"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "O legado da primeira viagem de Leão XIV à América Latina",
+      "summary": "De Montevidéu a Lima, passando por Buenos Aires, Leão XIV articulou três mensagens diferentes para três realidades diferentes.",
+      "url": "https://www.acidigital.com/noticia/71035/o-legado-da-primeira-viagem-de-leao-xiv-a-america-latina",
+      "published": "2026-11-17"
     },
     {
       "source": "Aleteia",
-      "title": "Onde encontrar uma opinião católica inteligente sobre os eventos atuais",
-      "summary": "Você quer acompanhar o que está acontecendo, mas entrar nas mídias sociais só faz você sentir que o mundo está pegando fogo ao seu redor. Você reconhece que o ciclo de notícias de 24 horas dá atenção a coisas que realmente não merecem.",
-      "url": "https://pt.aleteia.org/2026/11/18/onde-encontrar-uma-opiniao-catolica-inteligente-sobre-os-eventos-atuais/",
+      "title": "Dom Helder Câmara: O Bispo dos Pobres que moldou os caminhos do Vaticano II",
+      "summary": "Imagine por um instante que podemos caminhar pelos corredores da história e desvendar os segredos mais bem guardados dos bastidores de um dos maiores eventos espirituais e culturais da Igreja no século XX: o Concílio Vaticano II. É.",
+      "url": "https://pt.aleteia.org/2026/11/18/d-helder-camara-o-bispo-dos-pobres-moldou-os-rumos-do-vaticano-ii/",
+      "published": "2026-11-18"
+    },
+    {
+      "source": "Gaudium Press",
+      "title": "Concílio de Clermont: trégua e guerra de Deus",
+      "summary": "18 de novembro de 1095. O Papa proclamava: “Tomai o caminho do Santo Sepulcro, certos da glória imperecível que vos espera no reino de Deus. Que cada um renuncie a si mesmo e tome a Cruz!” Foto: Wikipedia Redação ( 17/11/2026 15:13 ,.",
+      "url": "https://gaudiumpress.org/content/concilio-de-clermont-tregua-e-guerra-de-deus/",
       "published": "2026-11-18"
     }
   ],
