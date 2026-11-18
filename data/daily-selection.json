@@ -3,9 +3,9 @@
   "editionLabel": "18 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Dedicação das Basílicas dos Santos Pedro e Paulo, apóstolos",
+    "celebrationTitle": "18 de novembro de 2026 - Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
     "gospelShort": "Lc 19,11-28"
@@ -13,7 +13,7 @@
   "saint": {
     "feast": "Dedicação das Basílicas dos Santos Pedro e Paulo\\, apóstolos",
     "name": "Dedicação das Basílicas de São Pedro e de São Paulo",
-    "description": "Celebração litúrgica do dia: Dedicação das Basílicas dos Santos Pedro e Paulo, apóstolos.",
+    "description": "Celebração litúrgica do dia: 18 de novembro de 2026 - Tempo Comum.",
     "url": "https://santo.cancaonova.com/santo/basilicas-de-sao-pedro-e-de-sao-paulo/"
   },
   "gospel": {
@@ -39,52 +39,52 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "“Cristo no centro da nossa vida”: vigílias de oração com Leão XIV na América Latina",
-      "summary": "Da viagem do Papa Leão XIV ao Uruguai, Argentina e Perú destacamos três vigílias de oração, uma em cada país. Leia tudo.",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-11/papa-leao-viagemapostolica-america-latina-jovens-oracao-pastoral.html",
-      "published": "2026-11-17"
+      "title": "Papa Leão receberá comunidade Shalom nesta quinta-feira no Vaticano",
+      "summary": "Cerca de 3 mil membros da Comunidade Católica Shalom, fundada em Fortaleza, no Ceará, participam de uma convenção internacional em Roma. A audiência com o Pontífice será um dos momentos centrais do encontro, que reúne missionários de mais.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-recebera-comunidade-shalom-no-vaticano-45-anos.html",
+      "published": "2026-11-18"
     },
     {
       "source": "Vatican News",
-      "title": "Leão XIV denuncia assassinatos de indígenas e exploração predatória da Amazônia",
-      "summary": "Com uma mitra que trazia o símbolo do Sínodo para a Amazônia, o Papa celebrou a Missa em Pucallpa, no Peru, e reafirmou o compromisso da Igreja com os povos amazônicos, a defesa da vida e o cuidado da criação. Em seu discurso no encontro.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/leao-xiv-pucallpa-amazonia-violencia-povos-autoctones-ambiente.html",
+      "title": "Gugerotti: a Igreja de Gaza, tabernáculo do cristianismo",
+      "summary": "Durante o primeiro dia da viagem pastoral à Terra Santa, o prefeito do Dicastério para as Igrejas Orientais conversou com o padre Gabriel Romanelli, pároco da Igreja da Sagrada Família em Gaza. O relato da tragédia humanitária, o empenho.",
+      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-11/terra-santa-israel-palestina-paz-gaza-guerra-gugerotti-igreja.html",
+      "published": "2026-11-18"
+    },
+    {
+      "source": "CNBB",
+      "title": "Cristãos leigos e leigas, poetas e artesãos do Reino na história",
+      "summary": "Dom Roberto Francisco Ferreria Paz Bispo de Campos (RJ) Neste domingo 22 de novembro, no grandioso marco litúrgico da Solenidade de Cristo Rei do Universo, comemoramos o Dia Nacional do Laicato, trazendo para a celebração a sua vida,.",
+      "url": "https://www.cnbb.org.br/cristaos-leigos-e-leigas-poetas-e-artesaos-do-reino-na-historia/",
+      "published": "2026-11-17"
+    },
+    {
+      "source": "CNBB",
+      "title": "Fórum Igrejas e Ecologia Integral reúne pastorais e movimentos para fortalecer conversão ecológ",
+      "summary": "O encontro buscou fortalecer a atuação da Igreja no Brasil diante da crise climática e dos desafios socioambientais. Promovido pela Comissão Especial para a Ecologia Integral e Mineração da Conferência Nacional dos Bispos do Brasil.",
+      "url": "https://www.cnbb.org.br/forum-igrejas-ecologia-integral-fortalece-conversao-ecologica/",
+      "published": "2026-11-17"
+    },
+    {
+      "source": "Shalom",
+      "title": "Cardeal Tolentino na Convenção Shalom: A paz não é trazida por um general, mas por uma criança",
+      "summary": "A paz começa no coração de cada pessoa e exige uma transformação da humanidade. Esta é uma das ideias centrais das reflexões do cardeal português José Tolentino de Mendonça, que participa da Convenção Shalom 45 anos, a decorrer entre 15 e.",
+      "url": "https://comshalom.org/cardeal-tolentino-de-mendonca-a-paz-nao-e-trazida-por-um-general-mas-por-uma-crianca/",
       "published": "2026-11-16"
     },
     {
-      "source": "CNBB",
-      "title": "2º Encontro Nacional de Hospitais Católicos, promovido pela Comissão de Bioética da CNBB, está",
-      "summary": "O objetivo do evento é discutir sobre os principais desafios bioéticos à luz da Encíclica Magnífica Humanitas, refletir sobre a missão, identidade e vocação das instituições hospitalares católicas na realidade atual e incentivar a criação.",
-      "url": "https://www.cnbb.org.br/comissao-bioetica-2o-encontro-hospitais-catolicos/",
-      "published": "2026-11-17"
-    },
-    {
-      "source": "CNBB",
-      "title": "Comissão Especial para a Comunhão e Partilha avalia ações de 2026 e planeja ampliação do apoio",
-      "summary": "A Comissão está reunida para avaliar as atividades desenvolvidas ao longo de 2026 e planejar as ações para o próximo ano. Entre os principais assuntos do encontro estão a distribuição de recursos destinados às dioceses e prelazias com.",
-      "url": "https://www.cnbb.org.br/comissao-especial-para-a-comunhao-e-partilha-da-cnbb-avalia-acoes-de-2026-e-planeja-ampliacao-do-apoio-as-dioceses-em-2027/",
-      "published": "2026-11-17"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "O legado da primeira viagem de Leão XIV à América Latina",
-      "summary": "De Montevidéu a Lima, passando por Buenos Aires, Leão XIV articulou três mensagens diferentes para três realidades diferentes.",
-      "url": "https://www.acidigital.com/noticia/71035/o-legado-da-primeira-viagem-de-leao-xiv-a-america-latina",
-      "published": "2026-11-17"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "É uma peregrinação , diz atleta irlandês que encontra Deus através de aventuras extremas",
-      "summary": "O aventureiro irlandês Daragh Morgan, que nadou e depois percorreu de bicicleta toda a costa da Irlanda, disse que sua fé católica inspira suas jornadas extraordinárias, que ele vê como oportunidades de peregrinação.",
-      "url": "https://www.acidigital.com/noticia/71025/e-uma-peregrinacao-diz-atleta-irlandes-que-encontra-deus-atraves-de-aventuras-extremas",
-      "published": "2026-11-17"
+      "source": "Shalom",
+      "title": "Cardeal Baldassare Reina destaca encontro providencial e misericórdia de Deus na Convenção Shal",
+      "summary": "Homilia na Basílica de São Paulo Fora dos Muros sublinha a acção de Deus na história da Comunidade e renova o chamamento à evangelização, no contexto dos 45 anos do carisma Shalom.",
+      "url": "https://comshalom.org/cardeal-baldassare-reina-destaca-encontro-providencial-e-misericordia-de-deus-na-convencao-shalom/",
+      "published": "2026-11-18"
     },
     {
       "source": "Aleteia",
-      "title": "Oração de um santo para quando o calor aperta",
-      "summary": "Embora no século VII não se falasse de aquecimento global, o calor sufocante aborrecia até os mais pacientes. Por isso, em uma tórrida noite de verão, o arcebispo de Toledo, São Eugênio II, escreveu, entre a resignação e o senso de humor,.",
-      "url": "https://pt.aleteia.org/2026/11/16/oracao-de-um-santo-para-quando-o-calor-aperta/",
-      "published": "2026-11-16"
+      "title": "Onde encontrar uma opinião católica inteligente sobre os eventos atuais",
+      "summary": "Você quer acompanhar o que está acontecendo, mas entrar nas mídias sociais só faz você sentir que o mundo está pegando fogo ao seu redor. Você reconhece que o ciclo de notícias de 24 horas dá atenção a coisas que realmente não merecem.",
+      "url": "https://pt.aleteia.org/2026/11/18/onde-encontrar-uma-opiniao-catolica-inteligente-sobre-os-eventos-atuais/",
+      "published": "2026-11-18"
     }
   ],
   "closingQuote": {
