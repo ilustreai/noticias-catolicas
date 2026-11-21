@@ -1,32 +1,31 @@
 {
-  "date": "2026-11-20",
-  "editionLabel": "20 de novembro de 2026",
+  "date": "2026-11-21",
+  "editionLabel": "21 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "tempo",
+    "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Sexta-Feira da Semana XXXIII do Tempo Comum",
-    "colorName": "verde",
-    "cssColor": "#2E7D32",
-    "gospelShort": "Lc 19,45-48"
+    "celebrationTitle": "Apresentação de Nossa Senhora",
+    "colorName": "branco",
+    "cssColor": "#FFFFFF",
+    "gospelShort": "Mt 12,46-50"
   },
   "saint": {
-    "feast": "\udfe2 Sexta-Feira da Semana XXXIII do Tempo Comum",
-    "name": "Santo Edmundo",
-    "description": "Celebração litúrgica do dia: Sexta-Feira da Semana XXXIII do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/santo-edmundo/"
+    "feast": "Apresentação de Nossa Senhora",
+    "name": "Apresentação de Nossa Senhora no Templo",
+    "description": "Celebração litúrgica do dia: Apresentação de Nossa Senhora.",
+    "url": "https://santo.cancaonova.com/santo/apresentacao-de-nossa-senhora-no-templo/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 19,45-48)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 12,46-50)",
     "lines": [
-      "Naquele tempo, Jesus entrou no Templo e começou a expulsar os vendedores.",
-      "E disse: Está escrito: Minha casa será casa de oração.",
-      "No entanto, vós fizestes dela um antro de ladrões.",
-      "Jesus ensinava todos os dias no Templo.",
-      "Os sumos sacerdotes, os mestres da Lei e os notáveis do povo procuravam modo de matá-lo.",
-      "Mas não sabiam o que fazer, porque o povo todo ficava fascinado quando ouvia Jesus falar."
+      "Naquele tempo, enquanto Jesus estava falando às multidões, sua mãe e seus irmãos ficaram do lado de fora, procurando falar com ele.",
+      "Alguém disse a Jesus: Olha!",
+      "Tua mãe e teus irmãos estão aí fora, e querem falar contigo.",
+      "Jesus perguntou àquele que tinha falado: Quem é minha mãe, e quem são meus irmãos? E, estendendo a mão para os discípulos, Jesus disse: Eis minha mãe e meus irmãos.",
+      "Pois todo aquele que faz a vontade do meu Pai, que está nos céus, esse é meu irmão, minha irmã e minha mãe."
     ],
-    "body": "Naquele tempo, 45 Jesus entrou no Templo e começou a expulsar os vendedores. 46 E disse: \"Está escrito: 'Minha casa será casa de oração'. No entanto, vós fizestes dela um antro de ladrões\". 47 Jesus ensinava todos os dias no Templo. Os sumos sacerdotes, os mestres da Lei e os notáveis do povo procuravam modo de matá-lo. 48 Mas não sabiam o que fazer, porque o povo todo ficava fascinado quando ouvia Jesus falar. —",
+    "body": "Naquele tempo, 46 enquanto Jesus estava falando às multidões, sua mãe e seus irmãos ficaram do lado de fora, procurando falar com ele. 47 Alguém disse a Jesus: \"Olha! Tua mãe e teus irmãos estão aí fora, e querem falar contigo\". 48 Jesus perguntou àquele que tinha falado: \"Quem é minha mãe, e quem são meus irmãos?\" 49 E, estendendo a mão para os discípulos, Jesus disse: \"Eis minha mãe e meus irmãos. 50 Pois todo aquele que faz a vontade do meu Pai, que está nos céus, esse é meu irmão, minha irmã e minha mãe\". —",
     "keyVerse": ""
   },
   "sponsor": {
@@ -38,60 +37,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Uma antecipação da JMJ no Vaticano: Leão XIV encontra-se com 6 mil jovens do Lácio",
-      "summary": "No sábado, 21 de novembro, na Sala Paulo VI, realiza-se o evento com o Pontífice, promovido pela Conferência Episcopal do Lácio, sobre o tema da Jornada Mundial da Juventude em Seul 2027: \"Tende coragem, eu venci o mundo\". Após as.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/jmj-leao-xiv-jovens-lacio-italia.html",
+      "title": "\"Paz desarmada e desarmante\" reúne religiosas e religiosos de todo o mundo em Roma",
+      "summary": "De 25 a 27 de novembro de 2026, a Assembleia Conjunta da UISG–USG reunirá os Superiores Gerais das congregações religiosas femininas e masculinas em Sacrofano. Entre os momentos mais aguardados contam-se a audiência com o Papa Leão XIV e.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-11/uisg-usg-assembleia-conjunta-roma-paz-desarmada-desarmante.html",
       "published": "2026-11-20"
     },
     {
       "source": "Vatican News",
-      "title": "Papa a entidades de caridade: ser \"mão de Deus\" e responder com coragem à indiferença",
-      "summary": "\"Vocês se opõem à indiferença\", disse Leão a representantes da Caritas Internacional e da COATnet, a rede global de organizações cristãs contra o tráfico de pessoas, em audiência, no Vaticano: \"vocês se tornam sinais de justiça, esperança.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-caritas-internacional-19-novembro-2026.html",
-      "published": "2026-11-19"
+      "title": "Leão XIV: é essencial apoiar os cristãos do Oriente, eles não estão sozinhos",
+      "summary": "Numa audiência à Catholic Near East Welfare Association, fundada cem anos atrás por Pio XI, o Papa Leão XIV manifestou a sua proximidade às comunidades oprimidas pela guerra, perseguição, pobreza e deslocamento. Pediu para apoiar os.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-associacao-catolica-assistencia-social-solidariedade-eua.html",
+      "published": "2026-11-20"
     },
     {
       "source": "CNBB",
-      "title": "A meninazinha Maria ganha destaque na Igreja",
-      "summary": "Dom Antônio Carlos Altieri Arcebispo Emérito de Passo Fundo (RS) A meninazinha Maria, protótipo luminoso daquilo que toda a comunidade dos fiéis é chamada a ser. Amados irmãos e irmãs, ao celebrarmos a memória da Apresentação da.",
-      "url": "https://www.cnbb.org.br/a-meninazinha-maria/",
+      "title": "O Sinal de Deus nas periferias da história: a apresentação da virgem e a libertação dos pobres",
+      "summary": "Dom Vilson Dias de Oliveira Bispo Emérito de Limeira (SP) Caros irmãos e irmãs, ao celebrarmos a memória da Apresentação da Bem-Aventurada Virgem Maria, a liturgia nos desinstala e nos convoca a olhar para a história humana a partir da.",
+      "url": "https://www.cnbb.org.br/o-sinal-de-deus-nas-periferias-da-historia-a-apresentacao-da-virgem-e-a-libertacao-dos-pobres/",
       "published": "2026-11-19"
     },
     {
       "source": "ACI Digital",
-      "title": "Conheça a história desses santos e beatos negros",
-      "summary": "Hoje (20) é o Dia Nacional da Consciência Negra. Na Igreja, destacam-se algumas pessoas de origem afrodescendente que, na luta para alcançar a vocação à santidade, chegaram aos altares.",
-      "url": "https://www.acidigital.com/noticia/53777/conheca-a-historia-desses-santos-e-beatos-negros",
-      "published": "2026-11-20"
+      "title": "Conheça a história da solenidade de Cristo Rei e da primeira igreja em sua homenagem",
+      "summary": "A solenidade de Jesus Cristo Rei do Universo, que será celebrada no domingo (22), também é conhecida como festa de Cristo Rei ou Domingo de Cristo Rei. Embora o conceito de Jesus Cristo Rei seja tão antigo quanto os Evangelhos, a festa é recente no calendário católico romano. A festa foi introduzida no calendário litúrgico ocidental em 1925 pelo papa Pio XI, através da encíclica Quas Primas ....",
+      "url": "https://www.acidigital.com/noticia/53749/conheca-a-historia-da-solenidade-de-cristo-rei-e-da-primeira-igreja-em-sua-homenagem",
+      "published": "2026-11-21"
     },
     {
       "source": "ACI Digital",
-      "title": "a Igreja celebra são Roque González e companheiros mártires",
-      "summary": "A Igreja celebra hoje (19) são Roque González e companheiros mártires. O sacerdote jesuíta foi martirizado e teve o corpo queimado por anunciar o Evangelho na América do Sul. Natural do Paraguai, evangelizou também em terras brasileiras,.",
-      "url": "https://www.acidigital.com/noticia/71069/igreja-celebra-sao-roque-gonzalez-e-companheiros-martires",
+      "title": "No Vaticano, jovens da Shalom mostram que a fé continua despertando vocações",
+      "summary": "Em audiência com o papa Leão XIV, eles deram testemunho de uma geração que continua vendo a fé como um projeto de vida capaz de inspirar dedicação, missão e compromisso.",
+      "url": "https://www.acidigital.com/noticia/71085/no-vaticano-jovens-da-shalom-mostram-que-a-fe-continua-despertando-vocacoes",
       "published": "2026-11-19"
     },
     {
       "source": "Aleteia",
-      "title": "Mais de mil edifícios vermelhos por 220 milhões de cristãos",
-      "summary": "130 catedrais e mais de mil igrejas e edifícios nos cinco continentes estão iluminados de vermelho esta semana em sinal de alarme sobre a crescente perseguição aos cristãos. A ação faz parte de uma campanha chamada Red Week para defender.",
-      "url": "https://pt.aleteia.org/2026/11/20/mais-de-mil-edificios-vermelhos-por-220-milhoes-de-cristaos/",
-      "published": "2026-11-20"
+      "title": "Um artista rasgou uma imagem de Nossa Senhora mas seu gesto está comovendo Nápoles!",
+      "summary": "Uma imagem em Nápoles está fazendo o que tantas notícias sobre a guerra já não conseguem: obrigar-nos a olhar para o sofrimento de frente. Na capela Pappacoda, na igreja de San Giovanni Maggiore, o fotógrafo Eduardo Castaldo apresenta.",
+      "url": "https://pt.aleteia.org/2026/11/19/um-artista-rasgou-uma-imagem-de-nossa-senhora-mas-seu-gesto-esta-comovendo-napoles/",
+      "published": "2026-11-19"
     },
     {
       "source": "Aleteia",
-      "title": "Padre Najib, padre no sul do Líbano: Minha única luta é a da paz",
-      "summary": "Desde março, o Sul do Líbano é novamente refém da guerra entre Israel e o Hezbollah. Ocupada em parte pelo exército israelense e isolada do resto do país, a área é regularmente alvo de ataques. Se algumas aldeias foram totalmente.",
-      "url": "https://pt.aleteia.org/2026/11/20/padre-najib-padre-no-sul-do-libano-minha-unica-luta-e-a-da-paz/",
+      "title": "Uma comunidade brasileira no coração da Igreja: o que Leão XIV pediu à Shalom",
+      "summary": "«Para vocês, a paz significa muito mais do que ação social ou um programa de reconciliação civil ou política», afirmou Leão XIV, a 19 de novembro de 2026, durante o encontro realizado na Sala Paulo VI. Foi a primeira vez que o Papa.",
+      "url": "https://pt.aleteia.org/2026/11/20/uma-comunidade-brasileira-no-coracao-da-igreja-o-que-leao-xiv-pediu-a-shalom/",
       "published": "2026-11-20"
     }
   ],
   "closingQuote": {
-    "text": "Fizestes da casa de Deus um antro de ladrões.",
-    "source": "Lucas 19,45-48"
+    "text": "E, estendendo a mão para os discípulos, Jesus disse: \"Eis minha mãe e meus irmãos\".",
+    "source": "Mateus 12,46-50"
   },
   "liturgyHours": {
-    "reading": "Nenhuma palavra perniciosa deve sair dos vossos lábios, mas sim alguma palavra boa, capaz de edificar oportunamente e de trazer graça aos que a ouvem. Não contristeis o Espírito Santo com o qual Deus vos marcou como com um selo para o dia da...",
+    "reading": "Exulto de alegria no Senhor e minh’alma regozija-se em meu Deus; ele me vestiu com as vestes da salvação, envolveu-me com o manto da justiça e adornou-me qual noiva com suas jóias.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
