@@ -1,31 +1,33 @@
 {
-  "date": "2026-11-21",
-  "editionLabel": "21 de novembro de 2026",
+  "date": "2026-11-22",
+  "editionLabel": "22 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "memoria",
+    "rank": "solenidade",
     "season": "Tempo Comum",
-    "celebrationTitle": "Apresentação de Nossa Senhora",
+    "celebrationTitle": "Nosso Senhor Jesus Cristo, Rei do Universo",
     "colorName": "branco",
     "cssColor": "#FFFFFF",
-    "gospelShort": "Mt 12,46-50"
+    "gospelShort": "Mt 25,31-46"
   },
   "saint": {
-    "feast": "Apresentação de Nossa Senhora",
-    "name": "Apresentação de Nossa Senhora no Templo",
-    "description": "Celebração litúrgica do dia: Apresentação de Nossa Senhora.",
-    "url": "https://santo.cancaonova.com/santo/apresentacao-de-nossa-senhora-no-templo/"
+    "feast": "Nosso Senhor Jesus Cristo\\, Rei do Universo",
+    "name": "Solenidade de Cristo Rei do Universo",
+    "description": "Celebração litúrgica do dia: Nosso Senhor Jesus Cristo, Rei do Universo.",
+    "url": "https://santo.cancaonova.com/santo/solenidade-de-cristo-rei-universo/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 12,46-50)",
+    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 25,31-46)",
     "lines": [
-      "Naquele tempo, enquanto Jesus estava falando às multidões, sua mãe e seus irmãos ficaram do lado de fora, procurando falar com ele.",
-      "Alguém disse a Jesus: Olha!",
-      "Tua mãe e teus irmãos estão aí fora, e querem falar contigo.",
-      "Jesus perguntou àquele que tinha falado: Quem é minha mãe, e quem são meus irmãos? E, estendendo a mão para os discípulos, Jesus disse: Eis minha mãe e meus irmãos.",
-      "Pois todo aquele que faz a vontade do meu Pai, que está nos céus, esse é meu irmão, minha irmã e minha mãe."
+      "Naquele tempo, disse Jesus a seus discípulos: Quando o Filho do Homem vier em sua glória, acompanhado de todos os anjos, então se assentará em seu trono glorioso.",
+      "Todos os povos da terra serão reunidos diante dele, e ele separará uns dos outros, assim como o pastor separa as ovelhas dos cabritos.",
+      "E colocará as ovelhas à sua direita e os cabritos à sua esquerda.",
+      "Então o Rei dirá aos que estiverem à sua direita: Vinde, benditos de meu Pai!",
+      "Recebei como herança o Reino que meu Pai vos preparou desde a criação do mundo!",
+      "Pois eu estava com fome e me destes de comer; eu estava com sede e me destes de beber; eu era estrangeiro e me recebestes em casa; eu estava nu e me vestistes; eu estava doente e cuidastes de mim; eu estava na prisão e fostes me visitar.",
+      "Então os justos lhe perguntarão: Senhor, quando foi que te vimos com fome e te demos de comer?"
     ],
-    "body": "Naquele tempo, 46 enquanto Jesus estava falando às multidões, sua mãe e seus irmãos ficaram do lado de fora, procurando falar com ele. 47 Alguém disse a Jesus: \"Olha! Tua mãe e teus irmãos estão aí fora, e querem falar contigo\". 48 Jesus perguntou àquele que tinha falado: \"Quem é minha mãe, e quem são meus irmãos?\" 49 E, estendendo a mão para os discípulos, Jesus disse: \"Eis minha mãe e meus irmãos. 50 Pois todo aquele que faz a vontade do meu Pai, que está nos céus, esse é meu irmão, minha irmã e minha mãe\". —",
+    "body": "Naquele tempo, disse Jesus a seus discípulos: 31 \"Quando o Filho do Homem vier em sua glória, acompanhado de todos os anjos, então se assentará em seu trono glorioso. 32 Todos os povos da terra serão reunidos diante dele, e ele separará uns dos outros, assim como o pastor separa as ovelhas dos cabritos. 33 E colocará as ovelhas à sua direita e os cabritos à sua esquerda. 34 Então o Rei dirá aos que estiverem à sua direita: 'Vinde, benditos de meu Pai! Recebei como herança o Reino que meu Pai vos preparou desde a criação do mundo! 35 Pois eu estava com fome e me destes de comer; eu estava com sede e me destes de beber; eu era estrangeiro e me recebestes em casa; 36 eu estava nu e me vestistes; eu estava doente e cuidastes de mim; eu estava na prisão e fostes me visitar'. 37 Então os justos lhe perguntarão: 'Senhor, quando foi que te vimos com fome e te demos de comer? com sede e te demos de beber? 38 Quando foi que te vimos como estrangeiro e te recebemos em casa, e sem roupa e te vestimos? 39 Quando foi que te vimos doente ou preso, e fomos te visitar?' 40 Então o Rei lhes responderá: 'Em verdade eu vos digo, que todas as vezes que fizestes isso a um dos menores de meus irmãos, foi a mim que o fizestes!' 41 Depois o Rei dirá aos que estiverem à sua esquerda: 'Afastai-vos de mim, malditos! Ide para o fogo eterno, preparado para o diabo e para os seus anjos. 42 Pois eu estava com fome e não me destes de comer; eu estava com sede e não me destes de beber; 43 eu era estrangeiro e não me recebestes em casa; eu estava nu e não me vestistes; eu estava doente e na prisão e não fostes me visitar'. 44 E responderão também eles: 'Senhor, quando foi que te vimos com fome, ou com sede, como estrangeiro, ou nu, doente ou preso, e não te servimos?' 45 Então o Rei lhes responderá: 'Em verdade eu vos digo, todas as vezes que não fizestes isso a um desses pequeninos, foi a mim que não o fizestes!' 46 Portanto, estes irão para o castigo eterno, enquanto os justos irão para a vida eterna\". —",
     "keyVerse": ""
   },
   "sponsor": {
@@ -37,60 +39,67 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Leão XIV: quem faz a guerra e destrói a criação está cego pelo poder e pelo dinheiro",
-      "summary": "O Papa recebeu nesta manhã, 21 de novembro, em audiência, na Biblioteca do Palácio Apostólico, as delegações da Federação Astronáutica Internacional e da Agência Espacial Italiana, que participarão na segunda-feira do Fórum Espacial.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/leao-xiv-guerra-destroi-criacao-astronautica-vaticano-espaco.html",
-      "published": "2026-11-21"
+      "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
+      "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
+      "published": "2026-11-22"
     },
     {
       "source": "Vatican News",
-      "title": "No encontro com o Papa, as histórias daqueles que transformaram a vida em dom",
-      "summary": "As palavras de boas-vindas do bispo Mauro Parmeggiani e os depoimentos de sete jovens marcaram o encontro deste sábado, 21 de novembro, na Sala Paulo VI, na Via Leão XIV, entre o Papa e os jovens vindos da região do Lácio. Histórias que.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/encontro-papa-historias-transformaram-vidas-vaticano-jovens.html",
-      "published": "2026-11-21"
+      "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
+      "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
+      "published": "2026-11-22"
     },
     {
       "source": "CNBB",
-      "title": "O Sinal de Deus nas periferias da história: a apresentação da virgem e a libertação dos pobres",
-      "summary": "Dom Vilson Dias de Oliveira Bispo Emérito de Limeira (SP) Caros irmãos e irmãs, ao celebrarmos a memória da Apresentação da Bem-Aventurada Virgem Maria, a liturgia nos desinstala e nos convoca a olhar para a história humana a partir da.",
-      "url": "https://www.cnbb.org.br/o-sinal-de-deus-nas-periferias-da-historia-a-apresentacao-da-virgem-e-a-libertacao-dos-pobres/",
-      "published": "2026-11-19"
+      "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
+      "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
+      "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
+      "published": "2026-11-22"
     },
     {
       "source": "ACI Digital",
-      "title": "Conheça a história da solenidade de Cristo Rei e da primeira igreja em sua homenagem",
-      "summary": "A solenidade de Jesus Cristo Rei do Universo, que será celebrada no domingo (22), também é conhecida como festa de Cristo Rei ou Domingo de Cristo Rei. Embora o conceito de Jesus Cristo Rei seja tão antigo quanto os Evangelhos, a festa é recente no calendário católico romano. A festa foi introduzida no calendário litúrgico ocidental em 1925 pelo papa Pio XI, através da encíclica Quas Primas ....",
-      "url": "https://www.acidigital.com/noticia/53749/conheca-a-historia-da-solenidade-de-cristo-rei-e-da-primeira-igreja-em-sua-homenagem",
-      "published": "2026-11-21"
+      "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
+      "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
+      "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
+      "published": "2026-11-22"
     },
     {
-      "source": "ACI Digital",
-      "title": "No Vaticano, jovens da Shalom mostram que a fé continua despertando vocações",
-      "summary": "Em audiência com o papa Leão XIV, eles deram testemunho de uma geração que continua vendo a fé como um projeto de vida capaz de inspirar dedicação, missão e compromisso.",
-      "url": "https://www.acidigital.com/noticia/71085/no-vaticano-jovens-da-shalom-mostram-que-a-fe-continua-despertando-vocacoes",
-      "published": "2026-11-19"
+      "source": "Shalom",
+      "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
+      "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
+      "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
+      "published": "2026-11-22"
     },
     {
       "source": "Aleteia",
-      "title": "Um artista rasgou uma imagem de Nossa Senhora mas seu gesto está comovendo Nápoles!",
-      "summary": "Uma imagem em Nápoles está fazendo o que tantas notícias sobre a guerra já não conseguem: obrigar-nos a olhar para o sofrimento de frente. Na capela Pappacoda, na igreja de San Giovanni Maggiore, o fotógrafo Eduardo Castaldo apresenta.",
-      "url": "https://pt.aleteia.org/2026/11/19/um-artista-rasgou-uma-imagem-de-nossa-senhora-mas-seu-gesto-esta-comovendo-napoles/",
-      "published": "2026-11-19"
+      "title": "Padre Najib, padre no sul do Líbano: Minha única luta é a da paz",
+      "summary": "Desde março, o Sul do Líbano é novamente refém da guerra entre Israel e o Hezbollah. Ocupada em parte pelo exército israelense e isolada do resto do país, a área é regularmente alvo de ataques. Se algumas aldeias foram totalmente.",
+      "url": "https://pt.aleteia.org/2026/11/20/padre-najib-padre-no-sul-do-libano-minha-unica-luta-e-a-da-paz/",
+      "published": "2026-11-20"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
+      "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
+      "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
+      "published": "2026-11-22"
     },
     {
       "source": "Gaudium Press",
-      "title": "15 mil pessoas na Marcha pela Vida nos Países Baixos: por uma sociedade livre de abortos",
-      "summary": "O evento, promovido pela organização cristã Schreeuw om Leven (“Grito pela Vida”), reuniu famílias, jovens, idosos e políticos de partidos cristãos em uma caminhada silenciosa pelas ruas da cidade. Pequenos grupos rezaram o terço em latim.",
-      "url": "https://gaudiumpress.org/content/15-mil-pessoas-na-marcha-pela-vida-nos-paises-baixos-por-uma-sociedade-livre-de-abortos/",
+      "title": "Leão XIV recebe a Filarmônica de Viena e ressalta o papel da música",
+      "summary": "O Pontífice destacou que a música ultrapassa fronteiras, aproxima culturas e ensina a humanidade a cultivar a escuta, o respeito e a harmonia. Redação ( 21/11/2026 08:44 , Gaudium Press ) O Papa Leão XIV recebeu neste sábado, 21 de.",
+      "url": "https://gaudiumpress.org/content/leao-xiv-recebe-a-filarmonica-de-viena-e-ressalta-o-papel-da-musica/",
       "published": "2026-11-21"
     }
   ],
   "closingQuote": {
-    "text": "E, estendendo a mão para os discípulos, Jesus disse: \"Eis minha mãe e meus irmãos\".",
-    "source": "Mateus 12,46-50"
+    "text": "Assentar-se-á em seu trono glorioso e separará uns dos outros.",
+    "source": "Mateus 25,31-46"
   },
   "liturgyHours": {
-    "reading": "Exulto de alegria no Senhor e minh’alma regozija-se em meu Deus; ele me vestiu com as vestes da salvação, envolveu-me com o manto da justiça e adornou-me qual noiva com suas jóias.",
+    "reading": "Motivados pelo amor, queremos ater-nos à verdade e crescer em tudo até atingirmos aquele que é a Cabeça, Cristo. Graças a ele, o corpo, coordenado e bem unido, por meio de todas as articulações que o servem, realiza o seu crescimento, segundo uma...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
