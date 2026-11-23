@@ -1,33 +1,31 @@
 {
-  "date": "2026-11-22",
-  "editionLabel": "22 de novembro de 2026",
+  "date": "2026-11-23",
+  "editionLabel": "23 de novembro de 2026",
   "liturgical": {
     "country": "BR",
-    "rank": "solenidade",
+    "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Nosso Senhor Jesus Cristo, Rei do Universo",
-    "colorName": "branco",
-    "cssColor": "#FFFFFF",
-    "gospelShort": "Mt 25,31-46"
+    "celebrationTitle": "23 de novembro de 2026 - Tempo Comum",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 21,1-4"
   },
   "saint": {
-    "feast": "Nosso Senhor Jesus Cristo\\, Rei do Universo",
-    "name": "Solenidade de Cristo Rei do Universo",
-    "description": "Celebração litúrgica do dia: Nosso Senhor Jesus Cristo, Rei do Universo.",
-    "url": "https://santo.cancaonova.com/santo/solenidade-de-cristo-rei-universo/"
+    "feast": "\udd34 [m] São Clemente I\\, papa e mártir",
+    "name": "São Clemente I, o quarto Papa da Igreja Católica",
+    "description": "Celebração litúrgica do dia: 23 de novembro de 2026 - Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/sao-clemente-i-o-quarto-papa-da-igreja-catolica/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Mateus (Mt 25,31-46)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 21,1-4)",
     "lines": [
-      "Naquele tempo, disse Jesus a seus discípulos: Quando o Filho do Homem vier em sua glória, acompanhado de todos os anjos, então se assentará em seu trono glorioso.",
-      "Todos os povos da terra serão reunidos diante dele, e ele separará uns dos outros, assim como o pastor separa as ovelhas dos cabritos.",
-      "E colocará as ovelhas à sua direita e os cabritos à sua esquerda.",
-      "Então o Rei dirá aos que estiverem à sua direita: Vinde, benditos de meu Pai!",
-      "Recebei como herança o Reino que meu Pai vos preparou desde a criação do mundo!",
-      "Pois eu estava com fome e me destes de comer; eu estava com sede e me destes de beber; eu era estrangeiro e me recebestes em casa; eu estava nu e me vestistes; eu estava doente e cuidastes de mim; eu estava na prisão e fostes me visitar.",
-      "Então os justos lhe perguntarão: Senhor, quando foi que te vimos com fome e te demos de comer?"
+      "Naquele tempo, Jesus ergueu os olhos e viu pessoas ricas depositando ofertas no tesouro do Templo.",
+      "Viu também uma pobre viúva que depositou duas pequenas moedas.",
+      "Diante disto, ele disse: Em verdade vos digo que essa pobre viúva ofertou mais do que todos.",
+      "Pois todos eles depositaram, como oferta feita a Deus, aquilo que lhes sobrava.",
+      "Mas a viúva, na sua pobreza, ofertou tudo quanto tinha para viver."
     ],
-    "body": "Naquele tempo, disse Jesus a seus discípulos: 31 \"Quando o Filho do Homem vier em sua glória, acompanhado de todos os anjos, então se assentará em seu trono glorioso. 32 Todos os povos da terra serão reunidos diante dele, e ele separará uns dos outros, assim como o pastor separa as ovelhas dos cabritos. 33 E colocará as ovelhas à sua direita e os cabritos à sua esquerda. 34 Então o Rei dirá aos que estiverem à sua direita: 'Vinde, benditos de meu Pai! Recebei como herança o Reino que meu Pai vos preparou desde a criação do mundo! 35 Pois eu estava com fome e me destes de comer; eu estava com sede e me destes de beber; eu era estrangeiro e me recebestes em casa; 36 eu estava nu e me vestistes; eu estava doente e cuidastes de mim; eu estava na prisão e fostes me visitar'. 37 Então os justos lhe perguntarão: 'Senhor, quando foi que te vimos com fome e te demos de comer? com sede e te demos de beber? 38 Quando foi que te vimos como estrangeiro e te recebemos em casa, e sem roupa e te vestimos? 39 Quando foi que te vimos doente ou preso, e fomos te visitar?' 40 Então o Rei lhes responderá: 'Em verdade eu vos digo, que todas as vezes que fizestes isso a um dos menores de meus irmãos, foi a mim que o fizestes!' 41 Depois o Rei dirá aos que estiverem à sua esquerda: 'Afastai-vos de mim, malditos! Ide para o fogo eterno, preparado para o diabo e para os seus anjos. 42 Pois eu estava com fome e não me destes de comer; eu estava com sede e não me destes de beber; 43 eu era estrangeiro e não me recebestes em casa; eu estava nu e não me vestistes; eu estava doente e na prisão e não fostes me visitar'. 44 E responderão também eles: 'Senhor, quando foi que te vimos com fome, ou com sede, como estrangeiro, ou nu, doente ou preso, e não te servimos?' 45 Então o Rei lhes responderá: 'Em verdade eu vos digo, todas as vezes que não fizestes isso a um desses pequeninos, foi a mim que não o fizestes!' 46 Portanto, estes irão para o castigo eterno, enquanto os justos irão para a vida eterna\". —",
+    "body": "Naquele tempo, 1 Jesus ergueu os olhos e viu pessoas ricas depositando ofertas no tesouro do Templo. 2 Viu também uma pobre viúva que depositou duas pequenas moedas. 3 Diante disto, ele disse: \"Em verdade vos digo que essa pobre viúva ofertou mais do que todos. 4 Pois todos eles depositaram, como oferta feita a Deus, aquilo que lhes sobrava. Mas a viúva, na sua pobreza, ofertou tudo quanto tinha para viver\". —",
     "keyVerse": ""
   },
   "sponsor": {
@@ -42,64 +40,64 @@
       "title": "Papa reza Angelus e faz apelos por paz no Oriente Médio no Dia dos Avós",
       "summary": "O Papa Leão XIV rezou o Angelus deste domingo fazendo fortes apelos pela paz no Oriente Médio e na Terra Santa, e saudou os avós em seu dia.",
       "url": "https://www.vaticannews.va/pt/papa/news/2026-07/papa-apelos-angelus-oriente-medio-guerra-paz-dia-avos-idosos.html",
-      "published": "2026-11-22"
+      "published": "2026-11-23"
     },
     {
       "source": "Vatican News",
       "title": "Cardeais do mundo todo reunidos em Roma para o Consistório Extraordinário",
       "summary": "O colégio cardinalício está reunido em Roma para o consistório convocado pelo Papa Leão XIV, com pauta voltada à reforma da Cúria e à nova evangelização.",
       "url": "https://www.vaticannews.va/pt/igreja/news/2026-07/9-encontro-nacional-pascom-dias-aprendizados-imersao.html",
-      "published": "2026-11-22"
+      "published": "2026-11-23"
     },
     {
       "source": "CNBB",
       "title": "Bispos referenciais e assessores da Pastoral Familiar debatem aprofundamento da evangelização das famílias",
       "summary": "A CNBB destacou o encontro voltado ao fortalecimento da Pastoral Familiar e ao amadurecimento da evangelização das famílias.",
       "url": "https://www.cnbb.org.br/bispos-referenciais-e-assessores-pastoral-familiar-evangelizacao-das-familias/",
-      "published": "2026-11-22"
+      "published": "2026-11-23"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Igreja no Brasil se prepara para o mês vocacional com intensa programação",
+      "summary": "Dioceses de todo o Brasil organizam eventos e campanhas para o mês vocacional de agosto, incentivando jovens a discernirem sua vocação.",
+      "url": "https://www.acidigital.com/noticia/58573/licoes-de-santa-ana-e-sao-joaquim-para-casais-que-enfrentam-a-infertilidade",
+      "published": "2026-11-23"
     },
     {
       "source": "ACI Digital",
       "title": "Santuários brasileiros registram aumento de peregrinos em 2026",
       "summary": "Aparecida, Juazeiro do Norte e outros santuários nacionais relatam crescimento significativo no número de visitantes neste ano.",
       "url": "https://www.acidigital.com/noticia/52755/hoje-a-igreja-celebra-sao-joaquim-e-santana-padroeiros-dos-avos",
-      "published": "2026-11-22"
+      "published": "2026-11-23"
     },
     {
       "source": "Shalom",
       "title": "Após recorde de público em 2025, Frei Gilson volta ao Palco Alive do Halleluya",
       "summary": "Frei Gilson retorna ao Festival Halleluya cercado de expectativa após protagonizar uma das noites mais marcantes do evento no ano anterior.",
       "url": "https://comshalom.org/apos-recorde-de-publico-em-2025-frei-gilson-volta-ao-palco-alive-do-halleluya/",
-      "published": "2026-11-22"
+      "published": "2026-11-23"
     },
     {
       "source": "Shalom",
       "title": "Adriana Arydes no Halleluya 2026: Cantora revisita canções de mais de duas décadas de missão",
       "summary": "A cantora Adriana Arydes se apresentou no Festival Halleluya 2026 emocionando o público ao revisitar canções que marcaram sua trajetória de mais de vinte anos de missão.",
       "url": "https://comshalom.org/adriana-arydes-no-halleluya-2026-cantora-revisita-cancoes-de-mais-de-duas-decadas-de-missao/",
-      "published": "2026-11-22"
-    },
-    {
-      "source": "Aleteia",
-      "title": "Mais de mil edifícios vermelhos por 220 milhões de cristãos",
-      "summary": "130 catedrais e mais de mil igrejas e edifícios nos cinco continentes estão iluminados de vermelho esta semana em sinal de alarme sobre a crescente perseguição aos cristãos. A ação faz parte de uma campanha chamada Red Week para defender.",
-      "url": "https://pt.aleteia.org/2026/11/20/mais-de-mil-edificios-vermelhos-por-220-milhoes-de-cristaos/",
-      "published": "2026-11-20"
+      "published": "2026-11-23"
     },
     {
       "source": "Aleteia",
       "title": "Sempre online, sempre cansados: a ilusão da produtividade que nos está a esgotar",
       "summary": "O mundo digital mudou radicalmente o ritmo da vida humana. Antigamente ditado pelo nascer e pôr do sol, hoje vivemos em uma avalanche digital que nos esgota.",
       "url": "https://pt.aleteia.org/2026/07/27/sempre-online-sempre-cansados-a-ilusao-da-produtividade-que-nos-esta-a-esgotar",
-      "published": "2026-11-22"
+      "published": "2026-11-23"
     }
   ],
   "closingQuote": {
-    "text": "Assentar-se-á em seu trono glorioso e separará uns dos outros.",
-    "source": "Mateus 25,31-46"
+    "text": "Viu também uma pobre viúva que depositou duas pequenas moedas.",
+    "source": "Lucas 21,1-4"
   },
   "liturgyHours": {
-    "reading": "Motivados pelo amor, queremos ater-nos à verdade e crescer em tudo até atingirmos aquele que é a Cabeça, Cristo. Graças a ele, o corpo, coordenado e bem unido, por meio de todas as articulações que o servem, realiza o seu crescimento, segundo uma...",
+    "reading": "Quando encontrei tuas palavras, alimentei-me; elas se tornaram para mim uma delícia, e a alegria do coração, o modo como invocar teu nome sobre mim, Senhor Deus dos exércitos.",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
