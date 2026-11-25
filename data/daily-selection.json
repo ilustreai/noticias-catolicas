@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-24",
-  "editionLabel": "24 de novembro de 2026",
+  "date": "2026-11-25",
+  "editionLabel": "25 de novembro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "memoria",
     "season": "Tempo Comum",
-    "celebrationTitle": "Santos André Dũng Lạc, presbítero, e Companheiros, má",
-    "colorName": "vermelho",
-    "cssColor": "#C62828",
-    "gospelShort": "Lc 21,5-11"
+    "celebrationTitle": "Santa Catarina de Alexandria, virgem e mártir",
+    "colorName": "verde",
+    "cssColor": "#2E7D32",
+    "gospelShort": "Lc 21,12-19"
   },
   "saint": {
-    "feast": "\udd34 [M] Santos André Dũng Lạc\\, presbítero\\, e Companheiros\\, má",
-    "name": "Santo André Dung-Lac e companheiros mártires",
-    "description": "Celebração litúrgica do dia: Santos André Dũng Lạc, presbítero, e Companheiros, má.",
-    "url": "https://santo.cancaonova.com/santo/santo-andre-dung-lac-e-companheiros-martires/"
+    "feast": "\udd34 [m] Santa Catarina de Alexandria\\, virgem e mártir",
+    "name": "Santa Catarina de Alexandria, padroeira dos filósofos",
+    "description": "Celebração litúrgica do dia: Santa Catarina de Alexandria, virgem e mártir.",
+    "url": "https://santo.cancaonova.com/santo/santa-catarina-de-alexandria-padroeira-dos-filosofos/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 21,5-11)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 21,12-19)",
     "lines": [
-      "Naquele tempo, algumas pessoas comentavam a respeito do Templo que era enfeitado com belas pedras e com ofertas votivas.",
-      "Jesus disse: Vós admirais estas coisas?",
-      "Dias virão em que não ficará pedra sobre pedra.",
-      "Mas eles perguntaram: Mestre, quando acontecerá isto?",
-      "E qual vai ser o sinal de que estas coisas estão para acontecer? Jesus respondeu: Cuidado para não serdes enganados, porque muitos virão em meu nome, dizendo: Sou eu! E ainda: O tempo está próximo.",
-      "Quando ouvirdes falar de guerras e revoluções, não fiqueis apavorados.",
-      "&Eacute; preciso que estas coisas aconteçam primeiro, mas não será logo o fim."
+      "Naquele tempo, disse Jesus aos seus discípulos: Antes que estas coisas aconteçam, sereis presos e perseguidos; sereis entregues às sinagogas e postos na prisão; sereis levados diante de reis e governadores por causa do meu nome.",
+      "Esta será a ocasião em que testemunhareis a vossa fé.",
+      "Fazei o firme propósito de não planejar com antecedência a própria defesa; porque eu vos darei palavras tão acertadas, que nenhum dos inimigos vos poderá resistir ou rebater.",
+      "Sereis entregues até mesmo pelos próprios pais, irmãos, parentes e amigos.",
+      "Todos vos odiarão por causa do meu nome.",
+      "Mas vós não perdereis um só fio de cabelo da vossa cabeça.",
+      "&Eacute; permanecendo firmes que ireis ganhar a vida! —"
     ],
-    "body": "Naquele tempo, 5 algumas pessoas comentavam a respeito do Templo que era enfeitado com belas pedras e com ofertas votivas. Jesus disse: 6 \"Vós admirais estas coisas? Dias virão em que não ficará pedra sobre pedra. Tudo será destruído\". 7 Mas eles perguntaram: \"Mestre, quando acontecerá isto? E qual vai ser o sinal de que estas coisas estão para acontecer?\" 8 Jesus respondeu: \"Cuidado para não serdes enganados, porque muitos virão em meu nome, dizendo: 'Sou eu!' E ainda: 'O tempo está próximo'. Não sigais essa gente! 9 Quando ouvirdes falar de guerras e revoluções, não fiqueis apavorados. &Eacute; preciso que estas coisas aconteçam primeiro, mas não será logo o fim\". 10 E Jesus continuou: \"Um povo se levantará contra outro povo, um país atacará outro país. 11 Haverá grandes terremotos, fomes e pestes em muitos lugares; acontecerão coisas pavorosas e grandes sinais serão vistos no céu\". —",
+    "body": "Naquele tempo, disse Jesus aos seus discípulos: 12 \"Antes que estas coisas aconteçam, sereis presos e perseguidos; sereis entregues às sinagogas e postos na prisão; sereis levados diante de reis e governadores por causa do meu nome. 13 Esta será a ocasião em que testemunhareis a vossa fé. 14 Fazei o firme propósito de não planejar com antecedência a própria defesa; 15 porque eu vos darei palavras tão acertadas, que nenhum dos inimigos vos poderá resistir ou rebater. 16 Sereis entregues até mesmo pelos próprios pais, irmãos, parentes e amigos. E eles matarão alguns de vós. 17 Todos vos odiarão por causa do meu nome. 18 Mas vós não perdereis um só fio de cabelo da vossa cabeça. 19 &Eacute; permanecendo firmes que ireis ganhar a vida!\" —",
     "keyVerse": ""
   },
   "sponsor": {
@@ -39,53 +39,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "As lendas do ciclismo com o Papa e 15 bicicletas em doação a jovens carentes",
-      "summary": "Ao final da audiência com o Papa nesta segunda-feira (23/11), 120 representantes do ciclismo mundial, de Eddy Merckx a Vincenzo Nibali, se reuniram em frente à Casa Santa Marta, no Vaticano, para uma cerimônia dedicada aos mais.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-11/papa-leao-xiv-audiencia-lendas-ciclismo-esporte-fe-caridade-26.html",
+      "title": "Treze anos da Evangelii Gaudium: a alegria do Evangelho como roteiro também de Leão XIV",
+      "summary": "A exortação de Francisco, centrada no encontro com Cristo e numa Igreja em saída, é para Leão XIV um ponto de referência. O Papa pede para retomá-la na missão e na reforma da iniciação cristã. Leia tudo.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-documento-evangelizacao.html",
       "published": "2026-11-24"
     },
     {
       "source": "Vatican News",
-      "title": "Dicastério para o Diálogo Inter-religioso, plenária de 24 a 26 de novembro",
-      "summary": "A décima quinta assembleia será realizada sob a presidência do cardeal prefeito George Jacob Koovakad sobre o tema \"A contribuição do diálogo inter-religioso para a educação para uma paz desarmada e desarmante\". Ao final do encontro, os.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-11/assembleia-plenaria-dicasterio-dialogo-inter-religioso-novembro.html",
-      "published": "2026-11-23"
-    },
-    {
-      "source": "CNBB",
-      "title": "Consep realiza última reunião do ano com análises de conjuntura, reflexões pastorais e informes",
-      "summary": "A sede da CNBB, em Brasília (DF), acolhe, nos dias 24 e 25 de novembro, a última reunião do ano do Conselho Episcopal Pastoral (Consep). Entre os temas da pauta estão as análises de conjuntura social e eclesial, o Sínodo, as Diretrizes.",
-      "url": "https://www.cnbb.org.br/consep-realiza-ultima-reuniao-do-ano-com-analises-de-conjuntura-reflexoes-pastorais-e-informes-das-comissoes-episcopais/",
+      "title": "Catedral de Pelotas marca celebração dos três jubileus de Dom Jacinto Bergmann",
+      "summary": "No dia 22 de novembro, dom Jacinto celebrou três jubileus: 75 anos de vida, 50 anos de ordenação sacerdotal e 25 anos de episcopado, este último comemorado antecipadamente. A celebração teve lugar na Catedral Metropolitana São Francisco.",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-11/catedral-pelotas-dom-jacinto-bergmann-celebracao-tres-jubileus0.html",
       "published": "2026-11-24"
     },
     {
       "source": "CNBB",
-      "title": "Campanha para a Evangelização apoia iniciativas de formação de catequistas e iniciação à vida c",
-      "summary": "Entre as iniciativas apoiadas com recursos da Campanha para a Evangelização estão ações desenvolvidas pela Comissão Episcopal para a Animação Bíblico-Catequética da CNBB, voltadas ao fortalecimento da iniciação à vida cristã, à formação.",
-      "url": "https://www.cnbb.org.br/campanha-para-a-evangelizacao-apoia-iniciativas-de-formacao-de-catequistas-e-iniciacao-a-vida-crista-em-todo-o-brasil/",
-      "published": "2026-11-23"
-    },
-    {
-      "source": "ACI Digital",
-      "title": "Associação de exorcistas dá cursos de formação para padres e leigos no Rio de Janeiro",
-      "summary": "II Congresso Nacional de Exorcistas da AIE começou ontem (23) e vai até dia 27; formação para leigos acontece de 27 a 29 de novembro.",
-      "url": "https://www.acidigital.com/noticia/71135/associacao-de-exorcistas-da-cursos-de-formacao-para-padres-e-leigos-no-rio-de-janeiro",
+      "title": "Recepção do Sínodo e das Diretrizes Gerais da Ação Evangelizadora da Igreja no Brasil são discu",
+      "summary": "A tarde da terça-feira, (24), da última reunião do ano do Conselho Episcopal Pastoral da Conferência Nacional dos Bispos do Brasil (CNBB) foi dedicada à discussão de dois processos em curso no Brasil: a recepção do Sínodo sobre a.",
+      "url": "https://www.cnbb.org.br/recepcao-do-sinodo-e-das-diretrizes-gerais-da-acao-evangelizadora-da-igreja-no-brasil-sao-discutidos-no-consep/",
       "published": "2026-11-24"
     },
     {
       "source": "ACI Digital",
-      "title": "Cardeal Fernández fala sobre o julgamento do ex-jesuíta Rupnik",
-      "summary": "O prefeito da Doutrina da Fé disse ao jornal National Catholic Register que a Santa Sé está honrando sua promessa de não interferir no julgamento canônico secreto do ex-padre jesuíta, conduzido pelos cinco juízes responsáveis ​​por sua.",
-      "url": "https://www.acidigital.com/noticia/71125/cardeal-fernandez-fala-sobre-o-julgamento-do-ex-jesuita-rupnik",
+      "title": "Leão XIV escolhe novo teólogo da Casa Pontifícia",
+      "summary": "O cargo de teólogo da Casa Pontifícia é uma função da Cúria Romana, tradicionalmente reservada a um membro da Ordem dos Pregadores.",
+      "url": "https://www.acidigital.com/noticia/71127/leao-xiv-escolhe-novo-teologo-da-casa-pontificia",
+      "published": "2026-11-24"
+    },
+    {
+      "source": "ACI Digital",
+      "title": "Papa Leão XIV almoça com 1,3 mil pessoas necessitadas no Vaticano",
+      "summary": "O papa recebeu convidados de cerca de 20 organizações de caridade para uma refeição em comemoração ao Dia Mundial dos Pobres, dizendo-lhes: \"Hoje somos todos uma família\".",
+      "url": "https://www.acidigital.com/noticia/71103/papa-leao-xiv-almoca-com-1-3-mil-pessoas-necessitadas-no-vaticano",
+      "published": "2026-11-23"
+    },
+    {
+      "source": "Aleteia",
+      "title": "Minha deficiência é minha força motriz : a lição de vida de François Marien",
+      "summary": "Se não me abrirem a porta, vou entrar pela janela. Nascido sem antebraços, François Marien aprendeu desde cedo a não deixar que o preconceito ditasse seu futuro. Entre a perda de sua família biológica, o escárnio associado à sua.",
+      "url": "https://pt.aleteia.org/2026/11/24/minha-deficiencia-e-minha-forca-motriz-a-licao-de-vida-de-francois-marien/",
+      "published": "2026-11-24"
+    },
+    {
+      "source": "Aleteia",
+      "title": "O que o fim de um ano nos ensina sobre perdas, recomeços e esperança?",
+      "summary": "A chegada de um novo ano costuma ser acompanhada de celebrações, encontros familiares, planos, promessas e expectativas. As luzes, as confraternizações e os votos de felicidade parecem anunciar que todos estão prontos para recomeçar. Mas.",
+      "url": "https://pt.aleteia.org/2026/11/24/fim-de-um-ano-nos-ensina-sobre-perdas-recomecos-e-esperanca/",
       "published": "2026-11-24"
     }
   ],
   "closingQuote": {
-    "text": "Não ficará pedra sobre pedra.",
-    "source": "Lucas 21,5-11"
+    "text": "Todos vos odiarão por causa do meu nome. Mas vós não perdereis um só fio de cabelo da vossa cabeça.",
+    "source": "Lucas 21,12-19"
   },
   "liturgyHours": {
-    "reading": "Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e Deus de toda consolação. Ele nos consola em todas as nossas aflições, para que, com a consolação que nós mesmos recebemos de Deus, possamos consolar os que se acham em...",
+    "reading": "Quem nos separará do amor de Cristo? Tribulação? Angústia? Perseguição? Fome? Nudez? Perigo? Espada? Mas, em tudo isso, somos mais que vencedores, graças àquele que nos amou!",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
