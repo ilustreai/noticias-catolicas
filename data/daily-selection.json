@@ -1,33 +1,31 @@
 {
-  "date": "2026-11-26",
-  "editionLabel": "26 de novembro de 2026",
+  "date": "2026-11-27",
+  "editionLabel": "27 de novembro de 2026",
   "liturgical": {
     "country": "BR",
     "rank": "tempo",
     "season": "Tempo Comum",
-    "celebrationTitle": "Quinta-Feira da Semana XXXIV do Tempo Comum",
+    "celebrationTitle": "27 de novembro de 2026 - Tempo Comum",
     "colorName": "verde",
     "cssColor": "#2E7D32",
-    "gospelShort": "Lc 21,20-28"
+    "gospelShort": "Lc 21,29-33"
   },
   "saint": {
-    "feast": "\udfe2 Quinta-Feira da Semana XXXIV do Tempo Comum",
-    "name": "São Leonardo de Porto Maurício, padroeiro dos sacerdotes",
-    "description": "Celebração litúrgica do dia: Quinta-Feira da Semana XXXIV do Tempo Comum.",
-    "url": "https://santo.cancaonova.com/santo/sao-leonardo-de-porto-mauricio-padroeiro-dos-sacerdotes/"
+    "feast": "\udfe2 Sexta-Feira da Semana XXXIV do Tempo Comum",
+    "name": "Nossa Senhora das Graças e a Medalha Milagrosa",
+    "description": "Celebração litúrgica do dia: 27 de novembro de 2026 - Tempo Comum.",
+    "url": "https://santo.cancaonova.com/santo/nossa-senhora-das-gracas/"
   },
   "gospel": {
-    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 21,20-28)",
+    "ref": "Evangelho de Jesus Cristo segundo Lucas (Lc 21,29-33)",
     "lines": [
-      "Naquele tempo, disse Jesus aos seus discípulos: Quando virdes Jerusalém cercada de exércitos, ficai sabendo que a sua destruição está próxima.",
-      "Então, os que estiverem na Judeia, devem fugir para as montanhas; os que estiverem no meio da cidade, devem afastar-se; os que estiverem no campo, não entrem na cidade.",
-      "Pois esses dias são de vingança, para que se cumpra tudo o que dizem as Escrituras.",
-      "Infelizes das mulheres grávidas e daquelas que estiverem amamentando naqueles dias, pois haverá uma grande calamidade na terra e ira contra este povo.",
-      "Serão mortos pela espada e levados presos para todas as nações.",
-      "e Jerusalém será pisada pelos infiéis, até que o tempo dos pagãos se complete.",
-      "Haverá sinais no sol, na lua e nas estrelas."
+      "Naquele tempo, Jesus contou-lhes uma parábola: Olhai a figueira e todas as árvores.",
+      "Quando vedes que elas estão dando brotos, logo sabeis que o verão está perto.",
+      "Vós também, quando virdes acontecer essas coisas, ficai sabendo que o Reino de Deus está perto.",
+      "Em verdade, eu vos digo: tudo isso vai acontecer antes que passe esta geração.",
+      "O céu e a terra passarão, mas as minhas palavras não hão de passar."
     ],
-    "body": "Naquele tempo, disse Jesus aos seus discípulos: 20 \"Quando virdes Jerusalém cercada de exércitos, ficai sabendo que a sua destruição está próxima. 21 Então, os que estiverem na Judeia, devem fugir para as montanhas; os que estiverem no meio da cidade, devem afastar-se; os que estiverem no campo, não entrem na cidade. 22 Pois esses dias são de vingança, para que se cumpra tudo o que dizem as Escrituras. 23 Infelizes das mulheres grávidas e daquelas que estiverem amamentando naqueles dias, pois haverá uma grande calamidade na terra e ira contra este povo. 24 Serão mortos pela espada e levados presos para todas as nações. e Jerusalém será pisada pelos infiéis, até que o tempo dos pagãos se complete. 25 Haverá sinais no sol, na lua e nas estrelas. Na terra, as nações ficarão angustiadas, com pavor do barulho do mar e das ondas. 26 Os homens vão desmaiar de medo, só em pensar no que vai acontecer ao mundo, porque as forças do céu serão abaladas. 27 Então eles verão o Filho do Homem, vindo numa nuvem com grande poder e glória. 28 Quando estas coisas começarem a acontecer, levantai-vos e erguei a cabeça, porque a vossa libertação está próxima\". —",
+    "body": "Naquele tempo, 29 Jesus contou-lhes uma parábola: \"Olhai a figueira e todas as árvores. 30 Quando vedes que elas estão dando brotos, logo sabeis que o verão está perto. 31 Vós também, quando virdes acontecer essas coisas, ficai sabendo que o Reino de Deus está perto. 32 Em verdade, eu vos digo: tudo isso vai acontecer antes que passe esta geração. 33 O céu e a terra passarão, mas as minhas palavras não hão de passar\". —",
     "keyVerse": ""
   },
   "sponsor": {
@@ -39,60 +37,60 @@
   "news": [
     {
       "source": "Vatican News",
-      "title": "Tradição viva e piedade popular: o rosto de um Deus próximo da humanidade",
-      "summary": "Em seu discurso à Comissão Teológica Internacional, o Papa indicou dois temas a serem aprofundados. Na catequese da quarta-feira, Leão XIV ofereceu um exemplo do desenvolvimento do Magistério ao falar sobre a paz. São expressões de uma fé.",
-      "url": "https://www.vaticannews.va/pt/vaticano/news/2026-11/editorial-tradicao-viva-piedade-popular-papa-leao-xiv.html",
-      "published": "2026-11-25"
+      "title": "Papa aos religiosos: é preciso ouvir muito, ter paciência e renovar a fé",
+      "summary": "O último compromisso do Santo Padre esta quinta-feira foi realizado na Sala Nova do Sínodo com os Superiores e as Superioras Gerais. O encontro foi em forma de diálogo, com Leão XIV respondendo a seis perguntas sobre variados temas, desde.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-dialogo-superiores-superioras-uisg-usg.html",
+      "published": "2026-11-26"
     },
     {
       "source": "Vatican News",
-      "title": "Após COP31, o apelo de Leão XIV: nunca esquecer \"do rosto humano da crise climática\"",
-      "summary": "Ao comentar o encerramento da COP31, em Antalya, o Papa lamentou a ausência de compromissos claros da comunidade internacional para enfrentar a emergência climática. Em novembro, durante sua visita à Amazônia peruana, em Pucallpa, havia.",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-audiencia-geral-apelo-cop31-crise-climatica.html",
-      "published": "2026-11-25"
-    },
-    {
-      "source": "CNBB",
-      "title": "Grupo de Assessores da CNBB avalia caminhada das Comissões Episcopais e perspectivas para o pró",
-      "summary": "A apresentação dos relatórios quadrienais proporcionou um espaço de escuta, diálogo e partilha de experiências entre os assessores das Comissões Episcopais. A iniciativa buscou identificar desafios comuns, reconhecer os avanços alcançados.",
-      "url": "https://www.cnbb.org.br/grupo-de-assessores-da-cnbb-avalia-caminhada-das-comissoes-episcopais-e-perspectivas-para-o-proximo-quadrienio/",
+      "title": "Com o Papa os campeões romenos Comăneci, Năstase, Hagi e Covaliu: dia especial",
+      "summary": "Após participarem da audiência geral do Papa Leão XIV na Praça São Pedro, na quarta-feira, 25 de novembro, os famosos atletas, acompanhados pelo embaixador da Romênia junto à Santa Sé, Bologan, presentearam o Papa com camisetas.",
+      "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-audiencia-romenia-comaneci-nastase-hagi-covaliu.html",
       "published": "2026-11-26"
     },
     {
       "source": "CNBB",
-      "title": "60 anos do 1º Congresso Vocacional Latino-Americano",
-      "summary": "Dom Juarez Albino Destro Bispo auxiliar de Porto Alegre (RS) Na noite do dia 26 de novembro de 1966, em Lima, Peru, estava sendo concluído o 1º Congresso Vocacional em nosso continente! Era um sábado! Os 231 congressistas estavam reunidos.",
-      "url": "https://www.cnbb.org.br/60-anos-do-1o-congresso-vocacional-latino-americano/",
+      "title": "Advento: a espera por aquele que sempre vem",
+      "summary": "Dom Leomar Brustolin Arcebispo de Santa Maria (SP) Como esperar alguém que já veio, permanece conosco e continua vindo? Essa aparente contradição revela a profundidade do mistério do Advento. A cada ano, a Igreja nos convida a esperar o.",
+      "url": "https://www.cnbb.org.br/advento-a-espera-por-aquele-que-sempre-vem/",
       "published": "2026-11-26"
     },
     {
       "source": "ACI Digital",
-      "title": "África é vital para renovação da Igreja, diz presidente da fundação Ratzinger",
-      "summary": "A Igreja na África está se tornando um “sujeito de missão” e contribuirá significativamente para a renovação da Igreja universal, disse o presidente da Fundação Vaticana Joseph Ratzinger – Bento XVI.",
-      "url": "https://www.acidigital.com/noticia/71169/africa-e-vital-para-renovacao-da-igreja-diz-presidente-da-fundacao-ratzinger",
+      "title": "Mosteiros na França e na Bélgica abrem as portas para jovens no Advento",
+      "summary": "Os responsáveis ​​por essa iniciativa incentivam as novas gerações a aproveitar essa oportunidade \"para recarregar as energias neste momento importante para os cristãos\".",
+      "url": "https://www.acidigital.com/noticia/71187/mosteiros-na-franca-e-na-belgica-abrem-as-portas-para-jovens-no-advento",
       "published": "2026-11-26"
     },
     {
-      "source": "Aleteia",
-      "title": "Após o coma e 913 dias, Paolo voltou a caminhar. Agora quero encontrar meus agressores.",
-      "summary": "Aos 26 anos, depois de uma agressão que o deixou tetraplégico, o jovem italiano regressou a casa pelas próprias pernas. Mas a sua maior conquista talvez seja outra: escolheu perdoar aqueles que quase lhe tiraram a vida. Há histórias que.",
-      "url": "https://pt.aleteia.org/2026/11/26/apos-o-coma-e-913-dias-paolo-voltou-a-caminhar-agora-quero-encontrar-meus-agressores/",
+      "source": "Shalom",
+      "title": "CNBB lança plataforma digital com dados sobre a Igreja Católica no Brasil",
+      "summary": "Conhecer melhor a presença e a organização da Igreja Católica no Brasil tornou-se mais acessível. A Conferência Nacional dos Bispos do Brasil (CNBB) anunciou a disponibilização de uma plataforma digital que reúne informações sobre a realidade eclesial nas diferentes regiões do país....",
+      "url": "https://comshalom.org/cnbb-lanca-plataforma-digital-com-dados-sobre-a-igreja-catolica-no-brasil/",
       "published": "2026-11-26"
     },
     {
-      "source": "Aleteia",
-      "title": "Como cuidar de si e sair mais forte de uma crise",
-      "summary": "Em 24 de julho de 2002, durante uma tempestade, Jasiek Mela, de treze anos, entrou em uma subestação elétrica a poucas centenas de metros de sua casa. A entrada não estava isolada. O menino tocou os cabos e sofreu uma descarga elétrica de.",
-      "url": "https://pt.aleteia.org/2026/11/26/como-cuidar-de-si-e-sair-mais-forte-de-uma-crise/",
+      "source": "Shalom",
+      "title": "Daniel Albuquerque testemunha graças da Convenção Shalom 45 anos em Roma",
+      "summary": "Após os dias de celebração em Roma e Assis, consagrado partilha experiência de renovação vocacional, pertença eclesial e envio missionário, marcada pelo encontro com o Papa Leão XIV.",
+      "url": "https://comshalom.org/daniel-albuquerque-testemunho-convencao-shalom-45-anos/",
+      "published": "2026-11-27"
+    },
+    {
+      "source": "Gaudium Press",
+      "title": "Monsenhor Gabriel Marcelo Viola Casalongüe: novo chefe do Protocolo da Secretaria de Estado",
+      "summary": "Monsenhor Gabriel Marcelo Viola Casalongüe, Conselheiro da Nunciatura em serviço na Seção de Assuntos Gerais, foi nomeado Chefe de Protocolo da Secretaria de Estado. Redação ( 26/11/2026 10:04 , Gaudium Press ) A Santa Sé anunciou, nesta.",
+      "url": "https://gaudiumpress.org/content/monsenhor-gabriel-marcelo-viola-casalongue-novo-chefe-do-protocolo-da-secretaria-de-estado/",
       "published": "2026-11-26"
     }
   ],
   "closingQuote": {
-    "text": "Jerusalém será pisada pelos infiéis, até que o tempo dos pagãos se complete.",
-    "source": "Lucas 21,20-28"
+    "text": "Quando virdes acontecer essas coisas, ficai sabendo que o Reino de Deus está perto.",
+    "source": "Lucas 21,29-33"
   },
   "liturgyHours": {
-    "reading": "O Reino de Deus não é comida nem bebida, mas é justiça e paz e alegria no Espírito Santo. É servindo a Cristo, dessa maneira, que seremos agradáveis a Deus e teremos a aprovação dos homens. Portanto, busquemos tenazmente tudo o que contribui para a...",
+    "reading": "Agora, em Jesus Cristo, vós que outrora estáveis longe, vos tornastes próximos, pelo sangue de Cristo. Ele, de fato, é a nossa paz: do que era dividido, ele fez uma unidade. Em sua carne ele destruiu o muro de separação: a inimizade. Ele aboliu a...",
     "url": "https://www.paulus.com.br/portal/liturgia-diaria-das-horas/"
   }
 }
